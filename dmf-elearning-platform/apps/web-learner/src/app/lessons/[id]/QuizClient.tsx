@@ -4,11 +4,21 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Lesson } from '../../../data/lessons';
 import { submitLessonResult } from './actions';
+import { ShinyButton } from '../../../components/ui/shiny-button';
+import { AIExplanationBox } from '../../../components/ui/ai-explanation-box';
+
+interface AIExplanation {
+  questionId: string;
+  explanation: string;
+  isLoading: boolean;
+}
 
 export default function QuizClient({ lesson }: { lesson: Lesson }) {
   const router = useRouter();
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitting, setSubmitting] = useState(false);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
+  const [aiExplanations, setAIExplanations] = useState<Record<string, AIExplanation>>({});
 
   const handleSelect = (questionId: string, optionIndex: number) => {
     setAnswers((prev) => ({
@@ -45,14 +55,85 @@ export default function QuizClient({ lesson }: { lesson: Lesson }) {
         throw new Error(result.error);
       }
 
-      // Success! Redirect to result page
-      console.log('Redirecting to result page...');
-      router.push(`/lessons/${lesson.id}/result?score=${score}`);
+      // Mark as submitted to show AI tutor buttons
+      setHasSubmitted(true);
+      setSubmitting(false);
+
+      // Success! Redirect to result page after a short delay to allow viewing AI explanations
+      console.log('Quiz submitted successfully. You can now ask AI tutor for help on wrong answers.');
     } catch (error) {
       console.error('Failed to submit lesson:', error);
       alert('Failed to submit lesson. Check console for details.');
       setSubmitting(false);
     }
+  };
+
+  const handleAskAI = async (questionId: string) => {
+    const question = lesson.questions.find((q) => q.id === questionId);
+    if (!question) return;
+
+    const userAnswerIndex = answers[questionId];
+    const userAnswer = question.options[userAnswerIndex];
+    const correctAnswer = question.options[question.correctAnswer];
+
+    // Set loading state
+    setAIExplanations((prev) => ({
+      ...prev,
+      [questionId]: {
+        questionId,
+        explanation: '',
+        isLoading: true,
+      },
+    }));
+
+    try {
+      const response = await fetch('http://127.0.0.1:3005/api/learning/ai-explain', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          question: question.text,
+          userAnswer,
+          correctAnswer,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to get AI explanation');
+      }
+
+      const data = await response.json();
+
+      // Update with explanation
+      setAIExplanations((prev) => ({
+        ...prev,
+        [questionId]: {
+          questionId,
+          explanation: data.explanation,
+          isLoading: false,
+        },
+      }));
+    } catch (error) {
+      console.error('Error fetching AI explanation:', error);
+
+      // Show error message
+      setAIExplanations((prev) => ({
+        ...prev,
+        [questionId]: {
+          questionId,
+          explanation:
+            'Xin lỗi, Gia sư AI hiện không khả dụng. Vui lòng đảm bảo Ollama đang chạy với lệnh: OLLAMA_ORIGINS="*" ollama serve',
+          isLoading: false,
+        },
+      }));
+    }
+  };
+
+  const isAnswerCorrect = (questionId: string): boolean => {
+    const question = lesson.questions.find((q) => q.id === questionId);
+    if (!question) return false;
+    return answers[questionId] === question.correctAnswer;
   };
 
   const progress = Math.round(
@@ -76,49 +157,104 @@ export default function QuizClient({ lesson }: { lesson: Lesson }) {
       </div>
 
       <div className="space-y-8">
-        {lesson.questions.map((q, index) => (
-          <div key={q.id} className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4">
-              <span className="text-slate-400 mr-2">{index + 1}.</span>
-              {q.text}
-            </h3>
-            <div className="space-y-3">
-              {q.options.map((opt, i) => (
-                <label
-                  key={i}
-                  className={`flex items-center p-4 rounded-lg border cursor-pointer transition-all ${answers[q.id] === i
-                    ? 'border-blue-500 bg-blue-50 ring-1 ring-blue-500'
-                    : 'border-slate-200 hover:bg-slate-50'
-                    }`}
-                >
-                  <input
-                    type="radio"
-                    name={q.id}
-                    className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
-                    checked={answers[q.id] === i}
-                    onChange={() => handleSelect(q.id, i)}
-                    disabled={submitting}
-                  />
-                  <span className={`ml-3 ${answers[q.id] === i ? 'text-blue-900 font-medium' : 'text-slate-700'}`}>
-                    {opt}
-                  </span>
-                </label>
-              ))}
+        {lesson.questions.map((q, index) => {
+          const isCorrect = isAnswerCorrect(q.id);
+          const showAIButton = hasSubmitted && !isCorrect;
+          const aiExplanation = aiExplanations[q.id];
+
+          return (
+            <div key={q.id} className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+              <h3 className="text-lg font-semibold text-slate-800 mb-4">
+                <span className="text-slate-400 mr-2">{index + 1}.</span>
+                {q.text}
+              </h3>
+              <div className="space-y-3">
+                {q.options.map((opt, i) => {
+                  const isSelected = answers[q.id] === i;
+                  const isCorrectOption = i === q.correctAnswer;
+                  const showCorrect = hasSubmitted && isCorrectOption;
+                  const showWrong = hasSubmitted && isSelected && !isCorrect;
+
+                  return (
+                    <label
+                      key={i}
+                      className={`flex items-center p-4 rounded-lg border cursor-pointer transition-all ${
+                        showCorrect
+                          ? 'border-green-500 bg-green-50 ring-1 ring-green-500'
+                          : showWrong
+                            ? 'border-red-500 bg-red-50 ring-1 ring-red-500'
+                            : answers[q.id] === i
+                              ? 'border-blue-500 bg-blue-50 ring-1 ring-blue-500'
+                              : 'border-slate-200 hover:bg-slate-50'
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name={q.id}
+                        className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
+                        checked={answers[q.id] === i}
+                        onChange={() => handleSelect(q.id, i)}
+                        disabled={submitting || hasSubmitted}
+                      />
+                      <span
+                        className={`ml-3 ${
+                          showCorrect
+                            ? 'text-green-900 font-medium'
+                            : showWrong
+                              ? 'text-red-900 font-medium'
+                              : answers[q.id] === i
+                                ? 'text-blue-900 font-medium'
+                                : 'text-slate-700'
+                        }`}
+                      >
+                        {opt}
+                      </span>
+                      {showCorrect && <span className="ml-auto text-green-600">✓</span>}
+                      {showWrong && <span className="ml-auto text-red-600">✗</span>}
+                    </label>
+                  );
+                })}
+              </div>
+
+              {/* AI Tutor Button - Only show for wrong answers after submission */}
+              {showAIButton && !aiExplanation && (
+                <div className="mt-4">
+                  <ShinyButton onClick={() => handleAskAI(q.id)} className="w-full sm:w-auto">
+                    ✨ Hỏi Gia sư AI
+                  </ShinyButton>
+                </div>
+              )}
+
+              {/* AI Explanation Box */}
+              {aiExplanation && (
+                <AIExplanationBox
+                  explanation={aiExplanation.explanation}
+                  isLoading={aiExplanation.isLoading}
+                />
+              )}
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
-      <div className="mt-8 flex justify-end">
+      <div className="mt-8 flex justify-end gap-4">
+        {hasSubmitted && (
+          <button
+            onClick={() => router.push(`/lessons/${lesson.id}/result?score=${calculateScore()}`)}
+            className="px-8 py-3 rounded-xl font-bold text-indigo-600 border-2 border-indigo-600 hover:bg-indigo-50 shadow-lg transition-all active:scale-95"
+          >
+            Xem Kết Quả
+          </button>
+        )}
         <button
           onClick={handleSubmit}
-          disabled={submitting}
-          className={`px-8 py-3 rounded-xl font-bold text-white shadow-lg transition-transform active:scale-95 ${submitting
+          disabled={submitting || hasSubmitted}
+          className={`px-8 py-3 rounded-xl font-bold text-white shadow-lg transition-transform active:scale-95 ${submitting || hasSubmitted
             ? 'bg-slate-400 cursor-not-allowed'
             : 'bg-indigo-600 hover:bg-indigo-700 hover:shadow-xl'
             }`}
         >
-          {submitting ? 'Submitting...' : 'Complete & Submit'}
+          {submitting ? 'Submitting...' : hasSubmitted ? 'Đã Nộp Bài' : 'Complete & Submit'}
         </button>
       </div>
     </div>

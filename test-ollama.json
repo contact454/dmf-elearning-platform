@@ -1,0 +1,18 @@
+{
+  "model": "qwen3:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Bạn là gia sư Next.js"
+    },
+    {
+      "role": "user",
+      "content": "Giải thích ngắn gọn getServerSideProps trong Next.js"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 200
+  }
+}

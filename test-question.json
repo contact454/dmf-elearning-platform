@@ -1,0 +1,5 @@
+{
+  "question": "Trong Next.js, getServerSideProps được sử dụng để làm gì?",
+  "userAnswer": "Lấy dữ liệu từ phía client",
+  "correctAnswer": "Lấy dữ liệu từ phía server trước khi render"
+}

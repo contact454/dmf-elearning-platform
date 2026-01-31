@@ -1,0 +1,18 @@
+{
+  "model": "llama3.2:latest",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Bạn là gia sư Next.js thân thiện. Trả lời BẮT BUỘC bằng tiếng Việt, ngắn gọn 2-3 câu."
+    },
+    {
+      "role": "user",
+      "content": "Câu hỏi: Trong Next.js, getServerSideProps được sử dụng để làm gì?\nNgười dùng trả lời: Lấy dữ liệu từ phía client\nĐáp án đúng: Lấy dữ liệu từ phía server trước khi render\n\nGiải thích ngắn gọn tại sao câu trả lời của người dùng sai."
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 200
+  }
+}

@@ -13,6 +13,7 @@ import { setupEventConsumers } from './events/consumers/index.js';
 import { registerMasteryReadRoute } from './http/queries/mastery.read.route.js';
 import { registerDebugSeedRoute } from './http/debug.route.js';
 import { registerQuizRoutes } from './http/quiz.routes.js';
+import { registerAITutorRoutes } from './http/ai-tutor.routes.js';
 import { requestContextMiddleware } from '@dmf/shared';
 
 // 1. Setup Core Logic Dependencies
@@ -52,6 +53,7 @@ app.get('/health', async () => ({ status: 'OK', service: 'motivation-progress-se
 registerMasteryReadRoute(app, { masteryRepo, skillScoreRepo, logger });
 registerDebugSeedRoute(app, { masteryRepo, skillScoreRepo });
 registerQuizRoutes(app, { quizRepo });
+registerAITutorRoutes(app);
 
 // 5. Start Server
 const start = async () => {
