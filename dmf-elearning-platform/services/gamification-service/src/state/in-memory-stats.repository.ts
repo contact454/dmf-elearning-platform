@@ -16,10 +16,46 @@ export interface UserStatsRepository {
   findByUserId(userId: string): Promise<UserStats | null>;
   save(stats: UserStats): Promise<UserStats>;
   addXP(userId: string, amount: number): Promise<UserStats>;
+  getLeaderboard(limit: number): Promise<UserStats[]>;
 }
 
 class InMemoryUserStatsRepository implements UserStatsRepository {
   private store = new Map<string, UserStats>();
+
+  constructor() {
+    // Seed with demo users
+    this.seedDemoUsers();
+  }
+
+  private seedDemoUsers() {
+    const demoUsers = [
+      { userId: 'user-m3-demo', xp: 1670, streak: 5 },
+      { userId: 'alice-nguyen', xp: 2500, streak: 12 },
+      { userId: 'bob-tran', xp: 2200, streak: 8 },
+      { userId: 'carol-le', xp: 1900, streak: 6 },
+      { userId: 'david-pham', xp: 1800, streak: 15 },
+      { userId: 'emma-vo', xp: 1600, streak: 4 },
+      { userId: 'frank-do', xp: 1400, streak: 7 },
+      { userId: 'grace-hoang', xp: 1200, streak: 3 },
+      { userId: 'henry-bui', xp: 1000, streak: 2 },
+      { userId: 'iris-duong', xp: 800, streak: 9 },
+      { userId: 'jack-ngo', xp: 600, streak: 1 },
+    ];
+
+    demoUsers.forEach(({ userId, xp, streak }) => {
+      const level = Math.floor(Math.sqrt(xp / 100)) + 1;
+      const stats: UserStats = {
+        id: `stats-${userId}`,
+        userId,
+        xp,
+        level,
+        streak,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      };
+      this.store.set(stats.id, stats);
+    });
+  }
 
   async findByUserId(userId: string): Promise<UserStats | null> {
     for (const stats of this.store.values()) {
@@ -56,6 +92,13 @@ class InMemoryUserStatsRepository implements UserStatsRepository {
     stats.level = Math.floor(Math.sqrt(stats.xp / 100)) + 1;
 
     return this.save(stats);
+  }
+
+  async getLeaderboard(limit: number = 10): Promise<UserStats[]> {
+    const allStats = Array.from(this.store.values());
+    return allStats
+      .sort((a, b) => b.xp - a.xp) // Sort by XP descending
+      .slice(0, limit);
   }
 }
 

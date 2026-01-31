@@ -8,9 +8,11 @@ import { sharedEventBus } from '@dmf/infra/adapters';
 import { InMemoryLogger } from '@dmf/infra/adapters';
 import { createInMemoryMasteryRepository } from './state/in-memory-mastery.repository.js';
 import { createInMemorySkillScoreRepository } from './state/in-memory-skillscore.repository.js';
+import { createInMemoryQuizRepository } from './state/in-memory-quiz.repository.js';
 import { setupEventConsumers } from './events/consumers/index.js';
 import { registerMasteryReadRoute } from './http/queries/mastery.read.route.js';
 import { registerDebugSeedRoute } from './http/debug.route.js';
+import { registerQuizRoutes } from './http/quiz.routes.js';
 import { requestContextMiddleware } from '@dmf/shared';
 
 // 1. Setup Core Logic Dependencies
@@ -18,6 +20,7 @@ const logger = new InMemoryLogger();
 const eventBus = sharedEventBus;
 const masteryRepo = createInMemoryMasteryRepository();
 const skillScoreRepo = createInMemorySkillScoreRepository();
+const quizRepo = createInMemoryQuizRepository();
 
 // 2. Wire Consumers
 setupEventConsumers(eventBus, { masteryRepo, skillScoreRepo, logger });
@@ -48,6 +51,7 @@ app.get('/health', async () => ({ status: 'OK', service: 'motivation-progress-se
 // Business Routes
 registerMasteryReadRoute(app, { masteryRepo, skillScoreRepo, logger });
 registerDebugSeedRoute(app, { masteryRepo, skillScoreRepo });
+registerQuizRoutes(app, { quizRepo });
 
 // 5. Start Server
 const start = async () => {

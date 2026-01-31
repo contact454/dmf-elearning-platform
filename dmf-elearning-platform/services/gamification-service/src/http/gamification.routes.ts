@@ -135,4 +135,54 @@ export function registerGamificationRoutes(
       });
     }
   );
+
+  // GET /api/gamification/leaderboard
+  app.get<{ Querystring: { limit?: string } }>(
+    '/api/gamification/leaderboard',
+    async (request, reply) => {
+      const limit = parseInt((request.query as { limit?: string }).limit || '10', 10);
+
+      try {
+        const topUsers = await deps.statsRepo.getLeaderboard(limit);
+
+        // Map to readable usernames and add rank
+        const leaderboard = topUsers.map((stats, index) => ({
+          rank: index + 1,
+          userId: stats.userId,
+          username: getUserDisplayName(stats.userId),
+          xp: stats.xp,
+          level: stats.level,
+          streak: stats.streak,
+        }));
+
+        return reply.code(200).send({ leaderboard });
+      } catch (error) {
+        console.error('Error fetching leaderboard:', error);
+        return reply.code(500).send({
+          error: {
+            code: 'INTERNAL_ERROR',
+            message: 'Failed to fetch leaderboard',
+          },
+        });
+      }
+    }
+  );
+}
+
+// Helper: Convert userId to display name
+function getUserDisplayName(userId: string): string {
+  const nameMap: Record<string, string> = {
+    'user-m3-demo': 'You (Demo User)',
+    'alice-nguyen': 'Alice Nguyen',
+    'bob-tran': 'Bob Tran',
+    'carol-le': 'Carol Le',
+    'david-pham': 'David Pham',
+    'emma-vo': 'Emma Vo',
+    'frank-do': 'Frank Do',
+    'grace-hoang': 'Grace Hoang',
+    'henry-bui': 'Henry Bui',
+    'iris-duong': 'Iris Duong',
+    'jack-ngo': 'Jack Ngo',
+  };
+  return nameMap[userId] || userId;
 }
