@@ -1,0 +1,17 @@
+{
+    "roles": [
+        "admin",
+        "teacher",
+        "mentor",
+        "learner"
+    ],
+    "permissions": {
+        "admin": [
+            "*"
+        ],
+        "learner": [
+            "view:course",
+            "submit:exercise"
+        ]
+    }
+}

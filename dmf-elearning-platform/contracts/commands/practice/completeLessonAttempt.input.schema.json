@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CompleteLessonAttemptInput",
+    "type": "object",
+    "required": [
+        "attemptId",
+        "status"
+    ],
+    "properties": {
+        "attemptId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "completed",
+                "abandoned"
+            ]
+        },
+        "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "SubmitPlacementTestOutput",
+    "type": "object",
+    "required": [
+        "assessmentId",
+        "level"
+    ],
+    "properties": {
+        "assessmentId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "level": {
+            "type": "string",
+            "enum": [
+                "A1",
+                "A2",
+                "B1",
+                "B2",
+                "C1",
+                "C2"
+            ]
+        },
+        "nextAction": {
+            "type": "string",
+            "enum": [
+                "enroll",
+                "retake"
+            ]
+        }
+    }
+}

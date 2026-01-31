@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Attempt",
+    "type": "object",
+    "required": [
+        "id",
+        "userId",
+        "lessonId",
+        "status",
+        "startedAt"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "userId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "lessonId": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "in-progress",
+                "completed",
+                "abandoned"
+            ]
+        },
+        "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+        },
+        "startedAt": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "completedAt": {
+            "type": "string",
+            "format": "date-time"
+        }
+    }
+}

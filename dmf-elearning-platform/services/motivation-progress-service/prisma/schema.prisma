@@ -1,0 +1,31 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model UserMastery {
+  userId        String   @id
+  overallScore  Int      @default(0)
+  totalLessons  Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  // Relations
+  lessonProgress LessonProgress[]
+}
+
+model LessonProgress {
+  id          String   @id @default(uuid())
+  userId      String
+  lessonId    String
+  score       Int
+  completedAt DateTime @default(now())
+
+  // Relations
+  user        UserMastery @relation(fields: [userId], references: [userId])
+
+  @@index([userId])
+}

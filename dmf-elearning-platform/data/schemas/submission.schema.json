@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Submission",
+    "type": "object",
+    "required": [
+        "id",
+        "attemptId",
+        "activityId",
+        "answer"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "attemptId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "activityId": {
+            "type": "string"
+        },
+        "answer": {
+            "type": "object",
+            "description": "The user's input (text, audio url, etc.)"
+        },
+        "isCorrect": {
+            "type": "boolean"
+        },
+        "timestamp": {
+            "type": "string",
+            "format": "date-time"
+        }
+    }
+}

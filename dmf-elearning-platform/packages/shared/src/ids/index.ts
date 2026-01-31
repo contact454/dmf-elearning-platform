@@ -1,0 +1,13 @@
+export type UserId = string;
+export type EnrollmentId = string;
+export type CourseId = string;
+export type UnitId = string;
+export type LessonId = string;
+export type ActivityId = string;
+export type AttemptId = string;
+export type SubmissionId = string;
+export type AssessmentId = string;
+export type ReadinessResultId = string;
+export type SRSItemId = string;
+export type FeedbackId = string;
+export type MentorId = string;

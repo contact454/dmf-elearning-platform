@@ -1,0 +1,43 @@
+{
+  "name": "@dmf/read-models",
+  "version": "0.1.0",
+  "description": "Read models and projections for DMF E-Learning Platform",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./projections": {
+      "types": "./dist/projections/index.d.ts",
+      "import": "./dist/projections/index.js"
+    },
+    "./projections/dashboard": {
+      "types": "./dist/projections/dashboard.projection.d.ts",
+      "import": "./dist/projections/dashboard.projection.js"
+    },
+    "./projections/lesson-progress": {
+      "types": "./dist/projections/lesson-progress.projection.d.ts",
+      "import": "./dist/projections/lesson-progress.projection.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@dmf/shared": "workspace:*",
+    "@dmf/contracts": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  }
+}

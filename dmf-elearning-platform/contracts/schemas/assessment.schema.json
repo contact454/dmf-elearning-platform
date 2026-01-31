@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Assessment",
+    "type": "object",
+    "required": [
+        "id",
+        "userId",
+        "type",
+        "status"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "userId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "type": {
+            "type": "string",
+            "enum": [
+                "placement",
+                "unit-test",
+                "level-exam"
+            ]
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "scheduled",
+                "in-progress",
+                "graded"
+            ]
+        },
+        "finalGrade": {
+            "type": "number"
+        },
+        "rubricScores": {
+            "type": "array",
+            "items": {
+                "$ref": "rubricScore.schema.json"
+            }
+        }
+    }
+}

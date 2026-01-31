@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "RequestFeedbackInput",
+    "type": "object",
+    "required": [
+        "submissionId"
+    ],
+    "properties": {
+        "submissionId": {
+            "type": "string",
+            "format": "uuid"
+        }
+    }
+}

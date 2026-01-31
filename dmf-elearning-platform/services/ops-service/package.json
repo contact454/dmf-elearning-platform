@@ -1,0 +1,32 @@
+{
+  "name": "@dmf/ops-service",
+  "version": "0.1.0",
+  "description": "Ops Service - Dashboard & Human Load Control for DMF E-Learning Platform",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "dev:e2e": "DMF_MODE=e2e tsx src/index.ts",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@dmf/contracts": "workspace:*",
+    "@dmf/infra": "workspace:*",
+    "@dmf/evidence": "workspace:*",
+    "@dmf/shared": "workspace:*",
+    "@dmf/ops": "workspace:*",
+    "@dmf/ops-metrics": "workspace:*",
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  }
+}

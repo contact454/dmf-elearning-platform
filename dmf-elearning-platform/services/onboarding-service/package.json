@@ -1,0 +1,37 @@
+{
+  "name": "@dmf/onboarding-service",
+  "version": "0.1.0",
+  "description": "Onboarding service for DMF E-Learning Platform",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "TSX_TSCONFIG_PATH=../../tsconfig.json tsx watch src/index.ts",
+    "dev:e2e": "TSX_TSCONFIG_PATH=../../tsconfig.json tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run --passWithNoTests",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@dmf/contracts": "workspace:*",
+    "@dmf/infra": "workspace:*",
+    "@dmf/ops-metrics": "workspace:*",
+    "@dmf/shared": "workspace:*",
+    "@fastify/cors": "^9.0.1",
+    "@prisma/client": "^5.9.1",
+    "@types/bcrypt": "^6.0.0",
+    "bcrypt": "^6.0.0",
+    "fastify": "^4.24.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "prisma": "^5.9.1",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  }
+}

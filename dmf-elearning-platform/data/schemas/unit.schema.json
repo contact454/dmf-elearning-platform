@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Unit",
+    "type": "object",
+    "required": [
+        "id",
+        "title",
+        "order"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "courseId": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "order": {
+            "type": "integer"
+        },
+        "lessonIds": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

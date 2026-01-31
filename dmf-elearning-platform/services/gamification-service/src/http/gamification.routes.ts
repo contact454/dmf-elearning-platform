@@ -1,0 +1,138 @@
+/**
+ * Gamification API Routes
+ * GET /api/gamification/stats/:userId - Get user stats
+ * POST /api/gamification/add-xp - Add XP to user
+ */
+
+import type { FastifyInstance } from 'fastify';
+import type { UserStatsRepository } from '../state/in-memory-stats.repository.js';
+
+interface StatsParams {
+  userId: string;
+}
+
+interface AddXPBody {
+  userId: string;
+  amount: number;
+}
+
+export function registerGamificationRoutes(
+  app: FastifyInstance,
+  deps: {
+    statsRepo: UserStatsRepository;
+  }
+): void {
+  // GET /api/gamification/stats/:userId
+  app.get<{ Params: StatsParams }>('/api/gamification/stats/:userId', async (request, reply) => {
+    const { userId } = request.params;
+
+    try {
+      const stats = await deps.statsRepo.findByUserId(userId);
+
+      if (!stats) {
+        return reply.code(404).send({
+          error: {
+            code: 'NOT_FOUND',
+            message: 'User stats not found',
+          },
+        });
+      }
+
+      // Calculate XP needed for next level
+      const currentLevelMinXP = Math.pow(stats.level - 1, 2) * 100;
+      const nextLevelMinXP = Math.pow(stats.level, 2) * 100;
+      const xpForNextLevel = nextLevelMinXP - stats.xp;
+
+      return reply.code(200).send({
+        userId: stats.userId,
+        currentXP: stats.xp,
+        currentLevel: stats.level,
+        nextLevelXP: nextLevelMinXP,
+        xpForNextLevel: xpForNextLevel > 0 ? xpForNextLevel : 0,
+        streak: stats.streak,
+        lastUpdated: stats.updatedAt,
+      });
+    } catch (error) {
+      console.error('Error fetching stats:', error);
+      return reply.code(500).send({
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch user stats',
+        },
+      });
+    }
+  });
+
+  // POST /api/gamification/add-xp
+  app.post<{ Body: AddXPBody }>('/api/gamification/add-xp', async (request, reply) => {
+    const { userId, amount } = request.body;
+
+    if (!userId || amount === undefined) {
+      return reply.code(400).send({
+        error: {
+          code: 'VALIDATION_ERROR',
+          message: 'userId and amount are required',
+        },
+      });
+    }
+
+    if (amount < 0) {
+      return reply.code(400).send({
+        error: {
+          code: 'VALIDATION_ERROR',
+          message: 'amount must be positive',
+        },
+      });
+    }
+
+    try {
+      const oldStats = await deps.statsRepo.findByUserId(userId);
+      const oldLevel = oldStats?.level || 0;
+
+      const newStats = await deps.statsRepo.addXP(userId, amount);
+
+      const leveledUp = newStats.level > oldLevel;
+
+      return reply.code(200).send({
+        userId: newStats.userId,
+        xp: newStats.xp,
+        level: newStats.level,
+        leveledUp,
+        message: leveledUp ? `🎉 Level Up! You are now level ${newStats.level}!` : 'XP added successfully',
+      });
+    } catch (error) {
+      console.error('Error adding XP:', error);
+      return reply.code(500).send({
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to add XP',
+        },
+      });
+    }
+  });
+
+  // Debug: Seed stats
+  app.post<{ Body: { userId: string; xp: number; streak: number } }>(
+    '/api/debug/seed-stats',
+    async (request, reply) => {
+      const { userId, xp, streak } = request.body;
+
+      const stats = {
+        id: `stats-${Date.now()}`,
+        userId,
+        xp,
+        level: Math.floor(Math.sqrt(xp / 100)) + 1,
+        streak: streak || 0,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      };
+
+      await deps.statsRepo.save(stats);
+
+      return reply.send({
+        message: 'Stats seeded successfully',
+        stats,
+      });
+    }
+  );
+}

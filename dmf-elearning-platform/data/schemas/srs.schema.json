@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "SRS Item",
+    "type": "object",
+    "required": [
+        "id",
+        "userId",
+        "itemId",
+        "nextReview"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "userId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "itemId": {
+            "type": "string",
+            "description": "Reference to Vocabulary or Grammar ID"
+        },
+        "interval": {
+            "type": "integer",
+            "description": "Days until next review"
+        },
+        "easeFactor": {
+            "type": "number"
+        },
+        "nextReview": {
+            "type": "string",
+            "format": "date-time"
+        }
+    }
+}

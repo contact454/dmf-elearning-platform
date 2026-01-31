@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "UpdateUserProfileOutput",
+    "type": "object",
+    "required": [
+        "userId",
+        "updatedFields"
+    ],
+    "properties": {
+        "userId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "updatedFields": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

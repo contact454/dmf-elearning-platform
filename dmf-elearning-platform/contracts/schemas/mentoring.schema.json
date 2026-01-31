@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Mentoring Report",
+    "type": "object",
+    "required": [
+        "id",
+        "userId",
+        "mentorId",
+        "period"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "userId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "mentorId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "period": {
+            "type": "string",
+            "example": "2024-Q1"
+        },
+        "summary": {
+            "type": "string"
+        },
+        "actionItems": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

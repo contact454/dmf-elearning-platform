@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "SubmitQuizOutput",
+    "type": "object",
+    "required": [
+        "assessmentId",
+        "score"
+    ],
+    "properties": {
+        "assessmentId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+        },
+        "levelHint": {
+            "type": "string",
+            "enum": [
+                "A1",
+                "A2",
+                "B1",
+                "B2",
+                "C1",
+                "C2"
+            ]
+        }
+    }
+}

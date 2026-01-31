@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Activity",
+    "type": "object",
+    "required": [
+        "id",
+        "type",
+        "prompt"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "lessonId": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string",
+            "enum": [
+                "multiple-choice",
+                "fill-gap",
+                "speaking",
+                "listening"
+            ]
+        },
+        "prompt": {
+            "type": "string"
+        },
+        "mediaUrl": {
+            "type": "string"
+        }
+    }
+}

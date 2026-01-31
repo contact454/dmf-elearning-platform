@@ -1,0 +1,159 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Mastery",
+    "type": "object",
+    "description": "MasteryState tracks how well the learner knows each skill (học có chắc hay chỉ hoàn thành). Owned by motivation-progress-service. Critical for anti 'học ảo' measurement.",
+    "required": [
+        "userId",
+        "skillScores",
+        "lastCalculatedAt",
+        "version"
+    ],
+    "properties": {
+        "userId": {
+            "type": "string",
+            "description": "User ID (ID người học)"
+        },
+        "skillScores": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "skill",
+                    "scoreVal",
+                    "lastUpdatedAt"
+                ],
+                "properties": {
+                    "skill": {
+                        "type": "string",
+                        "enum": ["listening", "reading", "speaking", "writing"],
+                        "description": "Skill type (loại kỹ năng)"
+                    },
+                    "scoreVal": {
+                        "type": "number",
+                        "minimum": 0.0,
+                        "maximum": 1.0,
+                        "description": "Mastery score 0.0 to 1.0 (điểm độ vững)"
+                    },
+                    "lastUpdatedAt": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "ISO 8601 timestamp (thời gian cập nhật)"
+                    }
+                }
+            },
+            "description": "Per-skill mastery scores (độ vững theo kỹ năng)"
+        },
+        "lessonMastery": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "lessonId",
+                    "overallScore",
+                    "lastUpdatedAt"
+                ],
+                "properties": {
+                    "lessonId": {
+                        "type": "string",
+                        "description": "Lesson ID (ID bài học)"
+                    },
+                    "skillBreakdown": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "skill",
+                                "scoreVal"
+                            ],
+                            "properties": {
+                                "skill": {
+                                    "type": "string",
+                                    "enum": ["listening", "reading", "speaking", "writing"]
+                                },
+                                "scoreVal": {
+                                    "type": "number",
+                                    "minimum": 0.0,
+                                    "maximum": 1.0
+                                }
+                            }
+                        },
+                        "description": "Per-skill breakdown (phân tích theo kỹ năng)"
+                    },
+                    "overallScore": {
+                        "type": "number",
+                        "minimum": 0.0,
+                        "maximum": 1.0,
+                        "description": "Weighted average score (điểm trung bình có trọng số)"
+                    },
+                    "lastUpdatedAt": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "ISO 8601 timestamp (thời gian cập nhật)"
+                    }
+                }
+            },
+            "description": "Per-lesson mastery (độ vững theo bài)"
+        },
+        "unitMastery": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "unitId",
+                    "overallScore",
+                    "lastUpdatedAt"
+                ],
+                "properties": {
+                    "unitId": {
+                        "type": "string",
+                        "description": "Unit ID (ID đơn vị)"
+                    },
+                    "skillBreakdown": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "skill",
+                                "scoreVal"
+                            ],
+                            "properties": {
+                                "skill": {
+                                    "type": "string",
+                                    "enum": ["listening", "reading", "speaking", "writing"]
+                                },
+                                "scoreVal": {
+                                    "type": "number",
+                                    "minimum": 0.0,
+                                    "maximum": 1.0
+                                }
+                            }
+                        },
+                        "description": "Per-skill breakdown (phân tích theo kỹ năng)"
+                    },
+                    "overallScore": {
+                        "type": "number",
+                        "minimum": 0.0,
+                        "maximum": 1.0,
+                        "description": "Weighted average score (điểm trung bình có trọng số)"
+                    },
+                    "lastUpdatedAt": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "ISO 8601 timestamp (thời gian cập nhật)"
+                    }
+                }
+            },
+            "description": "Per-unit mastery (độ vững theo đơn vị)"
+        },
+        "lastCalculatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "description": "ISO 8601 timestamp of last calculation (thời gian tính toán cuối)"
+        },
+        "version": {
+            "type": "number",
+            "description": "Version for optimistic locking (phiên bản để khóa lạc quan)"
+        }
+    }
+}

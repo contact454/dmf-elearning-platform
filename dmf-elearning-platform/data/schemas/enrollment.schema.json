@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Enrollment",
+    "type": "object",
+    "required": [
+        "id",
+        "userId",
+        "courseId",
+        "status"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "userId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "courseId": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "active",
+                "completed",
+                "dropped"
+            ]
+        },
+        "currentUnit": {
+            "type": "string"
+        }
+    }
+}

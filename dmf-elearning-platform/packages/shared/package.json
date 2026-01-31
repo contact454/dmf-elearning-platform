@@ -1,0 +1,32 @@
+{
+  "name": "@dmf/shared",
+  "version": "0.1.0",
+  "description": "Shared types and utilities for DMF E-Learning Platform",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./http/middlewares": {
+      "import": "./dist/http/middlewares.js",
+      "types": "./dist/http/middlewares.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  }
+}

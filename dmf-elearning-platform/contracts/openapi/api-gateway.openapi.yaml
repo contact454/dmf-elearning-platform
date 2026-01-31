@@ -1,0 +1,991 @@
+openapi: 3.0.3
+info:
+  title: DMF E-Learning API Gateway
+  version: 0.1.0
+  description: |
+    Public API surface for the DMF E-Learning Platform.
+    This is a schema-first, no-logic blueprint for MVP endpoints.
+    All endpoints reference @dmf/shared DTO shapes where available.
+
+servers:
+  - url: http://localhost:3000/api
+    description: Local Development
+  - url: https://api.dmf-elearning.example.com/api
+    description: Production (placeholder)
+
+tags:
+  - name: onboarding
+    description: User onboarding and placement testing
+  - name: curriculum
+    description: Course enrollment and curriculum navigation
+  - name: practice
+    description: Lesson practice and activity submission
+  - name: assessment
+    description: Quizzes and formal assessments
+  - name: mentoring
+    description: Feedback and mentoring services
+  - name: system
+    description: User management and system operations
+
+paths:
+  # ============================================
+  # Onboarding Service
+  # ============================================
+  /onboarding/placement:
+    post:
+      tags:
+        - onboarding
+      summary: Submit placement test results
+      description: |
+        Submit placement test answers for level assessment.
+        Emits: assessment.level_test.completed (if applicable)
+      operationId: submitPlacementTest
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SubmitPlacementInput'
+      responses:
+        '200':
+          description: Placement test submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PlacementTestResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  # ============================================
+  # Curriculum Service
+  # ============================================
+  /curriculum/enroll:
+    post:
+      tags:
+        - curriculum
+      summary: Enroll user in a course
+      description: |
+        Enroll a user in a course/level.
+        Emits: curriculum.course.enrolled
+      operationId: enrollInCourse
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EnrollCourseInput'
+      responses:
+        '200':
+          description: Enrollment created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EnrollmentResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /curriculum/next:
+    get:
+      tags:
+        - curriculum
+      summary: Get next recommended lesson/unit
+      description: |
+        Returns the next lesson or unit recommended for the user.
+        Used for navigation and progress tracking.
+      operationId: getNextCurriculum
+      parameters:
+        - name: userId
+          in: query
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: User ID
+      responses:
+        '200':
+          description: Next curriculum item found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NextCurriculumResponse'
+        '404':
+          description: No next item available
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  # ============================================
+  # Practice Service
+  # ============================================
+  /practice/lesson/start:
+    post:
+      tags:
+        - practice
+      summary: Start a lesson attempt
+      description: |
+        Initialize a lesson attempt session.
+        Emits: learning.lesson.started
+      operationId: startLessonAttempt
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateAttemptInput'
+      responses:
+        '200':
+          description: Lesson attempt started
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AttemptResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /practice/lesson/complete:
+    post:
+      tags:
+        - practice
+      summary: Complete or abandon a lesson
+      description: |
+        Mark a lesson attempt as completed or abandoned.
+        Emits: learning.lesson.completed OR learning.lesson.abandoned
+      operationId: completeLessonAttempt
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CompleteLessonInput'
+      responses:
+        '200':
+          description: Lesson attempt completed/abandoned
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LessonCompletionResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /practice/submission:
+    post:
+      tags:
+        - practice
+      summary: Submit an activity answer
+      description: |
+        Submit an answer for a specific activity within a lesson.
+        Supports speaking and writing submissions.
+        Emits: learning.submission.created
+      operationId: submitActivity
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              oneOf:
+                - $ref: '#/components/schemas/SubmitSpeakingInput'
+                - $ref: '#/components/schemas/SubmitWritingInput'
+            discriminator:
+              propertyName: type
+              mapping:
+                speaking: '#/components/schemas/SubmitSpeakingInput'
+                writing: '#/components/schemas/SubmitWritingInput'
+      responses:
+        '200':
+          description: Submission created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SubmissionResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  # ============================================
+  # Assessment Service
+  # ============================================
+  /assessment/quiz/start:
+    post:
+      tags:
+        - assessment
+      summary: Start a quiz attempt
+      description: |
+        Initialize a quiz/assessment attempt.
+        Emits: assessment.quiz.started
+      operationId: startQuiz
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StartQuizInput'
+      responses:
+        '200':
+          description: Quiz attempt started
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QuizAttemptResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /assessment/quiz/submit:
+    post:
+      tags:
+        - assessment
+      summary: Submit quiz answers
+      description: |
+        Submit quiz answers for grading.
+        Emits: assessment.quiz.submitted
+      operationId: submitQuiz
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SubmitQuizInput'
+      responses:
+        '200':
+          description: Quiz submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QuizSubmissionResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  # ============================================
+  # Mentoring/Feedback Service
+  # ============================================
+  /mentoring/feedback/request:
+    post:
+      tags:
+        - mentoring
+      summary: Request feedback for a submission
+      description: |
+        Request feedback (AI, teacher, or mentor) for a submission.
+        Emits: mentoring.feedback.requested
+      operationId: requestFeedback
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestFeedbackInput'
+      responses:
+        '200':
+          description: Feedback request created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FeedbackRequestResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /mentoring/feedback/publish:
+    post:
+      tags:
+        - mentoring
+      summary: Publish feedback for a submission
+      description: |
+        Publish feedback (from AI, teacher, or mentor) for a submission.
+        Emits: mentoring.feedback.published
+      operationId: publishFeedback
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RecordFeedbackInput'
+      responses:
+        '200':
+          description: Feedback published successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FeedbackResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  # ============================================
+  # System/User Service
+  # ============================================
+  /system/user/register:
+    post:
+      tags:
+        - system
+      summary: Register a new user
+      description: |
+        Create a new user account.
+        Emits: system.user.registered
+      operationId: registerUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterUserInput'
+      responses:
+        '200':
+          description: User registered successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '409':
+          description: User already exists
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /system/user/login:
+    post:
+      tags:
+        - system
+      summary: User login
+      description: |
+        Authenticate user and create session.
+        Emits: system.user.login
+        TODO: Auth implementation placeholder
+      operationId: loginUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginUserInput'
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '401':
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /system/user/profile:
+    patch:
+      tags:
+        - system
+      summary: Update user profile
+      description: |
+        Update user profile information.
+        Emits: system.profile.updated
+      operationId: updateUserProfile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateProfileInput'
+      responses:
+        '200':
+          description: Profile updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+components:
+  schemas:
+    # ============================================
+    # Error Response (Standard)
+    # ============================================
+    ErrorResponse:
+      type: object
+      required:
+        - code
+        - message
+        - requestId
+      properties:
+        code:
+          type: string
+          description: Error code
+          example: 'VALIDATION_ERROR'
+        message:
+          type: string
+          description: Human-readable error message
+          example: 'Invalid lesson ID provided'
+        requestId:
+          type: string
+          format: uuid
+          description: Request ID for tracing
+          example: '123e4567-e89b-12d3-a456-426614174000'
+        details:
+          type: object
+          description: Additional error details
+          additionalProperties: true
+
+    # ============================================
+    # DTOs from @dmf/shared (Referenced)
+    # ============================================
+    CreateAttemptInput:
+      type: object
+      required:
+        - userId
+        - lessonId
+      properties:
+        userId:
+          type: string
+          format: uuid
+          description: User ID
+        lessonId:
+          type: string
+          description: Lesson ID
+      description: |
+        References @dmf/shared CreateAttemptInput.
+        TODO: Move to contracts/schemas + @dmf/shared if not already there.
+
+    SubmitSpeakingInput:
+      type: object
+      required:
+        - attemptId
+        - activityId
+        - type
+        - audioUrl
+        - durationMs
+      properties:
+        attemptId:
+          type: string
+          format: uuid
+          description: Attempt ID
+        activityId:
+          type: string
+          description: Activity ID
+        type:
+          type: string
+          enum: ['speaking']
+          description: Submission type
+        audioUrl:
+          type: string
+          format: uri
+          description: URL to audio file
+        durationMs:
+          type: integer
+          minimum: 0
+          description: Audio duration in milliseconds
+      description: |
+        References @dmf/shared SubmitSpeakingInput.
+        TODO: Move to contracts/schemas + @dmf/shared if not already there.
+
+    SubmitWritingInput:
+      type: object
+      required:
+        - attemptId
+        - activityId
+        - type
+        - text
+      properties:
+        attemptId:
+          type: string
+          format: uuid
+          description: Attempt ID
+        activityId:
+          type: string
+          description: Activity ID
+        type:
+          type: string
+          enum: ['writing']
+          description: Submission type
+        text:
+          type: string
+          description: Written answer text
+      description: |
+        References @dmf/shared SubmitWritingInput.
+        TODO: Move to contracts/schemas + @dmf/shared if not already there.
+
+    RecordFeedbackInput:
+      type: object
+      required:
+        - submissionId
+        - authorId
+        - text
+      properties:
+        submissionId:
+          type: string
+          format: uuid
+          description: Submission ID
+        authorId:
+          type: string
+          format: uuid
+          description: Author ID (teacher/mentor)
+        text:
+          type: string
+          description: Feedback text (Markdown)
+        corrections:
+          type: array
+          items:
+            type: string
+          description: List of corrections
+      description: |
+        References @dmf/shared RecordFeedbackInput.
+        TODO: Move to contracts/schemas + @dmf/shared if not already there.
+
+    # ============================================
+    # New Schemas (MVP-specific, TODO: move to @dmf/shared)
+    # ============================================
+    SubmitPlacementInput:
+      type: object
+      required:
+        - userId
+        - answers
+      properties:
+        userId:
+          type: string
+          format: uuid
+          description: User ID
+        answers:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+          description: Placement test answers
+      description: |
+        TODO: Move to contracts/schemas + @dmf/shared
+
+    PlacementTestResponse:
+      type: object
+      required:
+        - assessmentId
+        - level
+      properties:
+        assessmentId:
+          type: string
+          format: uuid
+          description: Assessment ID
+        level:
+          type: string
+          enum: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+          description: Recommended CEFR level
+        nextAction:
+          type: string
+          enum: ['enroll', 'retake']
+          description: Suggested next action
+
+    EnrollCourseInput:
+      type: object
+      required:
+        - userId
+        - courseId
+      properties:
+        userId:
+          type: string
+          format: uuid
+          description: User ID
+        courseId:
+          type: string
+          description: Course ID
+      description: |
+        TODO: Move to contracts/schemas + @dmf/shared
+
+    EnrollmentResponse:
+      type: object
+      required:
+        - enrollmentId
+        - courseId
+        - status
+      properties:
+        enrollmentId:
+          type: string
+          format: uuid
+          description: Enrollment ID
+        courseId:
+          type: string
+          description: Course ID
+        status:
+          type: string
+          enum: ['active', 'completed', 'dropped']
+          description: Enrollment status
+        nextAction:
+          type: string
+          enum: ['start_lesson', 'take_placement']
+          description: Suggested next action
+
+    NextCurriculumResponse:
+      type: object
+      required:
+        - type
+        - id
+      properties:
+        type:
+          type: string
+          enum: ['lesson', 'unit', 'assessment', 'srs_review']
+          description: Type of next item
+        id:
+          type: string
+          description: ID of next item (lessonId, unitId, etc.)
+        title:
+          type: string
+          description: Display title
+        reason:
+          type: string
+          enum: ['mastery', 'assessment', 'manual', 'srs']
+          description: Reason for recommendation
+      description: |
+        TODO: Move to contracts/schemas + @dmf/shared
+
+    CompleteLessonInput:
+      type: object
+      required:
+        - attemptId
+        - status
+      properties:
+        attemptId:
+          type: string
+          format: uuid
+          description: Attempt ID
+        status:
+          type: string
+          enum: ['completed', 'abandoned']
+          description: Completion status
+        score:
+          type: number
+          minimum: 0
+          maximum: 100
+          description: Lesson score (0-100)
+
+    LessonCompletionResponse:
+      type: object
+      required:
+        - attemptId
+        - status
+      properties:
+        attemptId:
+          type: string
+          format: uuid
+          description: Attempt ID
+        status:
+          type: string
+          enum: ['completed', 'abandoned']
+          description: Completion status
+        score:
+          type: number
+          minimum: 0
+          maximum: 100
+          description: Lesson score (if completed)
+        nextAction:
+          type: string
+          enum: ['next_lesson', 'retry', 'review']
+          description: Suggested next action
+
+    AttemptResponse:
+      type: object
+      required:
+        - attemptId
+        - lessonId
+        - status
+      properties:
+        attemptId:
+          type: string
+          format: uuid
+          description: Attempt ID
+        lessonId:
+          type: string
+          description: Lesson ID
+        status:
+          type: string
+          enum: ['in-progress', 'completed', 'abandoned']
+          description: Attempt status
+
+    SubmissionResponse:
+      type: object
+      required:
+        - submissionId
+        - attemptId
+        - activityId
+      properties:
+        submissionId:
+          type: string
+          format: uuid
+          description: Submission ID
+        attemptId:
+          type: string
+          format: uuid
+          description: Attempt ID
+        activityId:
+          type: string
+          description: Activity ID
+        isCorrect:
+          type: boolean
+          description: Whether answer is correct
+
+    StartQuizInput:
+      type: object
+      required:
+        - userId
+        - assessmentId
+      properties:
+        userId:
+          type: string
+          format: uuid
+          description: User ID
+        assessmentId:
+          type: string
+          format: uuid
+          description: Assessment ID
+      description: |
+        TODO: Move to contracts/schemas + @dmf/shared
+
+    QuizAttemptResponse:
+      type: object
+      required:
+        - attemptId
+        - assessmentId
+      properties:
+        attemptId:
+          type: string
+          format: uuid
+          description: Quiz attempt ID
+        assessmentId:
+          type: string
+          format: uuid
+          description: Assessment ID
+
+    SubmitQuizInput:
+      type: object
+      required:
+        - assessmentId
+        - answers
+      properties:
+        assessmentId:
+          type: string
+          format: uuid
+          description: Assessment ID
+        attemptId:
+          type: string
+          format: uuid
+          description: Attempt ID (optional if not started via /start)
+        answers:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+          description: Quiz answers
+      description: |
+        TODO: Move to contracts/schemas + @dmf/shared
+
+    QuizSubmissionResponse:
+      type: object
+      required:
+        - assessmentId
+        - score
+      properties:
+        assessmentId:
+          type: string
+          format: uuid
+          description: Assessment ID
+        score:
+          type: number
+          minimum: 0
+          maximum: 100
+          description: Quiz score (0-100)
+        levelHint:
+          type: string
+          enum: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+          description: Inferred CEFR level (optional)
+
+    RequestFeedbackInput:
+      type: object
+      required:
+        - submissionId
+      properties:
+        submissionId:
+          type: string
+          format: uuid
+          description: Submission ID
+      description: |
+        TODO: Move to contracts/schemas + @dmf/shared
+
+    FeedbackRequestResponse:
+      type: object
+      required:
+        - requestId
+        - submissionId
+      properties:
+        requestId:
+          type: string
+          format: uuid
+          description: Feedback request ID
+        submissionId:
+          type: string
+          format: uuid
+          description: Submission ID
+
+    FeedbackResponse:
+      type: object
+      required:
+        - feedbackId
+        - submissionId
+      properties:
+        feedbackId:
+          type: string
+          format: uuid
+          description: Feedback ID
+        submissionId:
+          type: string
+          format: uuid
+          description: Submission ID
+
+    RegisterUserInput:
+      type: object
+      required:
+        - email
+        - role
+      properties:
+        email:
+          type: string
+          format: email
+          description: User email
+        role:
+          type: string
+          enum: ['learner', 'teacher', 'mentor', 'admin']
+          description: User role
+        firstName:
+          type: string
+          description: First name
+        lastName:
+          type: string
+          description: Last name
+        targetLanguage:
+          type: string
+          enum: ['de', 'en']
+          description: Target learning language
+      description: |
+        TODO: Move to contracts/schemas + @dmf/shared
+
+    UserResponse:
+      type: object
+      required:
+        - id
+        - email
+        - role
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: User ID
+        email:
+          type: string
+          format: email
+          description: User email
+        role:
+          type: string
+          enum: ['learner', 'teacher', 'mentor', 'admin']
+          description: User role
+        firstName:
+          type: string
+          description: First name
+        lastName:
+          type: string
+          description: Last name
+        createdAt:
+          type: string
+          format: date-time
+          description: Account creation timestamp
+
+    LoginUserInput:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          description: User email
+        password:
+          type: string
+          format: password
+          description: User password
+          writeOnly: true
+      description: |
+        TODO: Auth implementation placeholder
+
+    LoginResponse:
+      type: object
+      required:
+        - userId
+        - token
+      properties:
+        userId:
+          type: string
+          format: uuid
+          description: User ID
+        token:
+          type: string
+          description: Authentication token (placeholder)
+          # TODO: Implement proper JWT/auth token structure
+        expiresAt:
+          type: string
+          format: date-time
+          description: Token expiration time
+
+    UpdateProfileInput:
+      type: object
+      properties:
+        firstName:
+          type: string
+          description: First name
+        lastName:
+          type: string
+          description: Last name
+        targetLanguage:
+          type: string
+          enum: ['de', 'en']
+          description: Target learning language
+      description: |
+        TODO: Move to contracts/schemas + @dmf/shared
+
+  responses:
+    BadRequest:
+      description: Bad request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    InternalServerError:
+      description: Internal server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'

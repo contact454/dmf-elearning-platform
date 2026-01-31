@@ -1,0 +1,21 @@
+// Gamification Service - Prisma Schema
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model UserStats {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  xp        Int      @default(0)
+  level     Int      @default(1)
+  streak    Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId])
+}

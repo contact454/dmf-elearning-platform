@@ -1,0 +1,21 @@
+{
+  "name": "@dmf/e2e",
+  "version": "0.1.0",
+  "description": "End-to-end smoke tests for DMF E-Learning Platform",
+  "type": "module",
+  "scripts": {
+    "e2e": "tsx src/run.ts",
+    "e2e:local": "tsx src/run-local.ts",
+    "e2e:ci": "tsx src/run-ci.ts",
+    "e2e:smoke:onboarding": "playwright test src/smoke/onboarding-smoke.test.ts"
+  },
+  "dependencies": {
+    "@dmf/contracts": "workspace:*"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^20.11.5",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.3"
+  }
+}

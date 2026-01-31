@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "schemas": {
+    "registries.ts": "8a4e380386372f313ea1d2320394d5017b59db321ed7662292c0849ab04613fb",
+    "events/system.ts": "47d4dd2c61036855c045912a4b86c1ca6f12d851c6c0b38933587f4626b3eeec",
+    "events/ops.ts": "127b330fedbfc5366b5fd1ff6ab85f9dc91c09212565bebdb0d96a548ba1cd50",
+    "events/mentoring.ts": "246732f2493b38146b2e81798b18029dde931c85ad908173d46d483ea6058b1b",
+    "events/learning.ts": "e59b522d1f81371b83fb9706bc51c0aca309919d75e57766d55db1495ad374b3",
+    "events/evidence.ts": "e863e63eb553a1773c268d2d22a3af1bfb8111b33f02cb3b23eaf126208eebbb",
+    "events/curriculum.ts": "fe42e089a002d04a50cf7aff5e62df9b13d9fc8f884d454c552a436e91333dae",
+    "events/assessment.ts": "3a970c9e67a582d8a4051e64012b8488551e78480278afb7fad9731c262d0678",
+    "commands/system.ts": "f896cacc970e083c785cce15d7c669c27525a5bc63df70adced60396518f8d7e",
+    "commands/policy.ts": "d07cd5a8cab00f2b45f17425655e0385031de34d5f07ffa0b70743daeeb13f06",
+    "commands/mentoring.ts": "a701e51a897dcdf2a540b01fcc4c12b96aefe7200a618266841da3e6fc2d643a",
+    "commands/learning.ts": "5d7966a15197c09ebb35dc1c13b3ffe4d558242897a37bef2737484cee12ba4f",
+    "commands/evidence.ts": "6a06cdc481423e53084ee81f37e1bfcaa9faf8f270c6522fcd575e43bdff9755",
+    "commands/curriculum.ts": "6cf8a25e987688649e69ce214e3aebea432d7c2ae7f00ee75c742450407e1b47",
+    "commands/assessment.ts": "319893fd98fd474ae7713334ccf523a26d892e65f3b67446589056d40a0c29a4",
+    "__tests__/vitest.config.ts": "9e3e419416bff80157d7afaba5e20037e55cb1ce3fc259963a8fa81396139967",
+    "__tests__/ids-only-policy.test.ts": "66b9bbd818d893d94086bf2c4e3b64217ad55c278cbff3f3569026997494bbea",
+    "__tests__/contract-lock.test.ts": "901b7a302374b4cc532fe565255bbe24c2af3fad1ff478da5e72b37094a92de7",
+    "__tests__/command-registry.test.ts": "b494c8c547a0e1e3fd8e26915b170296ad1f5704bb1d4bf219929c5d3107a128"
+  },
+  "generatedAt": "2026-01-25T05:03:50.878Z"
+}

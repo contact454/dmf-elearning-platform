@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Feedback",
+    "type": "object",
+    "required": [
+        "id",
+        "submissionId",
+        "text"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "submissionId": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "author": {
+            "type": "string",
+            "enum": [
+                "ai",
+                "teacher",
+                "mentor"
+            ]
+        },
+        "text": {
+            "type": "string",
+            "description": "Markdown feedback content"
+        },
+        "corrections": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

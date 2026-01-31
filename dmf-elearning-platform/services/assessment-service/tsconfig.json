@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@dmf/shared": ["../../packages/shared/dist/index.d.ts"],
+      "@dmf/shared/*": ["../../packages/shared/dist/*"],
+      "@dmf/contracts": ["../../packages/contracts/dist/index.d.ts"],
+      "@dmf/contracts/*": ["../../packages/contracts/dist/*"],
+      "@dmf/infra": ["../../packages/infra/dist/index.d.ts"],
+      "@dmf/infra/*": ["../../packages/infra/dist/*"],
+      "@dmf/education-readiness-model": ["../../packages/education-readiness-model/dist/index.d.ts"],
+      "@dmf/education-readiness-model/*": ["../../packages/education-readiness-model/dist/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

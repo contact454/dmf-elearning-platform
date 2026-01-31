@@ -1,0 +1,27 @@
+{
+  "name": "@dmf/progress-service",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "TSX_TSCONFIG_PATH=../../tsconfig.json tsx watch src/index.ts",
+    "dev:e2e": "TSX_TSCONFIG_PATH=../../tsconfig.json tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@dmf/shared": "workspace:*",
+    "@dmf/contracts": "workspace:*",
+    "@dmf/infra": "workspace:*",
+    "@dmf/ops-metrics": "workspace:*",
+    "fastify": "^4.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  }
+}
