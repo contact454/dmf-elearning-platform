@@ -20,6 +20,7 @@ export default function LeaderboardPage() {
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [showConfetti, setShowConfetti] = useState(false);
+  const [challengeModal, setChallengeModal] = useState<{ show: boolean; username: string }>({ show: false, username: '' });
   const CURRENT_USER_ID = 'user-m3-demo';
 
   useEffect(() => {
@@ -39,6 +40,41 @@ export default function LeaderboardPage() {
     } catch (error) {
       console.error('Failed to load leaderboard:', error);
       setLoading(false);
+    }
+  };
+
+  const handleFollow = async (targetUserId: string) => {
+    try {
+      const response = await fetch(`http://localhost:3002/api/social/follow/${targetUserId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId: CURRENT_USER_ID }),
+      });
+      const data = await response.json();
+      console.log('Follow success:', data);
+      alert('Follow request sent!');
+    } catch (error) {
+      console.error('Failed to follow:', error);
+      alert('Failed to send follow request');
+    }
+  };
+
+  const handleChallenge = async (targetUserId: string, username: string) => {
+    try {
+      const response = await fetch(`http://localhost:3002/api/social/challenge/${targetUserId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId: CURRENT_USER_ID }),
+      });
+      const data = await response.json();
+      console.log('Challenge success:', data);
+
+      // Show confetti modal
+      setChallengeModal({ show: true, username });
+      setTimeout(() => setChallengeModal({ show: false, username: '' }), 3000);
+    } catch (error) {
+      console.error('Failed to challenge:', error);
+      alert('Failed to send challenge');
     }
   };
 
@@ -106,6 +142,26 @@ export default function LeaderboardPage() {
                   </p>
                   <p className="text-white/90 text-sm">Level {topThree[1].level} • {topThree[1].streak}🔥</p>
                 </div>
+                {topThree[1].userId !== CURRENT_USER_ID && (
+                  <div className="flex gap-2 mt-4">
+                    <motion.button
+                      onClick={() => handleFollow(topThree[1].userId)}
+                      className="flex-1 bg-white/30 hover:bg-white/40 text-white px-3 py-2 rounded-xl font-medium text-xs backdrop-blur-sm"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      👥 Follow
+                    </motion.button>
+                    <motion.button
+                      onClick={() => handleChallenge(topThree[1].userId, topThree[1].username)}
+                      className="flex-1 bg-white/30 hover:bg-white/40 text-white px-3 py-2 rounded-xl font-medium text-xs backdrop-blur-sm"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      ⚔️ Challenge
+                    </motion.button>
+                  </div>
+                )}
               </MagicCard>
             </div>
           )}
@@ -143,6 +199,26 @@ export default function LeaderboardPage() {
                   </p>
                   <p className="text-white/90">Level {topThree[0].level} • {topThree[0].streak}🔥</p>
                 </div>
+                {topThree[0].userId !== CURRENT_USER_ID && (
+                  <div className="flex gap-2 mt-4">
+                    <motion.button
+                      onClick={() => handleFollow(topThree[0].userId)}
+                      className="flex-1 bg-white/30 hover:bg-white/40 text-white px-3 py-2 rounded-xl font-medium text-sm backdrop-blur-sm"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      👥 Follow
+                    </motion.button>
+                    <motion.button
+                      onClick={() => handleChallenge(topThree[0].userId, topThree[0].username)}
+                      className="flex-1 bg-white/30 hover:bg-white/40 text-white px-3 py-2 rounded-xl font-medium text-sm backdrop-blur-sm"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      ⚔️ Challenge
+                    </motion.button>
+                  </div>
+                )}
               </MagicCard>
             </div>
           )}
@@ -180,6 +256,26 @@ export default function LeaderboardPage() {
                   </p>
                   <p className="text-white/90 text-sm">Level {topThree[2].level} • {topThree[2].streak}🔥</p>
                 </div>
+                {topThree[2].userId !== CURRENT_USER_ID && (
+                  <div className="flex gap-2 mt-4">
+                    <motion.button
+                      onClick={() => handleFollow(topThree[2].userId)}
+                      className="flex-1 bg-white/30 hover:bg-white/40 text-white px-3 py-2 rounded-xl font-medium text-xs backdrop-blur-sm"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      👥 Follow
+                    </motion.button>
+                    <motion.button
+                      onClick={() => handleChallenge(topThree[2].userId, topThree[2].username)}
+                      className="flex-1 bg-white/30 hover:bg-white/40 text-white px-3 py-2 rounded-xl font-medium text-xs backdrop-blur-sm"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      ⚔️ Challenge
+                    </motion.button>
+                  </div>
+                )}
               </MagicCard>
             </div>
           )}
@@ -258,11 +354,65 @@ export default function LeaderboardPage() {
                         </p>
                         <p className="text-slate-600 text-sm">{entry.streak} day streak 🔥</p>
                       </div>
+
+                      {/* Action Buttons */}
+                      {!isCurrentUser && (
+                        <div className="flex gap-2 ml-4">
+                          <motion.button
+                            onClick={() => handleFollow(entry.userId)}
+                            className="bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded-xl font-medium text-sm shadow-lg transition-all"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                          >
+                            👥 Follow
+                          </motion.button>
+                          <motion.button
+                            onClick={() => handleChallenge(entry.userId, entry.username)}
+                            className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-4 py-2 rounded-xl font-medium text-sm shadow-lg transition-all"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                          >
+                            ⚔️ Challenge
+                          </motion.button>
+                        </div>
+                      )}
                     </div>
                   </motion.div>
                 );
               })}
             </div>
+          </motion.div>
+        )}
+
+        {/* Challenge Success Modal */}
+        {challengeModal.show && (
+          <motion.div
+            className="fixed inset-0 flex items-center justify-center z-50"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
+            <motion.div
+              className="relative bg-gradient-to-br from-orange-400 to-red-500 rounded-3xl p-12 text-center shadow-2xl max-w-md"
+              initial={{ scale: 0.5, y: 50 }}
+              animate={{ scale: 1, y: 0 }}
+              transition={{ type: 'spring', stiffness: 200, damping: 20 }}
+            >
+              <Confetti />
+              <motion.div
+                className="text-8xl mb-6"
+                animate={{ rotate: [0, -10, 10, -10, 0] }}
+                transition={{ duration: 0.5, repeat: 2 }}
+              >
+                ⚔️
+              </motion.div>
+              <h2 className="text-4xl font-bold text-white mb-4">Challenge Sent!</h2>
+              <p className="text-xl text-white/90 mb-2">
+                You challenged <span className="font-bold">{challengeModal.username}</span>
+              </p>
+              <p className="text-lg text-white/80">Get ready to compete! 🔥</p>
+            </motion.div>
           </motion.div>
         )}
 

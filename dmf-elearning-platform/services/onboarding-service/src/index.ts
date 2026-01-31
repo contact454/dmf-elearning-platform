@@ -17,6 +17,8 @@ import { registerSystemProfileModifyRoute } from './http/commands/system.profile
 import { registerHealthRoute } from './http/health.route';
 import { registerMetricsRoute, httpMetricsMiddleware, registerHttpMetricsResponseHook, setupEventMetricsConsumers } from '@dmf/ops-metrics';
 import { requestContextMiddleware } from '@dmf/shared';
+import { createInMemoryFriendshipRepository } from './state/friendship.repository';
+import { registerSocialRoutes } from './http/social.routes';
 
 const logger = new InMemoryLogger();
 const auditLogger = new InMemoryAuditLogger();
@@ -24,6 +26,7 @@ const eventBus = sharedEventBus; // Use shared event bus for dev mode
 const database = new InMemoryDatabase();
 const idempotencyStore = new InMemoryIdempotencyStore();
 const outbox = new InMemoryOutbox();
+const friendshipRepo = createInMemoryFriendshipRepository();
 
 // Connect database (Kết nối cơ sở dữ liệu)
 await database.connect({ host: 'localhost', port: 5432, database: 'onboarding' });
@@ -63,6 +66,7 @@ registerMetricsRoute(app);
 registerSystemUserRegisterRoute(app, { eventBus, database, logger, auditLogger, idempotencyStore, outbox });
 registerSystemUserLoginRoute(app, { eventBus, database, logger, auditLogger, outbox });
 registerSystemProfileModifyRoute(app, { eventBus, database, logger, auditLogger, outbox });
+registerSocialRoutes(app, { friendshipRepo });
 
 const start = async () => {
   try {

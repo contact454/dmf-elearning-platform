@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import { SimulateButton } from './SimulateButton';
+import { FriendsWidget } from './FriendsWidget';
 
 // Force dynamic rendering since we are fetching from an internal API that might change
 export const dynamic = 'force-dynamic';
@@ -230,6 +231,9 @@ export default async function DashboardPage() {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Friends Activity Widget */}
+                        <FriendsWidget userId={DEMO_USER_ID} />
                     </div>
                 )}
             </div>
