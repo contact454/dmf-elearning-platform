@@ -1,0 +1,156 @@
+[
+  {
+    "word": "eins",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "một",
+    "meaning_en": "one",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "zwei",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "hai",
+    "meaning_en": "two",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "drei",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "ba",
+    "meaning_en": "three",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "vier",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "bốn",
+    "meaning_en": "four",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "fünf",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "năm",
+    "meaning_en": "five",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "sechs",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "sáu",
+    "meaning_en": "six",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "sieben",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "bảy",
+    "meaning_en": "seven",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "acht",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "tám",
+    "meaning_en": "eight",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "neun",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "chín",
+    "meaning_en": "nine",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "zehn",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "mười",
+    "meaning_en": "ten",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "zwanzig",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "hai mươi",
+    "meaning_en": "twenty",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "fünfzig",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "năm mươi",
+    "meaning_en": "fifty",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "hundert",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "một trăm",
+    "meaning_en": "hundred",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "tausend",
+    "pos": "number",
+    "gender": "none",
+    "type": "number",
+    "category": "numbers",
+    "meaning_vi": "một nghìn",
+    "meaning_en": "thousand",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  }
+]

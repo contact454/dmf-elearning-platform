@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-01T16:15:09.267Z",
+  "originalRemoved": 4590,
+  "definiteTrash": 3666,
+  "recoverable": 924,
+  "recovered": 408,
+  "stillRemoved": 4128,
+  "byTrashReason": {
+    "trash_pattern": 172,
+    "zero_score": 3494
+  }
+}

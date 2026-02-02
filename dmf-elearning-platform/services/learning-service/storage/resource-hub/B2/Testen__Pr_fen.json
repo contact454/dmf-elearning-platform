@@ -1,0 +1,44 @@
+[
+  {
+    "word": "schwafeltest",
+    "pos": "verb",
+    "meaning_vi": "prüfen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:26:22.608Z"
+  },
+  {
+    "word": "entsorgtest",
+    "pos": "verb",
+    "meaning_vi": "Überprüfen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:18:47.589Z"
+  },
+  {
+    "word": "sichertest",
+    "pos": "verb",
+    "meaning_vi": "Überprüfen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:37:33.267Z"
+  },
+  {
+    "word": "kapertest",
+    "pos": "verb",
+    "meaning_vi": "prüfen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:40:10.854Z"
+  },
+  {
+    "word": "abschnittest",
+    "pos": "verb",
+    "meaning_vi": "prüfen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:46:46.571Z"
+  },
+  {
+    "word": "abändertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:59:03.911Z"
+  }
+]

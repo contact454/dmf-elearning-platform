@@ -1,0 +1,44 @@
+[
+  {
+    "word": "Armsessel",
+    "pos": "noun",
+    "meaning_vi": "Arztbesuch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:31:30.121Z"
+  },
+  {
+    "word": "Wurzelkanalbehandlungen",
+    "pos": "noun",
+    "meaning_vi": "Behandlung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:14:09.294Z"
+  },
+  {
+    "word": "Notärzte",
+    "pos": "noun",
+    "meaning_vi": "Ärzte",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:38:16.733Z"
+  },
+  {
+    "word": "vorschreibe",
+    "pos": "verb",
+    "meaning_vi": "Rezept",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:09:24.505Z"
+  },
+  {
+    "word": "Viralsatz",
+    "pos": "noun",
+    "meaning_vi": "Substanz",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:32:23.921Z"
+  },
+  {
+    "word": "Radikalkur",
+    "pos": "noun",
+    "meaning_vi": "kur",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:14:12.573Z"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "word": "peinlich",
+    "pos": "adj",
+    "meaning_vi": "Embarrassing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:19:09.187Z"
+  },
+  {
+    "word": "aufregender",
+    "pos": "adj",
+    "meaning_vi": "Exciting",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:06:10.780Z"
+  },
+  {
+    "word": "beschämt",
+    "pos": "adj",
+    "meaning_vi": "Ashamed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:32:53.441Z"
+  },
+  {
+    "word": "hässlichstem",
+    "pos": "adj",
+    "meaning_vi": "Ugly",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:08:25.437Z"
+  },
+  {
+    "word": "beklage",
+    "pos": "verb",
+    "meaning_vi": "Complaint",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:08:34.522Z"
+  },
+  {
+    "word": "vermissend",
+    "pos": "verb",
+    "meaning_vi": "Missing, Regret",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:11:37.809Z"
+  },
+  {
+    "word": "bedauerst",
+    "pos": "verb",
+    "meaning_vi": "disappoint",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:57:45.494Z"
+  },
+  {
+    "word": "bedauerest",
+    "pos": "verb",
+    "meaning_vi": "disappoint",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:57:54.862Z"
+  },
+  {
+    "word": "jubelt",
+    "pos": "verb",
+    "meaning_vi": "Joy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:02:54.072Z"
+  },
+  {
+    "word": "geduckt",
+    "pos": "verb",
+    "meaning_vi": "Ashamed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:36:16.084Z"
+  },
+  {
+    "word": "verzweifel",
+    "pos": "verb",
+    "meaning_vi": "desperate, hopeless",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:52:52.991Z"
+  }
+]

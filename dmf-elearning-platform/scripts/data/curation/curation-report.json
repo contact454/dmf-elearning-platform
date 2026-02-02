@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-02-02T04:02:27.694Z",
+  "summary": {
+    "total": 1816,
+    "goetheWords": 478,
+    "withFrequency": 1034,
+    "noFrequency": 782
+  },
+  "recommendations": {
+    "keep": 664,
+    "review": 1152,
+    "remove": 0
+  },
+  "byLevel": {
+    "A1": {
+      "total": 334,
+      "goethe": 273,
+      "keep": 290,
+      "review": 44,
+      "remove": 0,
+      "avgFrequency": 30
+    },
+    "A2": {
+      "total": 233,
+      "goethe": 101,
+      "keep": 129,
+      "review": 104,
+      "remove": 0,
+      "avgFrequency": 28
+    },
+    "B1": {
+      "total": 228,
+      "goethe": 65,
+      "keep": 95,
+      "review": 133,
+      "remove": 0,
+      "avgFrequency": 22
+    },
+    "B2": {
+      "total": 167,
+      "goethe": 23,
+      "keep": 75,
+      "review": 92,
+      "remove": 0,
+      "avgFrequency": 17
+    },
+    "C1": {
+      "total": 726,
+      "goethe": 11,
+      "keep": 52,
+      "review": 674,
+      "remove": 0,
+      "avgFrequency": 2
+    },
+    "C2": {
+      "total": 128,
+      "goethe": 5,
+      "keep": 23,
+      "review": 105,
+      "remove": 0,
+      "avgFrequency": 4
+    }
+  }
+}

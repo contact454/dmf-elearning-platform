@@ -1,0 +1,317 @@
+[
+  {
+    "word": "Bienenstöcke",
+    "pos": "noun",
+    "meaning_vi": "Honey sticks",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:07:16.044Z"
+  },
+  {
+    "word": "Bestandteile",
+    "pos": "noun",
+    "meaning_vi": "Teile eines Lebensmittels",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:10:09.023Z"
+  },
+  {
+    "word": "Patrone",
+    "pos": "noun",
+    "meaning_vi": "Bulle oder Flasche",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:12:01.645Z"
+  },
+  {
+    "word": "Aufpreises",
+    "pos": "noun",
+    "meaning_vi": "Frühstück",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:19:44.531Z"
+  },
+  {
+    "word": "Abwässer",
+    "pos": "noun",
+    "meaning_vi": "Flüssigkeit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:24:48.503Z"
+  },
+  {
+    "word": "Dampfs",
+    "pos": "noun",
+    "meaning_vi": "Dampf",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:31:28.290Z"
+  },
+  {
+    "word": "Käses",
+    "pos": "noun",
+    "meaning_vi": "Käse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:23:09.731Z"
+  },
+  {
+    "word": "enthalten",
+    "pos": "adj",
+    "meaning_vi": "Nahrungsmittel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:29:53.894Z"
+  },
+  {
+    "word": "Mangels",
+    "pos": "noun",
+    "meaning_vi": "Nahrungsmittel, Nahrung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:23:06.019Z"
+  },
+  {
+    "word": "Hagelkornes",
+    "pos": "noun",
+    "meaning_vi": "Korn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:31:02.689Z"
+  },
+  {
+    "word": "Aufstrich",
+    "pos": "noun",
+    "meaning_vi": "Sauce",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:39:40.179Z"
+  },
+  {
+    "word": "Salmonellen",
+    "pos": "noun",
+    "meaning_vi": "Salz",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:47:03.433Z"
+  },
+  {
+    "word": "Krüge",
+    "pos": "noun",
+    "meaning_vi": "Tasse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:08:11.280Z"
+  },
+  {
+    "word": "becher",
+    "pos": "verb",
+    "meaning_vi": "Trinken",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:25:54.512Z"
+  },
+  {
+    "word": "Linsen",
+    "pos": "noun",
+    "meaning_vi": "Linsen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:26:09.699Z"
+  },
+  {
+    "word": "Luken",
+    "pos": "noun",
+    "meaning_vi": "Futter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:26:35.630Z"
+  },
+  {
+    "word": "Lotsen",
+    "pos": "noun",
+    "meaning_vi": "Brot",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:29:00.611Z"
+  },
+  {
+    "word": "Hausschafe",
+    "pos": "noun",
+    "meaning_vi": "Milch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:31:46.985Z"
+  },
+  {
+    "word": "Nebenprodukte",
+    "pos": "noun",
+    "meaning_vi": "Fertigprodukte",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:37:23.118Z"
+  },
+  {
+    "word": "Muscheln",
+    "pos": "noun",
+    "meaning_vi": "Musseln",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:54:41.786Z"
+  },
+  {
+    "word": "Eingaben",
+    "pos": "noun",
+    "meaning_vi": "Vorrat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:15:24.982Z"
+  },
+  {
+    "word": "Fressen",
+    "pos": "noun",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:20:22.165Z"
+  },
+  {
+    "word": "Blenden",
+    "pos": "noun",
+    "meaning_vi": "Getränk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:42:29.901Z"
+  },
+  {
+    "word": "Apfelsäfte",
+    "pos": "noun",
+    "meaning_vi": "Obstsaft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:43:30.859Z"
+  },
+  {
+    "word": "Aromen",
+    "pos": "noun",
+    "meaning_vi": "Dunggeruch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:51:53.943Z"
+  },
+  {
+    "word": "frühstückt",
+    "pos": "verb",
+    "meaning_vi": "Frühstück",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:20:41.749Z"
+  },
+  {
+    "word": "öle",
+    "pos": "verb",
+    "meaning_vi": " Öl",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:54:24.756Z"
+  },
+  {
+    "word": "getrocknet",
+    "pos": "adj",
+    "meaning_vi": "getrocknet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:35:52.087Z"
+  },
+  {
+    "word": "Tränke",
+    "pos": "noun",
+    "meaning_vi": "Getränk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:56:42.437Z"
+  },
+  {
+    "word": "geöffnet",
+    "pos": "adj",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:31:12.568Z"
+  },
+  {
+    "word": "heuerten",
+    "pos": "verb",
+    "meaning_vi": "Gras",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:42:23.624Z"
+  },
+  {
+    "word": "bewässer",
+    "pos": "verb",
+    "meaning_vi": "Getränk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:50:09.909Z"
+  },
+  {
+    "word": "Jägerschnitzels",
+    "pos": "noun",
+    "meaning_vi": "Jagdgericht",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:04:02.421Z"
+  },
+  {
+    "word": "Befalles",
+    "pos": "noun",
+    "meaning_vi": "Leckerei",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:07:59.463Z"
+  },
+  {
+    "word": "Hüllen",
+    "pos": "noun",
+    "meaning_vi": "Schale",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:20:30.639Z"
+  },
+  {
+    "word": "Saaten",
+    "pos": "noun",
+    "meaning_vi": "Getreide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:01:34.396Z"
+  },
+  {
+    "word": "Brühen",
+    "pos": "noun",
+    "meaning_vi": "Säfte",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:03:55.100Z"
+  },
+  {
+    "word": "Gutes",
+    "pos": "noun",
+    "meaning_vi": "Leckerei",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:55:53.534Z"
+  },
+  {
+    "word": "suppen",
+    "pos": "verb",
+    "meaning_vi": "Suppe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T22:32:20.784Z"
+  },
+  {
+    "word": "geschmeckt",
+    "pos": "verb",
+    "meaning_vi": "nahrungsmittelig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:35:25.836Z"
+  },
+  {
+    "word": "Molken",
+    "pos": "noun",
+    "meaning_vi": "Milch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:36:15.683Z"
+  },
+  {
+    "word": "Essensmarken",
+    "pos": "noun",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:37:21.736Z"
+  },
+  {
+    "word": "Entnahmen",
+    "pos": "noun",
+    "meaning_vi": "Vorräte",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:37:40.911Z"
+  },
+  {
+    "word": "fülle",
+    "pos": "verb",
+    "meaning_vi": "Nahrung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:43:31.153Z"
+  },
+  {
+    "word": "Stockfische",
+    "pos": "noun",
+    "meaning_vi": "Fisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:54:27.931Z"
+  }
+]

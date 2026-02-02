@@ -1,0 +1,261 @@
+[
+  {
+    "word": "Soutane",
+    "pos": "noun",
+    "meaning_vi": "Robe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:37:51.810Z"
+  },
+  {
+    "word": "Kleidungen",
+    "pos": "noun",
+    "meaning_vi": "Clothes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:55:23.872Z"
+  },
+  {
+    "word": "Anzuges",
+    "pos": "noun",
+    "meaning_vi": "Garment",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:05:07.600Z"
+  },
+  {
+    "word": "seinen Hut nehmen",
+    "pos": "verb",
+    "meaning_vi": "to take one's hat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:16:29.093Z"
+  },
+  {
+    "word": "Umhänge",
+    "pos": "noun",
+    "meaning_vi": "Sash, belt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:35:21.870Z"
+  },
+  {
+    "word": "Schuhes",
+    "pos": "noun",
+    "meaning_vi": "Shoes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:03:26.471Z"
+  },
+  {
+    "word": "Handtuchs",
+    "pos": "noun",
+    "meaning_vi": "Handkerchief",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:32:35.664Z"
+  },
+  {
+    "word": "Handtücher",
+    "pos": "noun",
+    "meaning_vi": "Hand towels",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:32:38.727Z"
+  },
+  {
+    "word": "Turnhosen",
+    "pos": "noun",
+    "meaning_vi": "Pants",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:40:13.056Z"
+  },
+  {
+    "word": "Kopftücher",
+    "pos": "noun",
+    "meaning_vi": "Headscarf",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:53:55.108Z"
+  },
+  {
+    "word": "ärmellos",
+    "pos": "adj",
+    "meaning_vi": "armless",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:03:59.162Z"
+  },
+  {
+    "word": "Gardine",
+    "pos": "noun",
+    "meaning_vi": "Dress",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:14:14.006Z"
+  },
+  {
+    "word": "Badeanzug",
+    "pos": "noun",
+    "meaning_vi": "Swimwear",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:18:12.440Z"
+  },
+  {
+    "word": "Kleiderschranken",
+    "pos": "noun",
+    "meaning_vi": "Closet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:33:18.034Z"
+  },
+  {
+    "word": "Deckmäntel",
+    "pos": "noun",
+    "meaning_vi": "Umbrella",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:58:30.310Z"
+  },
+  {
+    "word": "Duschvorhänge",
+    "pos": "noun",
+    "meaning_vi": "Shower curtain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:04:57.785Z"
+  },
+  {
+    "word": "Samthandschuhe",
+    "pos": "noun",
+    "meaning_vi": "Hand gloves",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:30:18.450Z"
+  },
+  {
+    "word": "Faulpelze",
+    "pos": "noun",
+    "meaning_vi": "False fur",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:45:44.301Z"
+  },
+  {
+    "word": "Pickelhauben",
+    "pos": "noun",
+    "meaning_vi": "Hat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:47:39.440Z"
+  },
+  {
+    "word": "Braunhemd",
+    "pos": "noun",
+    "meaning_vi": "Brown shirt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:48:01.469Z"
+  },
+  {
+    "word": "Braunhemden",
+    "pos": "noun",
+    "meaning_vi": "Brown trousers",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:48:03.038Z"
+  },
+  {
+    "word": "Regenmäntel",
+    "pos": "noun",
+    "meaning_vi": "Raincoat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:54:54.579Z"
+  },
+  {
+    "word": "Sonnenhüte",
+    "pos": "noun",
+    "meaning_vi": "Hats",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:55:23.426Z"
+  },
+  {
+    "word": "Strickjacken",
+    "pos": "noun",
+    "meaning_vi": "Socks",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:58:19.059Z"
+  },
+  {
+    "word": "schnürte",
+    "pos": "verb",
+    "meaning_vi": "to tie",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:27:38.898Z"
+  },
+  {
+    "word": "verkleidet",
+    "pos": "adj",
+    "meaning_vi": "dressed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:20:00.272Z"
+  },
+  {
+    "word": "verkleidetet",
+    "pos": "verb",
+    "meaning_vi": "dressed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:20:09.765Z"
+  },
+  {
+    "word": "Rollkragenpullover",
+    "pos": "noun",
+    "meaning_vi": "Sweater",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:33:00.341Z"
+  },
+  {
+    "word": "flanellen",
+    "pos": "adj",
+    "meaning_vi": "Fabric",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:40:19.343Z"
+  },
+  {
+    "word": "T-Shirts",
+    "pos": "noun",
+    "meaning_vi": "Quần áo",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:46:26.187Z"
+  },
+  {
+    "word": "Vermummung",
+    "pos": "noun",
+    "meaning_vi": "Veil",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:00:05.442Z"
+  },
+  {
+    "word": "Mao-Anzug",
+    "pos": "noun",
+    "meaning_vi": "Overcoat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:28:20.460Z"
+  },
+  {
+    "word": "Brüstung",
+    "pos": "noun",
+    "meaning_vi": "Shoulder",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:28:38.744Z"
+  },
+  {
+    "word": "Anzuge",
+    "pos": "noun",
+    "meaning_vi": "Jacket",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:45:10.756Z"
+  },
+  {
+    "word": "Rollkragenpullovers",
+    "pos": "noun",
+    "meaning_vi": "Sweater",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:06:45.146Z"
+  },
+  {
+    "word": "Höschen",
+    "pos": "noun",
+    "meaning_vi": "Pants",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:10:36.018Z"
+  },
+  {
+    "word": "Höschenwindel",
+    "pos": "noun",
+    "meaning_vi": "Diaper",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:10:37.561Z"
+  }
+]

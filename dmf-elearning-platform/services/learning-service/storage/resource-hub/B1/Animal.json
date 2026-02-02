@@ -1,0 +1,506 @@
+[
+  {
+    "word": "schwarze Suppenschildkröte",
+    "pos": "noun",
+    "meaning_vi": "Black turtle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:13:58.146Z"
+  },
+  {
+    "word": "schwarze Suppenschildkröten",
+    "pos": "noun",
+    "meaning_vi": "Black turtles",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:13:59.623Z"
+  },
+  {
+    "word": "unechte Karettschildkröte",
+    "pos": "noun",
+    "meaning_vi": "False turtle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:14:01.153Z"
+  },
+  {
+    "word": "Wallriffschildkröte",
+    "pos": "noun",
+    "meaning_vi": "Turtle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:14:16.148Z"
+  },
+  {
+    "word": "Bonapartemöwen",
+    "pos": "noun",
+    "meaning_vi": "Seagull",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:16:34.179Z"
+  },
+  {
+    "word": "Auerhahnes",
+    "pos": "noun",
+    "meaning_vi": "Stork",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:19:18.976Z"
+  },
+  {
+    "word": "Auerhuhnes",
+    "pos": "noun",
+    "meaning_vi": "Hedgehog",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:19:23.716Z"
+  },
+  {
+    "word": "Hennen",
+    "pos": "noun",
+    "meaning_vi": "Chicken",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:22:42.439Z"
+  },
+  {
+    "word": "Clownfischs",
+    "pos": "noun",
+    "meaning_vi": "Fish",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:31:16.722Z"
+  },
+  {
+    "word": "Timberwölfe",
+    "pos": "noun",
+    "meaning_vi": "Wolves",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:34:12.965Z"
+  },
+  {
+    "word": "Felsenpinguins",
+    "pos": "noun",
+    "meaning_vi": "Seal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:36:25.062Z"
+  },
+  {
+    "word": "Heimtier",
+    "pos": "noun",
+    "meaning_vi": "Home animal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:37:38.128Z"
+  },
+  {
+    "word": "Zwergschimpansen",
+    "pos": "noun",
+    "meaning_vi": "Small monkeys",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:49:36.264Z"
+  },
+  {
+    "word": "Zwergschwanes",
+    "pos": "noun",
+    "meaning_vi": "Dwarf Swan",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:49:37.807Z"
+  },
+  {
+    "word": "Würgeschlangen",
+    "pos": "noun",
+    "meaning_vi": "Snakes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:01:35.855Z"
+  },
+  {
+    "word": "Seehunds",
+    "pos": "noun",
+    "meaning_vi": "Sea dog",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:02:27.679Z"
+  },
+  {
+    "word": "Seehundes",
+    "pos": "noun",
+    "meaning_vi": "Sea otter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:02:29.252Z"
+  },
+  {
+    "word": "Fasses",
+    "pos": "noun",
+    "meaning_vi": "Pig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:03:05.213Z"
+  },
+  {
+    "word": "Plattbauchspinnen",
+    "pos": "noun",
+    "meaning_vi": "Spider",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:04:56.761Z"
+  },
+  {
+    "word": "Mähnenhunds",
+    "pos": "noun",
+    "meaning_vi": "Dog's mane",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:05:25.419Z"
+  },
+  {
+    "word": "Fuchsschwanzes",
+    "pos": "noun",
+    "meaning_vi": "Tail",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:09:47.254Z"
+  },
+  {
+    "word": "Rotluchs",
+    "pos": "noun",
+    "meaning_vi": "Dragonfly",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:32:54.723Z"
+  },
+  {
+    "word": "Rotluchse",
+    "pos": "noun",
+    "meaning_vi": "Bear",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:32:58.656Z"
+  },
+  {
+    "word": "Wasserhunde",
+    "pos": "noun",
+    "meaning_vi": "Water dog",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:40:27.297Z"
+  },
+  {
+    "word": "Stachelschweins",
+    "pos": "noun",
+    "meaning_vi": "Pig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:40:49.038Z"
+  },
+  {
+    "word": "Stachelschweine",
+    "pos": "noun",
+    "meaning_vi": "Pig with tusks",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:40:52.167Z"
+  },
+  {
+    "word": "Maulwurfes",
+    "pos": "noun",
+    "meaning_vi": "Rat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:40:55.217Z"
+  },
+  {
+    "word": "Fuchsschwalbe",
+    "pos": "noun",
+    "meaning_vi": "Fox Sparrow",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:40:56.754Z"
+  },
+  {
+    "word": "Fuchsschwalben",
+    "pos": "noun",
+    "meaning_vi": "Fox Swifts",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:40:58.255Z"
+  },
+  {
+    "word": "Weißflügelpinguins",
+    "pos": "noun",
+    "meaning_vi": "White-winged Penguin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:42:49.693Z"
+  },
+  {
+    "word": "Königspinguins",
+    "pos": "noun",
+    "meaning_vi": "Penguin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:43:09.575Z"
+  },
+  {
+    "word": "Tölpel",
+    "pos": "noun",
+    "meaning_vi": "fool, simpleton",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:56:25.467Z"
+  },
+  {
+    "word": "Leopardinnen",
+    "pos": "noun",
+    "meaning_vi": "Female leopard",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:11:08.331Z"
+  },
+  {
+    "word": "Tagpfauenaugen",
+    "pos": "noun",
+    "meaning_vi": "Eyes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:14:58.706Z"
+  },
+  {
+    "word": "Steinkauz",
+    "pos": "noun",
+    "meaning_vi": "Stone eagle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:56:54.060Z"
+  },
+  {
+    "word": "Kiebitzes",
+    "pos": "noun",
+    "meaning_vi": "Sparrow",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:56:57.346Z"
+  },
+  {
+    "word": "Wiederkäuer",
+    "pos": "noun",
+    "meaning_vi": "Cow",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:17:24.218Z"
+  },
+  {
+    "word": "Hatz",
+    "pos": "noun",
+    "meaning_vi": "Horse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:34:42.784Z"
+  },
+  {
+    "word": "Haastadler",
+    "pos": "noun",
+    "meaning_vi": "Hedgehog",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:37:32.310Z"
+  },
+  {
+    "word": "Pferdeschwanzes",
+    "pos": "noun",
+    "meaning_vi": "Horse's tail",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:45:52.176Z"
+  },
+  {
+    "word": "Schakale",
+    "pos": "noun",
+    "meaning_vi": "Bear",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:47:14.320Z"
+  },
+  {
+    "word": "Nattern",
+    "pos": "noun",
+    "meaning_vi": "Snake",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:47:37.030Z"
+  },
+  {
+    "word": "Inselaffe",
+    "pos": "noun",
+    "meaning_vi": "Monkey",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:51:59.929Z"
+  },
+  {
+    "word": "Brüllaffen",
+    "pos": "noun",
+    "meaning_vi": "Monkeys",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:56:55.894Z"
+  },
+  {
+    "word": "Grüne Meerkatze",
+    "pos": "noun",
+    "meaning_vi": "Green cat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:59:13.837Z"
+  },
+  {
+    "word": "Wickelbären",
+    "pos": "noun",
+    "meaning_vi": "Bear",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:13:26.127Z"
+  },
+  {
+    "word": "Dohlen",
+    "pos": "noun",
+    "meaning_vi": "Fox",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:19:06.120Z"
+  },
+  {
+    "word": "Kloakentiere",
+    "pos": "noun",
+    "meaning_vi": "Cloaca",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:20:36.914Z"
+  },
+  {
+    "word": "Kreaturen",
+    "pos": "noun",
+    "meaning_vi": "Creatures",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:24:57.099Z"
+  },
+  {
+    "word": "Kamele",
+    "pos": "noun",
+    "meaning_vi": "Elephant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:45:08.334Z"
+  },
+  {
+    "word": "Mauselöcher",
+    "pos": "noun",
+    "meaning_vi": "Holes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:53:46.513Z"
+  },
+  {
+    "word": "Spitzmäuse",
+    "pos": "noun",
+    "meaning_vi": "Mouse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:57:35.310Z"
+  },
+  {
+    "word": "Zwergpudel",
+    "pos": "noun",
+    "meaning_vi": "Dwarf dog",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:02:25.960Z"
+  },
+  {
+    "word": "Rosse",
+    "pos": "noun",
+    "meaning_vi": "Horse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:53:43.185Z"
+  },
+  {
+    "word": "einholet",
+    "pos": "verb",
+    "meaning_vi": "to be a bee",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:45:34.113Z"
+  },
+  {
+    "word": "Ziegenböcke",
+    "pos": "noun",
+    "meaning_vi": "Goat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:42:12.502Z"
+  },
+  {
+    "word": "Streifenschakals",
+    "pos": "noun",
+    "meaning_vi": "Snow leopard",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:06:44.675Z"
+  },
+  {
+    "word": "sperrest",
+    "pos": "verb",
+    "meaning_vi": "to hunt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:59:43.327Z"
+  },
+  {
+    "word": "Ziegenmelker",
+    "pos": "noun",
+    "meaning_vi": "Goat milk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:30:09.695Z"
+  },
+  {
+    "word": "Ameisenköniginnen",
+    "pos": "noun",
+    "meaning_vi": "Queen Ant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:39:01.621Z"
+  },
+  {
+    "word": "Eselsohren",
+    "pos": "noun",
+    "meaning_vi": "Ears",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:49:21.367Z"
+  },
+  {
+    "word": "Steppenkatze",
+    "pos": "noun",
+    "meaning_vi": "Wild cat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T21:08:26.076Z"
+  },
+  {
+    "word": "Java-Tiger",
+    "pos": "noun",
+    "meaning_vi": "Tiger",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T21:08:32.311Z"
+  },
+  {
+    "word": "Tibetfüchse",
+    "pos": "noun",
+    "meaning_vi": "Rabbits",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:28:50.255Z"
+  },
+  {
+    "word": "Großkopf-Ringelnatter",
+    "pos": "noun",
+    "meaning_vi": "Snake",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:30:13.477Z"
+  },
+  {
+    "word": "Würfelnatter",
+    "pos": "noun",
+    "meaning_vi": "Snake",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:30:16.575Z"
+  },
+  {
+    "word": "Treppennattern",
+    "pos": "noun",
+    "meaning_vi": "Snake",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:30:31.747Z"
+  },
+  {
+    "word": "vögelten",
+    "pos": "verb",
+    "meaning_vi": "to hunt birds",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:06:14.300Z"
+  },
+  {
+    "word": "Zitronenhaie",
+    "pos": "noun",
+    "meaning_vi": "Sea snake",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:12:42.399Z"
+  },
+  {
+    "word": "Langschwanzkatze",
+    "pos": "noun",
+    "meaning_vi": "Long-tailed cat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:13:22.209Z"
+  },
+  {
+    "word": "Langschwanzkatzen",
+    "pos": "noun",
+    "meaning_vi": "Long-tailed cat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:13:23.771Z"
+  },
+  {
+    "word": "Sandkatze",
+    "pos": "noun",
+    "meaning_vi": "Cat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:13:25.250Z"
+  }
+]

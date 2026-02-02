@@ -1,0 +1,222 @@
+[
+  {
+    "word": "die Zeit",
+    "pos": "noun",
+    "gender": "feminine",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "thời gian (f)",
+    "meaning_en": "time",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Tag",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "ngày (m)",
+    "meaning_en": "day",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "die Woche",
+    "pos": "noun",
+    "gender": "feminine",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "tuần (f)",
+    "meaning_en": "week",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Monat",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "tháng (m)",
+    "meaning_en": "month",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "das Jahr",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "năm (n)",
+    "meaning_en": "year",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "Montag",
+    "pos": "noun",
+    "gender": "none",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "thứ Hai",
+    "meaning_en": "Monday",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "Dienstag",
+    "pos": "noun",
+    "gender": "none",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "thứ Ba",
+    "meaning_en": "Tuesday",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "Mittwoch",
+    "pos": "noun",
+    "gender": "none",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "thứ Tư",
+    "meaning_en": "Wednesday",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "Donnerstag",
+    "pos": "noun",
+    "gender": "none",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "thứ Năm",
+    "meaning_en": "Thursday",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "Freitag",
+    "pos": "noun",
+    "gender": "none",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "thứ Sáu",
+    "meaning_en": "Friday",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "Samstag",
+    "pos": "noun",
+    "gender": "none",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "thứ Bảy",
+    "meaning_en": "Saturday",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "Sonntag",
+    "pos": "noun",
+    "gender": "none",
+    "type": "noun",
+    "category": "time",
+    "meaning_vi": "Chủ Nhật",
+    "meaning_en": "Sunday",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "morgens",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "time",
+    "meaning_vi": "vào buổi sáng",
+    "meaning_en": "in the morning",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "nachmittags",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "time",
+    "meaning_vi": "vào buổi chiều",
+    "meaning_en": "in the afternoon",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "abends",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "time",
+    "meaning_vi": "vào buổi tối",
+    "meaning_en": "in the evening",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "nachts",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "time",
+    "meaning_vi": "vào ban đêm",
+    "meaning_en": "at night",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "früher",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "time",
+    "meaning_vi": "sớm hơn, trước đây",
+    "meaning_en": "earlier",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "später",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "time",
+    "meaning_vi": "muộn hơn, sau này",
+    "meaning_en": "later",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "pünktlich",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "time",
+    "meaning_vi": "đúng giờ",
+    "meaning_en": "on time",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "verspätet",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "time",
+    "meaning_vi": "bị trễ, bị hoãn",
+    "meaning_en": "delayed",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  }
+]

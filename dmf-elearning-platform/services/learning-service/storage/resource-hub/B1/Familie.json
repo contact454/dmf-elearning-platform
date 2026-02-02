@@ -1,0 +1,884 @@
+[
+  {
+    "word": "Bildpunkte",
+    "pos": "noun",
+    "meaning_vi": "Punkte, die ein Bild darstellen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:16:52.295Z"
+  },
+  {
+    "word": "Bachstelzen",
+    "pos": "noun",
+    "meaning_vi": "Sister",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:17:04.667Z"
+  },
+  {
+    "word": "Abkömmlings",
+    "pos": "noun",
+    "meaning_vi": "Nachkommen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:22:48.881Z"
+  },
+  {
+    "word": "Diskordierinnen",
+    "pos": "noun",
+    "meaning_vi": "Sister",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:25:40.480Z"
+  },
+  {
+    "word": "Fallbeile",
+    "pos": "noun",
+    "meaning_vi": "Ersatzteil",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:27:20.257Z"
+  },
+  {
+    "word": "Dachverbandes",
+    "pos": "noun",
+    "meaning_vi": "Familienverband",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:31:01.179Z"
+  },
+  {
+    "word": "Dachverbände",
+    "pos": "noun",
+    "meaning_vi": "Verbindungen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:31:02.721Z"
+  },
+  {
+    "word": "Tintenfasses",
+    "pos": "noun",
+    "meaning_vi": "Ersatzmann",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:34:04.985Z"
+  },
+  {
+    "word": "Zufallsgrößen",
+    "pos": "noun",
+    "meaning_vi": "Chances",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:49:33.274Z"
+  },
+  {
+    "word": "Rahmens",
+    "pos": "noun",
+    "meaning_vi": "Familienstruktur",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:08:57.094Z"
+  },
+  {
+    "word": "Stetigkeit",
+    "pos": "noun",
+    "meaning_vi": "Stabilität",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:16:46.648Z"
+  },
+  {
+    "word": "konturlos",
+    "pos": "adj",
+    "meaning_vi": "unstructured",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:17:50.798Z"
+  },
+  {
+    "word": "diesjährig",
+    "pos": "adj",
+    "meaning_vi": "jährlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:21:51.811Z"
+  },
+  {
+    "word": "fundamentales",
+    "pos": "adj",
+    "meaning_vi": "familiär",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:22:18.513Z"
+  },
+  {
+    "word": "aalglattesten",
+    "pos": "adj",
+    "meaning_vi": "am wenigsten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:25:31.181Z"
+  },
+  {
+    "word": "alberner",
+    "pos": "adj",
+    "meaning_vi": "Familienmitglied",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:27:55.547Z"
+  },
+  {
+    "word": "Vatertages",
+    "pos": "noun",
+    "meaning_vi": "Tag",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:39:03.572Z"
+  },
+  {
+    "word": "Vaters",
+    "pos": "noun",
+    "meaning_vi": "Vater",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:39:05.125Z"
+  },
+  {
+    "word": "Vaterfiguren",
+    "pos": "noun",
+    "meaning_vi": "elternartige Personen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:39:08.974Z"
+  },
+  {
+    "word": "fertigmachen",
+    "pos": "verb",
+    "meaning_vi": "machen fertig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:42:40.401Z"
+  },
+  {
+    "word": "Bildwörterbuchs",
+    "pos": "noun",
+    "meaning_vi": "Familienleben",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:46:03.584Z"
+  },
+  {
+    "word": "instituieren",
+    "pos": "verb",
+    "meaning_vi": "etablieren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:59:01.690Z"
+  },
+  {
+    "word": "ambulantes",
+    "pos": "adj",
+    "meaning_vi": "familiär",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:00:22.436Z"
+  },
+  {
+    "word": "Oberkörpers",
+    "pos": "noun",
+    "meaning_vi": "Hauptkörper, Oberkörpers",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:06:49.084Z"
+  },
+  {
+    "word": "Laschen",
+    "pos": "noun",
+    "meaning_vi": "Schlüssel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:07:20.703Z"
+  },
+  {
+    "word": "Stiefväter",
+    "pos": "noun",
+    "meaning_vi": "stepfather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:10:06.065Z"
+  },
+  {
+    "word": "vertrauter",
+    "pos": "adj",
+    "meaning_vi": "bekannte Person",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:11:38.128Z"
+  },
+  {
+    "word": "vertrautesten",
+    "pos": "adj",
+    "meaning_vi": "näherstehende Person",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:11:41.365Z"
+  },
+  {
+    "word": "fideler",
+    "pos": "adj",
+    "meaning_vi": "treu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:13:36.581Z"
+  },
+  {
+    "word": "Sämling",
+    "pos": "noun",
+    "meaning_vi": "Mischung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:14:06.714Z"
+  },
+  {
+    "word": "kompaktesten",
+    "pos": "adj",
+    "meaning_vi": "stärkste",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:20:28.441Z"
+  },
+  {
+    "word": "Vergrößerungen",
+    "pos": "noun",
+    "meaning_vi": "Erweiterung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:26:10.447Z"
+  },
+  {
+    "word": "Verlängerungen",
+    "pos": "noun",
+    "meaning_vi": "Erweiterungen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:26:40.477Z"
+  },
+  {
+    "word": "Winzers",
+    "pos": "noun",
+    "meaning_vi": "Besitzer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:33:20.067Z"
+  },
+  {
+    "word": "Pendels",
+    "pos": "noun",
+    "meaning_vi": "Schwung, Pendel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:36:35.622Z"
+  },
+  {
+    "word": "Lenkers",
+    "pos": "noun",
+    "meaning_vi": "Ehepartner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:38:07.905Z"
+  },
+  {
+    "word": "wählerischer",
+    "pos": "adj",
+    "meaning_vi": "auswahlgetreuer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:43:16.651Z"
+  },
+  {
+    "word": "Stimmen",
+    "pos": "noun",
+    "meaning_vi": "Stimme",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:46:01.711Z"
+  },
+  {
+    "word": "Ranken",
+    "pos": "noun",
+    "meaning_vi": "Beziehung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:02:04.117Z"
+  },
+  {
+    "word": "Gebrauches",
+    "pos": "noun",
+    "meaning_vi": "Verwendung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:04:44.105Z"
+  },
+  {
+    "word": "Ficker",
+    "pos": "noun",
+    "meaning_vi": "Schwester",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:05:16.834Z"
+  },
+  {
+    "word": "beleibter",
+    "pos": "adj",
+    "meaning_vi": "bekannte Person",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:08:21.677Z"
+  },
+  {
+    "word": "Zusammenstellungen",
+    "pos": "noun",
+    "meaning_vi": "Zusammenstellung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:11:52.089Z"
+  },
+  {
+    "word": "Zusammenleben",
+    "pos": "noun",
+    "meaning_vi": "Leben zusammen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:13:09.492Z"
+  },
+  {
+    "word": "Obermenge",
+    "pos": "noun",
+    "meaning_vi": "Großfamilie",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:18:42.846Z"
+  },
+  {
+    "word": "Kopfläuse",
+    "pos": "noun",
+    "meaning_vi": "Haare",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:20:06.329Z"
+  },
+  {
+    "word": "bekannten",
+    "pos": "verb",
+    "meaning_vi": "bekannt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:28:20.453Z"
+  },
+  {
+    "word": "bekannten",
+    "pos": "verb",
+    "meaning_vi": "bekannt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:28:23.550Z"
+  },
+  {
+    "word": "Gedeck",
+    "pos": "noun",
+    "meaning_vi": "Beirat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:39:41.738Z"
+  },
+  {
+    "word": "Bangigkeit",
+    "pos": "noun",
+    "meaning_vi": "Ehe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:39:54.669Z"
+  },
+  {
+    "word": "Familienbande",
+    "pos": "noun",
+    "meaning_vi": "Familienbande",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:40:07.524Z"
+  },
+  {
+    "word": "Fassung",
+    "pos": "noun",
+    "meaning_vi": "Verbindung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:40:09.072Z"
+  },
+  {
+    "word": "Gefolgschaften",
+    "pos": "noun",
+    "meaning_vi": "Beziehung, Bindung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:51:01.215Z"
+  },
+  {
+    "word": "Ehepaare",
+    "pos": "noun",
+    "meaning_vi": "Ehepartner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:00:03.420Z"
+  },
+  {
+    "word": "Elternteile",
+    "pos": "noun",
+    "meaning_vi": "Eltern, Kinder",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:00:19.211Z"
+  },
+  {
+    "word": "Extraktionen",
+    "pos": "noun",
+    "meaning_vi": "Auszug",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:00:45.256Z"
+  },
+  {
+    "word": "Abfolgen",
+    "pos": "noun",
+    "meaning_vi": "Reihenfolge",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:18:10.364Z"
+  },
+  {
+    "word": "Funktionalitäten",
+    "pos": "noun",
+    "meaning_vi": "Funktionen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:22:22.576Z"
+  },
+  {
+    "word": "gängigsten",
+    "pos": "adj",
+    "meaning_vi": "gängigst",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:25:59.277Z"
+  },
+  {
+    "word": "Lügners",
+    "pos": "noun",
+    "meaning_vi": "Lügenmacher",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:29:08.154Z"
+  },
+  {
+    "word": "Hausschaf",
+    "pos": "noun",
+    "meaning_vi": "Schaf",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:31:45.437Z"
+  },
+  {
+    "word": "Väterlichkeit",
+    "pos": "noun",
+    "meaning_vi": "Patriarchal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:39:44.522Z"
+  },
+  {
+    "word": "Färsen",
+    "pos": "noun",
+    "meaning_vi": "Leben",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:44:22.605Z"
+  },
+  {
+    "word": "Enkelkinder",
+    "pos": "noun",
+    "meaning_vi": "Enkel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:45:26.423Z"
+  },
+  {
+    "word": "Intelligenzen",
+    "pos": "noun",
+    "meaning_vi": "Familien",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:45:58.178Z"
+  },
+  {
+    "word": "Funkgeräte",
+    "pos": "noun",
+    "meaning_vi": "Familiensachen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:47:21.096Z"
+  },
+  {
+    "word": "Erbinnen",
+    "pos": "noun",
+    "meaning_vi": "Sister",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:50:05.645Z"
+  },
+  {
+    "word": "Federwerke",
+    "pos": "noun",
+    "meaning_vi": "Vögelbau",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:50:13.099Z"
+  },
+  {
+    "word": "Stümpfe",
+    "pos": "noun",
+    "meaning_vi": "Beine",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:58:47.348Z"
+  },
+  {
+    "word": "Stiefmütter",
+    "pos": "noun",
+    "meaning_vi": "stepmother",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:59:40.204Z"
+  },
+  {
+    "word": "Sicheln",
+    "pos": "noun",
+    "meaning_vi": "Schwester",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:03:18.732Z"
+  },
+  {
+    "word": "radikaler",
+    "pos": "adj",
+    "meaning_vi": "radikaler",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:05:19.378Z"
+  },
+  {
+    "word": "relevanter",
+    "pos": "adj",
+    "meaning_vi": "mehr bedeutsam",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:13:11.736Z"
+  },
+  {
+    "word": "Berlinerinnen",
+    "pos": "noun",
+    "meaning_vi": "Frauen aus Berlin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:51:05.591Z"
+  },
+  {
+    "word": "Auguren",
+    "pos": "noun",
+    "meaning_vi": "Familienvorläufer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:51:57.338Z"
+  },
+  {
+    "word": "domestiziert",
+    "pos": "verb",
+    "meaning_vi": "bezogen auf die Familie",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:24:11.327Z"
+  },
+  {
+    "word": "filtrierest",
+    "pos": "verb",
+    "meaning_vi": "besuchen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:23:18.117Z"
+  },
+  {
+    "word": "integriert",
+    "pos": "adj",
+    "meaning_vi": "integrieren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:31:44.848Z"
+  },
+  {
+    "word": "integriere",
+    "pos": "verb",
+    "meaning_vi": "einschließen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:31:48.120Z"
+  },
+  {
+    "word": "spezialisieret",
+    "pos": "verb",
+    "meaning_vi": "besonder",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:58:42.369Z"
+  },
+  {
+    "word": "türmst",
+    "pos": "verb",
+    "meaning_vi": "aufstehen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:02:30.073Z"
+  },
+  {
+    "word": "heiratest",
+    "pos": "verb",
+    "meaning_vi": "erben",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:17:40.738Z"
+  },
+  {
+    "word": "Mitgliedschaft",
+    "pos": "noun",
+    "meaning_vi": "Mitgliedschaft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:26:10.226Z"
+  },
+  {
+    "word": "Jungfrauen",
+    "pos": "noun",
+    "meaning_vi": "junge Frauen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:30:10.814Z"
+  },
+  {
+    "word": "leitend",
+    "pos": "verb",
+    "meaning_vi": "Führen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:42:27.463Z"
+  },
+  {
+    "word": "Vordergrundes",
+    "pos": "noun",
+    "meaning_vi": "Vorzug",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:42:49.966Z"
+  },
+  {
+    "word": "Grabmäler",
+    "pos": "noun",
+    "meaning_vi": "Grabmutter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:44:21.109Z"
+  },
+  {
+    "word": "führet mit",
+    "pos": "verb",
+    "meaning_vi": "leiten, führen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:59:25.334Z"
+  },
+  {
+    "word": "führest mit",
+    "pos": "verb",
+    "meaning_vi": "leiden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:59:38.997Z"
+  },
+  {
+    "word": "zusammenschließe",
+    "pos": "verb",
+    "meaning_vi": "verbinden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:59:51.268Z"
+  },
+  {
+    "word": "zusammenschließest",
+    "pos": "verb",
+    "meaning_vi": "verbinden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:00:07.867Z"
+  },
+  {
+    "word": "fällst ab",
+    "pos": "verb",
+    "meaning_vi": "fallen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:01:00.669Z"
+  },
+  {
+    "word": "abführest",
+    "pos": "verb",
+    "meaning_vi": "fürst",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:17:28.949Z"
+  },
+  {
+    "word": "ausmache",
+    "pos": "verb",
+    "meaning_vi": "machen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:28:46.635Z"
+  },
+  {
+    "word": "greifet ein",
+    "pos": "verb",
+    "meaning_vi": "greifen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:16:34.122Z"
+  },
+  {
+    "word": "integreren",
+    "pos": "adj",
+    "meaning_vi": "zusammenfügen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:48:04.504Z"
+  },
+  {
+    "word": "einführet",
+    "pos": "verb",
+    "meaning_vi": "bringen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:57:40.576Z"
+  },
+  {
+    "word": "eingeführt",
+    "pos": "verb",
+    "meaning_vi": "eingeführt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:57:55.642Z"
+  },
+  {
+    "word": "fügten hinzu",
+    "pos": "verb",
+    "meaning_vi": "hinzufügen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:08:43.773Z"
+  },
+  {
+    "word": "zeltetest",
+    "pos": "verb",
+    "meaning_vi": "Testen, bewerten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:03:06.919Z"
+  },
+  {
+    "word": "pragmatischer",
+    "pos": "adj",
+    "meaning_vi": "praktischer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:12:46.438Z"
+  },
+  {
+    "word": "pflückten",
+    "pos": "verb",
+    "meaning_vi": "nehmen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:18:13.664Z"
+  },
+  {
+    "word": "Fahruntüchtigkeit",
+    "pos": "noun",
+    "meaning_vi": "Fähigkeit, sich im Fahrzeug sicher zu bewegen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:36:40.783Z"
+  },
+  {
+    "word": "Inbegriff",
+    "pos": "noun",
+    "meaning_vi": "Bestandteil",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:00:12.763Z"
+  },
+  {
+    "word": "Festigung",
+    "pos": "noun",
+    "meaning_vi": "Stärke",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:03:25.563Z"
+  },
+  {
+    "word": "Domestizierungen",
+    "pos": "noun",
+    "meaning_vi": "Anpassungen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:04:13.032Z"
+  },
+  {
+    "word": "Einbildungen",
+    "pos": "noun",
+    "meaning_vi": "Vorstellung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:04:34.977Z"
+  },
+  {
+    "word": "Richtigkeit",
+    "pos": "noun",
+    "meaning_vi": "Genauigkeit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:32:03.595Z"
+  },
+  {
+    "word": "Katzenklappe",
+    "pos": "noun",
+    "meaning_vi": "Klappe für Katzen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T20:07:11.771Z"
+  },
+  {
+    "word": "Gewühl",
+    "pos": "noun",
+    "meaning_vi": "Vielzahl von Lebewesen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T20:59:15.011Z"
+  },
+  {
+    "word": "fundamentalem",
+    "pos": "adj",
+    "meaning_vi": "familiär",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:14:12.707Z"
+  },
+  {
+    "word": "Aufdeckung",
+    "pos": "noun",
+    "meaning_vi": "Entdeckung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:33:01.947Z"
+  },
+  {
+    "word": "initialen",
+    "pos": "adj",
+    "meaning_vi": "Familienmitglied",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:33:33.450Z"
+  },
+  {
+    "word": "Abschottung",
+    "pos": "noun",
+    "meaning_vi": "Isolation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:33:58.147Z"
+  },
+  {
+    "word": "auffülltest",
+    "pos": "verb",
+    "meaning_vi": "besuchen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:43:40.752Z"
+  },
+  {
+    "word": "Aeußere",
+    "pos": "noun",
+    "meaning_vi": "Ehe, Ehepartner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:22:55.399Z"
+  },
+  {
+    "word": "Blutsbrüderschaft",
+    "pos": "noun",
+    "meaning_vi": "Blutsverwandtschaft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:28:29.000Z"
+  },
+  {
+    "word": "Stockente",
+    "pos": "noun",
+    "meaning_vi": "Hühner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:06:46.731Z"
+  },
+  {
+    "word": "Familienstände",
+    "pos": "noun",
+    "meaning_vi": "Haus",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:19:52.570Z"
+  },
+  {
+    "word": "Brüderschaften",
+    "pos": "noun",
+    "meaning_vi": "Brüder",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:22:47.411Z"
+  },
+  {
+    "word": "Inbegriffe",
+    "pos": "noun",
+    "meaning_vi": "Beziehung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:23:44.912Z"
+  },
+  {
+    "word": "Schwärme",
+    "pos": "noun",
+    "meaning_vi": "Masse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:26:29.152Z"
+  },
+  {
+    "word": "Zeichenketten",
+    "pos": "noun",
+    "meaning_vi": "Familiennamen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:27:10.400Z"
+  },
+  {
+    "word": "abbestellst",
+    "pos": "verb",
+    "meaning_vi": "bestellen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:38:11.809Z"
+  },
+  {
+    "word": "intimem",
+    "pos": "adj",
+    "meaning_vi": "intime",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:11:04.021Z"
+  },
+  {
+    "word": "elementarem",
+    "pos": "adj",
+    "meaning_vi": "Elementar",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:12:49.765Z"
+  }
+]

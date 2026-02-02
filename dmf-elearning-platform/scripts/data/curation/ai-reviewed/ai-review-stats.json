@@ -1,0 +1,36 @@
+{
+  "original": {
+    "keep": 664,
+    "review": 2361
+  },
+  "afterAI": {
+    "keep": 1816,
+    "remove": 1209
+  },
+  "byLevel": {
+    "A1": {
+      "finalKeep": 334,
+      "aiRemoved": 41
+    },
+    "A2": {
+      "finalKeep": 233,
+      "aiRemoved": 65
+    },
+    "B1": {
+      "finalKeep": 228,
+      "aiRemoved": 60
+    },
+    "B2": {
+      "finalKeep": 167,
+      "aiRemoved": 68
+    },
+    "C1": {
+      "finalKeep": 726,
+      "aiRemoved": 592
+    },
+    "C2": {
+      "finalKeep": 128,
+      "aiRemoved": 383
+    }
+  }
+}

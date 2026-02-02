@@ -1,0 +1,41 @@
+{
+  "phase1": {
+    "keep": 664,
+    "review": 2361,
+    "remove": 0
+  },
+  "aiReview": {
+    "keep": 1152,
+    "remove": 1209
+  },
+  "final": {
+    "keep": 1816,
+    "remove": 1209
+  },
+  "byLevel": {
+    "A1": {
+      "keep": 334,
+      "remove": 41
+    },
+    "A2": {
+      "keep": 233,
+      "remove": 65
+    },
+    "B1": {
+      "keep": 228,
+      "remove": 60
+    },
+    "B2": {
+      "keep": 167,
+      "remove": 68
+    },
+    "C1": {
+      "keep": 726,
+      "remove": 592
+    },
+    "C2": {
+      "keep": 128,
+      "remove": 383
+    }
+  }
+}

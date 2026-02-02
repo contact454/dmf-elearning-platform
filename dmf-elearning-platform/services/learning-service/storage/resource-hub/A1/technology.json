@@ -1,0 +1,46 @@
+[
+  {
+    "word": "das Internet",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "technology",
+    "meaning_vi": "internet (n)",
+    "meaning_en": "internet",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "das Passwort",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "technology",
+    "meaning_vi": "mật khẩu (n)",
+    "meaning_en": "password",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Computer",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "technology",
+    "meaning_vi": "máy tính (m)",
+    "meaning_en": "computer",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "die Steckdose",
+    "pos": "noun",
+    "gender": "feminine",
+    "type": "noun",
+    "category": "technology",
+    "meaning_vi": "ổ cắm điện (f)",
+    "meaning_en": "socket",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "word": "das Haus",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "ngôi nhà (n)",
+    "meaning_en": "house",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "die Wohnung",
+    "pos": "noun",
+    "gender": "feminine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "căn hộ (f)",
+    "meaning_en": "apartment",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "das Hotel",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "khách sạn (n)",
+    "meaning_en": "hotel",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "das Museum",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "bảo tàng (n)",
+    "meaning_en": "museum",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Strand",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "bãi biển (m)",
+    "meaning_en": "beach",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Wald",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "khu rừng (m)",
+    "meaning_en": "forest",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Berg",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "ngọn núi (m)",
+    "meaning_en": "mountain",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Park",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "công viên (m)",
+    "meaning_en": "park",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Fluss",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "dòng sông (m)",
+    "meaning_en": "river",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "das Meer",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "biển (n)",
+    "meaning_en": "sea",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der See",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "hồ (m)",
+    "meaning_en": "lake",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "das Wetter",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "thời tiết (n)",
+    "meaning_en": "weather",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "die Sonne",
+    "pos": "noun",
+    "gender": "feminine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "mặt trời (f)",
+    "meaning_en": "sun",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Regen",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "mưa (m)",
+    "meaning_en": "rain",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Schnee",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "tuyết (m)",
+    "meaning_en": "snow",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "das Gewitter",
+    "pos": "noun",
+    "gender": "neuter",
+    "type": "noun",
+    "category": "surrounding",
+    "meaning_vi": "giông bão (n)",
+    "meaning_en": "thunderstorm",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  }
+]

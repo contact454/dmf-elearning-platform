@@ -1,0 +1,366 @@
+[
+  {
+    "word": "Bechergläser",
+    "pos": "noun",
+    "meaning_vi": "Weinglas",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:28:37.069Z"
+  },
+  {
+    "word": "lageret",
+    "pos": "verb",
+    "meaning_vi": "Bier",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:29:49.663Z"
+  },
+  {
+    "word": "Dampforgeln",
+    "pos": "noun",
+    "meaning_vi": "Kaffee",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:30:20.305Z"
+  },
+  {
+    "word": "rodet",
+    "pos": "verb",
+    "meaning_vi": "Kaffee",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:39:41.862Z"
+  },
+  {
+    "word": "Frikadellen",
+    "pos": "noun",
+    "meaning_vi": "Patties",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:51:21.759Z"
+  },
+  {
+    "word": "Rosmarins",
+    "pos": "noun",
+    "meaning_vi": "Dünnflüssiges Getränk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:52:54.083Z"
+  },
+  {
+    "word": "Grappas",
+    "pos": "noun",
+    "meaning_vi": "Sauce",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:53:32.016Z"
+  },
+  {
+    "word": "edelen",
+    "pos": "adj",
+    "meaning_vi": "Leckerei",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:59:29.669Z"
+  },
+  {
+    "word": "Haifisches",
+    "pos": "noun",
+    "meaning_vi": "Fisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:02:04.565Z"
+  },
+  {
+    "word": "Packeis",
+    "pos": "noun",
+    "meaning_vi": "Eis",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:57:53.936Z"
+  },
+  {
+    "word": "Schorf",
+    "pos": "noun",
+    "meaning_vi": "Verwesung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:02:37.346Z"
+  },
+  {
+    "word": "Honigtopfameisen",
+    "pos": "noun",
+    "meaning_vi": "Honig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:20:35.474Z"
+  },
+  {
+    "word": "Muskate",
+    "pos": "noun",
+    "meaning_vi": "Muscheln",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:36:48.155Z"
+  },
+  {
+    "word": "Ablassventile",
+    "pos": "noun",
+    "meaning_vi": "Fenster",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:58:22.338Z"
+  },
+  {
+    "word": "Schlachtungen",
+    "pos": "noun",
+    "meaning_vi": "Fleisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:31:17.196Z"
+  },
+  {
+    "word": "coolere",
+    "pos": "adj",
+    "meaning_vi": "Lecker",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:01:00.382Z"
+  },
+  {
+    "word": "Miseren",
+    "pos": "noun",
+    "meaning_vi": "Nahrung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:09:58.081Z"
+  },
+  {
+    "word": "reifsten",
+    "pos": "adj",
+    "meaning_vi": "Leckeresst",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:13:05.442Z"
+  },
+  {
+    "word": "Grindwale",
+    "pos": "noun",
+    "meaning_vi": "Getreide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:21:40.670Z"
+  },
+  {
+    "word": "mangelst",
+    "pos": "verb",
+    "meaning_vi": "Nahrungsmittelsang",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:41:36.867Z"
+  },
+  {
+    "word": "balsamier",
+    "pos": "verb",
+    "meaning_vi": "ölen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:50:38.961Z"
+  },
+  {
+    "word": "Fruchtwasser",
+    "pos": "noun",
+    "meaning_vi": "Obstwasser",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:50:57.928Z"
+  },
+  {
+    "word": "schimmelst",
+    "pos": "verb",
+    "meaning_vi": "Korrosion",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:54:48.731Z"
+  },
+  {
+    "word": "kompostiere",
+    "pos": "verb",
+    "meaning_vi": "Futter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:26:44.878Z"
+  },
+  {
+    "word": "parfümierten",
+    "pos": "verb",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:49:08.433Z"
+  },
+  {
+    "word": "haschierst",
+    "pos": "verb",
+    "meaning_vi": "Schluck",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:27:55.585Z"
+  },
+  {
+    "word": "verjüngend",
+    "pos": "verb",
+    "meaning_vi": "Ernährung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:05:34.021Z"
+  },
+  {
+    "word": "verjüngte",
+    "pos": "verb",
+    "meaning_vi": "Getränk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:05:41.638Z"
+  },
+  {
+    "word": "erdend",
+    "pos": "verb",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:16:34.885Z"
+  },
+  {
+    "word": "Lavaret",
+    "pos": "noun",
+    "meaning_vi": "Fisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:56:58.148Z"
+  },
+  {
+    "word": "rieft",
+    "pos": "verb",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:07:08.377Z"
+  },
+  {
+    "word": "filterte",
+    "pos": "verb",
+    "meaning_vi": "Nahrung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:41:40.147Z"
+  },
+  {
+    "word": "versteinerte",
+    "pos": "verb",
+    "meaning_vi": "Fleisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:42:50.173Z"
+  },
+  {
+    "word": "wässeret",
+    "pos": "verb",
+    "meaning_vi": "getränktes Getreide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:50:32.452Z"
+  },
+  {
+    "word": "ackernd",
+    "pos": "verb",
+    "meaning_vi": "Korn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:57:18.618Z"
+  },
+  {
+    "word": "schilt",
+    "pos": "verb",
+    "meaning_vi": "Fleisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:07:07.002Z"
+  },
+  {
+    "word": "vermindert",
+    "pos": "adj",
+    "meaning_vi": "Verringerung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:15:48.363Z"
+  },
+  {
+    "word": "nachgaben",
+    "pos": "verb",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:31:11.978Z"
+  },
+  {
+    "word": "Mungbohnen",
+    "pos": "noun",
+    "meaning_vi": "Bohnen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:51:18.462Z"
+  },
+  {
+    "word": "lagret aus",
+    "pos": "verb",
+    "meaning_vi": "Futter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:24:50.519Z"
+  },
+  {
+    "word": "ausgrübest",
+    "pos": "verb",
+    "meaning_vi": "Futter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:31:30.123Z"
+  },
+  {
+    "word": "Wacholderbeere",
+    "pos": "noun",
+    "meaning_vi": "Beere",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:44:14.408Z"
+  },
+  {
+    "word": "Deckungen",
+    "pos": "noun",
+    "meaning_vi": "Vorräte",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:27:10.272Z"
+  },
+  {
+    "word": "Fritüre",
+    "pos": "noun",
+    "meaning_vi": "Frittiertes Gericht",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:32:20.187Z"
+  },
+  {
+    "word": "glutenfrei",
+    "pos": "adj",
+    "meaning_vi": "nahrhaft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T20:59:35.425Z"
+  },
+  {
+    "word": "absteigest",
+    "pos": "verb",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:44:53.997Z"
+  },
+  {
+    "word": "Treibhausgas",
+    "pos": "noun",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:09:43.758Z"
+  },
+  {
+    "word": "wählest",
+    "pos": "verb",
+    "meaning_vi": "Fleisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:18:11.826Z"
+  },
+  {
+    "word": "verfinstre",
+    "pos": "verb",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:09:36.393Z"
+  },
+  {
+    "word": "abholze",
+    "pos": "verb",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:11:29.265Z"
+  },
+  {
+    "word": "brinn",
+    "pos": "verb",
+    "meaning_vi": "Fleisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:20:58.161Z"
+  },
+  {
+    "word": "kentert",
+    "pos": "verb",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:02:37.716Z"
+  }
+]

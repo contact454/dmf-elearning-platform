@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Vocabulary {
+  id          String   @id @default(uuid())
+  word        String   @unique
+  meaning_vi  String
+  level       String   // A1, A2, B1...
+  topic       String?
+  example_de  String?
+  example_vi  String?
+  pos         String?  // noun, verb, adj
+  artikel     String?  // der, die, das (for nouns)
+  plural      String?  // plural form: Äpfel, Häuser
+  gender      String?  // m, f, n (masculine, feminine, neuter)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  progress    UserVocabularyProgress[]
+}
+
+model UserVocabularyProgress {
+  id           String     @id @default(uuid())
+  userId       String
+  vocabId      String
+  vocabulary   Vocabulary @relation(fields: [vocabId], references: [id])
+  status       String     // new, learning, mastered
+  nextReviewAt DateTime?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  @@unique([userId, vocabId])
+}

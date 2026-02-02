@@ -1,0 +1,112 @@
+[
+  {
+    "word": "die Richtung",
+    "pos": "noun",
+    "gender": "feminine",
+    "type": "noun",
+    "category": "orientation",
+    "meaning_vi": "hướng (f)",
+    "meaning_en": "direction",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Eingang",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "orientation",
+    "meaning_vi": "lối vào (m)",
+    "meaning_en": "entrance",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Ausgang",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "orientation",
+    "meaning_vi": "lối ra (m)",
+    "meaning_en": "exit",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "die Straße",
+    "pos": "noun",
+    "gender": "feminine",
+    "type": "noun",
+    "category": "orientation",
+    "meaning_vi": "đường phố (f)",
+    "meaning_en": "street",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Weg",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "orientation",
+    "meaning_vi": "con đường (m)",
+    "meaning_en": "way",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "der Platz",
+    "pos": "noun",
+    "gender": "masculine",
+    "type": "noun",
+    "category": "orientation",
+    "meaning_vi": "quảng trường (m)",
+    "meaning_en": "square",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "rechts",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "orientation",
+    "meaning_vi": "bên phải",
+    "meaning_en": "right",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "links",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "orientation",
+    "meaning_vi": "bên trái",
+    "meaning_en": "left",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "geradeaus",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "orientation",
+    "meaning_vi": "thẳng",
+    "meaning_en": "straight ahead",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "zurück",
+    "pos": "adverb",
+    "gender": "none",
+    "type": "adverb",
+    "category": "orientation",
+    "meaning_vi": "quay lại",
+    "meaning_en": "back",
+    "level": "A1",
+    "source": "CodingFriends + Claude Translation"
+  }
+]

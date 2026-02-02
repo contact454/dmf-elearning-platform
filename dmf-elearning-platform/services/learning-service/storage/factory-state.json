@@ -1,0 +1,12 @@
+{
+  "lastLine": 66000,
+  "timestamp": "2026-02-02T05:13:10.030Z",
+  "stats": {
+    "startedAt": "2026-01-31T16:33:23.146Z",
+    "linesProcessed": 47127,
+    "linesSkipped": 18816,
+    "aiCalls": 56469,
+    "errors": 9488,
+    "checkpoint": 50
+  }
+}

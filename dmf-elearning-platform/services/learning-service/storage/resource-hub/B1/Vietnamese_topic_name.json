@@ -1,0 +1,4559 @@
+[
+  {
+    "word": "Aufruhrs",
+    "pos": "noun",
+    "meaning_vi": "Hội thoại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:05:49.774Z"
+  },
+  {
+    "word": "Augenblickes",
+    "pos": "noun",
+    "meaning_vi": "sight, glance",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:06:02.412Z"
+  },
+  {
+    "word": "Bandwürmer",
+    "pos": "noun",
+    "meaning_vi": "maggot",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:06:25.379Z"
+  },
+  {
+    "word": "Beispiels",
+    "pos": "noun",
+    "meaning_vi": "example",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:06:37.618Z"
+  },
+  {
+    "word": "Assimilationen",
+    "pos": "noun",
+    "meaning_vi": "Assimilation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:07:47.866Z"
+  },
+  {
+    "word": "Blaupausen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:09:45.786Z"
+  },
+  {
+    "word": "Blickes",
+    "pos": "noun",
+    "meaning_vi": "View",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:10:30.706Z"
+  },
+  {
+    "word": "Bonzen",
+    "pos": "noun",
+    "meaning_vi": "Old man",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:10:52.402Z"
+  },
+  {
+    "word": "Bordsteins",
+    "pos": "noun",
+    "meaning_vi": "Border",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:10:59.390Z"
+  },
+  {
+    "word": "Patronen",
+    "pos": "noun",
+    "meaning_vi": "small bullets",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:12:03.219Z"
+  },
+  {
+    "word": "Aalmolche",
+    "pos": "noun",
+    "meaning_vi": "Aloe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:15:07.389Z"
+  },
+  {
+    "word": "Bildpunkts",
+    "pos": "noun",
+    "meaning_vi": "Punkt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:16:49.031Z"
+  },
+  {
+    "word": "Bildpunktes",
+    "pos": "noun",
+    "meaning_vi": "Punkt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:16:50.582Z"
+  },
+  {
+    "word": "Lande",
+    "pos": "noun",
+    "meaning_vi": "đất",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:18:56.593Z"
+  },
+  {
+    "word": "Aversionen",
+    "pos": "noun",
+    "meaning_vi": "Quyếu tố",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:20:58.378Z"
+  },
+  {
+    "word": "Beweisstücke",
+    "pos": "noun",
+    "meaning_vi": "evidence",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:21:21.456Z"
+  },
+  {
+    "word": "Partizips",
+    "pos": "noun",
+    "meaning_vi": "Partizip",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:23:49.724Z"
+  },
+  {
+    "word": "Diskrepanzen",
+    "pos": "noun",
+    "meaning_vi": "chênh lệch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:25:57.833Z"
+  },
+  {
+    "word": "Fallstrickes",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:26:55.900Z"
+  },
+  {
+    "word": "Fallbeils",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:27:17.339Z"
+  },
+  {
+    "word": "Fadenkreuze",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:27:52.318Z"
+  },
+  {
+    "word": "Baracke",
+    "pos": "noun",
+    "meaning_vi": "Barang, Lagerstätte",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:29:07.227Z"
+  },
+  {
+    "word": "Sendung",
+    "pos": "noun",
+    "meaning_vi": "Sự việc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:29:37.926Z"
+  },
+  {
+    "word": "Darmausganges",
+    "pos": "noun",
+    "meaning_vi": "Ausgang",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:31:11.863Z"
+  },
+  {
+    "word": "linearen",
+    "pos": "adj",
+    "meaning_vi": "linh hoạt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:31:43.855Z"
+  },
+  {
+    "word": "resp.",
+    "pos": "adv",
+    "meaning_vi": "bạn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:33:32.481Z"
+  },
+  {
+    "word": "Kretscham",
+    "pos": "noun",
+    "meaning_vi": "đội bóng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:38:31.317Z"
+  },
+  {
+    "word": "Referates",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:43:22.001Z"
+  },
+  {
+    "word": "Raufereien",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:43:37.133Z"
+  },
+  {
+    "word": "Razzien",
+    "pos": "noun",
+    "meaning_vi": "Raid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:44:21.168Z"
+  },
+  {
+    "word": "Abbrüche",
+    "pos": "noun",
+    "meaning_vi": "loại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:47:49.262Z"
+  },
+  {
+    "word": "Zuwachses",
+    "pos": "noun",
+    "meaning_vi": "Wachstum",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:49:11.289Z"
+  },
+  {
+    "word": "Zufluchtsortes",
+    "pos": "noun",
+    "meaning_vi": "Trốn ẩn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:49:30.119Z"
+  },
+  {
+    "word": "Zufluchtsorts",
+    "pos": "noun",
+    "meaning_vi": "safe haven",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:49:31.669Z"
+  },
+  {
+    "word": "Zahnfeen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:51:28.122Z"
+  },
+  {
+    "word": "Überläufers",
+    "pos": "noun",
+    "meaning_vi": "Overrunners",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:57:36.255Z"
+  },
+  {
+    "word": "Absorptionen",
+    "pos": "noun",
+    "meaning_vi": "Sự hấp thụ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T05:59:38.910Z"
+  },
+  {
+    "word": "Brüskierungen",
+    "pos": "noun",
+    "meaning_vi": "Brui",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:00:02.440Z"
+  },
+  {
+    "word": "Stürmers",
+    "pos": "noun",
+    "meaning_vi": "person who disturbs or disrupts",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:03:15.718Z"
+  },
+  {
+    "word": "Steinigungen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:03:18.844Z"
+  },
+  {
+    "word": "s. u.",
+    "pos": "phrase",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:07:27.440Z"
+  },
+  {
+    "word": "Schnarchrallen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:10:49.873Z"
+  },
+  {
+    "word": "Sprengkopfs",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:11:27.800Z"
+  },
+  {
+    "word": "Vorstellung",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:11:32.512Z"
+  },
+  {
+    "word": "Tabakkäfers",
+    "pos": "noun",
+    "meaning_vi": "Cigar beetle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:11:59.214Z"
+  },
+  {
+    "word": "Einbalsamierungen",
+    "pos": "noun",
+    "meaning_vi": "Vietnamization",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:15:33.657Z"
+  },
+  {
+    "word": "Einfaltspinsels",
+    "pos": "noun",
+    "meaning_vi": "người dễ dãi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:15:43.376Z"
+  },
+  {
+    "word": "Tonnagen",
+    "pos": "noun",
+    "meaning_vi": "tonnage",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:16:54.727Z"
+  },
+  {
+    "word": "WBS",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:18:55.512Z"
+  },
+  {
+    "word": "Interpretationen",
+    "pos": "noun",
+    "meaning_vi": "Interpretation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:19:07.728Z"
+  },
+  {
+    "word": "Vormonat",
+    "pos": "noun",
+    "meaning_vi": "Last month",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:21:40.842Z"
+  },
+  {
+    "word": "BK",
+    "pos": "noun",
+    "meaning_vi": "Bánh Kẹo",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:22:04.257Z"
+  },
+  {
+    "word": "Stils",
+    "pos": "noun",
+    "meaning_vi": "Stil",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:23:32.056Z"
+  },
+  {
+    "word": "Lauffeuers",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:24:18.588Z"
+  },
+  {
+    "word": "adäquater",
+    "pos": "adj",
+    "meaning_vi": "được phù hợp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:27:10.517Z"
+  },
+  {
+    "word": "SED",
+    "pos": "name",
+    "meaning_vi": "Sed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:29:32.550Z"
+  },
+  {
+    "word": "belemmert",
+    "pos": "adj",
+    "meaning_vi": "mẹo",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:32:18.143Z"
+  },
+  {
+    "word": "Uhus",
+    "pos": "noun",
+    "meaning_vi": "Hộ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:34:54.589Z"
+  },
+  {
+    "word": "Undinges",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:36:08.494Z"
+  },
+  {
+    "word": "Verlages",
+    "pos": "noun",
+    "meaning_vi": "Verlag",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:40:00.138Z"
+  },
+  {
+    "word": "JGA",
+    "pos": "noun",
+    "meaning_vi": "Giáo",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:42:10.666Z"
+  },
+  {
+    "word": "thailändisch",
+    "pos": "adj",
+    "meaning_vi": "thailändisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:42:37.249Z"
+  },
+  {
+    "word": "distale",
+    "pos": "adj",
+    "meaning_vi": "distant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:44:16.661Z"
+  },
+  {
+    "word": "Oger",
+    "pos": "noun",
+    "meaning_vi": "thần quỷ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:45:24.932Z"
+  },
+  {
+    "word": "ivorisch",
+    "pos": "adj",
+    "meaning_vi": "chinese",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:47:05.251Z"
+  },
+  {
+    "word": "geb.",
+    "pos": "adj",
+    "meaning_vi": "family",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:47:35.324Z"
+  },
+  {
+    "word": "Abschlussprüfung",
+    "pos": "noun",
+    "meaning_vi": "prüfung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:47:36.933Z"
+  },
+  {
+    "word": "Leitkegel",
+    "pos": "noun",
+    "meaning_vi": "Leitfaden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:48:03.820Z"
+  },
+  {
+    "word": "Geweihs",
+    "pos": "noun",
+    "meaning_vi": "công cụ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:48:51.369Z"
+  },
+  {
+    "word": "Abklatsches",
+    "pos": "noun",
+    "meaning_vi": "Replik",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:48:58.096Z"
+  },
+  {
+    "word": "Abklatsche",
+    "pos": "noun",
+    "meaning_vi": "Imitation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:48:59.732Z"
+  },
+  {
+    "word": "Zweisitzers",
+    "pos": "noun",
+    "meaning_vi": "Duo seat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:50:03.751Z"
+  },
+  {
+    "word": "Zwerchfells",
+    "pos": "noun",
+    "meaning_vi": "hut",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:50:05.386Z"
+  },
+  {
+    "word": "Zusammenstöße",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:50:53.963Z"
+  },
+  {
+    "word": "estnisch",
+    "pos": "adj",
+    "meaning_vi": "estnisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:00:15.574Z"
+  },
+  {
+    "word": "patzig",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:01:52.546Z"
+  },
+  {
+    "word": "Kornetts",
+    "pos": "noun",
+    "meaning_vi": "một người đàn ông",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:04:40.641Z"
+  },
+  {
+    "word": "Hackbrettes",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:05:11.500Z"
+  },
+  {
+    "word": "Obergeschosse",
+    "pos": "noun",
+    "meaning_vi": "hệ tầng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:06:47.197Z"
+  },
+  {
+    "word": "Lauben",
+    "pos": "noun",
+    "meaning_vi": "thị trấn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:07:31.737Z"
+  },
+  {
+    "word": "Einwürfe",
+    "pos": "noun",
+    "meaning_vi": "Thử nghiệm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:12:48.778Z"
+  },
+  {
+    "word": "Feuersteins",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:12:52.129Z"
+  },
+  {
+    "word": "Tagtraumes",
+    "pos": "noun",
+    "meaning_vi": "Mơ màng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:15:24.567Z"
+  },
+  {
+    "word": "Teamgeistes",
+    "pos": "noun",
+    "meaning_vi": "Sprit der Mannschaft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:15:43.872Z"
+  },
+  {
+    "word": "Teehauses",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:16:33.743Z"
+  },
+  {
+    "word": "Tenöre",
+    "pos": "noun",
+    "meaning_vi": "Singer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:16:45.838Z"
+  },
+  {
+    "word": "Teilmengen",
+    "pos": "noun",
+    "meaning_vi": "Teilmenge",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:16:49.046Z"
+  },
+  {
+    "word": "Tante-Emma-Läden",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:17:21.362Z"
+  },
+  {
+    "word": "Taschenbuches",
+    "pos": "noun",
+    "meaning_vi": "Handbook",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:18:15.350Z"
+  },
+  {
+    "word": "Tiraden",
+    "pos": "noun",
+    "meaning_vi": "Tiraden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:19:18.072Z"
+  },
+  {
+    "word": "Tobake",
+    "pos": "noun",
+    "meaning_vi": "Thức uống",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:19:29.048Z"
+  },
+  {
+    "word": "Tores",
+    "pos": "noun",
+    "meaning_vi": "đất",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:20:17.451Z"
+  },
+  {
+    "word": "Torwarts",
+    "pos": "noun",
+    "meaning_vi": "Đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:20:46.605Z"
+  },
+  {
+    "word": "Zusammenkunft",
+    "pos": "noun",
+    "meaning_vi": "Treffen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:22:08.753Z"
+  },
+  {
+    "word": "Manövers",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:23:52.423Z"
+  },
+  {
+    "word": "Marders",
+    "pos": "noun",
+    "meaning_vi": "Mẹ rể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:24:03.842Z"
+  },
+  {
+    "word": "Messerspitzen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:24:55.338Z"
+  },
+  {
+    "word": "Verstärkungen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:25:38.649Z"
+  },
+  {
+    "word": "Verschleppungen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:26:07.230Z"
+  },
+  {
+    "word": "Verschreibungen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:26:31.029Z"
+  },
+  {
+    "word": "sagittale",
+    "pos": "adj",
+    "meaning_vi": "sau",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:27:01.078Z"
+  },
+  {
+    "word": "woneben",
+    "pos": "adv",
+    "meaning_vi": "bên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:27:56.203Z"
+  },
+  {
+    "word": "worunter",
+    "pos": "adv",
+    "meaning_vi": "dưới",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:28:00.116Z"
+  },
+  {
+    "word": "zensurieren",
+    "pos": "verb",
+    "meaning_vi": "cấm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:29:29.229Z"
+  },
+  {
+    "word": "Halbmonatsschriften",
+    "pos": "noun",
+    "meaning_vi": "Schriften",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:31:29.360Z"
+  },
+  {
+    "word": "Handbuchs",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:32:08.714Z"
+  },
+  {
+    "word": "Bezüge",
+    "pos": "noun",
+    "meaning_vi": "Beziehungen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:32:52.357Z"
+  },
+  {
+    "word": "Gugelhupfe",
+    "pos": "noun",
+    "meaning_vi": "Vietnamese hot air balloon",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:33:31.406Z"
+  },
+  {
+    "word": "Penunzen",
+    "pos": "noun",
+    "meaning_vi": "Penunzener",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:36:28.379Z"
+  },
+  {
+    "word": "Schmerle",
+    "pos": "noun",
+    "meaning_vi": "tình bạn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:36:38.560Z"
+  },
+  {
+    "word": "Wampen",
+    "pos": "noun",
+    "meaning_vi": "Vampir",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:36:49.486Z"
+  },
+  {
+    "word": "Gesinde",
+    "pos": "noun",
+    "meaning_vi": "Friend, acquaintance",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:41:25.866Z"
+  },
+  {
+    "word": "zweifelhafter",
+    "pos": "adj",
+    "meaning_vi": "nguy nghi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:42:37.584Z"
+  },
+  {
+    "word": "Unregelmäßigkeiten",
+    "pos": "noun",
+    "meaning_vi": "Unregelmäßigkeiten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:45:45.247Z"
+  },
+  {
+    "word": "Lizenznehmers",
+    "pos": "noun",
+    "meaning_vi": "Người được cấp giấy phép",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:54:01.804Z"
+  },
+  {
+    "word": "Ladens",
+    "pos": "noun",
+    "meaning_vi": "Nơi ở",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:54:14.781Z"
+  },
+  {
+    "word": "Hänflings",
+    "pos": "noun",
+    "meaning_vi": "Friend, companion",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:58:23.824Z"
+  },
+  {
+    "word": "kenianisch",
+    "pos": "adj",
+    "meaning_vi": "chinese",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:58:30.627Z"
+  },
+  {
+    "word": "tongaisch",
+    "pos": "adj",
+    "meaning_vi": "Tonal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:59:55.960Z"
+  },
+  {
+    "word": "omanisch",
+    "pos": "adj",
+    "meaning_vi": "Persönlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:00:00.946Z"
+  },
+  {
+    "word": "Renegat",
+    "pos": "noun",
+    "meaning_vi": "người phản bội",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:01:13.621Z"
+  },
+  {
+    "word": "Quartales",
+    "pos": "noun",
+    "meaning_vi": "Quartal, Viertel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:01:32.683Z"
+  },
+  {
+    "word": "Rasuren",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:01:56.366Z"
+  },
+  {
+    "word": "Marschroute",
+    "pos": "noun",
+    "meaning_vi": "quyết định",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:07:19.419Z"
+  },
+  {
+    "word": "Marschrouten",
+    "pos": "noun",
+    "meaning_vi": "Mẹ con",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:07:22.653Z"
+  },
+  {
+    "word": "beleibtesten",
+    "pos": "adj",
+    "meaning_vi": "nghế lòng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:08:24.769Z"
+  },
+  {
+    "word": "atypischer",
+    "pos": "adj",
+    "meaning_vi": "người khác",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:09:56.700Z"
+  },
+  {
+    "word": "Kiele",
+    "pos": "noun",
+    "meaning_vi": "Kiele",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:11:12.521Z"
+  },
+  {
+    "word": "Beschuss",
+    "pos": "noun",
+    "meaning_vi": "hỏa tiễn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:12:39.515Z"
+  },
+  {
+    "word": "Stichwort",
+    "pos": "noun",
+    "meaning_vi": "Kết quả",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:13:21.658Z"
+  },
+  {
+    "word": "kurzfristig",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:13:48.654Z"
+  },
+  {
+    "word": "langfristig",
+    "pos": "adj",
+    "meaning_vi": "trạm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:13:50.306Z"
+  },
+  {
+    "word": "iahen",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:16:15.598Z"
+  },
+  {
+    "word": "rektalen",
+    "pos": "adj",
+    "meaning_vi": "Rectal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:22:05.123Z"
+  },
+  {
+    "word": "Wallen",
+    "pos": "noun",
+    "meaning_vi": "market",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:23:32.106Z"
+  },
+  {
+    "word": "Abakas",
+    "pos": "noun",
+    "meaning_vi": "Vietnamese word for a type of fish",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:26:30.329Z"
+  },
+  {
+    "word": "Bimses",
+    "pos": "noun",
+    "meaning_vi": "Friend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:26:36.120Z"
+  },
+  {
+    "word": "Nachtjäger",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:27:47.722Z"
+  },
+  {
+    "word": "Kurses",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:29:56.010Z"
+  },
+  {
+    "word": "Arien",
+    "pos": "noun",
+    "meaning_vi": "Hơi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:30:05.746Z"
+  },
+  {
+    "word": "Storno",
+    "pos": "noun",
+    "meaning_vi": "Cancellation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:32:17.627Z"
+  },
+  {
+    "word": "nix da",
+    "pos": "intj",
+    "meaning_vi": "nothing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:38:50.983Z"
+  },
+  {
+    "word": "Kollationierung",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:40:46.059Z"
+  },
+  {
+    "word": "Klos",
+    "pos": "noun",
+    "meaning_vi": "tập",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:41:18.986Z"
+  },
+  {
+    "word": "Malzes",
+    "pos": "noun",
+    "meaning_vi": "Salt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:41:20.530Z"
+  },
+  {
+    "word": "putatives",
+    "pos": "adj",
+    "meaning_vi": "Thực tế",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:42:28.940Z"
+  },
+  {
+    "word": "griente",
+    "pos": "verb",
+    "meaning_vi": "thay đổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:43:16.119Z"
+  },
+  {
+    "word": "Pediküren",
+    "pos": "noun",
+    "meaning_vi": "Foot care",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:44:34.350Z"
+  },
+  {
+    "word": "drall",
+    "pos": "adj",
+    "meaning_vi": "trung bình",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:45:10.384Z"
+  },
+  {
+    "word": "Plattitüden",
+    "pos": "noun",
+    "meaning_vi": "Plattitüden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:45:29.630Z"
+  },
+  {
+    "word": "Portale",
+    "pos": "noun",
+    "meaning_vi": "Cổng vào",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:46:05.862Z"
+  },
+  {
+    "word": "Rohrbomben",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:46:48.928Z"
+  },
+  {
+    "word": "kurzwellig",
+    "pos": "adj",
+    "meaning_vi": "short",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:50:39.891Z"
+  },
+  {
+    "word": "Fase",
+    "pos": "noun",
+    "meaning_vi": "phased",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:52:27.646Z"
+  },
+  {
+    "word": "Balancen",
+    "pos": "noun",
+    "meaning_vi": "đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:55:04.820Z"
+  },
+  {
+    "word": "Bazillen",
+    "pos": "noun",
+    "meaning_vi": "cơn gió",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:55:18.610Z"
+  },
+  {
+    "word": "Bombardierungen",
+    "pos": "noun",
+    "meaning_vi": "Vietnamization",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:56:15.239Z"
+  },
+  {
+    "word": "Broschen",
+    "pos": "noun",
+    "meaning_vi": "small amount",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:56:46.245Z"
+  },
+  {
+    "word": "Dauerwellen",
+    "pos": "noun",
+    "meaning_vi": "Dauerwellen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:58:25.659Z"
+  },
+  {
+    "word": "Drachmen",
+    "pos": "noun",
+    "meaning_vi": "Đồng tiền",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:00:00.304Z"
+  },
+  {
+    "word": "Gemahlinnen",
+    "pos": "noun",
+    "meaning_vi": "wife",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:01:58.793Z"
+  },
+  {
+    "word": "Glatzköpfe",
+    "pos": "noun",
+    "meaning_vi": "Glatzköpfe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:02:13.603Z"
+  },
+  {
+    "word": "Gummizellen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:02:58.258Z"
+  },
+  {
+    "word": "Gewalttätigkeiten",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:03:19.453Z"
+  },
+  {
+    "word": "Internate",
+    "pos": "noun",
+    "meaning_vi": "Internat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:05:49.763Z"
+  },
+  {
+    "word": "Kollektoren",
+    "pos": "noun",
+    "meaning_vi": "Collectors",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:07:30.219Z"
+  },
+  {
+    "word": "Konvertierungen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:07:44.224Z"
+  },
+  {
+    "word": "Kontrolleure",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:07:48.918Z"
+  },
+  {
+    "word": "Kornkreise",
+    "pos": "noun",
+    "meaning_vi": "circular fields",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:08:08.062Z"
+  },
+  {
+    "word": "Bravuren",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:10:25.444Z"
+  },
+  {
+    "word": "invers",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:11:16.361Z"
+  },
+  {
+    "word": "Zysten",
+    "pos": "noun",
+    "meaning_vi": "Cyst",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:14:37.308Z"
+  },
+  {
+    "word": "Abschlüsse",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:18:07.284Z"
+  },
+  {
+    "word": "Abschnitte",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:18:13.441Z"
+  },
+  {
+    "word": "Erfüllungen",
+    "pos": "noun",
+    "meaning_vi": "Dịch vụ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:21:00.367Z"
+  },
+  {
+    "word": "Gondeln",
+    "pos": "noun",
+    "meaning_vi": "đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:23:19.207Z"
+  },
+  {
+    "word": "Kusinen",
+    "pos": "noun",
+    "meaning_vi": "Cousin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:24:28.942Z"
+  },
+  {
+    "word": "Logen",
+    "pos": "noun",
+    "meaning_vi": "gathering place",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:26:29.064Z"
+  },
+  {
+    "word": "Berichtigungen",
+    "pos": "noun",
+    "meaning_vi": "Sửa đổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:27:24.367Z"
+  },
+  {
+    "word": "Leitzahlen",
+    "pos": "noun",
+    "meaning_vi": "Leitzahlen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:28:47.260Z"
+  },
+  {
+    "word": "Lichtjahres",
+    "pos": "noun",
+    "meaning_vi": "Lịch năm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:29:44.674Z"
+  },
+  {
+    "word": "Vorboten",
+    "pos": "noun",
+    "meaning_vi": "messenger, herald",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:30:06.745Z"
+  },
+  {
+    "word": "Schießereien",
+    "pos": "noun",
+    "meaning_vi": "mê hoặc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:31:04.382Z"
+  },
+  {
+    "word": "Schlossereien",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:32:16.310Z"
+  },
+  {
+    "word": "Schrumpfköpfe",
+    "pos": "noun",
+    "meaning_vi": "small heads",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:32:32.619Z"
+  },
+  {
+    "word": "Schweinereien",
+    "pos": "noun",
+    "meaning_vi": "Quá khứ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:32:46.712Z"
+  },
+  {
+    "word": "Kolosse",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:38:56.534Z"
+  },
+  {
+    "word": "Kommata",
+    "pos": "noun",
+    "meaning_vi": "Pause",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:38:58.069Z"
+  },
+  {
+    "word": "Inderinnen",
+    "pos": "noun",
+    "meaning_vi": "Sisters",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:41:30.932Z"
+  },
+  {
+    "word": "Kreuzverhöre",
+    "pos": "noun",
+    "meaning_vi": "Kết quả",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:41:44.082Z"
+  },
+  {
+    "word": "Kehlen",
+    "pos": "noun",
+    "meaning_vi": "Thở",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:42:02.236Z"
+  },
+  {
+    "word": "Revolten",
+    "pos": "noun",
+    "meaning_vi": "tự do",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:44:03.346Z"
+  },
+  {
+    "word": "Aspie",
+    "pos": "noun",
+    "meaning_vi": "Individual with autism",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:44:34.536Z"
+  },
+  {
+    "word": "Einsätze",
+    "pos": "noun",
+    "meaning_vi": "tổ chức",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:44:46.475Z"
+  },
+  {
+    "word": "Leierschwänze",
+    "pos": "noun",
+    "meaning_vi": "Lei",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:45:11.488Z"
+  },
+  {
+    "word": "Cousinen",
+    "pos": "noun",
+    "meaning_vi": "Cousins",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:45:17.781Z"
+  },
+  {
+    "word": "Fassungen",
+    "pos": "noun",
+    "meaning_vi": "versions",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:45:39.026Z"
+  },
+  {
+    "word": "Kampfeinsätze",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:53:10.184Z"
+  },
+  {
+    "word": "Misserfolge",
+    "pos": "noun",
+    "meaning_vi": "Thất bại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:54:13.147Z"
+  },
+  {
+    "word": "silbisch",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:56:15.340Z"
+  },
+  {
+    "word": "Störenfriede",
+    "pos": "noun",
+    "meaning_vi": "người gây rối",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:58:01.928Z"
+  },
+  {
+    "word": "Spucknäpfe",
+    "pos": "noun",
+    "meaning_vi": "spit cup",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:58:40.771Z"
+  },
+  {
+    "word": "Steigerungen",
+    "pos": "noun",
+    "meaning_vi": "Tăng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T09:59:25.478Z"
+  },
+  {
+    "word": "Spruchbänder",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:02:45.735Z"
+  },
+  {
+    "word": "Stillstände",
+    "pos": "noun",
+    "meaning_vi": "Thời gian",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:02:52.003Z"
+  },
+  {
+    "word": "Suffixe",
+    "pos": "noun",
+    "meaning_vi": "Suffixe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:02:58.484Z"
+  },
+  {
+    "word": "Schoten",
+    "pos": "noun",
+    "meaning_vi": "chicken",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:03:27.942Z"
+  },
+  {
+    "word": "ratsamsten",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:06:16.164Z"
+  },
+  {
+    "word": "Betonungen",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:09:17.415Z"
+  },
+  {
+    "word": "Talwege",
+    "pos": "noun",
+    "meaning_vi": "Way, path",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:10:34.787Z"
+  },
+  {
+    "word": "Brennweiten",
+    "pos": "noun",
+    "meaning_vi": "Quảng trường",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:10:56.161Z"
+  },
+  {
+    "word": "Dummejungenstreiche",
+    "pos": "noun",
+    "meaning_vi": "Tricks of young fools",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:12:13.366Z"
+  },
+  {
+    "word": "Monom",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:15:16.931Z"
+  },
+  {
+    "word": "Knackarsch",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:16:33.111Z"
+  },
+  {
+    "word": "Piken",
+    "pos": "noun",
+    "meaning_vi": "Piken means 'axe' in Vietnamese",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:20:34.909Z"
+  },
+  {
+    "word": "Prospekte",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:20:50.144Z"
+  },
+  {
+    "word": "Stallburschen",
+    "pos": "noun",
+    "meaning_vi": "cousin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:22:10.252Z"
+  },
+  {
+    "word": "meldetest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:24:20.462Z"
+  },
+  {
+    "word": "zappelet",
+    "pos": "verb",
+    "meaning_vi": "đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:26:54.888Z"
+  },
+  {
+    "word": "googelest",
+    "pos": "verb",
+    "meaning_vi": "search",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:33:12.638Z"
+  },
+  {
+    "word": "pinkelst",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:34:12.234Z"
+  },
+  {
+    "word": "schlafwandeltest",
+    "pos": "verb",
+    "meaning_vi": "test",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:35:51.487Z"
+  },
+  {
+    "word": "tüfteltest",
+    "pos": "verb",
+    "meaning_vi": "test",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:37:27.222Z"
+  },
+  {
+    "word": "jodele",
+    "pos": "verb",
+    "meaning_vi": "to play",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:38:53.774Z"
+  },
+  {
+    "word": "Zehennagel",
+    "pos": "noun",
+    "meaning_vi": "nail",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:44:09.345Z"
+  },
+  {
+    "word": "Bakschisch",
+    "pos": "noun",
+    "meaning_vi": "Compensation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:44:21.580Z"
+  },
+  {
+    "word": "sollend",
+    "pos": "verb",
+    "meaning_vi": "một",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:46:19.097Z"
+  },
+  {
+    "word": "PAK",
+    "pos": "noun",
+    "meaning_vi": "Thực phẩm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:46:43.302Z"
+  },
+  {
+    "word": "wackele",
+    "pos": "verb",
+    "meaning_vi": "đập nát",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:49:51.634Z"
+  },
+  {
+    "word": "Karbunkel",
+    "pos": "noun",
+    "meaning_vi": "Hump",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:50:19.435Z"
+  },
+  {
+    "word": "Füllhörner",
+    "pos": "noun",
+    "meaning_vi": "Fill horn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:52:42.025Z"
+  },
+  {
+    "word": "Notfalles",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:53:29.777Z"
+  },
+  {
+    "word": "nebelet",
+    "pos": "verb",
+    "meaning_vi": "tìm hiểu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:55:40.149Z"
+  },
+  {
+    "word": "regeltest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T10:56:37.508Z"
+  },
+  {
+    "word": "legier",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:00:20.765Z"
+  },
+  {
+    "word": "trommlest",
+    "pos": "verb",
+    "meaning_vi": "to hum or make a low noise",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:00:38.515Z"
+  },
+  {
+    "word": "dopten",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:04:44.929Z"
+  },
+  {
+    "word": "zitiertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:08:45.371Z"
+  },
+  {
+    "word": "zitiertet",
+    "pos": "verb",
+    "meaning_vi": "được trích dẫn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:08:49.135Z"
+  },
+  {
+    "word": "koexistiert",
+    "pos": "verb",
+    "meaning_vi": "exist",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:12:08.028Z"
+  },
+  {
+    "word": "migriertet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:13:42.494Z"
+  },
+  {
+    "word": "jongliert",
+    "pos": "verb",
+    "meaning_vi": "trò chơi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:14:06.474Z"
+  },
+  {
+    "word": "massakriert",
+    "pos": "verb",
+    "meaning_vi": "biệt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:15:30.292Z"
+  },
+  {
+    "word": "beabsichtigtest",
+    "pos": "verb",
+    "meaning_vi": "planned",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:15:57.152Z"
+  },
+  {
+    "word": "beabsichtigten",
+    "pos": "verb",
+    "meaning_vi": "planned",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:15:58.714Z"
+  },
+  {
+    "word": "revoltiertet",
+    "pos": "verb",
+    "meaning_vi": "đổ ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:17:40.651Z"
+  },
+  {
+    "word": "subventionierte",
+    "pos": "verb",
+    "meaning_vi": "được hỗ trợ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:19:06.840Z"
+  },
+  {
+    "word": "subventioniertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:19:08.394Z"
+  },
+  {
+    "word": "subventionieret",
+    "pos": "verb",
+    "meaning_vi": "subventionieren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:19:14.735Z"
+  },
+  {
+    "word": "alarmiertet",
+    "pos": "verb",
+    "meaning_vi": "được cảnh báo",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:21:27.819Z"
+  },
+  {
+    "word": "untersuchtet",
+    "pos": "verb",
+    "meaning_vi": "đã kiểm tra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:22:37.254Z"
+  },
+  {
+    "word": "befragtet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:22:54.012Z"
+  },
+  {
+    "word": "verteiltet",
+    "pos": "verb",
+    "meaning_vi": "bán",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:23:29.485Z"
+  },
+  {
+    "word": "investiertest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:24:52.700Z"
+  },
+  {
+    "word": "investieret",
+    "pos": "verb",
+    "meaning_vi": "đầu tư",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:24:58.297Z"
+  },
+  {
+    "word": "beaufsichtigte",
+    "pos": "verb",
+    "meaning_vi": "trông coi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:28:53.061Z"
+  },
+  {
+    "word": "symbolisierten",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:30:52.318Z"
+  },
+  {
+    "word": "tagträumtest",
+    "pos": "verb",
+    "meaning_vi": "test dream",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:31:09.731Z"
+  },
+  {
+    "word": "plantschtet",
+    "pos": "verb",
+    "meaning_vi": "phát sinh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:32:04.086Z"
+  },
+  {
+    "word": "zensiertest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:32:56.670Z"
+  },
+  {
+    "word": "zensierten",
+    "pos": "verb",
+    "meaning_vi": "to censor",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:32:58.266Z"
+  },
+  {
+    "word": "taxierest",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:36:13.133Z"
+  },
+  {
+    "word": "modifizierte",
+    "pos": "verb",
+    "meaning_vi": "chuyển đổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:37:50.453Z"
+  },
+  {
+    "word": "entschuldigtest",
+    "pos": "verb",
+    "meaning_vi": "mời",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:39:03.053Z"
+  },
+  {
+    "word": "kanalisiere",
+    "pos": "verb",
+    "meaning_vi": "đóng gói",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:39:33.292Z"
+  },
+  {
+    "word": "kanalisierten",
+    "pos": "verb",
+    "meaning_vi": "chịu đựng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:39:39.581Z"
+  },
+  {
+    "word": "standardisieret",
+    "pos": "verb",
+    "meaning_vi": "sử dụng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:41:58.569Z"
+  },
+  {
+    "word": "personifiziere",
+    "pos": "verb",
+    "meaning_vi": "become like",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:42:04.902Z"
+  },
+  {
+    "word": "eskalierst",
+    "pos": "verb",
+    "meaning_vi": "tăng lên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:43:15.327Z"
+  },
+  {
+    "word": "patrouillierst",
+    "pos": "verb",
+    "meaning_vi": "trải nghiệm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:46:47.209Z"
+  },
+  {
+    "word": "porträtiertet",
+    "pos": "verb",
+    "meaning_vi": "tranh vẽ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:47:12.736Z"
+  },
+  {
+    "word": "brüskiert",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:50:35.204Z"
+  },
+  {
+    "word": "engagieret",
+    "pos": "verb",
+    "meaning_vi": "tranh luận",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:51:24.140Z"
+  },
+  {
+    "word": "chiffriert",
+    "pos": "verb",
+    "meaning_vi": "chiffriert",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:51:41.459Z"
+  },
+  {
+    "word": "chiffrierte",
+    "pos": "verb",
+    "meaning_vi": "chiffriert",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:51:47.544Z"
+  },
+  {
+    "word": "arrangiertet",
+    "pos": "verb",
+    "meaning_vi": "đặt hàng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:52:29.051Z"
+  },
+  {
+    "word": "entkriminalisiert",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:56:06.292Z"
+  },
+  {
+    "word": "entkriminalisieret",
+    "pos": "verb",
+    "meaning_vi": "entkriminalisieren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:56:20.922Z"
+  },
+  {
+    "word": "kriminalisiertest",
+    "pos": "verb",
+    "meaning_vi": "test",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:56:32.245Z"
+  },
+  {
+    "word": "lizenzieret",
+    "pos": "verb",
+    "meaning_vi": "phát triển",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:57:38.302Z"
+  },
+  {
+    "word": "torpedierend",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:58:12.781Z"
+  },
+  {
+    "word": "torpedierten",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:58:23.464Z"
+  },
+  {
+    "word": "gezischt",
+    "pos": "verb",
+    "meaning_vi": "talk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T11:59:22.591Z"
+  },
+  {
+    "word": "abonniert",
+    "pos": "verb",
+    "meaning_vi": "được nhận",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:04:15.408Z"
+  },
+  {
+    "word": "akkreditierest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:05:00.800Z"
+  },
+  {
+    "word": "akkreditieret",
+    "pos": "verb",
+    "meaning_vi": "tôi tín nhiệm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:05:02.404Z"
+  },
+  {
+    "word": "banalisierte",
+    "pos": "verb",
+    "meaning_vi": "bản thân",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:07:29.815Z"
+  },
+  {
+    "word": "beglückwünsche",
+    "pos": "verb",
+    "meaning_vi": "chúc mừng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:08:17.201Z"
+  },
+  {
+    "word": "betankst",
+    "pos": "verb",
+    "meaning_vi": "than",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:10:00.219Z"
+  },
+  {
+    "word": "betankte",
+    "pos": "verb",
+    "meaning_vi": "đã đến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:10:01.783Z"
+  },
+  {
+    "word": "biwakiert",
+    "pos": "verb",
+    "meaning_vi": "biwakiert",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:10:49.627Z"
+  },
+  {
+    "word": "biwakierten",
+    "pos": "verb",
+    "meaning_vi": "biến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:10:58.455Z"
+  },
+  {
+    "word": "blickest",
+    "pos": "verb",
+    "meaning_vi": "đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:11:17.914Z"
+  },
+  {
+    "word": "dekoriertet",
+    "pos": "verb",
+    "meaning_vi": "mặc trang phục",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:13:31.976Z"
+  },
+  {
+    "word": "diszipliniertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:15:28.822Z"
+  },
+  {
+    "word": "diversifizierst",
+    "pos": "verb",
+    "meaning_vi": "to diversify",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:15:44.052Z"
+  },
+  {
+    "word": "diversifizierten",
+    "pos": "verb",
+    "meaning_vi": "đồng nhất",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:15:49.332Z"
+  },
+  {
+    "word": "diversifizierest",
+    "pos": "verb",
+    "meaning_vi": "diversify",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:15:52.385Z"
+  },
+  {
+    "word": "entheiligest",
+    "pos": "verb",
+    "meaning_vi": "to purify",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:18:10.352Z"
+  },
+  {
+    "word": "erreichtest",
+    "pos": "verb",
+    "meaning_vi": "đã đạt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:19:54.775Z"
+  },
+  {
+    "word": "erwägtet",
+    "pos": "verb",
+    "meaning_vi": "thực hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:20:16.169Z"
+  },
+  {
+    "word": "erzeugtest",
+    "pos": "verb",
+    "meaning_vi": "test",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:20:51.109Z"
+  },
+  {
+    "word": "etabliert",
+    "pos": "verb",
+    "meaning_vi": "đã thiết lập",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:21:21.225Z"
+  },
+  {
+    "word": "haschiertet",
+    "pos": "verb",
+    "meaning_vi": "tập trung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:28:02.407Z"
+  },
+  {
+    "word": "haschierest",
+    "pos": "verb",
+    "meaning_vi": "hashish",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:28:03.971Z"
+  },
+  {
+    "word": "illustriertest",
+    "pos": "verb",
+    "meaning_vi": "được khen ngợi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:28:33.372Z"
+  },
+  {
+    "word": "imprägnierend",
+    "pos": "verb",
+    "meaning_vi": "nourishing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:28:59.043Z"
+  },
+  {
+    "word": "indoktrinierten",
+    "pos": "verb",
+    "meaning_vi": "to indoctrinate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:29:46.438Z"
+  },
+  {
+    "word": "indoktriniertet",
+    "pos": "verb",
+    "meaning_vi": "truyền đạt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:29:48.007Z"
+  },
+  {
+    "word": "inspiziert",
+    "pos": "verb",
+    "meaning_vi": "inspect",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:31:07.196Z"
+  },
+  {
+    "word": "inszeniert",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:31:26.751Z"
+  },
+  {
+    "word": "inszenieret",
+    "pos": "verb",
+    "meaning_vi": "szenieren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:31:40.295Z"
+  },
+  {
+    "word": "integriertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:31:53.368Z"
+  },
+  {
+    "word": "interpoliert",
+    "pos": "verb",
+    "meaning_vi": "to fill in",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:32:02.697Z"
+  },
+  {
+    "word": "interpolierten",
+    "pos": "verb",
+    "meaning_vi": "to fill in",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:32:13.365Z"
+  },
+  {
+    "word": "kandidierend",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:32:53.417Z"
+  },
+  {
+    "word": "kastrierten",
+    "pos": "verb",
+    "meaning_vi": "đã cắt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:33:25.160Z"
+  },
+  {
+    "word": "kategorisierte",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:33:56.834Z"
+  },
+  {
+    "word": "kategorisierest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:34:03.604Z"
+  },
+  {
+    "word": "kolorieret",
+    "pos": "verb",
+    "meaning_vi": "draw",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:35:32.348Z"
+  },
+  {
+    "word": "kolportiert",
+    "pos": "verb",
+    "meaning_vi": "truyền đạt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:35:37.257Z"
+  },
+  {
+    "word": "konfisziertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:37:11.166Z"
+  },
+  {
+    "word": "konfisziertet",
+    "pos": "verb",
+    "meaning_vi": "đã chiếm đoạt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:37:14.323Z"
+  },
+  {
+    "word": "kontrollierte",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:37:58.337Z"
+  },
+  {
+    "word": "kontrollieret",
+    "pos": "verb",
+    "meaning_vi": "tránh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:38:06.237Z"
+  },
+  {
+    "word": "lanciert",
+    "pos": "verb",
+    "meaning_vi": "đã bắt đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:39:55.954Z"
+  },
+  {
+    "word": "moderiertet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:42:01.344Z"
+  },
+  {
+    "word": "nivelliert",
+    "pos": "verb",
+    "meaning_vi": "Viet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:43:29.608Z"
+  },
+  {
+    "word": "nivellierten",
+    "pos": "verb",
+    "meaning_vi": "to equalize",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:43:38.802Z"
+  },
+  {
+    "word": "observierest",
+    "pos": "verb",
+    "meaning_vi": "beobachten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:44:16.620Z"
+  },
+  {
+    "word": "parkettiere",
+    "pos": "verb",
+    "meaning_vi": "to decorate with carpet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:46:22.702Z"
+  },
+  {
+    "word": "perfektionierst",
+    "pos": "verb",
+    "meaning_vi": "tiến hành",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:47:00.253Z"
+  },
+  {
+    "word": "pipettiert",
+    "pos": "verb",
+    "meaning_vi": "đưa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:47:29.078Z"
+  },
+  {
+    "word": "pipettierte",
+    "pos": "verb",
+    "meaning_vi": "to decorate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:47:35.649Z"
+  },
+  {
+    "word": "pipettierten",
+    "pos": "verb",
+    "meaning_vi": "truyền",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:47:38.574Z"
+  },
+  {
+    "word": "postulierten",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:48:50.747Z"
+  },
+  {
+    "word": "prophezeit",
+    "pos": "verb",
+    "meaning_vi": "tôi dự đoán",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:50:27.983Z"
+  },
+  {
+    "word": "prophezeiet",
+    "pos": "verb",
+    "meaning_vi": "đoán",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:50:43.418Z"
+  },
+  {
+    "word": "recherchierest",
+    "pos": "verb",
+    "meaning_vi": "search",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:53:18.060Z"
+  },
+  {
+    "word": "registrieret",
+    "pos": "verb",
+    "meaning_vi": "đăng ký",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:54:30.489Z"
+  },
+  {
+    "word": "rekrutierten",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:55:19.391Z"
+  },
+  {
+    "word": "rekrutierest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:55:22.498Z"
+  },
+  {
+    "word": "schikaniert",
+    "pos": "verb",
+    "meaning_vi": "treat, serve",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:57:38.717Z"
+  },
+  {
+    "word": "schikanierte",
+    "pos": "verb",
+    "meaning_vi": "được đối xử",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:57:43.239Z"
+  },
+  {
+    "word": "tendierten",
+    "pos": "verb",
+    "meaning_vi": "đã tender",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:01:25.084Z"
+  },
+  {
+    "word": "versaust",
+    "pos": "verb",
+    "meaning_vi": "to waste",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:06:10.742Z"
+  },
+  {
+    "word": "verschleppet",
+    "pos": "verb",
+    "meaning_vi": "trả đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:06:36.788Z"
+  },
+  {
+    "word": "geziert",
+    "pos": "adj",
+    "meaning_vi": "đã cố định",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:07:21.137Z"
+  },
+  {
+    "word": "eierlegend",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:09:12.634Z"
+  },
+  {
+    "word": "basierten",
+    "pos": "verb",
+    "meaning_vi": "được dựa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:10:34.870Z"
+  },
+  {
+    "word": "basiertet",
+    "pos": "verb",
+    "meaning_vi": "được dựa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:10:36.439Z"
+  },
+  {
+    "word": "suchten",
+    "pos": "verb",
+    "meaning_vi": "tìm kiếm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:11:46.293Z"
+  },
+  {
+    "word": "kritzeltest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:12:48.033Z"
+  },
+  {
+    "word": "entwaffnest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:16:26.684Z"
+  },
+  {
+    "word": "eröffnetest",
+    "pos": "verb",
+    "meaning_vi": "open",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:16:59.350Z"
+  },
+  {
+    "word": "eröffnetet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:17:02.590Z"
+  },
+  {
+    "word": "verheiratetest",
+    "pos": "verb",
+    "meaning_vi": "get married",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:19:50.217Z"
+  },
+  {
+    "word": "Jonglage",
+    "pos": "noun",
+    "meaning_vi": "Jonglage",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:23:11.036Z"
+  },
+  {
+    "word": "identifizierte",
+    "pos": "verb",
+    "meaning_vi": "đã nhận ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:29:23.672Z"
+  },
+  {
+    "word": "Einzahl",
+    "pos": "noun",
+    "meaning_vi": "Zahlung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:30:28.971Z"
+  },
+  {
+    "word": "punktetest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:31:19.204Z"
+  },
+  {
+    "word": "Bosse",
+    "pos": "noun",
+    "meaning_vi": "đồng phục",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:32:08.830Z"
+  },
+  {
+    "word": "Waalkes",
+    "pos": "name",
+    "meaning_vi": "River",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:33:14.166Z"
+  },
+  {
+    "word": "geglommen",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:38:07.099Z"
+  },
+  {
+    "word": "Faltblatt",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:46:37.816Z"
+  },
+  {
+    "word": "Notstände",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:52:06.572Z"
+  },
+  {
+    "word": "gebalkt",
+    "pos": "adj",
+    "meaning_vi": "bất bình",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:56:45.532Z"
+  },
+  {
+    "word": "likten",
+    "pos": "verb",
+    "meaning_vi": "to like",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T13:58:28.337Z"
+  },
+  {
+    "word": "zusammenschlösse",
+    "pos": "verb",
+    "meaning_vi": "sửa chữa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:00:06.266Z"
+  },
+  {
+    "word": "erfährt",
+    "pos": "verb",
+    "meaning_vi": "làm việc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:07:21.182Z"
+  },
+  {
+    "word": "erführest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:07:26.276Z"
+  },
+  {
+    "word": "abflössest",
+    "pos": "verb",
+    "meaning_vi": "loại bỏ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:08:18.370Z"
+  },
+  {
+    "word": "vorstellst",
+    "pos": "verb",
+    "meaning_vi": "present",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:10:34.140Z"
+  },
+  {
+    "word": "stellten auf",
+    "pos": "verb",
+    "meaning_vi": "put on",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:14:23.884Z"
+  },
+  {
+    "word": "beließen",
+    "pos": "verb",
+    "meaning_vi": "thể hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:26:15.252Z"
+  },
+  {
+    "word": "anmachten",
+    "pos": "verb",
+    "meaning_vi": "được phép",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:29:24.342Z"
+  },
+  {
+    "word": "anmache",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:29:31.127Z"
+  },
+  {
+    "word": "trätest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:32:28.571Z"
+  },
+  {
+    "word": "träte",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:32:30.115Z"
+  },
+  {
+    "word": "entziffertet",
+    "pos": "verb",
+    "meaning_vi": "có nghĩa là",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:35:08.163Z"
+  },
+  {
+    "word": "entziffret",
+    "pos": "verb",
+    "meaning_vi": "mở khóa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:35:14.417Z"
+  },
+  {
+    "word": "entzifferten",
+    "pos": "verb",
+    "meaning_vi": "decipher",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:35:26.344Z"
+  },
+  {
+    "word": "entzifferte",
+    "pos": "verb",
+    "meaning_vi": "ciphertext",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:35:27.913Z"
+  },
+  {
+    "word": "legest auf",
+    "pos": "verb",
+    "meaning_vi": "đọc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:44:09.393Z"
+  },
+  {
+    "word": "eingeholt",
+    "pos": "verb",
+    "meaning_vi": "đã thu thập",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:45:31.087Z"
+  },
+  {
+    "word": "bewerkstelligt",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:48:35.434Z"
+  },
+  {
+    "word": "schottertest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:50:55.403Z"
+  },
+  {
+    "word": "erweitertest",
+    "pos": "verb",
+    "meaning_vi": "phát triển",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:51:42.380Z"
+  },
+  {
+    "word": "wetteifret",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:58:10.533Z"
+  },
+  {
+    "word": "wetteiferte",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:58:14.919Z"
+  },
+  {
+    "word": "ersteigerten",
+    "pos": "verb",
+    "meaning_vi": "đã mua",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:00:22.966Z"
+  },
+  {
+    "word": "anriefest",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:00:50.245Z"
+  },
+  {
+    "word": "friemele",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:02:19.903Z"
+  },
+  {
+    "word": "manifestere",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:03:14.658Z"
+  },
+  {
+    "word": "bereitest zu",
+    "pos": "verb",
+    "meaning_vi": "get ready",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:04:32.713Z"
+  },
+  {
+    "word": "zuhörest",
+    "pos": "verb",
+    "meaning_vi": "hören",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:06:27.438Z"
+  },
+  {
+    "word": "auslöste",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:07:34.149Z"
+  },
+  {
+    "word": "bauet ab",
+    "pos": "verb",
+    "meaning_vi": "eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:09:04.064Z"
+  },
+  {
+    "word": "sähet aus",
+    "pos": "verb",
+    "meaning_vi": "go out",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:11:01.508Z"
+  },
+  {
+    "word": "versprächet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:12:01.905Z"
+  },
+  {
+    "word": "sprächet aus",
+    "pos": "verb",
+    "meaning_vi": "talk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:13:25.857Z"
+  },
+  {
+    "word": "aussprachen",
+    "pos": "verb",
+    "meaning_vi": "to speak",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:13:32.769Z"
+  },
+  {
+    "word": "spräche aus",
+    "pos": "verb",
+    "meaning_vi": "đã nói",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:14:03.955Z"
+  },
+  {
+    "word": "weigere",
+    "pos": "verb",
+    "meaning_vi": "Từ từ chối",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:16:06.062Z"
+  },
+  {
+    "word": "eingreifst",
+    "pos": "verb",
+    "meaning_vi": "đánh vào",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:16:31.006Z"
+  },
+  {
+    "word": "greifst ein",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:16:32.606Z"
+  },
+  {
+    "word": "eingriffen",
+    "pos": "verb",
+    "meaning_vi": "đánh cược",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:16:50.524Z"
+  },
+  {
+    "word": "griffest ein",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:16:55.233Z"
+  },
+  {
+    "word": "eingreifet",
+    "pos": "verb",
+    "meaning_vi": "đưa vào",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:16:56.856Z"
+  },
+  {
+    "word": "zuschlüge",
+    "pos": "verb",
+    "meaning_vi": "đồng hành, đi cùng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:17:30.199Z"
+  },
+  {
+    "word": "zuschlüget",
+    "pos": "verb",
+    "meaning_vi": "sau",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:17:48.315Z"
+  },
+  {
+    "word": "angabst",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:27:43.861Z"
+  },
+  {
+    "word": "gebest aus",
+    "pos": "verb",
+    "meaning_vi": "request",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:29:31.336Z"
+  },
+  {
+    "word": "eingebest",
+    "pos": "verb",
+    "meaning_vi": "gửi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:30:07.878Z"
+  },
+  {
+    "word": "vorgabst",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:32:42.432Z"
+  },
+  {
+    "word": "quadrieret",
+    "pos": "verb",
+    "meaning_vi": "quadruple",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:36:22.781Z"
+  },
+  {
+    "word": "liefertest",
+    "pos": "verb",
+    "meaning_vi": "test",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:39:24.582Z"
+  },
+  {
+    "word": "promovierten",
+    "pos": "verb",
+    "meaning_vi": "promote",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:41:50.672Z"
+  },
+  {
+    "word": "zuseht",
+    "pos": "verb",
+    "meaning_vi": "see",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:44:00.124Z"
+  },
+  {
+    "word": "zusehest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:44:06.533Z"
+  },
+  {
+    "word": "zusahen",
+    "pos": "verb",
+    "meaning_vi": "to watch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:44:09.426Z"
+  },
+  {
+    "word": "abblättertest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:46:00.753Z"
+  },
+  {
+    "word": "abschneidend",
+    "pos": "verb",
+    "meaning_vi": "đường đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:46:49.629Z"
+  },
+  {
+    "word": "Soleier",
+    "pos": "noun",
+    "meaning_vi": "Sáng tác",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:49:48.013Z"
+  },
+  {
+    "word": "Feuerbohne",
+    "pos": "noun",
+    "meaning_vi": "phoenix",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:51:20.055Z"
+  },
+  {
+    "word": "befändet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:51:47.537Z"
+  },
+  {
+    "word": "befindet",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:51:59.458Z"
+  },
+  {
+    "word": "meintet",
+    "pos": "verb",
+    "meaning_vi": "một",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:52:07.213Z"
+  },
+  {
+    "word": "vorleset",
+    "pos": "verb",
+    "meaning_vi": "dạy học",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:52:57.614Z"
+  },
+  {
+    "word": "besserst auf",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:54:00.443Z"
+  },
+  {
+    "word": "aufbesserest",
+    "pos": "verb",
+    "meaning_vi": "phục vụ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:54:26.390Z"
+  },
+  {
+    "word": "bewerbet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:54:47.628Z"
+  },
+  {
+    "word": "einführte",
+    "pos": "verb",
+    "meaning_vi": "đưa vào",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:58:11.313Z"
+  },
+  {
+    "word": "einführtest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:58:12.781Z"
+  },
+  {
+    "word": "ankam",
+    "pos": "verb",
+    "meaning_vi": "come",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:58:47.277Z"
+  },
+  {
+    "word": "zulassest",
+    "pos": "verb",
+    "meaning_vi": "allow",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:01:43.695Z"
+  },
+  {
+    "word": "schulet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:03:15.956Z"
+  },
+  {
+    "word": "abfangest",
+    "pos": "verb",
+    "meaning_vi": "catch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:04:54.882Z"
+  },
+  {
+    "word": "fingst ab",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:04:59.651Z"
+  },
+  {
+    "word": "fängt ab",
+    "pos": "verb",
+    "meaning_vi": "catch, begin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:05:01.279Z"
+  },
+  {
+    "word": "fingt ab",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:05:14.826Z"
+  },
+  {
+    "word": "labert",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:07:16.795Z"
+  },
+  {
+    "word": "problematischer",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:08:21.650Z"
+  },
+  {
+    "word": "zeigest an",
+    "pos": "verb",
+    "meaning_vi": "to show, to display",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:18:24.664Z"
+  },
+  {
+    "word": "beigetragen",
+    "pos": "verb",
+    "meaning_vi": "contribute",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:27:16.017Z"
+  },
+  {
+    "word": "trugt bei",
+    "pos": "verb",
+    "meaning_vi": "có hiệu quả",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:27:18.995Z"
+  },
+  {
+    "word": "abtriebt",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:28:59.696Z"
+  },
+  {
+    "word": "übtet aus",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:30:57.056Z"
+  },
+  {
+    "word": "gelinget",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:31:56.490Z"
+  },
+  {
+    "word": "zusichret",
+    "pos": "verb",
+    "meaning_vi": "sichern",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:42:09.299Z"
+  },
+  {
+    "word": "sichertest zu",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:42:39.458Z"
+  },
+  {
+    "word": "zusichere",
+    "pos": "verb",
+    "meaning_vi": "certain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:42:43.003Z"
+  },
+  {
+    "word": "zusichertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:42:44.537Z"
+  },
+  {
+    "word": "abbekommet",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:44:11.497Z"
+  },
+  {
+    "word": "angeschrieben",
+    "pos": "verb",
+    "meaning_vi": "được viết",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:47:34.265Z"
+  },
+  {
+    "word": "anschriebst",
+    "pos": "verb",
+    "meaning_vi": "đã viết",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:47:35.874Z"
+  },
+  {
+    "word": "zuschreibet",
+    "pos": "verb",
+    "meaning_vi": "viết",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:48:39.108Z"
+  },
+  {
+    "word": "zuschreibst",
+    "pos": "verb",
+    "meaning_vi": "help",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:48:52.841Z"
+  },
+  {
+    "word": "zuschreibt",
+    "pos": "verb",
+    "meaning_vi": "viết",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:49:06.906Z"
+  },
+  {
+    "word": "zuschautet",
+    "pos": "verb",
+    "meaning_vi": "to look at",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:50:26.353Z"
+  },
+  {
+    "word": "zuschautest",
+    "pos": "verb",
+    "meaning_vi": "to look at",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:50:37.511Z"
+  },
+  {
+    "word": "zuschaute",
+    "pos": "verb",
+    "meaning_vi": "to look at",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:50:40.732Z"
+  },
+  {
+    "word": "zentriertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:51:01.164Z"
+  },
+  {
+    "word": "abkamst",
+    "pos": "verb",
+    "meaning_vi": "trở lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:51:37.020Z"
+  },
+  {
+    "word": "vorkäme",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:55:40.272Z"
+  },
+  {
+    "word": "vorkomme",
+    "pos": "verb",
+    "meaning_vi": "come into existence",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:55:44.699Z"
+  },
+  {
+    "word": "vorkämet",
+    "pos": "verb",
+    "meaning_vi": "come before",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:56:04.834Z"
+  },
+  {
+    "word": "umkamt",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:56:46.401Z"
+  },
+  {
+    "word": "Tonleitern",
+    "pos": "noun",
+    "meaning_vi": "Guide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:57:57.853Z"
+  },
+  {
+    "word": "Bildvorschauen",
+    "pos": "noun",
+    "meaning_vi": "Vorschauen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T16:58:41.955Z"
+  },
+  {
+    "word": "zufröre",
+    "pos": "verb",
+    "meaning_vi": "vui lòng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:00:09.436Z"
+  },
+  {
+    "word": "zufrören",
+    "pos": "verb",
+    "meaning_vi": "to feel cold",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:00:10.994Z"
+  },
+  {
+    "word": "Nabelschauen",
+    "pos": "noun",
+    "meaning_vi": "belly looking",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:06:58.210Z"
+  },
+  {
+    "word": "stimmtest ab",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:15:10.675Z"
+  },
+  {
+    "word": "endetest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:16:27.893Z"
+  },
+  {
+    "word": "anfassten",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:18:43.266Z"
+  },
+  {
+    "word": "ausbildetet",
+    "pos": "verb",
+    "meaning_vi": "trải nghiệm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:21:58.529Z"
+  },
+  {
+    "word": "aufbrechet",
+    "pos": "verb",
+    "meaning_vi": "nghỉ ngơi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:24:27.786Z"
+  },
+  {
+    "word": "einbrechet",
+    "pos": "verb",
+    "meaning_vi": "chào hỏi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:26:11.951Z"
+  },
+  {
+    "word": "Plissee",
+    "pos": "noun",
+    "meaning_vi": "Plissee",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:26:53.204Z"
+  },
+  {
+    "word": "sahst wieder",
+    "pos": "verb",
+    "meaning_vi": "again, to see",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:27:48.745Z"
+  },
+  {
+    "word": "Schummelzettel",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:29:39.530Z"
+  },
+  {
+    "word": "philiströser",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:35:39.552Z"
+  },
+  {
+    "word": "paraphrasieren",
+    "pos": "verb",
+    "meaning_vi": "dịch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:38:16.400Z"
+  },
+  {
+    "word": "Pyramidologie",
+    "pos": "noun",
+    "meaning_vi": "Pyramideologie",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:39:57.308Z"
+  },
+  {
+    "word": "Schlappe",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:41:48.512Z"
+  },
+  {
+    "word": "liberalere",
+    "pos": "adj",
+    "meaning_vi": "mở rộng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:42:00.767Z"
+  },
+  {
+    "word": "Arschkarte",
+    "pos": "noun",
+    "meaning_vi": "Ticket",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:42:22.804Z"
+  },
+  {
+    "word": "Teeeies",
+    "pos": "noun",
+    "meaning_vi": "Tình bạn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:44:35.955Z"
+  },
+  {
+    "word": "hl.",
+    "pos": "adj",
+    "meaning_vi": "mẹ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:49:00.268Z"
+  },
+  {
+    "word": "Zoffs",
+    "pos": "noun",
+    "meaning_vi": "twin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:49:57.266Z"
+  },
+  {
+    "word": "Fliegerass",
+    "pos": "noun",
+    "meaning_vi": "một người không may mắn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:50:49.287Z"
+  },
+  {
+    "word": "Gangart",
+    "pos": "noun",
+    "meaning_vi": "Cultural practice",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:52:22.568Z"
+  },
+  {
+    "word": "Gangarten",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:52:24.171Z"
+  },
+  {
+    "word": "Makrozustand",
+    "pos": "noun",
+    "meaning_vi": "Makro-",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:55:54.082Z"
+  },
+  {
+    "word": "Mistkerl",
+    "pos": "noun",
+    "meaning_vi": "người yếu đuối",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:58:32.690Z"
+  },
+  {
+    "word": "Inspektor",
+    "pos": "noun",
+    "meaning_vi": "Inspector",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:58:52.708Z"
+  },
+  {
+    "word": "Brechnuss",
+    "pos": "noun",
+    "meaning_vi": "Nuss",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:00:38.790Z"
+  },
+  {
+    "word": "Kurie",
+    "pos": "noun",
+    "meaning_vi": "Nữ công",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:03:12.153Z"
+  },
+  {
+    "word": "Faltblätter",
+    "pos": "noun",
+    "meaning_vi": "Leaflet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:05:05.173Z"
+  },
+  {
+    "word": "Eminenzen",
+    "pos": "noun",
+    "meaning_vi": "Eminenz",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:07:08.074Z"
+  },
+  {
+    "word": "Kommunarde",
+    "pos": "noun",
+    "meaning_vi": "Communard",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:28:16.535Z"
+  },
+  {
+    "word": "einfahren",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:39:08.760Z"
+  },
+  {
+    "word": "mönchisch",
+    "pos": "adj",
+    "meaning_vi": "mộc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T18:39:26.821Z"
+  },
+  {
+    "word": "interdisziplinär",
+    "pos": "adj",
+    "meaning_vi": "cơ bản",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T19:45:47.103Z"
+  },
+  {
+    "word": "Perlmutter",
+    "pos": "noun",
+    "meaning_vi": "pearl",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T20:02:19.867Z"
+  },
+  {
+    "word": "Kopfgeldjäger",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T21:24:48.708Z"
+  },
+  {
+    "word": "Insasse",
+    "pos": "noun",
+    "meaning_vi": "Guest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T23:05:07.719Z"
+  },
+  {
+    "word": "ausrisset",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T23:46:37.918Z"
+  },
+  {
+    "word": "ausrissest",
+    "pos": "verb",
+    "meaning_vi": "rời rạc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T00:00:12.147Z"
+  },
+  {
+    "word": "adoptierte",
+    "pos": "verb",
+    "meaning_vi": "đã nhận nuôi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T00:11:33.646Z"
+  },
+  {
+    "word": "eintretet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T00:28:07.105Z"
+  },
+  {
+    "word": "eingetreten",
+    "pos": "verb",
+    "meaning_vi": "đã tham gia",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T00:28:11.749Z"
+  },
+  {
+    "word": "angriffe",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:02:31.172Z"
+  },
+  {
+    "word": "angreifend",
+    "pos": "adj",
+    "meaning_vi": "chấn thương",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:02:42.685Z"
+  },
+  {
+    "word": "legest an",
+    "pos": "verb",
+    "meaning_vi": "to eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:03:59.225Z"
+  },
+  {
+    "word": "vorschriebst",
+    "pos": "verb",
+    "meaning_vi": "được chỉ định",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:09:03.238Z"
+  },
+  {
+    "word": "vorschreibest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:09:07.707Z"
+  },
+  {
+    "word": "vorschriebt",
+    "pos": "verb",
+    "meaning_vi": "được chỉ định",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:09:19.563Z"
+  },
+  {
+    "word": "vorschriebet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:09:27.687Z"
+  },
+  {
+    "word": "nähmet ab",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:09:38.550Z"
+  },
+  {
+    "word": "nahmst ab",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:10:23.610Z"
+  },
+  {
+    "word": "nehmest an",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:11:23.755Z"
+  },
+  {
+    "word": "vornimmst",
+    "pos": "verb",
+    "meaning_vi": "thinks",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:14:05.645Z"
+  },
+  {
+    "word": "nahmst vor",
+    "pos": "verb",
+    "meaning_vi": "take",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:14:27.072Z"
+  },
+  {
+    "word": "nehmest teil",
+    "pos": "verb",
+    "meaning_vi": "take part",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:15:47.259Z"
+  },
+  {
+    "word": "verschlüssle",
+    "pos": "verb",
+    "meaning_vi": "lock",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:16:23.506Z"
+  },
+  {
+    "word": "verschlüsselte",
+    "pos": "verb",
+    "meaning_vi": "enclosed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:16:33.967Z"
+  },
+  {
+    "word": "pueriles",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:22:59.422Z"
+  },
+  {
+    "word": "verbalem",
+    "pos": "adj",
+    "meaning_vi": "cơ bản",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:23:26.242Z"
+  },
+  {
+    "word": "normalem",
+    "pos": "adj",
+    "meaning_vi": "nguyên sinh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:24:00.469Z"
+  },
+  {
+    "word": "tapezierten",
+    "pos": "verb",
+    "meaning_vi": "đóng góp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:28:09.212Z"
+  },
+  {
+    "word": "diktierst",
+    "pos": "verb",
+    "meaning_vi": "dictate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:28:19.432Z"
+  },
+  {
+    "word": "diktierest",
+    "pos": "verb",
+    "meaning_vi": "dictate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:28:21.087Z"
+  },
+  {
+    "word": "diktiert",
+    "pos": "verb",
+    "meaning_vi": "được chỉ định",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:28:34.808Z"
+  },
+  {
+    "word": "reagieret",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:30:00.741Z"
+  },
+  {
+    "word": "reagierest",
+    "pos": "verb",
+    "meaning_vi": "đồng hành",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:30:09.091Z"
+  },
+  {
+    "word": "verbirg",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:50:57.921Z"
+  },
+  {
+    "word": "triffst",
+    "pos": "verb",
+    "meaning_vi": "to meet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:55:39.761Z"
+  },
+  {
+    "word": "eingetroffen",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:56:08.957Z"
+  },
+  {
+    "word": "eintreffend",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T01:56:28.812Z"
+  },
+  {
+    "word": "abläufst",
+    "pos": "verb",
+    "meaning_vi": "go away",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:02:20.110Z"
+  },
+  {
+    "word": "ablaufe",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:02:44.668Z"
+  },
+  {
+    "word": "nähertet an",
+    "pos": "verb",
+    "meaning_vi": "nghỉ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:07:10.325Z"
+  },
+  {
+    "word": "abwicklet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:08:27.184Z"
+  },
+  {
+    "word": "fummelig",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:10:35.418Z"
+  },
+  {
+    "word": "Stoßwelle",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:14:00.457Z"
+  },
+  {
+    "word": "distales",
+    "pos": "adj",
+    "meaning_vi": "distant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:17:06.188Z"
+  },
+  {
+    "word": "träumet",
+    "pos": "verb",
+    "meaning_vi": "trải",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:17:44.109Z"
+  },
+  {
+    "word": "o. B. d. A.",
+    "pos": "adv",
+    "meaning_vi": "từ cơ bản",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:18:02.436Z"
+  },
+  {
+    "word": "entwickeltest",
+    "pos": "verb",
+    "meaning_vi": "to develop",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:19:41.450Z"
+  },
+  {
+    "word": "entwickelte",
+    "pos": "verb",
+    "meaning_vi": "đã phát triển",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:19:49.742Z"
+  },
+  {
+    "word": "duztet",
+    "pos": "verb",
+    "meaning_vi": "to toast",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:23:14.586Z"
+  },
+  {
+    "word": "kriegest",
+    "pos": "verb",
+    "meaning_vi": "đang chiến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:25:27.985Z"
+  },
+  {
+    "word": "rauskriegst",
+    "pos": "verb",
+    "meaning_vi": "đi ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:25:58.767Z"
+  },
+  {
+    "word": "brisante",
+    "pos": "adj",
+    "meaning_vi": "nước mặn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:28:36.718Z"
+  },
+  {
+    "word": "Voraussagen",
+    "pos": "noun",
+    "meaning_vi": "Vorhersage",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:29:35.901Z"
+  },
+  {
+    "word": "Klassenpfad",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:29:43.498Z"
+  },
+  {
+    "word": "trugst ab",
+    "pos": "verb",
+    "meaning_vi": "trợ giúp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:40:14.760Z"
+  },
+  {
+    "word": "eintragend",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:40:44.216Z"
+  },
+  {
+    "word": "vortragend",
+    "pos": "verb",
+    "meaning_vi": "đang nói",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:41:13.196Z"
+  },
+  {
+    "word": "vortragt",
+    "pos": "verb",
+    "meaning_vi": "đưa ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:41:34.276Z"
+  },
+  {
+    "word": "vorträgst",
+    "pos": "verb",
+    "meaning_vi": "to bear, carry",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:41:49.845Z"
+  },
+  {
+    "word": "vortrugt",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:41:58.535Z"
+  },
+  {
+    "word": "Nilbarsch",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:43:05.054Z"
+  },
+  {
+    "word": "fülltest auf",
+    "pos": "verb",
+    "meaning_vi": "fill",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:43:42.387Z"
+  },
+  {
+    "word": "öden",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:48:03.292Z"
+  },
+  {
+    "word": "ernenntest",
+    "pos": "verb",
+    "meaning_vi": "thực hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:49:05.622Z"
+  },
+  {
+    "word": "ernanntest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:49:08.548Z"
+  },
+  {
+    "word": "benenntest",
+    "pos": "verb",
+    "meaning_vi": "test",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:49:40.860Z"
+  },
+  {
+    "word": "übersiehst",
+    "pos": "verb",
+    "meaning_vi": "understand",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:51:01.230Z"
+  },
+  {
+    "word": "interkulturalisierte",
+    "pos": "verb",
+    "meaning_vi": "to make culturally integrated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:51:22.314Z"
+  },
+  {
+    "word": "stillos",
+    "pos": "adj",
+    "meaning_vi": "manner, way",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:52:57.661Z"
+  },
+  {
+    "word": "onkelhaft",
+    "pos": "adj",
+    "meaning_vi": "Cousin-like",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:53:28.229Z"
+  },
+  {
+    "word": "integerer",
+    "pos": "adj",
+    "meaning_vi": "integer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:53:42.815Z"
+  },
+  {
+    "word": "kriminellsten",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:54:54.715Z"
+  },
+  {
+    "word": "einschätztest",
+    "pos": "verb",
+    "meaning_vi": "sized",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:59:15.626Z"
+  },
+  {
+    "word": "wünscht",
+    "pos": "verb",
+    "meaning_vi": "thấy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:59:35.070Z"
+  },
+  {
+    "word": "geschehe",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:02:18.111Z"
+  },
+  {
+    "word": "erschösse",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:03:15.761Z"
+  },
+  {
+    "word": "weiterleitet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:07:26.175Z"
+  },
+  {
+    "word": "weiterleitetet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:07:34.161Z"
+  },
+  {
+    "word": "weitergeleitet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:07:50.004Z"
+  },
+  {
+    "word": "stottertest",
+    "pos": "verb",
+    "meaning_vi": "test",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:09:17.230Z"
+  },
+  {
+    "word": "klonet",
+    "pos": "verb",
+    "meaning_vi": "cloned",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:11:43.460Z"
+  },
+  {
+    "word": "strullere",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:12:23.294Z"
+  },
+  {
+    "word": "beriefen ab",
+    "pos": "verb",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:18:54.275Z"
+  },
+  {
+    "word": "abberufest",
+    "pos": "verb",
+    "meaning_vi": "tạm biệt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:18:55.943Z"
+  },
+  {
+    "word": "umkrempeltet",
+    "pos": "verb",
+    "meaning_vi": "kempeln",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:20:32.512Z"
+  },
+  {
+    "word": "krempelet um",
+    "pos": "verb",
+    "meaning_vi": "to wrap",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:20:39.257Z"
+  },
+  {
+    "word": "Bartenwale",
+    "pos": "noun",
+    "meaning_vi": "phương tiện đi lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:29:03.933Z"
+  },
+  {
+    "word": "Konsolen",
+    "pos": "noun",
+    "meaning_vi": "Cabinets",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:29:14.014Z"
+  },
+  {
+    "word": "Tontaube",
+    "pos": "noun",
+    "meaning_vi": "butterfly",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:29:57.177Z"
+  },
+  {
+    "word": "Simse",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:32:17.589Z"
+  },
+  {
+    "word": "Armbruste",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:33:46.376Z"
+  },
+  {
+    "word": "Fächern",
+    "pos": "noun",
+    "meaning_vi": "tập trung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:34:10.420Z"
+  },
+  {
+    "word": "herauszoomen",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:34:48.036Z"
+  },
+  {
+    "word": "Spastis",
+    "pos": "noun",
+    "meaning_vi": "Sự kiên nhẫn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:55:53.470Z"
+  },
+  {
+    "word": "problematischsten",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:59:32.174Z"
+  },
+  {
+    "word": "irrigem",
+    "pos": "adj",
+    "meaning_vi": "irrigem",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:02:13.243Z"
+  },
+  {
+    "word": "wandelet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:02:46.859Z"
+  },
+  {
+    "word": "tadeltest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:04:03.921Z"
+  },
+  {
+    "word": "vögelest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:06:03.150Z"
+  },
+  {
+    "word": "Reiherenten",
+    "pos": "noun",
+    "meaning_vi": "công chức",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:06:30.432Z"
+  },
+  {
+    "word": "Knäkenten",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:06:33.445Z"
+  },
+  {
+    "word": "Stockenten",
+    "pos": "noun",
+    "meaning_vi": "chicken",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:06:48.313Z"
+  },
+  {
+    "word": "tauchst auf",
+    "pos": "verb",
+    "meaning_vi": "to dive",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:07:51.697Z"
+  },
+  {
+    "word": "auftauchet",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:08:02.833Z"
+  },
+  {
+    "word": "stimmtet zu",
+    "pos": "verb",
+    "meaning_vi": "agree",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:11:14.823Z"
+  },
+  {
+    "word": "zustimmtest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:11:30.947Z"
+  },
+  {
+    "word": "strittet",
+    "pos": "verb",
+    "meaning_vi": "khai khắc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:14:31.748Z"
+  },
+  {
+    "word": "geleakt",
+    "pos": "verb",
+    "meaning_vi": "leaked",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:22:02.275Z"
+  },
+  {
+    "word": "DLR",
+    "pos": "name",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:22:11.616Z"
+  },
+  {
+    "word": "Archen",
+    "pos": "noun",
+    "meaning_vi": "mẹ con",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:22:36.791Z"
+  },
+  {
+    "word": "Grabreden",
+    "pos": "noun",
+    "meaning_vi": "Hoa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:23:26.599Z"
+  },
+  {
+    "word": "Höhepunkte",
+    "pos": "noun",
+    "meaning_vi": "Điểm cao",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:23:38.465Z"
+  },
+  {
+    "word": "Mittellinien",
+    "pos": "noun",
+    "meaning_vi": "Mittelweg",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:24:38.051Z"
+  },
+  {
+    "word": "Mixturen",
+    "pos": "noun",
+    "meaning_vi": "Mixture",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:24:44.554Z"
+  },
+  {
+    "word": "Schonzeiten",
+    "pos": "noun",
+    "meaning_vi": "mornings",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:26:10.429Z"
+  },
+  {
+    "word": "Zeitbomben",
+    "pos": "noun",
+    "meaning_vi": "Zeitbomben",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:27:12.042Z"
+  },
+  {
+    "word": "Schnäpse",
+    "pos": "noun",
+    "meaning_vi": "chỉ số",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:28:02.531Z"
+  },
+  {
+    "word": "verifizierte",
+    "pos": "verb",
+    "meaning_vi": "Xác minh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:36:29.479Z"
+  },
+  {
+    "word": "abbestellt",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:37:45.127Z"
+  },
+  {
+    "word": "abbestelltest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:37:52.828Z"
+  },
+  {
+    "word": "abbestellte",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:38:05.597Z"
+  },
+  {
+    "word": "bände ab",
+    "pos": "verb",
+    "meaning_vi": "tie, bind",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:38:23.164Z"
+  },
+  {
+    "word": "abbänden",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:38:48.807Z"
+  },
+  {
+    "word": "teilend",
+    "pos": "verb",
+    "meaning_vi": "to share",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:40:09.557Z"
+  },
+  {
+    "word": "einteiltest",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:40:50.246Z"
+  },
+  {
+    "word": "ergänzet",
+    "pos": "verb",
+    "meaning_vi": "add, supplement",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:41:48.037Z"
+  },
+  {
+    "word": "einschriebst",
+    "pos": "verb",
+    "meaning_vi": "đã viết",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:43:22.307Z"
+  },
+  {
+    "word": "einschreibest",
+    "pos": "verb",
+    "meaning_vi": "đăng ký",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:43:57.779Z"
+  },
+  {
+    "word": "einschreibend",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:44:03.260Z"
+  },
+  {
+    "word": "runde auf",
+    "pos": "verb",
+    "meaning_vi": "đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:44:57.834Z"
+  },
+  {
+    "word": "rundeten auf",
+    "pos": "verb",
+    "meaning_vi": "rondet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:44:59.503Z"
+  },
+  {
+    "word": "austräte",
+    "pos": "verb",
+    "meaning_vi": "migrate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:49:13.864Z"
+  },
+  {
+    "word": "austraten",
+    "pos": "verb",
+    "meaning_vi": "trải",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:49:51.273Z"
+  },
+  {
+    "word": "verzweifele",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:52:56.159Z"
+  },
+  {
+    "word": "gelenkt",
+    "pos": "verb",
+    "meaning_vi": "được điều chỉnh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:55:07.489Z"
+  },
+  {
+    "word": "begännen",
+    "pos": "verb",
+    "meaning_vi": "bắt đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:58:33.515Z"
+  },
+  {
+    "word": "einfallend",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:59:16.577Z"
+  },
+  {
+    "word": "anbautet",
+    "pos": "verb",
+    "meaning_vi": "tăng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:01:58.344Z"
+  },
+  {
+    "word": "versieht",
+    "pos": "verb",
+    "meaning_vi": "do",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:03:35.986Z"
+  },
+  {
+    "word": "versehend",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:03:54.239Z"
+  },
+  {
+    "word": "beiträtest",
+    "pos": "verb",
+    "meaning_vi": "contribute",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:04:35.704Z"
+  },
+  {
+    "word": "beitretest",
+    "pos": "verb",
+    "meaning_vi": "đồng hành",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:04:37.318Z"
+  },
+  {
+    "word": "beitraten",
+    "pos": "verb",
+    "meaning_vi": "đồng hành",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:04:44.009Z"
+  },
+  {
+    "word": "abfackelet",
+    "pos": "verb",
+    "meaning_vi": "to mock or tease",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:04:55.518Z"
+  },
+  {
+    "word": "irrtümlicherweise",
+    "pos": "adv",
+    "meaning_vi": "sai hướng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:09:55.264Z"
+  },
+  {
+    "word": "einfingst",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:10:51.275Z"
+  },
+  {
+    "word": "anschnalltet",
+    "pos": "verb",
+    "meaning_vi": "tie up",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:12:14.074Z"
+  }
+]

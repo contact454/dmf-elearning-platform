@@ -1,0 +1,100 @@
+[
+  {
+    "word": "Vehemenzen",
+    "pos": "noun",
+    "meaning_vi": "Passion, enthusiasm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T06:39:38.159Z"
+  },
+  {
+    "word": "waghalsiger",
+    "pos": "adj",
+    "meaning_vi": "excited, nervous",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T07:45:11.889Z"
+  },
+  {
+    "word": "neurotischer",
+    "pos": "adj",
+    "meaning_vi": "sensitive, emotional",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T08:54:53.995Z"
+  },
+  {
+    "word": "empörst",
+    "pos": "verb",
+    "meaning_vi": "make angry, infuriate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:01:49.127Z"
+  },
+  {
+    "word": "traumatisiert",
+    "pos": "verb",
+    "meaning_vi": "Traumatized",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T12:03:12.397Z"
+  },
+  {
+    "word": "begeister",
+    "pos": "verb",
+    "meaning_vi": "Excite, Enthusiast",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:38:32.435Z"
+  },
+  {
+    "word": "bedauert",
+    "pos": "verb",
+    "meaning_vi": "disappointed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T14:58:02.921Z"
+  },
+  {
+    "word": "erbarmend",
+    "pos": "verb",
+    "meaning_vi": "sympathetic, compassionate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T15:02:04.978Z"
+  },
+  {
+    "word": "ertragen",
+    "pos": "verb",
+    "meaning_vi": "Tolerate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-01T17:58:47.163Z"
+  },
+  {
+    "word": "grimmigste",
+    "pos": "adj",
+    "meaning_vi": "scary, frightening",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T02:32:14.021Z"
+  },
+  {
+    "word": "überreagierend",
+    "pos": "verb",
+    "meaning_vi": "overreact",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:04:08.876Z"
+  },
+  {
+    "word": "Bewältigung",
+    "pos": "noun",
+    "meaning_vi": "Handling, coping",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T03:31:00.244Z"
+  },
+  {
+    "word": "Weinen",
+    "pos": "noun",
+    "meaning_vi": "Cry",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:09:54.944Z"
+  },
+  {
+    "word": "aufregen",
+    "pos": "verb",
+    "meaning_vi": "excite, energize",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T04:42:04.094Z"
+  }
+]
