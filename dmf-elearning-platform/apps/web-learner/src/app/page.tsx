@@ -1,6 +1,25 @@
+import {
+  Navbar,
+  HeroSection,
+  BentoGrid,
+  CourseShowcase,
+  AISenseiDemo,
+  SocialProof,
+  CTASection,
+  Footer,
+} from '@/components/homepage';
 
-import { redirect } from 'next/navigation';
-
-export default function Home() {
-  redirect('/dashboard');
+export default function HomePage() {
+  return (
+    <main className="min-h-screen bg-gradient-to-b from-indigo-50 via-white to-indigo-50/30">
+      <Navbar />
+      <HeroSection />
+      <BentoGrid />
+      <CourseShowcase />
+      <AISenseiDemo />
+      <SocialProof />
+      <CTASection />
+      <Footer />
+    </main>
+  );
 }
