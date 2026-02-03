@@ -739,3 +739,278 @@ export async function generateReadingContent(options: {
     }
   );
 }
+
+// ============================================================================
+// LISTENING LAB - LISTENING API
+// ============================================================================
+
+export interface ListeningContent {
+  id: string;
+  title: string;
+  description: string | null;
+  level: string;
+  topic: string | null;
+  audioUrl: string | null;
+  duration: number;
+  transcript: string;
+  transcriptVi: string | null;
+  segments: TranscriptSegment[] | null;
+  source: string | null;
+  speaker: string | null;
+  wordCount: number;
+  isPublished: boolean;
+  isFeatured: boolean;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface TranscriptSegment {
+  start: number;
+  end: number;
+  text: string;
+  textVi?: string;
+}
+
+export interface DictationExercise {
+  id: string;
+  contentId: string;
+  exerciseType: 'full' | 'segment' | 'fill_blank';
+  segmentIndex: number | null;
+  audioStart: number;
+  audioEnd: number | null;
+  correctText: string;
+  hints: string[];
+  difficulty: number;
+  createdAt: string;
+}
+
+export interface DictationAttempt {
+  id: string;
+  exerciseId: string;
+  userId: string;
+  userText: string;
+  accuracy: number;
+  wordsCorrect: number;
+  wordsTotal: number;
+  mistakes: DictationMistake[] | null;
+  listenCount: number;
+  timeSpent: number;
+  createdAt: string;
+}
+
+export interface DictationMistake {
+  expected: string;
+  actual: string;
+  position: number;
+  type: 'missing' | 'extra' | 'wrong';
+}
+
+export interface ListeningProgress {
+  id: string;
+  userId: string;
+  contentId: string;
+  status: 'not_started' | 'in_progress' | 'completed';
+  totalListenTime: number;
+  lastPosition: number;
+  playCount: number;
+  exercisesCompleted: number;
+  exercisesTotal: number;
+  averageAccuracy: number;
+  startedAt: string | null;
+  completedAt: string | null;
+}
+
+export interface ListeningWithProgress extends ListeningContent {
+  userProgress?: ListeningProgress | null;
+  exerciseCount?: number;
+}
+
+export interface ListeningStats {
+  totalContent: number;
+  byLevel: { level: string; count: number }[];
+  totalDuration: number;
+}
+
+export interface UserListeningStats {
+  totalListened: number;
+  completed: number;
+  inProgress: number;
+  totalTime: number;
+  averageAccuracy: number;
+}
+
+export interface ListeningFilters {
+  level?: string;
+  topic?: string;
+  search?: string;
+  limit?: number;
+  offset?: number;
+}
+
+/**
+ * Get listening content list with filters
+ */
+export async function getListeningContent(
+  filters: ListeningFilters = {}
+): Promise<{ items: ListeningContent[]; total: number }> {
+  const params = new URLSearchParams();
+  if (filters.level) params.append('level', filters.level);
+  if (filters.topic) params.append('topic', filters.topic);
+  if (filters.search) params.append('search', filters.search);
+  if (filters.limit) params.append('limit', String(filters.limit));
+  if (filters.offset) params.append('offset', String(filters.offset));
+
+  return await fetchWithRetry<{ items: ListeningContent[]; total: number }>(
+    `${BASE_URL}/listening?${params.toString()}`
+  );
+}
+
+/**
+ * Get featured listening content
+ */
+export async function getFeaturedListening(limit: number = 5): Promise<ListeningContent[]> {
+  return await fetchWithRetry<ListeningContent[]>(
+    `${BASE_URL}/listening/featured?limit=${limit}`
+  );
+}
+
+/**
+ * Get listening content by ID with optional user progress
+ */
+export async function getListeningById(
+  id: string,
+  userId?: string
+): Promise<ListeningWithProgress> {
+  const params = userId ? `?userId=${userId}` : '';
+  return await fetchWithRetry<ListeningWithProgress>(
+    `${BASE_URL}/listening/${id}${params}`
+  );
+}
+
+/**
+ * Get listening statistics
+ */
+export async function getListeningStats(): Promise<ListeningStats> {
+  return await fetchWithRetry<ListeningStats>(`${BASE_URL}/listening/stats`);
+}
+
+/**
+ * Get available listening levels
+ */
+export async function getListeningLevels(): Promise<string[]> {
+  return await fetchWithRetry<string[]>(`${BASE_URL}/listening/levels`);
+}
+
+/**
+ * Get exercises for a listening content
+ */
+export async function getListeningExercises(contentId: string): Promise<DictationExercise[]> {
+  return await fetchWithRetry<DictationExercise[]>(
+    `${BASE_URL}/listening/${contentId}/exercises`
+  );
+}
+
+/**
+ * Get single exercise by ID
+ */
+export async function getExerciseById(exerciseId: string): Promise<DictationExercise> {
+  return await fetchWithRetry<DictationExercise>(
+    `${BASE_URL}/listening/exercise/${exerciseId}`
+  );
+}
+
+/**
+ * Submit dictation attempt
+ */
+export async function submitDictationAttempt(
+  exerciseId: string,
+  userId: string,
+  data: {
+    userText: string;
+    accuracy: number;
+    wordsCorrect: number;
+    wordsTotal: number;
+    mistakes: DictationMistake[];
+    listenCount: number;
+    timeSpent: number;
+  }
+): Promise<DictationAttempt> {
+  return await fetchWithRetry<DictationAttempt>(
+    `${BASE_URL}/listening/exercise/${exerciseId}/attempt`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId, ...data }),
+    }
+  );
+}
+
+/**
+ * Start listening content
+ */
+export async function startListening(
+  userId: string,
+  contentId: string
+): Promise<ListeningProgress> {
+  return await fetchWithRetry<ListeningProgress>(
+    `${BASE_URL}/listening/${contentId}/start`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId }),
+    }
+  );
+}
+
+/**
+ * Update listening progress
+ */
+export async function updateListeningProgress(
+  userId: string,
+  contentId: string,
+  data: {
+    totalListenTime?: number;
+    lastPosition?: number;
+    playCount?: number;
+  }
+): Promise<ListeningProgress> {
+  return await fetchWithRetry<ListeningProgress>(
+    `${BASE_URL}/listening/${contentId}/progress`,
+    {
+      method: 'PUT',
+      body: JSON.stringify({ userId, ...data }),
+    }
+  );
+}
+
+/**
+ * Get user's listening history
+ */
+export async function getUserListeningHistory(
+  userId: string,
+  status?: 'not_started' | 'in_progress' | 'completed'
+): Promise<Array<ListeningProgress & { content: ListeningContent }>> {
+  const params = status ? `?status=${status}` : '';
+  return await fetchWithRetry<Array<ListeningProgress & { content: ListeningContent }>>(
+    `${BASE_URL}/listening/user/${userId}/history${params}`
+  );
+}
+
+/**
+ * Get user's listening statistics
+ */
+export async function getUserListeningStats(userId: string): Promise<UserListeningStats> {
+  return await fetchWithRetry<UserListeningStats>(
+    `${BASE_URL}/listening/user/${userId}/stats`
+  );
+}
+
+/**
+ * Generate exercises from content segments
+ */
+export async function generateListeningExercises(
+  contentId: string
+): Promise<DictationExercise[]> {
+  return await fetchWithRetry<DictationExercise[]>(
+    `${BASE_URL}/listening/${contentId}/exercises/generate`,
+    { method: 'POST' }
+  );
+}

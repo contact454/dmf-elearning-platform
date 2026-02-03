@@ -130,3 +130,134 @@ model UserReadingProgress {
   @@index([userId, status])
   @@index([userId, completedAt])
 }
+
+// ═══════════════════════════════════════════════════════════════
+// LISTENING LAB - Audio Content Models
+// ═══════════════════════════════════════════════════════════════
+
+model ListeningContent {
+  id              String   @id @default(uuid())
+  title           String
+  description     String?
+  level           String   // A1, A2, B1, B2, C1, C2
+  topic           String?
+
+  // Audio Content
+  audioUrl        String?  // Primary audio file URL
+  duration        Int      @default(0)      // Duration in seconds
+  transcript      String   // Full German transcript
+  transcriptVi    String?  // Vietnamese translation
+
+  // Segmented Content for exercises
+  segments        Json?    // Array of {start, end, text, translation}
+
+  // Metadata
+  source          String?  // Original source or "AI-generated"
+  speaker         String?  // Speaker name/type
+  speed           String   @default("normal") // slow, normal, fast
+  accent          String?  // Standard German, Austrian, Swiss
+
+  // Content Analysis
+  wordCount       Int      @default(0)
+  difficultyScore Float    @default(0)
+  vocabularyList  String[]
+
+  // Status
+  isPublished     Boolean  @default(true)
+  isFeatured      Boolean  @default(false)
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  progress        UserListeningProgress[]
+  exercises       DictationExercise[]
+
+  @@index([level])
+  @@index([topic])
+  @@index([difficultyScore])
+}
+
+model DictationExercise {
+  id              String           @id @default(uuid())
+  contentId       String
+  content         ListeningContent @relation(fields: [contentId], references: [id])
+
+  // Exercise Config
+  exerciseType    String           @default("full") // full, segment, word
+  segmentIndex    Int?             // Which segment (for segment-based)
+
+  // Audio Segment
+  audioStart      Float            @default(0)      // Start time in seconds
+  audioEnd        Float?           // End time (null = end of audio)
+
+  // Expected Answer
+  correctText     String           // Correct transcription
+  hints           String[]         // Optional hints
+
+  // Difficulty
+  difficulty      Int              @default(1)      // 1-5
+
+  createdAt       DateTime         @default(now())
+
+  // Relations
+  attempts        DictationAttempt[]
+
+  @@index([contentId])
+}
+
+model DictationAttempt {
+  id              String             @id @default(uuid())
+  exerciseId      String
+  exercise        DictationExercise  @relation(fields: [exerciseId], references: [id])
+  userId          String
+
+  // User Response
+  userText        String             // What user typed
+
+  // Scoring
+  accuracy        Float              @default(0)    // 0-100 percentage
+  wordsCorrect    Int                @default(0)
+  wordsTotal      Int                @default(0)
+  mistakes        Json?              // Array of {expected, actual, position}
+
+  // Timing
+  listenCount     Int                @default(1)    // How many times played
+  timeSpent       Int                @default(0)    // Seconds spent
+
+  createdAt       DateTime           @default(now())
+
+  @@index([userId, exerciseId])
+  @@index([userId, createdAt])
+}
+
+model UserListeningProgress {
+  id              String           @id @default(uuid())
+  userId          String
+  contentId       String
+  content         ListeningContent @relation(fields: [contentId], references: [id])
+
+  // Progress Tracking
+  status          String           @default("not_started") // not_started, in_progress, completed
+  progressPercent Int              @default(0)
+
+  // Listening Metrics
+  totalListenTime Int              @default(0)    // Total listening time in seconds
+  playCount       Int              @default(0)    // How many times played
+  lastPosition    Float            @default(0)    // Last playback position
+
+  // Dictation Stats
+  exercisesCompleted Int           @default(0)
+  exercisesTotal     Int           @default(0)
+  averageAccuracy    Float         @default(0)
+
+  // Timestamps
+  startedAt       DateTime?
+  completedAt     DateTime?
+
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  @@unique([userId, contentId])
+  @@index([userId, status])
+}
