@@ -1,0 +1,3684 @@
+[
+  {
+    "word": "Frühstück",
+    "meaning_vi": "bữa sáng",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Mittagessen",
+    "meaning_vi": "bữa trưa",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Abendessen",
+    "meaning_vi": "bữa tối",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Vorspeise",
+    "meaning_vi": "món khai vị",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Hauptgericht",
+    "meaning_vi": "món chính",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Nachspeise",
+    "meaning_vi": "món tráng miệng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Zutat",
+    "meaning_vi": "nguyên liệu",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Rezept",
+    "meaning_vi": "công thức",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Pfanne",
+    "meaning_vi": "chảo",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Topf",
+    "meaning_vi": "nồi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Ofen",
+    "meaning_vi": "lò nướng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Kühlschrank",
+    "meaning_vi": "tủ lạnh",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Mikrowelle",
+    "meaning_vi": "lò vi sóng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Spülmaschine",
+    "meaning_vi": "máy rửa bát",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Gewürz",
+    "meaning_vi": "gia vị",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Öl",
+    "meaning_vi": "dầu ăn",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Essig",
+    "meaning_vi": "giấm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Mehl",
+    "meaning_vi": "bột mì",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Teig",
+    "meaning_vi": "bột nhào",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Sahne",
+    "meaning_vi": "kem",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Joghurt",
+    "meaning_vi": "sữa chua",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Quark",
+    "meaning_vi": "phô mai tươi",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Wurst",
+    "meaning_vi": "xúc xích",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Schinken",
+    "meaning_vi": "giăm bông",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Hähnchen",
+    "meaning_vi": "thịt gà",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Rindfleisch",
+    "meaning_vi": "thịt bò",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Schweinefleisch",
+    "meaning_vi": "thịt heo",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Lamm",
+    "meaning_vi": "thịt cừu",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "braten",
+    "meaning_vi": "chiên, rán",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "grillen",
+    "meaning_vi": "nướng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "backen",
+    "meaning_vi": "nướng bánh",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "kochen",
+    "meaning_vi": "nấu",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "schneiden",
+    "meaning_vi": "cắt",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "rühren",
+    "meaning_vi": "khuấy",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "würzen",
+    "meaning_vi": "nêm gia vị",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "schälen",
+    "meaning_vi": "gọt vỏ",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "lecker",
+    "meaning_vi": "ngon",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "salzig",
+    "meaning_vi": "mặn",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "süß",
+    "meaning_vi": "ngọt",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "sauer",
+    "meaning_vi": "chua",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "bitter",
+    "meaning_vi": "đắng",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "scharf",
+    "meaning_vi": "cay",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "food_expanded"
+  },
+  {
+    "word": "Supermarkt",
+    "meaning_vi": "siêu thị",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Laden",
+    "meaning_vi": "cửa hàng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Bäckerei",
+    "meaning_vi": "tiệm bánh",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Metzgerei",
+    "meaning_vi": "cửa hàng thịt",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Apotheke",
+    "meaning_vi": "nhà thuốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Drogerie",
+    "meaning_vi": "cửa hàng mỹ phẩm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Kaufhaus",
+    "meaning_vi": "trung tâm mua sắm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Einkaufszentrum",
+    "meaning_vi": "trung tâm thương mại",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Markt",
+    "meaning_vi": "chợ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Flohmarkt",
+    "meaning_vi": "chợ đồ cũ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Kasse",
+    "meaning_vi": "quầy thu ngân",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Einkaufswagen",
+    "meaning_vi": "xe đẩy mua sắm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Tüte",
+    "meaning_vi": "túi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Quittung",
+    "meaning_vi": "hóa đơn",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Sonderangebot",
+    "meaning_vi": "khuyến mãi",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Rabatt",
+    "meaning_vi": "giảm giá",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Gutschein",
+    "meaning_vi": "phiếu giảm giá",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Größe",
+    "meaning_vi": "kích cỡ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Farbe",
+    "meaning_vi": "màu sắc",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Qualität",
+    "meaning_vi": "chất lượng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Garantie",
+    "meaning_vi": "bảo hành",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Umtausch",
+    "meaning_vi": "đổi hàng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Rückgabe",
+    "meaning_vi": "trả hàng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "einkaufen",
+    "meaning_vi": "mua sắm",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "bezahlen",
+    "meaning_vi": "thanh toán",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "umtauschen",
+    "meaning_vi": "đổi trả",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "anprobieren",
+    "meaning_vi": "thử (quần áo)",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "passen",
+    "meaning_vi": "vừa",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "günstig",
+    "meaning_vi": "rẻ",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "teuer",
+    "meaning_vi": "đắt",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "billig",
+    "meaning_vi": "rẻ tiền",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "kostenlos",
+    "meaning_vi": "miễn phí",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "shopping_expanded"
+  },
+  {
+    "word": "Wohnung",
+    "meaning_vi": "căn hộ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Haus",
+    "meaning_vi": "nhà",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Miete",
+    "meaning_vi": "tiền thuê",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Nebenkosten",
+    "meaning_vi": "chi phí phụ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Vermieter",
+    "meaning_vi": "chủ nhà cho thuê",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Mieter",
+    "meaning_vi": "người thuê",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Mietvertrag",
+    "meaning_vi": "hợp đồng thuê",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Kaution",
+    "meaning_vi": "tiền đặt cọc",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Schlafzimmer",
+    "meaning_vi": "phòng ngủ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Wohnzimmer",
+    "meaning_vi": "phòng khách",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Küche",
+    "meaning_vi": "bếp",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Badezimmer",
+    "meaning_vi": "phòng tắm",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Toilette",
+    "meaning_vi": "nhà vệ sinh",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Balkon",
+    "meaning_vi": "ban công",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Terrasse",
+    "meaning_vi": "sân thượng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Garten",
+    "meaning_vi": "vườn",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Garage",
+    "meaning_vi": "ga ra",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Keller",
+    "meaning_vi": "tầng hầm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Dachboden",
+    "meaning_vi": "gác mái",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Treppe",
+    "meaning_vi": "cầu thang",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Aufzug",
+    "meaning_vi": "thang máy",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Etage",
+    "meaning_vi": "tầng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Stockwerk",
+    "meaning_vi": "tầng nhà",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Eingang",
+    "meaning_vi": "lối vào",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Ausgang",
+    "meaning_vi": "lối ra",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Fenster",
+    "meaning_vi": "cửa sổ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Tür",
+    "meaning_vi": "cửa",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Wand",
+    "meaning_vi": "tường",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Decke",
+    "meaning_vi": "trần nhà",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Boden",
+    "meaning_vi": "sàn nhà",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Möbel",
+    "meaning_vi": "đồ nội thất",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Sofa",
+    "meaning_vi": "ghế sofa",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Sessel",
+    "meaning_vi": "ghế bành",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Schrank",
+    "meaning_vi": "tủ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Regal",
+    "meaning_vi": "kệ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Lampe",
+    "meaning_vi": "đèn",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Teppich",
+    "meaning_vi": "thảm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Vorhang",
+    "meaning_vi": "rèm cửa",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Heizung",
+    "meaning_vi": "sưởi ấm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Klimaanlage",
+    "meaning_vi": "máy điều hòa",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "mieten",
+    "meaning_vi": "thuê",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "vermieten",
+    "meaning_vi": "cho thuê",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "einziehen",
+    "meaning_vi": "dọn vào",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "ausziehen",
+    "meaning_vi": "dọn ra",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "renovieren",
+    "meaning_vi": "sửa chữa",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "putzen",
+    "meaning_vi": "dọn dẹp",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "housing_expanded"
+  },
+  {
+    "word": "Verkehr",
+    "meaning_vi": "giao thông",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Straße",
+    "meaning_vi": "đường phố",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Ampel",
+    "meaning_vi": "đèn giao thông",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Kreuzung",
+    "meaning_vi": "ngã tư",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Kreisverkehr",
+    "meaning_vi": "vòng xuyến",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Gehweg",
+    "meaning_vi": "vỉa hè",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Radweg",
+    "meaning_vi": "đường xe đạp",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Autobahn",
+    "meaning_vi": "đường cao tốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Parkplatz",
+    "meaning_vi": "bãi đỗ xe",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Tankstelle",
+    "meaning_vi": "trạm xăng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Benzin",
+    "meaning_vi": "xăng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Diesel",
+    "meaning_vi": "dầu diesel",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Motor",
+    "meaning_vi": "động cơ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Reifen",
+    "meaning_vi": "lốp xe",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Bremse",
+    "meaning_vi": "phanh",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Lenkrad",
+    "meaning_vi": "vô lăng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Sicherheitsgurt",
+    "meaning_vi": "dây an toàn",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Führerschein",
+    "meaning_vi": "bằng lái xe",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Kennzeichen",
+    "meaning_vi": "biển số xe",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Versicherung",
+    "meaning_vi": "bảo hiểm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Unfall",
+    "meaning_vi": "tai nạn",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Stau",
+    "meaning_vi": "tắc đường",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Umleitung",
+    "meaning_vi": "đường vòng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Haltestelle",
+    "meaning_vi": "trạm xe buýt",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Bahnhof",
+    "meaning_vi": "ga tàu",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Gleis",
+    "meaning_vi": "đường ray",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Fahrkarte",
+    "meaning_vi": "vé xe",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Fahrplan",
+    "meaning_vi": "lịch trình",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Verspätung",
+    "meaning_vi": "sự chậm trễ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Ankunft",
+    "meaning_vi": "đến nơi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Abfahrt",
+    "meaning_vi": "khởi hành",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "fahren",
+    "meaning_vi": "lái xe",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "fliegen",
+    "meaning_vi": "bay",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "abbiegen",
+    "meaning_vi": "rẽ",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "überholen",
+    "meaning_vi": "vượt",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "parken",
+    "meaning_vi": "đỗ xe",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "tanken",
+    "meaning_vi": "đổ xăng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "einsteigen",
+    "meaning_vi": "lên xe",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "aussteigen",
+    "meaning_vi": "xuống xe",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "umsteigen",
+    "meaning_vi": "chuyển xe",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded"
+  },
+  {
+    "word": "Wetter",
+    "meaning_vi": "thời tiết",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Sonne",
+    "meaning_vi": "mặt trời",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Mond",
+    "meaning_vi": "mặt trăng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Stern",
+    "meaning_vi": "ngôi sao",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Wolke",
+    "meaning_vi": "mây",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Regen",
+    "meaning_vi": "mưa",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Schnee",
+    "meaning_vi": "tuyết",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Hagel",
+    "meaning_vi": "mưa đá",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Gewitter",
+    "meaning_vi": "giông bão",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Blitz",
+    "meaning_vi": "sấm chớp",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Donner",
+    "meaning_vi": "sấm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Wind",
+    "meaning_vi": "gió",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Sturm",
+    "meaning_vi": "bão",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Nebel",
+    "meaning_vi": "sương mù",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Frost",
+    "meaning_vi": "sương giá",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Eis",
+    "meaning_vi": "băng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Hitze",
+    "meaning_vi": "nóng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Kälte",
+    "meaning_vi": "lạnh",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Temperatur",
+    "meaning_vi": "nhiệt độ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Grad",
+    "meaning_vi": "độ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Vorhersage",
+    "meaning_vi": "dự báo",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Jahreszeit",
+    "meaning_vi": "mùa",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Frühling",
+    "meaning_vi": "mùa xuân",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Sommer",
+    "meaning_vi": "mùa hè",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Herbst",
+    "meaning_vi": "mùa thu",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Winter",
+    "meaning_vi": "mùa đông",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "sonnig",
+    "meaning_vi": "có nắng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "bewölkt",
+    "meaning_vi": "nhiều mây",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "regnerisch",
+    "meaning_vi": "có mưa",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "windig",
+    "meaning_vi": "có gió",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "neblig",
+    "meaning_vi": "có sương mù",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "warm",
+    "meaning_vi": "ấm",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "kalt",
+    "meaning_vi": "lạnh",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "heiß",
+    "meaning_vi": "nóng",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "kühl",
+    "meaning_vi": "mát",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "feucht",
+    "meaning_vi": "ẩm",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "trocken",
+    "meaning_vi": "khô",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "regnen",
+    "meaning_vi": "mưa",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "schneien",
+    "meaning_vi": "tuyết rơi",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "scheinen",
+    "meaning_vi": "chiếu sáng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "weather_expanded"
+  },
+  {
+    "word": "Körper",
+    "meaning_vi": "cơ thể",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Kopf",
+    "meaning_vi": "đầu",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Haar",
+    "meaning_vi": "tóc",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Gesicht",
+    "meaning_vi": "mặt",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Stirn",
+    "meaning_vi": "trán",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Augenbraue",
+    "meaning_vi": "lông mày",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Auge",
+    "meaning_vi": "mắt",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Nase",
+    "meaning_vi": "mũi",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Ohr",
+    "meaning_vi": "tai",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Wange",
+    "meaning_vi": "má",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Mund",
+    "meaning_vi": "miệng",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Lippe",
+    "meaning_vi": "môi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Zunge",
+    "meaning_vi": "lưỡi",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Zahn",
+    "meaning_vi": "răng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Kinn",
+    "meaning_vi": "cằm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Hals",
+    "meaning_vi": "cổ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Schulter",
+    "meaning_vi": "vai",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Arm",
+    "meaning_vi": "cánh tay",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Ellbogen",
+    "meaning_vi": "khuỷu tay",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Handgelenk",
+    "meaning_vi": "cổ tay",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Hand",
+    "meaning_vi": "bàn tay",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Finger",
+    "meaning_vi": "ngón tay",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Daumen",
+    "meaning_vi": "ngón cái",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Brust",
+    "meaning_vi": "ngực",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Bauch",
+    "meaning_vi": "bụng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Rücken",
+    "meaning_vi": "lưng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Hüfte",
+    "meaning_vi": "hông",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Bein",
+    "meaning_vi": "chân",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Knie",
+    "meaning_vi": "đầu gối",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Fuß",
+    "meaning_vi": "bàn chân",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Zehe",
+    "meaning_vi": "ngón chân",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Herz",
+    "meaning_vi": "tim",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Lunge",
+    "meaning_vi": "phổi",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Magen",
+    "meaning_vi": "dạ dày",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Leber",
+    "meaning_vi": "gan",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Niere",
+    "meaning_vi": "thận",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Blut",
+    "meaning_vi": "máu",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Knochen",
+    "meaning_vi": "xương",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Muskel",
+    "meaning_vi": "cơ bắp",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Haut",
+    "meaning_vi": "da",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Gesundheit",
+    "meaning_vi": "sức khỏe",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Krankheit",
+    "meaning_vi": "bệnh",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Erkältung",
+    "meaning_vi": "cảm lạnh",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Grippe",
+    "meaning_vi": "cúm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Fieber",
+    "meaning_vi": "sốt",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Husten",
+    "meaning_vi": "ho",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Schnupfen",
+    "meaning_vi": "sổ mũi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Kopfschmerzen",
+    "meaning_vi": "đau đầu",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Bauchschmerzen",
+    "meaning_vi": "đau bụng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Rückenschmerzen",
+    "meaning_vi": "đau lưng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Zahnschmerzen",
+    "meaning_vi": "đau răng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Allergie",
+    "meaning_vi": "dị ứng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Medikament",
+    "meaning_vi": "thuốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Tablette",
+    "meaning_vi": "viên thuốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Rezept",
+    "meaning_vi": "đơn thuốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Impfung",
+    "meaning_vi": "tiêm chủng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Termin",
+    "meaning_vi": "hẹn khám",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Untersuchung",
+    "meaning_vi": "khám bệnh",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Operation",
+    "meaning_vi": "phẫu thuật",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "krank",
+    "meaning_vi": "bệnh",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "gesund",
+    "meaning_vi": "khỏe mạnh",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "müde",
+    "meaning_vi": "mệt",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "fit",
+    "meaning_vi": "khỏe",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "health_expanded"
+  },
+  {
+    "word": "Familie",
+    "meaning_vi": "gia đình",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Eltern",
+    "meaning_vi": "bố mẹ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Vater",
+    "meaning_vi": "bố",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Mutter",
+    "meaning_vi": "mẹ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Sohn",
+    "meaning_vi": "con trai",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Tochter",
+    "meaning_vi": "con gái",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Bruder",
+    "meaning_vi": "anh/em trai",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Schwester",
+    "meaning_vi": "chị/em gái",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Geschwister",
+    "meaning_vi": "anh chị em",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Großeltern",
+    "meaning_vi": "ông bà",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Großvater",
+    "meaning_vi": "ông",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Großmutter",
+    "meaning_vi": "bà",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Opa",
+    "meaning_vi": "ông (thân mật)",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Oma",
+    "meaning_vi": "bà (thân mật)",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Enkel",
+    "meaning_vi": "cháu trai",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Enkelin",
+    "meaning_vi": "cháu gái",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Onkel",
+    "meaning_vi": "chú/bác/cậu",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Tante",
+    "meaning_vi": "cô/dì/bác gái",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Cousin",
+    "meaning_vi": "anh/em họ (nam)",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Cousine",
+    "meaning_vi": "chị/em họ (nữ)",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Neffe",
+    "meaning_vi": "cháu trai (con anh chị em)",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Nichte",
+    "meaning_vi": "cháu gái (con anh chị em)",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Schwiegervater",
+    "meaning_vi": "bố chồng/vợ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Schwiegermutter",
+    "meaning_vi": "mẹ chồng/vợ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Schwager",
+    "meaning_vi": "anh/em rể",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Schwägerin",
+    "meaning_vi": "chị/em dâu",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Ehemann",
+    "meaning_vi": "chồng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Ehefrau",
+    "meaning_vi": "vợ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Partner",
+    "meaning_vi": "bạn đời",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Freund",
+    "meaning_vi": "bạn trai",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Freundin",
+    "meaning_vi": "bạn gái",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Beziehung",
+    "meaning_vi": "mối quan hệ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Hochzeit",
+    "meaning_vi": "đám cưới",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Ehe",
+    "meaning_vi": "hôn nhân",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Scheidung",
+    "meaning_vi": "ly hôn",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Geburt",
+    "meaning_vi": "sinh đẻ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Geburtstag",
+    "meaning_vi": "sinh nhật",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Baby",
+    "meaning_vi": "em bé",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Jugendlicher",
+    "meaning_vi": "thanh thiếu niên",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "Erwachsener",
+    "meaning_vi": "người lớn",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "heiraten",
+    "meaning_vi": "kết hôn",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "lieben",
+    "meaning_vi": "yêu",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "verheiratet",
+    "meaning_vi": "đã kết hôn",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "ledig",
+    "meaning_vi": "độc thân",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "geschieden",
+    "meaning_vi": "đã ly hôn",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "verlobt",
+    "meaning_vi": "đã đính hôn",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "family_expanded"
+  },
+  {
+    "word": "aufwachen",
+    "meaning_vi": "thức dậy",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "aufstehen",
+    "meaning_vi": "dậy",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "duschen",
+    "meaning_vi": "tắm vòi sen",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "baden",
+    "meaning_vi": "tắm bồn",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "waschen",
+    "meaning_vi": "rửa",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "kämmen",
+    "meaning_vi": "chải tóc",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "föhnen",
+    "meaning_vi": "sấy tóc",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "rasieren",
+    "meaning_vi": "cạo râu",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "schminken",
+    "meaning_vi": "trang điểm",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "anziehen",
+    "meaning_vi": "mặc quần áo",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "ausziehen",
+    "meaning_vi": "cởi quần áo",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "frühstücken",
+    "meaning_vi": "ăn sáng",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "Zähne putzen",
+    "meaning_vi": "đánh răng",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "arbeiten",
+    "meaning_vi": "làm việc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "Pause machen",
+    "meaning_vi": "nghỉ giải lao",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "Feierabend machen",
+    "meaning_vi": "tan làm",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "einkaufen gehen",
+    "meaning_vi": "đi mua sắm",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "kochen",
+    "meaning_vi": "nấu ăn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "essen",
+    "meaning_vi": "ăn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "trinken",
+    "meaning_vi": "uống",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "fernsehen",
+    "meaning_vi": "xem tivi",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "lesen",
+    "meaning_vi": "đọc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "Musik hören",
+    "meaning_vi": "nghe nhạc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "telefonieren",
+    "meaning_vi": "gọi điện",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "chatten",
+    "meaning_vi": "nhắn tin",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "spazieren gehen",
+    "meaning_vi": "đi dạo",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "Sport treiben",
+    "meaning_vi": "tập thể thao",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "entspannen",
+    "meaning_vi": "thư giãn",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "schlafen gehen",
+    "meaning_vi": "đi ngủ",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "einschlafen",
+    "meaning_vi": "ngủ thiếp đi",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines"
+  },
+  {
+    "word": "groß",
+    "meaning_vi": "to, lớn",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "klein",
+    "meaning_vi": "nhỏ",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "lang",
+    "meaning_vi": "dài",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "kurz",
+    "meaning_vi": "ngắn",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "hoch",
+    "meaning_vi": "cao",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "niedrig",
+    "meaning_vi": "thấp",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "breit",
+    "meaning_vi": "rộng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "schmal",
+    "meaning_vi": "hẹp",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "dick",
+    "meaning_vi": "dày, béo",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "dünn",
+    "meaning_vi": "mỏng, gầy",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "schwer",
+    "meaning_vi": "nặng, khó",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "leicht",
+    "meaning_vi": "nhẹ, dễ",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "hart",
+    "meaning_vi": "cứng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "weich",
+    "meaning_vi": "mềm",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "neu",
+    "meaning_vi": "mới",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "alt",
+    "meaning_vi": "cũ, già",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "jung",
+    "meaning_vi": "trẻ",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "schnell",
+    "meaning_vi": "nhanh",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "langsam",
+    "meaning_vi": "chậm",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "früh",
+    "meaning_vi": "sớm",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "spät",
+    "meaning_vi": "muộn",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "voll",
+    "meaning_vi": "đầy",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "leer",
+    "meaning_vi": "trống",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "offen",
+    "meaning_vi": "mở",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "geschlossen",
+    "meaning_vi": "đóng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "richtig",
+    "meaning_vi": "đúng",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "falsch",
+    "meaning_vi": "sai",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "wahr",
+    "meaning_vi": "thật",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "möglich",
+    "meaning_vi": "có thể",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "unmöglich",
+    "meaning_vi": "không thể",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "wichtig",
+    "meaning_vi": "quan trọng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "unwichtig",
+    "meaning_vi": "không quan trọng",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "nötig",
+    "meaning_vi": "cần thiết",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "einfach",
+    "meaning_vi": "đơn giản",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "schwierig",
+    "meaning_vi": "khó",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "kompliziert",
+    "meaning_vi": "phức tạp",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "interessant",
+    "meaning_vi": "thú vị",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "langweilig",
+    "meaning_vi": "nhàm chán",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "lustig",
+    "meaning_vi": "vui, buồn cười",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "ernst",
+    "meaning_vi": "nghiêm túc",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "freundlich",
+    "meaning_vi": "thân thiện",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "unfreundlich",
+    "meaning_vi": "không thân thiện",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "höflich",
+    "meaning_vi": "lịch sự",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "unhöflich",
+    "meaning_vi": "bất lịch sự",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "nett",
+    "meaning_vi": "tốt bụng",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "böse",
+    "meaning_vi": "xấu, giận",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "fleißig",
+    "meaning_vi": "chăm chỉ",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "faul",
+    "meaning_vi": "lười",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "klug",
+    "meaning_vi": "thông minh",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "dumm",
+    "meaning_vi": "ngu ngốc",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "stark",
+    "meaning_vi": "khỏe",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "schwach",
+    "meaning_vi": "yếu",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "reich",
+    "meaning_vi": "giàu",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "arm",
+    "meaning_vi": "nghèo",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "sauber",
+    "meaning_vi": "sạch",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "schmutzig",
+    "meaning_vi": "bẩn",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "hell",
+    "meaning_vi": "sáng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "dunkel",
+    "meaning_vi": "tối",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "laut",
+    "meaning_vi": "ồn",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "leise",
+    "meaning_vi": "yên tĩnh",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "ruhig",
+    "meaning_vi": "yên lặng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives"
+  },
+  {
+    "word": "sein",
+    "meaning_vi": "là, ở",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "haben",
+    "meaning_vi": "có",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "werden",
+    "meaning_vi": "trở thành",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "können",
+    "meaning_vi": "có thể",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "müssen",
+    "meaning_vi": "phải",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "wollen",
+    "meaning_vi": "muốn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "sollen",
+    "meaning_vi": "nên",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "dürfen",
+    "meaning_vi": "được phép",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "mögen",
+    "meaning_vi": "thích",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "machen",
+    "meaning_vi": "làm",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "gehen",
+    "meaning_vi": "đi",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "kommen",
+    "meaning_vi": "đến",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "sehen",
+    "meaning_vi": "nhìn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "hören",
+    "meaning_vi": "nghe",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "sprechen",
+    "meaning_vi": "nói",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "sagen",
+    "meaning_vi": "nói (câu)",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "fragen",
+    "meaning_vi": "hỏi",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "antworten",
+    "meaning_vi": "trả lời",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "denken",
+    "meaning_vi": "nghĩ",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "wissen",
+    "meaning_vi": "biết",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "kennen",
+    "meaning_vi": "biết (người)",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "verstehen",
+    "meaning_vi": "hiểu",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "lernen",
+    "meaning_vi": "học",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "lesen",
+    "meaning_vi": "đọc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "schreiben",
+    "meaning_vi": "viết",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "spielen",
+    "meaning_vi": "chơi",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "arbeiten",
+    "meaning_vi": "làm việc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "leben",
+    "meaning_vi": "sống",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "wohnen",
+    "meaning_vi": "ở",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "schlafen",
+    "meaning_vi": "ngủ",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "essen",
+    "meaning_vi": "ăn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "trinken",
+    "meaning_vi": "uống",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "nehmen",
+    "meaning_vi": "lấy",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "geben",
+    "meaning_vi": "cho",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "bringen",
+    "meaning_vi": "mang",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "finden",
+    "meaning_vi": "tìm thấy",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "suchen",
+    "meaning_vi": "tìm kiếm",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "helfen",
+    "meaning_vi": "giúp",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "brauchen",
+    "meaning_vi": "cần",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "glauben",
+    "meaning_vi": "tin",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "hoffen",
+    "meaning_vi": "hy vọng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "erwarten",
+    "meaning_vi": "mong đợi",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "wünschen",
+    "meaning_vi": "ước",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "freuen",
+    "meaning_vi": "vui mừng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "ärgern",
+    "meaning_vi": "bực mình",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "fühlen",
+    "meaning_vi": "cảm thấy",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "bleiben",
+    "meaning_vi": "ở lại",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "beginnen",
+    "meaning_vi": "bắt đầu",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "anfangen",
+    "meaning_vi": "bắt đầu",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "enden",
+    "meaning_vi": "kết thúc",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "aufhören",
+    "meaning_vi": "dừng lại",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "versuchen",
+    "meaning_vi": "cố gắng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "vergessen",
+    "meaning_vi": "quên",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "erinnern",
+    "meaning_vi": "nhớ",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "entscheiden",
+    "meaning_vi": "quyết định",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "wählen",
+    "meaning_vi": "chọn",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "nutzen",
+    "meaning_vi": "sử dụng",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "benutzen",
+    "meaning_vi": "sử dụng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "zeigen",
+    "meaning_vi": "chỉ",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "erklären",
+    "meaning_vi": "giải thích",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "beschreiben",
+    "meaning_vi": "mô tả",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "vergleichen",
+    "meaning_vi": "so sánh",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "ändern",
+    "meaning_vi": "thay đổi",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "verbessern",
+    "meaning_vi": "cải thiện",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs"
+  },
+  {
+    "word": "hier",
+    "meaning_vi": "ở đây",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "dort",
+    "meaning_vi": "ở đó",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "da",
+    "meaning_vi": "ở đó",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "oben",
+    "meaning_vi": "ở trên",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "unten",
+    "meaning_vi": "ở dưới",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "links",
+    "meaning_vi": "bên trái",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "rechts",
+    "meaning_vi": "bên phải",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "vorne",
+    "meaning_vi": "phía trước",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "hinten",
+    "meaning_vi": "phía sau",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "überall",
+    "meaning_vi": "khắp nơi",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "nirgends",
+    "meaning_vi": "không đâu",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "irgendwo",
+    "meaning_vi": "đâu đó",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "heute",
+    "meaning_vi": "hôm nay",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "morgen",
+    "meaning_vi": "ngày mai",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "gestern",
+    "meaning_vi": "hôm qua",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "jetzt",
+    "meaning_vi": "bây giờ",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "später",
+    "meaning_vi": "sau này",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "früher",
+    "meaning_vi": "trước đây",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "immer",
+    "meaning_vi": "luôn luôn",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "nie",
+    "meaning_vi": "không bao giờ",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "niemals",
+    "meaning_vi": "không bao giờ",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "oft",
+    "meaning_vi": "thường xuyên",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "manchmal",
+    "meaning_vi": "thỉnh thoảng",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "selten",
+    "meaning_vi": "hiếm khi",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "meistens",
+    "meaning_vi": "hầu hết",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "normalerweise",
+    "meaning_vi": "thường thì",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "schon",
+    "meaning_vi": "đã",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "noch",
+    "meaning_vi": "còn, vẫn",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "nicht mehr",
+    "meaning_vi": "không còn",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "noch nicht",
+    "meaning_vi": "chưa",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "gerade",
+    "meaning_vi": "đang, vừa mới",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "bald",
+    "meaning_vi": "sớm",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "sofort",
+    "meaning_vi": "ngay lập tức",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "plötzlich",
+    "meaning_vi": "đột nhiên",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "endlich",
+    "meaning_vi": "cuối cùng",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "zuerst",
+    "meaning_vi": "đầu tiên",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "dann",
+    "meaning_vi": "sau đó",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "danach",
+    "meaning_vi": "sau đó",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "zuletzt",
+    "meaning_vi": "cuối cùng",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "sehr",
+    "meaning_vi": "rất",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "ganz",
+    "meaning_vi": "hoàn toàn",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "ziemlich",
+    "meaning_vi": "khá",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "besonders",
+    "meaning_vi": "đặc biệt",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "genug",
+    "meaning_vi": "đủ",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "fast",
+    "meaning_vi": "gần như",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "ungefähr",
+    "meaning_vi": "khoảng",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "etwa",
+    "meaning_vi": "khoảng",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "wahrscheinlich",
+    "meaning_vi": "có lẽ",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "vielleicht",
+    "meaning_vi": "có thể",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "sicher",
+    "meaning_vi": "chắc chắn",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "bestimmt",
+    "meaning_vi": "chắc chắn",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "wirklich",
+    "meaning_vi": "thực sự",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "tatsächlich",
+    "meaning_vi": "thật ra",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "eigentlich",
+    "meaning_vi": "thật ra",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "übrigens",
+    "meaning_vi": "nhân tiện",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "außerdem",
+    "meaning_vi": "ngoài ra",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "trotzdem",
+    "meaning_vi": "mặc dù vậy",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "deshalb",
+    "meaning_vi": "vì vậy",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "darum",
+    "meaning_vi": "vì vậy",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "also",
+    "meaning_vi": "vậy thì",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "allerdings",
+    "meaning_vi": "tuy nhiên",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  },
+  {
+    "word": "jedoch",
+    "meaning_vi": "tuy nhiên",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs"
+  }
+]

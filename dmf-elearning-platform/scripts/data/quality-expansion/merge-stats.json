@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-02T06:28:47.455Z",
+  "sources": {
+    "curated": 1816,
+    "qualitySelected": 1077,
+    "aiApproved": 665,
+    "aiApprovedPhase2": 759
+  },
+  "merged": {
+    "total": 3955,
+    "distribution": {
+      "A1": 515,
+      "A2": 1167,
+      "B1": 770,
+      "B2": 667,
+      "C1": 714,
+      "C2": 122
+    },
+    "sourceBreakdown": {
+      "curated": 1734,
+      "qualitySelected": 1060,
+      "aiApproved": 628,
+      "aiApprovedPhase2": 533
+    }
+  }
+}

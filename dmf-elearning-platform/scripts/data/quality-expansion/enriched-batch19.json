@@ -1,0 +1,2702 @@
+[
+  {
+    "word": "kochen",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "nấu",
+    "example_de": "Ich koche heute Abend eine Suppe für meine Familie.",
+    "example_vi": "Tôi nấu một nồi súp cho gia đình tối nay."
+  },
+  {
+    "word": "braten",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "chiên",
+    "example_de": "Meine Mutter brät das Fleisch in der Pfanne mit etwas Öl.",
+    "example_vi": "Mẹ tôi chiên thịt trong chảo với một ít dầu."
+  },
+  {
+    "word": "grillen",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "nướng",
+    "example_de": "Am Wochenende grillen wir Würstchen und Gemüse im Garten.",
+    "example_vi": "Cuối tuần chúng tôi nướng xúc xích và rau trong vườn."
+  },
+  {
+    "word": "backen",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "nướng lò",
+    "example_de": "Sie backt einen Kuchen für den Geburtstag ihrer Tochter.",
+    "example_vi": "Cô ấy nướng một chiếc bánh cho sinh nhật con gái mình."
+  },
+  {
+    "word": "dämpfen",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "hấp",
+    "example_de": "In China dämpft man oft Gemüse und Fisch im Bambuskorb.",
+    "example_vi": "Ở Trung Quốc người ta thường hấp rau và cá trong rổ tre."
+  },
+  {
+    "word": "frittieren",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "chiên ngập dầu",
+    "example_de": "Die Pommes frites werden in heißem Öl frittiert.",
+    "example_vi": "Khoai tây chiên được chiên ngập dầu trong dầu nóng."
+  },
+  {
+    "word": "schmoren",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "kho",
+    "example_de": "Das Rindfleisch muss zwei Stunden langsam schmoren.",
+    "example_vi": "Thịt bò phải kho nhỏ lửa trong hai tiếng."
+  },
+  {
+    "word": "dünsten",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "om",
+    "example_de": "Ich dünste das Gemüse mit wenig Wasser und Butter.",
+    "example_vi": "Tôi om rau với ít nước và bơ."
+  },
+  {
+    "word": "rösten",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "rang",
+    "example_de": "Er röstet die Kaffeebohnen selbst zu Hause.",
+    "example_vi": "Anh ấy rang hạt cà phê tại nhà."
+  },
+  {
+    "word": "pochieren",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "luộc nhẹ",
+    "example_de": "Zum Frühstück pochiere ich gerne Eier in Essigwasser.",
+    "example_vi": "Bữa sáng tôi thích luộc nhẹ trứng trong nước giấm."
+  },
+  {
+    "word": "marinieren",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "ướp",
+    "example_de": "Wir marinieren das Hähnchen über Nacht mit Gewürzen und Zitrone.",
+    "example_vi": "Chúng tôi ướp gà qua đêm với gia vị và chanh."
+  },
+  {
+    "word": "würzen",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "nêm gia vị",
+    "example_de": "Vergiss nicht, die Soße mit Salz und Pfeffer zu würzen.",
+    "example_vi": "Đừng quên nêm nước sốt với muối và tiêu."
+  },
+  {
+    "word": "schneiden",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "cắt",
+    "example_de": "Kannst du bitte die Tomaten in kleine Stücke schneiden?",
+    "example_vi": "Bạn có thể cắt cà chua thành miếng nhỏ được không?"
+  },
+  {
+    "word": "hacken",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "băm",
+    "example_de": "Sie hackt die Zwiebeln sehr fein für die Sauce.",
+    "example_vi": "Cô ấy băm hành tây rất nhỏ cho nước sốt."
+  },
+  {
+    "word": "rühren",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "khuấy",
+    "example_de": "Du musst den Teig ständig rühren, damit er nicht anbrennt.",
+    "example_vi": "Bạn phải khuấy bột liên tục để nó không bị cháy."
+  },
+  {
+    "word": "mischen",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "trộn",
+    "example_de": "Ich mische Mehl, Eier und Milch für den Pfannkuchenteig.",
+    "example_vi": "Tôi trộn bột mì, trứng và sữa cho bột bánh kếp."
+  },
+  {
+    "word": "schälen",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "gọt vỏ",
+    "example_de": "Bevor du die Kartoffeln kochst, musst du sie schälen.",
+    "example_vi": "Trước khi nấu khoai tây, bạn phải gọt vỏ chúng."
+  },
+  {
+    "word": "reiben",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "bào",
+    "example_de": "Wir reiben den Käse für die Pizza mit einer Reibe.",
+    "example_vi": "Chúng tôi bào phô mai cho pizza bằng cái bào."
+  },
+  {
+    "word": "pressen",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "ép",
+    "example_de": "Jeden Morgen presse ich frische Orangen für Saft.",
+    "example_vi": "Mỗi sáng tôi ép cam tươi để lấy nước."
+  },
+  {
+    "word": "pürieren",
+    "level": "A2",
+    "topic": "Phuong phap nau an",
+    "pos": "verb",
+    "meaning_vi": "xay nhuyễn",
+    "example_de": "Für die Babynahrung püriere ich gekochtes Gemüse im Mixer.",
+    "example_vi": "Cho thức ăn em bé, tôi xay nhuyễn rau đã nấu trong máy xay."
+  },
+  {
+    "word": "das Salz",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "muối",
+    "example_de": "Kannst du mir bitte das Salz reichen?",
+    "example_vi": "Bạn có thể đưa cho tôi muối được không?"
+  },
+  {
+    "word": "der Pfeffer",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "tiêu",
+    "example_de": "Die Suppe braucht noch etwas Pfeffer.",
+    "example_vi": "Món súp còn cần thêm một chút tiêu."
+  },
+  {
+    "word": "der Zucker",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "đường",
+    "example_de": "Ich nehme zwei Löffel Zucker in meinen Kaffee.",
+    "example_vi": "Tôi cho hai thìa đường vào cà phê của mình."
+  },
+  {
+    "word": "das Öl",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "dầu",
+    "example_de": "Zum Braten verwende ich immer Olivenöl.",
+    "example_vi": "Để chiên tôi luôn dùng dầu ô liu."
+  },
+  {
+    "word": "der Essig",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "giấm",
+    "example_de": "Für den Salat mische ich Essig mit Öl.",
+    "example_vi": "Cho món salad tôi trộn giấm với dầu."
+  },
+  {
+    "word": "die Soße",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "nước sốt",
+    "example_de": "Die Soße zu den Nudeln schmeckt hervorragend.",
+    "example_vi": "Nước sốt cho món mì ống có vị tuyệt vời."
+  },
+  {
+    "word": "der Senf",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "mù tạt",
+    "example_de": "Ich esse meine Wurst immer mit Senf.",
+    "example_vi": "Tôi luôn ăn xúc xích với mù tạt."
+  },
+  {
+    "word": "der Ketchup",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "tương cà",
+    "example_de": "Die Kinder lieben Pommes mit Ketchup.",
+    "example_vi": "Bọn trẻ thích khoai tây chiên với tương cà."
+  },
+  {
+    "word": "die Mayonnaise",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "mayonnaise",
+    "example_de": "Zum Sandwich nehme ich immer frische Mayonnaise.",
+    "example_vi": "Cho bánh sandwich tôi luôn dùng mayonnaise tươi."
+  },
+  {
+    "word": "der Zimt",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "quế",
+    "example_de": "Der Apfelkuchen ist mit Zimt gewürzt.",
+    "example_vi": "Bánh táo được nприправ với quế."
+  },
+  {
+    "word": "der Ingwer",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "gừng",
+    "example_de": "Ingwer hilft gut gegen Erkältung.",
+    "example_vi": "Gừng giúp tốt chống cảm lạnh."
+  },
+  {
+    "word": "der Knoblauch",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "tỏi",
+    "example_de": "Ich brate das Gemüse mit Knoblauch an.",
+    "example_vi": "Tôi xào rau với tỏi."
+  },
+  {
+    "word": "die Zwiebel",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "hành",
+    "example_de": "Beim Schneiden der Zwiebel tränen meine Augen.",
+    "example_vi": "Khi cắt hành, mắt tôi chảy nước."
+  },
+  {
+    "word": "das Basilikum",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "húng quế",
+    "example_de": "Frisches Basilikum passt perfekt zu Tomaten.",
+    "example_vi": "Húng quế tươi kết hợp hoàn hảo với cà chua."
+  },
+  {
+    "word": "die Petersilie",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "mùi tây",
+    "example_de": "Ich streue gehackte Petersilie über die Kartoffeln.",
+    "example_vi": "Tôi rắc mùi tây băm nhỏ lên khoai tây."
+  },
+  {
+    "word": "der Oregano",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "oregano",
+    "example_de": "Auf jede Pizza gehört Oregano.",
+    "example_vi": "Mỗi chiếc pizza đều cần có oregano."
+  },
+  {
+    "word": "der Thymian",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "húng tây",
+    "example_de": "Der Braten wird mit Thymian gewürzt.",
+    "example_vi": "Thịt quay được tẩm ướp với húng tây."
+  },
+  {
+    "word": "der Rosmarin",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "hương thảo",
+    "example_de": "Rosmarin gibt dem Lammfleisch ein besonderes Aroma.",
+    "example_vi": "Hương thảo mang lại hương vị đặc biệt cho thịt cừu."
+  },
+  {
+    "word": "der Koriander",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "ngò",
+    "example_de": "In der asiatischen Küche wird viel Koriander verwendet.",
+    "example_vi": "Trong ẩm thực châu Á người ta dùng nhiều ngò."
+  },
+  {
+    "word": "die Muskatnuss",
+    "level": "A2",
+    "topic": "Gia vi",
+    "pos": "noun",
+    "meaning_vi": "nhục đậu khấu",
+    "example_de": "Eine Prise Muskatnuss verfeinert die Béchamelsauce.",
+    "example_vi": "Một nhúm nhục đậu khấu làm tinh tế nước sốt béchamel."
+  },
+  {
+    "word": "die Zeitung",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "báo",
+    "example_de": "Ich lese jeden Morgen die Zeitung beim Frühstück.",
+    "example_vi": "Tôi đọc báo mỗi sáng khi ăn sáng."
+  },
+  {
+    "word": "die Zeitschrift",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "tạp chí",
+    "example_de": "Meine Mutter kauft sich jede Woche eine Modezeitschrift.",
+    "example_vi": "Mẹ tôi mua một tạp chí thời trang mỗi tuần."
+  },
+  {
+    "word": "die Nachrichten",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "tin tức",
+    "example_de": "Um 20 Uhr schaue ich immer die Nachrichten im Fernsehen.",
+    "example_vi": "Lúc 8 giờ tối tôi luôn xem tin tức trên tivi."
+  },
+  {
+    "word": "der Artikel",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "bài báo",
+    "example_de": "Der Artikel über den Klimawandel war sehr interessant.",
+    "example_vi": "Bài báo về biến đổi khí hậu rất thú vị."
+  },
+  {
+    "word": "die Schlagzeile",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "tiêu đề",
+    "example_de": "Die Schlagzeile auf der Titelseite hat meine Aufmerksamkeit erregt.",
+    "example_vi": "Tiêu đề trên trang nhất đã thu hút sự chú ý của tôi."
+  },
+  {
+    "word": "der Reporter",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "phóng viên",
+    "example_de": "Der Reporter berichtete live vom Unfallort.",
+    "example_vi": "Phóng viên đưa tin trực tiếp từ hiện trường vụ tai nạn."
+  },
+  {
+    "word": "das Interview",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "cuộc phỏng vấn",
+    "example_de": "Der Journalist führte ein Interview mit dem Bürgermeister.",
+    "example_vi": "Nhà báo đã thực hiện một cuộc phỏng vấn với thị trưởng."
+  },
+  {
+    "word": "die Sendung",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "chương trình",
+    "example_de": "Meine Lieblingssendung läuft jeden Freitag um 21 Uhr.",
+    "example_vi": "Chương trình yêu thích của tôi phát sóng mỗi thứ Sáu lúc 9 giờ tối."
+  },
+  {
+    "word": "das Radio",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "đài radio",
+    "example_de": "Ich höre Radio, während ich zur Arbeit fahre.",
+    "example_vi": "Tôi nghe đài radio khi lái xe đi làm."
+  },
+  {
+    "word": "der Sender",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "kênh",
+    "example_de": "Welchen Sender schaust du am liebsten?",
+    "example_vi": "Bạn thích xem kênh nào nhất?"
+  },
+  {
+    "word": "die Werbung",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "quảng cáo",
+    "example_de": "Die Werbung im Fernsehen nervt mich manchmal.",
+    "example_vi": "Quảng cáo trên tivi đôi khi làm tôi khó chịu."
+  },
+  {
+    "word": "die Anzeige",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "mẩu tin",
+    "example_de": "Ich habe eine Anzeige in der Zeitung geschaltet, um mein Auto zu verkaufen.",
+    "example_vi": "Tôi đã đăng một mẩu tin trên báo để bán xe hơi của mình."
+  },
+  {
+    "word": "die Presse",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "báo chí",
+    "example_de": "Die Presse berichtete ausführlich über den politischen Skandal.",
+    "example_vi": "Báo chí đưa tin chi tiết về vụ bê bối chính trị."
+  },
+  {
+    "word": "die Redaktion",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "tòa soạn",
+    "example_de": "Die Redaktion arbeitet an der nächsten Ausgabe der Zeitung.",
+    "example_vi": "Tòa soạn đang làm việc cho số báo tiếp theo."
+  },
+  {
+    "word": "der Chefredakteur",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "tổng biên tập",
+    "example_de": "Der Chefredakteur entscheidet über die Themen der Titelseite.",
+    "example_vi": "Tổng biên tập quyết định các chủ đề trên trang nhất."
+  },
+  {
+    "word": "die Kolumne",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "chuyên mục",
+    "example_de": "Sie schreibt eine wöchentliche Kolumne über Politik.",
+    "example_vi": "Cô ấy viết một chuyên mục hàng tuần về chính trị."
+  },
+  {
+    "word": "das Abonnement",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "đăng ký",
+    "example_de": "Ich habe ein Jahresabonnement für diese Zeitschrift abgeschlossen.",
+    "example_vi": "Tôi đã đăng ký một năm cho tạp chí này."
+  },
+  {
+    "word": "die Talkshow",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "talk show",
+    "example_de": "In der Talkshow diskutierten Experten über aktuelle Themen.",
+    "example_vi": "Trong talk show, các chuyên gia thảo luận về các chủ đề thời sự."
+  },
+  {
+    "word": "die Dokumentation",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "phim tài liệu",
+    "example_de": "Gestern Abend habe ich eine spannende Dokumentation über Wildtiere gesehen.",
+    "example_vi": "Tối qua tôi đã xem một phim tài liệu hấp dẫn về động vật hoang dã."
+  },
+  {
+    "word": "die Serie",
+    "level": "B1",
+    "topic": "Truyen thong",
+    "pos": "noun",
+    "meaning_vi": "phim bộ",
+    "example_de": "Die neue Serie auf Netflix ist sehr beliebt.",
+    "example_vi": "Phim bộ mới trên Netflix rất được yêu thích."
+  },
+  {
+    "word": "die Religion",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "tôn giáo",
+    "example_de": "In Deutschland gibt es viele verschiedene Religionen wie Christentum, Islam und Judentum.",
+    "example_vi": "Ở Đức có nhiều tôn giáo khác nhau như Cơ đốc giáo, Hồi giáo và Do Thái giáo."
+  },
+  {
+    "word": "der Glaube",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "đức tin",
+    "example_de": "Ihr Glaube an Gott gibt ihr Kraft in schwierigen Zeiten.",
+    "example_vi": "Đức tin vào Chúa cho cô ấy sức mạnh trong những thời điểm khó khăn."
+  },
+  {
+    "word": "der Gott",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "Chúa/thần",
+    "example_de": "Die Christen glauben an einen Gott, der die Welt erschaffen hat.",
+    "example_vi": "Các Kitô hữu tin vào một Chúa đã tạo dựng nên thế giới."
+  },
+  {
+    "word": "die Kirche",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "nhà thờ",
+    "example_de": "Jeden Sonntag geht meine Oma in die Kirche zum Gottesdienst.",
+    "example_vi": "Mỗi Chủ nhật bà tôi đến nhà thờ để dự lễ."
+  },
+  {
+    "word": "die Moschee",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "nhà thờ Hồi giáo",
+    "example_de": "Die Muslime treffen sich freitags in der Moschee zum gemeinsamen Gebet.",
+    "example_vi": "Các tín đồ Hồi giáo gặp nhau vào thứ Sáu tại nhà thờ Hồi giáo để cầu nguyện chung."
+  },
+  {
+    "word": "die Synagoge",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "nhà thờ Do Thái",
+    "example_de": "In Berlin gibt es mehrere historische Synagogen aus dem 19. Jahrhundert.",
+    "example_vi": "Ở Berlin có nhiều nhà thờ Do Thái lịch sử từ thế kỷ 19."
+  },
+  {
+    "word": "der Tempel",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "đền",
+    "example_de": "In Thailand besuchten wir einen wunderschönen buddhistischen Tempel.",
+    "example_vi": "Ở Thái Lan chúng tôi đã tham quan một ngôi đền Phật giáo tuyệt đẹp."
+  },
+  {
+    "word": "das Gebet",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "lời cầu nguyện",
+    "example_de": "Vor dem Essen sprechen sie immer ein kurzes Gebet.",
+    "example_vi": "Trước bữa ăn họ luôn đọc một lời cầu nguyện ngắn."
+  },
+  {
+    "word": "der Priester",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "linh mục",
+    "example_de": "Der Priester hielt eine bewegende Predigt über Nächstenliebe.",
+    "example_vi": "Vị linh mục đã có bài giảng cảm động về tình yêu thương người."
+  },
+  {
+    "word": "der Pfarrer",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "mục sư",
+    "example_de": "Der Pfarrer unserer Gemeinde organisiert jeden Monat ein Treffen für Jugendliche.",
+    "example_vi": "Mục sư của giáo xứ chúng tôi tổ chức buổi gặp gỡ cho thanh thiếu niên mỗi tháng."
+  },
+  {
+    "word": "der Imam",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "imam",
+    "example_de": "Der Imam leitet das Freitagsgebet in unserer Moschee.",
+    "example_vi": "Vị imam chủ trì buổi cầu nguyện thứ Sáu tại nhà thờ Hồi giáo của chúng tôi."
+  },
+  {
+    "word": "der Rabbiner",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "giáo sĩ Do Thái",
+    "example_de": "Der Rabbiner unterrichtet die Kinder in hebräischer Sprache und jüdischer Geschichte.",
+    "example_vi": "Giáo sĩ Do Thái dạy các em nhỏ tiếng Do Thái và lịch sử Do Thái giáo."
+  },
+  {
+    "word": "der Mönch",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "tu sĩ",
+    "example_de": "Die Mönche im Kloster leben nach strengen Regeln und beten mehrmals täglich.",
+    "example_vi": "Các tu sĩ trong tu viện sống theo những quy tắc nghiêm ngặt và cầu nguyện nhiều lần mỗi ngày."
+  },
+  {
+    "word": "die Nonne",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "nữ tu",
+    "example_de": "Die Nonnen kümmern sich liebevoll um die kranken Menschen im Krankenhaus.",
+    "example_vi": "Các nữ tu chăm sóc những người bệnh trong bệnh viện một cách yêu thương."
+  },
+  {
+    "word": "die Bibel",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "Kinh Thánh",
+    "example_de": "Mein Großvater liest jeden Abend vor dem Schlafengehen in der Bibel.",
+    "example_vi": "Ông tôi đọc Kinh Thánh mỗi tối trước khi đi ngủ."
+  },
+  {
+    "word": "der Koran",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "Kinh Koran",
+    "example_de": "Im Ramadan lesen viele Muslime den gesamten Koran.",
+    "example_vi": "Trong tháng Ramadan nhiều tín đồ Hồi giáo đọc toàn bộ Kinh Koran."
+  },
+  {
+    "word": "die Taufe",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "lễ rửa tội",
+    "example_de": "Die Taufe des kleinen Kindes fand am Sonntag in der Dorfkirche statt.",
+    "example_vi": "Lễ rửa tội cho đứa trẻ nhỏ đã diễn ra vào Chủ nhật tại nhà thờ làng."
+  },
+  {
+    "word": "die Hochzeit",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "lễ cưới",
+    "example_de": "Ihre Hochzeit war eine große Feier mit über 200 Gästen.",
+    "example_vi": "Lễ cưới của họ là một bữa tiệc lớn với hơn 200 khách mời."
+  },
+  {
+    "word": "die Beerdigung",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "đám tang",
+    "example_de": "Die Beerdigung meines Onkels war sehr traurig, aber würdevoll.",
+    "example_vi": "Đám tang của chú tôi rất buồn nhưng trang nghiêm."
+  },
+  {
+    "word": "das Ostern",
+    "level": "B1",
+    "topic": "Ton giao",
+    "pos": "noun",
+    "meaning_vi": "Lễ Phục Sinh",
+    "example_de": "An Ostern feiern die Christen die Auferstehung von Jesus Christus.",
+    "example_vi": "Vào Lễ Phục Sinh, các Kitô hữu kỷ niệm sự phục sinh của Chúa Giê-su Ki-tô."
+  },
+  {
+    "word": "der Garten",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "vườn",
+    "example_de": "Mein Garten ist im Sommer besonders schön.",
+    "example_vi": "Vườn của tôi đặc biệt đẹp vào mùa hè."
+  },
+  {
+    "word": "die Pflanze",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "cây",
+    "example_de": "Diese Pflanze braucht viel Wasser und Sonnenlicht.",
+    "example_vi": "Cây này cần nhiều nước và ánh sáng mặt trời."
+  },
+  {
+    "word": "die Blume",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "hoa",
+    "example_de": "Die roten Blumen im Garten duften wunderbar.",
+    "example_vi": "Những bông hoa đỏ trong vườn có mùi thơm tuyệt vời."
+  },
+  {
+    "word": "der Baum",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "cây to",
+    "example_de": "Der alte Baum spendet viel Schatten im Sommer.",
+    "example_vi": "Cây to cổ thụ tạo nhiều bóng mát vào mùa hè."
+  },
+  {
+    "word": "der Rasen",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "bãi cỏ",
+    "example_de": "Ich muss den Rasen am Wochenende mähen.",
+    "example_vi": "Tôi phải cắt bãi cỏ vào cuối tuần."
+  },
+  {
+    "word": "das Beet",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "luống hoa",
+    "example_de": "Im Beet wachsen Tomaten und Salat.",
+    "example_vi": "Trong luống hoa trồng cà chua và rau xà lách."
+  },
+  {
+    "word": "der Zaun",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "hàng rào",
+    "example_de": "Wir haben einen neuen Zaun um den Garten gebaut.",
+    "example_vi": "Chúng tôi đã xây một hàng rào mới quanh vườn."
+  },
+  {
+    "word": "die Hecke",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "hàng rào cây",
+    "example_de": "Die Hecke muss zweimal im Jahr geschnitten werden.",
+    "example_vi": "Hàng rào cây phải được cắt tỉa hai lần một năm."
+  },
+  {
+    "word": "der Teich",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "ao",
+    "example_de": "In unserem Teich schwimmen bunte Fische.",
+    "example_vi": "Trong ao của chúng tôi có những con cá nhiều màu sắc bơi lội."
+  },
+  {
+    "word": "der Weg",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "lối đi",
+    "example_de": "Der Weg durch den Garten ist mit Kies bedeckt.",
+    "example_vi": "Lối đi qua vườn được phủ sỏi."
+  },
+  {
+    "word": "die Gießkanne",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "bình tưới",
+    "example_de": "Ich fülle die Gießkanne mit Wasser für die Blumen.",
+    "example_vi": "Tôi đổ đầy nước vào bình tưới cho hoa."
+  },
+  {
+    "word": "die Schaufel",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "xẻng",
+    "example_de": "Mit der Schaufel grabe ich ein Loch für den neuen Baum.",
+    "example_vi": "Tôi dùng xẻng đào một cái hố cho cây mới."
+  },
+  {
+    "word": "die Harke",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "cào",
+    "example_de": "Mit der Harke sammle ich das Laub im Herbst.",
+    "example_vi": "Tôi dùng cào để gom lá vào mùa thu."
+  },
+  {
+    "word": "die Schere",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "kéo cắt cây",
+    "example_de": "Die Schere ist scharf genug, um die Äste zu schneiden.",
+    "example_vi": "Chiếc kéo cắt cây đủ sắc để cắt các cành cây."
+  },
+  {
+    "word": "der Rasenmäher",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "noun",
+    "meaning_vi": "máy cắt cỏ",
+    "example_de": "Der Rasenmäher ist kaputt und muss repariert werden.",
+    "example_vi": "Máy cắt cỏ bị hỏng và cần được sửa chữa."
+  },
+  {
+    "word": "pflanzen",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "verb",
+    "meaning_vi": "trồng",
+    "example_de": "Im Frühling pflanzen wir neue Blumen im Garten.",
+    "example_vi": "Vào mùa xuân chúng tôi trồng hoa mới trong vườn."
+  },
+  {
+    "word": "gießen",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "verb",
+    "meaning_vi": "tưới",
+    "example_de": "Vergiss nicht, die Pflanzen jeden Abend zu gießen.",
+    "example_vi": "Đừng quên tưới cây mỗi tối."
+  },
+  {
+    "word": "jäten",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "verb",
+    "meaning_vi": "nhổ cỏ",
+    "example_de": "Am Samstag muss ich das Unkraut im Beet jäten.",
+    "example_vi": "Thứ bảy tôi phải nhổ cỏ dại trong luống hoa."
+  },
+  {
+    "word": "ernten",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "verb",
+    "meaning_vi": "thu hoạch",
+    "example_de": "Wir können bald die reifen Äpfel ernten.",
+    "example_vi": "Chúng ta sớm có thể thu hoạch những quả táo chín."
+  },
+  {
+    "word": "düngen",
+    "level": "A2",
+    "topic": "Lam vuon",
+    "pos": "verb",
+    "meaning_vi": "bón phân",
+    "example_de": "Man sollte die Rosen regelmäßig düngen.",
+    "example_vi": "Người ta nên bón phân cho hoa hồng thường xuyên."
+  },
+  {
+    "word": "der Meter",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "mét",
+    "example_de": "Der Tisch ist zwei Meter lang.",
+    "example_vi": "Cái bàn dài hai mét."
+  },
+  {
+    "word": "der Kilometer",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "km",
+    "example_de": "Ich laufe jeden Tag fünf Kilometer.",
+    "example_vi": "Tôi chạy bộ năm km mỗi ngày."
+  },
+  {
+    "word": "der Zentimeter",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "cm",
+    "example_de": "Das Baby ist 50 Zentimeter groß.",
+    "example_vi": "Em bé cao 50 cm."
+  },
+  {
+    "word": "der Millimeter",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "mm",
+    "example_de": "Die Schraube ist nur drei Millimeter dick.",
+    "example_vi": "Cái vít chỉ dày ba mm."
+  },
+  {
+    "word": "das Kilogramm",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "kg",
+    "example_de": "Ich habe zwei Kilogramm Äpfel gekauft.",
+    "example_vi": "Tôi đã mua hai kg táo."
+  },
+  {
+    "word": "das Gramm",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "gram",
+    "example_de": "Für den Kuchen brauche ich 200 Gramm Zucker.",
+    "example_vi": "Để làm bánh tôi cần 200 gram đường."
+  },
+  {
+    "word": "der Liter",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "lít",
+    "example_de": "Ich trinke jeden Tag zwei Liter Wasser.",
+    "example_vi": "Tôi uống hai lít nước mỗi ngày."
+  },
+  {
+    "word": "der Milliliter",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "ml",
+    "example_de": "Gib 50 Milliliter Milch in die Tasse.",
+    "example_vi": "Đổ 50 ml sữa vào tách."
+  },
+  {
+    "word": "die Stunde",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "giờ",
+    "example_de": "Der Film dauert zwei Stunden.",
+    "example_vi": "Bộ phim kéo dài hai giờ."
+  },
+  {
+    "word": "die Minute",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "phút",
+    "example_de": "Warte bitte fünf Minuten!",
+    "example_vi": "Vui lòng đợi năm phút!"
+  },
+  {
+    "word": "die Sekunde",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "giây",
+    "example_de": "Er hat den Rekord um drei Sekunden verbessert.",
+    "example_vi": "Anh ấy đã cải thiện kỷ lục ba giây."
+  },
+  {
+    "word": "das Prozent",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "phần trăm",
+    "example_de": "Die Schuhe sind um 20 Prozent reduziert.",
+    "example_vi": "Giày được giảm giá 20 phần trăm."
+  },
+  {
+    "word": "der Quadratmeter",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "mét vuông",
+    "example_de": "Die Wohnung hat 80 Quadratmeter.",
+    "example_vi": "Căn hộ có diện tích 80 mét vuông."
+  },
+  {
+    "word": "der Kubikmeter",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "mét khối",
+    "example_de": "Wir haben zehn Kubikmeter Sand bestellt.",
+    "example_vi": "Chúng tôi đã đặt mười mét khối cát."
+  },
+  {
+    "word": "das Dutzend",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "tá (12)",
+    "example_de": "Ich kaufe ein Dutzend Eier.",
+    "example_vi": "Tôi mua một tá trứng."
+  },
+  {
+    "word": "das Paar",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "đôi",
+    "example_de": "Ich brauche ein neues Paar Schuhe.",
+    "example_vi": "Tôi cần một đôi giày mới."
+  },
+  {
+    "word": "die Portion",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "khẩu phần",
+    "example_de": "Ich möchte eine große Portion Pommes.",
+    "example_vi": "Tôi muốn một khẩu phần khoai tây chiên lớn."
+  },
+  {
+    "word": "die Scheibe",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "lát",
+    "example_de": "Ich esse zwei Scheiben Brot zum Frühstück.",
+    "example_vi": "Tôi ăn hai lát bánh mì vào bữa sáng."
+  },
+  {
+    "word": "das Stück",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "miếng",
+    "example_de": "Kann ich ein Stück Kuchen haben?",
+    "example_vi": "Tôi có thể lấy một miếng bánh được không?"
+  },
+  {
+    "word": "die Tasse",
+    "level": "A2",
+    "topic": "Don vi do luong",
+    "pos": "noun",
+    "meaning_vi": "tách",
+    "example_de": "Ich trinke eine Tasse Kaffee am Morgen.",
+    "example_vi": "Tôi uống một tách cà phê vào buổi sáng."
+  },
+  {
+    "word": "der Hammer",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "búa",
+    "example_de": "Ich brauche einen Hammer, um den Nagel in die Wand zu schlagen.",
+    "example_vi": "Tôi cần một cái búa để đóng đinh vào tường."
+  },
+  {
+    "word": "die Säge",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "cưa",
+    "example_de": "Mit der Säge kann man das Holzbrett in zwei Teile schneiden.",
+    "example_vi": "Với cái cưa, người ta có thể cắt tấm gỗ thành hai phần."
+  },
+  {
+    "word": "der Schraubenzieher",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "tua vít",
+    "example_de": "Kannst du mir bitte den Schraubenzieher geben? Ich muss diese Schraube festziehen.",
+    "example_vi": "Bạn có thể đưa cho tôi cái tua vít được không? Tôi phải vặn chặt cái ốc vít này."
+  },
+  {
+    "word": "die Zange",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "kìm",
+    "example_de": "Er benutzt die Zange, um den Draht zu schneiden.",
+    "example_vi": "Anh ấy dùng cái kìm để cắt dây."
+  },
+  {
+    "word": "der Schraubenschlüssel",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "cờ lê",
+    "example_de": "Ohne einen Schraubenschlüssel kann ich die Mutter nicht lösen.",
+    "example_vi": "Không có cờ lê thì tôi không thể tháo đai ốc được."
+  },
+  {
+    "word": "die Bohrmaschine",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "máy khoan",
+    "example_de": "Die Bohrmaschine ist zu laut, bitte trag einen Gehörschutz.",
+    "example_vi": "Máy khoan quá ồn, làm ơn đeo bảo vệ tai vào."
+  },
+  {
+    "word": "der Nagel",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "đinh",
+    "example_de": "Ich habe mir mit dem Hammer auf den Nagel geschlagen.",
+    "example_vi": "Tôi đã dùng búa đập trúng cái đinh."
+  },
+  {
+    "word": "die Schraube",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "ốc vít",
+    "example_de": "Diese Schraube ist locker, ich muss sie festziehen.",
+    "example_vi": "Cái ốc vít này bị lỏng, tôi phải vặn chặt nó lại."
+  },
+  {
+    "word": "die Leiter",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "thang",
+    "example_de": "Sei vorsichtig, wenn du auf die Leiter steigst!",
+    "example_vi": "Hãy cẩn thận khi bạn leo lên thang!"
+  },
+  {
+    "word": "das Maßband",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "thước dây",
+    "example_de": "Mit dem Maßband messe ich die Länge des Tisches.",
+    "example_vi": "Tôi dùng thước dây để đo chiều dài của cái bàn."
+  },
+  {
+    "word": "die Wasserwaage",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "thước thủy",
+    "example_de": "Benutze die Wasserwaage, um sicherzustellen, dass das Regal gerade hängt.",
+    "example_vi": "Hãy dùng thước thủy để đảm bảo rằng kệ được treo thẳng."
+  },
+  {
+    "word": "der Pinsel",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "cọ sơn",
+    "example_de": "Ich streiche die Wand mit einem breiten Pinsel.",
+    "example_vi": "Tôi sơn tường bằng một cái cọ rộng."
+  },
+  {
+    "word": "die Farbe",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "sơn",
+    "example_de": "Welche Farbe möchtest du für dein Schlafzimmer? Blau oder Grün?",
+    "example_vi": "Bạn muốn màu sơn nào cho phòng ngủ? Xanh dương hay xanh lá?"
+  },
+  {
+    "word": "der Kleber",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "keo dán",
+    "example_de": "Der Kleber ist sehr stark und hält das Papier fest zusammen.",
+    "example_vi": "Keo dán rất mạnh và giữ chặt giấy lại với nhau."
+  },
+  {
+    "word": "das Klebeband",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "băng dính",
+    "example_de": "Ich verwende Klebeband, um das Paket zu verschließen.",
+    "example_vi": "Tôi dùng băng dính để niêm phong gói hàng."
+  },
+  {
+    "word": "das Schleifpapier",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "giấy nhám",
+    "example_de": "Mit dem Schleifpapier mache ich die Holzoberfläche glatt.",
+    "example_vi": "Tôi dùng giấy nhám để làm mịn bề mặt gỗ."
+  },
+  {
+    "word": "die Feile",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "dũa",
+    "example_de": "Er benutzt eine Feile, um die rauen Kanten zu glätten.",
+    "example_vi": "Anh ấy dùng dũa để làm nhẵn các cạnh sần sùi."
+  },
+  {
+    "word": "die Taschenlampe",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "đèn pin",
+    "example_de": "Im Dunkeln brauchen wir eine Taschenlampe, um den Weg zu sehen.",
+    "example_vi": "Trong bóng tối, chúng ta cần đèn pin để nhìn đường."
+  },
+  {
+    "word": "der Werkzeugkasten",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "hộp đồ nghề",
+    "example_de": "Alle meine Werkzeuge sind ordentlich im Werkzeugkasten verstaut.",
+    "example_vi": "Tất cả dụng cụ của tôi được cất gọn gàng trong hộp đồ nghề."
+  },
+  {
+    "word": "die Handschuhe",
+    "level": "A2",
+    "topic": "Dung cu",
+    "pos": "noun",
+    "meaning_vi": "găng tay",
+    "example_de": "Trag bitte Handschuhe, wenn du mit Chemikalien arbeitest.",
+    "example_vi": "Làm ơn đeo găng tay khi bạn làm việc với hóa chất."
+  },
+  {
+    "word": "die Dusche",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "vòi sen",
+    "example_de": "Ich nehme jeden Morgen eine warme Dusche.",
+    "example_vi": "Tôi tắm vòi sen nước ấm mỗi sáng."
+  },
+  {
+    "word": "die Badewanne",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "bồn tắm",
+    "example_de": "Am Wochenende entspanne ich gerne in der Badewanne.",
+    "example_vi": "Cuối tuần tôi thích thư giãn trong bồn tắm."
+  },
+  {
+    "word": "die Toilette",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "bồn cầu",
+    "example_de": "Entschuldigung, wo ist hier die Toilette?",
+    "example_vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?"
+  },
+  {
+    "word": "das Waschbecken",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "bồn rửa mặt",
+    "example_de": "Das Waschbecken im Badezimmer ist verstopft.",
+    "example_vi": "Bồn rửa mặt trong phòng tắm bị tắc."
+  },
+  {
+    "word": "der Spiegel",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "gương",
+    "example_de": "Sie schaut sich jeden Tag im Spiegel an.",
+    "example_vi": "Cô ấy soi gương mỗi ngày."
+  },
+  {
+    "word": "das Handtuch",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "khăn tắm",
+    "example_de": "Kannst du mir bitte ein sauberes Handtuch geben?",
+    "example_vi": "Bạn có thể đưa tôi một chiếc khăn tắm sạch được không?"
+  },
+  {
+    "word": "die Seife",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "xà phòng",
+    "example_de": "Wasch dir die Hände mit Seife!",
+    "example_vi": "Rửa tay bằng xà phòng đi!"
+  },
+  {
+    "word": "das Shampoo",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "dầu gội",
+    "example_de": "Dieses Shampoo riecht nach Kokos.",
+    "example_vi": "Dầu gội này có mùi dừa."
+  },
+  {
+    "word": "die Spülung",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "dầu xả",
+    "example_de": "Nach dem Shampoo benutze ich immer eine Spülung.",
+    "example_vi": "Sau khi gội đầu tôi luôn dùng dầu xả."
+  },
+  {
+    "word": "das Duschgel",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "sữa tắm",
+    "example_de": "Ich habe mein Duschgel vergessen.",
+    "example_vi": "Tôi đã quên sữa tắm của mình."
+  },
+  {
+    "word": "die Zahnbürste",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "bàn chải đánh răng",
+    "example_de": "Du solltest deine Zahnbürste alle drei Monate wechseln.",
+    "example_vi": "Bạn nên thay bàn chải đánh răng ba tháng một lần."
+  },
+  {
+    "word": "die Zahnpasta",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "kem đánh răng",
+    "example_de": "Die Zahnpasta ist fast leer.",
+    "example_vi": "Kem đánh răng gần hết rồi."
+  },
+  {
+    "word": "der Rasierer",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "dao cạo râu",
+    "example_de": "Mein Vater benutzt einen elektrischen Rasierer.",
+    "example_vi": "Bố tôi dùng dao cạo râu điện."
+  },
+  {
+    "word": "der Fön",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "máy sấy tóc",
+    "example_de": "Der Fön ist kaputt, ich muss einen neuen kaufen.",
+    "example_vi": "Máy sấy tóc bị hỏng, tôi phải mua cái mới."
+  },
+  {
+    "word": "der Kamm",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "lược",
+    "example_de": "Hast du einen Kamm? Meine Haare sind so durcheinander.",
+    "example_vi": "Bạn có lược không? Tóc tôi rối quá."
+  },
+  {
+    "word": "die Bürste",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "bàn chải",
+    "example_de": "Ich kämme meine Haare mit einer Bürste.",
+    "example_vi": "Tôi chải tóc bằng bàn chải."
+  },
+  {
+    "word": "die Creme",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "kem dưỡng",
+    "example_de": "Diese Creme macht die Haut weich.",
+    "example_vi": "Kem dưỡng này làm da mềm mại."
+  },
+  {
+    "word": "das Deodorant",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "lăn khử mùi",
+    "example_de": "Ich trage jeden Tag Deodorant auf.",
+    "example_vi": "Tôi dùng lăn khử mùi mỗi ngày."
+  },
+  {
+    "word": "das Parfüm",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "nước hoa",
+    "example_de": "Sie trägt immer ein teures Parfüm.",
+    "example_vi": "Cô ấy luôn dùng nước hoa đắt tiền."
+  },
+  {
+    "word": "das Toilettenpapier",
+    "level": "A2",
+    "topic": "Phong tam",
+    "pos": "noun",
+    "meaning_vi": "giấy vệ sinh",
+    "example_de": "Wir müssen neues Toilettenpapier kaufen.",
+    "example_vi": "Chúng ta phải mua giấy vệ sinh mới."
+  },
+  {
+    "word": "putzen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "lau chùi",
+    "example_de": "Ich muss heute das Badezimmer putzen.",
+    "example_vi": "Hôm nay tôi phải lau chùi phòng tắm."
+  },
+  {
+    "word": "waschen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "giặt",
+    "example_de": "Meine Mutter wäscht die Wäsche jeden Samstag.",
+    "example_vi": "Mẹ tôi giặt quần áo mỗi thứ Bảy."
+  },
+  {
+    "word": "bügeln",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "ủi đồ",
+    "example_de": "Er bügelt sein Hemd für das Vorstellungsgespräch.",
+    "example_vi": "Anh ấy ủi áo sơ mi cho buổi phỏng vấn xin việc."
+  },
+  {
+    "word": "staubsaugen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "hút bụi",
+    "example_de": "Kannst du bitte das Wohnzimmer staubsaugen?",
+    "example_vi": "Bạn có thể hút bụi phòng khách được không?"
+  },
+  {
+    "word": "wischen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "lau",
+    "example_de": "Sie wischt den Küchenboden mit einem feuchten Tuch.",
+    "example_vi": "Cô ấy lau sàn nhà bếp bằng khăn ẩm."
+  },
+  {
+    "word": "fegen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "quét",
+    "example_de": "Der Hausmeister fegt den Hof jeden Morgen.",
+    "example_vi": "Người quản lý nhà quét sân mỗi sáng."
+  },
+  {
+    "word": "abwaschen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "rửa bát",
+    "example_de": "Nach dem Essen muss ich das Geschirr abwaschen.",
+    "example_vi": "Sau bữa ăn tôi phải rửa bát đĩa."
+  },
+  {
+    "word": "aufräumen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "dọn dẹp",
+    "example_de": "Die Kinder sollen ihr Zimmer aufräumen.",
+    "example_vi": "Bọn trẻ phải dọn dẹp phòng của chúng."
+  },
+  {
+    "word": "ordnen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "verb",
+    "meaning_vi": "sắp xếp",
+    "example_de": "Ich muss meine Dokumente alphabetisch ordnen.",
+    "example_vi": "Tôi phải sắp xếp tài liệu của mình theo thứ tự bảng chữ cái."
+  },
+  {
+    "word": "der Besen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "chổi",
+    "example_de": "Wo ist der Besen? Ich muss die Terrasse kehren.",
+    "example_vi": "Cái chổi ở đâu? Tôi phải quét sân thượng."
+  },
+  {
+    "word": "der Wischmop",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "cây lau nhà",
+    "example_de": "Mit dem Wischmop kann man große Flächen schnell reinigen.",
+    "example_vi": "Với cây lau nhà có thể làm sạch diện tích lớn một cách nhanh chóng."
+  },
+  {
+    "word": "der Staubsauger",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "máy hút bụi",
+    "example_de": "Unser neuer Staubsauger ist sehr leise und effizient.",
+    "example_vi": "Máy hút bụi mới của chúng tôi rất yên tĩnh và hiệu quả."
+  },
+  {
+    "word": "das Reinigungsmittel",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "chất tẩy rửa",
+    "example_de": "Dieses Reinigungsmittel entfernt hartnäckige Flecken.",
+    "example_vi": "Chất tẩy rửa này loại bỏ các vết bẩn cứng đầu."
+  },
+  {
+    "word": "der Schwamm",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "bọt biển",
+    "example_de": "Ich brauche einen neuen Schwamm zum Geschirrspülen.",
+    "example_vi": "Tôi cần một miếng bọt biển mới để rửa bát."
+  },
+  {
+    "word": "der Lappen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "giẻ lau",
+    "example_de": "Nimm bitte einen sauberen Lappen für den Tisch.",
+    "example_vi": "Hãy lấy một chiếc giẻ lau sạch cho cái bàn."
+  },
+  {
+    "word": "die Waschmaschine",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "máy giặt",
+    "example_de": "Die Waschmaschine ist kaputt und muss repariert werden.",
+    "example_vi": "Máy giặt bị hỏng và cần được sửa chữa."
+  },
+  {
+    "word": "der Trockner",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "máy sấy",
+    "example_de": "Im Winter benutze ich oft den Trockner für die Wäsche.",
+    "example_vi": "Vào mùa đông tôi thường dùng máy sấy cho quần áo."
+  },
+  {
+    "word": "das Waschmittel",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "bột giặt",
+    "example_de": "Welches Waschmittel verwendest du für bunte Kleidung?",
+    "example_vi": "Bạn dùng loại bột giặt nào cho quần áo màu?"
+  },
+  {
+    "word": "das Bügeleisen",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "bàn ủi",
+    "example_de": "Pass auf, das Bügeleisen ist noch heiß!",
+    "example_vi": "Cẩn thận, bàn ủi vẫn còn nóng!"
+  },
+  {
+    "word": "der Müllbeutel",
+    "level": "A2",
+    "topic": "Don dep",
+    "pos": "noun",
+    "meaning_vi": "túi đựng rác",
+    "example_de": "Wir haben keine Müllbeutel mehr, kannst du welche kaufen?",
+    "example_vi": "Chúng ta hết túi đựng rác rồi, bạn có thể mua một ít không?"
+  },
+  {
+    "word": "addieren",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "verb",
+    "meaning_vi": "cộng",
+    "example_de": "Wenn du 5 und 3 addierst, erhältst du 8.",
+    "example_vi": "Nếu bạn cộng 5 và 3, bạn sẽ được 8."
+  },
+  {
+    "word": "subtrahieren",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "verb",
+    "meaning_vi": "trừ",
+    "example_de": "Subtrahiere 4 von 10, dann bekommst du 6.",
+    "example_vi": "Trừ 4 từ 10, thì bạn sẽ được 6."
+  },
+  {
+    "word": "multiplizieren",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "verb",
+    "meaning_vi": "nhân",
+    "example_de": "Wenn man 7 mit 6 multipliziert, ergibt das 42.",
+    "example_vi": "Nếu nhân 7 với 6, kết quả là 42."
+  },
+  {
+    "word": "dividieren",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "verb",
+    "meaning_vi": "chia",
+    "example_de": "Dividiere 20 durch 4, und du erhältst 5.",
+    "example_vi": "Chia 20 cho 4, và bạn sẽ được 5."
+  },
+  {
+    "word": "die Addition",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "phép cộng",
+    "example_de": "Die Addition von 12 und 8 ergibt 20.",
+    "example_vi": "Phép cộng 12 và 8 cho kết quả là 20."
+  },
+  {
+    "word": "die Subtraktion",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "phép trừ",
+    "example_de": "Bei der Subtraktion ziehen wir eine Zahl von einer anderen ab.",
+    "example_vi": "Trong phép trừ, chúng ta lấy một số trừ đi một số khác."
+  },
+  {
+    "word": "die Multiplikation",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "phép nhân",
+    "example_de": "Die Multiplikation ist eine verkürzte Form der Addition.",
+    "example_vi": "Phép nhân là một dạng rút gọn của phép cộng."
+  },
+  {
+    "word": "die Division",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "phép chia",
+    "example_de": "Die Division durch Null ist mathematisch nicht erlaubt.",
+    "example_vi": "Phép chia cho số không là không được phép trong toán học."
+  },
+  {
+    "word": "die Summe",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "tổng",
+    "example_de": "Die Summe aller Zahlen von 1 bis 10 ist 55.",
+    "example_vi": "Tổng của tất cả các số từ 1 đến 10 là 55."
+  },
+  {
+    "word": "die Differenz",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "hiệu",
+    "example_de": "Die Differenz zwischen 15 und 9 beträgt 6.",
+    "example_vi": "Hiệu giữa 15 và 9 là 6."
+  },
+  {
+    "word": "das Produkt",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "tích",
+    "example_de": "Das Produkt von 8 und 9 ist 72.",
+    "example_vi": "Tích của 8 và 9 là 72."
+  },
+  {
+    "word": "der Quotient",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "thương",
+    "example_de": "Der Quotient aus 36 und 6 ist 6.",
+    "example_vi": "Thương của 36 và 6 là 6."
+  },
+  {
+    "word": "die Gleichung",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "phương trình",
+    "example_de": "Löse die Gleichung: x + 5 = 12.",
+    "example_vi": "Giải phương trình: x + 5 = 12."
+  },
+  {
+    "word": "die Formel",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "công thức",
+    "example_de": "Die Formel für die Fläche eines Kreises ist A = πr².",
+    "example_vi": "Công thức tính diện tích hình tròn là A = πr²."
+  },
+  {
+    "word": "der Bruch",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "phân số",
+    "example_de": "Ein Halb ist ein Bruch, der als 1/2 geschrieben wird.",
+    "example_vi": "Một phần hai là một phân số được viết là 1/2."
+  },
+  {
+    "word": "die Dezimalzahl",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "số thập phân",
+    "example_de": "3,14 ist eine Dezimalzahl, die Pi annähert.",
+    "example_vi": "3,14 là một số thập phân xấp xỉ số Pi."
+  },
+  {
+    "word": "die Potenz",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "lũy thừa",
+    "example_de": "2 hoch 3 ist eine Potenz und ergibt 8.",
+    "example_vi": "2 mũ 3 là một lũy thừa và bằng 8."
+  },
+  {
+    "word": "die Wurzel",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "căn",
+    "example_de": "Die Quadratwurzel aus 16 ist 4.",
+    "example_vi": "Căn bậc hai của 16 là 4."
+  },
+  {
+    "word": "der Durchschnitt",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "trung bình",
+    "example_de": "Der Durchschnitt von 4, 6 und 8 ist 6.",
+    "example_vi": "Trung bình của 4, 6 và 8 là 6."
+  },
+  {
+    "word": "der Prozentsatz",
+    "level": "B1",
+    "topic": "Thuat ngu toan hoc",
+    "pos": "noun",
+    "meaning_vi": "tỷ lệ phần trăm",
+    "example_de": "Ein Prozentsatz von 25% entspricht einem Viertel.",
+    "example_vi": "Tỷ lệ phần trăm 25% tương đương với một phần tư."
+  },
+  {
+    "word": "Weihnachten",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "Giáng sinh",
+    "example_de": "Wir feiern Weihnachten immer mit der ganzen Familie.",
+    "example_vi": "Chúng tôi luôn ăn mừng Giáng sinh với cả gia đình."
+  },
+  {
+    "word": "Ostern",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "Lễ Phục sinh",
+    "example_de": "Zu Ostern suchen die Kinder bunte Eier im Garten.",
+    "example_vi": "Vào lễ Phục sinh, bọn trẻ tìm trứng màu trong vườn."
+  },
+  {
+    "word": "Silvester",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "Giao thừa",
+    "example_de": "An Silvester schauen wir uns das Feuerwerk an.",
+    "example_vi": "Vào đêm giao thừa, chúng tôi xem pháo hoa."
+  },
+  {
+    "word": "Neujahr",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "Năm mới",
+    "example_de": "Ich wünsche dir ein frohes Neujahr!",
+    "example_vi": "Tôi chúc bạn một năm mới vui vẻ!"
+  },
+  {
+    "word": "der Geburtstag",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "sinh nhật",
+    "example_de": "Mein Geburtstag ist am 15. März.",
+    "example_vi": "Sinh nhật của tôi là ngày 15 tháng 3."
+  },
+  {
+    "word": "der Valentinstag",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "Lễ tình nhân",
+    "example_de": "Am Valentinstag schenkt er seiner Freundin Rosen.",
+    "example_vi": "Vào ngày lễ tình nhân, anh ấy tặng bạn gái hoa hồng."
+  },
+  {
+    "word": "der Muttertag",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "Ngày của mẹ",
+    "example_de": "Zum Muttertag haben wir für Mama gekocht.",
+    "example_vi": "Nhân ngày của mẹ, chúng tôi đã nấu ăn cho mẹ."
+  },
+  {
+    "word": "der Vatertag",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "Ngày của cha",
+    "example_de": "Am Vatertag machen viele Männer eine Wanderung.",
+    "example_vi": "Vào ngày của cha, nhiều người đàn ông đi bộ đường dài."
+  },
+  {
+    "word": "der Karneval",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "lễ hội hóa trang",
+    "example_de": "Beim Karneval tragen alle lustige Kostüme.",
+    "example_vi": "Trong lễ hội hóa trang, mọi người đều mặc trang phục vui nhộn."
+  },
+  {
+    "word": "der Nationalfeiertag",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "Quốc khánh",
+    "example_de": "Der deutsche Nationalfeiertag ist am 3. Oktober.",
+    "example_vi": "Quốc khánh Đức là ngày 3 tháng 10."
+  },
+  {
+    "word": "die Ferien",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "kỳ nghỉ",
+    "example_de": "In den Sommerferien fahren wir ans Meer.",
+    "example_vi": "Trong kỳ nghỉ hè, chúng tôi đi biển."
+  },
+  {
+    "word": "der Urlaub",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "kỳ nghỉ phép",
+    "example_de": "Ich habe noch zwei Wochen Urlaub übrig.",
+    "example_vi": "Tôi còn hai tuần nghỉ phép."
+  },
+  {
+    "word": "der Feiertag",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "ngày lễ",
+    "example_de": "An Feiertagen sind die Geschäfte geschlossen.",
+    "example_vi": "Vào các ngày lễ, các cửa hàng đóng cửa."
+  },
+  {
+    "word": "das Fest",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "lễ hội",
+    "example_de": "Wir organisieren ein großes Fest für die Hochzeit.",
+    "example_vi": "Chúng tôi tổ chức một lễ hội lớn cho đám cưới."
+  },
+  {
+    "word": "die Party",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "tiệc",
+    "example_de": "Kommst du heute Abend zu meiner Party?",
+    "example_vi": "Tối nay bạn đến bữa tiệc của tôi chứ?"
+  },
+  {
+    "word": "feiern",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "verb",
+    "meaning_vi": "ăn mừng",
+    "example_de": "Wir feiern heute meinen Erfolg!",
+    "example_vi": "Hôm nay chúng ta ăn mừng thành công của tôi!"
+  },
+  {
+    "word": "gratulieren",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "verb",
+    "meaning_vi": "chúc mừng",
+    "example_de": "Ich gratuliere dir zur bestandenen Prüfung!",
+    "example_vi": "Tôi chúc mừng bạn đã vượt qua kỳ thi!"
+  },
+  {
+    "word": "schenken",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "verb",
+    "meaning_vi": "tặng",
+    "example_de": "Ich schenke meiner Schwester ein Buch.",
+    "example_vi": "Tôi tặng em gái tôi một cuốn sách."
+  },
+  {
+    "word": "das Geschenk",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "quà",
+    "example_de": "Das Geschenk war wunderschön verpackt.",
+    "example_vi": "Món quà được gói rất đẹp."
+  },
+  {
+    "word": "die Kerze",
+    "level": "A2",
+    "topic": "Ngay le",
+    "pos": "noun",
+    "meaning_vi": "nến",
+    "example_de": "Auf dem Geburtstagskuchen brennen zehn Kerzen.",
+    "example_vi": "Trên bánh sinh nhật có mười ngọn nến đang cháy."
+  },
+  {
+    "word": "glatt",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "trơn",
+    "example_de": "Das Eis auf dem See ist sehr glatt und gefährlich.",
+    "example_vi": "Lớp băng trên hồ rất trơn và nguy hiểm."
+  },
+  {
+    "word": "rau",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "nhám",
+    "example_de": "Die raue Oberfläche des Steins kratzt an meiner Hand.",
+    "example_vi": "Bề mặt nhám của viên đá làm trầy tay tôi."
+  },
+  {
+    "word": "weich",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "mềm",
+    "example_de": "Das Kissen ist so weich, dass ich sofort einschlafe.",
+    "example_vi": "Cái gối mềm đến nỗi tôi ngủ thiếp đi ngay."
+  },
+  {
+    "word": "hart",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "cứng",
+    "example_de": "Der Diamant ist das härteste natürliche Material.",
+    "example_vi": "Kim cương là vật liệu tự nhiên cứng nhất."
+  },
+  {
+    "word": "flauschig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "bông xù",
+    "example_de": "Die flauschige Decke hält mich im Winter warm.",
+    "example_vi": "Chiếc chăn bông xù giữ ấm cho tôi vào mùa đông."
+  },
+  {
+    "word": "klebrig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "dính",
+    "example_de": "Meine Hände sind klebrig vom Honig.",
+    "example_vi": "Tay tôi dính vì mật ong."
+  },
+  {
+    "word": "rutschig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "trơn trượt",
+    "example_de": "Der Boden ist nach dem Regen sehr rutschig.",
+    "example_vi": "Mặt đất rất trơn trượt sau cơn mưa."
+  },
+  {
+    "word": "stachelig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "gai",
+    "example_de": "Der Igel hat einen stacheligen Rücken zum Schutz.",
+    "example_vi": "Con nhím có lưng đầy gai để bảo vệ."
+  },
+  {
+    "word": "samtig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "nhung",
+    "example_de": "Die Rosenblätter fühlen sich samtig weich an.",
+    "example_vi": "Cánh hoa hồng có cảm giác mềm như nhung."
+  },
+  {
+    "word": "seidig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "lụa",
+    "example_de": "Ihr Haar ist nach der Behandlung seidig glänzend.",
+    "example_vi": "Tóc cô ấy bóng mượt như lụa sau khi điều trị."
+  },
+  {
+    "word": "pelzig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "lông mịn",
+    "example_de": "Nach dem Wein fühlt sich meine Zunge pelzig an.",
+    "example_vi": "Sau khi uống rượu, lưỡi tôi có cảm giác lông lông."
+  },
+  {
+    "word": "schuppig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "có vảy",
+    "example_de": "Die Haut des Fisches ist schuppig und glänzend.",
+    "example_vi": "Da cá có vảy và bóng."
+  },
+  {
+    "word": "porös",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "xốp",
+    "example_de": "Der poröse Schwamm saugt viel Wasser auf.",
+    "example_vi": "Miếng bọt biển xốp hút rất nhiều nước."
+  },
+  {
+    "word": "spröde",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "giòn",
+    "example_de": "Das alte Papier ist spröde und reißt leicht.",
+    "example_vi": "Tờ giấy cũ giòn và dễ rách."
+  },
+  {
+    "word": "elastisch",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "đàn hồi",
+    "example_de": "Das elastische Gummiband dehnt sich weit aus.",
+    "example_vi": "Dây chun đàn hồi giãn ra rất xa."
+  },
+  {
+    "word": "biegsam",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "dẻo",
+    "example_de": "Der biegsame Draht lässt sich leicht formen.",
+    "example_vi": "Sợi dây dẻo dễ dàng uốn thành hình."
+  },
+  {
+    "word": "starr",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "cứng nhắc",
+    "example_de": "Seine Haltung in der Diskussion war sehr starr.",
+    "example_vi": "Thái độ của anh ấy trong cuộc thảo luận rất cứng nhắc."
+  },
+  {
+    "word": "transparent",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "trong suốt",
+    "example_de": "Das transparente Glas ermöglicht einen klaren Durchblick.",
+    "example_vi": "Tấm kính trong suốt cho phép nhìn xuyên qua rõ ràng."
+  },
+  {
+    "word": "undurchsichtig",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "mờ đục",
+    "example_de": "Die undurchsichtige Folie schützt vor neugierigen Blicken.",
+    "example_vi": "Tấm màng mờ đục bảo vệ khỏi ánh mắt tò mò."
+  },
+  {
+    "word": "glänzend",
+    "level": "B1",
+    "topic": "Ket cau be mat",
+    "pos": "adjective",
+    "meaning_vi": "bóng",
+    "example_de": "Der glänzende Spiegel reflektiert das Licht perfekt.",
+    "example_vi": "Chiếc gương bóng phản chiếu ánh sáng hoàn hảo."
+  },
+  {
+    "word": "ändern",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "thay đổi",
+    "example_de": "Ich muss meine Pläne für das Wochenende ändern.",
+    "example_vi": "Tôi phải thay đổi kế hoạch cuối tuần của mình."
+  },
+  {
+    "word": "verändern",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "biến đổi",
+    "example_de": "Das Internet hat unser Leben grundlegend verändert.",
+    "example_vi": "Internet đã biến đổi cuộc sống của chúng ta một cách căn bản."
+  },
+  {
+    "word": "verbessern",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "cải thiện",
+    "example_de": "Sie möchte ihre Deutschkenntnisse verbessern.",
+    "example_vi": "Cô ấy muốn cải thiện khả năng tiếng Đức của mình."
+  },
+  {
+    "word": "verschlechtern",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "làm xấu đi",
+    "example_de": "Die wirtschaftliche Lage hat sich in letzter Zeit verschlechtert.",
+    "example_vi": "Tình hình kinh tế gần đây đã xấu đi."
+  },
+  {
+    "word": "erweitern",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "mở rộng",
+    "example_de": "Das Unternehmen plant, sein Geschäft nach Asien zu erweitern.",
+    "example_vi": "Công ty có kế hoạch mở rộng kinh doanh sang châu Á."
+  },
+  {
+    "word": "verkleinern",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "thu nhỏ",
+    "example_de": "Wir müssen das Bild verkleinern, damit es auf die Seite passt.",
+    "example_vi": "Chúng ta phải thu nhỏ hình ảnh để nó vừa với trang."
+  },
+  {
+    "word": "erhöhen",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "tăng",
+    "example_de": "Die Regierung will die Steuern erhöhen.",
+    "example_vi": "Chính phủ muốn tăng thuế."
+  },
+  {
+    "word": "senken",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "giảm",
+    "example_de": "Der Arzt empfiehlt mir, meinen Blutdruck zu senken.",
+    "example_vi": "Bác sĩ khuyên tôi nên giảm huyết áp."
+  },
+  {
+    "word": "wachsen",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "lớn lên",
+    "example_de": "Die Kinder wachsen so schnell!",
+    "example_vi": "Bọn trẻ lớn nhanh quá!"
+  },
+  {
+    "word": "schrumpfen",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "co lại",
+    "example_de": "Die Bevölkerung in ländlichen Gebieten schrumpft kontinuierlich.",
+    "example_vi": "Dân số ở các vùng nông thôn đang co lại liên tục."
+  },
+  {
+    "word": "verwandeln",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "biến hóa",
+    "example_de": "Der Frosch verwandelte sich in einen Prinzen.",
+    "example_vi": "Con ếch biến hóa thành một hoàng tử."
+  },
+  {
+    "word": "anpassen",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "điều chỉnh",
+    "example_de": "Wir müssen uns an die neue Situation anpassen.",
+    "example_vi": "Chúng ta phải điều chỉnh để thích nghi với tình huống mới."
+  },
+  {
+    "word": "korrigieren",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "sửa",
+    "example_de": "Der Lehrer korrigiert gerade unsere Hausaufgaben.",
+    "example_vi": "Giáo viên đang sửa bài tập về nhà của chúng tôi."
+  },
+  {
+    "word": "reparieren",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "sửa chữa",
+    "example_de": "Mein Vater kann fast alles reparieren.",
+    "example_vi": "Bố tôi có thể sửa chữa hầu như mọi thứ."
+  },
+  {
+    "word": "erneuern",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "làm mới",
+    "example_de": "Wir müssen unseren Reisepass erneuern lassen.",
+    "example_vi": "Chúng ta phải làm mới hộ chiếu."
+  },
+  {
+    "word": "ersetzen",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "thay thế",
+    "example_de": "Niemand kann einen guten Freund ersetzen.",
+    "example_vi": "Không ai có thể thay thế một người bạn tốt."
+  },
+  {
+    "word": "aktualisieren",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "cập nhật",
+    "example_de": "Vergiss nicht, deine Software regelmäßig zu aktualisieren.",
+    "example_vi": "Đừng quên cập nhật phần mềm của bạn thường xuyên."
+  },
+  {
+    "word": "modifizieren",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "chỉnh sửa",
+    "example_de": "Der Ingenieur hat den Motor modifiziert, um die Leistung zu steigern.",
+    "example_vi": "Kỹ sư đã chỉnh sửa động cơ để tăng hiệu suất."
+  },
+  {
+    "word": "transformieren",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "chuyển đổi",
+    "example_de": "Die Digitalisierung transformiert die gesamte Industrie.",
+    "example_vi": "Số hóa đang chuyển đổi toàn bộ ngành công nghiệp."
+  },
+  {
+    "word": "umwandeln",
+    "level": "B1",
+    "topic": "Dong tu thay doi",
+    "pos": "verb",
+    "meaning_vi": "chuyển hóa",
+    "example_de": "Pflanzen wandeln Sonnenlicht in Energie um.",
+    "example_vi": "Thực vật chuyển hóa ánh sáng mặt trời thành năng lượng."
+  },
+  {
+    "word": "besser",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "tốt hơn",
+    "example_de": "Dieses Buch ist besser als das andere.",
+    "example_vi": "Cuốn sách này tốt hơn cuốn kia."
+  },
+  {
+    "word": "schlechter",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "xấu hơn",
+    "example_de": "Das Wetter heute ist schlechter als gestern.",
+    "example_vi": "Thời tiết hôm nay xấu hơn hôm qua."
+  },
+  {
+    "word": "größer",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "lớn hơn",
+    "example_de": "Mein Haus ist größer als dein Haus.",
+    "example_vi": "Nhà tôi lớn hơn nhà bạn."
+  },
+  {
+    "word": "kleiner",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "nhỏ hơn",
+    "example_de": "Die Katze ist kleiner als der Hund.",
+    "example_vi": "Con mèo nhỏ hơn con chó."
+  },
+  {
+    "word": "schneller",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "nhanh hơn",
+    "example_de": "Der Zug fährt schneller als das Auto.",
+    "example_vi": "Tàu hỏa chạy nhanh hơn ô tô."
+  },
+  {
+    "word": "langsamer",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "chậm hơn",
+    "example_de": "Die Schildkröte läuft langsamer als der Hase.",
+    "example_vi": "Con rùa chạy chậm hơn con thỏ."
+  },
+  {
+    "word": "mehr",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "nhiều hơn",
+    "example_de": "Ich brauche mehr Zeit für diese Aufgabe.",
+    "example_vi": "Tôi cần nhiều thời gian hơn cho nhiệm vụ này."
+  },
+  {
+    "word": "weniger",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "ít hơn",
+    "example_de": "Er hat weniger Geld als sein Bruder.",
+    "example_vi": "Anh ấy có ít tiền hơn anh trai mình."
+  },
+  {
+    "word": "höher",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "cao hơn",
+    "example_de": "Der Berg ist höher als der Hügel.",
+    "example_vi": "Ngọn núi cao hơn ngọn đồi."
+  },
+  {
+    "word": "niedriger",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "thấp hơn",
+    "example_de": "Der Stuhl ist niedriger als der Tisch.",
+    "example_vi": "Cái ghế thấp hơn cái bàn."
+  },
+  {
+    "word": "länger",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "dài hơn",
+    "example_de": "Mein Haar ist länger als ihr Haar.",
+    "example_vi": "Tóc tôi dài hơn tóc cô ấy."
+  },
+  {
+    "word": "kürzer",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "ngắn hơn",
+    "example_de": "Der Rock ist kürzer als das Kleid.",
+    "example_vi": "Cái váy ngắn hơn cái đầm."
+  },
+  {
+    "word": "älter",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "già hơn",
+    "example_de": "Meine Schwester ist älter als ich.",
+    "example_vi": "Chị gái tôi lớn tuổi hơn tôi."
+  },
+  {
+    "word": "jünger",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "trẻ hơn",
+    "example_de": "Er sieht jünger aus als er ist.",
+    "example_vi": "Anh ấy trông trẻ hơn tuổi thật."
+  },
+  {
+    "word": "teurer",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "đắt hơn",
+    "example_de": "Das iPhone ist teurer als das Samsung.",
+    "example_vi": "iPhone đắt hơn Samsung."
+  },
+  {
+    "word": "billiger",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "rẻ hơn",
+    "example_de": "Diese Schuhe sind billiger als die anderen.",
+    "example_vi": "Đôi giày này rẻ hơn những đôi khác."
+  },
+  {
+    "word": "schwerer",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "nặng hơn",
+    "example_de": "Der Koffer ist schwerer als die Tasche.",
+    "example_vi": "Cái vali nặng hơn cái túi."
+  },
+  {
+    "word": "leichter",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "nhẹ hơn",
+    "example_de": "Diese Übung ist leichter als die letzte.",
+    "example_vi": "Bài tập này dễ hơn bài trước."
+  },
+  {
+    "word": "stärker",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "mạnh hơn",
+    "example_de": "Der Kaffee ist stärker als der Tee.",
+    "example_vi": "Cà phê đậm hơn trà."
+  },
+  {
+    "word": "schwächer",
+    "level": "A2",
+    "topic": "So sanh",
+    "pos": "adjective",
+    "meaning_vi": "yếu hơn",
+    "example_de": "Das Signal ist hier schwächer als dort.",
+    "example_vi": "Tín hiệu ở đây yếu hơn ở đó."
+  },
+  {
+    "word": "atmen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "thở",
+    "example_de": "Nach dem Marathon konnte er kaum noch atmen.",
+    "example_vi": "Sau cuộc chạy marathon, anh ấy gần như không thể thở nổi."
+  },
+  {
+    "word": "husten",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "ho",
+    "example_de": "Er muss die ganze Nacht husten, weil er erkältet ist.",
+    "example_vi": "Anh ấy phải ho suốt đêm vì bị cảm lạnh."
+  },
+  {
+    "word": "niesen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "hắt hơi",
+    "example_de": "Wenn ich Blumen rieche, muss ich oft niesen.",
+    "example_vi": "Khi tôi ngửi hoa, tôi thường phải hắt hơi."
+  },
+  {
+    "word": "gähnen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "ngáp",
+    "example_de": "Die Studenten begannen zu gähnen, weil die Vorlesung so langweilig war.",
+    "example_vi": "Các sinh viên bắt đầu ngáp vì bài giảng quá nhàm chán."
+  },
+  {
+    "word": "blinzeln",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "chớp mắt",
+    "example_de": "Die Sonne war so hell, dass sie blinzeln musste.",
+    "example_vi": "Mặt trời chói quá nên cô ấy phải chớp mắt."
+  },
+  {
+    "word": "schlucken",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "nuốt",
+    "example_de": "Die Tablette ist so groß, dass ich sie schwer schlucken kann.",
+    "example_vi": "Viên thuốc to đến nỗi tôi khó nuốt."
+  },
+  {
+    "word": "kauen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "nhai",
+    "example_de": "Man sollte das Essen gut kauen, bevor man es schluckt.",
+    "example_vi": "Người ta nên nhai kỹ thức ăn trước khi nuốt."
+  },
+  {
+    "word": "schmecken",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "nếm",
+    "example_de": "Das Essen schmeckt heute besonders gut!",
+    "example_vi": "Hôm nay đồ ăn ngon đặc biệt!"
+  },
+  {
+    "word": "riechen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "ngửi",
+    "example_de": "Ich kann die frischen Blumen im Garten riechen.",
+    "example_vi": "Tôi có thể ngửi thấy mùi hoa tươi trong vườn."
+  },
+  {
+    "word": "fühlen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "cảm nhận",
+    "example_de": "Ich fühle mich heute nicht so gut.",
+    "example_vi": "Hôm nay tôi cảm thấy không được khỏe lắm."
+  },
+  {
+    "word": "berühren",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "chạm",
+    "example_de": "Bitte berühren Sie nicht die Gemälde im Museum!",
+    "example_vi": "Xin vui lòng không chạm vào các bức tranh trong bảo tàng!"
+  },
+  {
+    "word": "greifen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "nắm lấy",
+    "example_de": "Das Baby versucht nach dem Spielzeug zu greifen.",
+    "example_vi": "Em bé cố gắng nắm lấy đồ chơi."
+  },
+  {
+    "word": "kratzen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "gãi",
+    "example_de": "Hör auf, dich am Kopf zu kratzen!",
+    "example_vi": "Thôi đừng gãi đầu nữa!"
+  },
+  {
+    "word": "zittern",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "run rẩy",
+    "example_de": "Seine Hände zittern vor Aufregung.",
+    "example_vi": "Tay anh ấy run rẩy vì hồi hộp."
+  },
+  {
+    "word": "schwitzen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "đổ mồ hôi",
+    "example_de": "Bei dieser Hitze schwitze ich sehr stark.",
+    "example_vi": "Trong cái nóng này tôi đổ mồ hôi rất nhiều."
+  },
+  {
+    "word": "frieren",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "lạnh run",
+    "example_de": "Ohne Jacke wirst du draußen frieren.",
+    "example_vi": "Không có áo khoác bạn sẽ lạnh run bên ngoài."
+  },
+  {
+    "word": "weinen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "khóc",
+    "example_de": "Das kleine Mädchen weint, weil es seine Mutter vermisst.",
+    "example_vi": "Cô bé khóc vì nhớ mẹ."
+  },
+  {
+    "word": "lachen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "cười",
+    "example_de": "Wir haben den ganzen Abend über seine Witze gelacht.",
+    "example_vi": "Chúng tôi đã cười suốt buổi tối vì những câu chuyện cười của anh ấy."
+  },
+  {
+    "word": "lächeln",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "mỉm cười",
+    "example_de": "Sie lächelt immer freundlich, wenn sie Kunden begrüßt.",
+    "example_vi": "Cô ấy luôn mỉm cười thân thiện khi chào khách hàng."
+  },
+  {
+    "word": "schnarchen",
+    "level": "A2",
+    "topic": "Hanh dong co the",
+    "pos": "verb",
+    "meaning_vi": "ngáy",
+    "example_de": "Mein Vater schnarcht so laut, dass ich nicht schlafen kann.",
+    "example_vi": "Bố tôi ngáy to đến nỗi tôi không thể ngủ được."
+  }
+]

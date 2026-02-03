@@ -1,0 +1,2522 @@
+[
+  {
+    "word": "analysieren",
+    "meaning_vi": "phân tích",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Die Wissenschaftler analysieren die Daten, um neue Erkenntnisse zu gewinnen.",
+    "example_vi": "Các nhà khoa học phân tích dữ liệu để có được những hiểu biết mới."
+  },
+  {
+    "word": "argumentieren",
+    "meaning_vi": "lập luận",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Der Anwalt argumentierte überzeugend für die Unschuld seines Mandanten.",
+    "example_vi": "Luật sư đã lập luận thuyết phục cho sự vô tội của thân chủ mình."
+  },
+  {
+    "word": "beurteilen",
+    "meaning_vi": "đánh giá",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Es ist schwierig, die Qualität eines Kunstwerks objektiv zu beurteilen.",
+    "example_vi": "Thật khó để đánh giá chất lượng của một tác phẩm nghệ thuật một cách khách quan."
+  },
+  {
+    "word": "definieren",
+    "meaning_vi": "định nghĩa",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Zunächst müssen wir den Begriff 'Nachhaltigkeit' klar definieren.",
+    "example_vi": "Trước tiên chúng ta phải định nghĩa rõ ràng khái niệm 'tính bền vững'."
+  },
+  {
+    "word": "differenzieren",
+    "meaning_vi": "phân biệt",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Man muss zwischen kurzfristigen und langfristigen Zielen differenzieren.",
+    "example_vi": "Người ta phải phân biệt giữa các mục tiêu ngắn hạn và dài hạn."
+  },
+  {
+    "word": "erläutern",
+    "meaning_vi": "giải thích chi tiết",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Der Professor erläuterte die komplexe Theorie anhand praktischer Beispiele.",
+    "example_vi": "Giáo sư đã giải thích chi tiết lý thuyết phức tạp thông qua các ví dụ thực tế."
+  },
+  {
+    "word": "formulieren",
+    "meaning_vi": "hình thành",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Sie formulierte ihre Kritik sehr diplomatisch und konstruktiv.",
+    "example_vi": "Cô ấy đã hình thành lời phê bình của mình một cách rất khéo léo và mang tính xây dựng."
+  },
+  {
+    "word": "interpretieren",
+    "meaning_vi": "diễn giải",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Jeder Leser interpretiert das Gedicht auf seine eigene Weise.",
+    "example_vi": "Mỗi độc giả diễn giải bài thơ theo cách riêng của họ."
+  },
+  {
+    "word": "klassifizieren",
+    "meaning_vi": "phân loại",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Die Biologen klassifizieren die neu entdeckten Arten nach ihren Merkmalen.",
+    "example_vi": "Các nhà sinh vật học phân loại các loài mới được phát hiện theo đặc điểm của chúng."
+  },
+  {
+    "word": "konkretisieren",
+    "meaning_vi": "cụ thể hóa",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Wir müssen unsere Pläne konkretisieren, bevor wir mit dem Projekt beginnen.",
+    "example_vi": "Chúng ta phải cụ thể hóa kế hoạch của mình trước khi bắt đầu dự án."
+  },
+  {
+    "word": "legitimieren",
+    "meaning_vi": "hợp pháp hóa",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Die Regierung versuchte, ihre Entscheidung durch wissenschaftliche Studien zu legitimieren.",
+    "example_vi": "Chính phủ đã cố gắng hợp pháp hóa quyết định của mình thông qua các nghiên cứu khoa học."
+  },
+  {
+    "word": "priorisieren",
+    "meaning_vi": "ưu tiên",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Bei begrenzten Ressourcen müssen wir die wichtigsten Aufgaben priorisieren.",
+    "example_vi": "Với nguồn lực hạn chế, chúng ta phải ưu tiên các nhiệm vụ quan trọng nhất."
+  },
+  {
+    "word": "reflektieren",
+    "meaning_vi": "phản ánh",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Der Spiegel reflektiert das Sonnenlicht in den Raum.",
+    "example_vi": "Chiếc gương phản ánh ánh sáng mặt trời vào trong phòng."
+  },
+  {
+    "word": "resümieren",
+    "meaning_vi": "tóm tắt",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Am Ende der Sitzung resümierte der Vorsitzende die wichtigsten Ergebnisse.",
+    "example_vi": "Vào cuối phiên họp, chủ tọa đã tóm tắt những kết quả quan trọng nhất."
+  },
+  {
+    "word": "strukturieren",
+    "meaning_vi": "cấu trúc",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Ein guter Autor weiß, wie man einen Text logisch strukturiert.",
+    "example_vi": "Một tác giả giỏi biết cách cấu trúc một văn bản một cách logic."
+  },
+  {
+    "word": "subsumieren",
+    "meaning_vi": "đưa vào",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Diese Einzelfälle lassen sich unter den allgemeinen Begriff subsumieren.",
+    "example_vi": "Những trường hợp riêng lẻ này có thể được đưa vào khái niệm chung."
+  },
+  {
+    "word": "thematisieren",
+    "meaning_vi": "nêu lên chủ đề",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "In der Diskussion wurde auch das Problem der Klimakrise thematisiert.",
+    "example_vi": "Trong cuộc thảo luận, vấn đề khủng hoảng khí hậu cũng đã được nêu lên làm chủ đề."
+  },
+  {
+    "word": "validieren",
+    "meaning_vi": "xác nhận",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Die Forscher müssen ihre Hypothese durch weitere Experimente validieren.",
+    "example_vi": "Các nhà nghiên cứu phải xác nhận giả thuyết của họ thông qua các thí nghiệm bổ sung."
+  },
+  {
+    "word": "verifizieren",
+    "meaning_vi": "xác minh",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Bitte verifizieren Sie Ihre E-Mail-Adresse, um den Account zu aktivieren.",
+    "example_vi": "Vui lòng xác minh địa chỉ email của bạn để kích hoạt tài khoản."
+  },
+  {
+    "word": "visualisieren",
+    "meaning_vi": "hình dung",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs",
+    "example_de": "Diagramme helfen dabei, komplexe Daten zu visualisieren und verständlicher zu machen.",
+    "example_vi": "Biểu đồ giúp hình dung dữ liệu phức tạp và làm cho nó dễ hiểu hơn."
+  },
+  {
+    "word": "Auffassung",
+    "meaning_vi": "quan điểm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Meiner Auffassung nach sollten wir das Projekt anders angehen.",
+    "example_vi": "Theo quan điểm của tôi, chúng ta nên tiếp cận dự án theo cách khác."
+  },
+  {
+    "word": "Auseinandersetzung",
+    "meaning_vi": "tranh luận",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Die Auseinandersetzung zwischen den beiden Parteien dauerte mehrere Stunden.",
+    "example_vi": "Cuộc tranh luận giữa hai bên kéo dài vài giờ."
+  },
+  {
+    "word": "Betrachtung",
+    "meaning_vi": "sự xem xét",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Bei näherer Betrachtung zeigen sich deutliche Unterschiede zwischen den beiden Modellen.",
+    "example_vi": "Khi xem xét kỹ hơn, có thể thấy rõ sự khác biệt giữa hai mô hình."
+  },
+  {
+    "word": "Dimension",
+    "meaning_vi": "chiều, khía cạnh",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Das Problem hat eine politische und eine wirtschaftliche Dimension.",
+    "example_vi": "Vấn đề có chiều kích chính trị và kinh tế."
+  },
+  {
+    "word": "Einschätzung",
+    "meaning_vi": "đánh giá",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Nach meiner Einschätzung wird das Projekt erfolgreich sein.",
+    "example_vi": "Theo đánh giá của tôi, dự án sẽ thành công."
+  },
+  {
+    "word": "Erkenntnis",
+    "meaning_vi": "nhận thức",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Die wissenschaftliche Erkenntnis hat unser Weltbild grundlegend verändert.",
+    "example_vi": "Nhận thức khoa học đã thay đổi căn bản thế giới quan của chúng ta."
+  },
+  {
+    "word": "Faktor",
+    "meaning_vi": "yếu tố",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Zeit ist ein entscheidender Faktor für den Erfolg dieses Vorhabens.",
+    "example_vi": "Thời gian là yếu tố quyết định cho sự thành công của dự định này."
+  },
+  {
+    "word": "Gegebenheit",
+    "meaning_vi": "thực tế",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Wir müssen die örtlichen Gegebenheiten berücksichtigen.",
+    "example_vi": "Chúng ta phải xem xét các thực tế địa phương."
+  },
+  {
+    "word": "Gesamtheit",
+    "meaning_vi": "toàn bộ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Die Gesamtheit aller Maßnahmen führt zu einer nachhaltigen Verbesserung.",
+    "example_vi": "Toàn bộ các biện pháp dẫn đến một sự cải thiện bền vững."
+  },
+  {
+    "word": "Grundlage",
+    "meaning_vi": "nền tảng",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Vertrauen ist die Grundlage jeder erfolgreichen Zusammenarbeit.",
+    "example_vi": "Lòng tin là nền tảng của mọi sự hợp tác thành công."
+  },
+  {
+    "word": "Hintergrund",
+    "meaning_vi": "bối cảnh",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Vor dem Hintergrund der aktuellen Krise müssen wir vorsichtig handeln.",
+    "example_vi": "Trước bối cảnh cuộc khủng hoảng hiện tại, chúng ta phải hành động thận trọng."
+  },
+  {
+    "word": "Kompetenz",
+    "meaning_vi": "năng lực",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Sie verfügt über die notwendige Kompetenz für diese anspruchsvolle Aufgabe.",
+    "example_vi": "Cô ấy có năng lực cần thiết cho nhiệm vụ đòi hỏi cao này."
+  },
+  {
+    "word": "Konzept",
+    "meaning_vi": "khái niệm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Das neue Konzept für den Unterricht wurde von allen Lehrern begrüßt.",
+    "example_vi": "Khái niệm mới cho việc giảng dạy được tất cả giáo viên hoan nghênh."
+  },
+  {
+    "word": "Kriterium",
+    "meaning_vi": "tiêu chí",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Das wichtigste Kriterium bei der Auswahl ist die Qualifikation der Bewerber.",
+    "example_vi": "Tiêu chí quan trọng nhất trong việc lựa chọn là trình độ của ứng viên."
+  },
+  {
+    "word": "Maßnahme",
+    "meaning_vi": "biện pháp",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Die Regierung hat neue Maßnahmen zur Bekämpfung der Inflation ergriffen.",
+    "example_vi": "Chính phủ đã thực hiện các biện pháp mới để chống lạm phát."
+  },
+  {
+    "word": "Perspektive",
+    "meaning_vi": "góc nhìn",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Aus der Perspektive der Kunden sieht die Situation ganz anders aus.",
+    "example_vi": "Từ góc nhìn của khách hàng, tình hình trông hoàn toàn khác."
+  },
+  {
+    "word": "Phänomen",
+    "meaning_vi": "hiện tượng",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Der Klimawandel ist ein globales Phänomen, das uns alle betrifft.",
+    "example_vi": "Biến đổi khí hậu là một hiện tượng toàn cầu ảnh hưởng đến tất cả chúng ta."
+  },
+  {
+    "word": "Prinzip",
+    "meaning_vi": "nguyên tắc",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Nach dem Prinzip der Gleichberechtigung sollten alle die gleichen Chancen haben.",
+    "example_vi": "Theo nguyên tắc bình đẳng, tất cả mọi người nên có cơ hội như nhau."
+  },
+  {
+    "word": "Rahmen",
+    "meaning_vi": "khuôn khổ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Im Rahmen des Projekts werden verschiedene Workshops angeboten.",
+    "example_vi": "Trong khuôn khổ dự án, nhiều hội thảo khác nhau được tổ chức."
+  },
+  {
+    "word": "Spektrum",
+    "meaning_vi": "phổ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Das Unternehmen bietet ein breites Spektrum an Dienstleistungen an.",
+    "example_vi": "Công ty cung cấp một phổ rộng các dịch vụ."
+  },
+  {
+    "word": "Stellenwert",
+    "meaning_vi": "tầm quan trọng",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Die Bildung hat in unserer Gesellschaft einen hohen Stellenwert.",
+    "example_vi": "Giáo dục có tầm quan trọng cao trong xã hội của chúng ta."
+  },
+  {
+    "word": "Strategie",
+    "meaning_vi": "chiến lược",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Das Unternehmen entwickelt eine neue Strategie für den internationalen Markt.",
+    "example_vi": "Công ty đang phát triển một chiến lược mới cho thị trường quốc tế."
+  },
+  {
+    "word": "Tendenz",
+    "meaning_vi": "xu hướng",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Es gibt eine Tendenz zu mehr Nachhaltigkeit im Konsumverhalten.",
+    "example_vi": "Có một xu hướng hướng tới sự bền vững hơn trong hành vi tiêu dùng."
+  },
+  {
+    "word": "Umfang",
+    "meaning_vi": "phạm vi",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Der Umfang des Projekts wurde erheblich erweitert.",
+    "example_vi": "Phạm vi của dự án đã được mở rộng đáng kể."
+  },
+  {
+    "word": "Zusammenhang",
+    "meaning_vi": "mối liên hệ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns",
+    "example_de": "Die Forscher untersuchen den Zusammenhang zwischen Ernährung und Gesundheit.",
+    "example_vi": "Các nhà nghiên cứu đang xem xét mối liên hệ giữa dinh dưỡng và sức khỏe."
+  },
+  {
+    "word": "abstrakt",
+    "meaning_vi": "trừu tượng",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Philosophische Konzepte sind oft sehr abstrakt und schwer zu verstehen.",
+    "example_vi": "Các khái niệm triết học thường rất trừu tượng và khó hiểu."
+  },
+  {
+    "word": "adäquat",
+    "meaning_vi": "phù hợp",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Die Regierung muss adäquate Maßnahmen gegen die Klimakrise ergreifen.",
+    "example_vi": "Chính phủ phải thực hiện các biện pháp phù hợp chống lại khủng hoảng khí hậu."
+  },
+  {
+    "word": "differenziert",
+    "meaning_vi": "tinh tế",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Der Autor bietet eine differenzierte Analyse der politischen Situation.",
+    "example_vi": "Tác giả đưa ra một phân tích tinh tế về tình hình chính trị."
+  },
+  {
+    "word": "empirisch",
+    "meaning_vi": "thực nghiệm",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Die Theorie wurde durch empirische Studien bestätigt.",
+    "example_vi": "Lý thuyết đã được xác nhận thông qua các nghiên cứu thực nghiệm."
+  },
+  {
+    "word": "evident",
+    "meaning_vi": "hiển nhiên",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Es ist evident, dass mehr Investitionen in Bildung notwendig sind.",
+    "example_vi": "Hiển nhiên là cần có nhiều đầu tư hơn vào giáo dục."
+  },
+  {
+    "word": "explizit",
+    "meaning_vi": "rõ ràng",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Der Vertrag enthält explizite Regelungen zu den Arbeitszeiten.",
+    "example_vi": "Hợp đồng có các quy định rõ ràng về thời gian làm việc."
+  },
+  {
+    "word": "fundamental",
+    "meaning_vi": "cơ bản",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Menschenrechte sind fundamental für eine demokratische Gesellschaft.",
+    "example_vi": "Quyền con người là cơ bản cho một xã hội dân chủ."
+  },
+  {
+    "word": "implizit",
+    "meaning_vi": "ngầm",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "In seiner Rede war eine implizite Kritik an der Regierung enthalten.",
+    "example_vi": "Trong bài phát biểu của ông có chứa một lời chỉ trích ngầm đối với chính phủ."
+  },
+  {
+    "word": "inherent",
+    "meaning_vi": "vốn có",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Risiken sind inherent in jedem Geschäftsmodell vorhanden.",
+    "example_vi": "Rủi ro vốn có trong mọi mô hình kinh doanh."
+  },
+  {
+    "word": "innovativ",
+    "meaning_vi": "đổi mới",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Das Start-up präsentierte eine innovative Lösung für das Verkehrsproblem.",
+    "example_vi": "Công ty khởi nghiệp đã trình bày một giải pháp đổi mới cho vấn đề giao thông."
+  },
+  {
+    "word": "interdisziplinär",
+    "meaning_vi": "liên ngành",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Das Forschungsprojekt erfordert einen interdisziplinären Ansatz.",
+    "example_vi": "Dự án nghiên cứu đòi hỏi một cách tiếp cận liên ngành."
+  },
+  {
+    "word": "komplex",
+    "meaning_vi": "phức tạp",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Die Ursachen des Klimawandels sind äußerst komplex.",
+    "example_vi": "Nguyên nhân của biến đổi khí hậu cực kỳ phức tạp."
+  },
+  {
+    "word": "konkret",
+    "meaning_vi": "cụ thể",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Wir brauchen konkrete Vorschläge, nicht nur allgemeine Ideen.",
+    "example_vi": "Chúng ta cần những đề xuất cụ thể, không chỉ là ý tưởng chung chung."
+  },
+  {
+    "word": "objektiv",
+    "meaning_vi": "khách quan",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Journalisten sollten objektiv über Ereignisse berichten.",
+    "example_vi": "Các nhà báo nên đưa tin khách quan về các sự kiện."
+  },
+  {
+    "word": "präzise",
+    "meaning_vi": "chính xác",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Die Wissenschaftlerin gab eine präzise Beschreibung des Experiments.",
+    "example_vi": "Nhà khoa học đã đưa ra mô tả chính xác về thí nghiệm."
+  },
+  {
+    "word": "primär",
+    "meaning_vi": "chính",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Das primäre Ziel der Ethik ist es, moralisches Handeln zu verstehen.",
+    "example_vi": "Mục tiêu chính của đạo đức học là hiểu được hành động đạo đức."
+  },
+  {
+    "word": "relevant",
+    "meaning_vi": "liên quan",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Diese Frage ist für unsere moralische Entscheidung sehr relevant.",
+    "example_vi": "Câu hỏi này rất liên quan đến quyết định đạo đức của chúng ta."
+  },
+  {
+    "word": "signifikant",
+    "meaning_vi": "có ý nghĩa",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Es gibt einen signifikanten Unterschied zwischen Ethik und Moral.",
+    "example_vi": "Có một sự khác biệt có ý nghĩa giữa đạo đức học và đạo đức."
+  },
+  {
+    "word": "subjektiv",
+    "meaning_vi": "chủ quan",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Moralische Urteile sind oft subjektiv und von persönlichen Werten abhängig.",
+    "example_vi": "Những phán đoán đạo đức thường mang tính chủ quan và phụ thuộc vào giá trị cá nhân."
+  },
+  {
+    "word": "systematisch",
+    "meaning_vi": "có hệ thống",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives",
+    "example_de": "Kant entwickelte eine systematische Theorie der Ethik.",
+    "example_vi": "Kant đã phát triển một lý thuyết đạo đức học có hệ thống."
+  },
+  {
+    "word": "Ethik",
+    "meaning_vi": "đạo đức học",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die Ethik beschäftigt sich mit Fragen von Gut und Böse.",
+    "example_vi": "Đạo đức học nghiên cứu các câu hỏi về thiện và ác."
+  },
+  {
+    "word": "Moral",
+    "meaning_vi": "đạo đức",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die Moral einer Gesellschaft verändert sich im Laufe der Zeit.",
+    "example_vi": "Đạo đức của một xã hội thay đổi theo thời gian."
+  },
+  {
+    "word": "Wert",
+    "meaning_vi": "giá trị",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Ehrlichkeit ist ein wichtiger Wert in jeder Kultur.",
+    "example_vi": "Sự trung thực là một giá trị quan trọng trong mọi nền văn hóa."
+  },
+  {
+    "word": "Norm",
+    "meaning_vi": "chuẩn mực",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Soziale Normen bestimmen, was als akzeptables Verhalten gilt.",
+    "example_vi": "Các chuẩn mực xã hội quy định những gì được coi là hành vi chấp nhận được."
+  },
+  {
+    "word": "Pflicht",
+    "meaning_vi": "bổn phận",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Es ist unsere Pflicht, anderen Menschen in Not zu helfen.",
+    "example_vi": "Đó là bổn phận của chúng ta giúp đỡ những người gặp khó khăn."
+  },
+  {
+    "word": "Verantwortung",
+    "meaning_vi": "trách nhiệm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Jeder Mensch trägt Verantwortung für seine Handlungen.",
+    "example_vi": "Mỗi người phải chịu trách nhiệm cho hành động của mình."
+  },
+  {
+    "word": "Gewissen",
+    "meaning_vi": "lương tâm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Sein Gewissen plagte ihn nach der unehrlichen Tat.",
+    "example_vi": "Lương tâm của anh ấy dày vò sau hành động không trung thực."
+  },
+  {
+    "word": "Tugend",
+    "meaning_vi": "đức hạnh",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Mut und Weisheit gelten als wichtige Tugenden.",
+    "example_vi": "Lòng can đảm và trí tuệ được coi là những đức hạnh quan trọng."
+  },
+  {
+    "word": "Gerechtigkeit",
+    "meaning_vi": "công lý",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Gerechtigkeit ist ein fundamentales Prinzip des Rechtsstaates.",
+    "example_vi": "Công lý là một nguyên tắc cơ bản của nhà nước pháp quyền."
+  },
+  {
+    "word": "Würde",
+    "meaning_vi": "phẩm giá",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die Würde des Menschen ist unantastbar.",
+    "example_vi": "Phẩm giá con người là bất khả xâm phạm."
+  },
+  {
+    "word": "Autonomie",
+    "meaning_vi": "tự chủ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die Autonomie des Individuums ist ein zentraler Wert der modernen Ethik.",
+    "example_vi": "Tính tự chủ của cá nhân là một giá trị trung tâm của đạo đức học hiện đại."
+  },
+  {
+    "word": "Wahrheit",
+    "meaning_vi": "sự thật",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die Suche nach der Wahrheit ist ein philosophisches Grundanliegen.",
+    "example_vi": "Việc tìm kiếm sự thật là một mối quan tâm cơ bản của triết học."
+  },
+  {
+    "word": "Vernunft",
+    "meaning_vi": "lý trí",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Nach Kant soll die Vernunft unser moralisches Handeln leiten.",
+    "example_vi": "Theo Kant, lý trí nên dẫn dắt hành động đạo đức của chúng ta."
+  },
+  {
+    "word": "Bewusstsein",
+    "meaning_vi": "ý thức",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Das moralische Bewusstsein entwickelt sich in der Kindheit.",
+    "example_vi": "Ý thức đạo đức phát triển trong thời thơ ấu."
+  },
+  {
+    "word": "Existenz",
+    "meaning_vi": "tồn tại",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die Existenz des Menschen wirft viele philosophische Fragen auf.",
+    "example_vi": "Sự tồn tại của con người đặt ra nhiều câu hỏi triết học."
+  },
+  {
+    "word": "Freiheit",
+    "meaning_vi": "tự do",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die Freiheit der Meinungsäußerung ist ein grundlegendes Menschenrecht.",
+    "example_vi": "Tự do ngôn luận là một quyền con người cơ bản."
+  },
+  {
+    "word": "Identität",
+    "meaning_vi": "bản sắc",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die kulturelle Identität prägt unsere Weltanschauung und unser Verhalten.",
+    "example_vi": "Bản sắc văn hóa định hình thế giới quan và hành vi của chúng ta."
+  },
+  {
+    "word": "Erfahrung",
+    "meaning_vi": "trải nghiệm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Durch praktische Erfahrung lernen wir oft mehr als durch Theorie.",
+    "example_vi": "Thông qua trải nghiệm thực tế, chúng ta thường học được nhiều hơn lý thuyết."
+  },
+  {
+    "word": "Wahrnehmung",
+    "meaning_vi": "nhận thức",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Die Wahrnehmung der Realität kann von Person zu Person unterschiedlich sein.",
+    "example_vi": "Nhận thức về thực tế có thể khác nhau giữa người này với người khác."
+  },
+  {
+    "word": "Handlung",
+    "meaning_vi": "hành động",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics",
+    "example_de": "Jede Handlung hat Konsequenzen, die wir bedenken sollten.",
+    "example_vi": "Mỗi hành động đều có hậu quả mà chúng ta nên cân nhắc."
+  },
+  {
+    "word": "Verhalten",
+    "meaning_vi": "hành vi",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Das Verhalten von Kindern wird stark von ihrer Umgebung beeinflusst.",
+    "example_vi": "Hành vi của trẻ em bị ảnh hưởng mạnh mẽ bởi môi trường xung quanh."
+  },
+  {
+    "word": "Persönlichkeit",
+    "meaning_vi": "nhân cách",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Seine offene Persönlichkeit macht ihn zu einem beliebten Teamkollegen.",
+    "example_vi": "Nhân cách cởi mở của anh ấy khiến anh trở thành một đồng đội được yêu thích."
+  },
+  {
+    "word": "Motivation",
+    "meaning_vi": "động lực",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Die Motivation der Mitarbeiter steigt, wenn sie für ihre Arbeit geschätzt werden.",
+    "example_vi": "Động lực của nhân viên tăng lên khi họ được đánh giá cao về công việc của mình."
+  },
+  {
+    "word": "Emotion",
+    "meaning_vi": "cảm xúc",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Emotionen spielen eine wichtige Rolle bei unseren Entscheidungen.",
+    "example_vi": "Cảm xúc đóng một vai trò quan trọng trong các quyết định của chúng ta."
+  },
+  {
+    "word": "Gedächtnis",
+    "meaning_vi": "trí nhớ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Das Gedächtnis lässt im Alter oft nach, aber Training kann helfen.",
+    "example_vi": "Trí nhớ thường suy giảm theo tuổi tác, nhưng luyện tập có thể giúp ích."
+  },
+  {
+    "word": "Intelligenz",
+    "meaning_vi": "trí thông minh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Emotionale Intelligenz ist genauso wichtig wie kognitive Intelligenz.",
+    "example_vi": "Trí thông minh cảm xúc cũng quan trọng như trí thông minh nhận thức."
+  },
+  {
+    "word": "Kreativität",
+    "meaning_vi": "sáng tạo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Kreativität ist der Schlüssel zur Innovation in der modernen Wirtschaft.",
+    "example_vi": "Sáng tạo là chìa khóa cho sự đổi mới trong nền kinh tế hiện đại."
+  },
+  {
+    "word": "Stress",
+    "meaning_vi": "căng thẳng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Chronischer Stress kann zu ernsthaften gesundheitlichen Problemen führen.",
+    "example_vi": "Căng thẳng mãn tính có thể dẫn đến các vấn đề sức khỏe nghiêm trọng."
+  },
+  {
+    "word": "Depression",
+    "meaning_vi": "trầm cảm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Depression ist eine ernsthafte Erkrankung, die professionelle Hilfe erfordert.",
+    "example_vi": "Trầm cảm là một căn bệnh nghiêm trọng cần sự giúp đỡ chuyên nghiệp."
+  },
+  {
+    "word": "Angst",
+    "meaning_vi": "lo lắng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Die Angst vor dem Scheitern hält viele Menschen davon ab, neue Dinge auszuprobieren.",
+    "example_vi": "Nỗi lo lắng về thất bại ngăn cản nhiều người thử những điều mới."
+  },
+  {
+    "word": "Trauma",
+    "meaning_vi": "chấn thương",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Ein Trauma aus der Kindheit kann das ganze Leben beeinflussen.",
+    "example_vi": "Chấn thương tâm lý từ thời thơ ấu có thể ảnh hưởng đến cả cuộc đời."
+  },
+  {
+    "word": "Therapie",
+    "meaning_vi": "trị liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Eine Therapie kann Menschen helfen, ihre psychischen Probleme zu bewältigen.",
+    "example_vi": "Liệu pháp trị liệu có thể giúp mọi người vượt qua các vấn đề tâm lý của họ."
+  },
+  {
+    "word": "Sozialisation",
+    "meaning_vi": "xã hội hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Die Sozialisation beginnt in der Familie und setzt sich in der Schule fort.",
+    "example_vi": "Quá trình xã hội hóa bắt đầu trong gia đình và tiếp tục ở trường học."
+  },
+  {
+    "word": "Gruppe",
+    "meaning_vi": "nhóm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "In einer Gruppe fühlen sich Menschen oft sicherer und unterstützter.",
+    "example_vi": "Trong một nhóm, mọi người thường cảm thấy an toàn và được hỗ trợ hơn."
+  },
+  {
+    "word": "Rolle",
+    "meaning_vi": "vai trò",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Die Rolle der Eltern ist entscheidend für die Entwicklung des Kindes.",
+    "example_vi": "Vai trò của cha mẹ là quyết định cho sự phát triển của trẻ."
+  },
+  {
+    "word": "Status",
+    "meaning_vi": "địa vị",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Sein sozialer Status hat sich durch die Beförderung deutlich verbessert.",
+    "example_vi": "Địa vị xã hội của anh ấy đã được cải thiện đáng kể nhờ sự thăng chức."
+  },
+  {
+    "word": "Schicht",
+    "meaning_vi": "tầng lớp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Die Mittelschicht bildet einen wichtigen Teil der Gesellschaft.",
+    "example_vi": "Tầng lớp trung lưu tạo thành một phần quan trọng của xã hội."
+  },
+  {
+    "word": "Milieu",
+    "meaning_vi": "môi trường",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Er wuchs in einem bildungsfernen Milieu auf.",
+    "example_vi": "Anh ấy lớn lên trong một môi trường thiếu giáo dục."
+  },
+  {
+    "word": "Integration",
+    "meaning_vi": "hội nhập",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Die Integration von Migranten ist eine große Herausforderung für viele Länder.",
+    "example_vi": "Sự hội nhập của người di cư là một thách thức lớn đối với nhiều quốc gia."
+  },
+  {
+    "word": "Diskriminierung",
+    "meaning_vi": "phân biệt đối xử",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology",
+    "example_de": "Diskriminierung aufgrund der Hautfarbe ist gesetzlich verboten.",
+    "example_vi": "Phân biệt đối xử dựa trên màu da bị cấm theo luật."
+  },
+  {
+    "word": "Politik",
+    "meaning_vi": "chính trị",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Viele junge Menschen interessieren sich heute nicht mehr für Politik.",
+    "example_vi": "Nhiều người trẻ ngày nay không còn quan tâm đến chính trị nữa."
+  },
+  {
+    "word": "Partei",
+    "meaning_vi": "đảng phái",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Welche Partei werden Sie bei der nächsten Wahl unterstützen?",
+    "example_vi": "Bạn sẽ ủng hộ đảng phái nào trong cuộc bầu cử tới?"
+  },
+  {
+    "word": "Regierung",
+    "meaning_vi": "chính phủ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Die neue Regierung hat ehrgeizige Reformpläne angekündigt.",
+    "example_vi": "Chính phủ mới đã công bố các kế hoạch cải cách đầy tham vọng."
+  },
+  {
+    "word": "Opposition",
+    "meaning_vi": "phe đối lập",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Die Opposition kritisiert die Steuerpolitik der Regierung scharf.",
+    "example_vi": "Phe đối lập chỉ trích gay gắt chính sách thuế của chính phủ."
+  },
+  {
+    "word": "Koalition",
+    "meaning_vi": "liên minh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Nach der Wahl bildeten drei Parteien eine Koalition.",
+    "example_vi": "Sau cuộc bầu cử, ba đảng đã thành lập một liên minh."
+  },
+  {
+    "word": "Parlament",
+    "meaning_vi": "quốc hội",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Das Parlament hat das neue Gesetz mit großer Mehrheit verabschiedet.",
+    "example_vi": "Quốc hội đã thông qua luật mới với đa số phiếu áp đảo."
+  },
+  {
+    "word": "Abgeordneter",
+    "meaning_vi": "đại biểu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Der Abgeordnete vertritt die Interessen seiner Wähler im Bundestag.",
+    "example_vi": "Đại biểu đại diện cho lợi ích của cử tri trong Quốc hội liên bang."
+  },
+  {
+    "word": "Kanzler",
+    "meaning_vi": "thủ tướng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Der Kanzler hielt eine wichtige Rede zur Wirtschaftslage.",
+    "example_vi": "Thủ tướng đã có bài phát biểu quan trọng về tình hình kinh tế."
+  },
+  {
+    "word": "Präsident",
+    "meaning_vi": "tổng thống",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Der Präsident empfing ausländische Staatsgäste im Schloss Bellevue.",
+    "example_vi": "Tổng thống đã tiếp đón khách quốc gia nước ngoài tại lâu đài Bellevue."
+  },
+  {
+    "word": "Minister",
+    "meaning_vi": "bộ trưởng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Der Gesundheitsminister kündigte neue Maßnahmen zur Pandemiebekämpfung an.",
+    "example_vi": "Bộ trưởng Y tế đã công bố các biện pháp mới để chống đại dịch."
+  },
+  {
+    "word": "Diplomatie",
+    "meaning_vi": "ngoại giao",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Durch geschickte Diplomatie konnte der Konflikt friedlich gelöst werden.",
+    "example_vi": "Nhờ ngoại giao khéo léo, xung đột đã có thể được giải quyết một cách hòa bình."
+  },
+  {
+    "word": "Botschaft",
+    "meaning_vi": "đại sứ quán",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Bei Problemen im Ausland können Sie sich an die deutsche Botschaft wenden.",
+    "example_vi": "Khi gặp vấn đề ở nước ngoài, bạn có thể liên hệ với đại sứ quán Đức."
+  },
+  {
+    "word": "Vertrag",
+    "meaning_vi": "hiệp ước",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Die beiden Länder unterzeichneten einen Vertrag über wirtschaftliche Zusammenarbeit.",
+    "example_vi": "Hai quốc gia đã ký một hiệp ước về hợp tác kinh tế."
+  },
+  {
+    "word": "Sanktion",
+    "meaning_vi": "trừng phạt",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Die EU verhängte wirtschaftliche Sanktionen gegen das Land.",
+    "example_vi": "EU đã áp đặt các biện pháp trừng phạt kinh tế đối với quốc gia đó."
+  },
+  {
+    "word": "Konflikt",
+    "meaning_vi": "xung đột",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Der bewaffnete Konflikt in der Region dauert bereits seit Jahren an.",
+    "example_vi": "Xung đột vũ trang trong khu vực đã kéo dài nhiều năm."
+  },
+  {
+    "word": "Verhandlung",
+    "meaning_vi": "đàm phán",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Die Verhandlungen zwischen den beiden Ländern dauerten drei Tage.",
+    "example_vi": "Các cuộc đàm phán giữa hai quốc gia kéo dài ba ngày."
+  },
+  {
+    "word": "Kompromiss",
+    "meaning_vi": "thỏa hiệp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Nach langer Diskussion fanden sie endlich einen Kompromiss.",
+    "example_vi": "Sau cuộc thảo luận dài, cuối cùng họ đã tìm được sự thỏa hiệp."
+  },
+  {
+    "word": "Reform",
+    "meaning_vi": "cải cách",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Die Regierung plant eine umfassende Reform des Bildungssystems.",
+    "example_vi": "Chính phủ lên kế hoạch cải cách toàn diện hệ thống giáo dục."
+  },
+  {
+    "word": "Revolution",
+    "meaning_vi": "cách mạng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Die Französische Revolution begann im Jahr 1789.",
+    "example_vi": "Cách mạng Pháp bắt đầu vào năm 1789."
+  },
+  {
+    "word": "Souveränität",
+    "meaning_vi": "chủ quyền",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international",
+    "example_de": "Jedes Land hat das Recht auf nationale Souveränität.",
+    "example_vi": "Mỗi quốc gia đều có quyền về chủ quyền quốc gia."
+  },
+  {
+    "word": "Konjunktur",
+    "meaning_vi": "kinh tế chu kỳ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Konjunktur hat sich in diesem Quartal deutlich verbessert.",
+    "example_vi": "Tình hình kinh tế chu kỳ đã cải thiện rõ rệt trong quý này."
+  },
+  {
+    "word": "Inflation",
+    "meaning_vi": "lạm phát",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Inflation liegt derzeit bei 3,5 Prozent.",
+    "example_vi": "Lạm phát hiện đang ở mức 3,5 phần trăm."
+  },
+  {
+    "word": "Deflation",
+    "meaning_vi": "giảm phát",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Eine anhaltende Deflation kann der Wirtschaft schaden.",
+    "example_vi": "Giảm phát kéo dài có thể gây hại cho nền kinh tế."
+  },
+  {
+    "word": "Rezession",
+    "meaning_vi": "suy thoái",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Viele Unternehmen mussten während der Rezession Mitarbeiter entlassen.",
+    "example_vi": "Nhiều doanh nghiệp phải sa thải nhân viên trong thời kỳ suy thoái."
+  },
+  {
+    "word": "Bruttoinlandsprodukt",
+    "meaning_vi": "GDP",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Das Bruttoinlandsprodukt ist um 2,3 Prozent gestiegen.",
+    "example_vi": "Tổng sản phẩm quốc nội (GDP) đã tăng 2,3 phần trăm."
+  },
+  {
+    "word": "Arbeitslosigkeit",
+    "meaning_vi": "thất nghiệp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Arbeitslosigkeit ist auf den niedrigsten Stand seit zehn Jahren gesunken.",
+    "example_vi": "Tỷ lệ thất nghiệp đã giảm xuống mức thấp nhất trong mười năm."
+  },
+  {
+    "word": "Subvention",
+    "meaning_vi": "trợ cấp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Landwirte erhalten staatliche Subventionen für ihre Produkte.",
+    "example_vi": "Nông dân nhận được trợ cấp của nhà nước cho sản phẩm của họ."
+  },
+  {
+    "word": "Zoll",
+    "meaning_vi": "thuế hải quan",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Auf importierte Waren wird ein hoher Zoll erhoben.",
+    "example_vi": "Hàng hóa nhập khẩu bị đánh thuế hải quan cao."
+  },
+  {
+    "word": "Währung",
+    "meaning_vi": "tiền tệ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Der Euro ist die gemeinsame Währung von 20 europäischen Ländern.",
+    "example_vi": "Đồng Euro là đồng tiền chung của 20 quốc gia châu Âu."
+  },
+  {
+    "word": "Wechselkurs",
+    "meaning_vi": "tỷ giá",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Der Wechselkurs zwischen Euro und Dollar schwankt täglich.",
+    "example_vi": "Tỷ giá giữa Euro và Đô la dao động hàng ngày."
+  },
+  {
+    "word": "Zentralbank",
+    "meaning_vi": "ngân hàng trung ương",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Zentralbank hat den Leitzins um 0,5 Prozent erhöht.",
+    "example_vi": "Ngân hàng trung ương đã tăng lãi suất cơ bản lên 0,5 phần trăm."
+  },
+  {
+    "word": "Haushalt",
+    "meaning_vi": "ngân sách",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Der Bundeshaushalt für das nächste Jahr wurde genehmigt.",
+    "example_vi": "Ngân sách liên bang cho năm tới đã được phê duyệt."
+  },
+  {
+    "word": "Schulden",
+    "meaning_vi": "nợ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Das Land hat hohe Schulden bei internationalen Gläubigern.",
+    "example_vi": "Đất nước có khoản nợ lớn với các chủ nợ quốc tế."
+  },
+  {
+    "word": "Defizit",
+    "meaning_vi": "thâm hụt",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Das Haushaltsdefizit beträgt dieses Jahr 50 Milliarden Euro.",
+    "example_vi": "Thâm hụt ngân sách năm nay là 50 tỷ Euro."
+  },
+  {
+    "word": "Überschuss",
+    "meaning_vi": "thặng dư",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Deutschland erzielte einen Handelsüberschuss von 20 Milliarden Euro.",
+    "example_vi": "Đức đạt được thặng dư thương mại 20 tỷ Euro."
+  },
+  {
+    "word": "Monopol",
+    "meaning_vi": "độc quyền",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Das Unternehmen hat ein Monopol auf dem Markt für Betriebssysteme.",
+    "example_vi": "Công ty có độc quyền trên thị trường hệ điều hành."
+  },
+  {
+    "word": "Kartell",
+    "meaning_vi": "liên minh độc quyền",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Regierung hat das Kartell der Ölproduzenten aufgelöst.",
+    "example_vi": "Chính phủ đã giải tán liên minh độc quyền của các nhà sản xuất dầu."
+  },
+  {
+    "word": "Privatisierung",
+    "meaning_vi": "tư nhân hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Privatisierung der Deutschen Bahn wird kontrovers diskutiert.",
+    "example_vi": "Việc tư nhân hóa hãng đường sắt Đức đang được thảo luận gây tranh cãi."
+  },
+  {
+    "word": "Globalisierung",
+    "meaning_vi": "toàn cầu hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Globalisierung hat den internationalen Handel stark verändert.",
+    "example_vi": "Toàn cầu hóa đã thay đổi mạnh mẽ thương mại quốc tế."
+  },
+  {
+    "word": "Liberalisierung",
+    "meaning_vi": "tự do hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced",
+    "example_de": "Die Liberalisierung des Telekommunikationsmarktes führte zu mehr Wettbewerb.",
+    "example_vi": "Tự do hóa thị trường viễn thông đã dẫn đến nhiều cạnh tranh hơn."
+  },
+  {
+    "word": "Algorithmus",
+    "meaning_vi": "thuật toán",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Der Algorithmus sortiert die Suchergebnisse nach Relevanz.",
+    "example_vi": "Thuật toán sắp xếp kết quả tìm kiếm theo mức độ liên quan."
+  },
+  {
+    "word": "Datenbank",
+    "meaning_vi": "cơ sở dữ liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Alle Kundendaten werden in einer zentralen Datenbank gespeichert.",
+    "example_vi": "Tất cả dữ liệu khách hàng được lưu trữ trong một cơ sở dữ liệu trung tâm."
+  },
+  {
+    "word": "Server",
+    "meaning_vi": "máy chủ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Der Server ist wegen Wartungsarbeiten vorübergehend nicht erreichbar.",
+    "example_vi": "Máy chủ tạm thời không thể truy cập do bảo trì."
+  },
+  {
+    "word": "Cloud",
+    "meaning_vi": "đám mây",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Wir speichern unsere Dokumente in der Cloud, um von überall darauf zugreifen zu können.",
+    "example_vi": "Chúng tôi lưu trữ tài liệu của mình trên đám mây để có thể truy cập từ mọi nơi."
+  },
+  {
+    "word": "Schnittstelle",
+    "meaning_vi": "giao diện",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Die neue Schnittstelle ermöglicht eine einfachere Bedienung der Software.",
+    "example_vi": "Giao diện mới cho phép vận hành phần mềm dễ dàng hơn."
+  },
+  {
+    "word": "Verschlüsselung",
+    "meaning_vi": "mã hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Die Verschlüsselung schützt sensible Daten vor unbefugtem Zugriff.",
+    "example_vi": "Mã hóa bảo vệ dữ liệu nhạy cảm khỏi truy cập trái phép."
+  },
+  {
+    "word": "Cybersicherheit",
+    "meaning_vi": "an ninh mạng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Cybersicherheit ist für Unternehmen heute wichtiger denn je.",
+    "example_vi": "An ninh mạng ngày nay quan trọng hơn bao giờ hết đối với các doanh nghiệp."
+  },
+  {
+    "word": "Künstliche Intelligenz",
+    "meaning_vi": "trí tuệ nhân tạo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Künstliche Intelligenz wird zunehmend in der Medizin eingesetzt.",
+    "example_vi": "Trí tuệ nhân tạo ngày càng được sử dụng trong y học."
+  },
+  {
+    "word": "Maschinelles Lernen",
+    "meaning_vi": "học máy",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Maschinelles Lernen hilft dabei, Muster in großen Datenmengen zu erkennen.",
+    "example_vi": "Học máy giúp nhận diện các mẫu trong khối lượng dữ liệu lớn."
+  },
+  {
+    "word": "Automatisierung",
+    "meaning_vi": "tự động hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Die Automatisierung der Produktion hat viele Arbeitsplätze verändert.",
+    "example_vi": "Tự động hóa sản xuất đã thay đổi nhiều việc làm."
+  },
+  {
+    "word": "Robotik",
+    "meaning_vi": "robot học",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Die Robotik revolutioniert die Fertigungsindustrie.",
+    "example_vi": "Robot học đang cách mạng hóa ngành công nghiệp sản xuất."
+  },
+  {
+    "word": "Biotechnologie",
+    "meaning_vi": "công nghệ sinh học",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Biotechnologie ermöglicht die Entwicklung neuer Medikamente.",
+    "example_vi": "Công nghệ sinh học cho phép phát triển các loại thuốc mới."
+  },
+  {
+    "word": "Nanotechnologie",
+    "meaning_vi": "công nghệ nano",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Nanotechnologie wird in der Materialwissenschaft intensiv erforscht.",
+    "example_vi": "Công nghệ nano đang được nghiên cứu chuyên sâu trong khoa học vật liệu."
+  },
+  {
+    "word": "Erneuerbare Energie",
+    "meaning_vi": "năng lượng tái tạo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Deutschland investiert stark in erneuerbare Energie wie Wind und Solar.",
+    "example_vi": "Đức đầu tư mạnh vào năng lượng tái tạo như gió và mặt trời."
+  },
+  {
+    "word": "Elektromobilität",
+    "meaning_vi": "di chuyển điện",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Elektromobilität gilt als Schlüssel zur Reduzierung von CO2-Emissionen im Verkehr.",
+    "example_vi": "Di chuyển điện được coi là chìa khóa để giảm lượng khí thải CO2 trong giao thông."
+  },
+  {
+    "word": "Digitalisierung",
+    "meaning_vi": "số hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Die Digitalisierung verändert unsere Arbeitswelt grundlegend.",
+    "example_vi": "Số hóa đang thay đổi căn bản thế giới lao động của chúng ta."
+  },
+  {
+    "word": "Vernetzung",
+    "meaning_vi": "kết nối mạng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Die Vernetzung von Computern ermöglicht schnelle Kommunikation weltweit.",
+    "example_vi": "Kết nối mạng các máy tính cho phép giao tiếp nhanh chóng trên toàn thế giới."
+  },
+  {
+    "word": "Innovation",
+    "meaning_vi": "đổi mới",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Innovation ist der Schlüssel zum wirtschaftlichen Erfolg.",
+    "example_vi": "Đổi mới là chìa khóa cho thành công kinh tế."
+  },
+  {
+    "word": "Forschung",
+    "meaning_vi": "nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Die medizinische Forschung hat große Fortschritte gemacht.",
+    "example_vi": "Nghiên cứu y học đã đạt được những tiến bộ lớn."
+  },
+  {
+    "word": "Entwicklung",
+    "meaning_vi": "phát triển",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced",
+    "example_de": "Die Entwicklung neuer Technologien braucht Zeit und Geld.",
+    "example_vi": "Phát triển các công nghệ mới cần thời gian và tiền bạc."
+  },
+  {
+    "word": "Literatur",
+    "meaning_vi": "văn học",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Deutsche Literatur hat viele berühmte Autoren hervorgebracht.",
+    "example_vi": "Văn học Đức đã sản sinh ra nhiều tác giả nổi tiếng."
+  },
+  {
+    "word": "Roman",
+    "meaning_vi": "tiểu thuyết",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Ich lese gerade einen spannenden Roman von Thomas Mann.",
+    "example_vi": "Tôi đang đọc một cuốn tiểu thuyết hấp dẫn của Thomas Mann."
+  },
+  {
+    "word": "Gedicht",
+    "meaning_vi": "bài thơ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Goethe schrieb viele wunderschöne Gedichte.",
+    "example_vi": "Goethe đã viết nhiều bài thơ tuyệt đẹp."
+  },
+  {
+    "word": "Drama",
+    "meaning_vi": "kịch",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Faust ist ein bekanntes Drama von Johann Wolfgang von Goethe.",
+    "example_vi": "Faust là một vở kịch nổi tiếng của Johann Wolfgang von Goethe."
+  },
+  {
+    "word": "Autor",
+    "meaning_vi": "tác giả",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Der Autor hat sein neues Buch gestern vorgestellt.",
+    "example_vi": "Tác giả đã giới thiệu cuốn sách mới của mình hôm qua."
+  },
+  {
+    "word": "Dichter",
+    "meaning_vi": "nhà thơ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Rainer Maria Rilke war ein bedeutender deutscher Dichter.",
+    "example_vi": "Rainer Maria Rilke là một nhà thơ Đức quan trọng."
+  },
+  {
+    "word": "Schriftsteller",
+    "meaning_vi": "nhà văn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Hermann Hesse war ein berühmter Schriftsteller des 20. Jahrhunderts.",
+    "example_vi": "Hermann Hesse là một nhà văn nổi tiếng của thế kỷ 20."
+  },
+  {
+    "word": "Werk",
+    "meaning_vi": "tác phẩm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Das Werk von Kafka beeinflusst bis heute viele Autoren.",
+    "example_vi": "Tác phẩm của Kafka vẫn ảnh hưởng đến nhiều tác giả cho đến ngày nay."
+  },
+  {
+    "word": "Kapitel",
+    "meaning_vi": "chương",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Das erste Kapitel des Buches ist besonders interessant.",
+    "example_vi": "Chương đầu tiên của cuốn sách đặc biệt thú vị."
+  },
+  {
+    "word": "Handlung",
+    "meaning_vi": "cốt truyện",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Die Handlung des Romans spielt im 19. Jahrhundert.",
+    "example_vi": "Cốt truyện của tiểu thuyết diễn ra vào thế kỷ 19."
+  },
+  {
+    "word": "Figur",
+    "meaning_vi": "nhân vật",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Die Hauptfigur des Romans ist ein junger Student.",
+    "example_vi": "Nhân vật chính của tiểu thuyết là một sinh viên trẻ."
+  },
+  {
+    "word": "Thema",
+    "meaning_vi": "chủ đề",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Das Thema des Gedichts ist die Liebe zur Natur.",
+    "example_vi": "Chủ đề của bài thơ là tình yêu thiên nhiên."
+  },
+  {
+    "word": "Motiv",
+    "meaning_vi": "động cơ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Ein zentrales Motiv in Goethes Werken ist die Sehnsucht.",
+    "example_vi": "Một động cơ trung tâm trong các tác phẩm của Goethe là nỗi khao khát."
+  },
+  {
+    "word": "Stil",
+    "meaning_vi": "phong cách",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Der Stil dieses Autors ist sehr poetisch und bildreich.",
+    "example_vi": "Phong cách của tác giả này rất thơ mộng và giàu hình ảnh."
+  },
+  {
+    "word": "Epoche",
+    "meaning_vi": "thời kỳ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Die Romantik war eine wichtige literarische Epoche in Deutschland.",
+    "example_vi": "Chủ nghĩa lãng mạn là một thời kỳ văn học quan trọng ở Đức."
+  },
+  {
+    "word": "Malerei",
+    "meaning_vi": "hội họa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Die Malerei der Renaissance ist für ihre realistischen Darstellungen bekannt.",
+    "example_vi": "Hội họa thời Phục hưng nổi tiếng với những bức tranh chân thực."
+  },
+  {
+    "word": "Skulptur",
+    "meaning_vi": "điêu khắc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Michelangelos David ist eine der berühmtesten Skulpturen der Welt.",
+    "example_vi": "Tượng David của Michelangelo là một trong những tác phẩm điêu khắc nổi tiếng nhất thế giới."
+  },
+  {
+    "word": "Architektur",
+    "meaning_vi": "kiến trúc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Die gotische Architektur zeichnet sich durch hohe Spitzbögen aus.",
+    "example_vi": "Kiến trúc Gothic được đặc trưng bởi những vòm nhọn cao."
+  },
+  {
+    "word": "Oper",
+    "meaning_vi": "opera",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Gestern Abend haben wir eine Oper von Mozart in der Staatsoper besucht.",
+    "example_vi": "Tối qua chúng tôi đã xem một vở opera của Mozart tại Nhà hát Opera Nhà nước."
+  },
+  {
+    "word": "Orchester",
+    "meaning_vi": "dàn nhạc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature",
+    "example_de": "Das Berliner Philharmonische Orchester ist weltberühmt.",
+    "example_vi": "Dàn nhạc giao hưởng Berlin nổi tiếng toàn thế giới."
+  },
+  {
+    "word": "Geschichte",
+    "meaning_vi": "lịch sử",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Im Geschichtsunterricht lernen wir über die deutsche Geschichte.",
+    "example_vi": "Trong giờ học lịch sử, chúng tôi học về lịch sử nước Đức."
+  },
+  {
+    "word": "Zivilisation",
+    "meaning_vi": "văn minh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Die ägyptische Zivilisation gehört zu den ältesten der Menschheit.",
+    "example_vi": "Nền văn minh Ai Cập là một trong những nền văn minh lâu đời nhất của nhân loại."
+  },
+  {
+    "word": "Epoche",
+    "meaning_vi": "thời đại",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Das Barock war eine bedeutende Epoche in der europäischen Kunstgeschichte.",
+    "example_vi": "Thời Baroque là một thời đại quan trọng trong lịch sử nghệ thuật châu Âu."
+  },
+  {
+    "word": "Jahrhundert",
+    "meaning_vi": "thế kỷ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Im 21. Jahrhundert hat sich die Technologie rasant entwickelt.",
+    "example_vi": "Trong thế kỷ 21, công nghệ đã phát triển nhanh chóng."
+  },
+  {
+    "word": "Jahrzehnt",
+    "meaning_vi": "thập kỷ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Die 1960er Jahre waren ein turbulentes Jahrzehnt voller gesellschaftlicher Veränderungen.",
+    "example_vi": "Những năm 1960 là một thập kỷ đầy biến động với nhiều thay đổi xã hội."
+  },
+  {
+    "word": "Antike",
+    "meaning_vi": "cổ đại",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "In der Antike waren Griechenland und Rom mächtige Reiche.",
+    "example_vi": "Thời cổ đại, Hy Lạp và La Mã là những đế chế hùng mạnh."
+  },
+  {
+    "word": "Mittelalter",
+    "meaning_vi": "thời trung cổ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Im Mittelalter lebten die meisten Menschen als Bauern auf dem Land.",
+    "example_vi": "Thời trung cổ, hầu hết mọi người sống như nông dân ở nông thôn."
+  },
+  {
+    "word": "Renaissance",
+    "meaning_vi": "thời phục hưng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Die Renaissance begann im 14. Jahrhundert in Italien.",
+    "example_vi": "Thời Phục hưng bắt đầu vào thế kỷ 14 ở Ý."
+  },
+  {
+    "word": "Aufklärung",
+    "meaning_vi": "thời kỳ khai sáng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Die Aufklärung betonte die Bedeutung von Vernunft und Wissenschaft.",
+    "example_vi": "Thời kỳ Khai sáng nhấn mạnh tầm quan trọng của lý trí và khoa học."
+  },
+  {
+    "word": "Industrialisierung",
+    "meaning_vi": "công nghiệp hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Die Industrialisierung veränderte die Gesellschaft grundlegend.",
+    "example_vi": "Công nghiệp hóa đã thay đổi xã hội một cách căn bản."
+  },
+  {
+    "word": "Kolonialismus",
+    "meaning_vi": "chủ nghĩa thực dân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Der Kolonialismus hatte verheerende Auswirkungen auf viele afrikanische Länder.",
+    "example_vi": "Chủ nghĩa thực dân đã có những tác động tàn phá đến nhiều quốc gia châu Phi."
+  },
+  {
+    "word": "Imperialismus",
+    "meaning_vi": "chủ nghĩa đế quốc",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Der britische Imperialismus erstreckte sich über viele Kontinente.",
+    "example_vi": "Chủ nghĩa đế quốc Anh trải dài trên nhiều lục địa."
+  },
+  {
+    "word": "Weltkrieg",
+    "meaning_vi": "chiến tranh thế giới",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Der Erste Weltkrieg dauerte von 1914 bis 1918.",
+    "example_vi": "Chiến tranh thế giới thứ nhất kéo dài từ năm 1914 đến 1918."
+  },
+  {
+    "word": "Kalter Krieg",
+    "meaning_vi": "chiến tranh lạnh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Der Kalte Krieg zwischen den USA und der Sowjetunion prägte die zweite Hälfte des 20. Jahrhunderts.",
+    "example_vi": "Chiến tranh lạnh giữa Mỹ và Liên Xô đã định hình nửa sau của thế kỷ 20."
+  },
+  {
+    "word": "Wiedervereinigung",
+    "meaning_vi": "thống nhất",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Die Wiedervereinigung Deutschlands fand am 3. Oktober 1990 statt.",
+    "example_vi": "Sự thống nhất nước Đức diễn ra vào ngày 3 tháng 10 năm 1990."
+  },
+  {
+    "word": "Denkmal",
+    "meaning_vi": "đài tưởng niệm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Das Brandenburger Tor ist ein berühmtes Denkmal in Berlin.",
+    "example_vi": "Cổng Brandenburg là một đài tưởng niệm nổi tiếng ở Berlin."
+  },
+  {
+    "word": "Kulturerbe",
+    "meaning_vi": "di sản văn hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Die Altstadt von Hội An gehört zum UNESCO-Weltkulturerbe.",
+    "example_vi": "Phố cổ Hội An thuộc di sản văn hóa thế giới UNESCO."
+  },
+  {
+    "word": "Archäologie",
+    "meaning_vi": "khảo cổ học",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Er studiert Archäologie an der Universität Heidelberg.",
+    "example_vi": "Anh ấy học khảo cổ học tại Đại học Heidelberg."
+  },
+  {
+    "word": "Ausgrabung",
+    "meaning_vi": "khai quật",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Bei der Ausgrabung wurden römische Münzen gefunden.",
+    "example_vi": "Trong cuộc khai quật, người ta đã tìm thấy những đồng xu La Mã."
+  },
+  {
+    "word": "Quelle",
+    "meaning_vi": "nguồn sử liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization",
+    "example_de": "Historiker müssen ihre Quellen sorgfältig prüfen.",
+    "example_vi": "Các nhà sử học phải kiểm tra nguồn sử liệu của họ một cách cẩn thận."
+  },
+  {
+    "word": "folglich",
+    "meaning_vi": "do đó",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Es hat stark geregnet, folglich wurde das Spiel abgesagt.",
+    "example_vi": "Trời mưa to, do đó trận đấu đã bị hủy."
+  },
+  {
+    "word": "demzufolge",
+    "meaning_vi": "theo đó",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Die Prüfung war sehr schwer, demzufolge sind viele durchgefallen.",
+    "example_vi": "Kỳ thi rất khó, theo đó nhiều người đã trượt."
+  },
+  {
+    "word": "somit",
+    "meaning_vi": "vì vậy",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Alle Teilnehmer haben zugestimmt, somit kann das Projekt beginnen.",
+    "example_vi": "Tất cả người tham gia đã đồng ý, vì vậy dự án có thể bắt đầu."
+  },
+  {
+    "word": "demnach",
+    "meaning_vi": "theo đó",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Der Vertrag wurde unterschrieben, demnach ist die Vereinbarung gültig.",
+    "example_vi": "Hợp đồng đã được ký, theo đó thỏa thuận có hiệu lực."
+  },
+  {
+    "word": "hingegen",
+    "meaning_vi": "ngược lại",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Peter mag Kaffee, seine Schwester hingegen trinkt lieber Tee.",
+    "example_vi": "Peter thích cà phê, ngược lại chị gái anh ấy thích uống trà hơn."
+  },
+  {
+    "word": "indessen",
+    "meaning_vi": "trong khi đó",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Die Kinder spielten im Garten, indessen bereitete die Mutter das Essen vor.",
+    "example_vi": "Bọn trẻ chơi trong vườn, trong khi đó mẹ chuẩn bị bữa ăn."
+  },
+  {
+    "word": "ferner",
+    "meaning_vi": "hơn nữa",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Das Hotel bietet kostenloses WLAN, ferner gibt es einen Pool.",
+    "example_vi": "Khách sạn cung cấp WiFi miễn phí, hơn nữa còn có hồ bơi."
+  },
+  {
+    "word": "zudem",
+    "meaning_vi": "ngoài ra",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Die Wohnung ist zentral gelegen, zudem ist sie sehr günstig.",
+    "example_vi": "Căn hộ nằm ở trung tâm, ngoài ra còn rất rẻ."
+  },
+  {
+    "word": "ohnehin",
+    "meaning_vi": "dù sao",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Ich wollte ohnehin gerade anrufen, als du kamst.",
+    "example_vi": "Dù sao tôi cũng định gọi điện, khi bạn đến."
+  },
+  {
+    "word": "keineswegs",
+    "meaning_vi": "không hề",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Das Ergebnis ist keineswegs zufriedenstellend.",
+    "example_vi": "Kết quả không hề đáng hài lòng."
+  },
+  {
+    "word": "keinesfalls",
+    "meaning_vi": "trong mọi trường hợp không",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Du darfst keinesfalls zu spät kommen!",
+    "example_vi": "Trong mọi trường hợp không được đến muộn!"
+  },
+  {
+    "word": "gegebenenfalls",
+    "meaning_vi": "nếu cần",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Bringen Sie gegebenenfalls einen Regenschirm mit.",
+    "example_vi": "Nếu cần hãy mang theo ô."
+  },
+  {
+    "word": "gegebenenfalls",
+    "meaning_vi": "nếu có thể",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Wir werden gegebenenfalls zusätzliche Mitarbeiter einstellen.",
+    "example_vi": "Nếu có thể chúng tôi sẽ tuyển thêm nhân viên."
+  },
+  {
+    "word": "beziehungsweise",
+    "meaning_vi": "hoặc là",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Das Treffen findet am Montag beziehungsweise Dienstag statt.",
+    "example_vi": "Cuộc họp diễn ra vào thứ Hai hoặc là thứ Ba."
+  },
+  {
+    "word": "hinsichtlich",
+    "meaning_vi": "liên quan đến",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Hinsichtlich der Kosten müssen wir noch verhandeln.",
+    "example_vi": "Liên quan đến chi phí, chúng ta vẫn phải đàm phán."
+  },
+  {
+    "word": "bezüglich",
+    "meaning_vi": "về vấn đề",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Bezüglich Ihrer Anfrage vom 15. März möchte ich Ihnen mitteilen, dass wir das Projekt genehmigt haben.",
+    "example_vi": "Về vấn đề yêu cầu của quý vị ngày 15 tháng 3, tôi muốn thông báo rằng chúng tôi đã phê duyệt dự án."
+  },
+  {
+    "word": "angesichts",
+    "meaning_vi": "trước tình hình",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Angesichts der steigenden Inflation müssen wir unsere Ausgaben reduzieren.",
+    "example_vi": "Trước tình hình lạm phát tăng cao, chúng ta phải cắt giảm chi tiêu."
+  },
+  {
+    "word": "infolge",
+    "meaning_vi": "do kết quả của",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Infolge des starken Regens wurde die Straße überflutet.",
+    "example_vi": "Do kết quả của trận mưa lớn, con đường đã bị ngập lụt."
+  },
+  {
+    "word": "aufgrund",
+    "meaning_vi": "do",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Aufgrund technischer Probleme verspätet sich der Flug um zwei Stunden.",
+    "example_vi": "Do sự cố kỹ thuật, chuyến bay bị hoãn hai tiếng."
+  },
+  {
+    "word": "anhand",
+    "meaning_vi": "dựa vào",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers",
+    "example_de": "Anhand der Statistiken können wir einen positiven Trend erkennen.",
+    "example_vi": "Dựa vào các số liệu thống kê, chúng ta có thể nhận thấy xu hướng tích cực."
+  },
+  {
+    "word": "eine Rolle spielen",
+    "meaning_vi": "đóng vai trò",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Die Erfahrung spielt bei dieser Stelle eine wichtige Rolle.",
+    "example_vi": "Kinh nghiệm đóng vai trò quan trọng đối với vị trí này."
+  },
+  {
+    "word": "in Frage kommen",
+    "meaning_vi": "được xem xét",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Für diese Position kommen nur Bewerber mit Universitätsabschluss in Frage.",
+    "example_vi": "Đối với vị trí này, chỉ những ứng viên có bằng đại học mới được xem xét."
+  },
+  {
+    "word": "in Betracht ziehen",
+    "meaning_vi": "cân nhắc",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Wir sollten alle Optionen in Betracht ziehen, bevor wir eine Entscheidung treffen.",
+    "example_vi": "Chúng ta nên cân nhắc tất cả các phương án trước khi đưa ra quyết định."
+  },
+  {
+    "word": "zum Ausdruck bringen",
+    "meaning_vi": "thể hiện",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Er brachte seine Dankbarkeit durch eine herzliche Rede zum Ausdruck.",
+    "example_vi": "Anh ấy thể hiện lòng biết ơn của mình qua một bài phát biểu chân thành."
+  },
+  {
+    "word": "zur Verfügung stehen",
+    "meaning_vi": "sẵn sàng",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Der Konferenzraum steht ab 14 Uhr zur Verfügung.",
+    "example_vi": "Phòng hội nghị sẵn sàng từ 14 giờ."
+  },
+  {
+    "word": "in Anspruch nehmen",
+    "meaning_vi": "sử dụng",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Die Renovierung wird viel Zeit und Geld in Anspruch nehmen.",
+    "example_vi": "Việc cải tạo sẽ sử dụng nhiều thời gian và tiền bạc."
+  },
+  {
+    "word": "Rücksicht nehmen",
+    "meaning_vi": "quan tâm đến",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Wir müssen auf die Bedürfnisse älterer Menschen Rücksicht nehmen.",
+    "example_vi": "Chúng ta phải quan tâm đến nhu cầu của người cao tuổi."
+  },
+  {
+    "word": "eine Entscheidung treffen",
+    "meaning_vi": "đưa ra quyết định",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Der Vorstand wird nächste Woche eine wichtige Entscheidung treffen.",
+    "example_vi": "Ban giám đốc sẽ đưa ra quyết định quan trọng vào tuần tới."
+  },
+  {
+    "word": "einen Beitrag leisten",
+    "meaning_vi": "đóng góp",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Jeder kann einen Beitrag zum Umweltschutz leisten.",
+    "example_vi": "Mỗi người đều có thể đóng góp vào việc bảo vệ môi trường."
+  },
+  {
+    "word": "Einfluss ausüben",
+    "meaning_vi": "gây ảnh hưởng",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Die sozialen Medien üben einen großen Einfluss auf die öffentliche Meinung aus.",
+    "example_vi": "Mạng xã hội gây ảnh hưởng lớn đến dư luận."
+  },
+  {
+    "word": "in Zusammenhang stehen",
+    "meaning_vi": "liên quan đến",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Diese beiden Ereignisse stehen in engem Zusammenhang miteinander.",
+    "example_vi": "Hai sự kiện này có liên quan chặt chẽ với nhau."
+  },
+  {
+    "word": "unter Druck stehen",
+    "meaning_vi": "chịu áp lực",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Die Regierung steht unter Druck, schnelle Lösungen zu finden.",
+    "example_vi": "Chính phủ đang chịu áp lực phải tìm ra giải pháp nhanh chóng."
+  },
+  {
+    "word": "im Mittelpunkt stehen",
+    "meaning_vi": "ở trung tâm",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Bei der Konferenz stand das Thema Klimawandel im Mittelpunkt.",
+    "example_vi": "Tại hội nghị, chủ đề biến đổi khí hậu đã ở trung tâm."
+  },
+  {
+    "word": "zur Sprache kommen",
+    "meaning_vi": "được đề cập",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "In der Diskussion kam auch das Problem der Arbeitslosigkeit zur Sprache.",
+    "example_vi": "Trong cuộc thảo luận, vấn đề thất nghiệp cũng được đề cập."
+  },
+  {
+    "word": "zum Vorschein kommen",
+    "meaning_vi": "xuất hiện",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions",
+    "example_de": "Bei den Ausgrabungen kamen antike Münzen zum Vorschein.",
+    "example_vi": "Trong quá trình khai quật, những đồng xu cổ đã xuất hiện."
+  },
+  {
+    "word": "abhängen",
+    "meaning_vi": "phụ thuộc",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Der Erfolg des Projekts hängt von der Zusammenarbeit aller Teammitglieder ab.",
+    "example_vi": "Sự thành công của dự án phụ thuộc vào sự hợp tác của tất cả các thành viên trong nhóm."
+  },
+  {
+    "word": "aufnehmen",
+    "meaning_vi": "tiếp nhận, ghi lại",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Die Universität wird nächstes Jahr 500 neue Studenten aufnehmen.",
+    "example_vi": "Trường đại học sẽ tiếp nhận 500 sinh viên mới vào năm tới."
+  },
+  {
+    "word": "auftreten",
+    "meaning_vi": "xuất hiện",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Bei der Konferenz werden mehrere internationale Experten auftreten.",
+    "example_vi": "Tại hội nghị sẽ có nhiều chuyên gia quốc tế xuất hiện."
+  },
+  {
+    "word": "ausdrücken",
+    "meaning_vi": "diễn đạt",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Es fällt mir schwer, meine Gefühle in Worten auszudrücken.",
+    "example_vi": "Tôi khó có thể diễn đạt cảm xúc của mình bằng lời nói."
+  },
+  {
+    "word": "aussprechen",
+    "meaning_vi": "phát âm, nói ra",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Kannst du mir helfen, dieses schwierige Wort richtig auszusprechen?",
+    "example_vi": "Bạn có thể giúp tôi phát âm đúng từ khó này không?"
+  },
+  {
+    "word": "beachten",
+    "meaning_vi": "chú ý",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Bitte beachten Sie die Sicherheitshinweise vor dem Start.",
+    "example_vi": "Vui lòng chú ý đến các hướng dẫn an toàn trước khi bắt đầu."
+  },
+  {
+    "word": "beeinflussen",
+    "meaning_vi": "ảnh hưởng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Soziale Medien beeinflussen das Kaufverhalten junger Menschen stark.",
+    "example_vi": "Mạng xã hội ảnh hưởng mạnh mẽ đến hành vi mua sắm của giới trẻ."
+  },
+  {
+    "word": "behaupten",
+    "meaning_vi": "khẳng định",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Der Politiker behauptet, dass die Wirtschaft im nächsten Jahr wachsen wird.",
+    "example_vi": "Chính trị gia khẳng định rằng nền kinh tế sẽ tăng trưởng vào năm tới."
+  },
+  {
+    "word": "bestätigen",
+    "meaning_vi": "xác nhận",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Können Sie bitte Ihre Teilnahme an der Veranstaltung bestätigen?",
+    "example_vi": "Bạn có thể xác nhận sự tham gia của mình tại sự kiện không?"
+  },
+  {
+    "word": "betonen",
+    "meaning_vi": "nhấn mạnh",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Der Lehrer betonte die Wichtigkeit regelmäßigen Lernens.",
+    "example_vi": "Giáo viên nhấn mạnh tầm quan trọng của việc học tập thường xuyên."
+  },
+  {
+    "word": "darstellen",
+    "meaning_vi": "trình bày",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Die Grafik stellt die Entwicklung der Bevölkerung in den letzten zehn Jahren dar.",
+    "example_vi": "Biểu đồ trình bày sự phát triển dân số trong mười năm qua."
+  },
+  {
+    "word": "einführen",
+    "meaning_vi": "giới thiệu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Das Unternehmen wird nächsten Monat ein neues Produkt einführen.",
+    "example_vi": "Công ty sẽ giới thiệu một sản phẩm mới vào tháng tới."
+  },
+  {
+    "word": "einrichten",
+    "meaning_vi": "trang bị, thiết lập",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Wir müssen noch das Büro mit neuen Möbeln einrichten.",
+    "example_vi": "Chúng ta vẫn phải trang bị văn phòng với đồ nội thất mới."
+  },
+  {
+    "word": "entstehen",
+    "meaning_vi": "hình thành",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Durch die Klimaerwärmung entstehen immer mehr Umweltprobleme.",
+    "example_vi": "Do sự nóng lên toàn cầu, ngày càng nhiều vấn đề môi trường hình thành."
+  },
+  {
+    "word": "ersetzen",
+    "meaning_vi": "thay thế",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Künstliche Intelligenz kann menschliche Arbeit nicht vollständig ersetzen.",
+    "example_vi": "Trí tuệ nhân tạo không thể thay thế hoàn toàn công việc của con người."
+  },
+  {
+    "word": "festhalten",
+    "meaning_vi": "giữ chặt",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Halt dich gut fest, die Fahrt wird holprig!",
+    "example_vi": "Hãy giữ chặt, chuyến đi sẽ gập ghềnh!"
+  },
+  {
+    "word": "feststellen",
+    "meaning_vi": "xác định",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Die Ärzte konnten keine ernsthaften Verletzungen feststellen.",
+    "example_vi": "Các bác sĩ không thể xác định bất kỳ chấn thương nghiêm trọng nào."
+  },
+  {
+    "word": "hinweisen",
+    "meaning_vi": "chỉ ra",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Ich möchte auf die geänderten Öffnungszeiten hinweisen.",
+    "example_vi": "Tôi muốn chỉ ra giờ mở cửa đã thay đổi."
+  },
+  {
+    "word": "übernehmen",
+    "meaning_vi": "tiếp nhận",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Sie wird ab nächstem Monat die Leitung der Abteilung übernehmen.",
+    "example_vi": "Cô ấy sẽ tiếp nhận việc quản lý bộ phận từ tháng tới."
+  },
+  {
+    "word": "zusammenfassen",
+    "meaning_vi": "tóm tắt",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs",
+    "example_de": "Können Sie die wichtigsten Punkte der Präsentation kurz zusammenfassen?",
+    "example_vi": "Bạn có thể tóm tắt ngắn gọn những điểm quan trọng nhất của bài thuyết trình không?"
+  },
+  {
+    "word": "Anlass",
+    "meaning_vi": "dịp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Der Geburtstag meiner Mutter war ein schöner Anlass für ein Familientreffen.",
+    "example_vi": "Sinh nhật của mẹ tôi là một dịp đẹp để sum họp gia đình."
+  },
+  {
+    "word": "Anteil",
+    "meaning_vi": "phần",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Jeder Mitarbeiter erhält einen Anteil am Gewinn des Unternehmens.",
+    "example_vi": "Mỗi nhân viên nhận được một phần lợi nhuận của công ty."
+  },
+  {
+    "word": "Anwendung",
+    "meaning_vi": "ứng dụng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Die Anwendung dieser Software ist sehr einfach und intuitiv.",
+    "example_vi": "Việc ứng dụng phần mềm này rất đơn giản và trực quan."
+  },
+  {
+    "word": "Aspekt",
+    "meaning_vi": "khía cạnh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Wir müssen alle Aspekte des Problems berücksichtigen, bevor wir eine Entscheidung treffen.",
+    "example_vi": "Chúng ta phải xem xét tất cả các khía cạnh của vấn đề trước khi đưa ra quyết định."
+  },
+  {
+    "word": "Auswahl",
+    "meaning_vi": "sự lựa chọn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Im Supermarkt gibt es eine große Auswahl an frischem Obst und Gemüse.",
+    "example_vi": "Ở siêu thị có sự lựa chọn lớn về trái cây và rau quả tươi."
+  },
+  {
+    "word": "Bedarf",
+    "meaning_vi": "nhu cầu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Der Bedarf an qualifizierten Fachkräften steigt in der IT-Branche ständig.",
+    "example_vi": "Nhu cầu về nhân lực có trình độ trong ngành IT không ngừng tăng lên."
+  },
+  {
+    "word": "Bedingung",
+    "meaning_vi": "điều kiện",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Eine wichtige Bedingung für den Erfolg ist harte Arbeit und Ausdauer.",
+    "example_vi": "Một điều kiện quan trọng cho thành công là làm việc chăm chỉ và kiên trì."
+  },
+  {
+    "word": "Begriff",
+    "meaning_vi": "khái niệm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Der Begriff 'Nachhaltigkeit' spielt in der modernen Wirtschaft eine zentrale Rolle.",
+    "example_vi": "Khái niệm 'phát triển bền vững' đóng vai trò trung tâm trong nền kinh tế hiện đại."
+  },
+  {
+    "word": "Bereich",
+    "meaning_vi": "lĩnh vực",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Sie arbeitet im Bereich Marketing und ist für Social Media zuständig.",
+    "example_vi": "Cô ấy làm việc trong lĩnh vực marketing và phụ trách mạng xã hội."
+  },
+  {
+    "word": "Beispiel",
+    "meaning_vi": "ví dụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Können Sie mir bitte ein konkretes Beispiel für diese Regel geben?",
+    "example_vi": "Bạn có thể cho tôi một ví dụ cụ thể cho quy tắc này được không?"
+  },
+  {
+    "word": "Beitrag",
+    "meaning_vi": "đóng góp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Sein Beitrag zur Forschung wurde international anerkannt.",
+    "example_vi": "Đóng góp của ông ấy cho nghiên cứu đã được công nhận trên toàn thế giới."
+  },
+  {
+    "word": "Bewertung",
+    "meaning_vi": "đánh giá",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Die Bewertung der Schülerleistungen erfolgt am Ende des Semesters.",
+    "example_vi": "Việc đánh giá thành tích của học sinh diễn ra vào cuối học kỳ."
+  },
+  {
+    "word": "Eigenschaft",
+    "meaning_vi": "đặc điểm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Geduld ist eine wichtige Eigenschaft für einen guten Lehrer.",
+    "example_vi": "Kiên nhẫn là một đặc điểm quan trọng của một giáo viên giỏi."
+  },
+  {
+    "word": "Einsatz",
+    "meaning_vi": "sử dụng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Der Einsatz moderner Technologie verbessert die Produktivität erheblich.",
+    "example_vi": "Việc sử dụng công nghệ hiện đại cải thiện năng suất đáng kể."
+  },
+  {
+    "word": "Element",
+    "meaning_vi": "yếu tố",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Wasser ist ein lebenswichtiges Element für alle Organismen.",
+    "example_vi": "Nước là một yếu tố sống còn cho tất cả các sinh vật."
+  },
+  {
+    "word": "Funktion",
+    "meaning_vi": "chức năng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Die wichtigste Funktion des Herzens ist es, Blut durch den Körper zu pumpen.",
+    "example_vi": "Chức năng quan trọng nhất của tim là bơm máu khắp cơ thể."
+  },
+  {
+    "word": "Voraussetzung",
+    "meaning_vi": "điều kiện tiên quyết",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Gute Deutschkenntnisse sind eine Voraussetzung für das Studium an dieser Universität.",
+    "example_vi": "Kiến thức tiếng Đức tốt là điều kiện tiên quyết để học tại trường đại học này."
+  },
+  {
+    "word": "Verhältnis",
+    "meaning_vi": "mối quan hệ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Das Verhältnis zwischen Lehrer und Schülern ist sehr wichtig für den Lernerfolg.",
+    "example_vi": "Mối quan hệ giữa giáo viên và học sinh rất quan trọng cho sự thành công trong học tập."
+  },
+  {
+    "word": "Vorgang",
+    "meaning_vi": "quá trình",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "Der Vorgang der Photosynthese ist für das Leben auf der Erde essentiell.",
+    "example_vi": "Quá trình quang hợp là thiết yếu cho sự sống trên Trái Đất."
+  },
+  {
+    "word": "Wirklichkeit",
+    "meaning_vi": "thực tế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns",
+    "example_de": "In der Wirklichkeit ist alles viel komplizierter als in der Theorie.",
+    "example_vi": "Trong thực tế, mọi thứ phức tạp hơn nhiều so với lý thuyết."
+  }
+]

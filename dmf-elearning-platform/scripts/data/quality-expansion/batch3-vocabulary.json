@@ -1,0 +1,3019 @@
+[
+  {
+    "word": "Reise",
+    "meaning_vi": "chuyến đi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Reisebüro",
+    "meaning_vi": "công ty du lịch",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Flughafen",
+    "meaning_vi": "sân bay",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Flugzeug",
+    "meaning_vi": "máy bay",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Abflug",
+    "meaning_vi": "khởi hành",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Ankunft",
+    "meaning_vi": "đến nơi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Gepäck",
+    "meaning_vi": "hành lý",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Koffer",
+    "meaning_vi": "vali",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Rucksack",
+    "meaning_vi": "ba lô",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Pass",
+    "meaning_vi": "hộ chiếu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Visum",
+    "meaning_vi": "visa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Grenze",
+    "meaning_vi": "biên giới",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Zoll",
+    "meaning_vi": "hải quan",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Buchung",
+    "meaning_vi": "đặt chỗ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Reservierung",
+    "meaning_vi": "đặt trước",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Unterkunft",
+    "meaning_vi": "nơi ở",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Jugendherberge",
+    "meaning_vi": "nhà nghỉ thanh niên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Pension",
+    "meaning_vi": "nhà nghỉ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Empfang",
+    "meaning_vi": "lễ tân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Schlüssel",
+    "meaning_vi": "chìa khóa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Sehenswürdigkeit",
+    "meaning_vi": "điểm tham quan",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Ausflug",
+    "meaning_vi": "chuyến dã ngoại",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Rundfahrt",
+    "meaning_vi": "tour tham quan",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Stadtführung",
+    "meaning_vi": "tour thành phố",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Reiseführer",
+    "meaning_vi": "sách hướng dẫn du lịch",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Landkarte",
+    "meaning_vi": "bản đồ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Andenken",
+    "meaning_vi": "đồ lưu niệm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "buchen",
+    "meaning_vi": "đặt chỗ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "reservieren",
+    "meaning_vi": "đặt trước",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "einchecken",
+    "meaning_vi": "nhận phòng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "auschecken",
+    "meaning_vi": "trả phòng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "besichtigen",
+    "meaning_vi": "tham quan",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "erkunden",
+    "meaning_vi": "khám phá",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "entspannen",
+    "meaning_vi": "thư giãn",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "übernachten",
+    "meaning_vi": "qua đêm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel_tourism"
+  },
+  {
+    "word": "Konto",
+    "meaning_vi": "tài khoản",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Girokonto",
+    "meaning_vi": "tài khoản vãng lai",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Sparkonto",
+    "meaning_vi": "tài khoản tiết kiệm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Überweisung",
+    "meaning_vi": "chuyển khoản",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Abhebung",
+    "meaning_vi": "rút tiền",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Einzahlung",
+    "meaning_vi": "nạp tiền",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Kontostand",
+    "meaning_vi": "số dư tài khoản",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Kontoauszug",
+    "meaning_vi": "sao kê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Geldautomat",
+    "meaning_vi": "máy ATM",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Kreditkarte",
+    "meaning_vi": "thẻ tín dụng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Bankkarte",
+    "meaning_vi": "thẻ ngân hàng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Bargeld",
+    "meaning_vi": "tiền mặt",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Münze",
+    "meaning_vi": "đồng xu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Schein",
+    "meaning_vi": "tờ tiền",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Kredit",
+    "meaning_vi": "tín dụng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Darlehen",
+    "meaning_vi": "khoản vay",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Zinsen",
+    "meaning_vi": "lãi suất",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Schulden",
+    "meaning_vi": "nợ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Rechnung",
+    "meaning_vi": "hóa đơn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Quittung",
+    "meaning_vi": "biên lai",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Steuer",
+    "meaning_vi": "thuế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Einkommen",
+    "meaning_vi": "thu nhập",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Ausgabe",
+    "meaning_vi": "chi tiêu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Ersparnis",
+    "meaning_vi": "tiền tiết kiệm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "abheben",
+    "meaning_vi": "rút tiền",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "einzahlen",
+    "meaning_vi": "nạp tiền",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "überweisen",
+    "meaning_vi": "chuyển khoản",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "sparen",
+    "meaning_vi": "tiết kiệm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "ausgeben",
+    "meaning_vi": "chi tiêu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "bezahlen",
+    "meaning_vi": "thanh toán",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "banking_finance"
+  },
+  {
+    "word": "Computer",
+    "meaning_vi": "máy tính",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Laptop",
+    "meaning_vi": "laptop",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Tablet",
+    "meaning_vi": "máy tính bảng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Smartphone",
+    "meaning_vi": "điện thoại thông minh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Bildschirm",
+    "meaning_vi": "màn hình",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Tastatur",
+    "meaning_vi": "bàn phím",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Maus",
+    "meaning_vi": "chuột máy tính",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Drucker",
+    "meaning_vi": "máy in",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Scanner",
+    "meaning_vi": "máy quét",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Lautsprecher",
+    "meaning_vi": "loa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Kopfhörer",
+    "meaning_vi": "tai nghe",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "USB-Stick",
+    "meaning_vi": "USB",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Festplatte",
+    "meaning_vi": "ổ cứng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Speicher",
+    "meaning_vi": "bộ nhớ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Datei",
+    "meaning_vi": "tệp tin",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Ordner",
+    "meaning_vi": "thư mục",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Programm",
+    "meaning_vi": "chương trình",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "App",
+    "meaning_vi": "ứng dụng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Software",
+    "meaning_vi": "phần mềm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Browser",
+    "meaning_vi": "trình duyệt",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Suchmaschine",
+    "meaning_vi": "công cụ tìm kiếm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Netzwerk",
+    "meaning_vi": "mạng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "WLAN",
+    "meaning_vi": "wifi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Passwort",
+    "meaning_vi": "mật khẩu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Benutzername",
+    "meaning_vi": "tên người dùng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Konto",
+    "meaning_vi": "tài khoản",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "downloaden",
+    "meaning_vi": "tải xuống",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "uploaden",
+    "meaning_vi": "tải lên",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "installieren",
+    "meaning_vi": "cài đặt",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "aktualisieren",
+    "meaning_vi": "cập nhật",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "speichern",
+    "meaning_vi": "lưu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "löschen",
+    "meaning_vi": "xóa",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "kopieren",
+    "meaning_vi": "sao chép",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "einfügen",
+    "meaning_vi": "dán",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "drucken",
+    "meaning_vi": "in",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology_extended"
+  },
+  {
+    "word": "Gesetz",
+    "meaning_vi": "luật",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Recht",
+    "meaning_vi": "quyền, pháp luật",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Regel",
+    "meaning_vi": "quy tắc",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Vorschrift",
+    "meaning_vi": "quy định",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Verbot",
+    "meaning_vi": "lệnh cấm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Erlaubnis",
+    "meaning_vi": "sự cho phép",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Genehmigung",
+    "meaning_vi": "giấy phép",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Gericht",
+    "meaning_vi": "tòa án",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Richter",
+    "meaning_vi": "thẩm phán",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Anwalt",
+    "meaning_vi": "luật sư",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Prozess",
+    "meaning_vi": "phiên tòa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Urteil",
+    "meaning_vi": "phán quyết",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Strafe",
+    "meaning_vi": "hình phạt",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Gefängnis",
+    "meaning_vi": "nhà tù",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Verbrechen",
+    "meaning_vi": "tội phạm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Zeuge",
+    "meaning_vi": "nhân chứng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Beweis",
+    "meaning_vi": "bằng chứng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Regierung",
+    "meaning_vi": "chính phủ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Parlament",
+    "meaning_vi": "quốc hội",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Partei",
+    "meaning_vi": "đảng chính trị",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Wahl",
+    "meaning_vi": "bầu cử",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Abstimmung",
+    "meaning_vi": "bỏ phiếu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Bürger",
+    "meaning_vi": "công dân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Demokratie",
+    "meaning_vi": "dân chủ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Freiheit",
+    "meaning_vi": "tự do",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Gleichheit",
+    "meaning_vi": "bình đẳng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "verbieten",
+    "meaning_vi": "cấm",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "erlauben",
+    "meaning_vi": "cho phép",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "klagen",
+    "meaning_vi": "kiện",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "verurteilen",
+    "meaning_vi": "kết án",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "law_government"
+  },
+  {
+    "word": "Unternehmen",
+    "meaning_vi": "doanh nghiệp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Firma",
+    "meaning_vi": "công ty",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Geschäft",
+    "meaning_vi": "việc kinh doanh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Markt",
+    "meaning_vi": "thị trường",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Konkurrenz",
+    "meaning_vi": "cạnh tranh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Produkt",
+    "meaning_vi": "sản phẩm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Dienstleistung",
+    "meaning_vi": "dịch vụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Qualität",
+    "meaning_vi": "chất lượng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Preis",
+    "meaning_vi": "giá",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Rabatt",
+    "meaning_vi": "giảm giá",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Angebot",
+    "meaning_vi": "ưu đãi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Nachfrage",
+    "meaning_vi": "nhu cầu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Umsatz",
+    "meaning_vi": "doanh thu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Gewinn",
+    "meaning_vi": "lợi nhuận",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Verlust",
+    "meaning_vi": "thua lỗ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Investition",
+    "meaning_vi": "đầu tư",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Lieferant",
+    "meaning_vi": "nhà cung cấp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Lieferung",
+    "meaning_vi": "giao hàng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Bestellung",
+    "meaning_vi": "đơn hàng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Zahlung",
+    "meaning_vi": "thanh toán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Garantie",
+    "meaning_vi": "bảo hành",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Reklamation",
+    "meaning_vi": "khiếu nại",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "verkaufen",
+    "meaning_vi": "bán",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "kaufen",
+    "meaning_vi": "mua",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "bestellen",
+    "meaning_vi": "đặt hàng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "liefern",
+    "meaning_vi": "giao hàng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "investieren",
+    "meaning_vi": "đầu tư",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "produzieren",
+    "meaning_vi": "sản xuất",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "exportieren",
+    "meaning_vi": "xuất khẩu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "importieren",
+    "meaning_vi": "nhập khẩu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business_commerce"
+  },
+  {
+    "word": "Wissenschaft",
+    "meaning_vi": "khoa học",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Forschung",
+    "meaning_vi": "nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Experiment",
+    "meaning_vi": "thí nghiệm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Labor",
+    "meaning_vi": "phòng thí nghiệm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Theorie",
+    "meaning_vi": "lý thuyết",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Hypothese",
+    "meaning_vi": "giả thuyết",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Ergebnis",
+    "meaning_vi": "kết quả",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Entdeckung",
+    "meaning_vi": "phát hiện",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Erfindung",
+    "meaning_vi": "phát minh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Analyse",
+    "meaning_vi": "phân tích",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Statistik",
+    "meaning_vi": "thống kê",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Daten",
+    "meaning_vi": "dữ liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Methode",
+    "meaning_vi": "phương pháp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Studie",
+    "meaning_vi": "nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Wissenschaftler",
+    "meaning_vi": "nhà khoa học",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Forscher",
+    "meaning_vi": "nhà nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "forschen",
+    "meaning_vi": "nghiên cứu",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "untersuchen",
+    "meaning_vi": "khảo sát",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "analysieren",
+    "meaning_vi": "phân tích",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "beweisen",
+    "meaning_vi": "chứng minh",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "entdecken",
+    "meaning_vi": "phát hiện",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "erfinden",
+    "meaning_vi": "phát minh",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "entwickeln",
+    "meaning_vi": "phát triển",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "messen",
+    "meaning_vi": "đo",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "beobachten",
+    "meaning_vi": "quan sát",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "testen",
+    "meaning_vi": "thử nghiệm",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "science_research"
+  },
+  {
+    "word": "Gesundheit",
+    "meaning_vi": "sức khỏe",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Krankheit",
+    "meaning_vi": "bệnh tật",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Symptom",
+    "meaning_vi": "triệu chứng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Diagnose",
+    "meaning_vi": "chẩn đoán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Behandlung",
+    "meaning_vi": "điều trị",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Therapie",
+    "meaning_vi": "liệu pháp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Heilung",
+    "meaning_vi": "chữa lành",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Impfung",
+    "meaning_vi": "tiêm chủng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Spritze",
+    "meaning_vi": "ống tiêm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Verband",
+    "meaning_vi": "băng gạc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Pflaster",
+    "meaning_vi": "băng cá nhân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Blutdruck",
+    "meaning_vi": "huyết áp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Puls",
+    "meaning_vi": "mạch",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Temperatur",
+    "meaning_vi": "nhiệt độ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Allergie",
+    "meaning_vi": "dị ứng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Infektion",
+    "meaning_vi": "nhiễm trùng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Virus",
+    "meaning_vi": "virus",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Bakterie",
+    "meaning_vi": "vi khuẩn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Notfall",
+    "meaning_vi": "cấp cứu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Rettungswagen",
+    "meaning_vi": "xe cứu thương",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Notaufnahme",
+    "meaning_vi": "phòng cấp cứu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Patient",
+    "meaning_vi": "bệnh nhân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Termin",
+    "meaning_vi": "lịch hẹn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Sprechstunde",
+    "meaning_vi": "giờ khám bệnh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "behandeln",
+    "meaning_vi": "điều trị",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "heilen",
+    "meaning_vi": "chữa lành",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "impfen",
+    "meaning_vi": "tiêm chủng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "operieren",
+    "meaning_vi": "phẫu thuật",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "verschreiben",
+    "meaning_vi": "kê đơn",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "röntgen",
+    "meaning_vi": "chụp X-quang",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "medicine_healthcare"
+  },
+  {
+    "word": "Klima",
+    "meaning_vi": "khí hậu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Klimawandel",
+    "meaning_vi": "biến đổi khí hậu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Umweltschutz",
+    "meaning_vi": "bảo vệ môi trường",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Verschmutzung",
+    "meaning_vi": "ô nhiễm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Abgas",
+    "meaning_vi": "khí thải",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Müll",
+    "meaning_vi": "rác",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Abfall",
+    "meaning_vi": "chất thải",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Recycling",
+    "meaning_vi": "tái chế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Mülltrennung",
+    "meaning_vi": "phân loại rác",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Energie",
+    "meaning_vi": "năng lượng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Strom",
+    "meaning_vi": "điện",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Solarenergie",
+    "meaning_vi": "năng lượng mặt trời",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Windenergie",
+    "meaning_vi": "năng lượng gió",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Erderwärmung",
+    "meaning_vi": "sự nóng lên toàn cầu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Treibhauseffekt",
+    "meaning_vi": "hiệu ứng nhà kính",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Naturschutz",
+    "meaning_vi": "bảo tồn thiên nhiên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Naturschutzgebiet",
+    "meaning_vi": "khu bảo tồn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Artensterben",
+    "meaning_vi": "tuyệt chủng loài",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Nachhaltigkeit",
+    "meaning_vi": "bền vững",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "nachhaltig",
+    "meaning_vi": "bền vững",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "umweltfreundlich",
+    "meaning_vi": "thân thiện môi trường",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "schützen",
+    "meaning_vi": "bảo vệ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "verschmutzen",
+    "meaning_vi": "gây ô nhiễm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "recyceln",
+    "meaning_vi": "tái chế",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "sparen",
+    "meaning_vi": "tiết kiệm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "environment_climate"
+  },
+  {
+    "word": "Kultur",
+    "meaning_vi": "văn hóa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Tradition",
+    "meaning_vi": "truyền thống",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Brauch",
+    "meaning_vi": "phong tục",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Sitte",
+    "meaning_vi": "tập quán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Gesellschaft",
+    "meaning_vi": "xã hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Gemeinschaft",
+    "meaning_vi": "cộng đồng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Bevölkerung",
+    "meaning_vi": "dân số",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Volk",
+    "meaning_vi": "dân tộc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Nation",
+    "meaning_vi": "quốc gia",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Religion",
+    "meaning_vi": "tôn giáo",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Glaube",
+    "meaning_vi": "niềm tin",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Feiertag",
+    "meaning_vi": "ngày lễ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Fest",
+    "meaning_vi": "lễ hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Weihnachten",
+    "meaning_vi": "Giáng sinh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Ostern",
+    "meaning_vi": "Phục sinh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Silvester",
+    "meaning_vi": "đêm giao thừa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Hochzeit",
+    "meaning_vi": "đám cưới",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Beerdigung",
+    "meaning_vi": "tang lễ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Taufe",
+    "meaning_vi": "lễ rửa tội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Feier",
+    "meaning_vi": "buổi lễ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "feiern",
+    "meaning_vi": "ăn mừng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "gratulieren",
+    "meaning_vi": "chúc mừng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "einladen",
+    "meaning_vi": "mời",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "schenken",
+    "meaning_vi": "tặng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "kulturell",
+    "meaning_vi": "thuộc văn hóa",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "culture_society"
+  },
+  {
+    "word": "Mannschaft",
+    "meaning_vi": "đội",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Spieler",
+    "meaning_vi": "cầu thủ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Trainer",
+    "meaning_vi": "huấn luyện viên",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Schiedsrichter",
+    "meaning_vi": "trọng tài",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Stadion",
+    "meaning_vi": "sân vận động",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Spielfeld",
+    "meaning_vi": "sân thi đấu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Tor",
+    "meaning_vi": "khung thành",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Ball",
+    "meaning_vi": "quả bóng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Meisterschaft",
+    "meaning_vi": "giải vô địch",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Turnier",
+    "meaning_vi": "giải đấu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Wettkampf",
+    "meaning_vi": "cuộc thi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Sieg",
+    "meaning_vi": "chiến thắng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Niederlage",
+    "meaning_vi": "thất bại",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Unentschieden",
+    "meaning_vi": "hòa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Ergebnis",
+    "meaning_vi": "kết quả",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Rekord",
+    "meaning_vi": "kỷ lục",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Medaille",
+    "meaning_vi": "huy chương",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Pokal",
+    "meaning_vi": "cúp",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Fitnessstudio",
+    "meaning_vi": "phòng gym",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Training",
+    "meaning_vi": "buổi tập",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Übung",
+    "meaning_vi": "bài tập",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Ausdauer",
+    "meaning_vi": "sức bền",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Kraft",
+    "meaning_vi": "sức mạnh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "trainieren",
+    "meaning_vi": "tập luyện",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "spielen",
+    "meaning_vi": "chơi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "gewinnen",
+    "meaning_vi": "thắng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "verlieren",
+    "meaning_vi": "thua",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "schießen",
+    "meaning_vi": "sút",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "werfen",
+    "meaning_vi": "ném",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "fangen",
+    "meaning_vi": "bắt",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "sports_fitness"
+  },
+  {
+    "word": "Beruf",
+    "meaning_vi": "nghề nghiệp",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Ingenieur",
+    "meaning_vi": "kỹ sư",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Architekt",
+    "meaning_vi": "kiến trúc sư",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Anwalt",
+    "meaning_vi": "luật sư",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Journalist",
+    "meaning_vi": "nhà báo",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Politiker",
+    "meaning_vi": "chính trị gia",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Künstler",
+    "meaning_vi": "nghệ sĩ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Musiker",
+    "meaning_vi": "nhạc sĩ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Schauspieler",
+    "meaning_vi": "diễn viên",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Koch",
+    "meaning_vi": "đầu bếp",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Friseur",
+    "meaning_vi": "thợ làm tóc",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Mechaniker",
+    "meaning_vi": "thợ cơ khí",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Elektriker",
+    "meaning_vi": "thợ điện",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Maler",
+    "meaning_vi": "thợ sơn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Bäcker",
+    "meaning_vi": "thợ làm bánh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Fleischer",
+    "meaning_vi": "người bán thịt",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Verkäufer",
+    "meaning_vi": "nhân viên bán hàng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Kellner",
+    "meaning_vi": "bồi bàn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Taxifahrer",
+    "meaning_vi": "tài xế taxi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Busfahrer",
+    "meaning_vi": "tài xế xe buýt",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Pilot",
+    "meaning_vi": "phi công",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Sekretär",
+    "meaning_vi": "thư ký",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Manager",
+    "meaning_vi": "quản lý",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Programmierer",
+    "meaning_vi": "lập trình viên",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Wissenschaftler",
+    "meaning_vi": "nhà khoa học",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Zahnarzt",
+    "meaning_vi": "nha sĩ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Tierarzt",
+    "meaning_vi": "bác sĩ thú y",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Psychologe",
+    "meaning_vi": "nhà tâm lý",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Sozialarbeiter",
+    "meaning_vi": "nhân viên xã hội",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Landwirt",
+    "meaning_vi": "nông dân",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "professions"
+  },
+  {
+    "word": "Möglichkeit",
+    "meaning_vi": "khả năng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Gelegenheit",
+    "meaning_vi": "cơ hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Chance",
+    "meaning_vi": "cơ hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Problem",
+    "meaning_vi": "vấn đề",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Lösung",
+    "meaning_vi": "giải pháp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Grund",
+    "meaning_vi": "lý do",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Ursache",
+    "meaning_vi": "nguyên nhân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Folge",
+    "meaning_vi": "hậu quả",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Wirkung",
+    "meaning_vi": "tác động",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Einfluss",
+    "meaning_vi": "ảnh hưởng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Zusammenhang",
+    "meaning_vi": "mối liên hệ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Unterschied",
+    "meaning_vi": "sự khác biệt",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Ähnlichkeit",
+    "meaning_vi": "sự tương đồng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Vorteil",
+    "meaning_vi": "lợi thế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Nachteil",
+    "meaning_vi": "bất lợi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Erfolg",
+    "meaning_vi": "thành công",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Misserfolg",
+    "meaning_vi": "thất bại",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Erfahrung",
+    "meaning_vi": "kinh nghiệm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Wissen",
+    "meaning_vi": "kiến thức",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Können",
+    "meaning_vi": "khả năng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Fähigkeit",
+    "meaning_vi": "năng lực",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Talent",
+    "meaning_vi": "tài năng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Interesse",
+    "meaning_vi": "sự quan tâm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Aufmerksamkeit",
+    "meaning_vi": "sự chú ý",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Konzentration",
+    "meaning_vi": "sự tập trung",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Bedeutung",
+    "meaning_vi": "ý nghĩa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Sinn",
+    "meaning_vi": "ý nghĩa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Ziel",
+    "meaning_vi": "mục tiêu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Plan",
+    "meaning_vi": "kế hoạch",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "Idee",
+    "meaning_vi": "ý tưởng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "abstract_nouns"
+  },
+  {
+    "word": "doch",
+    "meaning_vi": "chứ, mà",
+    "pos": "particle",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "ja",
+    "meaning_vi": "này, đấy",
+    "pos": "particle",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "mal",
+    "meaning_vi": "một chút",
+    "pos": "particle",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "eben",
+    "meaning_vi": "vừa mới, đó là",
+    "pos": "particle",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "halt",
+    "meaning_vi": "thì đấy",
+    "pos": "particle",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "wohl",
+    "meaning_vi": "có lẽ",
+    "pos": "particle",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "bloß",
+    "meaning_vi": "chỉ",
+    "pos": "particle",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "ruhig",
+    "meaning_vi": "cứ thoải mái",
+    "pos": "particle",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "übrigens",
+    "meaning_vi": "nhân tiện",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "allerdings",
+    "meaning_vi": "tuy nhiên",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "jedenfalls",
+    "meaning_vi": "dù sao",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "außerdem",
+    "meaning_vi": "ngoài ra",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "deshalb",
+    "meaning_vi": "vì vậy",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "deswegen",
+    "meaning_vi": "vì thế",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "darum",
+    "meaning_vi": "bởi vậy",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "trotzdem",
+    "meaning_vi": "mặc dù vậy",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "dennoch",
+    "meaning_vi": "tuy thế",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "jedoch",
+    "meaning_vi": "tuy nhiên",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "stattdessen",
+    "meaning_vi": "thay vào đó",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "inzwischen",
+    "meaning_vi": "trong khi đó",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "mittlerweile",
+    "meaning_vi": "trong thời gian này",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "normalerweise",
+    "meaning_vi": "thông thường",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "meistens",
+    "meaning_vi": "phần lớn",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "hauptsächlich",
+    "meaning_vi": "chủ yếu",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "insgesamt",
+    "meaning_vi": "tổng cộng",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "particles_expressions"
+  },
+  {
+    "word": "verantwortlich",
+    "meaning_vi": "chịu trách nhiệm",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "unabhängig",
+    "meaning_vi": "độc lập",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "abhängig",
+    "meaning_vi": "phụ thuộc",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "zuverlässig",
+    "meaning_vi": "đáng tin cậy",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "gründlich",
+    "meaning_vi": "kỹ lưỡng",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "ausführlich",
+    "meaning_vi": "chi tiết",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "umfangreich",
+    "meaning_vi": "rộng lớn",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "vielfältig",
+    "meaning_vi": "đa dạng",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "wesentlich",
+    "meaning_vi": "cơ bản, quan trọng",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "erheblich",
+    "meaning_vi": "đáng kể",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "deutlich",
+    "meaning_vi": "rõ ràng",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "offensichtlich",
+    "meaning_vi": "hiển nhiên",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "angemessen",
+    "meaning_vi": "phù hợp",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "geeignet",
+    "meaning_vi": "thích hợp",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "verfügbar",
+    "meaning_vi": "sẵn có",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "erforderlich",
+    "meaning_vi": "cần thiết",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "notwendig",
+    "meaning_vi": "cần thiết",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "dringend",
+    "meaning_vi": "khẩn cấp",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "aktuell",
+    "meaning_vi": "hiện tại",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "künftig",
+    "meaning_vi": "tương lai",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "bisherig",
+    "meaning_vi": "cho đến nay",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "ehemalig",
+    "meaning_vi": "trước đây",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "zusätzlich",
+    "meaning_vi": "bổ sung",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "jeweilig",
+    "meaning_vi": "tương ứng",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "entsprechend",
+    "meaning_vi": "tương ứng",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "advanced_adjectives"
+  },
+  {
+    "word": "berücksichtigen",
+    "meaning_vi": "xem xét",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "bereitstellen",
+    "meaning_vi": "cung cấp",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "gewährleisten",
+    "meaning_vi": "đảm bảo",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "umsetzen",
+    "meaning_vi": "thực hiện",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "durchführen",
+    "meaning_vi": "tiến hành",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "anwenden",
+    "meaning_vi": "áp dụng",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "einsetzen",
+    "meaning_vi": "sử dụng",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "einbeziehen",
+    "meaning_vi": "bao gồm",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "ausschließen",
+    "meaning_vi": "loại trừ",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "voraussetzen",
+    "meaning_vi": "giả định",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "ergeben",
+    "meaning_vi": "cho kết quả",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "entsprechen",
+    "meaning_vi": "tương ứng",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "betreffen",
+    "meaning_vi": "liên quan đến",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "beziehen",
+    "meaning_vi": "liên quan đến",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "erfordern",
+    "meaning_vi": "đòi hỏi",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "ermöglichen",
+    "meaning_vi": "làm cho có thể",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "verhindern",
+    "meaning_vi": "ngăn chặn",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "vermeiden",
+    "meaning_vi": "tránh",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "bewirken",
+    "meaning_vi": "gây ra",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "verursachen",
+    "meaning_vi": "gây ra",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "beschränken",
+    "meaning_vi": "hạn chế",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "erweitern",
+    "meaning_vi": "mở rộng",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "verbessern",
+    "meaning_vi": "cải thiện",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "verschlechtern",
+    "meaning_vi": "làm xấu đi",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  },
+  {
+    "word": "vergleichen",
+    "meaning_vi": "so sánh",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "advanced_verbs"
+  }
+]

@@ -1,0 +1,2747 @@
+[
+  {
+    "word": "aufmachen",
+    "meaning_vi": "mở",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Kannst du bitte das Fenster aufmachen? Es ist sehr warm hier.",
+    "example_vi": "Bạn có thể mở cửa sổ được không? Ở đây rất nóng."
+  },
+  {
+    "word": "zumachen",
+    "meaning_vi": "đóng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Vergiss nicht, die Tür zumachen, wenn du gehst.",
+    "example_vi": "Đừng quên đóng cửa khi bạn đi nhé."
+  },
+  {
+    "word": "aufstehen",
+    "meaning_vi": "đứng dậy",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Ich muss jeden Morgen um 6 Uhr aufstehen.",
+    "example_vi": "Tôi phải dậy lúc 6 giờ sáng mỗi ngày."
+  },
+  {
+    "word": "einschlafen",
+    "meaning_vi": "ngủ thiếp đi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Das Baby ist endlich eingeschlafen.",
+    "example_vi": "Cuối cùng em bé cũng đã ngủ thiếp đi."
+  },
+  {
+    "word": "mitkommen",
+    "meaning_vi": "đi cùng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Möchtest du heute Abend ins Kino mitkommen?",
+    "example_vi": "Tối nay bạn có muốn đi xem phim cùng không?"
+  },
+  {
+    "word": "mitbringen",
+    "meaning_vi": "mang theo",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Kannst du bitte Brot vom Supermarkt mitbringen?",
+    "example_vi": "Bạn có thể mang theo bánh mì từ siêu thị được không?"
+  },
+  {
+    "word": "mitnehmen",
+    "meaning_vi": "mang đi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Ich nehme meinen Regenschirm mit, es soll regnen.",
+    "example_vi": "Tôi sẽ mang theo ô vì trời sắp mưa."
+  },
+  {
+    "word": "zurückkommen",
+    "meaning_vi": "quay lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Wann kommst du von deiner Reise zurück?",
+    "example_vi": "Khi nào bạn quay lại từ chuyến đi?"
+  },
+  {
+    "word": "zurückgeben",
+    "meaning_vi": "trả lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Ich muss die Bücher morgen in die Bibliothek zurückgeben.",
+    "example_vi": "Ngày mai tôi phải trả sách cho thư viện."
+  },
+  {
+    "word": "zurückrufen",
+    "meaning_vi": "gọi lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Der Chef hat gesagt, du sollst ihn zurückrufen.",
+    "example_vi": "Sếp nói bạn nên gọi lại cho ông ấy."
+  },
+  {
+    "word": "vorbeikommen",
+    "meaning_vi": "ghé qua",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Kannst du morgen bei mir vorbeikommen?",
+    "example_vi": "Ngày mai bạn có thể ghé qua nhà tôi không?"
+  },
+  {
+    "word": "vorbeigehen",
+    "meaning_vi": "đi ngang qua",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Ich gehe jeden Tag an diesem Café vorbei.",
+    "example_vi": "Mỗi ngày tôi đều đi ngang qua quán cà phê này."
+  },
+  {
+    "word": "anfangen",
+    "meaning_vi": "bắt đầu",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Der Unterricht fängt um 9 Uhr an.",
+    "example_vi": "Buổi học bắt đầu lúc 9 giờ."
+  },
+  {
+    "word": "aufhören",
+    "meaning_vi": "ngừng, dừng lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Hör bitte auf zu reden, ich muss mich konzentrieren.",
+    "example_vi": "Làm ơn ngừng nói đi, tôi cần tập trung."
+  },
+  {
+    "word": "anrufen",
+    "meaning_vi": "gọi điện",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Ich rufe dich später an.",
+    "example_vi": "Tôi sẽ gọi điện cho bạn sau."
+  },
+  {
+    "word": "abholen",
+    "meaning_vi": "đón",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Ich hole dich um 7 Uhr vom Bahnhof ab.",
+    "example_vi": "Tôi sẽ đón bạn lúc 7 giờ ở ga tàu."
+  },
+  {
+    "word": "abgeben",
+    "meaning_vi": "nộp, giao",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Die Studenten müssen ihre Hausaufgaben bis Freitag abgeben.",
+    "example_vi": "Các sinh viên phải nộp bài tập về nhà trước thứ Sáu."
+  },
+  {
+    "word": "einladen",
+    "meaning_vi": "mời",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Ich möchte dich zu meiner Geburtstagsfeier einladen.",
+    "example_vi": "Tôi muốn mời bạn đến bữa tiệc sinh nhật của tôi."
+  },
+  {
+    "word": "einsteigen",
+    "meaning_vi": "lên (xe)",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Bitte steigen Sie schnell ein, der Zug fährt gleich ab.",
+    "example_vi": "Xin mời nhanh lên tàu, tàu sắp chạy rồi."
+  },
+  {
+    "word": "aussteigen",
+    "meaning_vi": "xuống (xe)",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Wir müssen an der nächsten Station aussteigen.",
+    "example_vi": "Chúng ta phải xuống ở trạm tiếp theo."
+  },
+  {
+    "word": "umsteigen",
+    "meaning_vi": "đổi (xe)",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "In München muss ich umsteigen, um nach Berlin zu fahren.",
+    "example_vi": "Ở Munich tôi phải đổi xe để đi đến Berlin."
+  },
+  {
+    "word": "ankommen",
+    "meaning_vi": "đến nơi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Der Zug kommt um 15 Uhr am Hauptbahnhof an.",
+    "example_vi": "Tàu đến ga chính lúc 15 giờ."
+  },
+  {
+    "word": "abfahren",
+    "meaning_vi": "khởi hành",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Wann fährt der nächste Bus nach Hamburg ab?",
+    "example_vi": "Khi nào chuyến xe buýt tiếp theo đi Hamburg khởi hành?"
+  },
+  {
+    "word": "wegfahren",
+    "meaning_vi": "đi xa",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Meine Eltern fahren morgen für zwei Wochen weg.",
+    "example_vi": "Bố mẹ tôi sẽ đi xa hai tuần vào ngày mai."
+  },
+  {
+    "word": "hinfahren",
+    "meaning_vi": "đi đến",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Wie lange brauchen wir, um zum Flughafen hinzufahren?",
+    "example_vi": "Chúng ta cần bao lâu để đi đến sân bay?"
+  },
+  {
+    "word": "aufräumen",
+    "meaning_vi": "dọn dẹp",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Ich muss mein Zimmer aufräumen, bevor meine Mutter nach Hause kommt.",
+    "example_vi": "Tôi phải dọn dẹp phòng trước khi mẹ tôi về nhà."
+  },
+  {
+    "word": "ausmachen",
+    "meaning_vi": "tắt",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Kannst du bitte das Licht ausmachen, wenn du gehst?",
+    "example_vi": "Bạn có thể tắt đèn khi đi được không?"
+  },
+  {
+    "word": "anmachen",
+    "meaning_vi": "bật",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Es ist dunkel hier, mach bitte die Lampe an.",
+    "example_vi": "Ở đây tối quá, làm ơn bật đèn lên."
+  },
+  {
+    "word": "einkaufen",
+    "meaning_vi": "mua sắm",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Jeden Samstag gehe ich im Supermarkt einkaufen.",
+    "example_vi": "Mỗi thứ Bảy tôi đi mua sắm ở siêu thị."
+  },
+  {
+    "word": "fernsehen",
+    "meaning_vi": "xem TV",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs",
+    "example_de": "Abends sehe ich gerne fern und entspanne mich.",
+    "example_vi": "Buổi tối tôi thích xem TV và thư giãn."
+  },
+  {
+    "word": "verstehen",
+    "meaning_vi": "hiểu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Ich verstehe nicht, was der Lehrer erklärt hat.",
+    "example_vi": "Tôi không hiểu những gì giáo viên đã giải thích."
+  },
+  {
+    "word": "vergessen",
+    "meaning_vi": "quên",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Ich habe vergessen, meine Hausaufgaben zu machen.",
+    "example_vi": "Tôi đã quên làm bài tập về nhà."
+  },
+  {
+    "word": "verkaufen",
+    "meaning_vi": "bán",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Mein Nachbar will sein altes Auto verkaufen.",
+    "example_vi": "Hàng xóm của tôi muốn bán chiếc xe cũ của anh ấy."
+  },
+  {
+    "word": "verlieren",
+    "meaning_vi": "mất, thua",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Unsere Mannschaft hat das Spiel 2:3 verloren.",
+    "example_vi": "Đội của chúng tôi đã thua trận đấu 2:3."
+  },
+  {
+    "word": "verlassen",
+    "meaning_vi": "rời bỏ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Er hat seine Heimat vor zehn Jahren verlassen.",
+    "example_vi": "Anh ấy đã rời bỏ quê hương mười năm trước."
+  },
+  {
+    "word": "versuchen",
+    "meaning_vi": "thử",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Ich versuche, jeden Tag Deutsch zu lernen.",
+    "example_vi": "Tôi cố gắng học tiếng Đức mỗi ngày."
+  },
+  {
+    "word": "versprechen",
+    "meaning_vi": "hứa",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Meine Schwester hat mir versprochen, mir zu helfen.",
+    "example_vi": "Chị gái tôi đã hứa sẽ giúp tôi."
+  },
+  {
+    "word": "verbringen",
+    "meaning_vi": "dành (thời gian)",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Wir verbringen unseren Urlaub dieses Jahr in Italien.",
+    "example_vi": "Chúng tôi dành kỳ nghỉ năm nay ở Ý."
+  },
+  {
+    "word": "verdienen",
+    "meaning_vi": "kiếm tiền",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Als Ingenieur verdient er sehr gut.",
+    "example_vi": "Với tư cách là kỹ sư, anh ấy kiếm được rất nhiều tiền."
+  },
+  {
+    "word": "verändern",
+    "meaning_vi": "thay đổi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Die neue Technologie wird unser Leben verändern.",
+    "example_vi": "Công nghệ mới sẽ thay đổi cuộc sống của chúng ta."
+  },
+  {
+    "word": "verbessern",
+    "meaning_vi": "cải thiện",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Ich möchte mein Deutsch verbessern.",
+    "example_vi": "Tôi muốn cải thiện tiếng Đức của mình."
+  },
+  {
+    "word": "vergleichen",
+    "meaning_vi": "so sánh",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Wir sollten die Preise vergleichen, bevor wir kaufen.",
+    "example_vi": "Chúng ta nên so sánh giá cả trước khi mua."
+  },
+  {
+    "word": "verbieten",
+    "meaning_vi": "cấm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Meine Eltern verbieten mir, spät nach Hause zu kommen.",
+    "example_vi": "Bố mẹ tôi cấm tôi về nhà muộn."
+  },
+  {
+    "word": "beschreiben",
+    "meaning_vi": "mô tả",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Kannst du mir den Weg zum Bahnhof beschreiben?",
+    "example_vi": "Bạn có thể mô tả cho tôi đường đến nhà ga được không?"
+  },
+  {
+    "word": "beschließen",
+    "meaning_vi": "quyết định",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Wir haben beschlossen, nächstes Jahr nach Deutschland zu reisen.",
+    "example_vi": "Chúng tôi đã quyết định đi du lịch Đức vào năm sau."
+  },
+  {
+    "word": "besuchen",
+    "meaning_vi": "thăm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Am Wochenende besuche ich meine Großeltern.",
+    "example_vi": "Cuối tuần tôi thăm ông bà của tôi."
+  },
+  {
+    "word": "bezahlen",
+    "meaning_vi": "thanh toán",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Ich muss die Rechnung bis morgen bezahlen.",
+    "example_vi": "Tôi phải thanh toán hóa đơn trước ngày mai."
+  },
+  {
+    "word": "beginnen",
+    "meaning_vi": "bắt đầu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Der Unterricht beginnt um 8 Uhr morgens.",
+    "example_vi": "Buổi học bắt đầu lúc 8 giờ sáng."
+  },
+  {
+    "word": "bekommen",
+    "meaning_vi": "nhận được",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Ich habe gestern ein Paket von meiner Mutter bekommen.",
+    "example_vi": "Hôm qua tôi đã nhận được một gói hàng từ mẹ tôi."
+  },
+  {
+    "word": "benutzen",
+    "meaning_vi": "sử dụng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Darf ich dein Handy benutzen?",
+    "example_vi": "Tôi có thể sử dụng điện thoại của bạn được không?"
+  },
+  {
+    "word": "bemerken",
+    "meaning_vi": "nhận ra",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Hast du bemerkt, dass sie eine neue Frisur hat?",
+    "example_vi": "Bạn có nhận ra rằng cô ấy có kiểu tóc mới không?"
+  },
+  {
+    "word": "beenden",
+    "meaning_vi": "kết thúc",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Wir müssen das Projekt bis Freitag beenden.",
+    "example_vi": "Chúng ta phải kết thúc dự án trước thứ Sáu."
+  },
+  {
+    "word": "empfehlen",
+    "meaning_vi": "giới thiệu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Ich kann dir dieses Restaurant sehr empfehlen.",
+    "example_vi": "Tôi có thể giới thiệu nhà hàng này cho bạn."
+  },
+  {
+    "word": "entdecken",
+    "meaning_vi": "phát hiện",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Kolumbus hat Amerika im Jahr 1492 entdeckt.",
+    "example_vi": "Columbus đã phát hiện ra châu Mỹ vào năm 1492."
+  },
+  {
+    "word": "entscheiden",
+    "meaning_vi": "quyết định",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Du musst dich jetzt entscheiden: Tee oder Kaffee?",
+    "example_vi": "Bạn phải quyết định ngay bây giờ: trà hay cà phê?"
+  },
+  {
+    "word": "entschuldigen",
+    "meaning_vi": "xin lỗi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Ich möchte mich für mein Verhalten entschuldigen.",
+    "example_vi": "Tôi muốn xin lỗi về hành vi của mình."
+  },
+  {
+    "word": "entwickeln",
+    "meaning_vi": "phát triển",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Die Firma entwickelt neue Software für Smartphones.",
+    "example_vi": "Công ty phát triển phần mềm mới cho điện thoại thông minh."
+  },
+  {
+    "word": "erklären",
+    "meaning_vi": "giải thích",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Können Sie mir bitte diese Regel erklären?",
+    "example_vi": "Bạn có thể giải thích cho tôi quy tắc này được không?"
+  },
+  {
+    "word": "erhalten",
+    "meaning_vi": "nhận",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Sie hat eine Einladung zur Hochzeit erhalten.",
+    "example_vi": "Cô ấy đã nhận được lời mời đến đám cưới."
+  },
+  {
+    "word": "erlauben",
+    "meaning_vi": "cho phép",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs",
+    "example_de": "Meine Eltern erlauben mir nicht, alleine zu reisen.",
+    "example_vi": "Bố mẹ tôi không cho phép tôi đi du lịch một mình."
+  },
+  {
+    "word": "sich freuen",
+    "meaning_vi": "vui mừng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Ich freue mich sehr auf meinen Urlaub in Vietnam.",
+    "example_vi": "Tôi rất vui mừng mong chờ kỳ nghỉ của mình ở Việt Nam."
+  },
+  {
+    "word": "sich ärgern",
+    "meaning_vi": "tức giận",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Er ärgert sich über den verpassten Zug.",
+    "example_vi": "Anh ấy tức giận vì lỡ chuyến tàu."
+  },
+  {
+    "word": "sich fühlen",
+    "meaning_vi": "cảm thấy",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Sie fühlt sich heute nicht gut und bleibt zu Hause.",
+    "example_vi": "Hôm nay cô ấy cảm thấy không khỏe và ở nhà."
+  },
+  {
+    "word": "sich vorstellen",
+    "meaning_vi": "tự giới thiệu",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Darf ich mich vorstellen? Mein Name ist Anna Müller.",
+    "example_vi": "Tôi có thể tự giới thiệu không? Tên tôi là Anna Müller."
+  },
+  {
+    "word": "sich setzen",
+    "meaning_vi": "ngồi xuống",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Bitte setzen Sie sich auf den Stuhl dort drüben.",
+    "example_vi": "Xin vui lòng ngồi xuống chiếc ghế ở đằng kia."
+  },
+  {
+    "word": "sich hinlegen",
+    "meaning_vi": "nằm xuống",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Nach der Arbeit lege ich mich immer eine Stunde hin.",
+    "example_vi": "Sau giờ làm việc, tôi luôn nằm xuống nghỉ một tiếng."
+  },
+  {
+    "word": "sich anziehen",
+    "meaning_vi": "mặc quần áo",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Die Kinder ziehen sich schnell an und gehen zur Schule.",
+    "example_vi": "Bọn trẻ mặc quần áo nhanh chóng và đi học."
+  },
+  {
+    "word": "sich ausziehen",
+    "meaning_vi": "cởi quần áo",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Er zieht sich aus und geht ins Bett.",
+    "example_vi": "Anh ấy cởi quần áo và đi ngủ."
+  },
+  {
+    "word": "sich waschen",
+    "meaning_vi": "rửa mặt/tay",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Vor dem Essen waschen wir uns die Hände.",
+    "example_vi": "Trước khi ăn, chúng tôi rửa tay."
+  },
+  {
+    "word": "sich duschen",
+    "meaning_vi": "tắm vòi sen",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Ich dusche mich jeden Morgen um 7 Uhr.",
+    "example_vi": "Tôi tắm vòi sen mỗi sáng lúc 7 giờ."
+  },
+  {
+    "word": "sich kämmen",
+    "meaning_vi": "chải tóc",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Sie kämmt sich vor dem Spiegel die Haare.",
+    "example_vi": "Cô ấy chải tóc trước gương."
+  },
+  {
+    "word": "sich rasieren",
+    "meaning_vi": "cạo râu",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Mein Vater rasiert sich jeden Tag am Morgen.",
+    "example_vi": "Bố tôi cạo râu mỗi sáng."
+  },
+  {
+    "word": "sich schminken",
+    "meaning_vi": "trang điểm",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Sie schminkt sich für die Party am Abend.",
+    "example_vi": "Cô ấy trang điểm cho bữa tiệc tối nay."
+  },
+  {
+    "word": "sich beeilen",
+    "meaning_vi": "vội vàng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Wir müssen uns beeilen, sonst verpassen wir den Bus!",
+    "example_vi": "Chúng ta phải vội lên, nếu không sẽ lỡ xe buýt!"
+  },
+  {
+    "word": "sich verspäten",
+    "meaning_vi": "đến muộn",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Der Zug verspätet sich um 20 Minuten wegen des Unwetters.",
+    "example_vi": "Chuyến tàu bị muộn 20 phút vì thời tiết xấu."
+  },
+  {
+    "word": "sich entschuldigen",
+    "meaning_vi": "xin lỗi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Ich entschuldige mich für mein unhöfliches Verhalten.",
+    "example_vi": "Tôi xin lỗi vì hành vi bất lịch sự của mình."
+  },
+  {
+    "word": "sich unterhalten",
+    "meaning_vi": "trò chuyện",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Wir unterhalten uns gerne über Politik und Geschichte.",
+    "example_vi": "Chúng tôi thích trò chuyện về chính trị và lịch sử."
+  },
+  {
+    "word": "sich erinnern",
+    "meaning_vi": "nhớ lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Erinnerst du dich an unseren ersten Schultag?",
+    "example_vi": "Bạn có nhớ ngày đầu tiên chúng ta đi học không?"
+  },
+  {
+    "word": "sich interessieren",
+    "meaning_vi": "quan tâm",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Sie interessiert sich sehr für Kunst und Musik.",
+    "example_vi": "Cô ấy rất quan tâm đến nghệ thuật và âm nhạc."
+  },
+  {
+    "word": "sich kümmern",
+    "meaning_vi": "chăm sóc",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Die Krankenschwester kümmert sich liebevoll um die Patienten.",
+    "example_vi": "Y tá chăm sóc bệnh nhân một cách chu đáo."
+  },
+  {
+    "word": "sich treffen",
+    "meaning_vi": "gặp gỡ",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Wir treffen uns morgen um 15 Uhr im Café.",
+    "example_vi": "Chúng ta gặp nhau vào lúc 3 giờ chiều ngày mai ở quán cà phê."
+  },
+  {
+    "word": "sich verabreden",
+    "meaning_vi": "hẹn gặp",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Ich habe mich mit meiner Freundin zum Abendessen verabredet.",
+    "example_vi": "Tôi đã hẹn gặp bạn gái tôi để ăn tối."
+  },
+  {
+    "word": "sich ausruhen",
+    "meaning_vi": "nghỉ ngơi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Nach der langen Wanderung muss ich mich ausruhen.",
+    "example_vi": "Sau chuyến đi bộ dài, tôi phải nghỉ ngơi."
+  },
+  {
+    "word": "sich entspannen",
+    "meaning_vi": "thư giãn",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Am Wochenende entspanne ich mich gerne am Strand.",
+    "example_vi": "Vào cuối tuần tôi thích thư giãn ở bãi biển."
+  },
+  {
+    "word": "sich verlieben",
+    "meaning_vi": "yêu",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs",
+    "example_de": "Er hat sich in seine Kollegin verliebt.",
+    "example_vi": "Anh ấy đã yêu đồng nghiệp của mình."
+  },
+  {
+    "word": "Haustür",
+    "meaning_vi": "cửa chính",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Bitte schließen Sie die Haustür ab, wenn Sie gehen.",
+    "example_vi": "Vui lòng khóa cửa chính khi bạn đi."
+  },
+  {
+    "word": "Hausaufgabe",
+    "meaning_vi": "bài tập về nhà",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Die Kinder machen ihre Hausaufgaben nach der Schule.",
+    "example_vi": "Các em nhỏ làm bài tập về nhà sau giờ học."
+  },
+  {
+    "word": "Hausarbeit",
+    "meaning_vi": "việc nhà",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Meine Mutter erledigt jeden Tag die Hausarbeit.",
+    "example_vi": "Mẹ tôi làm việc nhà mỗi ngày."
+  },
+  {
+    "word": "Handtuch",
+    "meaning_vi": "khăn tay",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Ich brauche ein sauberes Handtuch nach dem Duschen.",
+    "example_vi": "Tôi cần một chiếc khăn sạch sau khi tắm."
+  },
+  {
+    "word": "Handtasche",
+    "meaning_vi": "túi xách",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Sie hat ihre Handtasche im Restaurant vergessen.",
+    "example_vi": "Cô ấy đã quên túi xách ở nhà hàng."
+  },
+  {
+    "word": "Handschuh",
+    "meaning_vi": "găng tay",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Im Winter trage ich immer warme Handschuhe.",
+    "example_vi": "Vào mùa đông tôi luôn đeo găng tay ấm."
+  },
+  {
+    "word": "Kopfschmerzen",
+    "meaning_vi": "đau đầu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Ich habe starke Kopfschmerzen und brauche eine Tablette.",
+    "example_vi": "Tôi bị đau đầu dữ dội và cần một viên thuốc."
+  },
+  {
+    "word": "Bauchschmerzen",
+    "meaning_vi": "đau bụng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Das Kind hat Bauchschmerzen und möchte nicht essen.",
+    "example_vi": "Đứa trẻ bị đau bụng và không muốn ăn."
+  },
+  {
+    "word": "Rückenschmerzen",
+    "meaning_vi": "đau lưng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Viele Büroarbeiter leiden unter Rückenschmerzen.",
+    "example_vi": "Nhiều nhân viên văn phòng bị đau lưng."
+  },
+  {
+    "word": "Halsschmerzen",
+    "meaning_vi": "đau họng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Bei Halsschmerzen trinke ich heißen Tee mit Honig.",
+    "example_vi": "Khi bị đau họng tôi uống trà nóng với mật ong."
+  },
+  {
+    "word": "Zahnschmerzen",
+    "meaning_vi": "đau răng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Wegen der Zahnschmerzen muss ich zum Zahnarzt gehen.",
+    "example_vi": "Vì đau răng nên tôi phải đi nha sĩ."
+  },
+  {
+    "word": "Geburtstag",
+    "meaning_vi": "sinh nhật",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Nächste Woche feiere ich meinen 30. Geburtstag.",
+    "example_vi": "Tuần sau tôi sẽ ăn mừng sinh nhật lần thứ 30 của mình."
+  },
+  {
+    "word": "Feiertag",
+    "meaning_vi": "ngày lễ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Weihnachten ist ein wichtiger Feiertag in Deutschland.",
+    "example_vi": "Giáng sinh là một ngày lễ quan trọng ở Đức."
+  },
+  {
+    "word": "Wochentag",
+    "meaning_vi": "ngày trong tuần",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Montag ist mein unbeliebtester Wochentag.",
+    "example_vi": "Thứ Hai là ngày trong tuần tôi không thích nhất."
+  },
+  {
+    "word": "Wochenende",
+    "meaning_vi": "cuối tuần",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Am Wochenende fahren wir in die Berge.",
+    "example_vi": "Vào cuối tuần chúng tôi sẽ đi lên núi."
+  },
+  {
+    "word": "Jahreszeit",
+    "meaning_vi": "mùa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Der Herbst ist meine Lieblingsjahreszeit, weil die Blätter so schön bunt sind.",
+    "example_vi": "Mùa thu là mùa yêu thích của tôi vì lá cây rất đẹp và nhiều màu sắc."
+  },
+  {
+    "word": "Arbeitsplatz",
+    "meaning_vi": "nơi làm việc",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Mein Arbeitsplatz ist sehr modern und hat viel Tageslicht.",
+    "example_vi": "Nơi làm việc của tôi rất hiện đại và có nhiều ánh sáng tự nhiên."
+  },
+  {
+    "word": "Parkplatz",
+    "meaning_vi": "bãi đỗ xe",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Ich suche schon seit 20 Minuten einen freien Parkplatz in der Innenstadt.",
+    "example_vi": "Tôi đã tìm kiếm một chỗ đỗ xe trống ở trung tâm thành phố được 20 phút rồi."
+  },
+  {
+    "word": "Spielplatz",
+    "meaning_vi": "sân chơi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Die Kinder gehen jeden Nachmittag auf den Spielplatz im Park.",
+    "example_vi": "Bọn trẻ đi đến sân chơi trong công viên mỗi buổi chiều."
+  },
+  {
+    "word": "Sitzplatz",
+    "meaning_vi": "chỗ ngồi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Entschuldigung, ist dieser Sitzplatz noch frei?",
+    "example_vi": "Xin lỗi, chỗ ngồi này còn trống không?"
+  },
+  {
+    "word": "Schlafzimmer",
+    "meaning_vi": "phòng ngủ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Unser Schlafzimmer ist klein, aber sehr gemütlich.",
+    "example_vi": "Phòng ngủ của chúng tôi nhỏ nhưng rất ấm cúng."
+  },
+  {
+    "word": "Wohnzimmer",
+    "meaning_vi": "phòng khách",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Wir sitzen abends oft zusammen im Wohnzimmer und schauen fern.",
+    "example_vi": "Buổi tối chúng tôi thường ngồi cùng nhau trong phòng khách và xem tivi."
+  },
+  {
+    "word": "Esszimmer",
+    "meaning_vi": "phòng ăn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Am Sonntag essen wir immer gemeinsam im Esszimmer.",
+    "example_vi": "Vào Chủ nhật chúng tôi luôn ăn cùng nhau trong phòng ăn."
+  },
+  {
+    "word": "Badezimmer",
+    "meaning_vi": "phòng tắm",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Das Badezimmer muss renoviert werden, die Fliesen sind sehr alt.",
+    "example_vi": "Phòng tắm cần được cải tạo, gạch ốp rất cũ."
+  },
+  {
+    "word": "Kinderzimmer",
+    "meaning_vi": "phòng trẻ em",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns",
+    "example_de": "Das Kinderzimmer ist voller Spielzeug und bunter Poster.",
+    "example_vi": "Phòng trẻ em đầy đồ chơi và áp phích nhiều màu sắc."
+  },
+  {
+    "word": "warten auf",
+    "meaning_vi": "chờ đợi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Ich warte schon eine Stunde auf den Bus.",
+    "example_vi": "Tôi đã chờ xe buýt được một tiếng rồi."
+  },
+  {
+    "word": "denken an",
+    "meaning_vi": "nghĩ về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Ich denke oft an meine Kindheit und die schönen Momente.",
+    "example_vi": "Tôi thường nghĩ về tuổi thơ và những khoảnh khắc đẹp đẽ."
+  },
+  {
+    "word": "glauben an",
+    "meaning_vi": "tin vào",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Viele Menschen glauben an Gott und beten regelmäßig.",
+    "example_vi": "Nhiều người tin vào Chúa và cầu nguyện thường xuyên."
+  },
+  {
+    "word": "hoffen auf",
+    "meaning_vi": "hy vọng về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Wir hoffen auf besseres Wetter am Wochenende.",
+    "example_vi": "Chúng tôi hy vọng về thời tiết tốt hơn vào cuối tuần."
+  },
+  {
+    "word": "achten auf",
+    "meaning_vi": "chú ý đến",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Du musst mehr auf deine Gesundheit achten und dich gesund ernähren.",
+    "example_vi": "Bạn phải chú ý đến sức khỏe của mình nhiều hơn và ăn uống lành mạnh."
+  },
+  {
+    "word": "aufpassen auf",
+    "meaning_vi": "trông chừng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Kannst du bitte auf meine Tasche aufpassen, während ich zur Toilette gehe?",
+    "example_vi": "Bạn có thể trông chừng túi của tôi trong khi tôi đi vệ sinh không?"
+  },
+  {
+    "word": "sprechen über",
+    "meaning_vi": "nói về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Wir müssen über das Problem sprechen und eine Lösung finden.",
+    "example_vi": "Chúng ta phải nói về vấn đề này và tìm ra giải pháp."
+  },
+  {
+    "word": "nachdenken über",
+    "meaning_vi": "suy nghĩ về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Ich muss noch über dein Angebot nachdenken, bevor ich eine Entscheidung treffe.",
+    "example_vi": "Tôi còn phải suy nghĩ về đề nghị của bạn trước khi đưa ra quyết định."
+  },
+  {
+    "word": "sich freuen über",
+    "meaning_vi": "vui về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Sie freut sich sehr über das Geschenk von ihrem Mann.",
+    "example_vi": "Cô ấy rất vui về món quà từ chồng mình."
+  },
+  {
+    "word": "sich freuen auf",
+    "meaning_vi": "mong đợi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Die Kinder freuen sich schon auf die Sommerferien.",
+    "example_vi": "Bọn trẻ đã mong đợi kỳ nghỉ hè rồi."
+  },
+  {
+    "word": "sich ärgern über",
+    "meaning_vi": "tức giận về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Ich ärgere mich über den verspäteten Zug.",
+    "example_vi": "Tôi tức giận về chuyến tàu bị trễ."
+  },
+  {
+    "word": "sich interessieren für",
+    "meaning_vi": "quan tâm đến",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Meine Schwester interessiert sich für Kunst und Musik.",
+    "example_vi": "Chị gái tôi quan tâm đến nghệ thuật và âm nhạc."
+  },
+  {
+    "word": "sich kümmern um",
+    "meaning_vi": "chăm sóc",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Die Krankenschwester kümmert sich um die Patienten.",
+    "example_vi": "Y tá chăm sóc bệnh nhân."
+  },
+  {
+    "word": "sich bewerben um",
+    "meaning_vi": "ứng tuyển",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Er bewirbt sich um eine Stelle als Ingenieur.",
+    "example_vi": "Anh ấy ứng tuyển vào vị trí kỹ sư."
+  },
+  {
+    "word": "teilnehmen an",
+    "meaning_vi": "tham gia",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Viele Studenten nehmen an dem Seminar teil.",
+    "example_vi": "Nhiều sinh viên tham gia hội thảo."
+  },
+  {
+    "word": "gehören zu",
+    "meaning_vi": "thuộc về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Dieses Buch gehört zu meiner Lieblingssammlung.",
+    "example_vi": "Cuốn sách này thuộc về bộ sưu tập yêu thích của tôi."
+  },
+  {
+    "word": "passen zu",
+    "meaning_vi": "phù hợp với",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Die rote Krawatte passt gut zu deinem Anzug.",
+    "example_vi": "Cà vạt đỏ phù hợp với bộ vest của bạn."
+  },
+  {
+    "word": "gratulieren zu",
+    "meaning_vi": "chúc mừng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Ich gratuliere dir zum Geburtstag!",
+    "example_vi": "Tôi chúc mừng sinh nhật bạn!"
+  },
+  {
+    "word": "bitten um",
+    "meaning_vi": "xin, yêu cầu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Darf ich Sie um Hilfe bitten?",
+    "example_vi": "Tôi có thể xin bạn giúp đỡ được không?"
+  },
+  {
+    "word": "danken für",
+    "meaning_vi": "cảm ơn về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Wir danken Ihnen für Ihre Unterstützung.",
+    "example_vi": "Chúng tôi cảm ơn về sự hỗ trợ của bạn."
+  },
+  {
+    "word": "fragen nach",
+    "meaning_vi": "hỏi về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Der Tourist fragt nach dem Weg zum Bahnhof.",
+    "example_vi": "Du khách hỏi về đường đến nhà ga."
+  },
+  {
+    "word": "suchen nach",
+    "meaning_vi": "tìm kiếm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Ich suche nach meinem Schlüssel.",
+    "example_vi": "Tôi đang tìm kiếm chìa khóa của mình."
+  },
+  {
+    "word": "riechen nach",
+    "meaning_vi": "có mùi như",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Es riecht hier nach frischem Kaffee.",
+    "example_vi": "Ở đây có mùi như cà phê tươi."
+  },
+  {
+    "word": "schmecken nach",
+    "meaning_vi": "có vị như",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Die Suppe schmeckt nach Knoblauch.",
+    "example_vi": "Món súp có vị như tỏi."
+  },
+  {
+    "word": "aussehen wie",
+    "meaning_vi": "trông như",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions",
+    "example_de": "Du siehst aus wie deine Mutter.",
+    "example_vi": "Bạn trông như mẹ của bạn."
+  },
+  {
+    "word": "Wirtschaft",
+    "meaning_vi": "kinh tế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Die deutsche Wirtschaft ist sehr stark.",
+    "example_vi": "Nền kinh tế Đức rất mạnh."
+  },
+  {
+    "word": "Handel",
+    "meaning_vi": "thương mại",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Der internationale Handel wächst jedes Jahr.",
+    "example_vi": "Thương mại quốc tế tăng trưởng mỗi năm."
+  },
+  {
+    "word": "Export",
+    "meaning_vi": "xuất khẩu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Deutschland ist bekannt für seinen Autoexport.",
+    "example_vi": "Đức nổi tiếng với xuất khẩu ô tô."
+  },
+  {
+    "word": "Import",
+    "meaning_vi": "nhập khẩu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Der Import von Rohstoffen ist wichtig für die Industrie.",
+    "example_vi": "Nhập khẩu nguyên liệu thô quan trọng cho ngành công nghiệp."
+  },
+  {
+    "word": "Wettbewerb",
+    "meaning_vi": "cạnh tranh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Der Wettbewerb auf dem Markt ist sehr intensiv.",
+    "example_vi": "Cạnh tranh trên thị trường rất gay gắt."
+  },
+  {
+    "word": "Aktie",
+    "meaning_vi": "cổ phiếu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Ich habe gestern 100 Aktien von Tesla gekauft.",
+    "example_vi": "Hôm qua tôi đã mua 100 cổ phiếu của Tesla."
+  },
+  {
+    "word": "Börse",
+    "meaning_vi": "sàn chứng khoán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Die Börse in Frankfurt ist eine der größten in Europa.",
+    "example_vi": "Sàn chứng khoán ở Frankfurt là một trong những sàn lớn nhất châu Âu."
+  },
+  {
+    "word": "Anlage",
+    "meaning_vi": "đầu tư",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Eine Anlage in Immobilien kann sehr profitabel sein.",
+    "example_vi": "Đầu tư vào bất động sản có thể rất sinh lời."
+  },
+  {
+    "word": "Kapital",
+    "meaning_vi": "vốn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Für die Firmengründung benötigen wir mehr Kapital.",
+    "example_vi": "Để thành lập công ty chúng tôi cần thêm vốn."
+  },
+  {
+    "word": "Budget",
+    "meaning_vi": "ngân sách",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Unser Budget für Marketing beträgt 50.000 Euro pro Jahr.",
+    "example_vi": "Ngân sách của chúng tôi cho marketing là 50.000 Euro mỗi năm."
+  },
+  {
+    "word": "Kosten",
+    "meaning_vi": "chi phí",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Die Kosten für das Projekt sind höher als erwartet.",
+    "example_vi": "Chi phí cho dự án cao hơn dự kiến."
+  },
+  {
+    "word": "Einnahme",
+    "meaning_vi": "thu nhập",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Die Einnahmen des Unternehmens sind im letzten Quartal gestiegen.",
+    "example_vi": "Thu nhập của công ty đã tăng trong quý vừa qua."
+  },
+  {
+    "word": "Ausgabe",
+    "meaning_vi": "chi tiêu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Wir müssen unsere Ausgaben reduzieren, um Geld zu sparen.",
+    "example_vi": "Chúng ta phải giảm chi tiêu để tiết kiệm tiền."
+  },
+  {
+    "word": "Bilanz",
+    "meaning_vi": "bảng cân đối",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Der Buchhalter erstellt die Bilanz am Ende des Geschäftsjahres.",
+    "example_vi": "Kế toán lập bảng cân đối vào cuối năm tài chính."
+  },
+  {
+    "word": "Steuererklärung",
+    "meaning_vi": "khai thuế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Ich muss meine Steuererklärung bis Ende Mai abgeben.",
+    "example_vi": "Tôi phải nộp tờ khai thuế trước cuối tháng Năm."
+  },
+  {
+    "word": "Mehrwertsteuer",
+    "meaning_vi": "thuế giá trị gia tăng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "In Deutschland beträgt die Mehrwertsteuer normalerweise 19 Prozent.",
+    "example_vi": "Ở Đức thuế giá trị gia tăng thường là 19 phần trăm."
+  },
+  {
+    "word": "Unternehmer",
+    "meaning_vi": "doanh nhân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Als Unternehmer muss man viele Risiken eingehen.",
+    "example_vi": "Là doanh nhân phải chấp nhận nhiều rủi ro."
+  },
+  {
+    "word": "Geschäftsführer",
+    "meaning_vi": "giám đốc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Der Geschäftsführer leitet die wöchentlichen Meetings.",
+    "example_vi": "Giám đốc điều hành các cuộc họp hàng tuần."
+  },
+  {
+    "word": "Mitarbeiter",
+    "meaning_vi": "nhân viên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Unsere Firma hat über 200 Mitarbeiter weltweit.",
+    "example_vi": "Công ty chúng tôi có hơn 200 nhân viên trên toàn thế giới."
+  },
+  {
+    "word": "Angestellter",
+    "meaning_vi": "nhân viên văn phòng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Er ist seit fünf Jahren als Angestellter in dieser Bank tätig.",
+    "example_vi": "Anh ấy đã làm nhân viên văn phòng tại ngân hàng này được năm năm."
+  },
+  {
+    "word": "Bewerber",
+    "meaning_vi": "ứng viên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Wir haben 50 Bewerber für die offene Stelle erhalten.",
+    "example_vi": "Chúng tôi đã nhận được 50 ứng viên cho vị trí tuyển dụng."
+  },
+  {
+    "word": "Praktikant",
+    "meaning_vi": "thực tập sinh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Der Praktikant arbeitet drei Monate in unserer Marketingabteilung.",
+    "example_vi": "Thực tập sinh làm việc ba tháng ở phòng marketing của chúng tôi."
+  },
+  {
+    "word": "Auszubildender",
+    "meaning_vi": "học viên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Als Auszubildender verdient man weniger als ein ausgebildeter Facharbeiter.",
+    "example_vi": "Là học viên thì kiếm được ít hơn một công nhân có tay nghề đã được đào tạo."
+  },
+  {
+    "word": "Verhandlung",
+    "meaning_vi": "đàm phán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Die Verhandlung über den neuen Vertrag dauerte drei Stunden.",
+    "example_vi": "Cuộc đàm phán về hợp đồng mới kéo dài ba giờ."
+  },
+  {
+    "word": "Vereinbarung",
+    "meaning_vi": "thỏa thuận",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms",
+    "example_de": "Wir haben eine Vereinbarung über die Zusammenarbeit getroffen.",
+    "example_vi": "Chúng tôi đã đạt được thỏa thuận về sự hợp tác."
+  },
+  {
+    "word": "Antrag",
+    "meaning_vi": "đơn xin",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Ich muss einen Antrag auf Kindergeld stellen.",
+    "example_vi": "Tôi phải nộp đơn xin trợ cấp nuôi con."
+  },
+  {
+    "word": "Formular",
+    "meaning_vi": "biểu mẫu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Bitte füllen Sie dieses Formular vollständig aus.",
+    "example_vi": "Vui lòng điền đầy đủ vào biểu mẫu này."
+  },
+  {
+    "word": "Bescheinigung",
+    "meaning_vi": "giấy chứng nhận",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Der Arzt hat mir eine Bescheinigung für die Arbeit ausgestellt.",
+    "example_vi": "Bác sĩ đã cấp cho tôi giấy chứng nhận cho công việc."
+  },
+  {
+    "word": "Urkunde",
+    "meaning_vi": "giấy khai sinh/tờ khai",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Ich brauche meine Geburtsurkunde für die Anmeldung.",
+    "example_vi": "Tôi cần giấy khai sinh của mình để đăng ký."
+  },
+  {
+    "word": "Ausweis",
+    "meaning_vi": "giấy tờ tùy thân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Können Sie mir bitte Ihren Ausweis zeigen?",
+    "example_vi": "Bạn có thể cho tôi xem giấy tờ tùy thân của bạn không?"
+  },
+  {
+    "word": "Personalausweis",
+    "meaning_vi": "chứng minh nhân dân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Mein Personalausweis ist leider abgelaufen.",
+    "example_vi": "Chứng minh nhân dân của tôi đáng tiếc đã hết hạn."
+  },
+  {
+    "word": "Führerschein",
+    "meaning_vi": "bằng lái xe",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Ich habe meinen Führerschein vor zwei Jahren gemacht.",
+    "example_vi": "Tôi đã thi bằng lái xe cách đây hai năm."
+  },
+  {
+    "word": "Meldebescheinigung",
+    "meaning_vi": "giấy đăng ký tạm trú",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Die Meldebescheinigung bekommen Sie direkt beim Bürgeramt.",
+    "example_vi": "Bạn nhận giấy đăng ký tạm trú trực tiếp tại văn phòng công dân."
+  },
+  {
+    "word": "Anmeldung",
+    "meaning_vi": "đăng ký",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Die Anmeldung beim Einwohnermeldeamt muss innerhalb von zwei Wochen erfolgen.",
+    "example_vi": "Việc đăng ký tại phòng đăng ký cư trú phải được thực hiện trong vòng hai tuần."
+  },
+  {
+    "word": "Abmeldung",
+    "meaning_vi": "hủy đăng ký",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Vergessen Sie nicht die Abmeldung, bevor Sie umziehen.",
+    "example_vi": "Đừng quên hủy đăng ký trước khi bạn chuyển nhà."
+  },
+  {
+    "word": "Ummeldung",
+    "meaning_vi": "đăng ký chuyển",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Nach dem Umzug habe ich sofort die Ummeldung gemacht.",
+    "example_vi": "Sau khi chuyển nhà, tôi đã làm đăng ký chuyển ngay lập tức."
+  },
+  {
+    "word": "Amt",
+    "meaning_vi": "cơ quan",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Das Amt ist montags bis freitags von 8 bis 16 Uhr geöffnet.",
+    "example_vi": "Cơ quan mở cửa từ thứ Hai đến thứ Sáu từ 8 giờ đến 16 giờ."
+  },
+  {
+    "word": "Behörde",
+    "meaning_vi": "cơ quan chức năng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Ich muss morgen zur Behörde gehen, um meinen Pass abzuholen.",
+    "example_vi": "Ngày mai tôi phải đến cơ quan chức năng để lấy hộ chiếu."
+  },
+  {
+    "word": "Rathaus",
+    "meaning_vi": "tòa thị chính",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Das Rathaus befindet sich im Stadtzentrum.",
+    "example_vi": "Tòa thị chính nằm ở trung tâm thành phố."
+  },
+  {
+    "word": "Bürgeramt",
+    "meaning_vi": "văn phòng công dân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Im Bürgeramt können Sie Ihren Personalausweis beantragen.",
+    "example_vi": "Tại văn phòng công dân, bạn có thể xin cấp chứng minh nhân dân."
+  },
+  {
+    "word": "Finanzamt",
+    "meaning_vi": "sở thuế",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Ich muss meine Steuererklärung beim Finanzamt abgeben.",
+    "example_vi": "Tôi phải nộp tờ khai thuế tại sở thuế."
+  },
+  {
+    "word": "Arbeitsamt",
+    "meaning_vi": "sở lao động",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Nach der Kündigung habe ich mich beim Arbeitsamt arbeitslos gemeldet.",
+    "example_vi": "Sau khi bị sa thải, tôi đã đăng ký thất nghiệp tại sở lao động."
+  },
+  {
+    "word": "Standesamt",
+    "meaning_vi": "phòng hộ tịch",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Wir haben letzten Monat auf dem Standesamt geheiratet.",
+    "example_vi": "Chúng tôi đã kết hôn tại phòng hộ tịch vào tháng trước."
+  },
+  {
+    "word": "Einwohnermeldeamt",
+    "meaning_vi": "phòng đăng ký cư trú",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Beim Einwohnermeldeamt müssen Sie Ihre neue Adresse angeben.",
+    "example_vi": "Tại phòng đăng ký cư trú, bạn phải khai báo địa chỉ mới của mình."
+  },
+  {
+    "word": "Ausländerbehörde",
+    "meaning_vi": "sở ngoại kiều",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Für die Verlängerung meines Visums muss ich zur Ausländerbehörde.",
+    "example_vi": "Để gia hạn visa, tôi phải đến sở ngoại kiều."
+  },
+  {
+    "word": "beantragen",
+    "meaning_vi": "nộp đơn xin",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Ich muss morgen ein Visum bei der Botschaft beantragen.",
+    "example_vi": "Tôi phải nộp đơn xin visa tại đại sứ quán vào ngày mai."
+  },
+  {
+    "word": "genehmigen",
+    "meaning_vi": "phê duyệt",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Der Chef hat meinen Urlaubsantrag endlich genehmigt.",
+    "example_vi": "Sếp cuối cùng đã phê duyệt đơn xin nghỉ phép của tôi."
+  },
+  {
+    "word": "ablehnen",
+    "meaning_vi": "từ chối",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Die Bank hat meinen Kreditantrag leider abgelehnt.",
+    "example_vi": "Ngân hàng đã từ chối đơn xin vay của tôi rồi."
+  },
+  {
+    "word": "verlängern",
+    "meaning_vi": "gia hạn",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Ich möchte meinen Reisepass um weitere fünf Jahre verlängern.",
+    "example_vi": "Tôi muốn gia hạn hộ chiếu thêm năm năm nữa."
+  },
+  {
+    "word": "ausstellen",
+    "meaning_vi": "cấp",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin",
+    "example_de": "Das Amt wird mir nächste Woche eine neue Geburtsurkunde ausstellen.",
+    "example_vi": "Cơ quan sẽ cấp cho tôi giấy khai sinh mới vào tuần tới."
+  },
+  {
+    "word": "Fernsehen",
+    "meaning_vi": "truyền hình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Abends schaue ich gerne Fernsehen, um mich zu entspannen.",
+    "example_vi": "Buổi tối tôi thích xem truyền hình để thư giãn."
+  },
+  {
+    "word": "Fernseher",
+    "meaning_vi": "TV",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Wir haben uns gestern einen neuen Fernseher gekauft.",
+    "example_vi": "Hôm qua chúng tôi đã mua một chiếc TV mới."
+  },
+  {
+    "word": "Programm",
+    "meaning_vi": "chương trình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Was läuft heute Abend im Programm?",
+    "example_vi": "Tối nay có chương trình gì vậy?"
+  },
+  {
+    "word": "Nachrichten",
+    "meaning_vi": "tin tức",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Ich schaue jeden Abend um 20 Uhr die Nachrichten.",
+    "example_vi": "Tôi xem tin tức lúc 8 giờ tối mỗi ngày."
+  },
+  {
+    "word": "Tagesschau",
+    "meaning_vi": "bản tin hàng ngày",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Die Tagesschau ist die bekannteste Nachrichtensendung in Deutschland.",
+    "example_vi": "Tagesschau là bản tin hàng ngày nổi tiếng nhất ở Đức."
+  },
+  {
+    "word": "Wetterbericht",
+    "meaning_vi": "dự báo thời tiết",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Laut Wetterbericht soll es morgen regnen.",
+    "example_vi": "Theo dự báo thời tiết thì ngày mai sẽ mưa."
+  },
+  {
+    "word": "Spielfilm",
+    "meaning_vi": "phim truyện",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Heute Abend kommt ein spannender Spielfilm im Fernsehen.",
+    "example_vi": "Tối nay có một phim truyện hấp dẫn trên truyền hình."
+  },
+  {
+    "word": "Dokumentarfilm",
+    "meaning_vi": "phim tài liệu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Ich habe gestern einen interessanten Dokumentarfilm über Wale gesehen.",
+    "example_vi": "Hôm qua tôi đã xem một phim tài liệu thú vị về cá voi."
+  },
+  {
+    "word": "Serie",
+    "meaning_vi": "phim bộ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Meine Lieblingsserie läuft jeden Mittwoch um 21 Uhr.",
+    "example_vi": "Phim bộ yêu thích của tôi chiếu vào mỗi thứ Tư lúc 9 giờ tối."
+  },
+  {
+    "word": "Folge",
+    "meaning_vi": "tập phim",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Hast du die letzte Folge schon gesehen?",
+    "example_vi": "Bạn đã xem tập phim cuối cùng chưa?"
+  },
+  {
+    "word": "Staffel",
+    "meaning_vi": "mùa phim",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Die dritte Staffel dieser Serie war am besten.",
+    "example_vi": "Mùa phim thứ ba của bộ phim này hay nhất."
+  },
+  {
+    "word": "Krimi",
+    "meaning_vi": "phim trinh thám",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Am Sonntagabend läuft immer ein spannender Krimi im Ersten.",
+    "example_vi": "Tối Chủ nhật luôn có một phim trinh thám hấp dẫn trên kênh Ersten."
+  },
+  {
+    "word": "Komödie",
+    "meaning_vi": "phim hài",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Ich mag Komödien, weil sie mich zum Lachen bringen.",
+    "example_vi": "Tôi thích phim hài vì chúng làm tôi cười."
+  },
+  {
+    "word": "Drama",
+    "meaning_vi": "phim chính kịch",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Das Drama hat mich sehr berührt und zum Nachdenken gebracht.",
+    "example_vi": "Phim chính kịch đã cảm động tôi rất nhiều và khiến tôi suy ngẫm."
+  },
+  {
+    "word": "Thriller",
+    "meaning_vi": "phim kinh dị",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Der Thriller war so spannend, dass ich nicht aufhören konnte zu schauen.",
+    "example_vi": "Phim kinh dị hấp dẫn đến nỗi tôi không thể ngừng xem."
+  },
+  {
+    "word": "Sender",
+    "meaning_vi": "đài, kênh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Welcher Sender zeigt heute Abend das Fußballspiel?",
+    "example_vi": "Kênh nào chiếu trận bóng đá tối nay?"
+  },
+  {
+    "word": "Kanal",
+    "meaning_vi": "kênh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Ich habe meinen YouTube-Kanal vor einem Jahr gestartet.",
+    "example_vi": "Tôi đã khởi động kênh YouTube của mình cách đây một năm."
+  },
+  {
+    "word": "Sendung",
+    "meaning_vi": "chương trình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Die Sendung beginnt um 20 Uhr.",
+    "example_vi": "Chương trình bắt đầu lúc 20 giờ."
+  },
+  {
+    "word": "Moderator",
+    "meaning_vi": "người dẫn chương trình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Der Moderator stellte den Gästen interessante Fragen.",
+    "example_vi": "Người dẫn chương trình đã đặt những câu hỏi thú vị cho khách mời."
+  },
+  {
+    "word": "Schauspieler",
+    "meaning_vi": "diễn viên",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Mein Lieblings-Schauspieler spielt in diesem Film die Hauptrolle.",
+    "example_vi": "Diễn viên yêu thích của tôi đóng vai chính trong bộ phim này."
+  },
+  {
+    "word": "Regisseur",
+    "meaning_vi": "đạo diễn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Der Regisseur hat für diesen Film einen Oscar gewonnen.",
+    "example_vi": "Đạo diễn đã giành giải Oscar cho bộ phim này."
+  },
+  {
+    "word": "Produzent",
+    "meaning_vi": "nhà sản xuất",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Der Produzent investierte viel Geld in das Projekt.",
+    "example_vi": "Nhà sản xuất đã đầu tư rất nhiều tiền vào dự án này."
+  },
+  {
+    "word": "Kamera",
+    "meaning_vi": "máy quay",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Die Kamera ist kaputt, wir müssen die Dreharbeiten verschieben.",
+    "example_vi": "Máy quay bị hỏng, chúng ta phải hoãn việc quay phim."
+  },
+  {
+    "word": "Drehbuch",
+    "meaning_vi": "kịch bản",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Das Drehbuch wurde von einem bekannten Autor geschrieben.",
+    "example_vi": "Kịch bản được viết bởi một tác giả nổi tiếng."
+  },
+  {
+    "word": "Premiere",
+    "meaning_vi": "buổi công chiếu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment",
+    "example_de": "Die Premiere des neuen Films findet nächste Woche statt.",
+    "example_vi": "Buổi công chiếu bộ phim mới diễn ra vào tuần tới."
+  },
+  {
+    "word": "Soziale Medien",
+    "meaning_vi": "mạng xã hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Viele Jugendliche verbringen zu viel Zeit in sozialen Medien.",
+    "example_vi": "Nhiều thanh thiếu niên dành quá nhiều thời gian trên mạng xã hội."
+  },
+  {
+    "word": "Profil",
+    "meaning_vi": "hồ sơ cá nhân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Ich habe mein Profil mit einem neuen Foto aktualisiert.",
+    "example_vi": "Tôi đã cập nhật hồ sơ cá nhân của mình với một bức ảnh mới."
+  },
+  {
+    "word": "Beitrag",
+    "meaning_vi": "bài đăng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Ihr Beitrag hat über tausend Likes bekommen.",
+    "example_vi": "Bài đăng của cô ấy đã nhận được hơn một nghìn lượt thích."
+  },
+  {
+    "word": "Post",
+    "meaning_vi": "bài đăng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Hast du meinen letzten Post gesehen?",
+    "example_vi": "Bạn đã xem bài đăng mới nhất của tôi chưa?"
+  },
+  {
+    "word": "Kommentar",
+    "meaning_vi": "bình luận",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Unter dem Video gab es viele negative Kommentare.",
+    "example_vi": "Dưới video có rất nhiều bình luận tiêu cực."
+  },
+  {
+    "word": "Follower",
+    "meaning_vi": "người theo dõi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Sie hat über eine Million Follower auf Instagram.",
+    "example_vi": "Cô ấy có hơn một triệu người theo dõi trên Instagram."
+  },
+  {
+    "word": "Abonnent",
+    "meaning_vi": "người đăng ký",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Danke an alle neuen Abonnenten meines Kanals!",
+    "example_vi": "Cảm ơn tất cả những người đăng ký mới của kênh tôi!"
+  },
+  {
+    "word": "Like",
+    "meaning_vi": "lượt thích",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Vergiss nicht, dem Video einen Like zu geben!",
+    "example_vi": "Đừng quên cho video một lượt thích nhé!"
+  },
+  {
+    "word": "Teilen",
+    "meaning_vi": "chia sẻ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Das Teilen von persönlichen Informationen kann gefährlich sein.",
+    "example_vi": "Việc chia sẻ thông tin cá nhân có thể nguy hiểm."
+  },
+  {
+    "word": "Hashtag",
+    "meaning_vi": "hashtag",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Verwende den richtigen Hashtag, um mehr Reichweite zu bekommen.",
+    "example_vi": "Sử dụng hashtag đúng để có được nhiều lượt tiếp cận hơn."
+  },
+  {
+    "word": "Link",
+    "meaning_vi": "liên kết",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Kannst du mir bitte den Link zu dem Artikel schicken?",
+    "example_vi": "Bạn có thể gửi cho tôi liên kết đến bài viết đó được không?"
+  },
+  {
+    "word": "Blog",
+    "meaning_vi": "blog",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Sie schreibt jeden Tag einen neuen Beitrag in ihrem Blog.",
+    "example_vi": "Cô ấy viết một bài đăng mới trên blog của mình mỗi ngày."
+  },
+  {
+    "word": "Podcast",
+    "meaning_vi": "podcast",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Ich höre auf dem Weg zur Arbeit immer einen interessanten Podcast.",
+    "example_vi": "Tôi luôn nghe một podcast thú vị trên đường đi làm."
+  },
+  {
+    "word": "Livestream",
+    "meaning_vi": "phát trực tiếp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Das Konzert wird heute Abend im Livestream übertragen.",
+    "example_vi": "Buổi hòa nhạc sẽ được phát trực tiếp vào tối nay."
+  },
+  {
+    "word": "Influencer",
+    "meaning_vi": "người có ảnh hưởng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Viele junge Menschen wollen heutzutage Influencer werden.",
+    "example_vi": "Ngày nay nhiều bạn trẻ muốn trở thành người có ảnh hưởng."
+  },
+  {
+    "word": "Viral",
+    "meaning_vi": "lan truyền",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Das Video ist innerhalb von zwei Tagen viral gegangen.",
+    "example_vi": "Video đó đã lan truyền trong vòng hai ngày."
+  },
+  {
+    "word": "online",
+    "meaning_vi": "trực tuyến",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Ich kaufe meine Bücher meistens online ein.",
+    "example_vi": "Tôi thường mua sách trực tuyến."
+  },
+  {
+    "word": "offline",
+    "meaning_vi": "ngoại tuyến",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Manchmal ist es schön, einfach offline zu sein und zu entspannen.",
+    "example_vi": "Đôi khi thật tuyệt khi chỉ ở chế độ ngoại tuyến và thư giãn."
+  },
+  {
+    "word": "posten",
+    "meaning_vi": "đăng bài",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Er postet jeden Morgen ein Foto von seinem Frühstück.",
+    "example_vi": "Anh ấy đăng một bức ảnh bữa sáng của mình mỗi sáng."
+  },
+  {
+    "word": "teilen",
+    "meaning_vi": "chia sẻ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Kannst du bitte meinen Beitrag auf Facebook teilen?",
+    "example_vi": "Bạn có thể chia sẻ bài đăng của tôi trên Facebook được không?"
+  },
+  {
+    "word": "kommentieren",
+    "meaning_vi": "bình luận",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Viele Leute haben das neue Produkt positiv kommentiert.",
+    "example_vi": "Nhiều người đã bình luận tích cực về sản phẩm mới."
+  },
+  {
+    "word": "liken",
+    "meaning_vi": "thích",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Vergiss nicht, mein neues Foto zu liken!",
+    "example_vi": "Đừng quên thích bức ảnh mới của tôi nhé!"
+  },
+  {
+    "word": "folgen",
+    "meaning_vi": "theo dõi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Ich folge diesem Koch schon seit drei Jahren auf Instagram.",
+    "example_vi": "Tôi đã theo dõi đầu bếp này trên Instagram được ba năm rồi."
+  },
+  {
+    "word": "abonnieren",
+    "meaning_vi": "đăng ký",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Du solltest diesen Kanal abonnieren, die Videos sind sehr informativ.",
+    "example_vi": "Bạn nên đăng ký kênh này, các video rất bổ ích."
+  },
+  {
+    "word": "streamen",
+    "meaning_vi": "phát trực tuyến",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media",
+    "example_de": "Ich streame meine Lieblingsserien lieber, als fernzusehen.",
+    "example_vi": "Tôi thích phát trực tuyến các bộ phim yêu thích hơn là xem tivi."
+  },
+  {
+    "word": "Forschung",
+    "meaning_vi": "nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Die Forschung auf dem Gebiet der Künstlichen Intelligenz macht große Fortschritte.",
+    "example_vi": "Nghiên cứu trong lĩnh vực trí tuệ nhân tạo đang có những tiến bộ lớn."
+  },
+  {
+    "word": "Studie",
+    "meaning_vi": "nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Eine neue Studie zeigt, dass regelmäßiger Sport die Gesundheit verbessert.",
+    "example_vi": "Một nghiên cứu mới cho thấy tập thể dục thường xuyên cải thiện sức khỏe."
+  },
+  {
+    "word": "Untersuchung",
+    "meaning_vi": "khảo sát",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Die Untersuchung der Ursachen dauert noch mehrere Wochen.",
+    "example_vi": "Cuộc khảo sát về nguyên nhân sẽ còn kéo dài vài tuần nữa."
+  },
+  {
+    "word": "Analyse",
+    "meaning_vi": "phân tích",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Die Analyse der Daten hat interessante Ergebnisse geliefert.",
+    "example_vi": "Phân tích dữ liệu đã mang lại những kết quả thú vị."
+  },
+  {
+    "word": "Ergebnis",
+    "meaning_vi": "kết quả",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Das Ergebnis der Prüfung war besser als erwartet.",
+    "example_vi": "Kết quả của kỳ thi tốt hơn mong đợi."
+  },
+  {
+    "word": "Daten",
+    "meaning_vi": "dữ liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Die Wissenschaftler sammeln Daten für ihre Forschung über den Klimawandel.",
+    "example_vi": "Các nhà khoa học thu thập dữ liệu cho nghiên cứu của họ về biến đổi khí hậu."
+  },
+  {
+    "word": "Statistik",
+    "meaning_vi": "thống kê",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Laut der neuesten Statistik ist die Arbeitslosenquote gesunken.",
+    "example_vi": "Theo thống kê mới nhất, tỷ lệ thất nghiệp đã giảm."
+  },
+  {
+    "word": "Theorie",
+    "meaning_vi": "lý thuyết",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Einstein entwickelte die Theorie der Relativität im frühen 20. Jahrhundert.",
+    "example_vi": "Einstein đã phát triển lý thuyết tương đối vào đầu thế kỷ 20."
+  },
+  {
+    "word": "Hypothese",
+    "meaning_vi": "giả thuyết",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Der Forscher stellte eine Hypothese auf, die er durch Experimente überprüfen will.",
+    "example_vi": "Nhà nghiên cứu đã đưa ra một giả thuyết mà ông muốn kiểm chứng thông qua các thí nghiệm."
+  },
+  {
+    "word": "Methode",
+    "meaning_vi": "phương pháp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Wir müssen eine geeignete Methode finden, um dieses Problem zu lösen.",
+    "example_vi": "Chúng ta phải tìm một phương pháp phù hợp để giải quyết vấn đề này."
+  },
+  {
+    "word": "Quelle",
+    "meaning_vi": "nguồn",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Bitte geben Sie alle Quellen in Ihrer Arbeit korrekt an.",
+    "example_vi": "Vui lòng trích dẫn tất cả các nguồn trong bài viết của bạn một cách chính xác."
+  },
+  {
+    "word": "Literatur",
+    "meaning_vi": "tài liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Für meine Hausarbeit habe ich viel Literatur zum Thema gelesen.",
+    "example_vi": "Cho bài tiểu luận của tôi, tôi đã đọc nhiều tài liệu về chủ đề này."
+  },
+  {
+    "word": "Artikel",
+    "meaning_vi": "bài báo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Der Artikel über künstliche Intelligenz wurde in einer renommierten Fachzeitschrift veröffentlicht.",
+    "example_vi": "Bài báo về trí tuệ nhân tạo đã được xuất bản trên một tạp chí chuyên ngành uy tín."
+  },
+  {
+    "word": "Zeitschrift",
+    "meaning_vi": "tạp chí",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Diese wissenschaftliche Zeitschrift erscheint vierteljährlich.",
+    "example_vi": "Tạp chí khoa học này được xuất bản hàng quý."
+  },
+  {
+    "word": "Dissertation",
+    "meaning_vi": "luận văn tiến sĩ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Sie schreibt gerade an ihrer Dissertation über mittelalterliche Geschichte.",
+    "example_vi": "Cô ấy đang viết luận văn tiến sĩ về lịch sử thời trung cổ."
+  },
+  {
+    "word": "Masterarbeit",
+    "meaning_vi": "luận văn thạc sĩ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Meine Masterarbeit behandelt das Thema erneuerbare Energien.",
+    "example_vi": "Luận văn thạc sĩ của tôi đề cập đến chủ đề năng lượng tái tạo."
+  },
+  {
+    "word": "Bachelorarbeit",
+    "meaning_vi": "luận văn cử nhân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Er hat seine Bachelorarbeit über soziale Medien mit der Note 1,3 abgeschlossen.",
+    "example_vi": "Anh ấy đã hoàn thành luận văn cử nhân về mạng xã hội với điểm 1,3."
+  },
+  {
+    "word": "Seminar",
+    "meaning_vi": "hội thảo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Im nächsten Semester besuche ich ein Seminar über deutsche Literatur.",
+    "example_vi": "Học kỳ tới tôi sẽ tham gia một hội thảo về văn học Đức."
+  },
+  {
+    "word": "Vorlesung",
+    "meaning_vi": "bài giảng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Die Vorlesung über Quantenphysik findet jeden Montag um 10 Uhr statt.",
+    "example_vi": "Bài giảng về vật lý lượng tử diễn ra vào mỗi thứ Hai lúc 10 giờ."
+  },
+  {
+    "word": "Übung",
+    "meaning_vi": "bài tập",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Zur Vorlesung gibt es auch eine praktische Übung im Labor.",
+    "example_vi": "Kèm theo bài giảng còn có một bài tập thực hành trong phòng thí nghiệm."
+  },
+  {
+    "word": "Referat",
+    "meaning_vi": "bài thuyết trình",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Nächste Woche muss ich ein Referat über den Zweiten Weltkrieg halten.",
+    "example_vi": "Tuần tới tôi phải thuyết trình một bài về Chiến tranh Thế giới thứ hai."
+  },
+  {
+    "word": "Klausur",
+    "meaning_vi": "bài thi",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Die Klausur in Mathematik war sehr schwierig, aber ich habe bestanden.",
+    "example_vi": "Bài thi môn Toán rất khó, nhưng tôi đã đậu."
+  },
+  {
+    "word": "Semester",
+    "meaning_vi": "học kỳ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Das Wintersemester beginnt im Oktober und endet im März.",
+    "example_vi": "Học kỳ mùa đông bắt đầu vào tháng Mười và kết thúc vào tháng Ba."
+  },
+  {
+    "word": "Dozent",
+    "meaning_vi": "giảng viên",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Unser Dozent erklärt die komplexen Themen sehr verständlich.",
+    "example_vi": "Giảng viên của chúng tôi giải thích các chủ đề phức tạp một cách rất dễ hiểu."
+  },
+  {
+    "word": "Professor",
+    "meaning_vi": "giáo sư",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research",
+    "example_de": "Professor Müller ist ein anerkannter Experte auf dem Gebiet der Biochemie.",
+    "example_vi": "Giáo sư Müller là một chuyên gia được công nhận trong lĩnh vực hóa sinh."
+  },
+  {
+    "word": "Miete",
+    "meaning_vi": "tiền thuê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Die Miete für die Wohnung beträgt 800 Euro pro Monat.",
+    "example_vi": "Tiền thuê cho căn hộ là 800 Euro mỗi tháng."
+  },
+  {
+    "word": "Mieter",
+    "meaning_vi": "người thuê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Der Mieter muss die Wohnung sauber halten.",
+    "example_vi": "Người thuê phải giữ căn hộ sạch sẽ."
+  },
+  {
+    "word": "Vermieter",
+    "meaning_vi": "người cho thuê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Der Vermieter hat die Heizung reparieren lassen.",
+    "example_vi": "Người cho thuê đã cho sửa hệ thống sưởi."
+  },
+  {
+    "word": "Mietvertrag",
+    "meaning_vi": "hợp đồng thuê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Wir haben gestern den Mietvertrag unterschrieben.",
+    "example_vi": "Hôm qua chúng tôi đã ký hợp đồng thuê."
+  },
+  {
+    "word": "Kaution",
+    "meaning_vi": "tiền đặt cọc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Die Kaution beträgt normalerweise drei Monatsmieten.",
+    "example_vi": "Tiền đặt cọc thường bằng ba tháng tiền thuê."
+  },
+  {
+    "word": "Nebenkosten",
+    "meaning_vi": "chi phí phụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Die Nebenkosten sind in der Miete nicht enthalten.",
+    "example_vi": "Chi phí phụ không được bao gồm trong tiền thuê."
+  },
+  {
+    "word": "Heizung",
+    "meaning_vi": "hệ thống sưởi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Im Winter funktioniert die Heizung nicht richtig.",
+    "example_vi": "Vào mùa đông hệ thống sưởi không hoạt động đúng cách."
+  },
+  {
+    "word": "Strom",
+    "meaning_vi": "điện",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Der Strom ist sehr teuer geworden.",
+    "example_vi": "Tiền điện đã trở nên rất đắt."
+  },
+  {
+    "word": "Gas",
+    "meaning_vi": "ga",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Wir kochen mit Gas in unserer Küche.",
+    "example_vi": "Chúng tôi nấu ăn bằng ga trong nhà bếp."
+  },
+  {
+    "word": "Wasser",
+    "meaning_vi": "nước",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Das Wasser ist in den Nebenkosten enthalten.",
+    "example_vi": "Tiền nước được bao gồm trong chi phí phụ."
+  },
+  {
+    "word": "Müll",
+    "meaning_vi": "rác",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Der Müll wird jeden Dienstag abgeholt.",
+    "example_vi": "Rác được thu gom vào mỗi thứ Ba."
+  },
+  {
+    "word": "Renovierung",
+    "meaning_vi": "sửa chữa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Nach der Renovierung sieht die Wohnung viel schöner aus.",
+    "example_vi": "Sau khi sửa chữa, căn hộ trông đẹp hơn nhiều."
+  },
+  {
+    "word": "Umzug",
+    "meaning_vi": "chuyển nhà",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Der Umzug in die neue Wohnung war sehr stressig.",
+    "example_vi": "Việc chuyển nhà đến căn hộ mới rất căng thẳng."
+  },
+  {
+    "word": "Einzug",
+    "meaning_vi": "dọn vào",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Der Einzug ist für nächsten Monat geplant.",
+    "example_vi": "Việc dọn vào được lên kế hoạch cho tháng tới."
+  },
+  {
+    "word": "Auszug",
+    "meaning_vi": "dọn ra",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Beim Auszug muss die Wohnung renoviert werden.",
+    "example_vi": "Khi dọn ra, căn hộ phải được sửa chữa."
+  },
+  {
+    "word": "Nachbar",
+    "meaning_vi": "hàng xóm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Mein Nachbar ist sehr freundlich und hilfsbereit.",
+    "example_vi": "Hàng xóm của tôi rất thân thiện và hay giúp đỡ."
+  },
+  {
+    "word": "Hausmeister",
+    "meaning_vi": "quản lý tòa nhà",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Der Hausmeister kümmert sich um die Reparaturen im Gebäude.",
+    "example_vi": "Quản lý tòa nhà lo việc sửa chữa trong tòa nhà."
+  },
+  {
+    "word": "Hausverwaltung",
+    "meaning_vi": "ban quản lý nhà",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Bei Problemen können Sie sich an die Hausverwaltung wenden.",
+    "example_vi": "Khi có vấn đề, bạn có thể liên hệ với ban quản lý nhà."
+  },
+  {
+    "word": "mieten",
+    "meaning_vi": "thuê",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Wir möchten eine Wohnung in der Stadtmitte mieten.",
+    "example_vi": "Chúng tôi muốn thuê một căn hộ ở trung tâm thành phố."
+  },
+  {
+    "word": "vermieten",
+    "meaning_vi": "cho thuê",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Sie vermieten ihr Haus an eine junge Familie.",
+    "example_vi": "Họ cho thuê ngôi nhà của mình cho một gia đình trẻ."
+  },
+  {
+    "word": "kündigen",
+    "meaning_vi": "hủy hợp đồng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Ich muss meinen Mietvertrag drei Monate im Voraus kündigen.",
+    "example_vi": "Tôi phải hủy hợp đồng thuê nhà trước ba tháng."
+  },
+  {
+    "word": "einziehen",
+    "meaning_vi": "dọn vào",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Wir ziehen nächsten Monat in unsere neue Wohnung ein.",
+    "example_vi": "Chúng tôi sẽ dọn vào căn hộ mới vào tháng sau."
+  },
+  {
+    "word": "ausziehen",
+    "meaning_vi": "dọn ra",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Die Studenten müssen bis Ende Juli aus dem Wohnheim ausziehen.",
+    "example_vi": "Các sinh viên phải dọn ra khỏi ký túc xá trước cuối tháng Bảy."
+  },
+  {
+    "word": "renovieren",
+    "meaning_vi": "sửa chữa",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Der Vermieter will die Küche und das Badezimmer renovieren.",
+    "example_vi": "Chủ nhà muốn sửa chữa nhà bếp và phòng tắm."
+  },
+  {
+    "word": "möbliert",
+    "meaning_vi": "có nội thất",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "housing_real_estate",
+    "example_de": "Ich suche ein möbliertes Zimmer in der Nähe der Universität.",
+    "example_vi": "Tôi đang tìm một phòng có nội thất gần trường đại học."
+  },
+  {
+    "word": "Versicherung",
+    "meaning_vi": "bảo hiểm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "In Deutschland ist eine Krankenversicherung für alle Pflicht.",
+    "example_vi": "Ở Đức, bảo hiểm y tế là bắt buộc đối với tất cả mọi người."
+  },
+  {
+    "word": "Krankenversicherung",
+    "meaning_vi": "bảo hiểm y tế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Meine Krankenversicherung übernimmt die Kosten für die Operation.",
+    "example_vi": "Bảo hiểm y tế của tôi sẽ chi trả chi phí phẫu thuật."
+  },
+  {
+    "word": "Rentenversicherung",
+    "meaning_vi": "bảo hiểm hưu trí",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Arbeitnehmer zahlen monatlich in die gesetzliche Rentenversicherung ein.",
+    "example_vi": "Người lao động đóng hàng tháng vào quỹ bảo hiểm hưu trí theo luật định."
+  },
+  {
+    "word": "Arbeitslosenversicherung",
+    "meaning_vi": "bảo hiểm thất nghiệp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Die Arbeitslosenversicherung sichert mich ab, falls ich meinen Job verliere.",
+    "example_vi": "Bảo hiểm thất nghiệp bảo vệ tôi trong trường hợp tôi mất việc."
+  },
+  {
+    "word": "Pflegeversicherung",
+    "meaning_vi": "bảo hiểm chăm sóc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Die Pflegeversicherung hilft bei den Kosten für die Altenpflege.",
+    "example_vi": "Bảo hiểm chăm sóc hỗ trợ chi phí chăm sóc người cao tuổi."
+  },
+  {
+    "word": "Haftpflichtversicherung",
+    "meaning_vi": "bảo hiểm trách nhiệm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Eine private Haftpflichtversicherung ist sehr empfehlenswert in Deutschland.",
+    "example_vi": "Bảo hiểm trách nhiệm dân sự cá nhân rất được khuyến khích ở Đức."
+  },
+  {
+    "word": "Hausratversicherung",
+    "meaning_vi": "bảo hiểm tài sản",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Nach dem Einbruch hat die Hausratversicherung den Schaden ersetzt.",
+    "example_vi": "Sau vụ trộm, bảo hiểm tài sản đã bồi thường thiệt hại."
+  },
+  {
+    "word": "Lebensversicherung",
+    "meaning_vi": "bảo hiểm nhân thọ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Er hat eine Lebensversicherung abgeschlossen, um seine Familie abzusichern.",
+    "example_vi": "Anh ấy đã mua bảo hiểm nhân thọ để bảo vệ gia đình mình."
+  },
+  {
+    "word": "Beitrag",
+    "meaning_vi": "khoản đóng góp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Der monatliche Beitrag zur Krankenversicherung beträgt 350 Euro.",
+    "example_vi": "Khoản đóng góp hàng tháng cho bảo hiểm y tế là 350 Euro."
+  },
+  {
+    "word": "Prämie",
+    "meaning_vi": "phí bảo hiểm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Die Prämie für meine Autoversicherung ist dieses Jahr gestiegen.",
+    "example_vi": "Phí bảo hiểm xe hơi của tôi đã tăng trong năm nay."
+  },
+  {
+    "word": "Leistung",
+    "meaning_vi": "quyền lợi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Die Leistungen der gesetzlichen Krankenkasse sind sehr umfangreich.",
+    "example_vi": "Quyền lợi của quỹ bảo hiểm y tế theo luật định rất toàn diện."
+  },
+  {
+    "word": "Sozialversicherung",
+    "meaning_vi": "bảo hiểm xã hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Jeder Arbeitnehmer muss in die Sozialversicherung einzahlen.",
+    "example_vi": "Mọi người lao động phải đóng vào quỹ bảo hiểm xã hội."
+  },
+  {
+    "word": "Krankenkasse",
+    "meaning_vi": "quỹ bảo hiểm y tế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Ich bin bei der AOK Krankenkasse versichert.",
+    "example_vi": "Tôi được bảo hiểm tại quỹ bảo hiểm y tế AOK."
+  },
+  {
+    "word": "Arbeitslosengeld",
+    "meaning_vi": "trợ cấp thất nghiệp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Nach der Kündigung habe ich sechs Monate lang Arbeitslosengeld bekommen.",
+    "example_vi": "Sau khi bị sa thải, tôi đã nhận trợ cấp thất nghiệp trong sáu tháng."
+  },
+  {
+    "word": "Kindergeld",
+    "meaning_vi": "trợ cấp nuôi con",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Eltern erhalten monatlich Kindergeld für jedes Kind bis zum 18. Lebensjahr.",
+    "example_vi": "Cha mẹ nhận trợ cấp nuôi con hàng tháng cho mỗi đứa trẻ đến 18 tuổi."
+  },
+  {
+    "word": "Elterngeld",
+    "meaning_vi": "trợ cấp thai sản",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Nach der Geburt ihres Kindes hat Maria zwölf Monate Elterngeld beantragt.",
+    "example_vi": "Sau khi sinh con, Maria đã xin trợ cấp thai sản trong mười hai tháng."
+  },
+  {
+    "word": "Wohngeld",
+    "meaning_vi": "trợ cấp nhà ở",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Familien mit niedrigem Einkommen können Wohngeld beim Amt beantragen.",
+    "example_vi": "Các gia đình có thu nhập thấp có thể xin trợ cấp nhà ở tại cơ quan chức năng."
+  },
+  {
+    "word": "Sozialhilfe",
+    "meaning_vi": "trợ cấp xã hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Menschen ohne Einkommen haben Anspruch auf Sozialhilfe vom Staat.",
+    "example_vi": "Những người không có thu nhập có quyền nhận trợ cấp xã hội từ nhà nước."
+  },
+  {
+    "word": "Rente",
+    "meaning_vi": "lương hưu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "Mein Großvater bekommt seit seinem 67. Lebensjahr eine monatliche Rente.",
+    "example_vi": "Ông tôi nhận lương hưu hàng tháng kể từ khi 67 tuổi."
+  },
+  {
+    "word": "versichern",
+    "meaning_vi": "bảo hiểm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "insurance_social",
+    "example_de": "In Deutschland muss man sich krankenversichern, das ist Pflicht.",
+    "example_vi": "Ở Đức, mọi người phải mua bảo hiểm y tế, đó là bắt buộc."
+  }
+]

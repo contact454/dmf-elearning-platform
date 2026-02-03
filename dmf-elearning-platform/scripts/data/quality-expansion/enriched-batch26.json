@@ -1,0 +1,1127 @@
+[
+  {
+    "word": "das Taxi",
+    "level": "A1",
+    "topic": "transport",
+    "pos": "noun",
+    "meaning_vi": "xe taxi",
+    "example_de": "Ich nehme ein Taxi zum Flughafen.",
+    "example_vi": "Tôi bắt một chiếc taxi đến sân bay."
+  },
+  {
+    "word": "der Zug",
+    "level": "A1",
+    "topic": "transport",
+    "pos": "noun",
+    "meaning_vi": "tàu hỏa",
+    "example_de": "Der Zug nach Berlin fährt um 10 Uhr ab.",
+    "example_vi": "Chuyến tàu đi Berlin khởi hành lúc 10 giờ."
+  },
+  {
+    "word": "das Flugzeug",
+    "level": "A1",
+    "topic": "transport",
+    "pos": "noun",
+    "meaning_vi": "máy bay",
+    "example_de": "Das Flugzeug landet in einer Stunde.",
+    "example_vi": "Máy bay sẽ hạ cánh trong một giờ nữa."
+  },
+  {
+    "word": "das Schiff",
+    "level": "A1",
+    "topic": "transport",
+    "pos": "noun",
+    "meaning_vi": "tàu thủy",
+    "example_de": "Wir fahren mit dem Schiff nach Griechenland.",
+    "example_vi": "Chúng tôi đi tàu thủy đến Hy Lạp."
+  },
+  {
+    "word": "die U-Bahn",
+    "level": "A1",
+    "topic": "transport",
+    "pos": "noun",
+    "meaning_vi": "tàu điện ngầm",
+    "example_de": "Die U-Bahn ist schneller als der Bus.",
+    "example_vi": "Tàu điện ngầm nhanh hơn xe buýt."
+  },
+  {
+    "word": "die Straßenbahn",
+    "level": "A1",
+    "topic": "transport",
+    "pos": "noun",
+    "meaning_vi": "xe điện",
+    "example_de": "Die Straßenbahn hält direkt vor meinem Haus.",
+    "example_vi": "Xe điện dừng ngay trước nhà tôi."
+  },
+  {
+    "word": "der Bahnhof",
+    "level": "A1",
+    "topic": "place",
+    "pos": "noun",
+    "meaning_vi": "nhà ga",
+    "example_de": "Der Bahnhof ist nur fünf Minuten zu Fuß entfernt.",
+    "example_vi": "Nhà ga chỉ cách đây 5 phút đi bộ."
+  },
+  {
+    "word": "der Flughafen",
+    "level": "A1",
+    "topic": "place",
+    "pos": "noun",
+    "meaning_vi": "sân bay",
+    "example_de": "Der Flughafen Frankfurt ist sehr groß.",
+    "example_vi": "Sân bay Frankfurt rất lớn."
+  },
+  {
+    "word": "die Haltestelle",
+    "level": "A1",
+    "topic": "place",
+    "pos": "noun",
+    "meaning_vi": "trạm dừng",
+    "example_de": "An der nächsten Haltestelle muss ich aussteigen.",
+    "example_vi": "Tôi phải xuống ở trạm dừng tiếp theo."
+  },
+  {
+    "word": "die Fahrkarte",
+    "level": "A1",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "vé xe",
+    "example_de": "Ich habe meine Fahrkarte online gekauft.",
+    "example_vi": "Tôi đã mua vé xe trực tuyến."
+  },
+  {
+    "word": "der Führerschein",
+    "level": "A1",
+    "topic": "document",
+    "pos": "noun",
+    "meaning_vi": "bằng lái xe",
+    "example_de": "Ohne Führerschein darf man nicht Auto fahren.",
+    "example_vi": "Không có bằng lái xe thì không được phép lái ô tô."
+  },
+  {
+    "word": "der Reisepass",
+    "level": "A1",
+    "topic": "document",
+    "pos": "noun",
+    "meaning_vi": "hộ chiếu",
+    "example_de": "Für die Reise brauche ich meinen Reisepass.",
+    "example_vi": "Để đi du lịch tôi cần hộ chiếu của mình."
+  },
+  {
+    "word": "der Ausweis",
+    "level": "A1",
+    "topic": "document",
+    "pos": "noun",
+    "meaning_vi": "chứng minh thư",
+    "example_de": "Können Sie mir bitte Ihren Ausweis zeigen?",
+    "example_vi": "Bạn có thể cho tôi xem chứng minh thư của bạn được không?"
+  },
+  {
+    "word": "die Unterschrift",
+    "level": "A1",
+    "topic": "document",
+    "pos": "noun",
+    "meaning_vi": "chữ ký",
+    "example_de": "Hier brauche ich Ihre Unterschrift.",
+    "example_vi": "Ở đây tôi cần chữ ký của bạn."
+  },
+  {
+    "word": "das Formular",
+    "level": "A1",
+    "topic": "document",
+    "pos": "noun",
+    "meaning_vi": "mẫu đơn",
+    "example_de": "Bitte füllen Sie dieses Formular aus.",
+    "example_vi": "Vui lòng điền vào mẫu đơn này."
+  },
+  {
+    "word": "der Stempel",
+    "level": "A1",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "con dấu",
+    "example_de": "Das Dokument braucht noch einen offiziellen Stempel.",
+    "example_vi": "Tài liệu này còn cần một con dấu chính thức."
+  },
+  {
+    "word": "die Kopie",
+    "level": "A1",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "bản sao",
+    "example_de": "Ich brauche eine Kopie von meinem Vertrag.",
+    "example_vi": "Tôi cần một bản sao hợp đồng của mình."
+  },
+  {
+    "word": "das Original",
+    "level": "A1",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "bản gốc",
+    "example_de": "Bringen Sie bitte das Original mit.",
+    "example_vi": "Vui lòng mang theo bản gốc."
+  },
+  {
+    "word": "der Drucker",
+    "level": "A1",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "máy in",
+    "example_de": "Der Drucker funktioniert nicht mehr.",
+    "example_vi": "Máy in không hoạt động nữa."
+  },
+  {
+    "word": "die Datei",
+    "level": "A1",
+    "topic": "computer",
+    "pos": "noun",
+    "meaning_vi": "tệp tin",
+    "example_de": "Ich kann die Datei nicht öffnen.",
+    "example_vi": "Tôi không thể mở tệp tin này."
+  },
+  {
+    "word": "die Abfahrt",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "sự khởi hành",
+    "example_de": "Die Abfahrt des Zuges nach Berlin ist um 10:30 Uhr.",
+    "example_vi": "Chuyến tàu khởi hành đi Berlin lúc 10:30."
+  },
+  {
+    "word": "die Ankunft",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "sự đến nơi",
+    "example_de": "Die Ankunft in München ist für 14:45 Uhr geplant.",
+    "example_vi": "Dự kiến đến Munich lúc 14:45."
+  },
+  {
+    "word": "die Verspätung",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "sự chậm trễ",
+    "example_de": "Der ICE hat heute 20 Minuten Verspätung.",
+    "example_vi": "Tàu ICE hôm nay bị chậm 20 phút."
+  },
+  {
+    "word": "der Umstieg",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "việc chuyển tàu/xe",
+    "example_de": "Der Umstieg in Frankfurt dauert nur 10 Minuten.",
+    "example_vi": "Việc chuyển tàu ở Frankfurt chỉ mất 10 phút."
+  },
+  {
+    "word": "die Verbindung",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "kết nối, chuyến nối",
+    "example_de": "Es gibt eine direkte Verbindung von Hamburg nach Köln.",
+    "example_vi": "Có một chuyến nối trực tiếp từ Hamburg đến Cologne."
+  },
+  {
+    "word": "der Fahrplan",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "lịch trình",
+    "example_de": "Ich muss den Fahrplan überprüfen, bevor ich losfahre.",
+    "example_vi": "Tôi phải kiểm tra lịch trình trước khi khởi hành."
+  },
+  {
+    "word": "das Gleis",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "đường ray, sân ga",
+    "example_de": "Der Zug nach Stuttgart fährt von Gleis 7 ab.",
+    "example_vi": "Tàu đi Stuttgart khởi hành từ đường ray số 7."
+  },
+  {
+    "word": "der Bahnsteig",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "sân ga",
+    "example_de": "Bitte gehen Sie zum Bahnsteig 3.",
+    "example_vi": "Vui lòng đi đến sân ga số 3."
+  },
+  {
+    "word": "die Durchsage",
+    "level": "A2",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "thông báo qua loa",
+    "example_de": "Achtung, eine wichtige Durchsage: Der Zug fällt heute aus.",
+    "example_vi": "Chú ý, một thông báo quan trọng: Chuyến tàu hôm nay bị hủy."
+  },
+  {
+    "word": "die Ermäßigung",
+    "level": "A2",
+    "topic": "shopping",
+    "pos": "noun",
+    "meaning_vi": "giảm giá",
+    "example_de": "Studenten bekommen eine Ermäßigung von 50%.",
+    "example_vi": "Sinh viên được giảm giá 50%."
+  },
+  {
+    "word": "der Rabatt",
+    "level": "A2",
+    "topic": "shopping",
+    "pos": "noun",
+    "meaning_vi": "chiết khấu",
+    "example_de": "Im Sale gibt es 20% Rabatt auf alle Artikel.",
+    "example_vi": "Trong đợt giảm giá có chiết khấu 20% cho tất cả sản phẩm."
+  },
+  {
+    "word": "die Quittung",
+    "level": "A2",
+    "topic": "shopping",
+    "pos": "noun",
+    "meaning_vi": "biên lai",
+    "example_de": "Können Sie mir bitte eine Quittung geben?",
+    "example_vi": "Bạn có thể cho tôi biên lai được không?"
+  },
+  {
+    "word": "der Kassenbon",
+    "level": "A2",
+    "topic": "shopping",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn thu ngân",
+    "example_de": "Bewahren Sie den Kassenbon für die Garantie auf.",
+    "example_vi": "Hãy giữ hóa đơn thu ngân để bảo hành."
+  },
+  {
+    "word": "das Wechselgeld",
+    "level": "A2",
+    "topic": "shopping",
+    "pos": "noun",
+    "meaning_vi": "tiền thối lại",
+    "example_de": "Hier ist Ihr Wechselgeld: 5 Euro und 50 Cent.",
+    "example_vi": "Đây là tiền thối lại của bạn: 5 Euro và 50 cent."
+  },
+  {
+    "word": "die Kreditkarte",
+    "level": "A2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "thẻ tín dụng",
+    "example_de": "Kann ich mit Kreditkarte bezahlen?",
+    "example_vi": "Tôi có thể thanh toán bằng thẻ tín dụng không?"
+  },
+  {
+    "word": "die EC-Karte",
+    "level": "A2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "thẻ ngân hàng",
+    "example_de": "Ich habe meine EC-Karte zu Hause vergessen.",
+    "example_vi": "Tôi đã quên thẻ ngân hàng ở nhà."
+  },
+  {
+    "word": "der Geldautomat",
+    "level": "A2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "máy ATM",
+    "example_de": "Wo ist der nächste Geldautomat?",
+    "example_vi": "Máy ATM gần nhất ở đâu?"
+  },
+  {
+    "word": "die Überweisung",
+    "level": "A2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "chuyển khoản",
+    "example_de": "Die Überweisung dauert normalerweise 1-2 Werktage.",
+    "example_vi": "Chuyển khoản thường mất 1-2 ngày làm việc."
+  },
+  {
+    "word": "abheben",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "rút tiền",
+    "example_de": "Ich möchte 200 Euro vom Konto abheben.",
+    "example_vi": "Tôi muốn rút 200 Euro từ tài khoản."
+  },
+  {
+    "word": "einzahlen",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "nạp tiền",
+    "example_de": "Sie können das Geld am Schalter einzahlen.",
+    "example_vi": "Bạn có thể nạp tiền tại quầy."
+  },
+  {
+    "word": "die Stornierung",
+    "level": "B1",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "sự hủy",
+    "example_de": "Die Stornierung der Hotelbuchung muss mindestens 24 Stunden vor der Anreise erfolgen.",
+    "example_vi": "Việc hủy đặt phòng khách sạn phải được thực hiện ít nhất 24 giờ trước khi đến."
+  },
+  {
+    "word": "die Buchungsbestätigung",
+    "level": "B1",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "xác nhận đặt chỗ",
+    "example_de": "Ich habe die Buchungsbestätigung per E-Mail erhalten.",
+    "example_vi": "Tôi đã nhận được xác nhận đặt chỗ qua email."
+  },
+  {
+    "word": "die Reservierung",
+    "level": "B1",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "đặt trước",
+    "example_de": "Für das Restaurant brauchen wir eine Reservierung für vier Personen.",
+    "example_vi": "Chúng tôi cần đặt trước chỗ cho bốn người tại nhà hàng."
+  },
+  {
+    "word": "der Aufenthalt",
+    "level": "B1",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "thời gian lưu trú",
+    "example_de": "Unser Aufenthalt in Berlin dauert fünf Tage.",
+    "example_vi": "Thời gian lưu trú của chúng tôi ở Berlin kéo dài năm ngày."
+  },
+  {
+    "word": "die Unterkunft",
+    "level": "B1",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "chỗ ở",
+    "example_de": "Wir suchen eine günstige Unterkunft in der Nähe des Bahnhofs.",
+    "example_vi": "Chúng tôi đang tìm một chỗ ở giá rẻ gần ga tàu."
+  },
+  {
+    "word": "die Pension",
+    "level": "B1",
+    "topic": "accommodation",
+    "pos": "noun",
+    "meaning_vi": "nhà nghỉ",
+    "example_de": "Die kleine Pension am See bietet ein gemütliches Ambiente.",
+    "example_vi": "Nhà nghỉ nhỏ bên hồ mang đến bầu không khí ấm cúng."
+  },
+  {
+    "word": "die Jugendherberge",
+    "level": "B1",
+    "topic": "accommodation",
+    "pos": "noun",
+    "meaning_vi": "nhà trọ thanh niên",
+    "example_de": "In der Jugendherberge haben wir viele andere Reisende kennengelernt.",
+    "example_vi": "Ở nhà trọ thanh niên, chúng tôi đã làm quen với nhiều du khách khác."
+  },
+  {
+    "word": "das Einzelzimmer",
+    "level": "B1",
+    "topic": "accommodation",
+    "pos": "noun",
+    "meaning_vi": "phòng đơn",
+    "example_de": "Ich möchte ein Einzelzimmer mit Meerblick buchen.",
+    "example_vi": "Tôi muốn đặt một phòng đơn có view biển."
+  },
+  {
+    "word": "das Doppelzimmer",
+    "level": "B1",
+    "topic": "accommodation",
+    "pos": "noun",
+    "meaning_vi": "phòng đôi",
+    "example_de": "Das Doppelzimmer kostet 120 Euro pro Nacht.",
+    "example_vi": "Phòng đôi có giá 120 euro mỗi đêm."
+  },
+  {
+    "word": "die Halbpension",
+    "level": "B1",
+    "topic": "accommodation",
+    "pos": "noun",
+    "meaning_vi": "bao gồm bữa sáng và tối",
+    "example_de": "Bei der Halbpension sind Frühstück und Abendessen im Preis enthalten.",
+    "example_vi": "Với gói nửa ăn, bữa sáng và bữa tối đã bao gồm trong giá."
+  },
+  {
+    "word": "die Vollpension",
+    "level": "B1",
+    "topic": "accommodation",
+    "pos": "noun",
+    "meaning_vi": "bao gồm 3 bữa",
+    "example_de": "Die Vollpension umfasst alle drei Mahlzeiten am Tag.",
+    "example_vi": "Gói trọn gói bao gồm cả ba bữa ăn trong ngày."
+  },
+  {
+    "word": "die Rezeption",
+    "level": "B1",
+    "topic": "accommodation",
+    "pos": "noun",
+    "meaning_vi": "lễ tân",
+    "example_de": "An der Rezeption können Sie zusätzliche Handtücher bekommen.",
+    "example_vi": "Tại quầy lễ tân, bạn có thể lấy thêm khăn tắm."
+  },
+  {
+    "word": "der Zimmerschlüssel",
+    "level": "B1",
+    "topic": "accommodation",
+    "pos": "noun",
+    "meaning_vi": "chìa khóa phòng",
+    "example_de": "Bitte geben Sie den Zimmerschlüssel beim Auschecken zurück.",
+    "example_vi": "Vui lòng trả chìa khóa phòng khi trả phòng."
+  },
+  {
+    "word": "die Klimatisierung",
+    "level": "B1",
+    "topic": "amenities",
+    "pos": "noun",
+    "meaning_vi": "điều hòa",
+    "example_de": "Alle Zimmer verfügen über eine moderne Klimatisierung.",
+    "example_vi": "Tất cả các phòng đều có hệ thống điều hòa hiện đại."
+  },
+  {
+    "word": "das Frühstücksbuffet",
+    "level": "B1",
+    "topic": "food",
+    "pos": "noun",
+    "meaning_vi": "buffet sáng",
+    "example_de": "Das Frühstücksbuffet wird von 7 bis 10 Uhr serviert.",
+    "example_vi": "Buffet sáng được phục vụ từ 7 giờ đến 10 giờ."
+  },
+  {
+    "word": "stornieren",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "hủy",
+    "example_de": "Können wir die Reservierung kostenlos stornieren?",
+    "example_vi": "Chúng tôi có thể hủy đặt chỗ miễn phí không?"
+  },
+  {
+    "word": "buchen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "đặt chỗ",
+    "example_de": "Ich möchte ein Zimmer für nächstes Wochenende buchen.",
+    "example_vi": "Tôi muốn đặt một phòng cho cuối tuần tới."
+  },
+  {
+    "word": "reservieren",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "đặt trước",
+    "example_de": "Wir haben einen Tisch für 20 Uhr reserviert.",
+    "example_vi": "Chúng tôi đã đặt trước một bàn lúc 20 giờ."
+  },
+  {
+    "word": "auschecken",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "trả phòng",
+    "example_de": "Wir müssen bis 11 Uhr auschecken.",
+    "example_vi": "Chúng tôi phải trả phòng trước 11 giờ."
+  },
+  {
+    "word": "einchecken",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "nhận phòng",
+    "example_de": "Ab 14 Uhr können die Gäste einchecken.",
+    "example_vi": "Từ 14 giờ, khách có thể nhận phòng."
+  },
+  {
+    "word": "die Reiserücktrittsversicherung",
+    "level": "B2",
+    "topic": "insurance",
+    "pos": "noun",
+    "meaning_vi": "bảo hiểm hủy chuyến",
+    "example_de": "Ich habe eine Reiserücktrittsversicherung abgeschlossen, falls ich die Reise wegen Krankheit absagen muss.",
+    "example_vi": "Tôi đã mua bảo hiểm hủy chuyến đi phòng trường hợp tôi phải hủy chuyến vì bệnh tật."
+  },
+  {
+    "word": "die Auslandskrankenversicherung",
+    "level": "B2",
+    "topic": "insurance",
+    "pos": "noun",
+    "meaning_vi": "bảo hiểm y tế nước ngoài",
+    "example_de": "Ohne Auslandskrankenversicherung können die Arztkosten im Urlaub sehr teuer werden.",
+    "example_vi": "Không có bảo hiểm y tế nước ngoài thì chi phí khám bác sĩ trong kỳ nghỉ có thể rất đắt."
+  },
+  {
+    "word": "die Haftpflichtversicherung",
+    "level": "B2",
+    "topic": "insurance",
+    "pos": "noun",
+    "meaning_vi": "bảo hiểm trách nhiệm",
+    "example_de": "Die Haftpflichtversicherung übernimmt die Kosten, wenn ich versehentlich das Handy meines Freundes beschädige.",
+    "example_vi": "Bảo hiểm trách nhiệm sẽ chi trả chi phí nếu tôi vô tình làm hỏng điện thoại của bạn tôi."
+  },
+  {
+    "word": "der Versicherungsfall",
+    "level": "B2",
+    "topic": "insurance",
+    "pos": "noun",
+    "meaning_vi": "trường hợp bảo hiểm",
+    "example_de": "Im Versicherungsfall müssen Sie die Schadensmeldung innerhalb von 48 Stunden einreichen.",
+    "example_vi": "Trong trường hợp bảo hiểm, bạn phải nộp báo cáo thiệt hại trong vòng 48 giờ."
+  },
+  {
+    "word": "die Selbstbeteiligung",
+    "level": "B2",
+    "topic": "insurance",
+    "pos": "noun",
+    "meaning_vi": "phí tự chịu",
+    "example_de": "Bei dieser Versicherung beträgt die Selbstbeteiligung 150 Euro pro Schadensfall.",
+    "example_vi": "Với bảo hiểm này, phí tự chịu là 150 Euro cho mỗi trường hợp thiệt hại."
+  },
+  {
+    "word": "der Schadensersatz",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "bồi thường thiệt hại",
+    "example_de": "Nach dem Unfall forderte er vom Verursacher einen Schadensersatz von 5000 Euro.",
+    "example_vi": "Sau tai nạn, anh ấy yêu cầu người gây ra bồi thường thiệt hại 5000 Euro."
+  },
+  {
+    "word": "die Haftung",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "trách nhiệm pháp lý",
+    "example_de": "Der Vermieter übernimmt keine Haftung für persönliche Gegenstände der Mieter.",
+    "example_vi": "Chủ nhà không chịu trách nhiệm pháp lý cho đồ dùng cá nhân của người thuê."
+  },
+  {
+    "word": "die Kulanz",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "sự thông cảm, ưu đãi",
+    "example_de": "Obwohl die Garantie abgelaufen war, reparierte die Firma das Gerät aus Kulanz kostenlos.",
+    "example_vi": "Mặc dù bảo hành đã hết hạn, công ty vẫn sửa thiết bị miễn phí vì sự thông cảm."
+  },
+  {
+    "word": "die Beschwerde",
+    "level": "B2",
+    "topic": "consumer",
+    "pos": "noun",
+    "meaning_vi": "khiếu nại",
+    "example_de": "Ich habe eine Beschwerde beim Kundenservice eingereicht, weil die Lieferung zu spät ankam.",
+    "example_vi": "Tôi đã nộp đơn khiếu nại lên bộ phận chăm sóc khách hàng vì hàng giao đến quá muộn."
+  },
+  {
+    "word": "die Schlichtung",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "hòa giải",
+    "example_de": "Die beiden Parteien einigten sich auf eine Schlichtung statt eines Gerichtsverfahrens.",
+    "example_vi": "Hai bên đã đồng ý hòa giải thay vì tiến hành tố tụng tại tòa."
+  },
+  {
+    "word": "der Widerspruch",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "phản đối",
+    "example_de": "Gegen die Ablehnung meines Antrags habe ich fristgerecht Widerspruch eingelegt.",
+    "example_vi": "Tôi đã nộp đơn phản đối đúng hạn chống lại việc từ chối đơn xin của tôi."
+  },
+  {
+    "word": "die Frist",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thời hạn",
+    "example_de": "Die Frist für die Bewerbung endet am 31. Dezember.",
+    "example_vi": "Thời hạn nộp đơn ứng tuyển kết thúc vào ngày 31 tháng 12."
+  },
+  {
+    "word": "versichern",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "bảo hiểm",
+    "example_de": "Ich möchte mein neues Auto gegen Diebstahl versichern.",
+    "example_vi": "Tôi muốn bảo hiểm xe hơi mới của tôi chống trộm cắp."
+  },
+  {
+    "word": "haften",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "chịu trách nhiệm",
+    "example_de": "Der Fahrer haftet für alle Schäden, die während der Mietzeit entstehen.",
+    "example_vi": "Người lái xe chịu trách nhiệm cho mọi thiệt hại phát sinh trong thời gian thuê."
+  },
+  {
+    "word": "entschädigen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "bồi thường",
+    "example_de": "Die Fluggesellschaft muss die Passagiere für die Verspätung entschädigen.",
+    "example_vi": "Hãng hàng không phải bồi thường cho hành khách vì sự chậm trễ."
+  },
+  {
+    "word": "widersprechen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "phản đối",
+    "example_de": "Ich muss Ihnen widersprechen – diese Aussage ist nicht korrekt.",
+    "example_vi": "Tôi phải phản đối ý kiến của bạn – tuyên bố này không chính xác."
+  },
+  {
+    "word": "einhalten",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "tuân thủ",
+    "example_de": "Es ist wichtig, die vereinbarten Termine einzuhalten.",
+    "example_vi": "Việc tuân thủ các cuộc hẹn đã thỏa thuận là rất quan trọng."
+  },
+  {
+    "word": "überschreiten",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "vượt quá",
+    "example_de": "Wenn Sie die Geschwindigkeitsbegrenzung überschreiten, müssen Sie ein Bußgeld zahlen.",
+    "example_vi": "Nếu bạn vượt quá giới hạn tốc độ, bạn phải trả tiền phạt."
+  },
+  {
+    "word": "beanstanden",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "khiếu nại",
+    "example_de": "Ich möchte die Qualität der gelieferten Ware beanstanden.",
+    "example_vi": "Tôi muốn khiếu nại về chất lượng hàng hóa được giao."
+  },
+  {
+    "word": "geltend machen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "đòi quyền lợi",
+    "example_de": "Sie können Ihre Ansprüche auf Schadensersatz innerhalb von drei Jahren geltend machen.",
+    "example_vi": "Bạn có thể đòi quyền lợi bồi thường thiệt hại trong vòng ba năm."
+  },
+  {
+    "word": "die Beweislast",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "nghĩa vụ chứng minh",
+    "example_de": "Die Beweislast für die Vertragsverletzung liegt beim Kläger.",
+    "example_vi": "Nghĩa vụ chứng minh vi phạm hợp đồng thuộc về nguyên đơn."
+  },
+  {
+    "word": "die Verjährung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "hết thời hiệu",
+    "example_de": "Die Verjährung für Schadensersatzansprüche beträgt in der Regel drei Jahre.",
+    "example_vi": "Thời hiệu yêu cầu bồi thường thiệt hại thường là ba năm."
+  },
+  {
+    "word": "die Zuständigkeit",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thẩm quyền",
+    "example_de": "Das Gericht hat die Zuständigkeit für diesen Fall abgelehnt.",
+    "example_vi": "Tòa án đã từ chối thẩm quyền xét xử vụ việc này."
+  },
+  {
+    "word": "das Schiedsgericht",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "tòa trọng tài",
+    "example_de": "Die Parteien haben vereinbart, den Streit vor einem Schiedsgericht zu klären.",
+    "example_vi": "Các bên đã thỏa thuận giải quyết tranh chấp trước tòa trọng tài."
+  },
+  {
+    "word": "der Gerichtsstand",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "nơi xét xử",
+    "example_de": "Der Gerichtsstand richtet sich nach dem Wohnsitz des Beklagten.",
+    "example_vi": "Nơi xét xử được xác định theo nơi cư trú của bị đơn."
+  },
+  {
+    "word": "die Rechtsmittel",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "kháng cáo",
+    "example_de": "Gegen das Urteil können innerhalb eines Monats Rechtsmittel eingelegt werden.",
+    "example_vi": "Có thể kháng cáo bản án trong vòng một tháng."
+  },
+  {
+    "word": "die Berufung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "kháng cáo",
+    "example_de": "Der Anwalt hat Berufung gegen das erstinstanzliche Urteil eingelegt.",
+    "example_vi": "Luật sư đã kháng cáo bản án sơ thẩm."
+  },
+  {
+    "word": "die Revision",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "phúc thẩm",
+    "example_de": "Die Revision wurde vom Bundesgerichtshof zugelassen.",
+    "example_vi": "Đơn phúc thẩm đã được Tòa án Liên bang chấp nhận."
+  },
+  {
+    "word": "das Urteil",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "bản án",
+    "example_de": "Das Urteil des Gerichts wurde gestern verkündet.",
+    "example_vi": "Bản án của tòa đã được tuyên vào ngày hôm qua."
+  },
+  {
+    "word": "der Beschluss",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyết định",
+    "example_de": "Der Beschluss über die einstweilige Verfügung erging am Freitag.",
+    "example_vi": "Quyết định về lệnh tạm thời đã được ban hành vào thứ Sáu."
+  },
+  {
+    "word": "verjähren",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "hết thời hiệu",
+    "example_de": "Der Anspruch ist bereits verjährt und kann nicht mehr geltend gemacht werden.",
+    "example_vi": "Quyền yêu cầu đã hết thời hiệu và không thể khẳng định được nữa."
+  },
+  {
+    "word": "anfechten",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "kháng cáo",
+    "example_de": "Der Vertrag kann wegen arglistiger Täuschung angefochten werden.",
+    "example_vi": "Hợp đồng có thể bị kháng cáo do lừa dối có chủ đích."
+  },
+  {
+    "word": "vollstrecken",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "thi hành án",
+    "example_de": "Der Gerichtsvollzieher wird das Urteil nächste Woche vollstrecken.",
+    "example_vi": "Chấp hành viên sẽ thi hành án vào tuần tới."
+  },
+  {
+    "word": "schlichten",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "hòa giải",
+    "example_de": "Ein Mediator wurde beauftragt, den Konflikt zu schlichten.",
+    "example_vi": "Một người hòa giải đã được giao nhiệm vụ hòa giải xung đột."
+  },
+  {
+    "word": "verhandeln",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "đàm phán",
+    "example_de": "Die Anwälte verhandeln derzeit über einen Vergleich.",
+    "example_vi": "Các luật sư hiện đang đàm phán về một thỏa thuận."
+  },
+  {
+    "word": "die Bestandskraft",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "hiệu lực pháp lý",
+    "example_de": "Der Verwaltungsakt hat Bestandskraft erlangt und kann nicht mehr geändert werden.",
+    "example_vi": "Quyết định hành chính đã có hiệu lực pháp lý và không thể thay đổi được nữa."
+  },
+  {
+    "word": "die Rechtskraft",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "hiệu lực thi hành",
+    "example_de": "Das Urteil hat Rechtskraft erlangt, da keine Rechtsmittel eingelegt wurden.",
+    "example_vi": "Bản án đã có hiệu lực thi hành vì không có kháng cáo nào được đệ trình."
+  },
+  {
+    "word": "die Nichtigkeitsklage",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "kiện vô hiệu",
+    "example_de": "Eine Nichtigkeitsklage wurde gegen das Patent eingereicht.",
+    "example_vi": "Đơn kiện vô hiệu đã được nộp chống lại bằng sáng chế."
+  },
+  {
+    "word": "der Unterlassungsanspruch",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "yêu cầu chấm dứt vi phạm",
+    "example_de": "Der Markeninhaber hat einen Unterlassungsanspruch gegen den Verletzer.",
+    "example_vi": "Chủ sở hữu nhãn hiệu có quyền yêu cầu chấm dứt vi phạm đối với người vi phạm."
+  },
+  {
+    "word": "die Beweisaufnahme",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thu thập chứng cứ",
+    "example_de": "Die Beweisaufnahme wird in der nächsten Verhandlung fortgesetzt.",
+    "example_vi": "Việc thu thập chứng cứ sẽ được tiếp tục trong phiên xét xử tiếp theo."
+  },
+  {
+    "word": "die Aussetzung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "tạm đình chỉ",
+    "example_de": "Das Gericht hat die Aussetzung des Verfahrens bis zur Klärung der Rechtsfrage angeordnet.",
+    "example_vi": "Tòa án đã ra lệnh tạm đình chỉ thủ tục tố tụng cho đến khi làm rõ vấn đề pháp lý."
+  },
+  {
+    "word": "der Instanzenzug",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "cấp xét xử",
+    "example_de": "Der Kläger kann den Instanzenzug bis zum Bundesgerichtshof durchlaufen.",
+    "example_vi": "Nguyên đơn có thể trải qua các cấp xét xử cho đến Tòa án Liên bang."
+  },
+  {
+    "word": "die Prozessführung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "tiến hành tố tụng",
+    "example_de": "Die Prozessführung liegt in den Händen eines erfahrenen Rechtsanwalts.",
+    "example_vi": "Việc tiến hành tố tụng nằm trong tay của một luật sư có kinh nghiệm."
+  },
+  {
+    "word": "das Prozesskostenhilfe",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "trợ giúp phí tố tụng",
+    "example_de": "Aufgrund seiner finanziellen Situation hat er Prozesskostenhilfe beantragt.",
+    "example_vi": "Do tình hình tài chính của mình, anh ấy đã nộp đơn xin trợ giúp phí tố tụng."
+  },
+  {
+    "word": "die Zwangsvollstreckung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "cưỡng chế thi hành",
+    "example_de": "Bei Nichtzahlung kann der Gläubiger die Zwangsvollstreckung einleiten.",
+    "example_vi": "Trong trường hợp không thanh toán, chủ nợ có thể khởi động thủ tục cưỡng chế thi hành."
+  },
+  {
+    "word": "das Zeugnis",
+    "level": "A2",
+    "topic": "education",
+    "pos": "noun",
+    "meaning_vi": "bằng cấp, chứng chỉ",
+    "example_de": "Für die Bewerbung benötigen Sie ein aktuelles Arbeitszeugnis und alle relevanten Zeugnisse.",
+    "example_vi": "Để nộp đơn xin việc, bạn cần giấy chứng nhận công việc hiện tại và tất cả các bằng cấp liên quan."
+  },
+  {
+    "word": "die Bewerbung",
+    "level": "A2",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "đơn xin việc",
+    "example_de": "Ich habe meine Bewerbung für die Stelle als Projektmanager gestern abgeschickt.",
+    "example_vi": "Tôi đã gửi đơn xin việc cho vị trí quản lý dự án ngày hôm qua."
+  },
+  {
+    "word": "der Lebenslauf",
+    "level": "A2",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "lý lịch",
+    "example_de": "Bitte fügen Sie Ihren Lebenslauf in tabellarischer Form bei.",
+    "example_vi": "Vui lòng đính kèm lý lịch của bạn dưới dạng bảng."
+  },
+  {
+    "word": "das Vorstellungsgespräch",
+    "level": "B1",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "phỏng vấn",
+    "example_de": "Nächste Woche habe ich ein Vorstellungsgespräch bei einem internationalen Unternehmen.",
+    "example_vi": "Tuần tới tôi có buổi phỏng vấn tại một công ty quốc tế."
+  },
+  {
+    "word": "die Probezeit",
+    "level": "B1",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "thời gian thử việc",
+    "example_de": "Die Probezeit beträgt in der Regel sechs Monate.",
+    "example_vi": "Thời gian thử việc thường là sáu tháng."
+  },
+  {
+    "word": "der Arbeitsvertrag",
+    "level": "B1",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "hợp đồng lao động",
+    "example_de": "Vor Arbeitsbeginn müssen beide Parteien den Arbeitsvertrag unterschreiben.",
+    "example_vi": "Trước khi bắt đầu làm việc, cả hai bên phải ký hợp đồng lao động."
+  },
+  {
+    "word": "die Gehaltsabrechnung",
+    "level": "B2",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "bảng lương",
+    "example_de": "Die Gehaltsabrechnung erhalten Sie jeden Monat per E-Mail.",
+    "example_vi": "Bạn sẽ nhận bảng lương qua email mỗi tháng."
+  },
+  {
+    "word": "der Urlaubsanspruch",
+    "level": "B2",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "quyền nghỉ phép",
+    "example_de": "Jeder Arbeitnehmer hat einen gesetzlichen Urlaubsanspruch von mindestens 20 Tagen pro Jahr.",
+    "example_vi": "Mỗi người lao động có quyền nghỉ phép theo luật định ít nhất 20 ngày mỗi năm."
+  },
+  {
+    "word": "die Sozialversicherung",
+    "level": "B2",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "bảo hiểm xã hội",
+    "example_de": "Die Beiträge zur Sozialversicherung werden automatisch vom Gehalt abgezogen.",
+    "example_vi": "Các khoản đóng góp bảo hiểm xã hội được tự động khấu trừ từ lương."
+  },
+  {
+    "word": "der Arbeitgeber",
+    "level": "A2",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "người sử dụng lao động",
+    "example_de": "Der Arbeitgeber ist verpflichtet, ein sicheres Arbeitsumfeld zu gewährleisten.",
+    "example_vi": "Người sử dụng lao động có nghĩa vụ đảm bảo môi trường làm việc an toàn."
+  },
+  {
+    "word": "der Arbeitnehmer",
+    "level": "A2",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "người lao động",
+    "example_de": "Als Arbeitnehmer haben Sie das Recht auf bezahlten Urlaub.",
+    "example_vi": "Là người lao động, bạn có quyền được nghỉ phép có lương."
+  },
+  {
+    "word": "die Stelle",
+    "level": "A2",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "vị trí công việc",
+    "example_de": "Die Stelle wurde bereits mit einem internen Kandidaten besetzt.",
+    "example_vi": "Vị trí công việc đã được lấp đầy bởi một ứng viên nội bộ."
+  },
+  {
+    "word": "bewerben",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "ứng tuyển",
+    "example_de": "Sie können sich online auf unserer Website bewerben.",
+    "example_vi": "Bạn có thể ứng tuyển trực tuyến trên trang web của chúng tôi."
+  },
+  {
+    "word": "einstellen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "tuyển dụng",
+    "example_de": "Das Unternehmen plant, im nächsten Quartal 50 neue Mitarbeiter einzustellen.",
+    "example_vi": "Công ty dự định tuyển dụng 50 nhân viên mới trong quý tới."
+  },
+  {
+    "word": "entlassen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "sa thải",
+    "example_de": "Aufgrund der wirtschaftlichen Krise musste die Firma mehrere Mitarbeiter entlassen.",
+    "example_vi": "Do khủng hoảng kinh tế, công ty đã phải sa thải nhiều nhân viên."
+  },
+  {
+    "word": "befördern",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "thăng chức",
+    "example_de": "Nach fünf Jahren harter Arbeit wurde sie zur Abteilungsleiterin befördert.",
+    "example_vi": "Sau năm năm làm việc chăm chỉ, cô ấy đã được thăng chức lên trưởng phòng."
+  },
+  {
+    "word": "versetzen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "chuyển công tác",
+    "example_de": "Der Manager wird nächsten Monat in die Filiale nach München versetzt.",
+    "example_vi": "Tháng sau người quản lý sẽ được chuyển công tác đến chi nhánh ở Munich."
+  },
+  {
+    "word": "die Beförderung",
+    "level": "B1",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "sự thăng tiến",
+    "example_de": "Seine Beförderung zum Geschäftsführer war eine große Überraschung für alle Kollegen.",
+    "example_vi": "Sự thăng tiến của anh ấy lên giám đốc điều hành là một bất ngờ lớn cho tất cả đồng nghiệp."
+  },
+  {
+    "word": "die Versetzung",
+    "level": "B1",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "sự chuyển công tác",
+    "example_de": "Die Versetzung nach Berlin bedeutet für die ganze Familie einen Umzug.",
+    "example_vi": "Việc chuyển công tác đến Berlin đồng nghĩa với việc cả gia đình phải chuyển nhà."
+  },
+  {
+    "word": "die Entlassung",
+    "level": "B1",
+    "topic": "work",
+    "pos": "noun",
+    "meaning_vi": "sự sa thải",
+    "example_de": "Wegen der wirtschaftlichen Krise musste das Unternehmen die Entlassung von 200 Mitarbeitern ankündigen.",
+    "example_vi": "Do khủng hoảng kinh tế, công ty phải thông báo sa thải 200 nhân viên."
+  }
+]

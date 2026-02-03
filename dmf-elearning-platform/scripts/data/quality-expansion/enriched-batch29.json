@@ -1,0 +1,137 @@
+[
+  {
+    "word": "der Zahnarzt",
+    "level": "A1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "nha sĩ",
+    "example_de": "Ich habe morgen einen Termin beim Zahnarzt, weil mein Zahn schmerzt.",
+    "example_vi": "Tôi có hẹn với nha sĩ vào ngày mai vì răng tôi đau."
+  },
+  {
+    "word": "die Zahnärztin",
+    "level": "A1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "nha sĩ (nữ)",
+    "example_de": "Meine Zahnärztin ist sehr freundlich und erklärt mir immer alles genau.",
+    "example_vi": "Nha sĩ của tôi rất thân thiện và luôn giải thích mọi thứ cho tôi một cách chi tiết."
+  },
+  {
+    "word": "der Tierarzt",
+    "level": "A1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ thú y",
+    "example_de": "Wir müssen unseren Hund zum Tierarzt bringen, er frisst seit gestern nichts mehr.",
+    "example_vi": "Chúng tôi phải đưa chó của mình đến bác sĩ thú y, nó không ăn gì từ hôm qua."
+  },
+  {
+    "word": "die Tierärztin",
+    "level": "A1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ thú y (nữ)",
+    "example_de": "Die Tierärztin hat unsere Katze geimpft und untersucht.",
+    "example_vi": "Bác sĩ thú y đã tiêm phòng và khám cho con mèo của chúng tôi."
+  },
+  {
+    "word": "der Augenarzt",
+    "level": "A2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ nhãn khoa",
+    "example_de": "Der Augenarzt hat festgestellt, dass ich eine Brille brauche.",
+    "example_vi": "Bác sĩ nhãn khoa đã phát hiện ra rằng tôi cần đeo kính."
+  },
+  {
+    "word": "der Hautarzt",
+    "level": "A2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ da liễu",
+    "example_de": "Bei Hautproblemen solltest du einen Hautarzt aufsuchen.",
+    "example_vi": "Khi có vấn đề về da, bạn nên đến gặp bác sĩ da liễu."
+  },
+  {
+    "word": "der Kinderarzt",
+    "level": "A2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ nhi khoa",
+    "example_de": "Der Kinderarzt untersucht meine Tochter regelmäßig und kontrolliert ihre Entwicklung.",
+    "example_vi": "Bác sĩ nhi khoa khám cho con gái tôi thường xuyên và kiểm tra sự phát triển của bé."
+  },
+  {
+    "word": "der Frauenarzt",
+    "level": "A2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ phụ khoa",
+    "example_de": "Schwangere Frauen gehen regelmäßig zum Frauenarzt zur Vorsorgeuntersuchung.",
+    "example_vi": "Phụ nữ mang thai thường xuyên đến gặp bác sĩ phụ khoa để khám thai."
+  },
+  {
+    "word": "der Orthopäde",
+    "level": "B1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ chỉnh hình",
+    "example_de": "Nach meinem Sportunfall hat mich der Orthopäde behandelt und mir Physiotherapie verschrieben.",
+    "example_vi": "Sau tai nạn thể thao, bác sĩ chỉnh hình đã điều trị cho tôi và kê đơn vật lý trị liệu."
+  },
+  {
+    "word": "der Kardiologe",
+    "level": "B1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ tim mạch",
+    "example_de": "Mein Vater muss regelmäßig zum Kardiologen, weil er Herzprobleme hat.",
+    "example_vi": "Bố tôi phải đến gặp bác sĩ tim mạch thường xuyên vì ông có vấn đề về tim."
+  },
+  {
+    "word": "der Neurologe",
+    "level": "B1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ thần kinh",
+    "example_de": "Bei anhaltenden Kopfschmerzen empfiehlt der Hausarzt oft einen Besuch beim Neurologen.",
+    "example_vi": "Khi bị đau đầu kéo dài, bác sĩ gia đình thường khuyên nên đến gặp bác sĩ thần kinh."
+  },
+  {
+    "word": "der Psychiater",
+    "level": "B1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ tâm thần",
+    "example_de": "Der Psychiater kann bei psychischen Erkrankungen Medikamente verschreiben.",
+    "example_vi": "Bác sĩ tâm thần có thể kê đơn thuốc cho các bệnh tâm thần."
+  },
+  {
+    "word": "der Radiologe",
+    "level": "B2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ X-quang",
+    "example_de": "Der Radiologe hat das Röntgenbild ausgewertet und keine Fraktur gefunden.",
+    "example_vi": "Bác sĩ X-quang đã đánh giá phim chụp và không tìm thấy gãy xương."
+  },
+  {
+    "word": "der Onkologe",
+    "level": "B2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ ung thư",
+    "example_de": "Nach der Diagnose wurde sie an einen Onkologen überwiesen, der auf Krebsbehandlung spezialisiert ist.",
+    "example_vi": "Sau khi chẩn đoán, cô ấy được chuyển đến bác sĩ ung thư chuyên về điều trị ung thư."
+  },
+  {
+    "word": "der Anästhesist",
+    "level": "B2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ gây mê",
+    "example_de": "Vor der Operation erklärt der Anästhesist dem Patienten den Ablauf der Narkose.",
+    "example_vi": "Trước ca phẫu thuật, bác sĩ gây mê giải thích cho bệnh nhân quy trình gây mê."
+  }
+]

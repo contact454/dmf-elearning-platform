@@ -1,0 +1,2312 @@
+[
+  {
+    "word": "Fleisch",
+    "meaning_vi": "thịt",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Rindfleisch",
+    "meaning_vi": "thịt bò",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Schweinefleisch",
+    "meaning_vi": "thịt lợn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Hähnchen",
+    "meaning_vi": "thịt gà",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Fisch",
+    "meaning_vi": "cá",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Meeresfrüchte",
+    "meaning_vi": "hải sản",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Ei",
+    "meaning_vi": "trứng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Käse",
+    "meaning_vi": "phô mai",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Joghurt",
+    "meaning_vi": "sữa chua",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Sahne",
+    "meaning_vi": "kem",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Brot",
+    "meaning_vi": "bánh mì",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Brötchen",
+    "meaning_vi": "bánh mì nhỏ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Kuchen",
+    "meaning_vi": "bánh ngọt",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Torte",
+    "meaning_vi": "bánh kem",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Keks",
+    "meaning_vi": "bánh quy",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Schokolade",
+    "meaning_vi": "sô cô la",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Bonbon",
+    "meaning_vi": "kẹo",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Eis",
+    "meaning_vi": "kem",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Suppe",
+    "meaning_vi": "súp",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Soße",
+    "meaning_vi": "nước sốt",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Nudel",
+    "meaning_vi": "mì",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Pizza",
+    "meaning_vi": "pizza",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Salat",
+    "meaning_vi": "salad",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Sandwich",
+    "meaning_vi": "bánh sandwich",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Pommes",
+    "meaning_vi": "khoai tây chiên",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food_cooking_ext"
+  },
+  {
+    "word": "Speisekarte",
+    "meaning_vi": "thực đơn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Vorspeise",
+    "meaning_vi": "món khai vị",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Hauptgericht",
+    "meaning_vi": "món chính",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Nachspeise",
+    "meaning_vi": "tráng miệng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Getränkekarte",
+    "meaning_vi": "menu đồ uống",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Bestellung",
+    "meaning_vi": "đơn hàng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Rechnung",
+    "meaning_vi": "hóa đơn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Trinkgeld",
+    "meaning_vi": "tiền tip",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Reservierung",
+    "meaning_vi": "đặt bàn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Kellner",
+    "meaning_vi": "bồi bàn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Kellnerin",
+    "meaning_vi": "bồi bàn (nữ)",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Tisch",
+    "meaning_vi": "bàn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Stuhl",
+    "meaning_vi": "ghế",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Besteck",
+    "meaning_vi": "bộ dao muỗng nĩa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "bestellen",
+    "meaning_vi": "gọi món",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "servieren",
+    "meaning_vi": "phục vụ",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "probieren",
+    "meaning_vi": "nếm thử",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "lecker",
+    "meaning_vi": "ngon",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "scharf",
+    "meaning_vi": "cay",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "süß",
+    "meaning_vi": "ngọt",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "sauer",
+    "meaning_vi": "chua",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "salzig",
+    "meaning_vi": "mặn",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "bitter",
+    "meaning_vi": "đắng",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "frisch",
+    "meaning_vi": "tươi",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "vegetarisch",
+    "meaning_vi": "chay",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "restaurant_dining"
+  },
+  {
+    "word": "Kostüm",
+    "meaning_vi": "trang phục",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Uniform",
+    "meaning_vi": "đồng phục",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Sportkleidung",
+    "meaning_vi": "quần áo thể thao",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Unterwäsche",
+    "meaning_vi": "đồ lót",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Pyjama",
+    "meaning_vi": "đồ ngủ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Badeanzug",
+    "meaning_vi": "đồ bơi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Bikini",
+    "meaning_vi": "bikini",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Regenjacke",
+    "meaning_vi": "áo mưa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Winterjacke",
+    "meaning_vi": "áo khoác mùa đông",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Weste",
+    "meaning_vi": "áo gile",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Krawatte",
+    "meaning_vi": "cà vạt",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Fliege",
+    "meaning_vi": "nơ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Sandalen",
+    "meaning_vi": "dép sandal",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Turnschuhe",
+    "meaning_vi": "giày thể thao",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Hausschuhe",
+    "meaning_vi": "dép đi trong nhà",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "modisch",
+    "meaning_vi": "thời trang",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "elegant",
+    "meaning_vi": "thanh lịch",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "bequem",
+    "meaning_vi": "thoải mái",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "eng",
+    "meaning_vi": "chật",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "weit",
+    "meaning_vi": "rộng",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "clothing_fashion_ext"
+  },
+  {
+    "word": "Handy",
+    "meaning_vi": "điện thoại di động",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Smartphone",
+    "meaning_vi": "điện thoại thông minh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Ladegerät",
+    "meaning_vi": "sạc",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Akku",
+    "meaning_vi": "pin",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Batterie",
+    "meaning_vi": "pin",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Kabel",
+    "meaning_vi": "dây cáp",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Stecker",
+    "meaning_vi": "phích cắm",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Steckdose",
+    "meaning_vi": "ổ cắm",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Adapter",
+    "meaning_vi": "bộ chuyển đổi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Fernbedienung",
+    "meaning_vi": "điều khiển từ xa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Kamera",
+    "meaning_vi": "máy ảnh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Mikrofon",
+    "meaning_vi": "micro",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Lautsprecher",
+    "meaning_vi": "loa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Kopfhörer",
+    "meaning_vi": "tai nghe",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Bildschirm",
+    "meaning_vi": "màn hình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "aufladen",
+    "meaning_vi": "sạc",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "einschalten",
+    "meaning_vi": "bật",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "ausschalten",
+    "meaning_vi": "tắt",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "verbinden",
+    "meaning_vi": "kết nối",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "trennen",
+    "meaning_vi": "ngắt kết nối",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "electronics_gadgets"
+  },
+  {
+    "word": "Kühlschrank",
+    "meaning_vi": "tủ lạnh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Gefrierschrank",
+    "meaning_vi": "tủ đông",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Waschmaschine",
+    "meaning_vi": "máy giặt",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Trockner",
+    "meaning_vi": "máy sấy",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Bügeleisen",
+    "meaning_vi": "bàn là",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Staubsauger",
+    "meaning_vi": "máy hút bụi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Spülmaschine",
+    "meaning_vi": "máy rửa bát",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Mikrowelle",
+    "meaning_vi": "lò vi sóng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Backofen",
+    "meaning_vi": "lò nướng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Herd",
+    "meaning_vi": "bếp",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Kaffeemaschine",
+    "meaning_vi": "máy pha cà phê",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Wasserkocher",
+    "meaning_vi": "ấm đun nước",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Toaster",
+    "meaning_vi": "máy nướng bánh mì",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Mixer",
+    "meaning_vi": "máy xay",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Ventilator",
+    "meaning_vi": "quạt",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Klimaanlage",
+    "meaning_vi": "điều hòa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Heizung",
+    "meaning_vi": "máy sưởi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Wecker",
+    "meaning_vi": "đồng hồ báo thức",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Fön",
+    "meaning_vi": "máy sấy tóc",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Rasierapparat",
+    "meaning_vi": "máy cạo râu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home_appliances"
+  },
+  {
+    "word": "Basketball",
+    "meaning_vi": "bóng rổ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Volleyball",
+    "meaning_vi": "bóng chuyền",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Handball",
+    "meaning_vi": "bóng ném",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Golf",
+    "meaning_vi": "golf",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Boxen",
+    "meaning_vi": "quyền Anh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Yoga",
+    "meaning_vi": "yoga",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Fitness",
+    "meaning_vi": "thể hình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Gymnastik",
+    "meaning_vi": "thể dục",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Leichtathletik",
+    "meaning_vi": "điền kinh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Skifahren",
+    "meaning_vi": "trượt tuyết",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Snowboarden",
+    "meaning_vi": "trượt ván tuyết",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Eislaufen",
+    "meaning_vi": "trượt băng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Tauchen",
+    "meaning_vi": "lặn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Surfen",
+    "meaning_vi": "lướt sóng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Klettern",
+    "meaning_vi": "leo núi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Angeln",
+    "meaning_vi": "câu cá",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Jagen",
+    "meaning_vi": "săn bắn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Reiten",
+    "meaning_vi": "cưỡi ngựa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Segeln",
+    "meaning_vi": "đi thuyền buồm",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Rudern",
+    "meaning_vi": "chèo thuyền",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "sports_exercise"
+  },
+  {
+    "word": "Musik",
+    "meaning_vi": "âm nhạc",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Lied",
+    "meaning_vi": "bài hát",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Melodie",
+    "meaning_vi": "giai điệu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Rhythmus",
+    "meaning_vi": "nhịp điệu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Ton",
+    "meaning_vi": "âm thanh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Klavier",
+    "meaning_vi": "piano",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Gitarre",
+    "meaning_vi": "guitar",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Geige",
+    "meaning_vi": "violin",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Flöte",
+    "meaning_vi": "sáo",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Trompete",
+    "meaning_vi": "kèn trumpet",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Saxophon",
+    "meaning_vi": "saxophone",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Schlagzeug",
+    "meaning_vi": "trống",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Akkordeon",
+    "meaning_vi": "đàn accordion",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Harfe",
+    "meaning_vi": "đàn hạc",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Sänger",
+    "meaning_vi": "ca sĩ (nam)",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Sängerin",
+    "meaning_vi": "ca sĩ (nữ)",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Band",
+    "meaning_vi": "ban nhạc",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Chor",
+    "meaning_vi": "dàn hợp xướng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "singen",
+    "meaning_vi": "hát",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "spielen",
+    "meaning_vi": "chơi (nhạc cụ)",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "music_instruments"
+  },
+  {
+    "word": "Kunst",
+    "meaning_vi": "nghệ thuật",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Künstler",
+    "meaning_vi": "nghệ sĩ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Maler",
+    "meaning_vi": "họa sĩ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Gemälde",
+    "meaning_vi": "bức tranh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Zeichnung",
+    "meaning_vi": "bản vẽ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Skulptur",
+    "meaning_vi": "tác phẩm điêu khắc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Bildhauer",
+    "meaning_vi": "nhà điêu khắc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Fotograf",
+    "meaning_vi": "nhiếp ảnh gia",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Fotografie",
+    "meaning_vi": "nhiếp ảnh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Galerie",
+    "meaning_vi": "phòng tranh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Ausstellung",
+    "meaning_vi": "triển lãm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Kreativität",
+    "meaning_vi": "sáng tạo",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Inspiration",
+    "meaning_vi": "cảm hứng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "malen",
+    "meaning_vi": "vẽ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "zeichnen",
+    "meaning_vi": "vẽ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "gestalten",
+    "meaning_vi": "thiết kế",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "kreativ",
+    "meaning_vi": "sáng tạo",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "künstlerisch",
+    "meaning_vi": "nghệ thuật",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "originell",
+    "meaning_vi": "độc đáo",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "modern",
+    "meaning_vi": "hiện đại",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "art_creativity"
+  },
+  {
+    "word": "Religion",
+    "meaning_vi": "tôn giáo",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Glaube",
+    "meaning_vi": "đức tin",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Gott",
+    "meaning_vi": "Chúa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Kirche",
+    "meaning_vi": "nhà thờ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Moschee",
+    "meaning_vi": "nhà thờ Hồi giáo",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Tempel",
+    "meaning_vi": "đền",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Synagoge",
+    "meaning_vi": "giáo đường Do Thái",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Gebet",
+    "meaning_vi": "lời cầu nguyện",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Gottesdienst",
+    "meaning_vi": "buổi lễ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Bibel",
+    "meaning_vi": "Kinh thánh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Koran",
+    "meaning_vi": "Kinh Koran",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Priester",
+    "meaning_vi": "linh mục",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Pastor",
+    "meaning_vi": "mục sư",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Mönch",
+    "meaning_vi": "tu sĩ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Nonne",
+    "meaning_vi": "nữ tu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "heilig",
+    "meaning_vi": "thiêng liêng",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "religiös",
+    "meaning_vi": "tôn giáo",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "spirituell",
+    "meaning_vi": "tâm linh",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "beten",
+    "meaning_vi": "cầu nguyện",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "glauben",
+    "meaning_vi": "tin",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "religion_spirituality"
+  },
+  {
+    "word": "Militär",
+    "meaning_vi": "quân đội",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Armee",
+    "meaning_vi": "quân đội",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Soldat",
+    "meaning_vi": "người lính",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Offizier",
+    "meaning_vi": "sĩ quan",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "General",
+    "meaning_vi": "tướng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Krieg",
+    "meaning_vi": "chiến tranh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Frieden",
+    "meaning_vi": "hòa bình",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Waffe",
+    "meaning_vi": "vũ khí",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Panzer",
+    "meaning_vi": "xe tăng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Hubschrauber",
+    "meaning_vi": "trực thăng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Bombe",
+    "meaning_vi": "bom",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Rakete",
+    "meaning_vi": "tên lửa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Sicherheit",
+    "meaning_vi": "an ninh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Gefahr",
+    "meaning_vi": "nguy hiểm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Bedrohung",
+    "meaning_vi": "mối đe dọa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Verteidigung",
+    "meaning_vi": "phòng thủ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Angriff",
+    "meaning_vi": "tấn công",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "kämpfen",
+    "meaning_vi": "chiến đấu",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "verteidigen",
+    "meaning_vi": "bảo vệ",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "angreifen",
+    "meaning_vi": "tấn công",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "military_security"
+  },
+  {
+    "word": "Universum",
+    "meaning_vi": "vũ trụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Weltraum",
+    "meaning_vi": "không gian vũ trụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Planet",
+    "meaning_vi": "hành tinh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Erde",
+    "meaning_vi": "Trái đất",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Mond",
+    "meaning_vi": "Mặt trăng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Sonne",
+    "meaning_vi": "Mặt trời",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Stern",
+    "meaning_vi": "ngôi sao",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Galaxie",
+    "meaning_vi": "thiên hà",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Komet",
+    "meaning_vi": "sao chổi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Asteroid",
+    "meaning_vi": "tiểu hành tinh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Rakete",
+    "meaning_vi": "tên lửa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Raumschiff",
+    "meaning_vi": "tàu vũ trụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Satellit",
+    "meaning_vi": "vệ tinh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Astronaut",
+    "meaning_vi": "phi hành gia",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Teleskop",
+    "meaning_vi": "kính thiên văn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Umlaufbahn",
+    "meaning_vi": "quỹ đạo",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Schwerkraft",
+    "meaning_vi": "trọng lực",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Atmosphäre",
+    "meaning_vi": "khí quyển",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Schwarzes Loch",
+    "meaning_vi": "hố đen",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Sonnensystem",
+    "meaning_vi": "hệ mặt trời",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "space_universe"
+  },
+  {
+    "word": "Katastrophe",
+    "meaning_vi": "thảm họa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Naturkatastrophe",
+    "meaning_vi": "thiên tai",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Erdbeben",
+    "meaning_vi": "động đất",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Tsunami",
+    "meaning_vi": "sóng thần",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Überschwemmung",
+    "meaning_vi": "lũ lụt",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Dürre",
+    "meaning_vi": "hạn hán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Hurrikan",
+    "meaning_vi": "bão",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Tornado",
+    "meaning_vi": "lốc xoáy",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Vulkan",
+    "meaning_vi": "núi lửa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Ausbruch",
+    "meaning_vi": "phun trào",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Lawine",
+    "meaning_vi": "tuyết lở",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Erdrutsch",
+    "meaning_vi": "sạt lở",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Waldbrand",
+    "meaning_vi": "cháy rừng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Blitz",
+    "meaning_vi": "sét",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Hagel",
+    "meaning_vi": "mưa đá",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Evakuierung",
+    "meaning_vi": "sơ tán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Rettung",
+    "meaning_vi": "cứu hộ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Hilfe",
+    "meaning_vi": "cứu trợ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Opfer",
+    "meaning_vi": "nạn nhân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Schaden",
+    "meaning_vi": "thiệt hại",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "natural_events"
+  },
+  {
+    "word": "Zahl",
+    "meaning_vi": "số",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Nummer",
+    "meaning_vi": "số",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Mathematik",
+    "meaning_vi": "toán học",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Rechnung",
+    "meaning_vi": "phép tính",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Addition",
+    "meaning_vi": "phép cộng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Subtraktion",
+    "meaning_vi": "phép trừ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Multiplikation",
+    "meaning_vi": "phép nhân",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Division",
+    "meaning_vi": "phép chia",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Summe",
+    "meaning_vi": "tổng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Differenz",
+    "meaning_vi": "hiệu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Produkt",
+    "meaning_vi": "tích",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Quotient",
+    "meaning_vi": "thương",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Bruch",
+    "meaning_vi": "phân số",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Prozent",
+    "meaning_vi": "phần trăm",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Durchschnitt",
+    "meaning_vi": "trung bình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "rechnen",
+    "meaning_vi": "tính toán",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "addieren",
+    "meaning_vi": "cộng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "subtrahieren",
+    "meaning_vi": "trừ",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "multiplizieren",
+    "meaning_vi": "nhân",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "dividieren",
+    "meaning_vi": "chia",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "math_numbers"
+  },
+  {
+    "word": "Geometrie",
+    "meaning_vi": "hình học",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Kreis",
+    "meaning_vi": "hình tròn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Quadrat",
+    "meaning_vi": "hình vuông",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Rechteck",
+    "meaning_vi": "hình chữ nhật",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Dreieck",
+    "meaning_vi": "tam giác",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Kugel",
+    "meaning_vi": "hình cầu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Würfel",
+    "meaning_vi": "hình lập phương",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Zylinder",
+    "meaning_vi": "hình trụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Pyramide",
+    "meaning_vi": "hình chóp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Kegel",
+    "meaning_vi": "hình nón",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Fläche",
+    "meaning_vi": "diện tích",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Volumen",
+    "meaning_vi": "thể tích",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Umfang",
+    "meaning_vi": "chu vi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Radius",
+    "meaning_vi": "bán kính",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Durchmesser",
+    "meaning_vi": "đường kính",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Winkel",
+    "meaning_vi": "góc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Parallel",
+    "meaning_vi": "song song",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "senkrecht",
+    "meaning_vi": "vuông góc",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "rund",
+    "meaning_vi": "tròn",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "eckig",
+    "meaning_vi": "có góc cạnh",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "geometry_space"
+  },
+  {
+    "word": "Internet",
+    "meaning_vi": "internet",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Website",
+    "meaning_vi": "trang web",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Webseite",
+    "meaning_vi": "trang web",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Homepage",
+    "meaning_vi": "trang chủ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Suchmaschine",
+    "meaning_vi": "công cụ tìm kiếm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Browser",
+    "meaning_vi": "trình duyệt",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Download",
+    "meaning_vi": "tải xuống",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Upload",
+    "meaning_vi": "tải lên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Datenschutz",
+    "meaning_vi": "bảo mật dữ liệu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Privatsphäre",
+    "meaning_vi": "quyền riêng tư",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Virus",
+    "meaning_vi": "virus",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Spam",
+    "meaning_vi": "thư rác",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Phishing",
+    "meaning_vi": "lừa đảo",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Hacker",
+    "meaning_vi": "hacker",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Passwort",
+    "meaning_vi": "mật khẩu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Anmeldung",
+    "meaning_vi": "đăng nhập",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "Abmeldung",
+    "meaning_vi": "đăng xuất",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "surfen",
+    "meaning_vi": "lướt web",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "googeln",
+    "meaning_vi": "tìm kiếm trên Google",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "herunterladen",
+    "meaning_vi": "tải xuống",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "internet_digital"
+  },
+  {
+    "word": "alt",
+    "meaning_vi": "già, cũ",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "neu",
+    "meaning_vi": "mới",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "jung",
+    "meaning_vi": "trẻ",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "groß",
+    "meaning_vi": "to, lớn",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "klein",
+    "meaning_vi": "nhỏ",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "gut",
+    "meaning_vi": "tốt",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "schlecht",
+    "meaning_vi": "xấu, kém",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "schön",
+    "meaning_vi": "đẹp",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "teuer",
+    "meaning_vi": "đắt",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "billig",
+    "meaning_vi": "rẻ",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "schnell",
+    "meaning_vi": "nhanh",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "langsam",
+    "meaning_vi": "chậm",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "einfach",
+    "meaning_vi": "đơn giản",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "schwierig",
+    "meaning_vi": "khó",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "wichtig",
+    "meaning_vi": "quan trọng",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "gleich",
+    "meaning_vi": "giống nhau",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "anders",
+    "meaning_vi": "khác",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "fertig",
+    "meaning_vi": "xong",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "bereit",
+    "meaning_vi": "sẵn sàng",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  },
+  {
+    "word": "möglich",
+    "meaning_vi": "có thể",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "common_adjectives_ext"
+  }
+]

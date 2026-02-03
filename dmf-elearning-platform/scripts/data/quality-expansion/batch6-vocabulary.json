@@ -1,0 +1,1962 @@
+[
+  {
+    "word": "analysieren",
+    "meaning_vi": "phân tích",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "argumentieren",
+    "meaning_vi": "lập luận",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "beurteilen",
+    "meaning_vi": "đánh giá",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "definieren",
+    "meaning_vi": "định nghĩa",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "differenzieren",
+    "meaning_vi": "phân biệt",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "erläutern",
+    "meaning_vi": "giải thích chi tiết",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "formulieren",
+    "meaning_vi": "hình thành",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "interpretieren",
+    "meaning_vi": "diễn giải",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "klassifizieren",
+    "meaning_vi": "phân loại",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "konkretisieren",
+    "meaning_vi": "cụ thể hóa",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "legitimieren",
+    "meaning_vi": "hợp pháp hóa",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "priorisieren",
+    "meaning_vi": "ưu tiên",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "reflektieren",
+    "meaning_vi": "phản ánh",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "resümieren",
+    "meaning_vi": "tóm tắt",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "strukturieren",
+    "meaning_vi": "cấu trúc",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "subsumieren",
+    "meaning_vi": "đưa vào",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "thematisieren",
+    "meaning_vi": "nêu lên chủ đề",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "validieren",
+    "meaning_vi": "xác nhận",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "verifizieren",
+    "meaning_vi": "xác minh",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "visualisieren",
+    "meaning_vi": "hình dung",
+    "pos": "verb",
+    "level": "C1",
+    "topic": "c1_academic_verbs"
+  },
+  {
+    "word": "Auffassung",
+    "meaning_vi": "quan điểm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Auseinandersetzung",
+    "meaning_vi": "tranh luận",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Betrachtung",
+    "meaning_vi": "sự xem xét",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Dimension",
+    "meaning_vi": "chiều, khía cạnh",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Einschätzung",
+    "meaning_vi": "đánh giá",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Erkenntnis",
+    "meaning_vi": "nhận thức",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Faktor",
+    "meaning_vi": "yếu tố",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Gegebenheit",
+    "meaning_vi": "thực tế",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Gesamtheit",
+    "meaning_vi": "toàn bộ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Grundlage",
+    "meaning_vi": "nền tảng",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Hintergrund",
+    "meaning_vi": "bối cảnh",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Kompetenz",
+    "meaning_vi": "năng lực",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Konzept",
+    "meaning_vi": "khái niệm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Kriterium",
+    "meaning_vi": "tiêu chí",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Maßnahme",
+    "meaning_vi": "biện pháp",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Perspektive",
+    "meaning_vi": "góc nhìn",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Phänomen",
+    "meaning_vi": "hiện tượng",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Prinzip",
+    "meaning_vi": "nguyên tắc",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Rahmen",
+    "meaning_vi": "khuôn khổ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Spektrum",
+    "meaning_vi": "phổ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Stellenwert",
+    "meaning_vi": "tầm quan trọng",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Strategie",
+    "meaning_vi": "chiến lược",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Tendenz",
+    "meaning_vi": "xu hướng",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Umfang",
+    "meaning_vi": "phạm vi",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "Zusammenhang",
+    "meaning_vi": "mối liên hệ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "c1_abstract_nouns"
+  },
+  {
+    "word": "abstrakt",
+    "meaning_vi": "trừu tượng",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "adäquat",
+    "meaning_vi": "phù hợp",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "differenziert",
+    "meaning_vi": "tinh tế",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "empirisch",
+    "meaning_vi": "thực nghiệm",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "evident",
+    "meaning_vi": "hiển nhiên",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "explizit",
+    "meaning_vi": "rõ ràng",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "fundamental",
+    "meaning_vi": "cơ bản",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "implizit",
+    "meaning_vi": "ngầm",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "inherent",
+    "meaning_vi": "vốn có",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "innovativ",
+    "meaning_vi": "đổi mới",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "interdisziplinär",
+    "meaning_vi": "liên ngành",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "komplex",
+    "meaning_vi": "phức tạp",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "konkret",
+    "meaning_vi": "cụ thể",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "objektiv",
+    "meaning_vi": "khách quan",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "präzise",
+    "meaning_vi": "chính xác",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "primär",
+    "meaning_vi": "chính",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "relevant",
+    "meaning_vi": "liên quan",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "signifikant",
+    "meaning_vi": "có ý nghĩa",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "subjektiv",
+    "meaning_vi": "chủ quan",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "systematisch",
+    "meaning_vi": "có hệ thống",
+    "pos": "adjective",
+    "level": "C1",
+    "topic": "c1_adjectives"
+  },
+  {
+    "word": "Ethik",
+    "meaning_vi": "đạo đức học",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Moral",
+    "meaning_vi": "đạo đức",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Wert",
+    "meaning_vi": "giá trị",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Norm",
+    "meaning_vi": "chuẩn mực",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Pflicht",
+    "meaning_vi": "bổn phận",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Verantwortung",
+    "meaning_vi": "trách nhiệm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Gewissen",
+    "meaning_vi": "lương tâm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Tugend",
+    "meaning_vi": "đức hạnh",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Gerechtigkeit",
+    "meaning_vi": "công lý",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Würde",
+    "meaning_vi": "phẩm giá",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Autonomie",
+    "meaning_vi": "tự chủ",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Wahrheit",
+    "meaning_vi": "sự thật",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Vernunft",
+    "meaning_vi": "lý trí",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Bewusstsein",
+    "meaning_vi": "ý thức",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Existenz",
+    "meaning_vi": "tồn tại",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Freiheit",
+    "meaning_vi": "tự do",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Identität",
+    "meaning_vi": "bản sắc",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Erfahrung",
+    "meaning_vi": "trải nghiệm",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Wahrnehmung",
+    "meaning_vi": "nhận thức",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Handlung",
+    "meaning_vi": "hành động",
+    "pos": "noun",
+    "level": "C1",
+    "topic": "philosophy_ethics"
+  },
+  {
+    "word": "Verhalten",
+    "meaning_vi": "hành vi",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Persönlichkeit",
+    "meaning_vi": "nhân cách",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Motivation",
+    "meaning_vi": "động lực",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Emotion",
+    "meaning_vi": "cảm xúc",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Gedächtnis",
+    "meaning_vi": "trí nhớ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Intelligenz",
+    "meaning_vi": "trí thông minh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Kreativität",
+    "meaning_vi": "sáng tạo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Stress",
+    "meaning_vi": "căng thẳng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Depression",
+    "meaning_vi": "trầm cảm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Angst",
+    "meaning_vi": "lo lắng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Trauma",
+    "meaning_vi": "chấn thương",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Therapie",
+    "meaning_vi": "trị liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Sozialisation",
+    "meaning_vi": "xã hội hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Gruppe",
+    "meaning_vi": "nhóm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Rolle",
+    "meaning_vi": "vai trò",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Status",
+    "meaning_vi": "địa vị",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Schicht",
+    "meaning_vi": "tầng lớp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Milieu",
+    "meaning_vi": "môi trường",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Integration",
+    "meaning_vi": "hội nhập",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Diskriminierung",
+    "meaning_vi": "phân biệt đối xử",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "psychology_sociology"
+  },
+  {
+    "word": "Politik",
+    "meaning_vi": "chính trị",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Partei",
+    "meaning_vi": "đảng phái",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Regierung",
+    "meaning_vi": "chính phủ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Opposition",
+    "meaning_vi": "phe đối lập",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Koalition",
+    "meaning_vi": "liên minh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Parlament",
+    "meaning_vi": "quốc hội",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Abgeordneter",
+    "meaning_vi": "đại biểu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Kanzler",
+    "meaning_vi": "thủ tướng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Präsident",
+    "meaning_vi": "tổng thống",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Minister",
+    "meaning_vi": "bộ trưởng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Diplomatie",
+    "meaning_vi": "ngoại giao",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Botschaft",
+    "meaning_vi": "đại sứ quán",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Vertrag",
+    "meaning_vi": "hiệp ước",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Sanktion",
+    "meaning_vi": "trừng phạt",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Konflikt",
+    "meaning_vi": "xung đột",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Verhandlung",
+    "meaning_vi": "đàm phán",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Kompromiss",
+    "meaning_vi": "thỏa hiệp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Reform",
+    "meaning_vi": "cải cách",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Revolution",
+    "meaning_vi": "cách mạng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Souveränität",
+    "meaning_vi": "chủ quyền",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "politics_international"
+  },
+  {
+    "word": "Konjunktur",
+    "meaning_vi": "kinh tế chu kỳ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Inflation",
+    "meaning_vi": "lạm phát",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Deflation",
+    "meaning_vi": "giảm phát",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Rezession",
+    "meaning_vi": "suy thoái",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Bruttoinlandsprodukt",
+    "meaning_vi": "GDP",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Arbeitslosigkeit",
+    "meaning_vi": "thất nghiệp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Subvention",
+    "meaning_vi": "trợ cấp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Zoll",
+    "meaning_vi": "thuế hải quan",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Währung",
+    "meaning_vi": "tiền tệ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Wechselkurs",
+    "meaning_vi": "tỷ giá",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Zentralbank",
+    "meaning_vi": "ngân hàng trung ương",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Haushalt",
+    "meaning_vi": "ngân sách",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Schulden",
+    "meaning_vi": "nợ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Defizit",
+    "meaning_vi": "thâm hụt",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Überschuss",
+    "meaning_vi": "thặng dư",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Monopol",
+    "meaning_vi": "độc quyền",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Kartell",
+    "meaning_vi": "liên minh độc quyền",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Privatisierung",
+    "meaning_vi": "tư nhân hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Globalisierung",
+    "meaning_vi": "toàn cầu hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Liberalisierung",
+    "meaning_vi": "tự do hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "economics_advanced"
+  },
+  {
+    "word": "Algorithmus",
+    "meaning_vi": "thuật toán",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Datenbank",
+    "meaning_vi": "cơ sở dữ liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Server",
+    "meaning_vi": "máy chủ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Cloud",
+    "meaning_vi": "đám mây",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Schnittstelle",
+    "meaning_vi": "giao diện",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Verschlüsselung",
+    "meaning_vi": "mã hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Cybersicherheit",
+    "meaning_vi": "an ninh mạng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Künstliche Intelligenz",
+    "meaning_vi": "trí tuệ nhân tạo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Maschinelles Lernen",
+    "meaning_vi": "học máy",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Automatisierung",
+    "meaning_vi": "tự động hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Robotik",
+    "meaning_vi": "robot học",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Biotechnologie",
+    "meaning_vi": "công nghệ sinh học",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Nanotechnologie",
+    "meaning_vi": "công nghệ nano",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Erneuerbare Energie",
+    "meaning_vi": "năng lượng tái tạo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Elektromobilität",
+    "meaning_vi": "di chuyển điện",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Digitalisierung",
+    "meaning_vi": "số hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Vernetzung",
+    "meaning_vi": "kết nối mạng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Innovation",
+    "meaning_vi": "đổi mới",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Forschung",
+    "meaning_vi": "nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Entwicklung",
+    "meaning_vi": "phát triển",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology_advanced"
+  },
+  {
+    "word": "Literatur",
+    "meaning_vi": "văn học",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Roman",
+    "meaning_vi": "tiểu thuyết",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Gedicht",
+    "meaning_vi": "bài thơ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Drama",
+    "meaning_vi": "kịch",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Autor",
+    "meaning_vi": "tác giả",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Dichter",
+    "meaning_vi": "nhà thơ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Schriftsteller",
+    "meaning_vi": "nhà văn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Werk",
+    "meaning_vi": "tác phẩm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Kapitel",
+    "meaning_vi": "chương",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Handlung",
+    "meaning_vi": "cốt truyện",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Figur",
+    "meaning_vi": "nhân vật",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Thema",
+    "meaning_vi": "chủ đề",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Motiv",
+    "meaning_vi": "động cơ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Stil",
+    "meaning_vi": "phong cách",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Epoche",
+    "meaning_vi": "thời kỳ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Malerei",
+    "meaning_vi": "hội họa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Skulptur",
+    "meaning_vi": "điêu khắc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Architektur",
+    "meaning_vi": "kiến trúc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Oper",
+    "meaning_vi": "opera",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Orchester",
+    "meaning_vi": "dàn nhạc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "arts_literature"
+  },
+  {
+    "word": "Geschichte",
+    "meaning_vi": "lịch sử",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Zivilisation",
+    "meaning_vi": "văn minh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Epoche",
+    "meaning_vi": "thời đại",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Jahrhundert",
+    "meaning_vi": "thế kỷ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Jahrzehnt",
+    "meaning_vi": "thập kỷ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Antike",
+    "meaning_vi": "cổ đại",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Mittelalter",
+    "meaning_vi": "thời trung cổ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Renaissance",
+    "meaning_vi": "thời phục hưng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Aufklärung",
+    "meaning_vi": "thời kỳ khai sáng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Industrialisierung",
+    "meaning_vi": "công nghiệp hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Kolonialismus",
+    "meaning_vi": "chủ nghĩa thực dân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Imperialismus",
+    "meaning_vi": "chủ nghĩa đế quốc",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Weltkrieg",
+    "meaning_vi": "chiến tranh thế giới",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Kalter Krieg",
+    "meaning_vi": "chiến tranh lạnh",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Wiedervereinigung",
+    "meaning_vi": "thống nhất",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Denkmal",
+    "meaning_vi": "đài tưởng niệm",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Kulturerbe",
+    "meaning_vi": "di sản văn hóa",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Archäologie",
+    "meaning_vi": "khảo cổ học",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Ausgrabung",
+    "meaning_vi": "khai quật",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "Quelle",
+    "meaning_vi": "nguồn sử liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "history_civilization"
+  },
+  {
+    "word": "folglich",
+    "meaning_vi": "do đó",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "demzufolge",
+    "meaning_vi": "theo đó",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "somit",
+    "meaning_vi": "vì vậy",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "demnach",
+    "meaning_vi": "theo đó",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "hingegen",
+    "meaning_vi": "ngược lại",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "indessen",
+    "meaning_vi": "trong khi đó",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "ferner",
+    "meaning_vi": "hơn nữa",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "zudem",
+    "meaning_vi": "ngoài ra",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "ohnehin",
+    "meaning_vi": "dù sao",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "keineswegs",
+    "meaning_vi": "không hề",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "keinesfalls",
+    "meaning_vi": "trong mọi trường hợp không",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "gegebenenfalls",
+    "meaning_vi": "nếu cần",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "gegebenenfalls",
+    "meaning_vi": "nếu có thể",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "beziehungsweise",
+    "meaning_vi": "hoặc là",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "hinsichtlich",
+    "meaning_vi": "liên quan đến",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "bezüglich",
+    "meaning_vi": "về vấn đề",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "angesichts",
+    "meaning_vi": "trước tình hình",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "infolge",
+    "meaning_vi": "do kết quả của",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "aufgrund",
+    "meaning_vi": "do",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "anhand",
+    "meaning_vi": "dựa vào",
+    "pos": "preposition",
+    "level": "B2",
+    "topic": "discourse_markers"
+  },
+  {
+    "word": "eine Rolle spielen",
+    "meaning_vi": "đóng vai trò",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "in Frage kommen",
+    "meaning_vi": "được xem xét",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "in Betracht ziehen",
+    "meaning_vi": "cân nhắc",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "zum Ausdruck bringen",
+    "meaning_vi": "thể hiện",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "zur Verfügung stehen",
+    "meaning_vi": "sẵn sàng",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "in Anspruch nehmen",
+    "meaning_vi": "sử dụng",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "Rücksicht nehmen",
+    "meaning_vi": "quan tâm đến",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "eine Entscheidung treffen",
+    "meaning_vi": "đưa ra quyết định",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "einen Beitrag leisten",
+    "meaning_vi": "đóng góp",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "Einfluss ausüben",
+    "meaning_vi": "gây ảnh hưởng",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "in Zusammenhang stehen",
+    "meaning_vi": "liên quan đến",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "unter Druck stehen",
+    "meaning_vi": "chịu áp lực",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "im Mittelpunkt stehen",
+    "meaning_vi": "ở trung tâm",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "zur Sprache kommen",
+    "meaning_vi": "được đề cập",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "zum Vorschein kommen",
+    "meaning_vi": "xuất hiện",
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "idioms_expressions"
+  },
+  {
+    "word": "abhängen",
+    "meaning_vi": "phụ thuộc",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "aufnehmen",
+    "meaning_vi": "tiếp nhận, ghi lại",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "auftreten",
+    "meaning_vi": "xuất hiện",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "ausdrücken",
+    "meaning_vi": "diễn đạt",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "aussprechen",
+    "meaning_vi": "phát âm, nói ra",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "beachten",
+    "meaning_vi": "chú ý",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "beeinflussen",
+    "meaning_vi": "ảnh hưởng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "behaupten",
+    "meaning_vi": "khẳng định",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "bestätigen",
+    "meaning_vi": "xác nhận",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "betonen",
+    "meaning_vi": "nhấn mạnh",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "darstellen",
+    "meaning_vi": "trình bày",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "einführen",
+    "meaning_vi": "giới thiệu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "einrichten",
+    "meaning_vi": "trang bị, thiết lập",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "entstehen",
+    "meaning_vi": "hình thành",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "ersetzen",
+    "meaning_vi": "thay thế",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "festhalten",
+    "meaning_vi": "giữ chặt",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "feststellen",
+    "meaning_vi": "xác định",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "hinweisen",
+    "meaning_vi": "chỉ ra",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "übernehmen",
+    "meaning_vi": "tiếp nhận",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "zusammenfassen",
+    "meaning_vi": "tóm tắt",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "b1_essential_verbs"
+  },
+  {
+    "word": "Anlass",
+    "meaning_vi": "dịp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Anteil",
+    "meaning_vi": "phần",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Anwendung",
+    "meaning_vi": "ứng dụng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Aspekt",
+    "meaning_vi": "khía cạnh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Auswahl",
+    "meaning_vi": "sự lựa chọn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Bedarf",
+    "meaning_vi": "nhu cầu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Bedingung",
+    "meaning_vi": "điều kiện",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Begriff",
+    "meaning_vi": "khái niệm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Bereich",
+    "meaning_vi": "lĩnh vực",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Beispiel",
+    "meaning_vi": "ví dụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Beitrag",
+    "meaning_vi": "đóng góp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Bewertung",
+    "meaning_vi": "đánh giá",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Eigenschaft",
+    "meaning_vi": "đặc điểm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Einsatz",
+    "meaning_vi": "sử dụng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Element",
+    "meaning_vi": "yếu tố",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Funktion",
+    "meaning_vi": "chức năng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Voraussetzung",
+    "meaning_vi": "điều kiện tiên quyết",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Verhältnis",
+    "meaning_vi": "mối quan hệ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Vorgang",
+    "meaning_vi": "quá trình",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  },
+  {
+    "word": "Wirklichkeit",
+    "meaning_vi": "thực tế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "b1_essential_nouns"
+  }
+]

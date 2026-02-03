@@ -1,0 +1,182 @@
+[
+  {
+    "word": "die Apotheke",
+    "level": "A1",
+    "topic": "shop",
+    "pos": "noun",
+    "meaning_vi": "nhà thuốc",
+    "example_de": "Ich muss zur Apotheke gehen, um meine Medikamente abzuholen.",
+    "example_vi": "Tôi phải đến nhà thuốc để lấy thuốc của mình."
+  },
+  {
+    "word": "der Apotheker",
+    "level": "A1",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "dược sĩ",
+    "example_de": "Der Apotheker hat mir erklärt, wie ich die Tabletten einnehmen soll.",
+    "example_vi": "Dược sĩ đã giải thích cho tôi cách uống viên thuốc."
+  },
+  {
+    "word": "das Rezept",
+    "level": "A1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "đơn thuốc",
+    "example_de": "Ohne Rezept kann ich dieses Antibiotikum nicht kaufen.",
+    "example_vi": "Không có đơn thuốc thì tôi không thể mua loại kháng sinh này."
+  },
+  {
+    "word": "die Tablette",
+    "level": "A1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "viên thuốc",
+    "example_de": "Nehmen Sie dreimal täglich eine Tablette nach dem Essen ein.",
+    "example_vi": "Hãy uống một viên thuốc ba lần mỗi ngày sau bữa ăn."
+  },
+  {
+    "word": "die Salbe",
+    "level": "A1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "thuốc mỡ",
+    "example_de": "Tragen Sie die Salbe zweimal täglich auf die betroffene Stelle auf.",
+    "example_vi": "Bôi thuốc mỡ lên vùng bị ảnh hưởng hai lần mỗi ngày."
+  },
+  {
+    "word": "der Verband",
+    "level": "A2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "băng gạc",
+    "example_de": "Die Krankenschwester wechselt den Verband jeden Tag.",
+    "example_vi": "Y tá thay băng gạc mỗi ngày."
+  },
+  {
+    "word": "das Pflaster",
+    "level": "A2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "băng cá nhân",
+    "example_de": "Kannst du mir ein Pflaster geben? Ich habe mich geschnitten.",
+    "example_vi": "Bạn có thể cho tôi một miếng băng cá nhân không? Tôi bị đứt tay."
+  },
+  {
+    "word": "die Spritze",
+    "level": "A2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "ống tiêm",
+    "example_de": "Der Arzt gab mir eine Spritze gegen die Schmerzen.",
+    "example_vi": "Bác sĩ đã tiêm cho tôi một mũi thuốc giảm đau."
+  },
+  {
+    "word": "das Thermometer",
+    "level": "A2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "nhiệt kế",
+    "example_de": "Das Thermometer zeigt 38,5 Grad - ich habe Fieber.",
+    "example_vi": "Nhiệt kế chỉ 38,5 độ - tôi bị sốt."
+  },
+  {
+    "word": "der Blutdruck",
+    "level": "B1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "huyết áp",
+    "example_de": "Mein Blutdruck ist zu hoch, deshalb muss ich Medikamente nehmen.",
+    "example_vi": "Huyết áp của tôi quá cao, vì vậy tôi phải uống thuốc."
+  },
+  {
+    "word": "die Diagnose",
+    "level": "B1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "chẩn đoán",
+    "example_de": "Nach mehreren Tests stellte der Arzt die Diagnose Diabetes.",
+    "example_vi": "Sau nhiều xét nghiệm, bác sĩ đưa ra chẩn đoán bệnh tiểu đường."
+  },
+  {
+    "word": "die Behandlung",
+    "level": "B1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "điều trị",
+    "example_de": "Die Behandlung dauert etwa sechs Wochen.",
+    "example_vi": "Quá trình điều trị kéo dài khoảng sáu tuần."
+  },
+  {
+    "word": "die Nebenwirkung",
+    "level": "B2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "tác dụng phụ",
+    "example_de": "Übelkeit ist eine häufige Nebenwirkung dieses Medikaments.",
+    "example_vi": "Buồn nôn là tác dụng phụ thường gặp của loại thuốc này."
+  },
+  {
+    "word": "die Dosierung",
+    "level": "B2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "liều lượng",
+    "example_de": "Bitte beachten Sie die richtige Dosierung auf der Packungsbeilage.",
+    "example_vi": "Vui lòng chú ý liều lượng đúng trên tờ hướng dẫn sử dụng."
+  },
+  {
+    "word": "der Wirkstoff",
+    "level": "B2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "hoạt chất",
+    "example_de": "Der Wirkstoff Paracetamol hilft gegen Fieber und Schmerzen.",
+    "example_vi": "Hoạt chất Paracetamol giúp chống sốt và giảm đau."
+  },
+  {
+    "word": "die Indikation",
+    "level": "C1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "chỉ định",
+    "example_de": "Die Indikation für dieses Medikament ist chronischer Husten.",
+    "example_vi": "Chỉ định cho loại thuốc này là ho mãn tính."
+  },
+  {
+    "word": "die Kontraindikation",
+    "level": "C1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "chống chỉ định",
+    "example_de": "Schwangerschaft ist eine Kontraindikation für dieses Arzneimittel.",
+    "example_vi": "Thai kỳ là chống chỉ định cho loại dược phẩm này."
+  },
+  {
+    "word": "die Wechselwirkung",
+    "level": "C1",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "tương tác thuốc",
+    "example_de": "Es kann zu gefährlichen Wechselwirkungen mit Alkohol kommen.",
+    "example_vi": "Có thể xảy ra tương tác thuốc nguy hiểm với rượu."
+  },
+  {
+    "word": "die Arzneimittelzulassung",
+    "level": "C2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "cấp phép thuốc",
+    "example_de": "Die Arzneimittelzulassung in Europa dauert oft mehrere Jahre.",
+    "example_vi": "Việc cấp phép thuốc ở Châu Âu thường mất vài năm."
+  },
+  {
+    "word": "das Generikum",
+    "level": "C2",
+    "topic": "medical",
+    "pos": "noun",
+    "meaning_vi": "thuốc gốc",
+    "example_de": "Generika sind deutlich günstiger als das Originalmedikament.",
+    "example_vi": "Thuốc gốc rẻ hơn đáng kể so với thuốc gốc ban đầu."
+  }
+]

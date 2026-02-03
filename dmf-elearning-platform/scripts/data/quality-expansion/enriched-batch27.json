@@ -1,0 +1,677 @@
+[
+  {
+    "word": "der Nachbar",
+    "level": "A1",
+    "topic": "people",
+    "pos": "noun",
+    "meaning_vi": "hàng xóm",
+    "example_de": "Mein Nachbar ist sehr freundlich und hilft mir oft im Garten.",
+    "example_vi": "Hàng xóm của tôi rất thân thiện và thường giúp tôi trong vườn."
+  },
+  {
+    "word": "die Nachbarin",
+    "level": "A1",
+    "topic": "people",
+    "pos": "noun",
+    "meaning_vi": "hàng xóm (nữ)",
+    "example_de": "Unsere Nachbarin hat gestern einen leckeren Kuchen gebacken.",
+    "example_vi": "Hàng xóm (nữ) của chúng tôi đã nướng một chiếc bánh ngon hôm qua."
+  },
+  {
+    "word": "der Gast",
+    "level": "A1",
+    "topic": "people",
+    "pos": "noun",
+    "meaning_vi": "khách",
+    "example_de": "Wir erwarten heute Abend einen wichtigen Gast zum Abendessen.",
+    "example_vi": "Chúng tôi đang chờ đợi một vị khách quan trọng đến ăn tối tối nay."
+  },
+  {
+    "word": "der Besucher",
+    "level": "A1",
+    "topic": "people",
+    "pos": "noun",
+    "meaning_vi": "người thăm",
+    "example_de": "Das Museum hatte letzten Monat über 10.000 Besucher.",
+    "example_vi": "Bảo tàng đã có hơn 10.000 người thăm quan vào tháng trước."
+  },
+  {
+    "word": "der Kunde",
+    "level": "A1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "khách hàng",
+    "example_de": "Der Kunde möchte das blaue Hemd in Größe M kaufen.",
+    "example_vi": "Khách hàng muốn mua chiếc áo sơ mi màu xanh size M."
+  },
+  {
+    "word": "die Kundin",
+    "level": "A1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "khách hàng (nữ)",
+    "example_de": "Die Kundin beschwert sich über die schlechte Qualität der Schuhe.",
+    "example_vi": "Khách hàng (nữ) phản ánh về chất lượng kém của đôi giày."
+  },
+  {
+    "word": "der Verkäufer",
+    "level": "A1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "người bán hàng",
+    "example_de": "Der Verkäufer hat mir verschiedene Handymodelle gezeigt.",
+    "example_vi": "Người bán hàng đã cho tôi xem nhiều mẫu điện thoại khác nhau."
+  },
+  {
+    "word": "die Verkäuferin",
+    "level": "A1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "người bán hàng (nữ)",
+    "example_de": "Die Verkäuferin im Supermarkt ist immer sehr höflich.",
+    "example_vi": "Người bán hàng (nữ) ở siêu thị luôn rất lịch sự."
+  },
+  {
+    "word": "der Kellner",
+    "level": "A1",
+    "topic": "restaurant",
+    "pos": "noun",
+    "meaning_vi": "bồi bàn",
+    "example_de": "Der Kellner bringt uns die Speisekarte und nimmt die Bestellung auf.",
+    "example_vi": "Người bồi bàn mang thực đơn cho chúng tôi và nhận đơn đặt hàng."
+  },
+  {
+    "word": "die Kellnerin",
+    "level": "A1",
+    "topic": "restaurant",
+    "pos": "noun",
+    "meaning_vi": "bồi bàn (nữ)",
+    "example_de": "Die Kellnerin empfiehlt uns das Tagesgericht mit frischem Fisch.",
+    "example_vi": "Người bồi bàn (nữ) giới thiệu cho chúng tôi món ăn trong ngày với cá tươi."
+  },
+  {
+    "word": "der Koch",
+    "level": "A1",
+    "topic": "restaurant",
+    "pos": "noun",
+    "meaning_vi": "đầu bếp",
+    "example_de": "Der Koch bereitet in der Küche ein köstliches Menü zu.",
+    "example_vi": "Đầu bếp đang chuẩn bị một thực đơn ngon tuyệt trong bếp."
+  },
+  {
+    "word": "die Köchin",
+    "level": "A1",
+    "topic": "restaurant",
+    "pos": "noun",
+    "meaning_vi": "đầu bếp (nữ)",
+    "example_de": "Die Köchin hat 20 Jahre Erfahrung in der italienischen Küche.",
+    "example_vi": "Đầu bếp (nữ) có 20 năm kinh nghiệm trong ẩm thực Ý."
+  },
+  {
+    "word": "der Bäcker",
+    "level": "A1",
+    "topic": "food",
+    "pos": "noun",
+    "meaning_vi": "thợ làm bánh",
+    "example_de": "Der Bäcker steht jeden Morgen um 4 Uhr auf, um frisches Brot zu backen.",
+    "example_vi": "Thợ làm bánh dậy lúc 4 giờ sáng mỗi ngày để nướng bánh mì tươi."
+  },
+  {
+    "word": "die Bäckerei",
+    "level": "A1",
+    "topic": "shop",
+    "pos": "noun",
+    "meaning_vi": "tiệm bánh",
+    "example_de": "In der Bäckerei an der Ecke gibt es die besten Brötchen der Stadt.",
+    "example_vi": "Ở tiệm bánh góc phố có những chiếc bánh mì cuộn ngon nhất thành phố."
+  },
+  {
+    "word": "die Metzgerei",
+    "level": "A1",
+    "topic": "shop",
+    "pos": "noun",
+    "meaning_vi": "cửa hàng thịt",
+    "example_de": "Ich kaufe immer frisches Fleisch in der Metzgerei nebenan.",
+    "example_vi": "Tôi luôn mua thịt tươi ở cửa hàng thịt bên cạnh."
+  },
+  {
+    "word": "der Friseur",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "thợ cắt tóc",
+    "example_de": "Mein Friseur schneidet mir die Haare immer genau so, wie ich es möchte.",
+    "example_vi": "Thợ cắt tóc của tôi luôn cắt tóc cho tôi đúng như tôi muốn."
+  },
+  {
+    "word": "die Friseurin",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "thợ cắt tóc (nữ)",
+    "example_de": "Die Friseurin färbt heute meine Haare blond.",
+    "example_vi": "Thợ cắt tóc (nữ) nhuộm tóc vàng cho tôi hôm nay."
+  },
+  {
+    "word": "der Elektriker",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ điện",
+    "example_de": "Wir müssen einen Elektriker rufen, weil die Lampe nicht funktioniert.",
+    "example_vi": "Chúng ta phải gọi thợ điện vì đèn không hoạt động."
+  },
+  {
+    "word": "der Installateur",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ lắp đặt",
+    "example_de": "Der Installateur repariert gerade unsere kaputte Heizung.",
+    "example_vi": "Thợ lắp đặt đang sửa hệ thống sưởi bị hỏng của chúng tôi."
+  },
+  {
+    "word": "der Schlosser",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ khóa",
+    "example_de": "Der Schlosser hat mir geholfen, die Tür zu öffnen, weil ich meinen Schlüssel verloren hatte.",
+    "example_vi": "Thợ khóa đã giúp tôi mở cửa vì tôi bị mất chìa khóa."
+  },
+  {
+    "word": "der Mechaniker",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ máy",
+    "example_de": "Mein Auto ist kaputt, ich muss es zum Mechaniker bringen.",
+    "example_vi": "Xe của tôi bị hỏng, tôi phải mang nó đến thợ máy."
+  },
+  {
+    "word": "der Maler",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ sơn",
+    "example_de": "Der Maler streicht morgen die Wände in unserem Wohnzimmer.",
+    "example_vi": "Ngày mai thợ sơn sẽ sơn các bức tường trong phòng khách của chúng tôi."
+  },
+  {
+    "word": "der Tischler",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ mộc",
+    "example_de": "Wir haben einen Tischler beauftragt, neue Küchenschränke zu bauen.",
+    "example_vi": "Chúng tôi đã thuê một thợ mộc để đóng tủ bếp mới."
+  },
+  {
+    "word": "der Maurer",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ xây",
+    "example_de": "Der Maurer baut eine Mauer um unseren Garten.",
+    "example_vi": "Thợ xây đang xây một bức tường quanh khu vườn của chúng tôi."
+  },
+  {
+    "word": "der Dachdecker",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ lợp mái",
+    "example_de": "Nach dem Sturm mussten wir einen Dachdecker rufen, um das Dach zu reparieren.",
+    "example_vi": "Sau cơn bão, chúng tôi phải gọi thợ lợp mái để sửa chữa mái nhà."
+  },
+  {
+    "word": "die Reinigung",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "tiệm giặt",
+    "example_de": "Ich bringe meinen Anzug zur Reinigung, weil er schmutzig ist.",
+    "example_vi": "Tôi mang bộ vest của mình đến tiệm giặt vì nó bẩn."
+  },
+  {
+    "word": "die Werkstatt",
+    "level": "A2",
+    "topic": "place",
+    "pos": "noun",
+    "meaning_vi": "xưởng sửa chữa",
+    "example_de": "Mein Fahrrad ist in der Werkstatt zur Reparatur.",
+    "example_vi": "Xe đạp của tôi đang ở xưởng sửa chữa để sửa."
+  },
+  {
+    "word": "die Tankstelle",
+    "level": "A2",
+    "topic": "place",
+    "pos": "noun",
+    "meaning_vi": "trạm xăng",
+    "example_de": "Wir müssen an der nächsten Tankstelle tanken, der Tank ist fast leer.",
+    "example_vi": "Chúng ta phải đổ xăng ở trạm xăng tiếp theo, bình xăng gần hết rồi."
+  },
+  {
+    "word": "die Wäscherei",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "tiệm giặt ủi",
+    "example_de": "Die Wäscherei in unserer Straße bietet auch einen Bügelservice an.",
+    "example_vi": "Tiệm giặt ủi trên đường của chúng tôi cũng cung cấp dịch vụ ủi."
+  },
+  {
+    "word": "der Notdienst",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "dịch vụ khẩn cấp",
+    "example_de": "Am Wochenende gibt es einen Notdienst für Heizungsreparaturen.",
+    "example_vi": "Vào cuối tuần có dịch vụ khẩn cấp để sửa chữa hệ thống sưởi."
+  },
+  {
+    "word": "der Handwerker",
+    "level": "B1",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ thủ công",
+    "example_de": "Wir suchen einen guten Handwerker für die Renovierung unseres Badezimmers.",
+    "example_vi": "Chúng tôi đang tìm một thợ thủ công giỏi để cải tạo phòng tắm của chúng tôi."
+  },
+  {
+    "word": "der Fachmann",
+    "level": "B1",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "chuyên gia",
+    "example_de": "Bei diesem Problem sollten Sie einen Fachmann konsultieren.",
+    "example_vi": "Với vấn đề này, bạn nên tham khảo ý kiến của một chuyên gia."
+  },
+  {
+    "word": "die Fachfrau",
+    "level": "B1",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "chuyên gia (nữ)",
+    "example_de": "Sie ist eine Fachfrau für Elektroinstallationen.",
+    "example_vi": "Cô ấy là một chuyên gia về lắp đặt điện."
+  },
+  {
+    "word": "der Dienstleister",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "nhà cung cấp dịch vụ",
+    "example_de": "Unser Unternehmen arbeitet mit verschiedenen Dienstleistern zusammen.",
+    "example_vi": "Công ty chúng tôi làm việc với nhiều nhà cung cấp dịch vụ khác nhau."
+  },
+  {
+    "word": "der Auftragnehmer",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "nhà thầu",
+    "example_de": "Der Auftragnehmer hat versprochen, die Arbeiten bis Ende des Monats abzuschließen.",
+    "example_vi": "Nhà thầu đã hứa hoàn thành công việc trước cuối tháng."
+  },
+  {
+    "word": "der Auftraggeber",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "người đặt hàng",
+    "example_de": "Der Auftraggeber ist mit der Qualität der Arbeit sehr zufrieden.",
+    "example_vi": "Người đặt hàng rất hài lòng với chất lượng công việc."
+  },
+  {
+    "word": "der Kostenvoranschlag",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "báo giá",
+    "example_de": "Bevor wir beginnen, brauchen wir einen detaillierten Kostenvoranschlag.",
+    "example_vi": "Trước khi bắt đầu, chúng tôi cần một bản báo giá chi tiết."
+  },
+  {
+    "word": "die Rechnung",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn",
+    "example_de": "Bitte senden Sie mir die Rechnung per E-Mail.",
+    "example_vi": "Vui lòng gửi cho tôi hóa đơn qua email."
+  },
+  {
+    "word": "die Anzahlung",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "tiền đặt cọc",
+    "example_de": "Für die Küche müssen wir eine Anzahlung von 30% leisten.",
+    "example_vi": "Đối với nhà bếp, chúng tôi phải trả tiền đặt cọc 30%."
+  },
+  {
+    "word": "die Restzahlung",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "số tiền còn lại",
+    "example_de": "Die Restzahlung ist nach Abschluss der Arbeiten fällig.",
+    "example_vi": "Số tiền còn lại phải thanh toán sau khi hoàn thành công việc."
+  },
+  {
+    "word": "die Abnahme",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "nghiệm thu",
+    "example_de": "Die Abnahme der Bauleistungen erfolgt nach vollständiger Fertigstellung durch einen Sachverständigen.",
+    "example_vi": "Việc nghiệm thu các công trình xây dựng được thực hiện sau khi hoàn thành toàn bộ bởi một chuyên gia."
+  },
+  {
+    "word": "die Fertigstellung",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "hoàn thành",
+    "example_de": "Die Fertigstellung des Projekts ist für Ende Dezember geplant.",
+    "example_vi": "Việc hoàn thành dự án được lên kế hoạch vào cuối tháng 12."
+  },
+  {
+    "word": "beauftragen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "ủy thác",
+    "example_de": "Wir beauftragen die Firma Schmidt mit der Durchführung der Renovierungsarbeiten.",
+    "example_vi": "Chúng tôi ủy thác cho công ty Schmidt thực hiện các công việc cải tạo."
+  },
+  {
+    "word": "fertigstellen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "hoàn thành",
+    "example_de": "Der Auftragnehmer muss das Gebäude bis zum 30. Juni fertigstellen.",
+    "example_vi": "Nhà thầu phải hoàn thành tòa nhà trước ngày 30 tháng 6."
+  },
+  {
+    "word": "abnehmen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "nghiệm thu",
+    "example_de": "Der Bauherr wird die Arbeiten erst nach erfolgreicher Prüfung abnehmen.",
+    "example_vi": "Chủ đầu tư sẽ chỉ nghiệm thu công việc sau khi kiểm tra thành công."
+  },
+  {
+    "word": "die Leistungsbeschreibung",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "mô tả công việc",
+    "example_de": "Die Leistungsbeschreibung enthält alle Details zu den auszuführenden Arbeiten.",
+    "example_vi": "Bản mô tả công việc chứa tất cả các chi tiết về các công việc cần thực hiện."
+  },
+  {
+    "word": "die Gewährleistungsfrist",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thời hạn bảo hành",
+    "example_de": "Die Gewährleistungsfrist für diese Bauarbeiten beträgt fünf Jahre.",
+    "example_vi": "Thời hạn bảo hành cho các công trình xây dựng này là năm năm."
+  },
+  {
+    "word": "die Mängelrüge",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "khiếu nại lỗi",
+    "example_de": "Der Auftraggeber hat eine Mängelrüge wegen der fehlerhaften Dämmung eingereicht.",
+    "example_vi": "Bên đặt hàng đã nộp đơn khiếu nại lỗi về việc cách nhiệt bị lỗi."
+  },
+  {
+    "word": "die Nachbesserung",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "sửa chữa bổ sung",
+    "example_de": "Der Handwerker muss innerhalb von zwei Wochen eine Nachbesserung vornehmen.",
+    "example_vi": "Thợ thủ công phải thực hiện sửa chữa bổ sung trong vòng hai tuần."
+  },
+  {
+    "word": "der Mangel",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "lỗi, khuyết điểm",
+    "example_de": "Bei der Inspektion wurden mehrere Mängel an der Elektroinstallation festgestellt.",
+    "example_vi": "Trong quá trình kiểm tra, nhiều lỗi đã được phát hiện ở hệ thống điện."
+  },
+  {
+    "word": "die Abmahnung",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "cảnh cáo",
+    "example_de": "Nach wiederholten Verstößen erhielt der Mitarbeiter eine schriftliche Abmahnung.",
+    "example_vi": "Sau nhiều lần vi phạm, nhân viên đã nhận được một lời cảnh cáo bằng văn bản."
+  },
+  {
+    "word": "die Fristsetzung",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "ấn định thời hạn",
+    "example_de": "Die Fristsetzung zur Mängelbeseitigung beträgt 14 Tage ab Zugang des Schreibens.",
+    "example_vi": "Việc ấn định thời hạn để khắc phục lỗi là 14 ngày kể từ khi nhận được văn bản."
+  },
+  {
+    "word": "die Vertragsstrafe",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "phạt hợp đồng",
+    "example_de": "Bei verspäteter Lieferung wird eine Vertragsstrafe von 500 Euro pro Tag fällig.",
+    "example_vi": "Trong trường hợp giao hàng trễ, khoản phạt hợp đồng 500 Euro mỗi ngày sẽ được áp dụng."
+  },
+  {
+    "word": "beanstanden",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "khiếu nại",
+    "example_de": "Der Kunde beanstandet die Qualität der gelieferten Materialien.",
+    "example_vi": "Khách hàng khiếu nại về chất lượng của vật liệu được giao."
+  },
+  {
+    "word": "nachbessern",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "sửa chữa bổ sung",
+    "example_de": "Die Firma muss die mangelhaften Stellen bis Ende des Monats nachbessern.",
+    "example_vi": "Công ty phải sửa chữa bổ sung các điểm bị lỗi trước cuối tháng."
+  },
+  {
+    "word": "die Bauabnahme",
+    "level": "C1",
+    "topic": "construction",
+    "pos": "noun",
+    "meaning_vi": "nghiệm thu xây dựng",
+    "example_de": "Die Bauabnahme findet am kommenden Freitag in Anwesenheit aller Beteiligten statt.",
+    "example_vi": "Việc nghiệm thu xây dựng diễn ra vào thứ Sáu tới với sự có mặt của tất cả các bên liên quan."
+  },
+  {
+    "word": "die Abschlagsrechnung",
+    "level": "C1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn tạm ứng",
+    "example_de": "Der Auftragnehmer stellt monatlich eine Abschlagsrechnung für die erbrachten Leistungen.",
+    "example_vi": "Nhà thầu xuất hóa đơn tạm ứng hàng tháng cho các dịch vụ đã cung cấp."
+  },
+  {
+    "word": "die Schlussrechnung",
+    "level": "C1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn quyết toán",
+    "example_de": "Nach Abschluss aller Arbeiten wird die Schlussrechnung erstellt und eingereicht.",
+    "example_vi": "Sau khi hoàn thành tất cả công việc, hóa đơn quyết toán được lập và nộp."
+  },
+  {
+    "word": "die Bürgschaftsurkunde",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "giấy bảo lãnh",
+    "example_de": "Die Bank hat eine Bürgschaftsurkunde über 100.000 Euro ausgestellt.",
+    "example_vi": "Ngân hàng đã phát hành giấy bảo lãnh trị giá 100.000 Euro."
+  },
+  {
+    "word": "der Erfüllungsort",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "nơi thực hiện",
+    "example_de": "Der Erfüllungsort für die Lieferung ist das Lager des Auftraggebers in München.",
+    "example_vi": "Nơi thực hiện giao hàng là kho của bên đặt hàng tại München."
+  },
+  {
+    "word": "die Ausführungsfrist",
+    "level": "C1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "thời hạn thực hiện",
+    "example_de": "Die Ausführungsfrist für das Bauprojekt beträgt sechs Monate ab Vertragsunterzeichnung.",
+    "example_vi": "Thời hạn thực hiện cho dự án xây dựng là sáu tháng kể từ khi ký hợp đồng."
+  },
+  {
+    "word": "die Vertragserfüllung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thực hiện hợp đồng",
+    "example_de": "Der Auftragnehmer ist zur ordnungsgemäßen Vertragserfüllung verpflichtet.",
+    "example_vi": "Nhà thầu có nghĩa vụ thực hiện hợp đồng một cách đúng đắn."
+  },
+  {
+    "word": "die Leistungsstörung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "vi phạm nghĩa vụ",
+    "example_de": "Bei einer Leistungsstörung kann der Auftraggeber Schadensersatz verlangen.",
+    "example_vi": "Trong trường hợp vi phạm nghĩa vụ, bên đặt hàng có thể yêu cầu bồi thường thiệt hại."
+  },
+  {
+    "word": "abrechnen",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "quyết toán",
+    "example_de": "Nach Abschluss der Arbeiten müssen wir die geleisteten Stunden abrechnen.",
+    "example_vi": "Sau khi hoàn thành công việc, chúng ta phải quyết toán số giờ đã làm."
+  },
+  {
+    "word": "abwickeln",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "xử lý, giải quyết",
+    "example_de": "Die Rechtsanwältin wird den gesamten Vertragsabschluss abwickeln.",
+    "example_vi": "Luật sư sẽ xử lý toàn bộ việc ký kết hợp đồng."
+  },
+  {
+    "word": "die Bauhandwerkersicherung",
+    "level": "C2",
+    "topic": "construction",
+    "pos": "noun",
+    "meaning_vi": "bảo đảm nhà thầu xây dựng",
+    "example_de": "Der Bauherr verlangt eine Bauhandwerkersicherung in Höhe von 5% der Auftragssumme.",
+    "example_vi": "Chủ đầu tư yêu cầu bảo đảm nhà thầu xây dựng với mức 5% giá trị hợp đồng."
+  },
+  {
+    "word": "der Werklohnanspruch",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền đòi tiền công",
+    "example_de": "Der Werklohnanspruch entsteht mit der Abnahme der erbrachten Leistung.",
+    "example_vi": "Quyền đòi tiền công phát sinh khi nghiệm thu công việc đã thực hiện."
+  },
+  {
+    "word": "die Abnahmefiktion",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "mặc định nghiệm thu",
+    "example_de": "Nach Ablauf von 12 Tagen ohne Rückmeldung tritt die Abnahmefiktion ein.",
+    "example_vi": "Sau 12 ngày không có phản hồi, mặc định nghiệm thu sẽ có hiệu lực."
+  },
+  {
+    "word": "die Mängelbeseitigungskosten",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "chi phí sửa lỗi",
+    "example_de": "Der Auftraggeber kann die Mängelbeseitigungskosten vom Werklohn einbehalten.",
+    "example_vi": "Bên đặt hàng có thể giữ lại chi phí sửa lỗi từ tiền công."
+  },
+  {
+    "word": "der Bereicherungsanspruch",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền đòi bồi hoàn",
+    "example_de": "Nach Rücktritt vom Vertrag steht dem Unternehmer ein Bereicherungsanspruch zu.",
+    "example_vi": "Sau khi rút lui khỏi hợp đồng, nhà thầu có quyền đòi bồi hoàn."
+  },
+  {
+    "word": "die Nacherfüllung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thực hiện bổ sung",
+    "example_de": "Der Käufer kann zunächst die Nacherfüllung durch Lieferung mangelfreier Ware verlangen.",
+    "example_vi": "Người mua trước tiên có thể yêu cầu thực hiện bổ sung bằng cách giao hàng không lỗi."
+  },
+  {
+    "word": "die Störerhaftung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "trách nhiệm gây rối",
+    "example_de": "Die Störerhaftung greift, wenn jemand die Rechtsverletzung ermöglicht hat.",
+    "example_vi": "Trách nhiệm gây rối áp dụng khi ai đó đã tạo điều kiện cho hành vi vi phạm pháp luật."
+  },
+  {
+    "word": "der Rücktritt",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "rút lui khỏi hợp đồng",
+    "example_de": "Wegen erheblicher Mängel erklärte der Besteller den Rücktritt vom Werkvertrag.",
+    "example_vi": "Do lỗi nghiêm trọng, bên đặt hàng tuyên bố rút lui khỏi hợp đồng gia công."
+  },
+  {
+    "word": "die Minderung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "giảm giá",
+    "example_de": "Statt Nachbesserung kann der Kunde auch eine Minderung des Kaufpreises fordern.",
+    "example_vi": "Thay vì sửa chữa, khách hàng cũng có thể yêu cầu giảm giá mua."
+  },
+  {
+    "word": "der Vorschussanspruch",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền yêu cầu tạm ứng",
+    "example_de": "Bei umfangreichen Projekten besteht oft ein Vorschussanspruch zur Deckung der Materialkosten.",
+    "example_vi": "Đối với các dự án lớn, thường có quyền yêu cầu tạm ứng để trang trải chi phí vật liệu."
+  }
+]

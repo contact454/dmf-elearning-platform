@@ -1,0 +1,2452 @@
+[
+  {
+    "word": "auch",
+    "pos": "adverb",
+    "meaning_vi": "cũng",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "noch",
+    "pos": "adverb",
+    "meaning_vi": "còn/nữa",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "schon",
+    "pos": "adverb",
+    "meaning_vi": "đã",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "sehr",
+    "pos": "adverb",
+    "meaning_vi": "rất",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "nur",
+    "pos": "adverb",
+    "meaning_vi": "chỉ",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "ganz",
+    "pos": "adverb",
+    "meaning_vi": "hoàn toàn",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "dann",
+    "pos": "adverb",
+    "meaning_vi": "sau đó",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "hier",
+    "pos": "adverb",
+    "meaning_vi": "ở đây",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "dort",
+    "pos": "adverb",
+    "meaning_vi": "ở đó",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "da",
+    "pos": "adverb",
+    "meaning_vi": "ở đó/vì",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "viel",
+    "pos": "adverb",
+    "meaning_vi": "nhiều",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "wenig",
+    "pos": "adverb",
+    "meaning_vi": "ít",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "mehr",
+    "pos": "adverb",
+    "meaning_vi": "hơn",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "genug",
+    "pos": "adverb",
+    "meaning_vi": "đủ",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "fast",
+    "pos": "adverb",
+    "meaning_vi": "gần như",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "etwa",
+    "pos": "adverb",
+    "meaning_vi": "khoảng",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "wieder",
+    "pos": "adverb",
+    "meaning_vi": "lại",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "zusammen",
+    "pos": "adverb",
+    "meaning_vi": "cùng nhau",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "allein",
+    "pos": "adverb",
+    "meaning_vi": "một mình",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "eigentlich",
+    "pos": "adverb",
+    "meaning_vi": "thực ra",
+    "level": "A1",
+    "topic": "a1_more_basics"
+  },
+  {
+    "word": "und",
+    "pos": "conjunction",
+    "meaning_vi": "và",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "oder",
+    "pos": "conjunction",
+    "meaning_vi": "hoặc",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "aber",
+    "pos": "conjunction",
+    "meaning_vi": "nhưng",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "denn",
+    "pos": "conjunction",
+    "meaning_vi": "vì",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "weil",
+    "pos": "conjunction",
+    "meaning_vi": "bởi vì",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "wenn",
+    "pos": "conjunction",
+    "meaning_vi": "khi/nếu",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "dass",
+    "pos": "conjunction",
+    "meaning_vi": "rằng",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "ob",
+    "pos": "conjunction",
+    "meaning_vi": "liệu",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "als",
+    "pos": "conjunction",
+    "meaning_vi": "khi/hơn",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "bevor",
+    "pos": "conjunction",
+    "meaning_vi": "trước khi",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "nachdem",
+    "pos": "conjunction",
+    "meaning_vi": "sau khi",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "während",
+    "pos": "conjunction",
+    "meaning_vi": "trong khi",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "obwohl",
+    "pos": "conjunction",
+    "meaning_vi": "mặc dù",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "damit",
+    "pos": "conjunction",
+    "meaning_vi": "để",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "sodass",
+    "pos": "conjunction",
+    "meaning_vi": "đến nỗi",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "ja",
+    "pos": "particle",
+    "meaning_vi": "vâng",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "nein",
+    "pos": "particle",
+    "meaning_vi": "không",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "doch",
+    "pos": "particle",
+    "meaning_vi": "có chứ",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "mal",
+    "pos": "particle",
+    "meaning_vi": "lần",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "wohl",
+    "pos": "particle",
+    "meaning_vi": "có lẽ",
+    "level": "A1",
+    "topic": "a1_conjunctions"
+  },
+  {
+    "word": "helfen",
+    "pos": "verb",
+    "meaning_vi": "giúp đỡ",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "brauchen",
+    "pos": "verb",
+    "meaning_vi": "cần",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "mögen",
+    "pos": "verb",
+    "meaning_vi": "thích",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "wollen",
+    "pos": "verb",
+    "meaning_vi": "muốn",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "können",
+    "pos": "verb",
+    "meaning_vi": "có thể",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "müssen",
+    "pos": "verb",
+    "meaning_vi": "phải",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "sollen",
+    "pos": "verb",
+    "meaning_vi": "nên",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "dürfen",
+    "pos": "verb",
+    "meaning_vi": "được phép",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "beginnen",
+    "pos": "verb",
+    "meaning_vi": "bắt đầu",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "beenden",
+    "pos": "verb",
+    "meaning_vi": "kết thúc",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "versuchen",
+    "pos": "verb",
+    "meaning_vi": "thử",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "vergessen",
+    "pos": "verb",
+    "meaning_vi": "quên",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "erinnern",
+    "pos": "verb",
+    "meaning_vi": "nhớ lại",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "zeigen",
+    "pos": "verb",
+    "meaning_vi": "chỉ",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "tragen",
+    "pos": "verb",
+    "meaning_vi": "mang",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "halten",
+    "pos": "verb",
+    "meaning_vi": "giữ",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "lassen",
+    "pos": "verb",
+    "meaning_vi": "để",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "bleiben",
+    "pos": "verb",
+    "meaning_vi": "ở lại",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "werden",
+    "pos": "verb",
+    "meaning_vi": "trở thành",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "treffen",
+    "pos": "verb",
+    "meaning_vi": "gặp",
+    "level": "A2",
+    "topic": "a2_more_verbs"
+  },
+  {
+    "word": "anders",
+    "pos": "adjective",
+    "meaning_vi": "khác",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "gleich",
+    "pos": "adjective",
+    "meaning_vi": "giống",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "ähnlich",
+    "pos": "adjective",
+    "meaning_vi": "tương tự",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "verschieden",
+    "pos": "adjective",
+    "meaning_vi": "khác nhau",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "bekannt",
+    "pos": "adjective",
+    "meaning_vi": "nổi tiếng",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "berühmt",
+    "pos": "adjective",
+    "meaning_vi": "nổi tiếng",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "beliebt",
+    "pos": "adjective",
+    "meaning_vi": "được yêu thích",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "besonders",
+    "pos": "adjective",
+    "meaning_vi": "đặc biệt",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "gewöhnlich",
+    "pos": "adjective",
+    "meaning_vi": "thông thường",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "normal",
+    "pos": "adjective",
+    "meaning_vi": "bình thường",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "typisch",
+    "pos": "adjective",
+    "meaning_vi": "điển hình",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "komisch",
+    "pos": "adjective",
+    "meaning_vi": "kỳ lạ",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "seltsam",
+    "pos": "adjective",
+    "meaning_vi": "lạ",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "wunderbar",
+    "pos": "adjective",
+    "meaning_vi": "tuyệt vời",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "fantastisch",
+    "pos": "adjective",
+    "meaning_vi": "tuyệt vời",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "toll",
+    "pos": "adjective",
+    "meaning_vi": "tuyệt",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "super",
+    "pos": "adjective",
+    "meaning_vi": "siêu",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "schrecklich",
+    "pos": "adjective",
+    "meaning_vi": "kinh khủng",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "furchtbar",
+    "pos": "adjective",
+    "meaning_vi": "khủng khiếp",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "angenehm",
+    "pos": "adjective",
+    "meaning_vi": "dễ chịu",
+    "level": "A2",
+    "topic": "a2_more_adjectives"
+  },
+  {
+    "word": "der Ordner",
+    "pos": "noun",
+    "meaning_vi": "cặp tài liệu",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Zettel",
+    "pos": "noun",
+    "meaning_vi": "tờ giấy",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Stift",
+    "pos": "noun",
+    "meaning_vi": "bút",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "das Papier",
+    "pos": "noun",
+    "meaning_vi": "giấy",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "die Schere",
+    "pos": "noun",
+    "meaning_vi": "kéo",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Klebestreifen",
+    "pos": "noun",
+    "meaning_vi": "băng dính",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "die Büroklammer",
+    "pos": "noun",
+    "meaning_vi": "kẹp giấy",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Hefter",
+    "pos": "noun",
+    "meaning_vi": "dập ghim",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Locher",
+    "pos": "noun",
+    "meaning_vi": "dụng cụ đục lỗ",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Kalender",
+    "pos": "noun",
+    "meaning_vi": "lịch",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "die Agenda",
+    "pos": "noun",
+    "meaning_vi": "nhật ký",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Terminplaner",
+    "pos": "noun",
+    "meaning_vi": "lịch hẹn",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "die Notiz",
+    "pos": "noun",
+    "meaning_vi": "ghi chú",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Brief",
+    "pos": "noun",
+    "meaning_vi": "thư",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Umschlag",
+    "pos": "noun",
+    "meaning_vi": "phong bì",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "die Briefmarke",
+    "pos": "noun",
+    "meaning_vi": "tem",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "das Paket",
+    "pos": "noun",
+    "meaning_vi": "gói hàng",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Empfänger",
+    "pos": "noun",
+    "meaning_vi": "người nhận",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "der Absender",
+    "pos": "noun",
+    "meaning_vi": "người gửi",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "die Adresse",
+    "pos": "noun",
+    "meaning_vi": "địa chỉ",
+    "level": "A2",
+    "topic": "a2_office"
+  },
+  {
+    "word": "die Gurke",
+    "pos": "noun",
+    "meaning_vi": "dưa chuột",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Paprika",
+    "pos": "noun",
+    "meaning_vi": "ớt chuông",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Möhre",
+    "pos": "noun",
+    "meaning_vi": "cà rốt",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "der Spinat",
+    "pos": "noun",
+    "meaning_vi": "rau chân vịt",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "der Kohl",
+    "pos": "noun",
+    "meaning_vi": "bắp cải",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Bohne",
+    "pos": "noun",
+    "meaning_vi": "đậu",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Erbse",
+    "pos": "noun",
+    "meaning_vi": "đậu Hà Lan",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "der Pilz",
+    "pos": "noun",
+    "meaning_vi": "nấm",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Kirsche",
+    "pos": "noun",
+    "meaning_vi": "quả anh đào",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Erdbeere",
+    "pos": "noun",
+    "meaning_vi": "dâu tây",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Himbeere",
+    "pos": "noun",
+    "meaning_vi": "mâm xôi",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Traube",
+    "pos": "noun",
+    "meaning_vi": "nho",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Birne",
+    "pos": "noun",
+    "meaning_vi": "lê",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Zitrone",
+    "pos": "noun",
+    "meaning_vi": "chanh",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Ananas",
+    "pos": "noun",
+    "meaning_vi": "dứa",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Melone",
+    "pos": "noun",
+    "meaning_vi": "dưa",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Nuss",
+    "pos": "noun",
+    "meaning_vi": "hạt",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Mandel",
+    "pos": "noun",
+    "meaning_vi": "hạnh nhân",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Haselnuss",
+    "pos": "noun",
+    "meaning_vi": "hạt phỉ",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "die Walnuss",
+    "pos": "noun",
+    "meaning_vi": "óc chó",
+    "level": "A2",
+    "topic": "a2_food_more"
+  },
+  {
+    "word": "das Pferd",
+    "pos": "noun",
+    "meaning_vi": "con ngựa",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "die Kuh",
+    "pos": "noun",
+    "meaning_vi": "con bò cái",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "das Schwein",
+    "pos": "noun",
+    "meaning_vi": "con lợn",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "das Schaf",
+    "pos": "noun",
+    "meaning_vi": "con cừu",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "die Ziege",
+    "pos": "noun",
+    "meaning_vi": "con dê",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "das Huhn",
+    "pos": "noun",
+    "meaning_vi": "con gà",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "die Ente",
+    "pos": "noun",
+    "meaning_vi": "con vịt",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "die Gans",
+    "pos": "noun",
+    "meaning_vi": "con ngỗng",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Hase",
+    "pos": "noun",
+    "meaning_vi": "con thỏ",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "die Maus",
+    "pos": "noun",
+    "meaning_vi": "con chuột",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Bär",
+    "pos": "noun",
+    "meaning_vi": "con gấu",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Wolf",
+    "pos": "noun",
+    "meaning_vi": "con sói",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Fuchs",
+    "pos": "noun",
+    "meaning_vi": "con cáo",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Löwe",
+    "pos": "noun",
+    "meaning_vi": "con sư tử",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Tiger",
+    "pos": "noun",
+    "meaning_vi": "con hổ",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Elefant",
+    "pos": "noun",
+    "meaning_vi": "con voi",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "die Giraffe",
+    "pos": "noun",
+    "meaning_vi": "con hươu cao cổ",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "das Zebra",
+    "pos": "noun",
+    "meaning_vi": "con ngựa vằn",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Affe",
+    "pos": "noun",
+    "meaning_vi": "con khỉ",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "die Schlange",
+    "pos": "noun",
+    "meaning_vi": "con rắn",
+    "level": "A2",
+    "topic": "a2_animals"
+  },
+  {
+    "word": "der Wettkampf",
+    "pos": "noun",
+    "meaning_vi": "cuộc thi đấu",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "das Spiel",
+    "pos": "noun",
+    "meaning_vi": "trận đấu",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "die Mannschaft",
+    "pos": "noun",
+    "meaning_vi": "đội",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "der Spieler",
+    "pos": "noun",
+    "meaning_vi": "cầu thủ",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "der Trainer",
+    "pos": "noun",
+    "meaning_vi": "huấn luyện viên",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "der Schiedsrichter",
+    "pos": "noun",
+    "meaning_vi": "trọng tài",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "das Tor",
+    "pos": "noun",
+    "meaning_vi": "bàn thắng",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "der Ball",
+    "pos": "noun",
+    "meaning_vi": "bóng",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "das Stadion",
+    "pos": "noun",
+    "meaning_vi": "sân vận động",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "der Fan",
+    "pos": "noun",
+    "meaning_vi": "người hâm mộ",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "der Sieg",
+    "pos": "noun",
+    "meaning_vi": "chiến thắng",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "die Niederlage",
+    "pos": "noun",
+    "meaning_vi": "thất bại",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "das Unentschieden",
+    "pos": "noun",
+    "meaning_vi": "hòa",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "die Meisterschaft",
+    "pos": "noun",
+    "meaning_vi": "giải vô địch",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "die Olympiade",
+    "pos": "noun",
+    "meaning_vi": "thế vận hội",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "gewinnen",
+    "pos": "verb",
+    "meaning_vi": "thắng",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "verlieren",
+    "pos": "verb",
+    "meaning_vi": "thua",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "trainieren",
+    "pos": "verb",
+    "meaning_vi": "tập luyện",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "schießen",
+    "pos": "verb",
+    "meaning_vi": "sút",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "werfen",
+    "pos": "verb",
+    "meaning_vi": "ném",
+    "level": "B1",
+    "topic": "b1_sports"
+  },
+  {
+    "word": "das Konto",
+    "pos": "noun",
+    "meaning_vi": "tài khoản",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "das Girokonto",
+    "pos": "noun",
+    "meaning_vi": "tài khoản vãng lai",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "das Sparkonto",
+    "pos": "noun",
+    "meaning_vi": "tài khoản tiết kiệm",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die Überweisung",
+    "pos": "noun",
+    "meaning_vi": "chuyển khoản",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die Abhebung",
+    "pos": "noun",
+    "meaning_vi": "rút tiền",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die Einzahlung",
+    "pos": "noun",
+    "meaning_vi": "nộp tiền",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "der Kontostand",
+    "pos": "noun",
+    "meaning_vi": "số dư",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "der Kontoauszug",
+    "pos": "noun",
+    "meaning_vi": "sao kê",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die EC-Karte",
+    "pos": "noun",
+    "meaning_vi": "thẻ ghi nợ",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die Kreditkarte",
+    "pos": "noun",
+    "meaning_vi": "thẻ tín dụng",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "der Geldautomat",
+    "pos": "noun",
+    "meaning_vi": "máy ATM",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "der Kredit",
+    "pos": "noun",
+    "meaning_vi": "khoản vay",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die Schulden",
+    "pos": "noun",
+    "meaning_vi": "nợ",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die Zinsen",
+    "pos": "noun",
+    "meaning_vi": "lãi suất",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die Rate",
+    "pos": "noun",
+    "meaning_vi": "tỷ lệ",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "überweisen",
+    "pos": "verb",
+    "meaning_vi": "chuyển khoản",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "abheben",
+    "pos": "verb",
+    "meaning_vi": "rút tiền",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "einzahlen",
+    "pos": "verb",
+    "meaning_vi": "nộp tiền",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "leihen",
+    "pos": "verb",
+    "meaning_vi": "vay",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "zurückzahlen",
+    "pos": "verb",
+    "meaning_vi": "trả lại",
+    "level": "B1",
+    "topic": "b1_banking"
+  },
+  {
+    "word": "die Veranstaltung",
+    "pos": "noun",
+    "meaning_vi": "sự kiện",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "die Feier",
+    "pos": "noun",
+    "meaning_vi": "buổi lễ",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "die Party",
+    "pos": "noun",
+    "meaning_vi": "tiệc",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "die Hochzeit",
+    "pos": "noun",
+    "meaning_vi": "đám cưới",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "die Taufe",
+    "pos": "noun",
+    "meaning_vi": "lễ rửa tội",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "die Beerdigung",
+    "pos": "noun",
+    "meaning_vi": "đám tang",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "das Jubiläum",
+    "pos": "noun",
+    "meaning_vi": "kỷ niệm",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "der Jahrestag",
+    "pos": "noun",
+    "meaning_vi": "ngày kỷ niệm",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "die Einladung",
+    "pos": "noun",
+    "meaning_vi": "lời mời",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "der Gast",
+    "pos": "noun",
+    "meaning_vi": "khách",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "der Gastgeber",
+    "pos": "noun",
+    "meaning_vi": "chủ nhà",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "das Geschenk",
+    "pos": "noun",
+    "meaning_vi": "quà",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "die Dekoration",
+    "pos": "noun",
+    "meaning_vi": "trang trí",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "das Buffet",
+    "pos": "noun",
+    "meaning_vi": "tiệc tự chọn",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "der Kuchen",
+    "pos": "noun",
+    "meaning_vi": "bánh",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "einladen",
+    "pos": "verb",
+    "meaning_vi": "mời",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "feiern",
+    "pos": "verb",
+    "meaning_vi": "ăn mừng",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "schenken",
+    "pos": "verb",
+    "meaning_vi": "tặng",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "dekorieren",
+    "pos": "verb",
+    "meaning_vi": "trang trí",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "gratulieren",
+    "pos": "verb",
+    "meaning_vi": "chúc mừng",
+    "level": "B1",
+    "topic": "b1_events"
+  },
+  {
+    "word": "die Stimmung",
+    "pos": "noun",
+    "meaning_vi": "tâm trạng",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Laune",
+    "pos": "noun",
+    "meaning_vi": "tâm trạng",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "das Gefühl",
+    "pos": "noun",
+    "meaning_vi": "cảm xúc",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Begeisterung",
+    "pos": "noun",
+    "meaning_vi": "sự nhiệt tình",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Zufriedenheit",
+    "pos": "noun",
+    "meaning_vi": "sự hài lòng",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Unzufriedenheit",
+    "pos": "noun",
+    "meaning_vi": "sự không hài lòng",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Langeweile",
+    "pos": "noun",
+    "meaning_vi": "sự nhàm chán",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Einsamkeit",
+    "pos": "noun",
+    "meaning_vi": "sự cô đơn",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Sehnsucht",
+    "pos": "noun",
+    "meaning_vi": "nỗi nhớ",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Eifersucht",
+    "pos": "noun",
+    "meaning_vi": "sự ghen tuông",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "begeistert",
+    "pos": "adjective",
+    "meaning_vi": "hào hứng",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "zufrieden",
+    "pos": "adjective",
+    "meaning_vi": "hài lòng",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "unzufrieden",
+    "pos": "adjective",
+    "meaning_vi": "không hài lòng",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "gelangweilt",
+    "pos": "adjective",
+    "meaning_vi": "chán",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "einsam",
+    "pos": "adjective",
+    "meaning_vi": "cô đơn",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "sehnsüchtig",
+    "pos": "adjective",
+    "meaning_vi": "nhớ nhung",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "neugierig",
+    "pos": "adjective",
+    "meaning_vi": "tò mò",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "dankbar",
+    "pos": "adjective",
+    "meaning_vi": "biết ơn",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "überwältigt",
+    "pos": "adjective",
+    "meaning_vi": "choáng ngợp",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "erleichtert",
+    "pos": "adjective",
+    "meaning_vi": "nhẹ nhõm",
+    "level": "B1",
+    "topic": "b1_feelings"
+  },
+  {
+    "word": "die Webseite",
+    "pos": "noun",
+    "meaning_vi": "trang web",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Browser",
+    "pos": "noun",
+    "meaning_vi": "trình duyệt",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "die Suchmaschine",
+    "pos": "noun",
+    "meaning_vi": "công cụ tìm kiếm",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Link",
+    "pos": "noun",
+    "meaning_vi": "liên kết",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Account",
+    "pos": "noun",
+    "meaning_vi": "tài khoản",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "das Profil",
+    "pos": "noun",
+    "meaning_vi": "hồ sơ",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Beitrag",
+    "pos": "noun",
+    "meaning_vi": "bài đăng",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Kommentar",
+    "pos": "noun",
+    "meaning_vi": "bình luận",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Follower",
+    "pos": "noun",
+    "meaning_vi": "người theo dõi",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Like",
+    "pos": "noun",
+    "meaning_vi": "lượt thích",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Hashtag",
+    "pos": "noun",
+    "meaning_vi": "hashtag",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "die Benachrichtigung",
+    "pos": "noun",
+    "meaning_vi": "thông báo",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Newsletter",
+    "pos": "noun",
+    "meaning_vi": "bản tin",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "der Spam",
+    "pos": "noun",
+    "meaning_vi": "thư rác",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "die Privatsphäre",
+    "pos": "noun",
+    "meaning_vi": "quyền riêng tư",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "posten",
+    "pos": "verb",
+    "meaning_vi": "đăng",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "liken",
+    "pos": "verb",
+    "meaning_vi": "thích",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "folgen",
+    "pos": "verb",
+    "meaning_vi": "theo dõi",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "abonnieren",
+    "pos": "verb",
+    "meaning_vi": "đăng ký",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "blockieren",
+    "pos": "verb",
+    "meaning_vi": "chặn",
+    "level": "B1",
+    "topic": "b1_internet"
+  },
+  {
+    "word": "die Diplomatie",
+    "pos": "noun",
+    "meaning_vi": "ngoại giao",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "der Botschafter",
+    "pos": "noun",
+    "meaning_vi": "đại sứ",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Botschaft",
+    "pos": "noun",
+    "meaning_vi": "đại sứ quán",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "das Konsulat",
+    "pos": "noun",
+    "meaning_vi": "lãnh sự quán",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "der Vertrag",
+    "pos": "noun",
+    "meaning_vi": "hiệp ước",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "das Abkommen",
+    "pos": "noun",
+    "meaning_vi": "thỏa thuận",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Verhandlung",
+    "pos": "noun",
+    "meaning_vi": "đàm phán",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Sanktion",
+    "pos": "noun",
+    "meaning_vi": "trừng phạt",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Allianz",
+    "pos": "noun",
+    "meaning_vi": "liên minh",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Neutralität",
+    "pos": "noun",
+    "meaning_vi": "trung lập",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "der Konflikt",
+    "pos": "noun",
+    "meaning_vi": "xung đột",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "der Frieden",
+    "pos": "noun",
+    "meaning_vi": "hòa bình",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Abrüstung",
+    "pos": "noun",
+    "meaning_vi": "giải trừ quân bị",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Souveränität",
+    "pos": "noun",
+    "meaning_vi": "chủ quyền",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Intervention",
+    "pos": "noun",
+    "meaning_vi": "can thiệp",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "verhandeln",
+    "pos": "verb",
+    "meaning_vi": "đàm phán",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "vermitteln",
+    "pos": "verb",
+    "meaning_vi": "hòa giải",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "sanktionieren",
+    "pos": "verb",
+    "meaning_vi": "trừng phạt",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "diplomatisch",
+    "pos": "adjective",
+    "meaning_vi": "ngoại giao",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "neutral",
+    "pos": "adjective",
+    "meaning_vi": "trung lập",
+    "level": "B2",
+    "topic": "b2_diplomacy"
+  },
+  {
+    "word": "die Psychologie",
+    "pos": "noun",
+    "meaning_vi": "tâm lý học",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "das Verhalten",
+    "pos": "noun",
+    "meaning_vi": "hành vi",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Wahrnehmung",
+    "pos": "noun",
+    "meaning_vi": "nhận thức",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "das Gedächtnis",
+    "pos": "noun",
+    "meaning_vi": "trí nhớ",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Motivation",
+    "pos": "noun",
+    "meaning_vi": "động lực",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Persönlichkeit",
+    "pos": "noun",
+    "meaning_vi": "nhân cách",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "das Trauma",
+    "pos": "noun",
+    "meaning_vi": "chấn thương tâm lý",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Depression",
+    "pos": "noun",
+    "meaning_vi": "trầm cảm",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Angststörung",
+    "pos": "noun",
+    "meaning_vi": "rối loạn lo âu",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "das Selbstbewusstsein",
+    "pos": "noun",
+    "meaning_vi": "sự tự tin",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Selbstachtung",
+    "pos": "noun",
+    "meaning_vi": "lòng tự trọng",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Achtsamkeit",
+    "pos": "noun",
+    "meaning_vi": "chánh niệm",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Resilienz",
+    "pos": "noun",
+    "meaning_vi": "khả năng phục hồi",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Empathie",
+    "pos": "noun",
+    "meaning_vi": "sự đồng cảm",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Intelligenz",
+    "pos": "noun",
+    "meaning_vi": "trí thông minh",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "wahrnehmen",
+    "pos": "verb",
+    "meaning_vi": "nhận thức",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "verdrängen",
+    "pos": "verb",
+    "meaning_vi": "kìm nén",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "reflektieren",
+    "pos": "verb",
+    "meaning_vi": "suy ngẫm",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "psychologisch",
+    "pos": "adjective",
+    "meaning_vi": "tâm lý",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "empathisch",
+    "pos": "adjective",
+    "meaning_vi": "đồng cảm",
+    "level": "B2",
+    "topic": "b2_psychology"
+  },
+  {
+    "word": "die Medizin",
+    "pos": "noun",
+    "meaning_vi": "y học",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Chirurgie",
+    "pos": "noun",
+    "meaning_vi": "phẫu thuật",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Kardiologie",
+    "pos": "noun",
+    "meaning_vi": "tim mạch",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Neurologie",
+    "pos": "noun",
+    "meaning_vi": "thần kinh",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Onkologie",
+    "pos": "noun",
+    "meaning_vi": "ung thư",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Dermatologie",
+    "pos": "noun",
+    "meaning_vi": "da liễu",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Psychiatrie",
+    "pos": "noun",
+    "meaning_vi": "tâm thần",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Pädiatrie",
+    "pos": "noun",
+    "meaning_vi": "nhi khoa",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Anästhesie",
+    "pos": "noun",
+    "meaning_vi": "gây mê",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Rehabilitation",
+    "pos": "noun",
+    "meaning_vi": "phục hồi chức năng",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "der Blutdruck",
+    "pos": "noun",
+    "meaning_vi": "huyết áp",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "der Puls",
+    "pos": "noun",
+    "meaning_vi": "mạch",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "das Röntgen",
+    "pos": "noun",
+    "meaning_vi": "chụp X-quang",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die MRT",
+    "pos": "noun",
+    "meaning_vi": "chụp MRI",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "das EKG",
+    "pos": "noun",
+    "meaning_vi": "điện tâm đồ",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "diagnostizieren",
+    "pos": "verb",
+    "meaning_vi": "chẩn đoán",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "transplantieren",
+    "pos": "verb",
+    "meaning_vi": "ghép",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "medizinisch",
+    "pos": "adjective",
+    "meaning_vi": "y học",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "klinisch",
+    "pos": "adjective",
+    "meaning_vi": "lâm sàng",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "chronisch",
+    "pos": "adjective",
+    "meaning_vi": "mãn tính",
+    "level": "B2",
+    "topic": "b2_medicine"
+  },
+  {
+    "word": "die Abhandlung",
+    "pos": "noun",
+    "meaning_vi": "luận văn",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Erörterung",
+    "pos": "noun",
+    "meaning_vi": "thảo luận",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Ausführung",
+    "pos": "noun",
+    "meaning_vi": "trình bày",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Darlegung",
+    "pos": "noun",
+    "meaning_vi": "trình bày",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "der Sachverhalt",
+    "pos": "noun",
+    "meaning_vi": "tình hình thực tế",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Problematik",
+    "pos": "noun",
+    "meaning_vi": "vấn đề",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Thematik",
+    "pos": "noun",
+    "meaning_vi": "chủ đề",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Fragestellung",
+    "pos": "noun",
+    "meaning_vi": "câu hỏi nghiên cứu",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Zielsetzung",
+    "pos": "noun",
+    "meaning_vi": "mục tiêu",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Vorgehensweise",
+    "pos": "noun",
+    "meaning_vi": "phương pháp",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Herangehensweise",
+    "pos": "noun",
+    "meaning_vi": "cách tiếp cận",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Grundlage",
+    "pos": "noun",
+    "meaning_vi": "cơ sở",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "der Rahmen",
+    "pos": "noun",
+    "meaning_vi": "khuôn khổ",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Einschränkung",
+    "pos": "noun",
+    "meaning_vi": "hạn chế",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "die Implikation",
+    "pos": "noun",
+    "meaning_vi": "hàm ý",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "darlegen",
+    "pos": "verb",
+    "meaning_vi": "trình bày",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "ausführen",
+    "pos": "verb",
+    "meaning_vi": "thực hiện",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "erörtern",
+    "pos": "verb",
+    "meaning_vi": "thảo luận",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "herausarbeiten",
+    "pos": "verb",
+    "meaning_vi": "làm rõ",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "zugrunde legen",
+    "pos": "verb",
+    "meaning_vi": "dựa trên",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "einschränken",
+    "pos": "verb",
+    "meaning_vi": "hạn chế",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "implizieren",
+    "pos": "verb",
+    "meaning_vi": "ngụ ý",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "grundlegend",
+    "pos": "adjective",
+    "meaning_vi": "cơ bản",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "wesentlich",
+    "pos": "adjective",
+    "meaning_vi": "thiết yếu",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "umfassend",
+    "pos": "adjective",
+    "meaning_vi": "toàn diện",
+    "level": "C1",
+    "topic": "c1_academic_writing"
+  },
+  {
+    "word": "der Determinismus",
+    "pos": "noun",
+    "meaning_vi": "thuyết quyết định",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "der Relativismus",
+    "pos": "noun",
+    "meaning_vi": "thuyết tương đối",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "der Rationalismus",
+    "pos": "noun",
+    "meaning_vi": "chủ nghĩa duy lý",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "der Empirismus",
+    "pos": "noun",
+    "meaning_vi": "chủ nghĩa kinh nghiệm",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "die Ontologie",
+    "pos": "noun",
+    "meaning_vi": "bản thể học",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "die Epistemologie",
+    "pos": "noun",
+    "meaning_vi": "nhận thức luận",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "die Phänomenologie",
+    "pos": "noun",
+    "meaning_vi": "hiện tượng học",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "die Hermeneutik",
+    "pos": "noun",
+    "meaning_vi": "thông diễn học",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "das Apriori",
+    "pos": "noun",
+    "meaning_vi": "tiên nghiệm",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "das Aposteriori",
+    "pos": "noun",
+    "meaning_vi": "hậu nghiệm",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "das Axiom",
+    "pos": "noun",
+    "meaning_vi": "tiên đề",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "die Tautologie",
+    "pos": "noun",
+    "meaning_vi": "trùng ngôn",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "das Paradox",
+    "pos": "noun",
+    "meaning_vi": "nghịch lý",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "die Dialektik",
+    "pos": "noun",
+    "meaning_vi": "biện chứng",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "die Synthese",
+    "pos": "noun",
+    "meaning_vi": "tổng hợp",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "konstituieren",
+    "pos": "verb",
+    "meaning_vi": "cấu thành",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "transzendieren",
+    "pos": "verb",
+    "meaning_vi": "siêu việt",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "synthetisieren",
+    "pos": "verb",
+    "meaning_vi": "tổng hợp",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "deterministisch",
+    "pos": "adjective",
+    "meaning_vi": "quyết định",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "ontologisch",
+    "pos": "adjective",
+    "meaning_vi": "bản thể",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "epistemisch",
+    "pos": "adjective",
+    "meaning_vi": "nhận thức",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "phänomenologisch",
+    "pos": "adjective",
+    "meaning_vi": "hiện tượng học",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "hermeneutisch",
+    "pos": "adjective",
+    "meaning_vi": "thông diễn",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "apriorisch",
+    "pos": "adjective",
+    "meaning_vi": "tiên nghiệm",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  },
+  {
+    "word": "axiomatisch",
+    "pos": "adjective",
+    "meaning_vi": "tiên đề",
+    "level": "C1",
+    "topic": "c1_philosophy_more"
+  }
+]

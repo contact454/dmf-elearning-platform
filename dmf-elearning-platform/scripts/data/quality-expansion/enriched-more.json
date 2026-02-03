@@ -1,0 +1,4736 @@
+[
+  {
+    "word": "Frühstück",
+    "meaning_vi": "bữa sáng",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Ich esse jeden Morgen ein gesundes Frühstück mit Müsli und Obst.",
+    "example_vi": "Tôi ăn một bữa sáng lành mạnh với ngũ cốc và trái cây mỗi sáng."
+  },
+  {
+    "word": "Mittagessen",
+    "meaning_vi": "bữa trưa",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Um 12 Uhr machen wir eine Pause für das Mittagessen.",
+    "example_vi": "Lúc 12 giờ chúng tôi nghỉ để ăn bữa trưa."
+  },
+  {
+    "word": "Abendessen",
+    "meaning_vi": "bữa tối",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Heute Abend koche ich ein leckeres Abendessen für meine Familie.",
+    "example_vi": "Tối nay tôi nấu một bữa tối ngon cho gia đình."
+  },
+  {
+    "word": "Vorspeise",
+    "meaning_vi": "món khai vị",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Als Vorspeise nehme ich eine Tomatensuppe.",
+    "example_vi": "Món khai vị tôi chọn súp cà chua."
+  },
+  {
+    "word": "Hauptgericht",
+    "meaning_vi": "món chính",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Das Hauptgericht besteht aus gegrilltem Lachs mit Gemüse.",
+    "example_vi": "Món chính gồm cá hồi nướng với rau."
+  },
+  {
+    "word": "Nachspeise",
+    "meaning_vi": "món tráng miệng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Zum Nachtisch gibt es Schokoladenkuchen als Nachspeise.",
+    "example_vi": "Món tráng miệng là bánh sô-cô-la."
+  },
+  {
+    "word": "Zutat",
+    "meaning_vi": "nguyên liệu",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Für dieses Rezept brauchen wir frische Zutaten aus dem Supermarkt.",
+    "example_vi": "Cho công thức này chúng ta cần nguyên liệu tươi từ siêu thị."
+  },
+  {
+    "word": "Rezept",
+    "meaning_vi": "công thức",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Ich habe ein neues Rezept für italienische Pasta ausprobiert.",
+    "example_vi": "Tôi đã thử một công thức mới cho mì Ý."
+  },
+  {
+    "word": "Pfanne",
+    "meaning_vi": "chảo",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Brate die Eier in der Pfanne mit etwas Butter.",
+    "example_vi": "Chiên trứng trong chảo với một ít bơ."
+  },
+  {
+    "word": "Topf",
+    "meaning_vi": "nồi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Koche die Nudeln in einem großen Topf mit Salzwasser.",
+    "example_vi": "Nấu mì trong một nồi lớn với nước muối."
+  },
+  {
+    "word": "Ofen",
+    "meaning_vi": "lò nướng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Der Kuchen muss 30 Minuten im Ofen backen.",
+    "example_vi": "Bánh phải nướng 30 phút trong lò."
+  },
+  {
+    "word": "Kühlschrank",
+    "meaning_vi": "tủ lạnh",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Stelle die Milch bitte in den Kühlschrank, damit sie nicht schlecht wird.",
+    "example_vi": "Làm ơn để sữa vào tủ lạnh để không bị hỏng."
+  },
+  {
+    "word": "Mikrowelle",
+    "meaning_vi": "lò vi sóng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Ich wärme das Essen schnell in der Mikrowelle auf.",
+    "example_vi": "Tôi hâm nóng đồ ăn nhanh trong lò vi sóng."
+  },
+  {
+    "word": "Spülmaschine",
+    "meaning_vi": "máy rửa bát",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Nach dem Essen räume ich das schmutzige Geschirr in die Spülmaschine.",
+    "example_vi": "Sau bữa ăn tôi cho bát đĩa bẩn vào máy rửa bát."
+  },
+  {
+    "word": "Gewürz",
+    "meaning_vi": "gia vị",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Dieses Gericht braucht mehr Gewürz, es schmeckt zu fade.",
+    "example_vi": "Món này cần thêm gia vị, nó nhạt quá."
+  },
+  {
+    "word": "Öl",
+    "meaning_vi": "dầu ăn",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Gib etwas Öl in die Pfanne, bevor du das Gemüse brätst.",
+    "example_vi": "Cho một ít dầu vào chảo trước khi chiên rau."
+  },
+  {
+    "word": "Essig",
+    "meaning_vi": "giấm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Für den Salat mische ich Öl und Essig zusammen.",
+    "example_vi": "Cho món salad tôi trộn dầu và giấm với nhau."
+  },
+  {
+    "word": "Mehl",
+    "meaning_vi": "bột mì",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Zum Backen von Brot benötigt man Mehl, Wasser und Hefe.",
+    "example_vi": "Để nướng bánh mì cần bột mì, nước và men."
+  },
+  {
+    "word": "Teig",
+    "meaning_vi": "bột nhào",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Knete den Teig gut durch, bevor du ihn ausrollst.",
+    "example_vi": "Nhào bột kỹ trước khi cán mỏng ra."
+  },
+  {
+    "word": "Sahne",
+    "meaning_vi": "kem",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Ich schlage die Sahne steif für die Torte.",
+    "example_vi": "Tôi đánh kem sệt cho bánh torte."
+  },
+  {
+    "word": "Joghurt",
+    "meaning_vi": "sữa chua",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Zum Frühstück esse ich gerne Joghurt mit frischen Früchten.",
+    "example_vi": "Bữa sáng tôi thích ăn sữa chua với trái cây tươi."
+  },
+  {
+    "word": "Quark",
+    "meaning_vi": "phô mai tươi",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Meine Oma macht einen leckeren Kuchen mit Quark.",
+    "example_vi": "Bà tôi làm một chiếc bánh ngon với phô mai tươi."
+  },
+  {
+    "word": "Wurst",
+    "meaning_vi": "xúc xích",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "In Deutschland gibt es viele verschiedene Sorten von Wurst.",
+    "example_vi": "Ở Đức có rất nhiều loại xúc xích khác nhau."
+  },
+  {
+    "word": "Schinken",
+    "meaning_vi": "giăm bông",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Ich möchte ein Brot mit Schinken und Käse, bitte.",
+    "example_vi": "Tôi muốn một ổ bánh mì với giăm bông và phô mai, làm ơn."
+  },
+  {
+    "word": "Hähnchen",
+    "meaning_vi": "thịt gà",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Heute Abend gibt es gebratenes Hähnchen mit Gemüse.",
+    "example_vi": "Tối nay có thịt gà rán với rau."
+  },
+  {
+    "word": "Rindfleisch",
+    "meaning_vi": "thịt bò",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Rindfleisch ist teurer als Schweinefleisch.",
+    "example_vi": "Thịt bò đắt hơn thịt heo."
+  },
+  {
+    "word": "Schweinefleisch",
+    "meaning_vi": "thịt heo",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "Viele Deutsche essen gerne Schweinefleisch.",
+    "example_vi": "Nhiều người Đức thích ăn thịt heo."
+  },
+  {
+    "word": "Lamm",
+    "meaning_vi": "thịt cừu",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "food_expanded",
+    "example_de": "In der Türkei isst man oft Lamm mit Reis.",
+    "example_vi": "Ở Thổ Nhĩ Kỳ người ta thường ăn thịt cừu với cơm."
+  },
+  {
+    "word": "braten",
+    "meaning_vi": "chiên, rán",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "food_expanded",
+    "example_de": "Ich brate die Kartoffeln in der Pfanne.",
+    "example_vi": "Tôi chiên khoai tây trong chảo."
+  },
+  {
+    "word": "grillen",
+    "meaning_vi": "nướng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "food_expanded",
+    "example_de": "Im Sommer grillen wir oft im Garten.",
+    "example_vi": "Vào mùa hè chúng tôi thường nướng trong vườn."
+  },
+  {
+    "word": "backen",
+    "meaning_vi": "nướng bánh",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "food_expanded",
+    "example_de": "Meine Mutter backt jeden Sonntag einen Kuchen.",
+    "example_vi": "Mẹ tôi nướng bánh mỗi Chủ nhật."
+  },
+  {
+    "word": "kochen",
+    "meaning_vi": "nấu",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "food_expanded",
+    "example_de": "Kannst du Spaghetti kochen?",
+    "example_vi": "Bạn có thể nấu mì Ý không?"
+  },
+  {
+    "word": "schneiden",
+    "meaning_vi": "cắt",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "food_expanded",
+    "example_de": "Bitte schneide die Tomaten in kleine Stücke.",
+    "example_vi": "Làm ơn cắt cà chua thành những miếng nhỏ."
+  },
+  {
+    "word": "rühren",
+    "meaning_vi": "khuấy",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "food_expanded",
+    "example_de": "Du musst die Soße ständig rühren, damit sie nicht anbrennt.",
+    "example_vi": "Bạn phải khuấy nước sốt liên tục để nó không bị cháy."
+  },
+  {
+    "word": "würzen",
+    "meaning_vi": "nêm gia vị",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "food_expanded",
+    "example_de": "Vergiss nicht, die Suppe mit Salz und Pfeffer zu würzen.",
+    "example_vi": "Đừng quên nêm súp với muối và tiêu."
+  },
+  {
+    "word": "schälen",
+    "meaning_vi": "gọt vỏ",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "food_expanded",
+    "example_de": "Ich muss noch die Kartoffeln schälen.",
+    "example_vi": "Tôi còn phải gọt vỏ khoai tây."
+  },
+  {
+    "word": "lecker",
+    "meaning_vi": "ngon",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "food_expanded",
+    "example_de": "Das Essen schmeckt sehr lecker!",
+    "example_vi": "Món ăn rất ngon!"
+  },
+  {
+    "word": "salzig",
+    "meaning_vi": "mặn",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "food_expanded",
+    "example_de": "Die Suppe ist mir zu salzig.",
+    "example_vi": "Súp mặn quá đối với tôi."
+  },
+  {
+    "word": "süß",
+    "meaning_vi": "ngọt",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "food_expanded",
+    "example_de": "Dieser Kuchen ist sehr süß.",
+    "example_vi": "Chiếc bánh này rất ngọt."
+  },
+  {
+    "word": "sauer",
+    "meaning_vi": "chua",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "food_expanded",
+    "example_de": "Zitronen schmecken sauer.",
+    "example_vi": "Chanh có vị chua."
+  },
+  {
+    "word": "bitter",
+    "meaning_vi": "đắng",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "food_expanded",
+    "example_de": "Der Kaffee ohne Zucker schmeckt sehr bitter.",
+    "example_vi": "Cà phê không đường có vị rất đắng."
+  },
+  {
+    "word": "scharf",
+    "meaning_vi": "cay",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "food_expanded",
+    "example_de": "Die Thai-Suppe ist zu scharf für mich.",
+    "example_vi": "Súp Thái quá cay đối với tôi."
+  },
+  {
+    "word": "Supermarkt",
+    "meaning_vi": "siêu thị",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Ich kaufe Obst und Gemüse im Supermarkt.",
+    "example_vi": "Tôi mua trái cây và rau củ ở siêu thị."
+  },
+  {
+    "word": "Laden",
+    "meaning_vi": "cửa hàng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Der kleine Laden an der Ecke hat bis 22 Uhr geöffnet.",
+    "example_vi": "Cửa hàng nhỏ ở góc phố mở cửa đến 22 giờ."
+  },
+  {
+    "word": "Bäckerei",
+    "meaning_vi": "tiệm bánh",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Jeden Morgen hole ich frische Brötchen von der Bäckerei.",
+    "example_vi": "Mỗi sáng tôi mua bánh mì tươi từ tiệm bánh."
+  },
+  {
+    "word": "Metzgerei",
+    "meaning_vi": "cửa hàng thịt",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "In der Metzgerei bekommt man frisches Fleisch und Wurst.",
+    "example_vi": "Ở cửa hàng thịt người ta có thể mua thịt tươi và xúc xích."
+  },
+  {
+    "word": "Apotheke",
+    "meaning_vi": "nhà thuốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Ich muss zur Apotheke gehen, um meine Medikamente abzuholen.",
+    "example_vi": "Tôi phải đến nhà thuốc để lấy thuốc của mình."
+  },
+  {
+    "word": "Drogerie",
+    "meaning_vi": "cửa hàng mỹ phẩm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "In der Drogerie kaufe ich Shampoo und Zahnpasta.",
+    "example_vi": "Ở cửa hàng mỹ phẩm tôi mua dầu gội và kem đánh răng."
+  },
+  {
+    "word": "Kaufhaus",
+    "meaning_vi": "trung tâm mua sắm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Das Kaufhaus hat fünf Etagen mit verschiedenen Abteilungen.",
+    "example_vi": "Trung tâm mua sắm có năm tầng với các quầy khác nhau."
+  },
+  {
+    "word": "Einkaufszentrum",
+    "meaning_vi": "trung tâm thương mại",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Im Einkaufszentrum gibt es viele Geschäfte und Restaurants.",
+    "example_vi": "Trong trung tâm thương mại có nhiều cửa hàng và nhà hàng."
+  },
+  {
+    "word": "Markt",
+    "meaning_vi": "chợ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Samstags gehe ich gerne auf den Markt, um frisches Gemüse zu kaufen.",
+    "example_vi": "Thứ Bảy tôi thích đi chợ để mua rau tươi."
+  },
+  {
+    "word": "Flohmarkt",
+    "meaning_vi": "chợ đồ cũ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Auf dem Flohmarkt habe ich ein altes Buch für 2 Euro gefunden.",
+    "example_vi": "Ở chợ đồ cũ tôi đã tìm thấy một cuốn sách cũ với giá 2 Euro."
+  },
+  {
+    "word": "Kasse",
+    "meaning_vi": "quầy thu ngân",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "An der Kasse muss man manchmal lange warten.",
+    "example_vi": "Ở quầy thu ngân đôi khi phải chờ đợi lâu."
+  },
+  {
+    "word": "Einkaufswagen",
+    "meaning_vi": "xe đẩy mua sắm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Ich brauche einen Einkaufswagen, weil ich viel einkaufen muss.",
+    "example_vi": "Tôi cần một xe đẩy mua sắm vì tôi phải mua nhiều đồ."
+  },
+  {
+    "word": "Tüte",
+    "meaning_vi": "túi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Möchten Sie eine Tüte für Ihre Einkäufe?",
+    "example_vi": "Bạn có muốn một cái túi cho đồ mua sắm của mình không?"
+  },
+  {
+    "word": "Quittung",
+    "meaning_vi": "hóa đơn",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Bitte bewahren Sie die Quittung auf, falls Sie etwas umtauschen möchten.",
+    "example_vi": "Vui lòng giữ hóa đơn trong trường hợp bạn muốn đổi hàng."
+  },
+  {
+    "word": "Sonderangebot",
+    "meaning_vi": "khuyến mãi",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Diese Woche gibt es ein Sonderangebot für Kaffee: 20% Rabatt.",
+    "example_vi": "Tuần này có khuyến mãi cho cà phê: giảm giá 20%."
+  },
+  {
+    "word": "Rabatt",
+    "meaning_vi": "giảm giá",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Mit meiner Kundenkarte bekomme ich 10% Rabatt.",
+    "example_vi": "Với thẻ khách hàng của tôi, tôi được giảm giá 10%."
+  },
+  {
+    "word": "Gutschein",
+    "meaning_vi": "phiếu giảm giá",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Ich habe einen Gutschein über 50 Euro für dieses Geschäft.",
+    "example_vi": "Tôi có một phiếu giảm giá trị giá 50 Euro cho cửa hàng này."
+  },
+  {
+    "word": "Größe",
+    "meaning_vi": "kích cỡ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Welche Größe tragen Sie? - Ich trage Größe M.",
+    "example_vi": "Bạn mặc cỡ nào? - Tôi mặc cỡ M."
+  },
+  {
+    "word": "Farbe",
+    "meaning_vi": "màu sắc",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Welche Farbe hat dein neues Auto?",
+    "example_vi": "Xe mới của bạn màu gì?"
+  },
+  {
+    "word": "Qualität",
+    "meaning_vi": "chất lượng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Die Qualität dieser Schuhe ist sehr gut.",
+    "example_vi": "Chất lượng của đôi giày này rất tốt."
+  },
+  {
+    "word": "Garantie",
+    "meaning_vi": "bảo hành",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Das Handy hat zwei Jahre Garantie.",
+    "example_vi": "Chiếc điện thoại có bảo hành hai năm."
+  },
+  {
+    "word": "Umtausch",
+    "meaning_vi": "đổi hàng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Ein Umtausch ist nur mit Kassenbon möglich.",
+    "example_vi": "Việc đổi hàng chỉ có thể thực hiện khi có hóa đơn."
+  },
+  {
+    "word": "Rückgabe",
+    "meaning_vi": "trả hàng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping_expanded",
+    "example_de": "Die Rückgabe ist innerhalb von 14 Tagen möglich.",
+    "example_vi": "Có thể trả hàng trong vòng 14 ngày."
+  },
+  {
+    "word": "einkaufen",
+    "meaning_vi": "mua sắm",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "shopping_expanded",
+    "example_de": "Ich gehe am Samstag einkaufen.",
+    "example_vi": "Tôi đi mua sắm vào thứ Bảy."
+  },
+  {
+    "word": "bezahlen",
+    "meaning_vi": "thanh toán",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "shopping_expanded",
+    "example_de": "Kann ich mit Karte bezahlen?",
+    "example_vi": "Tôi có thể thanh toán bằng thẻ không?"
+  },
+  {
+    "word": "umtauschen",
+    "meaning_vi": "đổi trả",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "shopping_expanded",
+    "example_de": "Ich möchte diese Hose umtauschen.",
+    "example_vi": "Tôi muốn đổi cái quần này."
+  },
+  {
+    "word": "anprobieren",
+    "meaning_vi": "thử (quần áo)",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "shopping_expanded",
+    "example_de": "Darf ich das Kleid anprobieren?",
+    "example_vi": "Tôi có thể thử chiếc váy này không?"
+  },
+  {
+    "word": "passen",
+    "meaning_vi": "vừa",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "shopping_expanded",
+    "example_de": "Die Schuhe passen mir perfekt.",
+    "example_vi": "Đôi giày vừa vặn với tôi."
+  },
+  {
+    "word": "günstig",
+    "meaning_vi": "rẻ",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "shopping_expanded",
+    "example_de": "Im Sale sind die Preise sehr günstig.",
+    "example_vi": "Trong đợt giảm giá, giá cả rất rẻ."
+  },
+  {
+    "word": "teuer",
+    "meaning_vi": "đắt",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "shopping_expanded",
+    "example_de": "Diese Tasche ist mir zu teuer.",
+    "example_vi": "Chiếc túi này quá đắt đối với tôi."
+  },
+  {
+    "word": "billig",
+    "meaning_vi": "rẻ tiền",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "shopping_expanded",
+    "example_de": "Ich habe eine billige Jacke im Internet gefunden.",
+    "example_vi": "Tôi đã tìm thấy một chiếc áo khoác rẻ tiền trên mạng."
+  },
+  {
+    "word": "kostenlos",
+    "meaning_vi": "miễn phí",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "shopping_expanded",
+    "example_de": "Der Versand ist kostenlos.",
+    "example_vi": "Vận chuyển miễn phí."
+  },
+  {
+    "word": "Wohnung",
+    "meaning_vi": "căn hộ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Ich suche eine Wohnung in der Stadtmitte.",
+    "example_vi": "Tôi đang tìm một căn hộ ở trung tâm thành phố."
+  },
+  {
+    "word": "Haus",
+    "meaning_vi": "nhà",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Meine Eltern haben ein Haus mit Garten.",
+    "example_vi": "Bố mẹ tôi có một ngôi nhà có vườn."
+  },
+  {
+    "word": "Miete",
+    "meaning_vi": "tiền thuê",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Miete beträgt 800 Euro pro Monat.",
+    "example_vi": "Tiền thuê là 800 euro mỗi tháng."
+  },
+  {
+    "word": "Nebenkosten",
+    "meaning_vi": "chi phí phụ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Nebenkosten sind in der Miete nicht enthalten.",
+    "example_vi": "Chi phí phụ không bao gồm trong tiền thuê."
+  },
+  {
+    "word": "Vermieter",
+    "meaning_vi": "chủ nhà cho thuê",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Der Vermieter kommt morgen vorbei.",
+    "example_vi": "Chủ nhà cho thuê sẽ ghé qua vào ngày mai."
+  },
+  {
+    "word": "Mieter",
+    "meaning_vi": "người thuê",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Als Mieter muss ich die Wohnung sauber halten.",
+    "example_vi": "Là người thuê, tôi phải giữ căn hộ sạch sẽ."
+  },
+  {
+    "word": "Mietvertrag",
+    "meaning_vi": "hợp đồng thuê",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Wir müssen den Mietvertrag vor dem Einzug unterschreiben.",
+    "example_vi": "Chúng ta phải ký hợp đồng thuê trước khi chuyển vào."
+  },
+  {
+    "word": "Kaution",
+    "meaning_vi": "tiền đặt cọc",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Kaution beträgt drei Monatsmieten.",
+    "example_vi": "Tiền đặt cọc bằng ba tháng tiền thuê."
+  },
+  {
+    "word": "Schlafzimmer",
+    "meaning_vi": "phòng ngủ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Wohnung hat zwei Schlafzimmer und ein großes Wohnzimmer.",
+    "example_vi": "Căn hộ có hai phòng ngủ và một phòng khách lớn."
+  },
+  {
+    "word": "Wohnzimmer",
+    "meaning_vi": "phòng khách",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Im Wohnzimmer steht ein bequemes Sofa.",
+    "example_vi": "Trong phòng khách có một chiếc sofa thoải mái."
+  },
+  {
+    "word": "Küche",
+    "meaning_vi": "bếp",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Küche ist modern und voll ausgestattet.",
+    "example_vi": "Nhà bếp hiện đại và được trang bị đầy đủ."
+  },
+  {
+    "word": "Badezimmer",
+    "meaning_vi": "phòng tắm",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Das Badezimmer wurde letztes Jahr renoviert.",
+    "example_vi": "Phòng tắm đã được cải tạo năm ngoái."
+  },
+  {
+    "word": "Toilette",
+    "meaning_vi": "nhà vệ sinh",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Toilette befindet sich neben dem Badezimmer.",
+    "example_vi": "Nhà vệ sinh nằm cạnh phòng tắm."
+  },
+  {
+    "word": "Balkon",
+    "meaning_vi": "ban công",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Vom Balkon aus hat man einen schönen Blick auf den Park.",
+    "example_vi": "Từ ban công có thể nhìn thấy quang cảnh đẹp ra công viên."
+  },
+  {
+    "word": "Terrasse",
+    "meaning_vi": "sân thượng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Im Sommer frühstücken wir oft auf der Terrasse.",
+    "example_vi": "Vào mùa hè chúng tôi thường ăn sáng trên sân thượng."
+  },
+  {
+    "word": "Garten",
+    "meaning_vi": "vườn",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Kinder spielen gerne im Garten.",
+    "example_vi": "Bọn trẻ thích chơi trong vườn."
+  },
+  {
+    "word": "Garage",
+    "meaning_vi": "ga ra",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Mein Auto steht in der Garage.",
+    "example_vi": "Xe của tôi đậu trong ga ra."
+  },
+  {
+    "word": "Keller",
+    "meaning_vi": "tầng hầm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Im Keller lagern wir alte Möbel und Werkzeuge.",
+    "example_vi": "Trong tầng hầm chúng tôi cất giữ đồ nội thất cũ và dụng cụ."
+  },
+  {
+    "word": "Dachboden",
+    "meaning_vi": "gác mái",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Auf dem Dachboden haben wir viele Kartons mit alten Sachen.",
+    "example_vi": "Trên gác mái chúng tôi có nhiều thùng đựng đồ cũ."
+  },
+  {
+    "word": "Treppe",
+    "meaning_vi": "cầu thang",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Treppe führt in den ersten Stock.",
+    "example_vi": "Cầu thang dẫn lên tầng một."
+  },
+  {
+    "word": "Aufzug",
+    "meaning_vi": "thang máy",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Der Aufzug ist leider außer Betrieb.",
+    "example_vi": "Thang máy đáng tiếc đang hỏng."
+  },
+  {
+    "word": "Etage",
+    "meaning_vi": "tầng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Wir wohnen in der dritten Etage.",
+    "example_vi": "Chúng tôi sống ở tầng ba."
+  },
+  {
+    "word": "Stockwerk",
+    "meaning_vi": "tầng nhà",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Das Gebäude hat fünf Stockwerke.",
+    "example_vi": "Tòa nhà có năm tầng."
+  },
+  {
+    "word": "Eingang",
+    "meaning_vi": "lối vào",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Der Eingang zum Gebäude ist auf der rechten Seite.",
+    "example_vi": "Lối vào tòa nhà ở phía bên phải."
+  },
+  {
+    "word": "Ausgang",
+    "meaning_vi": "lối ra",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Im Notfall benutzen Sie bitte den Notausgang.",
+    "example_vi": "Trong trường hợp khẩn cấp vui lòng sử dụng lối ra thoát hiểm."
+  },
+  {
+    "word": "Fenster",
+    "meaning_vi": "cửa sổ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Kannst du bitte das Fenster öffnen? Es ist sehr warm hier.",
+    "example_vi": "Bạn có thể mở cửa sổ được không? Ở đây rất nóng."
+  },
+  {
+    "word": "Tür",
+    "meaning_vi": "cửa",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Bitte schließen Sie die Tür, wenn Sie das Zimmer verlassen.",
+    "example_vi": "Vui lòng đóng cửa khi bạn rời khỏi phòng."
+  },
+  {
+    "word": "Wand",
+    "meaning_vi": "tường",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Wir haben die Wand im Wohnzimmer blau gestrichen.",
+    "example_vi": "Chúng tôi đã sơn tường phòng khách màu xanh dương."
+  },
+  {
+    "word": "Decke",
+    "meaning_vi": "trần nhà",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "An der Decke hängt ein schöner Kronleuchter.",
+    "example_vi": "Trên trần nhà treo một chiếc đèn chùm đẹp."
+  },
+  {
+    "word": "Boden",
+    "meaning_vi": "sàn nhà",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Der Boden in der Küche ist aus Holz.",
+    "example_vi": "Sàn nhà trong bếp làm bằng gỗ."
+  },
+  {
+    "word": "Möbel",
+    "meaning_vi": "đồ nội thất",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Wir müssen noch neue Möbel für das Schlafzimmer kaufen.",
+    "example_vi": "Chúng tôi vẫn phải mua đồ nội thất mới cho phòng ngủ."
+  },
+  {
+    "word": "Sofa",
+    "meaning_vi": "ghế sofa",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Das Sofa im Wohnzimmer ist sehr bequem.",
+    "example_vi": "Chiếc ghế sofa trong phòng khách rất thoải mái."
+  },
+  {
+    "word": "Sessel",
+    "meaning_vi": "ghế bành",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Mein Vater sitzt gerne in seinem alten Sessel und liest die Zeitung.",
+    "example_vi": "Bố tôi thích ngồi trên chiếc ghế bành cũ của ông ấy và đọc báo."
+  },
+  {
+    "word": "Schrank",
+    "meaning_vi": "tủ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Ich habe meine Kleider im Schrank aufgehängt.",
+    "example_vi": "Tôi đã treo quần áo của mình trong tủ."
+  },
+  {
+    "word": "Regal",
+    "meaning_vi": "kệ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Auf dem Regal stehen viele Bücher und Fotos.",
+    "example_vi": "Trên kệ có nhiều sách và ảnh."
+  },
+  {
+    "word": "Lampe",
+    "meaning_vi": "đèn",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Die Lampe auf dem Schreibtisch ist kaputt.",
+    "example_vi": "Chiếc đèn trên bàn làm việc bị hỏng."
+  },
+  {
+    "word": "Teppich",
+    "meaning_vi": "thảm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Der Teppich im Wohnzimmer ist sehr weich und warm.",
+    "example_vi": "Tấm thảm trong phòng khách rất mềm và ấm."
+  },
+  {
+    "word": "Vorhang",
+    "meaning_vi": "rèm cửa",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Kannst du bitte den Vorhang zuziehen? Es ist zu hell.",
+    "example_vi": "Bạn có thể kéo rèm cửa lại được không? Trời quá sáng."
+  },
+  {
+    "word": "Heizung",
+    "meaning_vi": "sưởi ấm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Im Winter müssen wir die Heizung einschalten.",
+    "example_vi": "Vào mùa đông chúng tôi phải bật hệ thống sưởi ấm."
+  },
+  {
+    "word": "Klimaanlage",
+    "meaning_vi": "máy điều hòa",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "housing_expanded",
+    "example_de": "Im Sommer läuft die Klimaanlage den ganzen Tag.",
+    "example_vi": "Vào mùa hè máy điều hòa chạy cả ngày."
+  },
+  {
+    "word": "mieten",
+    "meaning_vi": "thuê",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "housing_expanded",
+    "example_de": "Wir möchten eine Wohnung in der Stadtmitte mieten.",
+    "example_vi": "Chúng tôi muốn thuê một căn hộ ở trung tâm thành phố."
+  },
+  {
+    "word": "vermieten",
+    "meaning_vi": "cho thuê",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "housing_expanded",
+    "example_de": "Meine Eltern vermieten ihre alte Wohnung an Studenten.",
+    "example_vi": "Bố mẹ tôi cho sinh viên thuê căn hộ cũ của họ."
+  },
+  {
+    "word": "einziehen",
+    "meaning_vi": "dọn vào",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "housing_expanded",
+    "example_de": "Wir ziehen nächsten Monat in unsere neue Wohnung ein.",
+    "example_vi": "Chúng tôi sẽ dọn vào căn hộ mới của mình vào tháng tới."
+  },
+  {
+    "word": "ausziehen",
+    "meaning_vi": "dọn ra",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "housing_expanded",
+    "example_de": "Sie muss bis Ende des Monats aus der Wohnung ausziehen.",
+    "example_vi": "Cô ấy phải dọn ra khỏi căn hộ trước cuối tháng."
+  },
+  {
+    "word": "renovieren",
+    "meaning_vi": "sửa chữa",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "housing_expanded",
+    "example_de": "Wir müssen das Badezimmer renovieren, es ist sehr alt.",
+    "example_vi": "Chúng tôi phải sửa chữa phòng tắm, nó đã rất cũ."
+  },
+  {
+    "word": "putzen",
+    "meaning_vi": "dọn dẹp",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "housing_expanded",
+    "example_de": "Am Wochenende putze ich immer die ganze Wohnung.",
+    "example_vi": "Vào cuối tuần tôi luôn dọn dẹp toàn bộ căn hộ."
+  },
+  {
+    "word": "Verkehr",
+    "meaning_vi": "giao thông",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Der Verkehr in der Innenstadt ist morgens immer sehr stark.",
+    "example_vi": "Giao thông ở trung tâm thành phố buổi sáng luôn rất đông đúc."
+  },
+  {
+    "word": "Straße",
+    "meaning_vi": "đường phố",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Die Kinder spielen nicht auf der Straße, sondern im Park.",
+    "example_vi": "Bọn trẻ không chơi trên đường phố mà chơi trong công viên."
+  },
+  {
+    "word": "Ampel",
+    "meaning_vi": "đèn giao thông",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Bei Rot musst du an der Ampel stehen bleiben.",
+    "example_vi": "Khi đèn đỏ bạn phải dừng lại ở đèn giao thông."
+  },
+  {
+    "word": "Kreuzung",
+    "meaning_vi": "ngã tư",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "An der nächsten Kreuzung biegen Sie bitte links ab.",
+    "example_vi": "Ở ngã tư tiếp theo xin vui lòng rẽ trái."
+  },
+  {
+    "word": "Kreisverkehr",
+    "meaning_vi": "vòng xuyến",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Im Kreisverkehr haben die Fahrzeuge Vorfahrt, die bereits im Kreis fahren.",
+    "example_vi": "Ở vòng xuyến, các phương tiện đang chạy trong vòng có quyền ưu tiên."
+  },
+  {
+    "word": "Gehweg",
+    "meaning_vi": "vỉa hè",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Fahrräder dürfen nicht auf dem Gehweg fahren.",
+    "example_vi": "Xe đạp không được phép chạy trên vỉa hè."
+  },
+  {
+    "word": "Radweg",
+    "meaning_vi": "đường xe đạp",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "In dieser Stadt gibt es viele gut ausgebaute Radwege.",
+    "example_vi": "Ở thành phố này có nhiều đường xe đạp được xây dựng tốt."
+  },
+  {
+    "word": "Autobahn",
+    "meaning_vi": "đường cao tốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Auf der Autobahn gibt es in Deutschland oft kein Tempolimit.",
+    "example_vi": "Trên đường cao tốc ở Đức thường không có giới hạn tốc độ."
+  },
+  {
+    "word": "Parkplatz",
+    "meaning_vi": "bãi đỗ xe",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Ich suche schon seit 20 Minuten einen freien Parkplatz.",
+    "example_vi": "Tôi đã tìm một chỗ đỗ xe trống suốt 20 phút rồi."
+  },
+  {
+    "word": "Tankstelle",
+    "meaning_vi": "trạm xăng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Wir müssen an der nächsten Tankstelle tanken.",
+    "example_vi": "Chúng ta phải đổ xăng ở trạm xăng tiếp theo."
+  },
+  {
+    "word": "Benzin",
+    "meaning_vi": "xăng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Der Preis für Benzin ist in den letzten Monaten gestiegen.",
+    "example_vi": "Giá xăng đã tăng trong những tháng gần đây."
+  },
+  {
+    "word": "Diesel",
+    "meaning_vi": "dầu diesel",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Mein Auto fährt mit Diesel, nicht mit Benzin.",
+    "example_vi": "Xe của tôi chạy bằng dầu diesel, không phải xăng."
+  },
+  {
+    "word": "Motor",
+    "meaning_vi": "động cơ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Der Motor macht komische Geräusche, ich muss zur Werkstatt.",
+    "example_vi": "Động cơ kêu những tiếng lạ, tôi phải đến xưởng sửa chữa."
+  },
+  {
+    "word": "Reifen",
+    "meaning_vi": "lốp xe",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Im Winter sollte man die Reifen wechseln.",
+    "example_vi": "Vào mùa đông nên thay lốp xe."
+  },
+  {
+    "word": "Bremse",
+    "meaning_vi": "phanh",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Die Bremse funktioniert nicht richtig, das ist sehr gefährlich.",
+    "example_vi": "Phanh không hoạt động đúng cách, điều đó rất nguy hiểm."
+  },
+  {
+    "word": "Lenkrad",
+    "meaning_vi": "vô lăng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Halte das Lenkrad immer mit beiden Händen fest.",
+    "example_vi": "Luôn giữ chặt vô lăng bằng hai tay."
+  },
+  {
+    "word": "Sicherheitsgurt",
+    "meaning_vi": "dây an toàn",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Bitte legen Sie den Sicherheitsgurt an, bevor wir losfahren.",
+    "example_vi": "Vui lòng thắt dây an toàn trước khi chúng ta khởi hành."
+  },
+  {
+    "word": "Führerschein",
+    "meaning_vi": "bằng lái xe",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Ich habe meinen Führerschein mit 18 Jahren gemacht.",
+    "example_vi": "Tôi đã thi bằng lái xe khi 18 tuổi."
+  },
+  {
+    "word": "Kennzeichen",
+    "meaning_vi": "biển số xe",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Die Polizei hat das Kennzeichen des Unfallwagens notiert.",
+    "example_vi": "Cảnh sát đã ghi lại biển số xe của chiếc xe gặp tai nạn."
+  },
+  {
+    "word": "Versicherung",
+    "meaning_vi": "bảo hiểm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Ohne Versicherung darf man kein Auto fahren.",
+    "example_vi": "Không có bảo hiểm thì không được phép lái xe."
+  },
+  {
+    "word": "Unfall",
+    "meaning_vi": "tai nạn",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Auf der Autobahn gab es heute Morgen einen schweren Unfall.",
+    "example_vi": "Sáng nay trên đường cao tốc đã xảy ra một vụ tai nạn nghiêm trọng."
+  },
+  {
+    "word": "Stau",
+    "meaning_vi": "tắc đường",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Wegen des Staus kam ich eine Stunde zu spät zur Arbeit.",
+    "example_vi": "Vì tắc đường nên tôi đến công ty muộn một tiếng."
+  },
+  {
+    "word": "Umleitung",
+    "meaning_vi": "đường vòng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Die Straße ist gesperrt, wir müssen eine Umleitung nehmen.",
+    "example_vi": "Con đường bị phong tỏa, chúng ta phải đi đường vòng."
+  },
+  {
+    "word": "Haltestelle",
+    "meaning_vi": "trạm xe buýt",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Die nächste Haltestelle ist nur 200 Meter von hier entfernt.",
+    "example_vi": "Trạm xe buýt tiếp theo chỉ cách đây 200 mét."
+  },
+  {
+    "word": "Bahnhof",
+    "meaning_vi": "ga tàu",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Ich hole dich um 18 Uhr am Bahnhof ab.",
+    "example_vi": "Tôi sẽ đón bạn lúc 6 giờ tối ở ga tàu."
+  },
+  {
+    "word": "Gleis",
+    "meaning_vi": "đường ray",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Der Zug nach Berlin fährt von Gleis 7 ab.",
+    "example_vi": "Tàu đi Berlin khởi hành từ đường ray số 7."
+  },
+  {
+    "word": "Fahrkarte",
+    "meaning_vi": "vé xe",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Hast du schon eine Fahrkarte für die Reise gekauft?",
+    "example_vi": "Bạn đã mua vé cho chuyến đi chưa?"
+  },
+  {
+    "word": "Fahrplan",
+    "meaning_vi": "lịch trình",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Laut Fahrplan kommt der Bus um 9:15 Uhr an.",
+    "example_vi": "Theo lịch trình thì xe buýt sẽ đến lúc 9 giờ 15 phút."
+  },
+  {
+    "word": "Verspätung",
+    "meaning_vi": "sự chậm trễ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Der Flug hat 30 Minuten Verspätung.",
+    "example_vi": "Chuyến bay bị chậm 30 phút."
+  },
+  {
+    "word": "Ankunft",
+    "meaning_vi": "đến nơi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Die Ankunft in München ist für 14 Uhr geplant.",
+    "example_vi": "Dự kiến đến Munich lúc 2 giờ chiều."
+  },
+  {
+    "word": "Abfahrt",
+    "meaning_vi": "khởi hành",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "transport_expanded",
+    "example_de": "Die Abfahrt des Zuges ist um 10:30 Uhr.",
+    "example_vi": "Tàu khởi hành lúc 10 giờ 30 phút."
+  },
+  {
+    "word": "fahren",
+    "meaning_vi": "lái xe",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "Ich fahre jeden Tag mit dem Auto zur Arbeit.",
+    "example_vi": "Tôi lái xe đi làm mỗi ngày."
+  },
+  {
+    "word": "fliegen",
+    "meaning_vi": "bay",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "Nächste Woche fliege ich nach Paris.",
+    "example_vi": "Tuần sau tôi sẽ bay đến Paris."
+  },
+  {
+    "word": "abbiegen",
+    "meaning_vi": "rẽ",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "An der nächsten Kreuzung müssen Sie nach links abbiegen.",
+    "example_vi": "Ở ngã tư tiếp theo bạn phải rẽ trái."
+  },
+  {
+    "word": "überholen",
+    "meaning_vi": "vượt",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "Es ist gefährlich, hier zu überholen.",
+    "example_vi": "Vượt xe ở đây rất nguy hiểm."
+  },
+  {
+    "word": "parken",
+    "meaning_vi": "đỗ xe",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "Wo kann ich hier mein Auto parken?",
+    "example_vi": "Tôi có thể đỗ xe ở đâu quanh đây?"
+  },
+  {
+    "word": "tanken",
+    "meaning_vi": "đổ xăng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "Ich muss noch tanken, bevor wir losfahren.",
+    "example_vi": "Tôi phải đổ xăng trước khi chúng ta khởi hành."
+  },
+  {
+    "word": "einsteigen",
+    "meaning_vi": "lên xe",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "Bitte steigen Sie schnell ein, der Zug fährt gleich ab.",
+    "example_vi": "Xin mời nhanh lên xe, tàu sắp khởi hành."
+  },
+  {
+    "word": "aussteigen",
+    "meaning_vi": "xuống xe",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "An welcher Station müssen wir aussteigen?",
+    "example_vi": "Chúng ta phải xuống xe ở ga nào?"
+  },
+  {
+    "word": "umsteigen",
+    "meaning_vi": "chuyển xe",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "transport_expanded",
+    "example_de": "In Frankfurt müssen Sie umsteigen.",
+    "example_vi": "Ở Frankfurt bạn phải chuyển xe."
+  },
+  {
+    "word": "Wetter",
+    "meaning_vi": "thời tiết",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Das Wetter ist heute sehr schön und sonnig.",
+    "example_vi": "Thời tiết hôm nay rất đẹp và có nắng."
+  },
+  {
+    "word": "Sonne",
+    "meaning_vi": "mặt trời",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Die Sonne scheint hell am Himmel.",
+    "example_vi": "Mặt trời chiếu sáng trên bầu trời."
+  },
+  {
+    "word": "Mond",
+    "meaning_vi": "mặt trăng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Der Mond ist heute Nacht besonders hell.",
+    "example_vi": "Mặt trăng đêm nay đặc biệt sáng."
+  },
+  {
+    "word": "Stern",
+    "meaning_vi": "ngôi sao",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Am Nachthimmel kann man viele Sterne sehen.",
+    "example_vi": "Trên bầu trời đêm có thể nhìn thấy nhiều ngôi sao."
+  },
+  {
+    "word": "Wolke",
+    "meaning_vi": "mây",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Eine dunkle Wolke zieht über den Himmel.",
+    "example_vi": "Một đám mây đen kéo qua bầu trời."
+  },
+  {
+    "word": "Regen",
+    "meaning_vi": "mưa",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Es fällt starker Regen, nimm einen Regenschirm mit!",
+    "example_vi": "Trời đang mưa to, hãy mang theo ô nhé!"
+  },
+  {
+    "word": "Schnee",
+    "meaning_vi": "tuyết",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Im Winter fällt viel Schnee in den Bergen.",
+    "example_vi": "Vào mùa đông có nhiều tuyết rơi trên núi."
+  },
+  {
+    "word": "Hagel",
+    "meaning_vi": "mưa đá",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Der Hagel hat die Autoscheiben beschädigt.",
+    "example_vi": "Mưa đá đã làm hỏng kính xe hơi."
+  },
+  {
+    "word": "Gewitter",
+    "meaning_vi": "giông bão",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Heute Abend wird ein starkes Gewitter erwartet.",
+    "example_vi": "Tối nay dự kiến sẽ có giông bão mạnh."
+  },
+  {
+    "word": "Blitz",
+    "meaning_vi": "sấm chớp",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Der Blitz hat in einen Baum eingeschlagen.",
+    "example_vi": "Sấm chớp đã đánh vào một cái cây."
+  },
+  {
+    "word": "Donner",
+    "meaning_vi": "sấm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Nach dem Blitz hört man den lauten Donner.",
+    "example_vi": "Sau tiếng sấm chớp, người ta nghe thấy tiếng sấm lớn."
+  },
+  {
+    "word": "Wind",
+    "meaning_vi": "gió",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Der Wind weht heute sehr stark.",
+    "example_vi": "Gió hôm nay thổi rất mạnh."
+  },
+  {
+    "word": "Sturm",
+    "meaning_vi": "bão",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Der Sturm hat viele Bäume umgeworfen.",
+    "example_vi": "Cơn bão đã làm đổ nhiều cây."
+  },
+  {
+    "word": "Nebel",
+    "meaning_vi": "sương mù",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Morgens liegt oft dichter Nebel über dem Tal.",
+    "example_vi": "Buổi sáng thường có sương mù dày đặc bao phủ thung lũng."
+  },
+  {
+    "word": "Frost",
+    "meaning_vi": "sương giá",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "In der Nacht gab es leichten Frost.",
+    "example_vi": "Vào ban đêm có sương giá nhẹ."
+  },
+  {
+    "word": "Eis",
+    "meaning_vi": "băng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Auf der Straße liegt gefährliches Eis.",
+    "example_vi": "Trên đường có băng nguy hiểm."
+  },
+  {
+    "word": "Hitze",
+    "meaning_vi": "nóng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Die Hitze im Sommer ist manchmal unerträglich.",
+    "example_vi": "Cái nóng vào mùa hè đôi khi không thể chịu đựng được."
+  },
+  {
+    "word": "Kälte",
+    "meaning_vi": "lạnh",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Die Kälte im Winter macht mir nichts aus.",
+    "example_vi": "Cái lạnh vào mùa đông không làm tôi bận tâm."
+  },
+  {
+    "word": "Temperatur",
+    "meaning_vi": "nhiệt độ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Die Temperatur steigt heute auf 30 Grad.",
+    "example_vi": "Nhiệt độ hôm nay tăng lên 30 độ."
+  },
+  {
+    "word": "Grad",
+    "meaning_vi": "độ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Es sind minus fünf Grad draußen.",
+    "example_vi": "Bên ngoài âm năm độ."
+  },
+  {
+    "word": "Vorhersage",
+    "meaning_vi": "dự báo",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Die Wettervorhersage für morgen sagt Regen voraus.",
+    "example_vi": "Dự báo thời tiết cho ngày mai báo trước có mưa."
+  },
+  {
+    "word": "Jahreszeit",
+    "meaning_vi": "mùa",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Der Herbst ist meine Lieblingsjahreszeit.",
+    "example_vi": "Mùa thu là mùa yêu thích của tôi."
+  },
+  {
+    "word": "Frühling",
+    "meaning_vi": "mùa xuân",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Im Frühling blühen die Blumen überall.",
+    "example_vi": "Vào mùa xuân, hoa nở khắp nơi."
+  },
+  {
+    "word": "Sommer",
+    "meaning_vi": "mùa hè",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Im Sommer fahren wir oft an den Strand.",
+    "example_vi": "Vào mùa hè, chúng tôi thường đi biển."
+  },
+  {
+    "word": "Herbst",
+    "meaning_vi": "mùa thu",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Im Herbst fallen die Blätter von den Bäumen.",
+    "example_vi": "Vào mùa thu, lá rơi từ trên cây xuống."
+  },
+  {
+    "word": "Winter",
+    "meaning_vi": "mùa đông",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "weather_expanded",
+    "example_de": "Der Winter in Deutschland ist sehr kalt.",
+    "example_vi": "Mùa đông ở Đức rất lạnh."
+  },
+  {
+    "word": "sonnig",
+    "meaning_vi": "có nắng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Heute ist es sonnig und warm.",
+    "example_vi": "Hôm nay trời có nắng và ấm."
+  },
+  {
+    "word": "bewölkt",
+    "meaning_vi": "nhiều mây",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Der Himmel ist bewölkt, aber es regnet nicht.",
+    "example_vi": "Bầu trời nhiều mây nhưng không mưa."
+  },
+  {
+    "word": "regnerisch",
+    "meaning_vi": "có mưa",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Das Wetter ist heute sehr regnerisch.",
+    "example_vi": "Thời tiết hôm nay có mưa rất nhiều."
+  },
+  {
+    "word": "windig",
+    "meaning_vi": "có gió",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Es ist zu windig, um draußen zu spielen.",
+    "example_vi": "Trời có gió quá không thể chơi ngoài trời."
+  },
+  {
+    "word": "neblig",
+    "meaning_vi": "có sương mù",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Am Morgen war es sehr neblig auf der Straße.",
+    "example_vi": "Vào buổi sáng, trên đường có sương mù rất dày."
+  },
+  {
+    "word": "warm",
+    "meaning_vi": "ấm",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Das Wasser im Pool ist angenehm warm.",
+    "example_vi": "Nước trong bể bơi ấm dễ chịu."
+  },
+  {
+    "word": "kalt",
+    "meaning_vi": "lạnh",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Im Winter ist das Wetter sehr kalt.",
+    "example_vi": "Vào mùa đông, thời tiết rất lạnh."
+  },
+  {
+    "word": "heiß",
+    "meaning_vi": "nóng",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Im Juli ist es in Spanien sehr heiß.",
+    "example_vi": "Vào tháng Bảy, ở Tây Ban Nha rất nóng."
+  },
+  {
+    "word": "kühl",
+    "meaning_vi": "mát",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Die Nächte im Herbst sind schon kühl.",
+    "example_vi": "Những đêm vào mùa thu đã mát rồi."
+  },
+  {
+    "word": "feucht",
+    "meaning_vi": "ẩm",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Die Luft ist heute sehr feucht und schwül.",
+    "example_vi": "Không khí hôm nay rất ẩm và oi bức."
+  },
+  {
+    "word": "trocken",
+    "meaning_vi": "khô",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "weather_expanded",
+    "example_de": "Das Klima in der Wüste ist sehr trocken.",
+    "example_vi": "Khí hậu ở sa mạc rất khô."
+  },
+  {
+    "word": "regnen",
+    "meaning_vi": "mưa",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "weather_expanded",
+    "example_de": "Es regnet seit drei Tagen ohne Pause.",
+    "example_vi": "Trời mưa liên tục ba ngày không ngừng."
+  },
+  {
+    "word": "schneien",
+    "meaning_vi": "tuyết rơi",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "weather_expanded",
+    "example_de": "Im Dezember schneit es oft in den Bergen.",
+    "example_vi": "Vào tháng Mười Hai, tuyết thường rơi trên núi."
+  },
+  {
+    "word": "scheinen",
+    "meaning_vi": "chiếu sáng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "weather_expanded",
+    "example_de": "Die Sonne scheint hell am Himmel.",
+    "example_vi": "Mặt trời chiếu sáng rực rỡ trên bầu trời."
+  },
+  {
+    "word": "Körper",
+    "meaning_vi": "cơ thể",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sport ist gut für den Körper und die Gesundheit.",
+    "example_vi": "Thể thao tốt cho cơ thể và sức khỏe."
+  },
+  {
+    "word": "Kopf",
+    "meaning_vi": "đầu",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich habe starke Schmerzen im Kopf.",
+    "example_vi": "Tôi bị đau đầu dữ dội."
+  },
+  {
+    "word": "Haar",
+    "meaning_vi": "tóc",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sie hat langes, blondes Haar.",
+    "example_vi": "Cô ấy có mái tóc dài màu vàng."
+  },
+  {
+    "word": "Gesicht",
+    "meaning_vi": "mặt",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Er wäscht sich jeden Morgen das Gesicht.",
+    "example_vi": "Anh ấy rửa mặt mỗi sáng."
+  },
+  {
+    "word": "Stirn",
+    "meaning_vi": "trán",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Der Schweiß läuft ihm über die Stirn.",
+    "example_vi": "Mồ hôi chảy dài trên trán anh ấy."
+  },
+  {
+    "word": "Augenbraue",
+    "meaning_vi": "lông mày",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sie zupft sich regelmäßig die Augenbrauen.",
+    "example_vi": "Cô ấy thường xuyên nhổ lông mày."
+  },
+  {
+    "word": "Auge",
+    "meaning_vi": "mắt",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Das Baby hat blaue Augen wie die Mutter.",
+    "example_vi": "Em bé có đôi mắt xanh giống mẹ."
+  },
+  {
+    "word": "Nase",
+    "meaning_vi": "mũi",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Meine Nase ist verstopft, ich bin erkältet.",
+    "example_vi": "Mũi tôi bị nghẹt, tôi bị cảm."
+  },
+  {
+    "word": "Ohr",
+    "meaning_vi": "tai",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Kannst du mir ins Ohr flüstern?",
+    "example_vi": "Bạn có thể thì thầm vào tai tôi không?"
+  },
+  {
+    "word": "Wange",
+    "meaning_vi": "má",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Das Kind hat rote Wangen vom Spielen draußen.",
+    "example_vi": "Đứa trẻ có đôi má đỏ vì chơi ngoài trời."
+  },
+  {
+    "word": "Mund",
+    "meaning_vi": "miệng",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Mach bitte den Mund auf, der Zahnarzt möchte deine Zähne sehen.",
+    "example_vi": "Làm ơn há miệng ra, nha sĩ muốn xem răng của bạn."
+  },
+  {
+    "word": "Lippe",
+    "meaning_vi": "môi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Im Winter werden meine Lippen oft trocken.",
+    "example_vi": "Vào mùa đông, môi tôi thường bị khô."
+  },
+  {
+    "word": "Zunge",
+    "meaning_vi": "lưỡi",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Der Arzt sagt: 'Zeigen Sie mir bitte Ihre Zunge.'",
+    "example_vi": "Bác sĩ nói: 'Làm ơn cho tôi xem lưỡi của bạn.'"
+  },
+  {
+    "word": "Zahn",
+    "meaning_vi": "răng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich putze mir dreimal am Tag die Zähne.",
+    "example_vi": "Tôi đánh răng ba lần một ngày."
+  },
+  {
+    "word": "Kinn",
+    "meaning_vi": "cằm",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Er stützt nachdenklich das Kinn auf die Hand.",
+    "example_vi": "Anh ấy chống cằm lên tay một cách trầm ngẫm."
+  },
+  {
+    "word": "Hals",
+    "meaning_vi": "cổ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Mir tut der Hals weh, ich kann kaum schlucken.",
+    "example_vi": "Cổ tôi đau, tôi hầu như không nuốt được."
+  },
+  {
+    "word": "Schulter",
+    "meaning_vi": "vai",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Er trägt die schwere Tasche auf der Schulter.",
+    "example_vi": "Anh ấy vác chiếc túi nặng trên vai."
+  },
+  {
+    "word": "Arm",
+    "meaning_vi": "cánh tay",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sie hat sich den Arm gebrochen und trägt jetzt einen Gips.",
+    "example_vi": "Cô ấy bị gãy tay và hiện đang bó bột."
+  },
+  {
+    "word": "Ellbogen",
+    "meaning_vi": "khuỷu tay",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Pass auf, du stößt mich mit dem Ellbogen!",
+    "example_vi": "Cẩn thận, bạn đang húc tôi bằng khuỷu tay!"
+  },
+  {
+    "word": "Handgelenk",
+    "meaning_vi": "cổ tay",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sie trägt eine schöne Uhr am Handgelenk.",
+    "example_vi": "Cô ấy đeo một chiếc đồng hồ đẹp ở cổ tay."
+  },
+  {
+    "word": "Hand",
+    "meaning_vi": "bàn tay",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich schreibe mit der rechten Hand.",
+    "example_vi": "Tôi viết bằng tay phải."
+  },
+  {
+    "word": "Finger",
+    "meaning_vi": "ngón tay",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sie hat sich den Finger verletzt.",
+    "example_vi": "Cô ấy đã bị thương ở ngón tay."
+  },
+  {
+    "word": "Daumen",
+    "meaning_vi": "ngón cái",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Er hält den Daumen hoch als Zeichen der Zustimmung.",
+    "example_vi": "Anh ấy giơ ngón cái lên như dấu hiệu đồng ý."
+  },
+  {
+    "word": "Brust",
+    "meaning_vi": "ngực",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Der Arzt hört meine Brust mit dem Stethoskop ab.",
+    "example_vi": "Bác sĩ nghe ngực tôi bằng ống nghe."
+  },
+  {
+    "word": "Bauch",
+    "meaning_vi": "bụng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Nach dem Essen tut mir der Bauch weh.",
+    "example_vi": "Sau khi ăn, bụng tôi đau."
+  },
+  {
+    "word": "Rücken",
+    "meaning_vi": "lưng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Mein Rücken schmerzt vom langen Sitzen.",
+    "example_vi": "Lưng tôi đau vì ngồi lâu."
+  },
+  {
+    "word": "Hüfte",
+    "meaning_vi": "hông",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Meine Großmutter hat sich die Hüfte gebrochen.",
+    "example_vi": "Bà tôi đã bị gãy xương hông."
+  },
+  {
+    "word": "Bein",
+    "meaning_vi": "chân",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Er hat sich beim Fußball das Bein verletzt.",
+    "example_vi": "Anh ấy bị thương ở chân khi chơi bóng đá."
+  },
+  {
+    "word": "Knie",
+    "meaning_vi": "đầu gối",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Das Kind hat sich das Knie aufgeschlagen.",
+    "example_vi": "Đứa trẻ bị trầy đầu gối."
+  },
+  {
+    "word": "Fuß",
+    "meaning_vi": "bàn chân",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Meine Füße sind müde vom langen Laufen.",
+    "example_vi": "Bàn chân của tôi mệt vì đi bộ lâu."
+  },
+  {
+    "word": "Zehe",
+    "meaning_vi": "ngón chân",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich habe mir die große Zehe gestoßen.",
+    "example_vi": "Tôi đã đập ngón chân cái."
+  },
+  {
+    "word": "Herz",
+    "meaning_vi": "tim",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sein Herz schlägt sehr schnell.",
+    "example_vi": "Tim anh ấy đập rất nhanh."
+  },
+  {
+    "word": "Lunge",
+    "meaning_vi": "phổi",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Rauchen schadet der Lunge.",
+    "example_vi": "Hút thuốc có hại cho phổi."
+  },
+  {
+    "word": "Magen",
+    "meaning_vi": "dạ dày",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich habe Magenschmerzen und fühle mich unwohl.",
+    "example_vi": "Tôi bị đau dạ dày và cảm thấy khó chịu."
+  },
+  {
+    "word": "Leber",
+    "meaning_vi": "gan",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Alkohol kann die Leber schädigen.",
+    "example_vi": "Rượu có thể gây hại cho gan."
+  },
+  {
+    "word": "Niere",
+    "meaning_vi": "thận",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Der Patient braucht eine neue Niere.",
+    "example_vi": "Bệnh nhân cần một quả thận mới."
+  },
+  {
+    "word": "Blut",
+    "meaning_vi": "máu",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Die Krankenschwester nimmt mir Blut ab.",
+    "example_vi": "Y tá lấy máu của tôi."
+  },
+  {
+    "word": "Knochen",
+    "meaning_vi": "xương",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Der Hund vergräbt seinen Knochen im Garten.",
+    "example_vi": "Con chó chôn xương của nó trong vườn."
+  },
+  {
+    "word": "Muskel",
+    "meaning_vi": "cơ bắp",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Nach dem Training habe ich Muskelkater.",
+    "example_vi": "Sau khi tập luyện, tôi bị đau cơ."
+  },
+  {
+    "word": "Haut",
+    "meaning_vi": "da",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sonnencreme schützt die Haut vor UV-Strahlen.",
+    "example_vi": "Kem chống nắng bảo vệ da khỏi tia UV."
+  },
+  {
+    "word": "Gesundheit",
+    "meaning_vi": "sức khỏe",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Die Gesundheit ist das wichtigste Gut im Leben.",
+    "example_vi": "Sức khỏe là tài sản quý giá nhất trong cuộc sống."
+  },
+  {
+    "word": "Krankheit",
+    "meaning_vi": "bệnh",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Er leidet an einer schweren Krankheit.",
+    "example_vi": "Anh ấy mắc một căn bệnh nặng."
+  },
+  {
+    "word": "Erkältung",
+    "meaning_vi": "cảm lạnh",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich habe eine Erkältung und bleibe heute zu Hause.",
+    "example_vi": "Tôi bị cảm lạnh và hôm nay ở nhà."
+  },
+  {
+    "word": "Grippe",
+    "meaning_vi": "cúm",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Die Grippe breitet sich im Winter schnell aus.",
+    "example_vi": "Bệnh cúm lây lan nhanh vào mùa đông."
+  },
+  {
+    "word": "Fieber",
+    "meaning_vi": "sốt",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Das Kind hat hohes Fieber und muss zum Arzt.",
+    "example_vi": "Đứa trẻ bị sốt cao và phải đi khám bác sĩ."
+  },
+  {
+    "word": "Husten",
+    "meaning_vi": "ho",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Mein Husten wird nachts immer schlimmer.",
+    "example_vi": "Cơn ho của tôi càng về đêm càng tệ hơn."
+  },
+  {
+    "word": "Schnupfen",
+    "meaning_vi": "sổ mũi",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Bei diesem kalten Wetter bekomme ich schnell Schnupfen.",
+    "example_vi": "Với thời tiết lạnh này, tôi dễ bị sổ mũi."
+  },
+  {
+    "word": "Kopfschmerzen",
+    "meaning_vi": "đau đầu",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich habe starke Kopfschmerzen und brauche eine Pause.",
+    "example_vi": "Tôi bị đau đầu dữ dội và cần nghỉ ngơi."
+  },
+  {
+    "word": "Bauchschmerzen",
+    "meaning_vi": "đau bụng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Nach dem Essen hatte sie plötzlich Bauchschmerzen.",
+    "example_vi": "Sau bữa ăn, cô ấy đột nhiên bị đau bụng."
+  },
+  {
+    "word": "Rückenschmerzen",
+    "meaning_vi": "đau lưng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Viele Büroangestellte haben Rückenschmerzen.",
+    "example_vi": "Nhiều nhân viên văn phòng bị đau lưng."
+  },
+  {
+    "word": "Zahnschmerzen",
+    "meaning_vi": "đau răng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich habe furchtbare Zahnschmerzen und muss zum Zahnarzt.",
+    "example_vi": "Tôi bị đau răng kinh khủng và phải đi nha sĩ."
+  },
+  {
+    "word": "Allergie",
+    "meaning_vi": "dị ứng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Sie hat eine Allergie gegen Erdnüsse.",
+    "example_vi": "Cô ấy bị dị ứng với đậu phộng."
+  },
+  {
+    "word": "Medikament",
+    "meaning_vi": "thuốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Der Arzt hat mir ein neues Medikament verschrieben.",
+    "example_vi": "Bác sĩ đã kê cho tôi một loại thuốc mới."
+  },
+  {
+    "word": "Tablette",
+    "meaning_vi": "viên thuốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Nehmen Sie diese Tablette dreimal täglich ein.",
+    "example_vi": "Hãy uống viên thuốc này ba lần mỗi ngày."
+  },
+  {
+    "word": "Rezept",
+    "meaning_vi": "đơn thuốc",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Für dieses Medikament brauchen Sie ein Rezept vom Arzt.",
+    "example_vi": "Để mua thuốc này, bạn cần đơn thuốc của bác sĩ."
+  },
+  {
+    "word": "Impfung",
+    "meaning_vi": "tiêm chủng",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Die Impfung gegen Corona ist kostenlos.",
+    "example_vi": "Việc tiêm chủng phòng Corona là miễn phí."
+  },
+  {
+    "word": "Termin",
+    "meaning_vi": "hẹn khám",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Ich habe nächste Woche einen Termin beim Zahnarzt.",
+    "example_vi": "Tuần sau tôi có hẹn khám với nha sĩ."
+  },
+  {
+    "word": "Untersuchung",
+    "meaning_vi": "khám bệnh",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Die ärztliche Untersuchung dauert etwa 30 Minuten.",
+    "example_vi": "Cuộc khám bệnh kéo dài khoảng 30 phút."
+  },
+  {
+    "word": "Operation",
+    "meaning_vi": "phẫu thuật",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health_expanded",
+    "example_de": "Nach der Operation muss er zwei Wochen im Krankenhaus bleiben.",
+    "example_vi": "Sau ca phẫu thuật, anh ấy phải ở lại bệnh viện hai tuần."
+  },
+  {
+    "word": "krank",
+    "meaning_vi": "bệnh",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "health_expanded",
+    "example_de": "Ich bin krank und kann heute nicht arbeiten.",
+    "example_vi": "Tôi bị ốm và hôm nay không thể làm việc."
+  },
+  {
+    "word": "gesund",
+    "meaning_vi": "khỏe mạnh",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "health_expanded",
+    "example_de": "Ich esse viel Obst und Gemüse, um gesund zu bleiben.",
+    "example_vi": "Tôi ăn nhiều trái cây và rau để giữ sức khỏe."
+  },
+  {
+    "word": "müde",
+    "meaning_vi": "mệt",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "health_expanded",
+    "example_de": "Nach der langen Reise bin ich sehr müde.",
+    "example_vi": "Sau chuyến đi dài, tôi rất mệt."
+  },
+  {
+    "word": "fit",
+    "meaning_vi": "khỏe",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "health_expanded",
+    "example_de": "Er geht jeden Tag joggen und ist sehr fit.",
+    "example_vi": "Anh ấy chạy bộ mỗi ngày và rất khỏe."
+  },
+  {
+    "word": "Familie",
+    "meaning_vi": "gia đình",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Familie kommt am Wochenende zu Besuch.",
+    "example_vi": "Gia đình tôi sẽ đến thăm vào cuối tuần."
+  },
+  {
+    "word": "Eltern",
+    "meaning_vi": "bố mẹ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Eltern wohnen in Hamburg.",
+    "example_vi": "Bố mẹ tôi sống ở Hamburg."
+  },
+  {
+    "word": "Vater",
+    "meaning_vi": "bố",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Vater arbeitet als Ingenieur.",
+    "example_vi": "Bố tôi làm kỹ sư."
+  },
+  {
+    "word": "Mutter",
+    "meaning_vi": "mẹ",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Mutter kocht sehr gut.",
+    "example_vi": "Mẹ tôi nấu ăn rất ngon."
+  },
+  {
+    "word": "Sohn",
+    "meaning_vi": "con trai",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Ihr Sohn ist fünf Jahre alt.",
+    "example_vi": "Con trai của cô ấy 5 tuổi."
+  },
+  {
+    "word": "Tochter",
+    "meaning_vi": "con gái",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Seine Tochter studiert Medizin in Berlin.",
+    "example_vi": "Con gái của anh ấy học y khoa ở Berlin."
+  },
+  {
+    "word": "Bruder",
+    "meaning_vi": "anh/em trai",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Bruder spielt gern Fußball.",
+    "example_vi": "Anh/em trai tôi thích chơi bóng đá."
+  },
+  {
+    "word": "Schwester",
+    "meaning_vi": "chị/em gái",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Schwester ist Lehrerin von Beruf.",
+    "example_vi": "Chị/em gái tôi làm nghề giáo viên."
+  },
+  {
+    "word": "Geschwister",
+    "meaning_vi": "anh chị em",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Hast du Geschwister? - Ja, ich habe zwei Brüder.",
+    "example_vi": "Bạn có anh chị em không? - Có, tôi có hai anh trai."
+  },
+  {
+    "word": "Großeltern",
+    "meaning_vi": "ông bà",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Ich besuche meine Großeltern jeden Monat.",
+    "example_vi": "Tôi thăm ông bà mỗi tháng."
+  },
+  {
+    "word": "Großvater",
+    "meaning_vi": "ông",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Großvater erzählt gerne Geschichten aus seiner Kindheit.",
+    "example_vi": "Ông tôi thích kể những câu chuyện thời thơ ấu của ông."
+  },
+  {
+    "word": "Großmutter",
+    "meaning_vi": "bà",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Großmutter backt die besten Kuchen.",
+    "example_vi": "Bà tôi làm bánh ngon nhất."
+  },
+  {
+    "word": "Opa",
+    "meaning_vi": "ông (thân mật)",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Opa, kannst du mir bei den Hausaufgaben helfen?",
+    "example_vi": "Ông ơi, ông có thể giúp cháu làm bài tập được không?"
+  },
+  {
+    "word": "Oma",
+    "meaning_vi": "bà (thân mật)",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Oma strickt mir einen warmen Pullover.",
+    "example_vi": "Bà đan cho cháu một chiếc áo len ấm."
+  },
+  {
+    "word": "Enkel",
+    "meaning_vi": "cháu trai",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Der Enkel besucht seinen Opa im Krankenhaus.",
+    "example_vi": "Cháu trai thăm ông ở bệnh viện."
+  },
+  {
+    "word": "Enkelin",
+    "meaning_vi": "cháu gái",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Die Enkelin singt ein Lied für ihre Oma.",
+    "example_vi": "Cháu gái hát một bài hát cho bà."
+  },
+  {
+    "word": "Onkel",
+    "meaning_vi": "chú/bác/cậu",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Onkel lebt in Österreich.",
+    "example_vi": "Chú/bác/cậu tôi sống ở Áo."
+  },
+  {
+    "word": "Tante",
+    "meaning_vi": "cô/dì/bác gái",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Tante kommt uns am Wochenende besuchen.",
+    "example_vi": "Cô/Dì của tôi sẽ đến thăm chúng tôi vào cuối tuần."
+  },
+  {
+    "word": "Cousin",
+    "meaning_vi": "anh/em họ (nam)",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Cousin studiert Medizin in Berlin.",
+    "example_vi": "Anh/Em họ (nam) của tôi đang học y khoa ở Berlin."
+  },
+  {
+    "word": "Cousine",
+    "meaning_vi": "chị/em họ (nữ)",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Cousine hat gerade geheiratet.",
+    "example_vi": "Chị/Em họ (nữ) của tôi vừa mới kết hôn."
+  },
+  {
+    "word": "Neffe",
+    "meaning_vi": "cháu trai (con anh chị em)",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Neffe ist erst fünf Jahre alt.",
+    "example_vi": "Cháu trai của tôi mới chỉ 5 tuổi."
+  },
+  {
+    "word": "Nichte",
+    "meaning_vi": "cháu gái (con anh chị em)",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Nichte geht schon in die Schule.",
+    "example_vi": "Cháu gái của tôi đã đi học rồi."
+  },
+  {
+    "word": "Schwiegervater",
+    "meaning_vi": "bố chồng/vợ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Schwiegervater ist sehr nett und hilfsbereit.",
+    "example_vi": "Bố chồng/vợ của tôi rất tốt bụng và hay giúp đỡ."
+  },
+  {
+    "word": "Schwiegermutter",
+    "meaning_vi": "mẹ chồng/vợ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Schwiegermutter kocht ausgezeichnet.",
+    "example_vi": "Mẹ chồng/vợ của tôi nấu ăn rất ngon."
+  },
+  {
+    "word": "Schwager",
+    "meaning_vi": "anh/em rể",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Schwager arbeitet als Ingenieur.",
+    "example_vi": "Anh/Em rể của tôi làm kỹ sư."
+  },
+  {
+    "word": "Schwägerin",
+    "meaning_vi": "chị/em dâu",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Meine Schwägerin und ich gehen oft zusammen einkaufen.",
+    "example_vi": "Chị/Em dâu của tôi và tôi thường đi mua sắm cùng nhau."
+  },
+  {
+    "word": "Ehemann",
+    "meaning_vi": "chồng",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Ihr Ehemann ist Lehrer von Beruf.",
+    "example_vi": "Chồng của cô ấy là giáo viên."
+  },
+  {
+    "word": "Ehefrau",
+    "meaning_vi": "vợ",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Seine Ehefrau ist Ärztin im Krankenhaus.",
+    "example_vi": "Vợ của anh ấy là bác sĩ ở bệnh viện."
+  },
+  {
+    "word": "Partner",
+    "meaning_vi": "bạn đời",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Partner und ich planen eine Reise nach Italien.",
+    "example_vi": "Bạn đời của tôi và tôi đang lên kế hoạch cho chuyến du lịch đến Ý."
+  },
+  {
+    "word": "Freund",
+    "meaning_vi": "bạn trai",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Mein Freund hat mir zum Geburtstag Blumen geschenkt.",
+    "example_vi": "Bạn trai của tôi đã tặng tôi hoa nhân dịp sinh nhật."
+  },
+  {
+    "word": "Freundin",
+    "meaning_vi": "bạn gái",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Seine Freundin kommt aus Frankreich.",
+    "example_vi": "Bạn gái của anh ấy đến từ Pháp."
+  },
+  {
+    "word": "Beziehung",
+    "meaning_vi": "mối quan hệ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Sie führen eine glückliche Beziehung seit drei Jahren.",
+    "example_vi": "Họ có một mối quan hệ hạnh phúc được 3 năm rồi."
+  },
+  {
+    "word": "Hochzeit",
+    "meaning_vi": "đám cưới",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Die Hochzeit findet im Juni statt.",
+    "example_vi": "Đám cưới sẽ diễn ra vào tháng 6."
+  },
+  {
+    "word": "Ehe",
+    "meaning_vi": "hôn nhân",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Ihre Ehe hält schon 25 Jahre.",
+    "example_vi": "Cuộc hôn nhân của họ đã được 25 năm."
+  },
+  {
+    "word": "Scheidung",
+    "meaning_vi": "ly hôn",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Nach der Scheidung zog er in eine andere Stadt.",
+    "example_vi": "Sau khi ly hôn, anh ấy chuyển đến một thành phố khác."
+  },
+  {
+    "word": "Geburt",
+    "meaning_vi": "sinh đẻ",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Die Geburt ihres ersten Kindes war ein besonderer Moment.",
+    "example_vi": "Sự ra đời của đứa con đầu lòng là một khoảnh khắc đặc biệt."
+  },
+  {
+    "word": "Geburtstag",
+    "meaning_vi": "sinh nhật",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Ich feiere meinen Geburtstag mit Familie und Freunden.",
+    "example_vi": "Tôi tổ chức sinh nhật cùng gia đình và bạn bè."
+  },
+  {
+    "word": "Baby",
+    "meaning_vi": "em bé",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Das Baby schläft friedlich in seinem Bettchen.",
+    "example_vi": "Em bé đang ngủ yên trong cũi của nó."
+  },
+  {
+    "word": "Jugendlicher",
+    "meaning_vi": "thanh thiếu niên",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Der Jugendliche geht jeden Tag zur Schule.",
+    "example_vi": "Thanh thiếu niên đi học mỗi ngày."
+  },
+  {
+    "word": "Erwachsener",
+    "meaning_vi": "người lớn",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "family_expanded",
+    "example_de": "Als Erwachsener muss man viele Entscheidungen treffen.",
+    "example_vi": "Là người lớn phải đưa ra nhiều quyết định."
+  },
+  {
+    "word": "heiraten",
+    "meaning_vi": "kết hôn",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "family_expanded",
+    "example_de": "Meine Schwester will nächstes Jahr heiraten.",
+    "example_vi": "Chị gái tôi muốn kết hôn vào năm tới."
+  },
+  {
+    "word": "lieben",
+    "meaning_vi": "yêu",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "family_expanded",
+    "example_de": "Ich liebe meine Familie sehr.",
+    "example_vi": "Tôi yêu gia đình mình rất nhiều."
+  },
+  {
+    "word": "verheiratet",
+    "meaning_vi": "đã kết hôn",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "family_expanded",
+    "example_de": "Er ist seit zehn Jahren verheiratet.",
+    "example_vi": "Anh ấy đã kết hôn được mười năm."
+  },
+  {
+    "word": "ledig",
+    "meaning_vi": "độc thân",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "family_expanded",
+    "example_de": "Sie ist noch ledig und genießt ihr Leben.",
+    "example_vi": "Cô ấy vẫn còn độc thân và tận hưởng cuộc sống."
+  },
+  {
+    "word": "geschieden",
+    "meaning_vi": "đã ly hôn",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "family_expanded",
+    "example_de": "Mein Onkel ist geschieden und lebt jetzt allein.",
+    "example_vi": "Chú tôi đã ly hôn và hiện đang sống một mình."
+  },
+  {
+    "word": "verlobt",
+    "meaning_vi": "đã đính hôn",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "family_expanded",
+    "example_de": "Das Paar ist seit drei Monaten verlobt.",
+    "example_vi": "Cặp đôi đã đính hôn được ba tháng."
+  },
+  {
+    "word": "aufwachen",
+    "meaning_vi": "thức dậy",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich wache jeden Morgen um 7 Uhr auf.",
+    "example_vi": "Tôi thức dậy lúc 7 giờ mỗi sáng."
+  },
+  {
+    "word": "aufstehen",
+    "meaning_vi": "dậy",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Nach dem Aufwachen stehe ich sofort auf.",
+    "example_vi": "Sau khi thức dậy, tôi ngay lập tức đứng dậy."
+  },
+  {
+    "word": "duschen",
+    "meaning_vi": "tắm vòi sen",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich dusche mich jeden Morgen vor der Arbeit.",
+    "example_vi": "Tôi tắm vòi sen mỗi sáng trước khi đi làm."
+  },
+  {
+    "word": "baden",
+    "meaning_vi": "tắm bồn",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Am Wochenende bade ich gerne in der Badewanne.",
+    "example_vi": "Cuối tuần tôi thích tắm bồn."
+  },
+  {
+    "word": "waschen",
+    "meaning_vi": "rửa",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich wasche mir die Hände vor dem Essen.",
+    "example_vi": "Tôi rửa tay trước khi ăn."
+  },
+  {
+    "word": "kämmen",
+    "meaning_vi": "chải tóc",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Sie kämmt sich jeden Morgen die Haare.",
+    "example_vi": "Cô ấy chải tóc mỗi sáng."
+  },
+  {
+    "word": "föhnen",
+    "meaning_vi": "sấy tóc",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Nach dem Duschen föhne ich meine Haare.",
+    "example_vi": "Sau khi tắm, tôi sấy tóc."
+  },
+  {
+    "word": "rasieren",
+    "meaning_vi": "cạo râu",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Mein Vater rasiert sich jeden Tag.",
+    "example_vi": "Bố tôi cạo râu mỗi ngày."
+  },
+  {
+    "word": "schminken",
+    "meaning_vi": "trang điểm",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Sie schminkt sich vor der Party.",
+    "example_vi": "Cô ấy trang điểm trước bữa tiệc."
+  },
+  {
+    "word": "anziehen",
+    "meaning_vi": "mặc quần áo",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich ziehe mir warme Kleidung an, weil es kalt ist.",
+    "example_vi": "Tôi mặc quần áo ấm vì trời lạnh."
+  },
+  {
+    "word": "ausziehen",
+    "meaning_vi": "cởi quần áo",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Er zieht sich aus und geht ins Bett.",
+    "example_vi": "Anh ấy cởi quần áo và đi ngủ."
+  },
+  {
+    "word": "frühstücken",
+    "meaning_vi": "ăn sáng",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich frühstücke jeden Morgen um 7 Uhr.",
+    "example_vi": "Tôi ăn sáng mỗi sáng lúc 7 giờ."
+  },
+  {
+    "word": "Zähne putzen",
+    "meaning_vi": "đánh răng",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Die Kinder putzen ihre Zähne vor dem Schlafengehen.",
+    "example_vi": "Bọn trẻ đánh răng trước khi đi ngủ."
+  },
+  {
+    "word": "arbeiten",
+    "meaning_vi": "làm việc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Mein Vater arbeitet in einem großen Unternehmen.",
+    "example_vi": "Bố tôi làm việc ở một công ty lớn."
+  },
+  {
+    "word": "Pause machen",
+    "meaning_vi": "nghỉ giải lao",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Wir machen um 10 Uhr eine kurze Pause.",
+    "example_vi": "Chúng tôi nghỉ giải lao ngắn lúc 10 giờ."
+  },
+  {
+    "word": "Feierabend machen",
+    "meaning_vi": "tan làm",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich mache heute um 17 Uhr Feierabend.",
+    "example_vi": "Hôm nay tôi tan làm lúc 17 giờ."
+  },
+  {
+    "word": "einkaufen gehen",
+    "meaning_vi": "đi mua sắm",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Am Samstag gehe ich im Supermarkt einkaufen.",
+    "example_vi": "Thứ bảy tôi đi mua sắm ở siêu thị."
+  },
+  {
+    "word": "kochen",
+    "meaning_vi": "nấu ăn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Meine Mutter kocht sehr gut.",
+    "example_vi": "Mẹ tôi nấu ăn rất ngon."
+  },
+  {
+    "word": "essen",
+    "meaning_vi": "ăn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Wir essen zusammen zu Abend.",
+    "example_vi": "Chúng tôi ăn tối cùng nhau."
+  },
+  {
+    "word": "trinken",
+    "meaning_vi": "uống",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich trinke gerne Kaffee am Morgen.",
+    "example_vi": "Tôi thích uống cà phê vào buổi sáng."
+  },
+  {
+    "word": "fernsehen",
+    "meaning_vi": "xem tivi",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Abends sehe ich oft fern.",
+    "example_vi": "Buổi tối tôi thường xem tivi."
+  },
+  {
+    "word": "lesen",
+    "meaning_vi": "đọc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Sie liest gerade ein interessantes Buch.",
+    "example_vi": "Cô ấy đang đọc một cuốn sách thú vị."
+  },
+  {
+    "word": "Musik hören",
+    "meaning_vi": "nghe nhạc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Er hört gerne klassische Musik.",
+    "example_vi": "Anh ấy thích nghe nhạc cổ điển."
+  },
+  {
+    "word": "telefonieren",
+    "meaning_vi": "gọi điện",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich telefoniere mit meiner Freundin.",
+    "example_vi": "Tôi đang gọi điện với bạn gái tôi."
+  },
+  {
+    "word": "chatten",
+    "meaning_vi": "nhắn tin",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Die Jugendlichen chatten den ganzen Tag.",
+    "example_vi": "Giới trẻ nhắn tin suốt cả ngày."
+  },
+  {
+    "word": "spazieren gehen",
+    "meaning_vi": "đi dạo",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Wir gehen am Sonntag im Park spazieren.",
+    "example_vi": "Chủ nhật chúng tôi đi dạo trong công viên."
+  },
+  {
+    "word": "Sport treiben",
+    "meaning_vi": "tập thể thao",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Er treibt dreimal pro Woche Sport.",
+    "example_vi": "Anh ấy tập thể thao ba lần mỗi tuần."
+  },
+  {
+    "word": "entspannen",
+    "meaning_vi": "thư giãn",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Nach der Arbeit möchte ich mich entspannen.",
+    "example_vi": "Sau giờ làm việc tôi muốn thư giãn."
+  },
+  {
+    "word": "schlafen gehen",
+    "meaning_vi": "đi ngủ",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Ich gehe normalerweise um 23 Uhr schlafen.",
+    "example_vi": "Tôi thường đi ngủ lúc 23 giờ."
+  },
+  {
+    "word": "einschlafen",
+    "meaning_vi": "ngủ thiếp đi",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "daily_routines",
+    "example_de": "Das Baby schläft schnell ein.",
+    "example_vi": "Em bé ngủ thiếp đi nhanh chóng."
+  },
+  {
+    "word": "groß",
+    "meaning_vi": "to, lớn",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Berlin ist eine große Stadt.",
+    "example_vi": "Berlin là một thành phố lớn."
+  },
+  {
+    "word": "klein",
+    "meaning_vi": "nhỏ",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Kind hat einen kleinen Hund.",
+    "example_vi": "Đứa trẻ có một chú chó nhỏ."
+  },
+  {
+    "word": "lang",
+    "meaning_vi": "dài",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Sie hat lange Haare.",
+    "example_vi": "Cô ấy có mái tóc dài."
+  },
+  {
+    "word": "kurz",
+    "meaning_vi": "ngắn",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Der Film war sehr kurz.",
+    "example_vi": "Bộ phim rất ngắn."
+  },
+  {
+    "word": "hoch",
+    "meaning_vi": "cao",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Der Berg ist sehr hoch.",
+    "example_vi": "Ngọn núi rất cao."
+  },
+  {
+    "word": "niedrig",
+    "meaning_vi": "thấp",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Decke in diesem Raum ist niedrig.",
+    "example_vi": "Trần nhà trong căn phòng này thấp."
+  },
+  {
+    "word": "breit",
+    "meaning_vi": "rộng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Straße ist breit genug für zwei Autos.",
+    "example_vi": "Con đường đủ rộng cho hai chiếc xe."
+  },
+  {
+    "word": "schmal",
+    "meaning_vi": "hẹp",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Der Weg durch den Wald ist sehr schmal.",
+    "example_vi": "Con đường qua khu rừng rất hẹp."
+  },
+  {
+    "word": "dick",
+    "meaning_vi": "dày, béo",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Buch ist dick und schwer.",
+    "example_vi": "Cuốn sách dày và nặng."
+  },
+  {
+    "word": "dünn",
+    "meaning_vi": "mỏng, gầy",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Im Winter brauche ich keine dünne Jacke.",
+    "example_vi": "Vào mùa đông tôi không cần áo khoác mỏng."
+  },
+  {
+    "word": "schwer",
+    "meaning_vi": "nặng, khó",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Der Koffer ist zu schwer zum Tragen.",
+    "example_vi": "Chiếc vali quá nặng để mang."
+  },
+  {
+    "word": "leicht",
+    "meaning_vi": "nhẹ, dễ",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Prüfung war leicht für mich.",
+    "example_vi": "Kỳ thi dễ đối với tôi."
+  },
+  {
+    "word": "hart",
+    "meaning_vi": "cứng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Bett ist zu hart für mich.",
+    "example_vi": "Chiếc giường quá cứng đối với tôi."
+  },
+  {
+    "word": "weich",
+    "meaning_vi": "mềm",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Kissen ist sehr weich und bequem.",
+    "example_vi": "Chiếc gối rất mềm và thoải mái."
+  },
+  {
+    "word": "neu",
+    "meaning_vi": "mới",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Ich habe ein neues Auto gekauft.",
+    "example_vi": "Tôi đã mua một chiếc xe mới."
+  },
+  {
+    "word": "alt",
+    "meaning_vi": "cũ, già",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Mein Großvater ist 80 Jahre alt.",
+    "example_vi": "Ông tôi 80 tuổi."
+  },
+  {
+    "word": "jung",
+    "meaning_vi": "trẻ",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Sie ist noch sehr jung.",
+    "example_vi": "Cô ấy còn rất trẻ."
+  },
+  {
+    "word": "schnell",
+    "meaning_vi": "nhanh",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Der Zug fährt sehr schnell.",
+    "example_vi": "Tàu chạy rất nhanh."
+  },
+  {
+    "word": "langsam",
+    "meaning_vi": "chậm",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Bitte sprechen Sie langsam!",
+    "example_vi": "Xin hãy nói chậm!"
+  },
+  {
+    "word": "früh",
+    "meaning_vi": "sớm",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Ich stehe jeden Tag früh auf.",
+    "example_vi": "Tôi dậy sớm mỗi ngày."
+  },
+  {
+    "word": "spät",
+    "meaning_vi": "muộn",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Es ist schon spät, ich muss nach Hause gehen.",
+    "example_vi": "Đã muộn rồi, tôi phải về nhà."
+  },
+  {
+    "word": "voll",
+    "meaning_vi": "đầy",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Glas ist voll Wasser.",
+    "example_vi": "Cái ly đầy nước."
+  },
+  {
+    "word": "leer",
+    "meaning_vi": "trống",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Flasche ist leer.",
+    "example_vi": "Cái chai trống rỗng."
+  },
+  {
+    "word": "offen",
+    "meaning_vi": "mở",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Tür ist offen.",
+    "example_vi": "Cửa đang mở."
+  },
+  {
+    "word": "geschlossen",
+    "meaning_vi": "đóng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Geschäft ist sonntags geschlossen.",
+    "example_vi": "Cửa hàng đóng cửa vào Chủ nhật."
+  },
+  {
+    "word": "richtig",
+    "meaning_vi": "đúng",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Deine Antwort ist richtig.",
+    "example_vi": "Câu trả lời của bạn đúng."
+  },
+  {
+    "word": "falsch",
+    "meaning_vi": "sai",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das ist die falsche Adresse.",
+    "example_vi": "Đây là địa chỉ sai."
+  },
+  {
+    "word": "wahr",
+    "meaning_vi": "thật",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Diese Geschichte ist wahr.",
+    "example_vi": "Câu chuyện này là thật."
+  },
+  {
+    "word": "möglich",
+    "meaning_vi": "có thể",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Alles ist möglich, wenn du hart arbeitest.",
+    "example_vi": "Mọi thứ đều có thể nếu bạn làm việc chăm chỉ."
+  },
+  {
+    "word": "unmöglich",
+    "meaning_vi": "không thể",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Es ist unmöglich, in einer Stunde dort zu sein.",
+    "example_vi": "Không thể có mặt ở đó trong một giờ."
+  },
+  {
+    "word": "wichtig",
+    "meaning_vi": "quan trọng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Gesundheit ist sehr wichtig.",
+    "example_vi": "Sức khỏe rất quan trọng."
+  },
+  {
+    "word": "unwichtig",
+    "meaning_vi": "không quan trọng",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Diese Details sind unwichtig.",
+    "example_vi": "Những chi tiết này không quan trọng."
+  },
+  {
+    "word": "nötig",
+    "meaning_vi": "cần thiết",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Eine Pause ist jetzt nötig.",
+    "example_vi": "Một khoảng nghỉ bây giờ là cần thiết."
+  },
+  {
+    "word": "einfach",
+    "meaning_vi": "đơn giản",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Aufgabe ist sehr einfach.",
+    "example_vi": "Bài tập rất đơn giản."
+  },
+  {
+    "word": "schwierig",
+    "meaning_vi": "khó",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Deutsch lernen ist schwierig.",
+    "example_vi": "Học tiếng Đức thì khó."
+  },
+  {
+    "word": "kompliziert",
+    "meaning_vi": "phức tạp",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Problem ist zu kompliziert.",
+    "example_vi": "Vấn đề quá phức tạp."
+  },
+  {
+    "word": "interessant",
+    "meaning_vi": "thú vị",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Der Film war sehr interessant.",
+    "example_vi": "Bộ phim rất thú vị."
+  },
+  {
+    "word": "langweilig",
+    "meaning_vi": "nhàm chán",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Buch ist langweilig.",
+    "example_vi": "Cuốn sách nhàm chán."
+  },
+  {
+    "word": "lustig",
+    "meaning_vi": "vui, buồn cười",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Komödie war sehr lustig.",
+    "example_vi": "Vở hài kịch rất buồn cười."
+  },
+  {
+    "word": "ernst",
+    "meaning_vi": "nghiêm túc",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das ist eine ernste Angelegenheit.",
+    "example_vi": "Đây là một vấn đề nghiêm túc."
+  },
+  {
+    "word": "freundlich",
+    "meaning_vi": "thân thiện",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Verkäuferin ist sehr freundlich.",
+    "example_vi": "Cô bán hàng rất thân thiện."
+  },
+  {
+    "word": "unfreundlich",
+    "meaning_vi": "không thân thiện",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Der Verkäufer war heute sehr unfreundlich zu mir.",
+    "example_vi": "Người bán hàng hôm nay rất không thân thiện với tôi."
+  },
+  {
+    "word": "höflich",
+    "meaning_vi": "lịch sự",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Kinder sind immer höflich zu ihren Lehrern.",
+    "example_vi": "Những đứa trẻ luôn lịch sự với giáo viên của chúng."
+  },
+  {
+    "word": "unhöflich",
+    "meaning_vi": "bất lịch sự",
+    "level": "B1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Es ist unhöflich, während des Essens zu telefonieren.",
+    "example_vi": "Thật bất lịch sự khi nói điện thoại trong khi ăn."
+  },
+  {
+    "word": "nett",
+    "meaning_vi": "tốt bụng",
+    "level": "A1",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Meine Nachbarin ist sehr nett und hilft mir oft.",
+    "example_vi": "Hàng xóm của tôi rất tốt bụng và thường giúp đỡ tôi."
+  },
+  {
+    "word": "böse",
+    "meaning_vi": "xấu, giận",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Meine Mutter ist böse auf mich, weil ich zu spät nach Hause kam.",
+    "example_vi": "Mẹ tôi giận tôi vì tôi về nhà muộn."
+  },
+  {
+    "word": "fleißig",
+    "meaning_vi": "chăm chỉ",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Anna ist eine fleißige Schülerin und lernt jeden Tag.",
+    "example_vi": "Anna là một học sinh chăm chỉ và học mỗi ngày."
+  },
+  {
+    "word": "faul",
+    "meaning_vi": "lười",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Mein Bruder ist zu faul, um sein Zimmer aufzuräumen.",
+    "example_vi": "Anh trai tôi quá lười để dọn dẹp phòng của mình."
+  },
+  {
+    "word": "klug",
+    "meaning_vi": "thông minh",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Sie ist sehr klug und hat die Prüfung mit Bestnote bestanden.",
+    "example_vi": "Cô ấy rất thông minh và đã vượt qua kỳ thi với điểm cao nhất."
+  },
+  {
+    "word": "dumm",
+    "meaning_vi": "ngu ngốc",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das war eine dumme Idee, ohne Regenschirm rauszugehen.",
+    "example_vi": "Đó là một ý tưởng ngu ngốc khi ra ngoài không mang ô."
+  },
+  {
+    "word": "stark",
+    "meaning_vi": "khỏe",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Der Mann ist stark genug, um den schweren Koffer zu tragen.",
+    "example_vi": "Người đàn ông đủ khỏe để mang chiếc vali nặng."
+  },
+  {
+    "word": "schwach",
+    "meaning_vi": "yếu",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Nach der Krankheit fühlte ich mich noch sehr schwach.",
+    "example_vi": "Sau khi ốm, tôi vẫn cảm thấy rất yếu."
+  },
+  {
+    "word": "reich",
+    "meaning_vi": "giàu",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die reiche Familie wohnt in einer großen Villa.",
+    "example_vi": "Gia đình giàu có sống trong một biệt thự lớn."
+  },
+  {
+    "word": "arm",
+    "meaning_vi": "nghèo",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Viele arme Menschen brauchen unsere Hilfe.",
+    "example_vi": "Nhiều người nghèo cần sự giúp đỡ của chúng ta."
+  },
+  {
+    "word": "sauber",
+    "meaning_vi": "sạch",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Wohnung ist jetzt sauber, ich habe drei Stunden geputzt.",
+    "example_vi": "Căn hộ bây giờ sạch sẽ, tôi đã lau dọn ba tiếng đồng hồ."
+  },
+  {
+    "word": "schmutzig",
+    "meaning_vi": "bẩn",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Deine Schuhe sind schmutzig, zieh sie bitte aus.",
+    "example_vi": "Giày của bạn bẩn, làm ơn cởi ra."
+  },
+  {
+    "word": "hell",
+    "meaning_vi": "sáng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Das Zimmer ist sehr hell, weil es große Fenster hat.",
+    "example_vi": "Căn phòng rất sáng vì có cửa sổ lớn."
+  },
+  {
+    "word": "dunkel",
+    "meaning_vi": "tối",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Im Winter wird es schon um 16 Uhr dunkel.",
+    "example_vi": "Vào mùa đông, trời đã tối lúc 4 giờ chiều."
+  },
+  {
+    "word": "laut",
+    "meaning_vi": "ồn",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Die Musik ist zu laut, kannst du sie leiser machen?",
+    "example_vi": "Nhạc quá ồn, bạn có thể nhỏ hơn được không?"
+  },
+  {
+    "word": "leise",
+    "meaning_vi": "yên tĩnh",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Bitte sprich leise, das Baby schläft.",
+    "example_vi": "Làm ơn nói nhỏ, em bé đang ngủ."
+  },
+  {
+    "word": "ruhig",
+    "meaning_vi": "yên lặng",
+    "level": "A2",
+    "pos": "adj",
+    "topic": "common_adjectives",
+    "example_de": "Ich suche einen ruhigen Ort zum Lernen.",
+    "example_vi": "Tôi đang tìm một nơi yên tĩnh để học."
+  },
+  {
+    "word": "sein",
+    "meaning_vi": "là, ở",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich bin Student und meine Schwester ist Lehrerin.",
+    "example_vi": "Tôi là sinh viên và chị gái tôi là giáo viên."
+  },
+  {
+    "word": "haben",
+    "meaning_vi": "có",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Wir haben heute viel Zeit für das Projekt.",
+    "example_vi": "Hôm nay chúng tôi có nhiều thời gian cho dự án."
+  },
+  {
+    "word": "werden",
+    "meaning_vi": "trở thành",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Mein Bruder wird nächstes Jahr Arzt.",
+    "example_vi": "Năm sau anh trai tôi sẽ trở thành bác sĩ."
+  },
+  {
+    "word": "können",
+    "meaning_vi": "có thể",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Sie kann sehr gut Klavier spielen.",
+    "example_vi": "Cô ấy có thể chơi piano rất giỏi."
+  },
+  {
+    "word": "müssen",
+    "meaning_vi": "phải",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich muss morgen früh aufstehen.",
+    "example_vi": "Ngày mai tôi phải dậy sớm."
+  },
+  {
+    "word": "wollen",
+    "meaning_vi": "muốn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Die Kinder wollen im Park spielen.",
+    "example_vi": "Bọn trẻ muốn chơi ở công viên."
+  },
+  {
+    "word": "sollen",
+    "meaning_vi": "nên",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Du sollst mehr Wasser trinken.",
+    "example_vi": "Bạn nên uống nhiều nước hơn."
+  },
+  {
+    "word": "dürfen",
+    "meaning_vi": "được phép",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Hier darf man nicht rauchen.",
+    "example_vi": "Ở đây không được phép hút thuốc."
+  },
+  {
+    "word": "mögen",
+    "meaning_vi": "thích",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich mag italienisches Essen sehr.",
+    "example_vi": "Tôi rất thích đồ ăn Ý."
+  },
+  {
+    "word": "machen",
+    "meaning_vi": "làm",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Was machst du am Wochenende?",
+    "example_vi": "Bạn làm gì vào cuối tuần?"
+  },
+  {
+    "word": "gehen",
+    "meaning_vi": "đi",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Wir gehen jeden Morgen spazieren.",
+    "example_vi": "Chúng tôi đi dạo mỗi sáng."
+  },
+  {
+    "word": "kommen",
+    "meaning_vi": "đến",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Meine Freunde kommen heute Abend zu Besuch.",
+    "example_vi": "Tối nay bạn bè tôi sẽ đến thăm."
+  },
+  {
+    "word": "sehen",
+    "meaning_vi": "nhìn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich sehe einen schönen Vogel im Baum.",
+    "example_vi": "Tôi nhìn thấy một con chim đẹp trên cây."
+  },
+  {
+    "word": "hören",
+    "meaning_vi": "nghe",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Hörst du die Musik aus dem Nachbarhaus?",
+    "example_vi": "Bạn có nghe thấy tiếng nhạc từ nhà hàng xóm không?"
+  },
+  {
+    "word": "sprechen",
+    "meaning_vi": "nói",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Er spricht fließend drei Sprachen.",
+    "example_vi": "Anh ấy nói lưu loát ba thứ tiếng."
+  },
+  {
+    "word": "sagen",
+    "meaning_vi": "nói (câu)",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Kannst du mir bitte sagen, wie spät es ist?",
+    "example_vi": "Bạn có thể nói cho tôi biết mấy giờ rồi không?"
+  },
+  {
+    "word": "fragen",
+    "meaning_vi": "hỏi",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Die Schüler fragen den Lehrer nach der Hausaufgabe.",
+    "example_vi": "Các học sinh hỏi giáo viên về bài tập về nhà."
+  },
+  {
+    "word": "antworten",
+    "meaning_vi": "trả lời",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Sie antwortet immer höflich auf alle Fragen.",
+    "example_vi": "Cô ấy luôn trả lời lịch sự tất cả các câu hỏi."
+  },
+  {
+    "word": "denken",
+    "meaning_vi": "nghĩ",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich denke oft an meine Familie zu Hause.",
+    "example_vi": "Tôi thường nghĩ đến gia đình ở nhà."
+  },
+  {
+    "word": "wissen",
+    "meaning_vi": "biết",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Weißt du, wo der Bahnhof ist?",
+    "example_vi": "Bạn có biết nhà ga ở đâu không?"
+  },
+  {
+    "word": "kennen",
+    "meaning_vi": "biết (người)",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich kenne diesen Mann seit vielen Jahren.",
+    "example_vi": "Tôi biết người đàn ông này từ nhiều năm nay."
+  },
+  {
+    "word": "verstehen",
+    "meaning_vi": "hiểu",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Verstehst du die Aufgabe?",
+    "example_vi": "Bạn có hiểu bài tập không?"
+  },
+  {
+    "word": "lernen",
+    "meaning_vi": "học",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Meine Schwester lernt Deutsch in der Schule.",
+    "example_vi": "Em gái tôi học tiếng Đức ở trường."
+  },
+  {
+    "word": "lesen",
+    "meaning_vi": "đọc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Er liest jeden Abend ein Buch.",
+    "example_vi": "Anh ấy đọc sách mỗi tối."
+  },
+  {
+    "word": "schreiben",
+    "meaning_vi": "viết",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Sie schreibt einen Brief an ihre Freundin.",
+    "example_vi": "Cô ấy viết một lá thư cho bạn gái của mình."
+  },
+  {
+    "word": "spielen",
+    "meaning_vi": "chơi",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Die Kinder spielen im Park Fußball.",
+    "example_vi": "Những đứa trẻ chơi bóng đá trong công viên."
+  },
+  {
+    "word": "arbeiten",
+    "meaning_vi": "làm việc",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Mein Vater arbeitet in einem großen Unternehmen.",
+    "example_vi": "Bố tôi làm việc trong một công ty lớn."
+  },
+  {
+    "word": "leben",
+    "meaning_vi": "sống",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Wir leben in einer schönen Stadt.",
+    "example_vi": "Chúng tôi sống ở một thành phố đẹp."
+  },
+  {
+    "word": "wohnen",
+    "meaning_vi": "ở",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich wohne in Berlin.",
+    "example_vi": "Tôi ở Berlin."
+  },
+  {
+    "word": "schlafen",
+    "meaning_vi": "ngủ",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Das Baby schläft schon seit zwei Stunden.",
+    "example_vi": "Em bé đã ngủ được hai tiếng rồi."
+  },
+  {
+    "word": "essen",
+    "meaning_vi": "ăn",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Was isst du gern zum Frühstück?",
+    "example_vi": "Bạn thích ăn gì vào bữa sáng?"
+  },
+  {
+    "word": "trinken",
+    "meaning_vi": "uống",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich trinke jeden Morgen Kaffee.",
+    "example_vi": "Tôi uống cà phê mỗi sáng."
+  },
+  {
+    "word": "nehmen",
+    "meaning_vi": "lấy",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Nimm bitte einen Apfel aus dem Kühlschrank.",
+    "example_vi": "Hãy lấy một quả táo từ tủ lạnh."
+  },
+  {
+    "word": "geben",
+    "meaning_vi": "cho",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Kannst du mir bitte das Salz geben?",
+    "example_vi": "Bạn có thể cho tôi lọ muối được không?"
+  },
+  {
+    "word": "bringen",
+    "meaning_vi": "mang",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich bringe dir morgen das Buch mit.",
+    "example_vi": "Ngày mai tôi sẽ mang sách cho bạn."
+  },
+  {
+    "word": "finden",
+    "meaning_vi": "tìm thấy",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich kann meinen Schlüssel nicht finden.",
+    "example_vi": "Tôi không thể tìm thấy chìa khóa của mình."
+  },
+  {
+    "word": "suchen",
+    "meaning_vi": "tìm kiếm",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Sie sucht eine neue Wohnung.",
+    "example_vi": "Cô ấy đang tìm kiếm một căn hộ mới."
+  },
+  {
+    "word": "helfen",
+    "meaning_vi": "giúp",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Kann ich dir helfen?",
+    "example_vi": "Tôi có thể giúp bạn không?"
+  },
+  {
+    "word": "brauchen",
+    "meaning_vi": "cần",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich brauche einen neuen Computer.",
+    "example_vi": "Tôi cần một chiếc máy tính mới."
+  },
+  {
+    "word": "glauben",
+    "meaning_vi": "tin",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich glaube, dass es morgen regnen wird.",
+    "example_vi": "Tôi tin rằng ngày mai trời sẽ mưa."
+  },
+  {
+    "word": "hoffen",
+    "meaning_vi": "hy vọng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich hoffe, dass das Wetter morgen schön wird.",
+    "example_vi": "Tôi hy vọng rằng thời tiết ngày mai sẽ đẹp."
+  },
+  {
+    "word": "erwarten",
+    "meaning_vi": "mong đợi",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Wir erwarten unsere Gäste um 18 Uhr.",
+    "example_vi": "Chúng tôi mong đợi khách của mình lúc 6 giờ tối."
+  },
+  {
+    "word": "wünschen",
+    "meaning_vi": "ước",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich wünsche dir alles Gute zum Geburtstag!",
+    "example_vi": "Tôi chúc bạn mọi điều tốt đẹp nhân ngày sinh nhật!"
+  },
+  {
+    "word": "freuen",
+    "meaning_vi": "vui mừng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Sie freut sich sehr auf die Reise nach Berlin.",
+    "example_vi": "Cô ấy rất vui mừng về chuyến đi tới Berlin."
+  },
+  {
+    "word": "ärgern",
+    "meaning_vi": "bực mình",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Er ärgert sich über den verlorenen Schlüssel.",
+    "example_vi": "Anh ấy bực mình về chiếc chìa khóa bị mất."
+  },
+  {
+    "word": "fühlen",
+    "meaning_vi": "cảm thấy",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich fühle mich heute nicht so gut.",
+    "example_vi": "Hôm nay tôi cảm thấy không được khỏe lắm."
+  },
+  {
+    "word": "bleiben",
+    "meaning_vi": "ở lại",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Kannst du noch ein bisschen bleiben?",
+    "example_vi": "Bạn có thể ở lại thêm một chút không?"
+  },
+  {
+    "word": "beginnen",
+    "meaning_vi": "bắt đầu",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Der Unterricht beginnt um 8 Uhr morgens.",
+    "example_vi": "Buổi học bắt đầu lúc 8 giờ sáng."
+  },
+  {
+    "word": "anfangen",
+    "meaning_vi": "bắt đầu",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Wann fängst du mit der Arbeit an?",
+    "example_vi": "Khi nào bạn bắt đầu công việc?"
+  },
+  {
+    "word": "enden",
+    "meaning_vi": "kết thúc",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Der Film endet mit einer Überraschung.",
+    "example_vi": "Bộ phim kết thúc với một bất ngờ."
+  },
+  {
+    "word": "aufhören",
+    "meaning_vi": "dừng lại",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Es hat endlich aufgehört zu regnen.",
+    "example_vi": "Cuối cùng trời cũng đã dừng mưa."
+  },
+  {
+    "word": "versuchen",
+    "meaning_vi": "cố gắng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich versuche, jeden Tag Deutsch zu lernen.",
+    "example_vi": "Tôi cố gắng học tiếng Đức mỗi ngày."
+  },
+  {
+    "word": "vergessen",
+    "meaning_vi": "quên",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Habe ich etwas vergessen?",
+    "example_vi": "Tôi đã quên điều gì không?"
+  },
+  {
+    "word": "erinnern",
+    "meaning_vi": "nhớ",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Kannst du mich an den Termin erinnern?",
+    "example_vi": "Bạn có thể nhắc tôi về cuộc hẹn không?"
+  },
+  {
+    "word": "entscheiden",
+    "meaning_vi": "quyết định",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Du musst dich bald entscheiden.",
+    "example_vi": "Bạn phải quyết định sớm thôi."
+  },
+  {
+    "word": "wählen",
+    "meaning_vi": "chọn",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Welches Gericht möchtest du wählen?",
+    "example_vi": "Bạn muốn chọn món ăn nào?"
+  },
+  {
+    "word": "nutzen",
+    "meaning_vi": "sử dụng",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Wir sollten die Zeit sinnvoll nutzen.",
+    "example_vi": "Chúng ta nên sử dụng thời gian một cách có ý nghĩa."
+  },
+  {
+    "word": "benutzen",
+    "meaning_vi": "sử dụng",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Darf ich dein Telefon benutzen?",
+    "example_vi": "Tôi có thể sử dụng điện thoại của bạn không?"
+  },
+  {
+    "word": "zeigen",
+    "meaning_vi": "chỉ",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Kannst du mir den Weg zum Bahnhof zeigen?",
+    "example_vi": "Bạn có thể chỉ cho tôi đường đến nhà ga không?"
+  },
+  {
+    "word": "erklären",
+    "meaning_vi": "giải thích",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Der Lehrer erklärt die Grammatik sehr gut.",
+    "example_vi": "Giáo viên giải thích ngữ pháp rất tốt."
+  },
+  {
+    "word": "beschreiben",
+    "meaning_vi": "mô tả",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Kannst du mir den Weg zum Bahnhof beschreiben?",
+    "example_vi": "Bạn có thể mô tả cho tôi đường đến nhà ga được không?"
+  },
+  {
+    "word": "vergleichen",
+    "meaning_vi": "so sánh",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Wir sollten die Preise vergleichen, bevor wir kaufen.",
+    "example_vi": "Chúng ta nên so sánh giá cả trước khi mua."
+  },
+  {
+    "word": "ändern",
+    "meaning_vi": "thay đổi",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Ich möchte meine Reservierung ändern.",
+    "example_vi": "Tôi muốn thay đổi đặt chỗ của mình."
+  },
+  {
+    "word": "verbessern",
+    "meaning_vi": "cải thiện",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "common_verbs",
+    "example_de": "Er muss seine Deutschkenntnisse verbessern.",
+    "example_vi": "Anh ấy phải cải thiện kiến thức tiếng Đức của mình."
+  },
+  {
+    "word": "hier",
+    "meaning_vi": "ở đây",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Hier ist es sehr ruhig und gemütlich.",
+    "example_vi": "Ở đây rất yên tĩnh và thoải mái."
+  },
+  {
+    "word": "dort",
+    "meaning_vi": "ở đó",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Dort drüben steht mein Auto.",
+    "example_vi": "Ở đó kia là xe của tôi."
+  },
+  {
+    "word": "da",
+    "meaning_vi": "ở đó",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Da hinten ist der Ausgang.",
+    "example_vi": "Ở đó phía sau là lối ra."
+  },
+  {
+    "word": "oben",
+    "meaning_vi": "ở trên",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Mein Zimmer ist oben im zweiten Stock.",
+    "example_vi": "Phòng của tôi ở trên tầng hai."
+  },
+  {
+    "word": "unten",
+    "meaning_vi": "ở dưới",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Die Küche befindet sich unten im Erdgeschoss.",
+    "example_vi": "Nhà bếp nằm ở dưới tầng trệt."
+  },
+  {
+    "word": "links",
+    "meaning_vi": "bên trái",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Biegen Sie an der Ampel links ab.",
+    "example_vi": "Rẽ trái ở đèn giao thông."
+  },
+  {
+    "word": "rechts",
+    "meaning_vi": "bên phải",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Das Rathaus liegt rechts von der Kirche.",
+    "example_vi": "Tòa thị chính nằm bên phải nhà thờ."
+  },
+  {
+    "word": "vorne",
+    "meaning_vi": "phía trước",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich sitze gerne vorne im Bus.",
+    "example_vi": "Tôi thích ngồi phía trước trên xe buýt."
+  },
+  {
+    "word": "hinten",
+    "meaning_vi": "phía sau",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Die Kinder spielen hinten im Garten.",
+    "example_vi": "Bọn trẻ đang chơi phía sau trong vườn."
+  },
+  {
+    "word": "überall",
+    "meaning_vi": "khắp nơi",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Im Frühling blühen überall die Blumen.",
+    "example_vi": "Vào mùa xuân, hoa nở khắp nơi."
+  },
+  {
+    "word": "nirgends",
+    "meaning_vi": "không đâu",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich kann meinen Schlüssel nirgends finden.",
+    "example_vi": "Tôi không thể tìm thấy chìa khóa của mình ở đâu cả."
+  },
+  {
+    "word": "irgendwo",
+    "meaning_vi": "đâu đó",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich habe meine Brille irgendwo liegen lassen.",
+    "example_vi": "Tôi đã để quên kính của mình ở đâu đó."
+  },
+  {
+    "word": "heute",
+    "meaning_vi": "hôm nay",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Heute haben wir schönes Wetter.",
+    "example_vi": "Hôm nay chúng ta có thời tiết đẹp."
+  },
+  {
+    "word": "morgen",
+    "meaning_vi": "ngày mai",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Morgen fliege ich nach Berlin.",
+    "example_vi": "Ngày mai tôi bay đến Berlin."
+  },
+  {
+    "word": "gestern",
+    "meaning_vi": "hôm qua",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Gestern war ich im Kino.",
+    "example_vi": "Hôm qua tôi đã ở rạp chiếu phim."
+  },
+  {
+    "word": "jetzt",
+    "meaning_vi": "bây giờ",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Wir müssen jetzt sofort los.",
+    "example_vi": "Chúng ta phải đi ngay bây giờ."
+  },
+  {
+    "word": "später",
+    "meaning_vi": "sau này",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich muss jetzt gehen, wir sprechen später darüber.",
+    "example_vi": "Tôi phải đi bây giờ, chúng ta sẽ nói về điều đó sau."
+  },
+  {
+    "word": "früher",
+    "meaning_vi": "trước đây",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Früher habe ich in Berlin gewohnt.",
+    "example_vi": "Trước đây tôi đã sống ở Berlin."
+  },
+  {
+    "word": "immer",
+    "meaning_vi": "luôn luôn",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Sie kommt immer pünktlich zur Arbeit.",
+    "example_vi": "Cô ấy luôn luôn đến làm đúng giờ."
+  },
+  {
+    "word": "nie",
+    "meaning_vi": "không bao giờ",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Er hat mich nie angerufen.",
+    "example_vi": "Anh ấy không bao giờ gọi cho tôi."
+  },
+  {
+    "word": "niemals",
+    "meaning_vi": "không bao giờ",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich werde das niemals vergessen.",
+    "example_vi": "Tôi sẽ không bao giờ quên điều đó."
+  },
+  {
+    "word": "oft",
+    "meaning_vi": "thường xuyên",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Wir gehen oft ins Kino.",
+    "example_vi": "Chúng tôi thường xuyên đi xem phim."
+  },
+  {
+    "word": "manchmal",
+    "meaning_vi": "thỉnh thoảng",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Manchmal trinke ich Kaffee am Nachmittag.",
+    "example_vi": "Thỉnh thoảng tôi uống cà phê vào buổi chiều."
+  },
+  {
+    "word": "selten",
+    "meaning_vi": "hiếm khi",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Mein Bruder besucht uns selten.",
+    "example_vi": "Anh trai tôi hiếm khi đến thăm chúng tôi."
+  },
+  {
+    "word": "meistens",
+    "meaning_vi": "hầu hết",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich fahre meistens mit dem Fahrrad zur Uni.",
+    "example_vi": "Hầu hết tôi đi xe đạp đến trường đại học."
+  },
+  {
+    "word": "normalerweise",
+    "meaning_vi": "thường thì",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Normalerweise stehe ich um 7 Uhr auf.",
+    "example_vi": "Thường thì tôi thức dậy lúc 7 giờ."
+  },
+  {
+    "word": "schon",
+    "meaning_vi": "đã",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Hast du schon gegessen?",
+    "example_vi": "Bạn đã ăn chưa?"
+  },
+  {
+    "word": "noch",
+    "meaning_vi": "còn, vẫn",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Er arbeitet noch im Büro.",
+    "example_vi": "Anh ấy vẫn còn đang làm việc ở văn phòng."
+  },
+  {
+    "word": "nicht mehr",
+    "meaning_vi": "không còn",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich wohne nicht mehr in Hamburg.",
+    "example_vi": "Tôi không còn sống ở Hamburg nữa."
+  },
+  {
+    "word": "noch nicht",
+    "meaning_vi": "chưa",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Die Kinder sind noch nicht zu Hause.",
+    "example_vi": "Bọn trẻ vẫn chưa về nhà."
+  },
+  {
+    "word": "gerade",
+    "meaning_vi": "đang, vừa mới",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich bin gerade angekommen.",
+    "example_vi": "Tôi vừa mới đến."
+  },
+  {
+    "word": "bald",
+    "meaning_vi": "sớm",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Der Zug kommt bald an.",
+    "example_vi": "Tàu sẽ đến sớm thôi."
+  },
+  {
+    "word": "sofort",
+    "meaning_vi": "ngay lập tức",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Komm sofort hierher!",
+    "example_vi": "Hãy đến đây ngay lập tức!"
+  },
+  {
+    "word": "plötzlich",
+    "meaning_vi": "đột nhiên",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Plötzlich begann es zu regnen.",
+    "example_vi": "Đột nhiên trời bắt đầu mưa."
+  },
+  {
+    "word": "endlich",
+    "meaning_vi": "cuối cùng",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Endlich habe ich meine Prüfung bestanden!",
+    "example_vi": "Cuối cùng tôi đã vượt qua kỳ thi!"
+  },
+  {
+    "word": "zuerst",
+    "meaning_vi": "đầu tiên",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Zuerst müssen wir einkaufen gehen.",
+    "example_vi": "Đầu tiên chúng ta phải đi mua sắm."
+  },
+  {
+    "word": "dann",
+    "meaning_vi": "sau đó",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich gehe zuerst einkaufen und dann koche ich das Abendessen.",
+    "example_vi": "Tôi đi mua sắm trước, sau đó tôi nấu bữa tối."
+  },
+  {
+    "word": "danach",
+    "meaning_vi": "sau đó",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Wir haben gegessen und danach sind wir spazieren gegangen.",
+    "example_vi": "Chúng tôi đã ăn xong và sau đó đi dạo."
+  },
+  {
+    "word": "zuletzt",
+    "meaning_vi": "cuối cùng",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Zuletzt möchte ich mich bei allen Helfern bedanken.",
+    "example_vi": "Cuối cùng, tôi muốn cảm ơn tất cả những người đã giúp đỡ."
+  },
+  {
+    "word": "sehr",
+    "meaning_vi": "rất",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Das Essen schmeckt sehr gut.",
+    "example_vi": "Món ăn rất ngon."
+  },
+  {
+    "word": "ganz",
+    "meaning_vi": "hoàn toàn",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich bin ganz sicher, dass er morgen kommt.",
+    "example_vi": "Tôi hoàn toàn chắc chắn rằng anh ấy sẽ đến vào ngày mai."
+  },
+  {
+    "word": "ziemlich",
+    "meaning_vi": "khá",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Der Film war ziemlich langweilig.",
+    "example_vi": "Bộ phim khá nhàm chán."
+  },
+  {
+    "word": "besonders",
+    "meaning_vi": "đặc biệt",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Heute ist es besonders kalt draußen.",
+    "example_vi": "Hôm nay bên ngoài đặc biệt lạnh."
+  },
+  {
+    "word": "genug",
+    "meaning_vi": "đủ",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Hast du genug Geld für die Reise?",
+    "example_vi": "Bạn có đủ tiền cho chuyến đi không?"
+  },
+  {
+    "word": "fast",
+    "meaning_vi": "gần như",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich habe fast alle Aufgaben erledigt.",
+    "example_vi": "Tôi đã hoàn thành gần như tất cả các nhiệm vụ."
+  },
+  {
+    "word": "ungefähr",
+    "meaning_vi": "khoảng",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Der Zug kommt ungefähr um 15 Uhr an.",
+    "example_vi": "Tàu đến khoảng 3 giờ chiều."
+  },
+  {
+    "word": "etwa",
+    "meaning_vi": "khoảng",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "In der Stadt leben etwa 50.000 Menschen.",
+    "example_vi": "Trong thành phố sống khoảng 50.000 người."
+  },
+  {
+    "word": "wahrscheinlich",
+    "meaning_vi": "có lẽ",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Es wird morgen wahrscheinlich regnen.",
+    "example_vi": "Có lẽ ngày mai trời sẽ mưa."
+  },
+  {
+    "word": "vielleicht",
+    "meaning_vi": "có thể",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Vielleicht besuche ich dich am Wochenende.",
+    "example_vi": "Có thể cuối tuần tôi sẽ đến thăm bạn."
+  },
+  {
+    "word": "sicher",
+    "meaning_vi": "chắc chắn",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Er kommt sicher pünktlich zur Party.",
+    "example_vi": "Chắc chắn anh ấy sẽ đến bữa tiệc đúng giờ."
+  },
+  {
+    "word": "bestimmt",
+    "meaning_vi": "chắc chắn",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Sie hat bestimmt schon von der Nachricht gehört.",
+    "example_vi": "Chắc chắn cô ấy đã nghe tin tức rồi."
+  },
+  {
+    "word": "wirklich",
+    "meaning_vi": "thực sự",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Das war wirklich eine tolle Überraschung!",
+    "example_vi": "Đó thực sự là một bất ngờ tuyệt vời!"
+  },
+  {
+    "word": "tatsächlich",
+    "meaning_vi": "thật ra",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich dachte, er scherzt, aber er meinte es tatsächlich ernst.",
+    "example_vi": "Tôi nghĩ anh ấy đùa, nhưng thật ra anh ấy nói nghiêm túc."
+  },
+  {
+    "word": "eigentlich",
+    "meaning_vi": "thật ra",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Eigentlich wollte ich heute zu Hause bleiben.",
+    "example_vi": "Thật ra hôm nay tôi muốn ở nhà."
+  },
+  {
+    "word": "übrigens",
+    "meaning_vi": "nhân tiện",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Übrigens, hast du schon die neue Serie gesehen?",
+    "example_vi": "Nhân tiện, bạn đã xem bộ phim mới chưa?"
+  },
+  {
+    "word": "außerdem",
+    "meaning_vi": "ngoài ra",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Das Hotel ist günstig und außerdem sehr zentral gelegen.",
+    "example_vi": "Khách sạn giá rẻ và ngoài ra còn nằm ở vị trí rất trung tâm."
+  },
+  {
+    "word": "trotzdem",
+    "meaning_vi": "mặc dù vậy",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Es regnet stark, trotzdem gehe ich spazieren.",
+    "example_vi": "Trời mưa to, mặc dù vậy tôi vẫn đi dạo."
+  },
+  {
+    "word": "deshalb",
+    "meaning_vi": "vì vậy",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Ich bin müde, deshalb gehe ich früh ins Bett.",
+    "example_vi": "Tôi mệt, vì vậy tôi đi ngủ sớm."
+  },
+  {
+    "word": "darum",
+    "meaning_vi": "vì vậy",
+    "level": "A2",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Er hat kein Geld, darum kann er nicht ins Kino gehen.",
+    "example_vi": "Anh ấy không có tiền, vì vậy anh ấy không thể đi xem phim."
+  },
+  {
+    "word": "also",
+    "meaning_vi": "vậy thì",
+    "level": "A1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Du bist fertig, also können wir jetzt losfahren.",
+    "example_vi": "Bạn đã xong, vậy thì bây giờ chúng ta có thể khởi hành."
+  },
+  {
+    "word": "allerdings",
+    "meaning_vi": "tuy nhiên",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Das Hotel ist günstig, allerdings liegt es sehr weit vom Zentrum.",
+    "example_vi": "Khách sạn rẻ, tuy nhiên nó nằm rất xa trung tâm."
+  },
+  {
+    "word": "jedoch",
+    "meaning_vi": "tuy nhiên",
+    "level": "B1",
+    "pos": "adv",
+    "topic": "common_adverbs",
+    "example_de": "Die Wohnung ist schön, jedoch zu teuer für mich.",
+    "example_vi": "Căn hộ đẹp, tuy nhiên quá đắt đối với tôi."
+  }
+]

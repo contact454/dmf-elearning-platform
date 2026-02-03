@@ -1,0 +1,9977 @@
+[
+  {
+    "word": "neunzehn",
+    "meaning_vi": "mười chín",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "mega",
+    "meaning_vi": "rất, cực kỳ, siêu",
+    "level": "B1",
+    "topic": "Trạng từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "vegan",
+    "meaning_vi": "thuần chay",
+    "level": "B1",
+    "topic": "Ẩm thực",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "vierzehn",
+    "meaning_vi": "mười bốn",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "neunzig",
+    "meaning_vi": "chín mươi",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gen",
+    "meaning_vi": "gen, gene",
+    "level": "B2",
+    "topic": "Sinh học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Memo",
+    "meaning_vi": "bản ghi nhớ, thông báo nội bộ",
+    "level": "B1",
+    "topic": "Văn phòng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kichererbse",
+    "meaning_vi": "đậu gà (Cicer arietinum)",
+    "level": "B1",
+    "topic": "Thực phẩm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Warze",
+    "meaning_vi": "mụn cóc",
+    "level": "B1",
+    "topic": "Sức khỏe và cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Süßwasser",
+    "meaning_vi": "nước ngọt (không mặn)",
+    "level": "B1",
+    "topic": "Thiên nhiên và môi trường",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Süßstoff",
+    "meaning_vi": "chất tạo ngọt",
+    "level": "B1",
+    "topic": "Thức ăn và đồ uống",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Süße",
+    "meaning_vi": "vị ngọt, độ ngọt",
+    "level": "B1",
+    "topic": "Thức ăn và đồ uống",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kralle",
+    "meaning_vi": "móng vuốt, móng chân chim săn mồi",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fensterbank",
+    "meaning_vi": "bệ cửa sổ",
+    "level": "B1",
+    "topic": "Nhà ở",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "scheren",
+    "meaning_vi": "cắt tỉa cái gì đó đang phát triển",
+    "level": "B1",
+    "topic": "Hoạt động hàng ngày",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bühne",
+    "meaning_vi": "sân khấu",
+    "level": "B1",
+    "topic": "Nghệ thuật và giải trí",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "obdachlos",
+    "meaning_vi": "vô gia cư",
+    "level": "B2",
+    "topic": "Xã hội",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Flucht",
+    "meaning_vi": "sự trốn thoát, sự chạy trốn (hành động bỏ chạy)",
+    "level": "B2",
+    "topic": "Hành động",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "fliehen",
+    "meaning_vi": "chạy trốn; trốn thoát",
+    "level": "B1",
+    "topic": "Hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schaufenster",
+    "meaning_vi": "cửa sổ trưng bày (của cửa hàng)",
+    "level": "B1",
+    "topic": "Mua sắm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rahmen",
+    "meaning_vi": "khung, phạm vi",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schneider",
+    "meaning_vi": "thợ cắt, người cắt (người hoặc thiết bị cắt)",
+    "level": "B1",
+    "topic": "Nghề nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Seide",
+    "meaning_vi": "lụa",
+    "level": "B1",
+    "topic": "Vải vóc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zahnstocher",
+    "meaning_vi": "tăm xỉa răng",
+    "level": "B1",
+    "topic": "Vệ sinh cá nhân",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Backenzahn",
+    "meaning_vi": "răng hàm",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zahnfleisch",
+    "meaning_vi": "nướu răng (phần thịt xung quanh chân răng)",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "stoßen",
+    "meaning_vi": "đẩy; xô; húc",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "zustoßen",
+    "meaning_vi": "xảy ra với (đặc biệt là điều gì đó tồi tệ)",
+    "level": "B2",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "anstoßen",
+    "meaning_vi": "đẩy cái gì đó (đặc biệt để bắt đầu hiệu ứng dây chuyền)",
+    "level": "B2",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abstoßen",
+    "meaning_vi": "đẩy lùi, làm ghê tởm",
+    "level": "B2",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Stoßverkehr",
+    "meaning_vi": "giao thông giờ cao điểm",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Geschlecht",
+    "meaning_vi": "giới tính",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "öffentlich",
+    "meaning_vi": "công cộng",
+    "level": "B1",
+    "topic": "Xã hội",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "offen",
+    "meaning_vi": "mở",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "offen",
+    "meaning_vi": "một cách cởi mở, công khai",
+    "level": "B1",
+    "topic": "Trạng từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "bürsten",
+    "meaning_vi": "chải, cọ sạch bề mặt bằng bàn chải",
+    "level": "B1",
+    "topic": "Vệ sinh",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Daten",
+    "meaning_vi": "dữ liệu",
+    "level": "B1",
+    "topic": "Công nghệ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Porree",
+    "meaning_vi": "tỏi tây",
+    "level": "B1",
+    "topic": "Rau củ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Knoblauchzehe",
+    "meaning_vi": "tép tỏi",
+    "level": "B1",
+    "topic": "Rau củ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ferse",
+    "meaning_vi": "gót chân",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hacke",
+    "meaning_vi": "gót chân (của bàn chân hoặc giày)",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "hacken",
+    "meaning_vi": "chặt, băm",
+    "level": "B1",
+    "topic": "Nấu ăn",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Unterschrift",
+    "meaning_vi": "chữ ký",
+    "level": "B1",
+    "topic": "Văn phòng và hành chính",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ärgern",
+    "meaning_vi": "làm phiền, chọc tức",
+    "level": "B1",
+    "topic": "Hành vi và cảm xúc",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bahnsteig",
+    "meaning_vi": "sân ga, thềm ga tàu hóa",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hof",
+    "meaning_vi": "sân, sân trong, khoảng sân",
+    "level": "B1",
+    "topic": "Nhà ở",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Lauf",
+    "meaning_vi": "cuộc chạy, cuộc đua",
+    "level": "B1",
+    "topic": "Thể thao",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Masche",
+    "meaning_vi": "mũi khâu, mũi đan",
+    "level": "B1",
+    "topic": "May vá",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Laib",
+    "meaning_vi": "ổ (bánh mì), bánh (phô mai)",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Frikadelle",
+    "meaning_vi": "thịt viên chiên",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "oja",
+    "meaning_vi": "ừ; chắc chắn rồi; thật sự; ngược lại",
+    "level": "B1",
+    "topic": "Thán từ",
+    "pos": "intj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 30,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Sauerstoff",
+    "meaning_vi": "oxy",
+    "level": "B1",
+    "topic": "Hóa học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kupfer",
+    "meaning_vi": "đồng (nguyên tố hóa học, Cu, số nguyên tử 29)",
+    "level": "B1",
+    "topic": "Hóa học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Silber",
+    "meaning_vi": "bạc (nguyên tố hóa học, Ag)",
+    "level": "B1",
+    "topic": "Hóa học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schließlich",
+    "meaning_vi": "cuối cùng, rút cuộc, sau cùng",
+    "level": "B1",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "türkisch",
+    "meaning_vi": "thuộc Thổ Nhĩ Kỳ, thuộc người Turk",
+    "level": "A2",
+    "topic": "Quốc gia và dân tộc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "separat",
+    "meaning_vi": "tách rời, riêng biệt, riêng lẻ",
+    "level": "B2",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "sich",
+    "meaning_vi": "đại từ phản thân ngôi thứ ba số ít hoặc số nhiều: chính mình (cả dạng dative và accusative)",
+    "level": "A2",
+    "topic": "Ngữ pháp",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Handel",
+    "meaning_vi": "giao dịch, thỏa thuận",
+    "level": "B1",
+    "topic": "Kinh doanh và thương mại",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "handeln",
+    "meaning_vi": "hành động; thực hiện hành động",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "handeln",
+    "meaning_vi": "xử lý cái gì đó; kiểm soát; giải quyết một cách có tổ chức",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Händler",
+    "meaning_vi": "thương nhân, người buôn bán",
+    "level": "B1",
+    "topic": "Nghề nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "behandeln",
+    "meaning_vi": "điều trị (y học)",
+    "level": "B1",
+    "topic": "Y tế và sức khỏe",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abändern",
+    "meaning_vi": "thay đổi, sửa đổi",
+    "level": "B2",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Abenteurer",
+    "meaning_vi": "nhà thám hiểm, người phiêu lưu",
+    "level": "B1",
+    "topic": "Nghề nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "viel",
+    "meaning_vi": "nhiều, rất nhiều",
+    "level": "A1",
+    "topic": "Số lượng",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "loslassen",
+    "meaning_vi": "thả ra, buông tay (về mặt vật lý hoặc cảm xúc)",
+    "level": "B1",
+    "topic": "Động từ tách rời",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "verlassen",
+    "meaning_vi": "rời bỏ, từ bỏ; ra đi, bỏ rơi",
+    "level": "B1",
+    "topic": "Hành động và cảm xúc",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "verlassen",
+    "meaning_vi": "phân từ quá khứ của verlassen (đã rời bỏ)",
+    "level": "B1",
+    "topic": "Ngữ pháp nâng cao",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "verlassen",
+    "meaning_vi": "cô đơn, bị bỏ rơi",
+    "level": "B2",
+    "topic": "Tính từ cảm xúc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "einlassen",
+    "meaning_vi": "cho vào; tiếp nhận; cho phép vào",
+    "level": "B1",
+    "topic": "Động từ tách rời",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "auslassen",
+    "meaning_vi": "bỏ qua, lược bỏ",
+    "level": "B2",
+    "topic": "Động từ tách rời",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "belassen",
+    "meaning_vi": "để nguyên như cũ, giữ nguyên",
+    "level": "B2",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lässig",
+    "meaning_vi": "thoải mái, bình thản, dễ tính",
+    "level": "B1",
+    "topic": "Tính cách",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "finanziell",
+    "meaning_vi": "thuộc về tài chính",
+    "level": "B1",
+    "topic": "Tài chính",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schon",
+    "meaning_vi": "đã, rồi (xảy ra sớm hơn dự kiến, kéo dài lâu hơn)",
+    "level": "A2",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rolltreppe",
+    "meaning_vi": "thang cuốn",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "berühren",
+    "meaning_vi": "chạm, chạm vào",
+    "level": "B1",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "basteln",
+    "meaning_vi": "làm đồ thủ công hoặc tự làm, chế tạo, làm thủ công (đặc biệt là từ giấy, vải và các vật liệu liên quan bằng cách cắt, gấp, dán, v.v., ví dụ như diều, đèn lồng, lịch, thiệp chúc mừng)",
+    "level": "B1",
+    "topic": "Sở thích và thủ công",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "sortieren",
+    "meaning_vi": "sắp xếp; phân loại",
+    "level": "B1",
+    "topic": "Tổ chức và sắp xếp",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "obwohl",
+    "meaning_vi": "mặc dù, dù cho",
+    "level": "B1",
+    "topic": "Liên từ",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hütte",
+    "meaning_vi": "túp lều, chòi, nhà gỗ nhỏ",
+    "level": "B1",
+    "topic": "Nhà ở",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "klar",
+    "meaning_vi": "rõ ràng; trong suốt; sáng",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "zurzeit",
+    "meaning_vi": "hiện tại, hiện nay",
+    "level": "B1",
+    "topic": "Thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "richtig",
+    "meaning_vi": "đúng, chính xác",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "richtig",
+    "meaning_vi": "thực sự, thật sự",
+    "level": "B1",
+    "topic": "Trạng từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "richten",
+    "meaning_vi": "hướng, chỉ về",
+    "level": "B2",
+    "topic": "Động từ",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "unterrichten",
+    "meaning_vi": "dạy học, giảng dạy",
+    "level": "B1",
+    "topic": "Giáo dục",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Richter",
+    "meaning_vi": "thẩm phán",
+    "level": "B1",
+    "topic": "Pháp luật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gericht",
+    "meaning_vi": "tòa án",
+    "level": "B1",
+    "topic": "Pháp luật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hauptgericht",
+    "meaning_vi": "món chính, món ăn chính",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schnur",
+    "meaning_vi": "dây, sợi dây",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "strecken",
+    "meaning_vi": "duỗi (thân mình, ví dụ sau khi thức dậy)",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Richterin",
+    "meaning_vi": "thẩm phán nữ",
+    "level": "B1",
+    "topic": "Pháp luật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "uns",
+    "meaning_vi": "chúng tôi, chúng ta (tân ngữ trực tiếp/gián tiếp của wir)",
+    "level": "A1",
+    "topic": "Đại từ",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "nachlassen",
+    "meaning_vi": "giảm bớt, lắng xuống, giảm dần",
+    "level": "B2",
+    "topic": "Động từ",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abkürzen",
+    "meaning_vi": "viết tắt (từ ngữ)",
+    "level": "B1",
+    "topic": "Động từ",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "kürzen",
+    "meaning_vi": "rút ngắn, làm ngắn lại",
+    "level": "B1",
+    "topic": "Động từ",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erfolglos",
+    "meaning_vi": "không thành công",
+    "level": "B1",
+    "topic": "Tính từ mô tả kết quả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "überdurchschnittlich",
+    "meaning_vi": "trên trung bình",
+    "level": "B2",
+    "topic": "Đánh giá và so sánh",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Klischee",
+    "meaning_vi": "định kiến, khuôn mẫu",
+    "level": "B2",
+    "topic": "Ngôn ngữ và văn hóa",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Waage",
+    "meaning_vi": "cân (máy cân)",
+    "level": "B1",
+    "topic": "Dụng cụ gia đình",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Wiege",
+    "meaning_vi": "nôi em bé",
+    "level": "B1",
+    "topic": "Đồ dùng trẻ em",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Stange",
+    "meaning_vi": "cột, thanh, que (một cây gậy dài, thường tròn và bằng kim loại, nhưng cũng có thể bằng vật liệu khác, đặc biệt khi được cố định ở đâu đó)",
+    "level": "B1",
+    "topic": "Vật dụng và hình dạng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Salzstange",
+    "meaning_vi": "bánh que muối",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lenken",
+    "meaning_vi": "lái, điều khiển",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Wurf",
+    "meaning_vi": "cú ném",
+    "level": "B1",
+    "topic": "Thể thao",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hügel",
+    "meaning_vi": "đồi, gò",
+    "level": "B1",
+    "topic": "Địa hình",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Heim",
+    "meaning_vi": "nhà, nơi ở, nơi mà một người thuộc về",
+    "level": "B1",
+    "topic": "Nhà ở",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "heim",
+    "meaning_vi": "về nhà, về phía nhà (luôn chỉ hướng đi, không có nghĩa ở nhà)",
+    "level": "B1",
+    "topic": "Phó từ chỉ hướng",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "beten",
+    "meaning_vi": "cầu nguyện",
+    "level": "B1",
+    "topic": "Tôn giáo",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gebet",
+    "meaning_vi": "lời cầu nguyện",
+    "level": "B1",
+    "topic": "Tôn giáo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Heimat",
+    "meaning_vi": "quê hương, quê nhà, đất nước",
+    "level": "B2",
+    "topic": "Văn hóa và xã hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Mühle",
+    "meaning_vi": "cối xay, máy xay",
+    "level": "B1",
+    "topic": "Dụng cụ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Wimper",
+    "meaning_vi": "lông mi",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Riese",
+    "meaning_vi": "người khổng lồ",
+    "level": "B1",
+    "topic": "Truyện cổ tích",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zwerg",
+    "meaning_vi": "người lùn, chú lùn",
+    "level": "B1",
+    "topic": "Truyện cổ tích",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "übertragen",
+    "meaning_vi": "chuyển giao, truyền tải",
+    "level": "B2",
+    "topic": "Động từ chuyên ngành",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schleier",
+    "meaning_vi": "mạng che mặt, khăn voan",
+    "level": "B1",
+    "topic": "Quần áo và phụ kiện",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rahm",
+    "meaning_vi": "kem (chất béo sữa)",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Sahne",
+    "meaning_vi": "kem (chất béo sữa)",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "anders",
+    "meaning_vi": "khác, khác biệt",
+    "level": "A2",
+    "topic": "Từ cơ bản",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Küken",
+    "meaning_vi": "gà con (chim non), chim non mới nở, chim bồ câu con",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schale",
+    "meaning_vi": "vỏ; vỏ trấu; vỏ sò (lớp ngoài)",
+    "level": "B1",
+    "topic": "Thực phẩm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schälen",
+    "meaning_vi": "bóc vỏ; gọt vỏ; lột vỏ",
+    "level": "B1",
+    "topic": "Nấu ăn",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schalotte",
+    "meaning_vi": "hành khô",
+    "level": "B1",
+    "topic": "Thực phẩm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Frühlingszwiebel",
+    "meaning_vi": "hành lá",
+    "level": "B1",
+    "topic": "Thực phẩm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "künstlich",
+    "meaning_vi": "nhân tạo",
+    "level": "B1",
+    "topic": "Tính từ",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "fremde",
+    "meaning_vi": "biến cách của fremd (xa lạ, lạ lẫm, nước ngoài)",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Taktik",
+    "meaning_vi": "chiến thuật, chiến lược (nghệ thuật dự đoán và lập kế hoạch)",
+    "level": "B2",
+    "topic": "Quân sự",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abdecken",
+    "meaning_vi": "che phủ, đậy lại",
+    "level": "B1",
+    "topic": "Động từ",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fassade",
+    "meaning_vi": "mặt tiền, bề ngoài",
+    "level": "B2",
+    "topic": "Kiến trúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "wenn",
+    "meaning_vi": "khi, bất cứ khi nào",
+    "level": "A1",
+    "topic": "Liên từ",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "sozial",
+    "meaning_vi": "xã hội",
+    "level": "B1",
+    "topic": "Xã hội",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "europäisch",
+    "meaning_vi": "thuộc châu Âu",
+    "level": "A2",
+    "topic": "Địa lý",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "damit",
+    "meaning_vi": "với cái đó, bằng cái đó",
+    "level": "B1",
+    "topic": "Phó từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "damit",
+    "meaning_vi": "để mà, nhằm để",
+    "level": "B1",
+    "topic": "Liên từ",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "meiden",
+    "meaning_vi": "tránh xa, lánh xa",
+    "level": "B2",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "vermeiden",
+    "meaning_vi": "tránh, ngăn ngừa (điều gì xảy ra)",
+    "level": "B1",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Stahl",
+    "meaning_vi": "thép",
+    "level": "B1",
+    "topic": "Vật liệu",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "stehlen",
+    "meaning_vi": "ăn trộm, ăn cắp",
+    "level": "B1",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "mager",
+    "meaning_vi": "gầy, không có mỡ",
+    "level": "B1",
+    "topic": "Mô tả ngoại hình",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "gegen",
+    "meaning_vi": "chống lại",
+    "level": "A2",
+    "topic": "Giới từ",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Droge",
+    "meaning_vi": "ma túy (chất gây ảnh hưởng tâm thần, đặc biệt là chất bất hợp pháp)",
+    "level": "B2",
+    "topic": "Sức khỏe",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Mittel",
+    "meaning_vi": "phương tiện, dụng cụ",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rausch",
+    "meaning_vi": "sự say, sự phấn khích, sự say sưa",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Drogerie",
+    "meaning_vi": "cửa hàng bán mỹ phẩm, vệ sinh cá nhân và đồ gia dụng cũng như một số loại thuốc không kê đơn, tương đương với hiệu thuốc tây",
+    "level": "B1",
+    "topic": "Mua sắm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "süchtig",
+    "meaning_vi": "nghiện, có tính nghiện",
+    "level": "B2",
+    "topic": "Sức khỏe",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Eifersucht",
+    "meaning_vi": "sự ghen tuông, lòng ghen tị",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "hin",
+    "meaning_vi": "đến đó, về phía đó; biểu thị hướng đi tới một nơi không phải là vị trí hiện tại của người nói",
+    "level": "A2",
+    "topic": "Phó từ chỉ hướng",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Geschmack",
+    "meaning_vi": "vị giác, khẩu vị, thị hiếu",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schmackhaft",
+    "meaning_vi": "ngon, ngon miệng",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "tasten",
+    "meaning_vi": "sờ mó bằng tay, dò dẫm, mò mẫm",
+    "level": "B1",
+    "topic": "Hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Taube",
+    "meaning_vi": "chim bồ câu, chim gầm ghì (chim đực hoặc cái thuộc chi Columba)",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fels",
+    "meaning_vi": "tảng đá, vách đá",
+    "level": "B1",
+    "topic": "Thiên nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Höhe",
+    "meaning_vi": "chiều cao, độ cao",
+    "level": "B1",
+    "topic": "Đo lường",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schwäche",
+    "meaning_vi": "sự yếu đuối, điểm yếu",
+    "level": "B1",
+    "topic": "Tính cách",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "welcher",
+    "meaning_vi": "cái nào, người nào",
+    "level": "A2",
+    "topic": "Đại từ nghi vấn",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Partei",
+    "meaning_vi": "đảng chính trị",
+    "level": "B1",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "demokratisch",
+    "meaning_vi": "dân chủ",
+    "level": "B1",
+    "topic": "Chính trị",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Demokratie",
+    "meaning_vi": "nền dân chủ",
+    "level": "B1",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "christlich",
+    "meaning_vi": "Cơ đốc giáo, thuộc đạo Cơ đốc",
+    "level": "B1",
+    "topic": "Tôn giáo",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Christentum",
+    "meaning_vi": "Cơ đốc giáo",
+    "level": "B1",
+    "topic": "Tôn giáo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Laub",
+    "meaning_vi": "lá cây, tán lá (trên cây hoặc rơi xuống đất)",
+    "level": "B1",
+    "topic": "Thiên nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Säge",
+    "meaning_vi": "cái cưa",
+    "level": "B1",
+    "topic": "Dụng cụ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schwanz",
+    "meaning_vi": "cái đuôi",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lutschen",
+    "meaning_vi": "mút, ngậm và liếm",
+    "level": "B1",
+    "topic": "Hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bordstein",
+    "meaning_vi": "lề đường, vỉa hè nâng cao",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Speise",
+    "meaning_vi": "bữa ăn, thức ăn",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schweben",
+    "meaning_vi": "lơ lửng, bay lượn, trôi nổi",
+    "level": "B2",
+    "topic": "Động từ chuyển động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Skorpion",
+    "meaning_vi": "con bọ cạp (động vật chân đốt thuộc bộ Scorpiones)",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Libelle",
+    "meaning_vi": "con c�� chuồn",
+    "level": "B1",
+    "topic": "Côn trùng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hummel",
+    "meaning_vi": "con ong nghệ",
+    "level": "B1",
+    "topic": "Côn trùng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "russisch",
+    "meaning_vi": "thuộc Nga, tiếng Nga",
+    "level": "A2",
+    "topic": "Quốc gia",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kanzler",
+    "meaning_vi": "thủ tướng (chức danh người đứng đầu chính phủ)",
+    "level": "B2",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kanzlerin",
+    "meaning_vi": "nữ thủ tướng",
+    "level": "B2",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bundeskanzler",
+    "meaning_vi": "thủ tướng liên bang (nam hoặc không xác định giới tính) (người đứng đầu chính phủ liên bang Đức hoặc Áo)",
+    "level": "B2",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bundeskanzlerin",
+    "meaning_vi": "nữ thủ tướng liên bang (người đứng đầu chính phủ liên bang Đức hoặc Áo)",
+    "level": "B2",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Säle",
+    "meaning_vi": "số nhiều của Saal (các hội trường, phòng lớn)",
+    "level": "B1",
+    "topic": "Kiến trúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Röhre",
+    "meaning_vi": "ống, đường ống",
+    "level": "B1",
+    "topic": "Kỹ thuật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ofen",
+    "meaning_vi": "lò nướng (viết tắt của Backofen)",
+    "level": "B1",
+    "topic": "Đồ dùng nhà bếp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "tapezieren",
+    "meaning_vi": "dán giấy dán tường",
+    "level": "B1",
+    "topic": "Nhà ở và trang trí",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Tapete",
+    "meaning_vi": "giấy dán tường",
+    "level": "B1",
+    "topic": "Nhà ở và trang trí",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "finster",
+    "meaning_vi": "tối tăm, u ám",
+    "level": "B1",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "platt",
+    "meaning_vi": "phẳng, bẹt",
+    "level": "B1",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Krabbe",
+    "meaning_vi": "cua",
+    "level": "B1",
+    "topic": "Hải sản",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "drucken",
+    "meaning_vi": "in ấn",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Druck",
+    "meaning_vi": "áp lực, áp suất",
+    "level": "B1",
+    "topic": "Khoa học và Kỹ thuật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Leim",
+    "meaning_vi": "keo dán",
+    "level": "B1",
+    "topic": "Dụng cụ và Vật liệu",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "spucken",
+    "meaning_vi": "nhổ (ra)",
+    "level": "B1",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Spucke",
+    "meaning_vi": "nước bọt",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Netz",
+    "meaning_vi": "lưới, mạng lưới",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Haube",
+    "meaning_vi": "mũ trùm, nắp ca-pô",
+    "level": "B1",
+    "topic": "Quần áo và phụ kiện",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kappe",
+    "meaning_vi": "mũ lưỡi trai, nắp",
+    "level": "B1",
+    "topic": "Quần áo và phụ kiện",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "zittern",
+    "meaning_vi": "run, rung, rẩy",
+    "level": "B2",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Wüste",
+    "meaning_vi": "sa mạc",
+    "level": "B1",
+    "topic": "Địa lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Mausefalle",
+    "meaning_vi": "bẫy chuột",
+    "level": "B1",
+    "topic": "Đồ dùng gia đình",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Brombeere",
+    "meaning_vi": "quả mâm xôi đen, dâu đen",
+    "level": "B1",
+    "topic": "Trái cây",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Himbeere",
+    "meaning_vi": "quả mâm xôi",
+    "level": "B1",
+    "topic": "Trái cây",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Nordpol",
+    "meaning_vi": "Bắc Cực; cực bắc",
+    "level": "B1",
+    "topic": "Địa lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "nördlich",
+    "meaning_vi": "phía bắc, thuộc miền bắc",
+    "level": "B1",
+    "topic": "Phương hướng",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "südlich",
+    "meaning_vi": "phía nam, thuộc miền nam",
+    "level": "B1",
+    "topic": "Phương hướng",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "halb",
+    "meaning_vi": "một nửa, nửa chừng",
+    "level": "A2",
+    "topic": "Số lượng",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "halb",
+    "meaning_vi": "kém nửa tiếng, trước ba mươi phút (dùng với số giờ tiếp theo)",
+    "level": "A2",
+    "topic": "Thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "halbieren",
+    "meaning_vi": "chia đôi, cắt làm đôi, chia nửa",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Südpol",
+    "meaning_vi": "Nam Cực; cực nam",
+    "level": "B1",
+    "topic": "Địa lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hirsch",
+    "meaning_vi": "hươu, nai",
+    "level": "B1",
+    "topic": "Động vật hoang dã",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "amerikanisch",
+    "meaning_vi": "thuộc Mỹ",
+    "level": "A2",
+    "topic": "Địa lý",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "fünfzehn",
+    "meaning_vi": "mười lăm",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "dreizehn",
+    "meaning_vi": "mười ba",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "sechzehn",
+    "meaning_vi": "mười sáu",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "siebzehn",
+    "meaning_vi": "mười bảy",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "achtzehn",
+    "meaning_vi": "mười tám",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "vierzig",
+    "meaning_vi": "bốn mươi",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "sechzig",
+    "meaning_vi": "sáu mươi",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "achtzig",
+    "meaning_vi": "tám mươi",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "siebzig",
+    "meaning_vi": "bảy mươi",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Streifen",
+    "meaning_vi": "sọc, vạch",
+    "level": "B1",
+    "topic": "Mô tả hình dạng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schild",
+    "meaning_vi": "biển báo, bảng hiệu",
+    "level": "B1",
+    "topic": "Giao thông và biển báo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schild",
+    "meaning_vi": "khiên, lá chắn",
+    "level": "B2",
+    "topic": "Vũ khí và chiến tranh",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schildern",
+    "meaning_vi": "miêu tả, tả lại, kể lại một cách sinh động",
+    "level": "B2",
+    "topic": "Động từ giao tiếp",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Spargel",
+    "meaning_vi": "măng tây",
+    "level": "B1",
+    "topic": "Thức ăn - Rau củ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Tannenbaum",
+    "meaning_vi": "cây linh sam",
+    "level": "B1",
+    "topic": "Thực vật - Cây cối",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Beutel",
+    "meaning_vi": "túi vải, túi nhỏ",
+    "level": "B1",
+    "topic": "Đồ dùng hàng ngày",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kröte",
+    "meaning_vi": "cóc",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "saugen",
+    "meaning_vi": "hút, mút",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Eichhörnchen",
+    "meaning_vi": "sóc (sóc đỏ châu Âu)",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Eiche",
+    "meaning_vi": "cây sồi",
+    "level": "B1",
+    "topic": "Thực vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "gleiten",
+    "meaning_vi": "lướt, trôi, di chuyển nhẹ nhàng",
+    "level": "B2",
+    "topic": "Động từ chuyển động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Segel",
+    "meaning_vi": "cánh buồm",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hafen",
+    "meaning_vi": "cảng, bến cảng",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Nonne",
+    "meaning_vi": "nữ tu",
+    "level": "B1",
+    "topic": "Tôn giáo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hirn",
+    "meaning_vi": "não (cơ quan)",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gehirn",
+    "meaning_vi": "não bộ",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Anhang",
+    "meaning_vi": "phụ lục",
+    "level": "B2",
+    "topic": "Văn bản và tài liệu",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Keim",
+    "meaning_vi": "mầm bệnh, vi khuẩn",
+    "level": "B2",
+    "topic": "Sức khỏe",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Strahl",
+    "meaning_vi": "tia, chùm (ví dụ: ánh sáng)",
+    "level": "B1",
+    "topic": "Khoa học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "strahlen",
+    "meaning_vi": "tỏa sáng, chiếu sáng",
+    "level": "B1",
+    "topic": "Ánh sáng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Tintenfisch",
+    "meaning_vi": "mực (động vật thân mềm đầu chân, bao gồm mực nang, bạch tuộc, mực ống)",
+    "level": "B1",
+    "topic": "Động vật biển",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Klecks",
+    "meaning_vi": "vết nhòe, vết bẩn",
+    "level": "B1",
+    "topic": "Mô tả vật thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fass",
+    "meaning_vi": "thùng gỗ, thùng rượu",
+    "level": "B1",
+    "topic": "Đồ dùng và Chứa đựng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schminke",
+    "meaning_vi": "đồ trang điểm, mỹ phẩm",
+    "level": "B1",
+    "topic": "Làm đẹp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kohle",
+    "meaning_vi": "than đá (than mỏ hoặc than củi)",
+    "level": "B1",
+    "topic": "Năng lượng và Nhiên liệu",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schnarchen",
+    "meaning_vi": "ngáy",
+    "level": "B1",
+    "topic": "Sức khỏe và cơ thể",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Trommel",
+    "meaning_vi": "trống",
+    "level": "B1",
+    "topic": "Nhạc cụ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schnabel",
+    "meaning_vi": "mỏ (chim)",
+    "level": "B2",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "einfarbig",
+    "meaning_vi": "một màu, đơn sắc",
+    "level": "B2",
+    "topic": "Màu sắc và mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "oder",
+    "meaning_vi": "hoặc",
+    "level": "A1",
+    "topic": "Liên từ cơ bản",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rückenschmerzen",
+    "meaning_vi": "số nhiều của Rückenschmerz (đau lưng)",
+    "level": "B1",
+    "topic": "Sức khỏe",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Reaktion",
+    "meaning_vi": "phản ứng (hành động đáp lại hoặc phản kháng)",
+    "level": "B1",
+    "topic": "Khoa học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "töten",
+    "meaning_vi": "giết",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Binde",
+    "meaning_vi": "băng, băng bó",
+    "level": "B1",
+    "topic": "Y tế",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Wange",
+    "meaning_vi": "má (trên khuôn mặt)",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Trauer",
+    "meaning_vi": "nỗi buồn, sự đau khổ",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kapuze",
+    "meaning_vi": "mũ trùm đầu (gắn với áo)",
+    "level": "B1",
+    "topic": "Quần áo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Scheitel",
+    "meaning_vi": "ngôi tóc",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rost",
+    "meaning_vi": "gỉ sắt (kim loại bị oxy hóa)",
+    "level": "B1",
+    "topic": "Vật liệu",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rost",
+    "meaning_vi": "vỉ nướng (các thanh song song)",
+    "level": "B1",
+    "topic": "Đồ dùng nhà bếp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Tropfen",
+    "meaning_vi": "danh động từ của tropfen (nhỏ giọt)",
+    "level": "B1",
+    "topic": "Động từ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "pur",
+    "meaning_vi": "thuần khiết, đơn thuần, hoàn toàn (không gì khác ngoài)",
+    "level": "B2",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "flink",
+    "meaning_vi": "nhanh nhẹn, lanh lợi",
+    "level": "B1",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schnaps",
+    "meaning_vi": "rượu mạnh, rượu cồn",
+    "level": "B1",
+    "topic": "Đồ uống",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Albtraum",
+    "meaning_vi": "ác mộng",
+    "level": "B1",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pumpe",
+    "meaning_vi": "máy bơm",
+    "level": "B1",
+    "topic": "Dụng cụ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kasten",
+    "meaning_vi": "thùng (ví dụ: đựng chai)",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Stürmer",
+    "meaning_vi": "tiền đạo; tiền vệ tấn công",
+    "level": "B1",
+    "topic": "Thể thao",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Laterne",
+    "meaning_vi": "đèn lồng",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Angler",
+    "meaning_vi": "người câu cá (nam hoặc không xác định giới tính)",
+    "level": "B1",
+    "topic": "Nghề nghiệp và sở thích",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "angeln",
+    "meaning_vi": "câu cá (bằng cần câu)",
+    "level": "B1",
+    "topic": "Hoạt động giải trí",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Heu",
+    "meaning_vi": "cỏ khô",
+    "level": "B1",
+    "topic": "Nông nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schneckenhaus",
+    "meaning_vi": "vỏ ốc",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gehäuse",
+    "meaning_vi": "vỏ bọc, hộp, vỏ máy (khung hoặc hộp bao quanh vật gì đó)",
+    "level": "B2",
+    "topic": "Vật dụng kỹ thuật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zimtschnecke",
+    "meaning_vi": "bánh cuộn quế; một loại bánh ngọt men được cuộn với nhân quế và đường",
+    "level": "B1",
+    "topic": "Bánh ngọt",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ihrer",
+    "meaning_vi": "sở hữu cách của sie (của cô ấy, của họ)",
+    "level": "A2",
+    "topic": "Đại từ",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "verrückt",
+    "meaning_vi": "điên, khùng",
+    "level": "A2",
+    "topic": "Tính cách và cảm xúc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "weil",
+    "meaning_vi": "bởi vì, do",
+    "level": "A2",
+    "topic": "Liên từ cơ bản",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "einmal",
+    "meaning_vi": "một lần, một lần duy nhất",
+    "level": "A2",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "sondern",
+    "meaning_vi": "mà là, nhưng (thay vào đó)",
+    "level": "B1",
+    "topic": "Liên từ nâng cao",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Wetterbericht",
+    "meaning_vi": "bản tin thời tiết (mô tả thời tiết quá khứ và/hoặc dự báo)",
+    "level": "B1",
+    "topic": "Thời tiết",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bombe",
+    "meaning_vi": "quả bom (thiết bị nổ)",
+    "level": "B1",
+    "topic": "Quân sự",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "entgegen",
+    "meaning_vi": "chống lại, ngược lại",
+    "level": "B2",
+    "topic": "Giới từ và phó từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Träumer",
+    "meaning_vi": "người mơ mộng",
+    "level": "B2",
+    "topic": "Tính cách con người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Mitglied",
+    "meaning_vi": "thành viên",
+    "level": "B1",
+    "topic": "Tổ chức xã hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Koordination",
+    "meaning_vi": "sự phối hợp, sự điều phối",
+    "level": "B2",
+    "topic": "Tổ chức và quản lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Konzept",
+    "meaning_vi": "bản thiết kế, bản nháp",
+    "level": "B1",
+    "topic": "Công việc và học tập",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "einfach",
+    "meaning_vi": "một cách dễ dàng",
+    "level": "A2",
+    "topic": "Trạng từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Leere",
+    "meaning_vi": "sự trống rỗng, khoảng không",
+    "level": "B2",
+    "topic": "Trừu tượng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Nachteil",
+    "meaning_vi": "bất lợi, nhược điểm",
+    "level": "B1",
+    "topic": "Đánh giá",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pelz",
+    "meaning_vi": "lông thú",
+    "level": "B1",
+    "topic": "Vật liệu",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "beschränken",
+    "meaning_vi": "giới hạn, hạn chế",
+    "level": "B1",
+    "topic": "Động từ thông dụng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "wund",
+    "meaning_vi": "bị thương, bị tổn thương, đau",
+    "level": "B1",
+    "topic": "Sức khỏe",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schlagen",
+    "meaning_vi": "đánh; đập; gõ; đấm; búa; giã",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "verbessern",
+    "meaning_vi": "cải thiện (làm cho tốt hơn), nâng cao",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "rauf",
+    "meaning_vi": "lên, lên đây, lên lầu (hướng về phía người nói)",
+    "level": "A2",
+    "topic": "Phương hướng",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "grosse",
+    "meaning_vi": "biến thể chia của tính từ gross (lớn, to)",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "für",
+    "meaning_vi": "cho, vì",
+    "level": "A1",
+    "topic": "Giới từ cơ bản",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "binden",
+    "meaning_vi": "buộc, trói, cột bằng dây",
+    "level": "B1",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bodybuilding",
+    "meaning_vi": "thể hình",
+    "level": "B1",
+    "topic": "Thể thao",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Reporter",
+    "meaning_vi": "phóng viên (nam hoặc không xác định giới tính)",
+    "level": "B1",
+    "topic": "Nghề nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kinderarzt",
+    "meaning_vi": "bác sĩ nhi khoa (nam hoặc không xác định giới tính)",
+    "level": "B1",
+    "topic": "Y tế và sức khỏe",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erstaunlich",
+    "meaning_vi": "đáng kinh ngạc, kỳ diệu, ngạc nhiên",
+    "level": "B1",
+    "topic": "Tính từ cảm xúc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erst",
+    "meaning_vi": "đầu tiên, lúc đầu",
+    "level": "A2",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Abbild",
+    "meaning_vi": "hình ảnh, sự phản chiếu",
+    "level": "B2",
+    "topic": "Nghệ thuật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abbilden",
+    "meaning_vi": "miêu tả, khắc họa, vẽ",
+    "level": "B2",
+    "topic": "Nghệ thuật",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abbinden",
+    "meaning_vi": "tháo ra, mở ra",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abblättern",
+    "meaning_vi": "bong ra, tróc ra, bị bong tróc",
+    "level": "B2",
+    "topic": "Xây dựng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Abblendlicht",
+    "meaning_vi": "đèn pha gần, đèn chiếu gần",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Abgas",
+    "meaning_vi": "khí thải, khí xả",
+    "level": "B1",
+    "topic": "Môi trường",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Abfluss",
+    "meaning_vi": "cống thoát nước; lỗ thoát nước (đặc biệt trong phòng tắm, cũng có thể là nhà vệ sinh)",
+    "level": "B1",
+    "topic": "Nhà ở và thiết bị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Abflug",
+    "meaning_vi": "sự cất cánh",
+    "level": "B1",
+    "topic": "Du lịch và hàng không",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abfließen",
+    "meaning_vi": "thoát nước, chảy ra",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "abfliegen",
+    "meaning_vi": "cất cánh (khỏi mặt đất), bay đi",
+    "level": "B1",
+    "topic": "Du lịch và hàng không",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "elegante",
+    "meaning_vi": "biến thể của tính từ elegant (thanh lịch, tao nhã)",
+    "level": "B1",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Jasmine",
+    "meaning_vi": "số nhiều dạng chủ cách/đối cách/sở hữu cách của Jasmin (hoa nhài)",
+    "level": "B1",
+    "topic": "Thực vật - Hoa",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "meiner",
+    "meaning_vi": "của tôi (đại từ sở hữu độc lập)",
+    "level": "A2",
+    "topic": "Đại từ sở hữu",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bereich",
+    "meaning_vi": "khu vực, lĩnh vực, phạm vi",
+    "level": "B1",
+    "topic": "Không gian - Phạm vi",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "füreinander",
+    "meaning_vi": "cho nhau, vì nhau",
+    "level": "B1",
+    "topic": "Quan hệ - Tương tác",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "unbekannt",
+    "meaning_vi": "không rõ, không quen biết",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "bekannt",
+    "meaning_vi": "được biết đến, quen thuộc",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "universelle",
+    "meaning_vi": "biến cách của universell (phổ quát, toàn cầu)",
+    "level": "B2",
+    "topic": "Tính từ học thuật",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Auster",
+    "meaning_vi": "con hàu",
+    "level": "B1",
+    "topic": "Hải sản",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Unterseeboot",
+    "meaning_vi": "tàu ngầm",
+    "level": "B1",
+    "topic": "Quân sự",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "konfrontieren",
+    "meaning_vi": "đối đầu, đối chất",
+    "level": "B2",
+    "topic": "Động từ giao tiếp",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "bewegen",
+    "meaning_vi": "thúc đẩy, thuyết phục, khiến ai đó làm gì",
+    "level": "B1",
+    "topic": "Động từ tác động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "elektrisch",
+    "meaning_vi": "điện, thuộc về điện",
+    "level": "A2",
+    "topic": "Khoa học và Công nghệ",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "alles",
+    "meaning_vi": "mọi thứ; tất cả",
+    "level": "A1",
+    "topic": "Từ cơ bản",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "jagen",
+    "meaning_vi": "săn bắn (thú rừng)",
+    "level": "B1",
+    "topic": "Hoạt động ngoài trời",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "scheiden",
+    "meaning_vi": "tách ra, phân chia",
+    "level": "B2",
+    "topic": "Hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "binnen",
+    "meaning_vi": "trong vòng (khoảng thời gian)",
+    "level": "B1",
+    "topic": "Thời gian",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "beide",
+    "meaning_vi": "cả hai",
+    "level": "A2",
+    "topic": "Từ cơ bản",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "durch",
+    "meaning_vi": "bằng cách; bởi; qua, thông qua",
+    "level": "A2",
+    "topic": "Giới từ",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "noch",
+    "meaning_vi": "vẫn, vẫn còn (cho đến và bao gồm một thời điểm nhất định)",
+    "level": "A2",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "simpel",
+    "meaning_vi": "đơn giản",
+    "level": "B1",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "falsch",
+    "meaning_vi": "sai, không đúng sự thật, không đúng",
+    "level": "A2",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "gerecht",
+    "meaning_vi": "công bằng, công lý",
+    "level": "B2",
+    "topic": "Đạo đức và giá trị",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lange",
+    "meaning_vi": "lâu, trong một thời gian dài",
+    "level": "A2",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "kein",
+    "meaning_vi": "không; không phải một; không có",
+    "level": "A1",
+    "topic": "Đại từ phủ định",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "allein",
+    "meaning_vi": "một mình",
+    "level": "A2",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "diese",
+    "meaning_vi": "ngôi cách chủ cách số ít giống cái của dieser; \"này\"",
+    "level": "A1",
+    "topic": "Đại từ chỉ định",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "euch",
+    "meaning_vi": "đối cách và dữ cách của ihr; các bạn, chính các bạn",
+    "level": "A2",
+    "topic": "Đại từ nhân xưng",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "seiner",
+    "meaning_vi": "của anh ấy (đại từ sở hữu)",
+    "level": "B1",
+    "topic": "Đại từ",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "wegen",
+    "meaning_vi": "vì, bởi vì",
+    "level": "A2",
+    "topic": "Giới từ",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Verein",
+    "meaning_vi": "hiệp hội, câu lạc bộ, hội",
+    "level": "B1",
+    "topic": "Tổ chức xã hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "tote",
+    "meaning_vi": "biến thể của tot:",
+    "level": "B1",
+    "topic": "Tính từ",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "eines",
+    "meaning_vi": "sở hữu cách giống đực/trung tính số ít của ein",
+    "level": "A2",
+    "topic": "Số từ",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Dekoration",
+    "meaning_vi": "sự trang trí, đồ trang trí",
+    "level": "B1",
+    "topic": "Nội thất và trang trí",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "gegenüber",
+    "meaning_vi": "đối diện với",
+    "level": "B1",
+    "topic": "Vị trí và phương hướng",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "gegenüber",
+    "meaning_vi": "ở phía đối diện",
+    "level": "B1",
+    "topic": "Vị trí và phương hướng",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schuldig",
+    "meaning_vi": "có tội (về), phạm tội",
+    "level": "B2",
+    "topic": "Pháp luật và đạo đức",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Wörterbücher",
+    "meaning_vi": "các từ điển (số nhiều của Wörterbuch)",
+    "level": "B1",
+    "topic": "Ngôn ngữ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Jahrhundert",
+    "meaning_vi": "thế kỷ (khoảng thời gian 100 năm)",
+    "level": "B1",
+    "topic": "Thời gian",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Jude",
+    "meaning_vi": "người Do Thái",
+    "level": "B1",
+    "topic": "Dân tộc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "doch",
+    "meaning_vi": "mặc dù; nhưng; tuy nhiên; tuy vậy",
+    "level": "A2",
+    "topic": "Liên từ",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "doch",
+    "meaning_vi": "suy cho cùng; tuy nhiên; dù sao",
+    "level": "A2",
+    "topic": "Trạng từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "norwegisch",
+    "meaning_vi": "thuộc Na Uy (liên quan đến Na Uy, người dân hoặc ngôn ngữ của nước này)",
+    "level": "A2",
+    "topic": "Quốc gia và ngôn ngữ",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Sumpf",
+    "meaning_vi": "đầm lầy, vũng lầy",
+    "level": "B1",
+    "topic": "Địa lý tự nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Höhen",
+    "meaning_vi": "số nhiều của Höhe (độ cao, chiều cao)",
+    "level": "B1",
+    "topic": "Ngữ pháp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Götter",
+    "meaning_vi": "dạng chủ cách/đối cách/sở hữu cách số nhiều của Gott (các vị thần)",
+    "level": "B1",
+    "topic": "Ngữ pháp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Vokal",
+    "meaning_vi": "nguyên âm",
+    "level": "B1",
+    "topic": "Ngôn ngữ học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Konsonant",
+    "meaning_vi": "phụ âm",
+    "level": "B1",
+    "topic": "Ngôn ngữ học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kampf",
+    "meaning_vi": "cuộc đấu tranh, trận chiến, chiến dịch, cuộc chiến",
+    "level": "B1",
+    "topic": "Xung đột và chiến tranh",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "höher",
+    "meaning_vi": "cao hơn (so sánh hơn của hoch)",
+    "level": "A2",
+    "topic": "Tính từ so sánh",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Lunge",
+    "meaning_vi": "phổi",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Frieden",
+    "meaning_vi": "hòa bình",
+    "level": "B1",
+    "topic": "Xã hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hölle",
+    "meaning_vi": "địa ngục",
+    "level": "B1",
+    "topic": "Tôn giáo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "achten",
+    "meaning_vi": "quan tâm đến, chú ý đến",
+    "level": "B1",
+    "topic": "Động từ thường dùng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erschrocken",
+    "meaning_vi": "phân từ quá khứ của erschrecken (sợ hãi)",
+    "level": "B2",
+    "topic": "Động từ",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erschrocken",
+    "meaning_vi": "bị sốc, giật mình, hoảng sợ",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ups",
+    "meaning_vi": "ối, ôi (thán từ khi làm sai)",
+    "level": "A1",
+    "topic": "Thán từ",
+    "pos": "intj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Mut",
+    "meaning_vi": "lòng can đảm, sự dũng cảm",
+    "level": "B1",
+    "topic": "Tính cách",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "intern",
+    "meaning_vi": "nội bộ, bên trong",
+    "level": "B2",
+    "topic": "Công việc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Eiweiß",
+    "meaning_vi": "lòng trắng trứng",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Sympathie",
+    "meaning_vi": "thiện cảm, cảm tình, sự ưu ái",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Spruch",
+    "meaning_vi": "câu nói ngắn, thành ngữ hoặc châm ngôn đáng nhớ hoặc có ý nghĩa",
+    "level": "B1",
+    "topic": "Ngôn ngữ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ewig",
+    "meaning_vi": "vĩnh cửu, bất diệt",
+    "level": "B2",
+    "topic": "Tính từ trừu tượng",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ewig",
+    "meaning_vi": "mãi mãi, vĩnh viễn",
+    "level": "B2",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "jobben",
+    "meaning_vi": "làm việc, có công việc (đặc biệt là công việc tạm thời hoặc bán thời gian)",
+    "level": "B1",
+    "topic": "Công việc",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Quelle",
+    "meaning_vi": "suối",
+    "level": "B1",
+    "topic": "Thiên nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "heil",
+    "meaning_vi": "nguyên vẹn; không hư hại; không bị thương; an toàn",
+    "level": "B2",
+    "topic": "Tính từ trạng thái",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "verleihen",
+    "meaning_vi": "trao tặng, phong tặng (huân chương, danh hiệu, bằng cấp)",
+    "level": "B2",
+    "topic": "Lễ hội và Vinh danh",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gottes",
+    "meaning_vi": "của Chúa (dạng sở hữu cách số ít của Gott)",
+    "level": "B1",
+    "topic": "Tôn giáo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Waldkauz",
+    "meaning_vi": "cú mèo",
+    "level": "B2",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schaukelpferd",
+    "meaning_vi": "ngựa bập bênh",
+    "level": "B1",
+    "topic": "Đồ chơi trẻ em",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ehrlich",
+    "meaning_vi": "đứng đắn, danh dự, trung thực",
+    "level": "A2",
+    "topic": "Tính cách",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ihm",
+    "meaning_vi": "dạng dativ của er; anh ấy, cho anh ấy (tân ngữ gián tiếp); vì anh ấy (trong một số trường hợp)",
+    "level": "A2",
+    "topic": "Đại từ",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ihn",
+    "meaning_vi": "dạng accusativ của er; anh ấy, nó (giống đực, tân ngữ trực tiếp)",
+    "level": "A2",
+    "topic": "Đại từ",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "beobachten",
+    "meaning_vi": "xem, quan sát",
+    "level": "B1",
+    "topic": "Động từ thường dùng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Stoff",
+    "meaning_vi": "chất liệu, vật chất, chất",
+    "level": "B1",
+    "topic": "Vật liệu",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "peng",
+    "meaning_vi": "bùm (tiếng bắt chước âm thanh va chạm đột ngột)",
+    "level": "A2",
+    "topic": "Tán từ",
+    "pos": "intj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "allen",
+    "meaning_vi": "dạng đối cách số ít giống đực của alles (tất cả)",
+    "level": "A2",
+    "topic": "Đại từ",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Arbeitsfläche",
+    "meaning_vi": "mặt bàn làm việc, bề mặt làm việc",
+    "level": "B1",
+    "topic": "Nhà bếp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "hinzufügen",
+    "meaning_vi": "nói thêm (sau khi nói điều gì đó), thêm vào",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "fügen",
+    "meaning_vi": "nối, ghép",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Diktatur",
+    "meaning_vi": "chế độ độc tài",
+    "level": "B2",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "roh",
+    "meaning_vi": "sống (chưa nấu chín)",
+    "level": "A2",
+    "topic": "Thức ăn",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zaun",
+    "meaning_vi": "hàng rào",
+    "level": "B1",
+    "topic": "Nhà ở",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zeichen",
+    "meaning_vi": "dấu hiệu, biểu tượng (vật thể đại diện cho cái gì đó)",
+    "level": "B1",
+    "topic": "Giao tiếp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zwilling",
+    "meaning_vi": "sinh đôi (nam hoặc nữ)",
+    "level": "B1",
+    "topic": "Gia đình",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zweig",
+    "meaning_vi": "cành cây, nhành cây",
+    "level": "B2",
+    "topic": "Thiên nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ziegel",
+    "meaning_vi": "viên gạch",
+    "level": "B1",
+    "topic": "Xây dựng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zeug",
+    "meaning_vi": "đồ đạc, thiết bị, dụng cụ",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gasse",
+    "meaning_vi": "hẻm, ngõ hẹp",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "hassen",
+    "meaning_vi": "ghét, căm ghét",
+    "level": "B1",
+    "topic": "Cảm xúc",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fleiß",
+    "meaning_vi": "sự siêng năng, sự chăm chỉ, sự cần cù, nỗ lực",
+    "level": "B2",
+    "topic": "Tính cách",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "weisen",
+    "meaning_vi": "chỉ, trỏ",
+    "level": "B2",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erweisen",
+    "meaning_vi": "chứng minh, cho thấy (bản thân hoặc chính nó)",
+    "level": "B2",
+    "topic": "Động từ trừu tượng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "verweisen",
+    "meaning_vi": "giới thiệu, tham chiếu",
+    "level": "B2",
+    "topic": "Động từ học thuật",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "einweisen",
+    "meaning_vi": "hướng dẫn, chỉ dẫn, tóm tắt",
+    "level": "B2",
+    "topic": "Công việc",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ausweisen",
+    "meaning_vi": "trục xuất (khỏi một quốc gia)",
+    "level": "B2",
+    "topic": "Động từ pháp lý",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "scheitern",
+    "meaning_vi": "thất bại, kết thúc không thành công",
+    "level": "B2",
+    "topic": "Động từ trừu tượng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "klären",
+    "meaning_vi": "làm rõ, giải quyết (vấn đề hoặc hiểu lầm), giải đáp",
+    "level": "B1",
+    "topic": "Động từ giao tiếp",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "greifen",
+    "meaning_vi": "nắm, túm, cầm (cái gì đó)",
+    "level": "B1",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Abstand",
+    "meaning_vi": "khoảng cách, khoảng trống, khoảng cách giữa các vật, khoảng thời gian, khe hở",
+    "level": "B1",
+    "topic": "Không gian và đo lường",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zweck",
+    "meaning_vi": "mục đích",
+    "level": "B1",
+    "topic": "Khái niệm trừu tượng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "grob",
+    "meaning_vi": "thô, thô ráp",
+    "level": "B1",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Stroh",
+    "meaning_vi": "rơm, rạ",
+    "level": "B1",
+    "topic": "Nông nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "niemand",
+    "meaning_vi": "không ai, không một ai",
+    "level": "A2",
+    "topic": "Đại từ",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "nummerieren",
+    "meaning_vi": "đánh số",
+    "level": "B1",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bürger",
+    "meaning_vi": "công dân, cư dân, người dân; người được công nhận hợp pháp sống tại một thành phố hoặc bang",
+    "level": "B1",
+    "topic": "Xã hội và chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Absicht",
+    "meaning_vi": "ý định, dự định",
+    "level": "B1",
+    "topic": "Tâm lý và Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "decken",
+    "meaning_vi": "che phủ, đậy (mái nhà, chăn, v.v.)",
+    "level": "B1",
+    "topic": "Nhà ở và Sinh hoạt",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "dreißig",
+    "meaning_vi": "ba mươi",
+    "level": "A1",
+    "topic": "Số đếm",
+    "pos": "num",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Dorn",
+    "meaning_vi": "gai (số nhiều Dornen hoặc Dörner)",
+    "level": "B1",
+    "topic": "Thực vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "gedacht",
+    "meaning_vi": "đã nghĩ (phân từ quá khứ của denken)",
+    "level": "B1",
+    "topic": "Động từ bất quy tắc",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Seminar",
+    "meaning_vi": "hội thảo, lớp học nhỏ (ở đại học)",
+    "level": "B1",
+    "topic": "Giáo dục",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zwang",
+    "meaning_vi": "sự ép buộc, nghĩa vụ bắt buộc, sự cưỡng chế",
+    "level": "B2",
+    "topic": "Trừu tượng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "dran",
+    "meaning_vi": "dạng rút gọn của daran (ở đó, về điều đó)",
+    "level": "B1",
+    "topic": "Trạng từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lieber",
+    "meaning_vi": "cấp so sánh hơn của lieb (thân yêu hơn)",
+    "level": "B1",
+    "topic": "Tính từ",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lieber",
+    "meaning_vi": "cấp so sánh hơn của gern; thà rằng, tốt hơn, ưu tiên hơn",
+    "level": "A2",
+    "topic": "Trạng từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "außerhalb",
+    "meaning_vi": "bên ngoài (của), ngoài phạm vi",
+    "level": "B1",
+    "topic": "Giới từ",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "außerhalb",
+    "meaning_vi": "bên ngoài, ngoài phạm vi",
+    "level": "B1",
+    "topic": "Trạng từ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "innerhalb",
+    "meaning_vi": "trong vòng, bên trong (của)",
+    "level": "B1",
+    "topic": "Giới từ không gian và thời gian",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "innerhalb",
+    "meaning_vi": "bên trong (không gian)",
+    "level": "B1",
+    "topic": "Giới từ không gian và thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "oberhalb",
+    "meaning_vi": "phía trên, ở trên",
+    "level": "B1",
+    "topic": "Giới từ không gian và thời gian",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "unterhalb",
+    "meaning_vi": "phía dưới, ở dưới",
+    "level": "B1",
+    "topic": "Giới từ không gian và thời gian",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "trotz",
+    "meaning_vi": "mặc dù, bất chấp",
+    "level": "B1",
+    "topic": "Giới từ và liên từ",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "während",
+    "meaning_vi": "trong khi",
+    "level": "A2",
+    "topic": "Giới từ và liên từ",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "während",
+    "meaning_vi": "trong suốt, vào thời điểm",
+    "level": "A2",
+    "topic": "Giới từ và liên từ",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "anstatt",
+    "meaning_vi": "thay vì",
+    "level": "B1",
+    "topic": "Giới từ và liên từ",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "anstatt",
+    "meaning_vi": "thay vì",
+    "level": "B1",
+    "topic": "Giới từ và liên từ",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "statt",
+    "meaning_vi": "thay vì",
+    "level": "B1",
+    "topic": "Giới từ và liên từ",
+    "pos": "conj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "statt",
+    "meaning_vi": "thay cho, thay mặt",
+    "level": "B1",
+    "topic": "Giới từ và liên từ",
+    "pos": "prep",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "wahr",
+    "meaning_vi": "đúng, thật",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Spam",
+    "meaning_vi": "thư rác",
+    "level": "B1",
+    "topic": "Công nghệ và Internet",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "keine",
+    "meaning_vi": "không có (dạng giống cái chủ cách/đối cách của kein)",
+    "level": "A1",
+    "topic": "Đại từ cơ bản",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "keine",
+    "meaning_vi": "không ai (dạng giống cái chủ cách/đối cách của keiner)",
+    "level": "A1",
+    "topic": "Đại từ cơ bản",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lebhaft",
+    "meaning_vi": "sống động, năng động, hoạt bát hoặc nhanh nhẹn",
+    "level": "B1",
+    "topic": "Tính từ miêu tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "möglich",
+    "meaning_vi": "có thể, khả thi",
+    "level": "A2",
+    "topic": "Tính từ cơ bản",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Nacken",
+    "meaning_vi": "gáy",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "blasen",
+    "meaning_vi": "thổi",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Atmen",
+    "meaning_vi": "sự hít thở",
+    "level": "B1",
+    "topic": "Sức khỏe",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Sonnenaufgang",
+    "meaning_vi": "bình minh, mặt trời mọc",
+    "level": "B1",
+    "topic": "Thiên nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ministerium",
+    "meaning_vi": "bộ (chính phủ)",
+    "level": "B2",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Feuerwerk",
+    "meaning_vi": "pháo hoa",
+    "level": "B1",
+    "topic": "Lễ hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "fehlen",
+    "meaning_vi": "thiếu, vắng mặt [với dativ 'đối với ai/cái gì' và an (+ dativ) 'về cái gì']",
+    "level": "B1",
+    "topic": "Động từ trạng thái",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erlaubt",
+    "meaning_vi": "phân từ quá khứ của erlauben",
+    "level": "B1",
+    "topic": "Động từ",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erlaubt",
+    "meaning_vi": "được phép, được cho phép",
+    "level": "B1",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "sonst",
+    "meaning_vi": "nếu không, ngoài ra (trong hoàn cảnh khác)",
+    "level": "A2",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "stattfinden",
+    "meaning_vi": "diễn ra, xảy ra",
+    "level": "B1",
+    "topic": "Động từ sự kiện",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "zufällig",
+    "meaning_vi": "ngẫu nhiên, tình cờ",
+    "level": "B1",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "zufällig",
+    "meaning_vi": "một cách tình cờ, ngẫu nhiên",
+    "level": "B1",
+    "topic": "Trạng từ cách thức",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "außen",
+    "meaning_vi": "bên ngoài",
+    "level": "A2",
+    "topic": "Vị trí không gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "unterwegs",
+    "meaning_vi": "đang trên đường, đang di chuyển, đang trong hành trình",
+    "level": "B1",
+    "topic": "Di chuyển",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "kreuzen",
+    "meaning_vi": "băng qua, giao nhau",
+    "level": "B1",
+    "topic": "Động từ di chuyển",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "überqueren",
+    "meaning_vi": "băng qua, vượt qua",
+    "level": "B1",
+    "topic": "Động từ di chuyển",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "begleiten",
+    "meaning_vi": "đi cùng, đồng hành",
+    "level": "B1",
+    "topic": "Hoạt động xã hội",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gebiet",
+    "meaning_vi": "khu vực, vùng",
+    "level": "B1",
+    "topic": "Địa lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "damals",
+    "meaning_vi": "lúc đó (trong quá khứ), hồi đó",
+    "level": "B1",
+    "topic": "Thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "fairer",
+    "meaning_vi": "dạng biến cách của fair (công bằng)",
+    "level": "B1",
+    "topic": "Ngữ pháp",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kiefer",
+    "meaning_vi": "hàm",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kastanie",
+    "meaning_vi": "hạt dẻ",
+    "level": "B1",
+    "topic": "Thực vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Steuer",
+    "meaning_vi": "thuế",
+    "level": "B1",
+    "topic": "Tài chính",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "puh",
+    "meaning_vi": "phù! (thở phào)",
+    "level": "A2",
+    "topic": "Cảm thán",
+    "pos": "intj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Haken",
+    "meaning_vi": "cái móc",
+    "level": "B1",
+    "topic": "Đồ dùng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "übertreffen",
+    "meaning_vi": "vượt qua, vượt trội, làm tốt hơn",
+    "level": "B2",
+    "topic": "Động từ nâng cao",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Grube",
+    "meaning_vi": "hố, hầm",
+    "level": "B1",
+    "topic": "Địa hình",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Stamm",
+    "meaning_vi": "thân cây, thân chính của cây (không bao giờ dùng cho cành nhỏ hoặc cành mảnh)",
+    "level": "B1",
+    "topic": "Thực vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "knapp",
+    "meaning_vi": "khan hiếm, ít ỏi",
+    "level": "B1",
+    "topic": "Tính từ thông dụng",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fracht",
+    "meaning_vi": "hàng hóa vận chuyển, hàng chở",
+    "level": "B2",
+    "topic": "Vận tải",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ziemlich",
+    "meaning_vi": "khá, tương đối, khá là",
+    "level": "A2",
+    "topic": "Trạng từ cơ bản",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Axt",
+    "meaning_vi": "cái rìu",
+    "level": "B1",
+    "topic": "Công cụ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "miau",
+    "meaning_vi": "meo meo (tiếng kêu của mèo)",
+    "level": "A1",
+    "topic": "Động vật",
+    "pos": "intj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "auflösen",
+    "meaning_vi": "phá vỡ, tan rã, giải tán",
+    "level": "B2",
+    "topic": "Động từ",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "huhu",
+    "meaning_vi": "ê (gọi ai đó để thu hút sự chú ý, thường qua khoảng cách xa)",
+    "level": "A2",
+    "topic": "Giao tiếp hàng ngày",
+    "pos": "intj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Becken",
+    "meaning_vi": "chậu, bồn rộng",
+    "level": "B1",
+    "topic": "Đồ dùng gia đình",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schauer",
+    "meaning_vi": "cơn mưa rào (thời gian ngắn có mưa)",
+    "level": "B1",
+    "topic": "Thời tiết",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "sanft",
+    "meaning_vi": "nhẹ nhàng, dịu dàng",
+    "level": "B1",
+    "topic": "Tính cách và cảm xúc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "selten",
+    "meaning_vi": "hiếm, không thường xuyên, không phổ biến, khan hiếm",
+    "level": "A2",
+    "topic": "Tần suất",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "selten",
+    "meaning_vi": "hiếm khi, ít khi",
+    "level": "A2",
+    "topic": "Trạng từ thời gian",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Lebenslauf",
+    "meaning_vi": "sơ yếu lý lịch, CV",
+    "level": "B1",
+    "topic": "Công việc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "streng",
+    "meaning_vi": "nghiêm khắc, nghiêm ngặt",
+    "level": "B1",
+    "topic": "Tính cách và cảm xúc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "streng",
+    "meaning_vi": "một cách nghiêm ngặt, rất nhiều",
+    "level": "B1",
+    "topic": "Trạng từ mức độ",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Nabel",
+    "meaning_vi": "rốn",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Erbe",
+    "meaning_vi": "di sản; gia tài; tài sản thừa kế (tài sản được để lại và thừa kế)",
+    "level": "B2",
+    "topic": "Pháp luật và tài sản",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "tapfer",
+    "meaning_vi": "dũng cảm, gan dạ, mạnh mẽ, kiên cường (mạnh mẽ trước khó khăn, đau đớn, nguy hiểm)",
+    "level": "B1",
+    "topic": "Tính cách con người",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Stoß",
+    "meaning_vi": "cú đẩy, cú xô, va chạm",
+    "level": "B1",
+    "topic": "Hành động vật lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Biss",
+    "meaning_vi": "vết cắn, hành động cắn",
+    "level": "B1",
+    "topic": "Hành động vật lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Genuss",
+    "meaning_vi": "sự thưởng thức, niềm vui",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hass",
+    "meaning_vi": "sự căm ghét, lòng thù hận",
+    "level": "B1",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "äußere",
+    "meaning_vi": "bên ngoài, phía ngoài",
+    "level": "B1",
+    "topic": "Vị trí",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "zart",
+    "meaning_vi": "mềm mại, dịu dàng, mỏng manh",
+    "level": "B1",
+    "topic": "Tính chất",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Riss",
+    "meaning_vi": "vết nứt, khe nứt",
+    "level": "B2",
+    "topic": "Xây dựng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "charmant",
+    "meaning_vi": "quyến rũ, duyên dáng",
+    "level": "B1",
+    "topic": "Tính cách",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schutz",
+    "meaning_vi": "sự bảo vệ",
+    "level": "B1",
+    "topic": "An toàn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Sicht",
+    "meaning_vi": "tầm nhìn, quan điểm",
+    "level": "B1",
+    "topic": "Nhận thức",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Achsel",
+    "meaning_vi": "nách (hốc dưới vai)",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Amt",
+    "meaning_vi": "cơ quan, sở, văn phòng (cơ quan nhà nước phụ trách các vấn đề cụ thể)",
+    "level": "B2",
+    "topic": "Hành chính và chính phủ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Brunnen",
+    "meaning_vi": "giếng",
+    "level": "B1",
+    "topic": "Kiến trúc và xây dựng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Bucht",
+    "meaning_vi": "vịnh, vũng",
+    "level": "B1",
+    "topic": "Địa lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Dampf",
+    "meaning_vi": "hơi nước",
+    "level": "B1",
+    "topic": "Khoa học tự nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Darm",
+    "meaning_vi": "ruột",
+    "level": "B2",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Dattel",
+    "meaning_vi": "quả chà là (trái cây; cây)",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Dauer",
+    "meaning_vi": "thời gian, khoảng thời gian",
+    "level": "B1",
+    "topic": "Thời gian",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Dienst",
+    "meaning_vi": "dịch vụ, sự phục vụ",
+    "level": "B1",
+    "topic": "Công việc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Dotter",
+    "meaning_vi": "lòng đỏ trứng",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "dringen",
+    "meaning_vi": "khăng khăng, nài nỉ, thúc giục",
+    "level": "B2",
+    "topic": "Động từ giao tiếp",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Duft",
+    "meaning_vi": "mùi thơm, hương thơm",
+    "level": "B1",
+    "topic": "Giác quan",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ehre",
+    "meaning_vi": "danh dự, vinh dự",
+    "level": "B2",
+    "topic": "Giá trị đạo đức",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Eidechse",
+    "meaning_vi": "con thằn lằn",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ekel",
+    "meaning_vi": "sự ghê tởm, sự kinh tởm",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Elend",
+    "meaning_vi": "sự khốn khổ, sự bất hạnh",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ernte",
+    "meaning_vi": "vụ thu hoạch, mùa gặt",
+    "level": "B1",
+    "topic": "Nông nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fach",
+    "meaning_vi": "ngăn, hộc",
+    "level": "B1",
+    "topic": "Đồ dùng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fächer",
+    "meaning_vi": "cái quạt (thiết bị cầm tay dùng để tạo luồng không khí, đặc biệt để làm mát)",
+    "level": "B1",
+    "topic": "Đồ dùng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Faden",
+    "meaning_vi": "sợi chỉ",
+    "level": "B1",
+    "topic": "May mặc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fähre",
+    "meaning_vi": "phà",
+    "level": "B1",
+    "topic": "Giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Falte",
+    "meaning_vi": "nếp gấp",
+    "level": "B1",
+    "topic": "Mô tả vật thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Feind",
+    "meaning_vi": "kẻ thù, địch thủ",
+    "level": "B1",
+    "topic": "Quan hệ xã hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fläche",
+    "meaning_vi": "bề mặt, diện tích",
+    "level": "B1",
+    "topic": "Hình học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "flechten",
+    "meaning_vi": "tết, bện, đan",
+    "level": "B1",
+    "topic": "Động từ thủ công",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Fliese",
+    "meaning_vi": "gạch lát (tường hoặc sàn, không phải gạch lợp mái)",
+    "level": "B1",
+    "topic": "Nhà ở và xây dựng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Flur",
+    "meaning_vi": "hành lang, sảnh, lối đi, cầu thang",
+    "level": "B1",
+    "topic": "Nhà ở",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Folge",
+    "meaning_vi": "chuỗi, dãy, hậu quả, tập phim",
+    "level": "B1",
+    "topic": "Toán học và truyền thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Frist",
+    "meaning_vi": "thời hạn, kỳ hạn, hạn chót",
+    "level": "B2",
+    "topic": "Thời gian và pháp lý",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Furcht",
+    "meaning_vi": "nỗi sợ hãi; sự hoảng sợ; sự lo lắng",
+    "level": "B1",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gefahr",
+    "meaning_vi": "nguy hiểm, mối nguy, hiểm họa, rủi ro",
+    "level": "B1",
+    "topic": "An toàn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gegner",
+    "meaning_vi": "đối thủ, kẻ thù",
+    "level": "B1",
+    "topic": "Quan hệ xã hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gefäß",
+    "meaning_vi": "bình, đồ chứa, mạch máu",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gelenk",
+    "meaning_vi": "khớp xương",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gerücht",
+    "meaning_vi": "tin đồn",
+    "level": "B1",
+    "topic": "Giao tiếp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gesetz",
+    "meaning_vi": "luật, đạo luật, điều luật",
+    "level": "B1",
+    "topic": "Pháp luật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gewalt",
+    "meaning_vi": "bạo lực, vũ lực",
+    "level": "B1",
+    "topic": "Xã hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Gipfel",
+    "meaning_vi": "đỉnh núi, đỉnh cao",
+    "level": "B1",
+    "topic": "Địa lý và thiên nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "heulen",
+    "meaning_vi": "hú, tru, kêu rên",
+    "level": "B1",
+    "topic": "Âm thanh",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Höhle",
+    "meaning_vi": "hang động",
+    "level": "B1",
+    "topic": "Địa lý và thiên nhiên",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schraube",
+    "meaning_vi": "vít, ốc vít",
+    "level": "B1",
+    "topic": "Dụng cụ và công cụ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hülle",
+    "meaning_vi": "vỏ bọc, bao bì",
+    "level": "B2",
+    "topic": "Đồ vật hàng ngày",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Hupe",
+    "meaning_vi": "còi xe, kèn xe hơi",
+    "level": "B1",
+    "topic": "Phương tiện giao thông",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Imbiss",
+    "meaning_vi": "bữa ăn nhẹ, quán ăn nhanh",
+    "level": "B1",
+    "topic": "Thức ăn",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "impfen",
+    "meaning_vi": "tiêm chủng, chủng ngừa",
+    "level": "B1",
+    "topic": "Y tế và sức khỏe",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Jäger",
+    "meaning_vi": "thợ săn",
+    "level": "B1",
+    "topic": "Nghề nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kante",
+    "meaning_vi": "cạnh, mép, viền",
+    "level": "B1",
+    "topic": "Hình dạng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Käufer",
+    "meaning_vi": "người mua, khách hàng",
+    "level": "B1",
+    "topic": "Mua sắm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kerl",
+    "meaning_vi": "anh chàng, gã, thằng",
+    "level": "B1",
+    "topic": "Con người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kette",
+    "meaning_vi": "dây xích, chuỗi",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kieme",
+    "meaning_vi": "mang (cơ quan của cá)",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kiste",
+    "meaning_vi": "rương, hộp",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Klage",
+    "meaning_vi": "lời phản nàn, đơn khiếu nại",
+    "level": "B2",
+    "topic": "Pháp luật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Klang",
+    "meaning_vi": "âm thanh, âm sắc",
+    "level": "B1",
+    "topic": "Âm nhạc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Klee",
+    "meaning_vi": "cỏ ba lá",
+    "level": "B1",
+    "topic": "Thực vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Steinbock",
+    "meaning_vi": "dê núi, cung Ma Kết",
+    "level": "B1",
+    "topic": "Cung hoàng đạo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Wassermann",
+    "meaning_vi": "cung Bảo Bình, người cung Bảo Bình",
+    "level": "B1",
+    "topic": "Cung hoàng đạo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Krebs",
+    "meaning_vi": "động vật giáp xác, cua, tôm hùm",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Zwillinge",
+    "meaning_vi": "số nhiều của Zwilling (song sinh, cung Song Tử)",
+    "level": "B1",
+    "topic": "Cung hoàng đạo",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Klinge",
+    "meaning_vi": "lưỡi dao (của vũ khí hoặc dụng cụ)",
+    "level": "B2",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Klingel",
+    "meaning_vi": "chuông",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "klingen",
+    "meaning_vi": "reo, kêu leng keng",
+    "level": "B1",
+    "topic": "Động từ âm thanh",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "bilden",
+    "meaning_vi": "hình thành, đào tạo",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "erkennen",
+    "meaning_vi": "nhận ra, nhận thức",
+    "level": "B1",
+    "topic": "Động từ nhận thức",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "rühren",
+    "meaning_vi": "khuấy, trộn (chất lỏng hoặc bột như trong nấu ăn)",
+    "level": "B1",
+    "topic": "Nấu ăn",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ahnen",
+    "meaning_vi": "nghi ngờ, đoán",
+    "level": "B2",
+    "topic": "Động từ nhận thức",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "leihen",
+    "meaning_vi": "mượn, cho mượn",
+    "level": "B1",
+    "topic": "Động từ thường dùng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "bessern",
+    "meaning_vi": "cải thiện, làm tốt hơn",
+    "level": "B2",
+    "topic": "Động từ thường dùng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "verändern",
+    "meaning_vi": "thay đổi, biến đổi",
+    "level": "B1",
+    "topic": "Động từ thường dùng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kneipe",
+    "meaning_vi": "quán rượu, quán bar",
+    "level": "B1",
+    "topic": "Địa điểm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "kneifen",
+    "meaning_vi": "véo, nhéo",
+    "level": "B1",
+    "topic": "Động từ thường dùng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Knöchel",
+    "meaning_vi": "mắt cá chân",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Knoten",
+    "meaning_vi": "nút thắt",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Knolle",
+    "meaning_vi": "củ (cây)",
+    "level": "B1",
+    "topic": "Thực vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "kneten",
+    "meaning_vi": "nhào (bột)",
+    "level": "B1",
+    "topic": "Nấu ăn",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Köder",
+    "meaning_vi": "mồi câu",
+    "level": "B1",
+    "topic": "Câu cá",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Korken",
+    "meaning_vi": "nút chai (thường làm từ gỗ nút nhưng không nhất thiết)",
+    "level": "B1",
+    "topic": "Đồ dùng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Korn",
+    "meaning_vi": "hạt; hạt ngũ cốc đơn lẻ",
+    "level": "B1",
+    "topic": "Thực phẩm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Krach",
+    "meaning_vi": "tiếng nổ, tiếng va chạm mạnh",
+    "level": "B1",
+    "topic": "Âm thanh",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Kraft",
+    "meaning_vi": "sức mạnh, lực lượng, năng lực",
+    "level": "B1",
+    "topic": "Năng lực",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Nähe",
+    "meaning_vi": "sự gần gũi, sự ở gần",
+    "level": "B1",
+    "topic": "Vị trí và khoảng cách",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rätsel",
+    "meaning_vi": "câu đố, trò chơi ô chữ, điều bí ẩn",
+    "level": "B1",
+    "topic": "Giải trí và trò chơi",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "raten",
+    "meaning_vi": "khuyên, khuyên nhủ; đề nghị",
+    "level": "B1",
+    "topic": "Giao tiếp và lời khuyên",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Laune",
+    "meaning_vi": "tâm trạng, khí chất",
+    "level": "B1",
+    "topic": "Cảm xúc và tâm trạng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Lehne",
+    "meaning_vi": "tay vịn (của ghế), chỗ tựa tay",
+    "level": "B1",
+    "topic": "Nội thất",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lehnen",
+    "meaning_vi": "dựa, tựa",
+    "level": "B1",
+    "topic": "Tư thế và vị trí",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "lehren",
+    "meaning_vi": "dạy (một lớp, một môn học); làm giáo viên",
+    "level": "B1",
+    "topic": "Giáo dục",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "leisten",
+    "meaning_vi": "thực hiện (nhiệm vụ, công việc), hoàn thành (nhiệm vụ), đạt được (mục tiêu)",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "leuchten",
+    "meaning_vi": "chiếu sáng, tỏa sáng",
+    "level": "B1",
+    "topic": "Ánh sáng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Lohn",
+    "meaning_vi": "tiền lương, tiền công",
+    "level": "B1",
+    "topic": "Công việc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Lüge",
+    "meaning_vi": "lời nói dối",
+    "level": "B1",
+    "topic": "Giao tiếp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Magen",
+    "meaning_vi": "dạ dày, bụng",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "mahlen",
+    "meaning_vi": "nghiền, xay",
+    "level": "B1",
+    "topic": "Nấu ăn",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Mangel",
+    "meaning_vi": "sự thiếu hụt, sự khan hiếm (tình trạng có lượng tài nguyên không đủ hoặc không có)",
+    "level": "B2",
+    "topic": "Trừu tượng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "mangeln",
+    "meaning_vi": "thiếu (ai đó/cái gì đó thiếu cái gì)",
+    "level": "B2",
+    "topic": "Động từ trừu tượng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "manch",
+    "meaning_vi": "nhiều, một số",
+    "level": "B1",
+    "topic": "Đại từ",
+    "pos": "pron",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Marke",
+    "meaning_vi": "nhãn hiệu, thương hiệu",
+    "level": "B1",
+    "topic": "Kinh doanh",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Messe",
+    "meaning_vi": "hội chợ thương mại, triển lãm",
+    "level": "B1",
+    "topic": "Kinh doanh",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Mühe",
+    "meaning_vi": "sự nỗ lực, công sức, khó khăn",
+    "level": "B1",
+    "topic": "Trừu tượng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Narbe",
+    "meaning_vi": "vết seo",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Neid",
+    "meaning_vi": "sự ghen tị, lòng đố kỵ",
+    "level": "B1",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Niere",
+    "meaning_vi": "quả thận",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Nutzen",
+    "meaning_vi": "sự sử dụng",
+    "level": "B1",
+    "topic": "Động từ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Nutzen",
+    "meaning_vi": "lợi ích, ích lợi",
+    "level": "B1",
+    "topic": "Khái niệm trừu tượng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "gelingen",
+    "meaning_vi": "thành công, đạt kết quả tốt, suôn sẻ",
+    "level": "B2",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pfarrer",
+    "meaning_vi": "mục sư, linh mục",
+    "level": "B1",
+    "topic": "Nghề nghiệp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pfeife",
+    "meaning_vi": "còi, tẩu thuốc",
+    "level": "B1",
+    "topic": "Vật dụng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pfeil",
+    "meaning_vi": "mũi tên",
+    "level": "B1",
+    "topic": "Vật dụng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pflege",
+    "meaning_vi": "sự chăm sóc",
+    "level": "B1",
+    "topic": "Y tế và chăm sóc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "pflegen",
+    "meaning_vi": "chăm sóc, nuôi dưỡng",
+    "level": "B1",
+    "topic": "Động từ thường dùng",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pflicht",
+    "meaning_vi": "nghĩa vụ, bổn phận",
+    "level": "B1",
+    "topic": "Xã hội và đạo đức",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Panne",
+    "meaning_vi": "sự cố, hỏng hóc",
+    "level": "B1",
+    "topic": "Giao thông và xe cộ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Qualle",
+    "meaning_vi": "sứa",
+    "level": "B1",
+    "topic": "Động vật biển",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rampe",
+    "meaning_vi": "đường dốc, dốc nối",
+    "level": "B1",
+    "topic": "Kiến trúc và Xây dựng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Reh",
+    "meaning_vi": "hươu nai nhỏ (loài Capreolus capreolus)",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "reiben",
+    "meaning_vi": "chà, cọ, xát",
+    "level": "B1",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pokal",
+    "meaning_vi": "cúp, chén, ly lớn",
+    "level": "B1",
+    "topic": "Đồ dùng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Polster",
+    "meaning_vi": "đệm, miếng đệm",
+    "level": "B1",
+    "topic": "Nội thất",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "prüfen",
+    "meaning_vi": "kiểm tra, xem xét, khảo sát",
+    "level": "B1",
+    "topic": "Động từ cơ bản",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Puder",
+    "meaning_vi": "phấn (mỹ phẩm)",
+    "level": "B1",
+    "topic": "Mỹ phẩm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pulver",
+    "meaning_vi": "bột, thuốc súng",
+    "level": "B1",
+    "topic": "Vật liệu",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Riegel",
+    "meaning_vi": "chốt cửa; then cài",
+    "level": "B1",
+    "topic": "Nhà ở",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Riemen",
+    "meaning_vi": "dây đeo (dải da, vải hẹp và dài)",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Rippe",
+    "meaning_vi": "xương sườn",
+    "level": "B1",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ritze",
+    "meaning_vi": "khe hở, vết nứt, kẽ hở",
+    "level": "B2",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "ritzen",
+    "meaning_vi": "cào, gãi, trầy",
+    "level": "B2",
+    "topic": "Động từ hành động",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ruck",
+    "meaning_vi": "cú giật, cú xóc",
+    "level": "B2",
+    "topic": "Chuyển động",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Ruhm",
+    "meaning_vi": "danh tiếng, vinh quang",
+    "level": "B2",
+    "topic": "Xã hội",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Runzel",
+    "meaning_vi": "nếp nhăn",
+    "level": "B1",
+    "topic": "Ngoại hình",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "säen",
+    "meaning_vi": "gieo (hạt)",
+    "level": "B1",
+    "topic": "Nông nghiệp",
+    "pos": "verb",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Saite",
+    "meaning_vi": "dây đàn (của nhạc cụ có dây)",
+    "level": "B1",
+    "topic": "Âm nhạc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Samt",
+    "meaning_vi": "nhung",
+    "level": "B1",
+    "topic": "Vải vóc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Sattel",
+    "meaning_vi": "yên (ngựa)",
+    "level": "B1",
+    "topic": "Động vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schachtel",
+    "meaning_vi": "hộp nhỏ, thường hình vuông, bao bì hoặc vỏ hộp",
+    "level": "B1",
+    "topic": "Đồ vật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schädel",
+    "meaning_vi": "hộp sọ",
+    "level": "B2",
+    "topic": "Cơ thể",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Quatsch",
+    "meaning_vi": "vô nghĩa, nhảm nhí",
+    "level": "B1",
+    "topic": "Giao tiếp",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schaufel",
+    "meaning_vi": "cái xẻng",
+    "level": "B1",
+    "topic": "Dụng cụ",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Staatsbürger",
+    "meaning_vi": "công dân (thành viên hợp pháp của một quốc gia)",
+    "level": "B2",
+    "topic": "Chính trị",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Scham",
+    "meaning_vi": "sự xấu hổ, sự ngượng ngùng (cảm giác khó chịu về sự thiếu đúng mực của bản thân hoặc khi bị phơi bày điều riêng tư)",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "scheu",
+    "meaning_vi": "nhút nhát, rụt rè, e dè",
+    "level": "B2",
+    "topic": "Tính cách",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schief",
+    "meaning_vi": "xiên, nghiêng, lệch, chếch (không song song cũng không vuông góc)",
+    "level": "B1",
+    "topic": "Mô tả vị trí",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schief",
+    "meaning_vi": "một cách nghiêng, theo góc xiên",
+    "level": "B1",
+    "topic": "Mô tả vị trí",
+    "pos": "adv",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schlank",
+    "meaning_vi": "mảnh khảnh, thon thả",
+    "level": "A2",
+    "topic": "Ngoại hình",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "schlau",
+    "meaning_vi": "thông minh, khôn ngoan, láu lỉnh (theo cách giúp đạt được mục tiêu, hơi xảo quyệt nhưng thường không có ý định xấu)",
+    "level": "B1",
+    "topic": "Tính cách",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schau",
+    "meaning_vi": "buổi biểu diễn, chương trình",
+    "level": "B1",
+    "topic": "Giải trí",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Schein",
+    "meaning_vi": "ánh sáng, tia sáng, sự chiếu sáng",
+    "level": "B2",
+    "topic": "Ánh sáng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "unbehaglich",
+    "meaning_vi": "không thoải mái (không dễ chịu)",
+    "level": "B2",
+    "topic": "Cảm xúc",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "mangelnd",
+    "meaning_vi": "thiếu, không đủ, không đầy đủ",
+    "level": "B2",
+    "topic": "Tính từ mô tả",
+    "pos": "adj",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 35,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Margeriten",
+    "meaning_vi": "số nhiều của Margerite (hoa cúc)",
+    "level": "B1",
+    "topic": "Thực vật và hoa",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Maßbänder",
+    "meaning_vi": "số nhiều chủ cách/đối cách/sở hữu cách của Maßband (thước dây)",
+    "level": "B1",
+    "topic": "Dụng cụ đo lường",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Moden",
+    "meaning_vi": "số nhiều của Mode (chế độ, phương thức)",
+    "level": "B2",
+    "topic": "Công nghệ và khoa học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Pfade",
+    "meaning_vi": "số nhiều của Pfad (con đường mòn, lối đi)",
+    "level": "B1",
+    "topic": "Giao thông và địa điểm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Backenzähne",
+    "meaning_vi": "số nhiều dạng nominative/accusative/genitive của Backenzahn (răng hàm)",
+    "level": "B1",
+    "topic": "Cơ thể người",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Überweisungen",
+    "meaning_vi": "số nhiều của Überweisung (chuyển khoản)",
+    "level": "B1",
+    "topic": "Ngân hàng",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Örtlichkeiten",
+    "meaning_vi": "số nhiều của Örtlichkeit (địa điểm, vị trí)",
+    "level": "B2",
+    "topic": "Địa điểm",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Absolventen",
+    "meaning_vi": "số ít sở hữu cách của Absolvent (người tốt nghiệp)",
+    "level": "B2",
+    "topic": "Giáo dục",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Abdrücke",
+    "meaning_vi": "số nhiều chủ cách/đối cách/sở hữu cách của Abdruck (dấu vết, bản in)",
+    "level": "B2",
+    "topic": "Khoa học và Kỹ thuật",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Absätze",
+    "meaning_vi": "số nhiều chủ cách/đối cách/sở hữu cách của Absatz (đoạn văn, gót giày, doanh số)",
+    "level": "B1",
+    "topic": "Văn bản và Thương mại",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Akzente",
+    "meaning_vi": "số nhiều chủ cách/đối cách/sở hữu cách của Akzent (dấu nhấn, trọng âm)",
+    "level": "B2",
+    "topic": "Ngôn ngữ học",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 40,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  },
+  {
+    "word": "Aufsätze",
+    "meaning_vi": "số nhiều chủ cách/đối cách/sở hữu cách của Aufsatz (bài luận, bài văn)",
+    "level": "B1",
+    "topic": "Giáo dục",
+    "pos": "noun",
+    "_quality": {
+      "decision": "REVIEW",
+      "score": 45,
+      "flags": [
+        "FREQ_RARE"
+      ],
+      "tier": "C"
+    }
+  }
+]

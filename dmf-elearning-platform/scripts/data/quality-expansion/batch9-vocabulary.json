@@ -1,0 +1,2662 @@
+[
+  {
+    "word": "der Algorithmus",
+    "pos": "noun",
+    "meaning_vi": "thuật toán",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "die Datenbank",
+    "pos": "noun",
+    "meaning_vi": "cơ sở dữ liệu",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "der Quellcode",
+    "pos": "noun",
+    "meaning_vi": "mã nguồn",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "die Schnittstelle",
+    "pos": "noun",
+    "meaning_vi": "giao diện",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "der Server",
+    "pos": "noun",
+    "meaning_vi": "máy chủ",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "die Cloud",
+    "pos": "noun",
+    "meaning_vi": "đám mây",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "das Framework",
+    "pos": "noun",
+    "meaning_vi": "framework",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "die Bibliothek",
+    "pos": "noun",
+    "meaning_vi": "thư viện (lập trình)",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "der Bug",
+    "pos": "noun",
+    "meaning_vi": "lỗi phần mềm",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "die Debugging",
+    "pos": "noun",
+    "meaning_vi": "gỡ lỗi",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "das Deployment",
+    "pos": "noun",
+    "meaning_vi": "triển khai",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "die Version",
+    "pos": "noun",
+    "meaning_vi": "phiên bản",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "das Update",
+    "pos": "noun",
+    "meaning_vi": "cập nhật",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "der Compiler",
+    "pos": "noun",
+    "meaning_vi": "trình biên dịch",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "programmieren",
+    "pos": "verb",
+    "meaning_vi": "lập trình",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "kompilieren",
+    "pos": "verb",
+    "meaning_vi": "biên dịch",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "debuggen",
+    "pos": "verb",
+    "meaning_vi": "gỡ lỗi",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "testen",
+    "pos": "verb",
+    "meaning_vi": "kiểm thử",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "implementieren",
+    "pos": "verb",
+    "meaning_vi": "triển khai",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "optimieren",
+    "pos": "verb",
+    "meaning_vi": "tối ưu hóa",
+    "level": "B2",
+    "topic": "Lap trinh"
+  },
+  {
+    "word": "das Netzwerk",
+    "pos": "noun",
+    "meaning_vi": "mạng",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "der Router",
+    "pos": "noun",
+    "meaning_vi": "bộ định tuyến",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "die Firewall",
+    "pos": "noun",
+    "meaning_vi": "tường lửa",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "das Protokoll",
+    "pos": "noun",
+    "meaning_vi": "giao thức",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "die Bandbreite",
+    "pos": "noun",
+    "meaning_vi": "băng thông",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "der Download",
+    "pos": "noun",
+    "meaning_vi": "tải xuống",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "der Upload",
+    "pos": "noun",
+    "meaning_vi": "tải lên",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "die Verschlüsselung",
+    "pos": "noun",
+    "meaning_vi": "mã hóa",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "das Passwort",
+    "pos": "noun",
+    "meaning_vi": "mật khẩu",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "die Authentifizierung",
+    "pos": "noun",
+    "meaning_vi": "xác thực",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "der Hacker",
+    "pos": "noun",
+    "meaning_vi": "tin tặc",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "der Virus",
+    "pos": "noun",
+    "meaning_vi": "virus",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "die Malware",
+    "pos": "noun",
+    "meaning_vi": "phần mềm độc hại",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "die IP-Adresse",
+    "pos": "noun",
+    "meaning_vi": "địa chỉ IP",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "herunterladen",
+    "pos": "verb",
+    "meaning_vi": "tải xuống",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "hochladen",
+    "pos": "verb",
+    "meaning_vi": "tải lên",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "verschlüsseln",
+    "pos": "verb",
+    "meaning_vi": "mã hóa",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "hacken",
+    "pos": "verb",
+    "meaning_vi": "hack",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "verbinden",
+    "pos": "verb",
+    "meaning_vi": "kết nối",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "synchronisieren",
+    "pos": "verb",
+    "meaning_vi": "đồng bộ hóa",
+    "level": "B2",
+    "topic": "Mang"
+  },
+  {
+    "word": "die Hypothese",
+    "pos": "noun",
+    "meaning_vi": "giả thuyết",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Theorie",
+    "pos": "noun",
+    "meaning_vi": "lý thuyết",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "das Experiment",
+    "pos": "noun",
+    "meaning_vi": "thí nghiệm",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Variable",
+    "pos": "noun",
+    "meaning_vi": "biến số",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Konstante",
+    "pos": "noun",
+    "meaning_vi": "hằng số",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Korrelation",
+    "pos": "noun",
+    "meaning_vi": "tương quan",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Kausalität",
+    "pos": "noun",
+    "meaning_vi": "quan hệ nhân quả",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Methodik",
+    "pos": "noun",
+    "meaning_vi": "phương pháp luận",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Stichprobe",
+    "pos": "noun",
+    "meaning_vi": "mẫu nghiên cứu",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Signifikanz",
+    "pos": "noun",
+    "meaning_vi": "ý nghĩa thống kê",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Validität",
+    "pos": "noun",
+    "meaning_vi": "tính hiệu lực",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Reliabilität",
+    "pos": "noun",
+    "meaning_vi": "độ tin cậy",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Replikation",
+    "pos": "noun",
+    "meaning_vi": "sao chép thí nghiệm",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "der Peer-Review",
+    "pos": "noun",
+    "meaning_vi": "đánh giá ngang hàng",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "analysieren",
+    "pos": "verb",
+    "meaning_vi": "phân tích",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "synthetisieren",
+    "pos": "verb",
+    "meaning_vi": "tổng hợp",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "verifizieren",
+    "pos": "verb",
+    "meaning_vi": "xác minh",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "falsifizieren",
+    "pos": "verb",
+    "meaning_vi": "bác bỏ",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "quantifizieren",
+    "pos": "verb",
+    "meaning_vi": "định lượng",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "publizieren",
+    "pos": "verb",
+    "meaning_vi": "công bố",
+    "level": "C1",
+    "topic": "Khoa hoc nang cao"
+  },
+  {
+    "word": "die Diagnose",
+    "pos": "noun",
+    "meaning_vi": "chẩn đoán",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Prognose",
+    "pos": "noun",
+    "meaning_vi": "tiên lượng",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Therapie",
+    "pos": "noun",
+    "meaning_vi": "liệu pháp",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Rehabilitation",
+    "pos": "noun",
+    "meaning_vi": "phục hồi chức năng",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Palliativmedizin",
+    "pos": "noun",
+    "meaning_vi": "y học giảm nhẹ",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Genetik",
+    "pos": "noun",
+    "meaning_vi": "di truyền học",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Onkologie",
+    "pos": "noun",
+    "meaning_vi": "ung thư học",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Kardiologie",
+    "pos": "noun",
+    "meaning_vi": "tim mạch học",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Neurologie",
+    "pos": "noun",
+    "meaning_vi": "thần kinh học",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Psychiatrie",
+    "pos": "noun",
+    "meaning_vi": "tâm thần học",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Immunologie",
+    "pos": "noun",
+    "meaning_vi": "miễn dịch học",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Epidemiologie",
+    "pos": "noun",
+    "meaning_vi": "dịch tễ học",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "das Symptom",
+    "pos": "noun",
+    "meaning_vi": "triệu chứng",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "die Nebenwirkung",
+    "pos": "noun",
+    "meaning_vi": "tác dụng phụ",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "diagnostizieren",
+    "pos": "verb",
+    "meaning_vi": "chẩn đoán",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "therapieren",
+    "pos": "verb",
+    "meaning_vi": "điều trị",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "operieren",
+    "pos": "verb",
+    "meaning_vi": "phẫu thuật",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "transplantieren",
+    "pos": "verb",
+    "meaning_vi": "cấy ghép",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "chronisch",
+    "pos": "adj",
+    "meaning_vi": "mãn tính",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "akut",
+    "pos": "adj",
+    "meaning_vi": "cấp tính",
+    "level": "C1",
+    "topic": "Y hoc nang cao"
+  },
+  {
+    "word": "der Klimawandel",
+    "pos": "noun",
+    "meaning_vi": "biến đổi khí hậu",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Erderwärmung",
+    "pos": "noun",
+    "meaning_vi": "nóng lên toàn cầu",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "der Treibhauseffekt",
+    "pos": "noun",
+    "meaning_vi": "hiệu ứng nhà kính",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Emission",
+    "pos": "noun",
+    "meaning_vi": "khí thải",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "der CO2-Ausstoß",
+    "pos": "noun",
+    "meaning_vi": "lượng phát thải CO2",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Nachhaltigkeit",
+    "pos": "noun",
+    "meaning_vi": "bền vững",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die erneuerbare Energie",
+    "pos": "noun",
+    "meaning_vi": "năng lượng tái tạo",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Solarenergie",
+    "pos": "noun",
+    "meaning_vi": "năng lượng mặt trời",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Windenergie",
+    "pos": "noun",
+    "meaning_vi": "năng lượng gió",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "das Recycling",
+    "pos": "noun",
+    "meaning_vi": "tái chế",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Mülltrennung",
+    "pos": "noun",
+    "meaning_vi": "phân loại rác",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Umweltverschmutzung",
+    "pos": "noun",
+    "meaning_vi": "ô nhiễm môi trường",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "der Artenschutz",
+    "pos": "noun",
+    "meaning_vi": "bảo vệ loài",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "das Ökosystem",
+    "pos": "noun",
+    "meaning_vi": "hệ sinh thái",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Biodiversität",
+    "pos": "noun",
+    "meaning_vi": "đa dạng sinh học",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "recyceln",
+    "pos": "verb",
+    "meaning_vi": "tái chế",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "reduzieren",
+    "pos": "verb",
+    "meaning_vi": "giảm",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "nachhaltig",
+    "pos": "adj",
+    "meaning_vi": "bền vững",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "umweltfreundlich",
+    "pos": "adj",
+    "meaning_vi": "thân thiện môi trường",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "klimaneutral",
+    "pos": "adj",
+    "meaning_vi": "trung hòa carbon",
+    "level": "B2",
+    "topic": "Moi truong"
+  },
+  {
+    "word": "die Demokratie",
+    "pos": "noun",
+    "meaning_vi": "dân chủ",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "die Diktatur",
+    "pos": "noun",
+    "meaning_vi": "độc tài",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "die Regierung",
+    "pos": "noun",
+    "meaning_vi": "chính phủ",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "das Parlament",
+    "pos": "noun",
+    "meaning_vi": "quốc hội",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "die Opposition",
+    "pos": "noun",
+    "meaning_vi": "phe đối lập",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "die Koalition",
+    "pos": "noun",
+    "meaning_vi": "liên minh",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "die Wahl",
+    "pos": "noun",
+    "meaning_vi": "bầu cử",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "der Wahlkampf",
+    "pos": "noun",
+    "meaning_vi": "chiến dịch tranh cử",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "die Abstimmung",
+    "pos": "noun",
+    "meaning_vi": "bỏ phiếu",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "der Politiker",
+    "pos": "noun",
+    "meaning_vi": "chính trị gia",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "der Bundeskanzler",
+    "pos": "noun",
+    "meaning_vi": "thủ tướng liên bang",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "der Bundespräsident",
+    "pos": "noun",
+    "meaning_vi": "tổng thống liên bang",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "der Minister",
+    "pos": "noun",
+    "meaning_vi": "bộ trưởng",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "der Abgeordnete",
+    "pos": "noun",
+    "meaning_vi": "đại biểu quốc hội",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "die Reform",
+    "pos": "noun",
+    "meaning_vi": "cải cách",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "wählen",
+    "pos": "verb",
+    "meaning_vi": "bầu",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "abstimmen",
+    "pos": "verb",
+    "meaning_vi": "bỏ phiếu",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "regieren",
+    "pos": "verb",
+    "meaning_vi": "cai trị",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "protestieren",
+    "pos": "verb",
+    "meaning_vi": "biểu tình",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "verhandeln",
+    "pos": "verb",
+    "meaning_vi": "đàm phán",
+    "level": "B2",
+    "topic": "Chinh tri"
+  },
+  {
+    "word": "die Wirtschaft",
+    "pos": "noun",
+    "meaning_vi": "kinh tế",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "das Bruttoinlandsprodukt",
+    "pos": "noun",
+    "meaning_vi": "GDP",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Inflation",
+    "pos": "noun",
+    "meaning_vi": "lạm phát",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Deflation",
+    "pos": "noun",
+    "meaning_vi": "giảm phát",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Rezession",
+    "pos": "noun",
+    "meaning_vi": "suy thoái",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "das Wachstum",
+    "pos": "noun",
+    "meaning_vi": "tăng trưởng",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Arbeitslosigkeit",
+    "pos": "noun",
+    "meaning_vi": "thất nghiệp",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "der Export",
+    "pos": "noun",
+    "meaning_vi": "xuất khẩu",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "der Import",
+    "pos": "noun",
+    "meaning_vi": "nhập khẩu",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "der Handel",
+    "pos": "noun",
+    "meaning_vi": "thương mại",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Börse",
+    "pos": "noun",
+    "meaning_vi": "sàn chứng khoán",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Aktie",
+    "pos": "noun",
+    "meaning_vi": "cổ phiếu",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "der Anleger",
+    "pos": "noun",
+    "meaning_vi": "nhà đầu tư",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Dividende",
+    "pos": "noun",
+    "meaning_vi": "cổ tức",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Subvention",
+    "pos": "noun",
+    "meaning_vi": "trợ cấp",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "investieren",
+    "pos": "verb",
+    "meaning_vi": "đầu tư",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "exportieren",
+    "pos": "verb",
+    "meaning_vi": "xuất khẩu",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "importieren",
+    "pos": "verb",
+    "meaning_vi": "nhập khẩu",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "subventionieren",
+    "pos": "verb",
+    "meaning_vi": "trợ cấp",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "privatisieren",
+    "pos": "verb",
+    "meaning_vi": "tư nhân hóa",
+    "level": "B2",
+    "topic": "Kinh te"
+  },
+  {
+    "word": "die Ethik",
+    "pos": "noun",
+    "meaning_vi": "đạo đức học",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Moral",
+    "pos": "noun",
+    "meaning_vi": "đạo đức",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Logik",
+    "pos": "noun",
+    "meaning_vi": "logic",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Metaphysik",
+    "pos": "noun",
+    "meaning_vi": "siêu hình học",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Ontologie",
+    "pos": "noun",
+    "meaning_vi": "bản thể học",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Epistemologie",
+    "pos": "noun",
+    "meaning_vi": "nhận thức luận",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "der Existenzialismus",
+    "pos": "noun",
+    "meaning_vi": "chủ nghĩa hiện sinh",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "der Rationalismus",
+    "pos": "noun",
+    "meaning_vi": "chủ nghĩa duy lý",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "der Empirismus",
+    "pos": "noun",
+    "meaning_vi": "chủ nghĩa kinh nghiệm",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "das Bewusstsein",
+    "pos": "noun",
+    "meaning_vi": "ý thức",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "der freie Wille",
+    "pos": "noun",
+    "meaning_vi": "ý chí tự do",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Wahrheit",
+    "pos": "noun",
+    "meaning_vi": "sự thật",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Gerechtigkeit",
+    "pos": "noun",
+    "meaning_vi": "công lý",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Tugend",
+    "pos": "noun",
+    "meaning_vi": "đức hạnh",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "philosophieren",
+    "pos": "verb",
+    "meaning_vi": "triết lý",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "reflektieren",
+    "pos": "verb",
+    "meaning_vi": "suy ngẫm",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "hinterfragen",
+    "pos": "verb",
+    "meaning_vi": "đặt câu hỏi",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "argumentieren",
+    "pos": "verb",
+    "meaning_vi": "lập luận",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "rational",
+    "pos": "adj",
+    "meaning_vi": "lý trí",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "abstrakt",
+    "pos": "adj",
+    "meaning_vi": "trừu tượng",
+    "level": "C1",
+    "topic": "Triet hoc"
+  },
+  {
+    "word": "die Psychologie",
+    "pos": "noun",
+    "meaning_vi": "tâm lý học",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "das Verhalten",
+    "pos": "noun",
+    "meaning_vi": "hành vi",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Persönlichkeit",
+    "pos": "noun",
+    "meaning_vi": "nhân cách",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "das Unterbewusstsein",
+    "pos": "noun",
+    "meaning_vi": "tiềm thức",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Wahrnehmung",
+    "pos": "noun",
+    "meaning_vi": "nhận thức",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Motivation",
+    "pos": "noun",
+    "meaning_vi": "động lực",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Emotion",
+    "pos": "noun",
+    "meaning_vi": "cảm xúc",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Kognition",
+    "pos": "noun",
+    "meaning_vi": "nhận thức",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "das Trauma",
+    "pos": "noun",
+    "meaning_vi": "chấn thương tâm lý",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Depression",
+    "pos": "noun",
+    "meaning_vi": "trầm cảm",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Angststörung",
+    "pos": "noun",
+    "meaning_vi": "rối loạn lo âu",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Therapie",
+    "pos": "noun",
+    "meaning_vi": "liệu pháp",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "der Therapeut",
+    "pos": "noun",
+    "meaning_vi": "nhà trị liệu",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "der Psychologe",
+    "pos": "noun",
+    "meaning_vi": "nhà tâm lý học",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "verdrängen",
+    "pos": "verb",
+    "meaning_vi": "đè nén",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "projizieren",
+    "pos": "verb",
+    "meaning_vi": "chiếu",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "konditionieren",
+    "pos": "verb",
+    "meaning_vi": "điều kiện hóa",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "psychisch",
+    "pos": "adj",
+    "meaning_vi": "tâm lý",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "kognitiv",
+    "pos": "adj",
+    "meaning_vi": "nhận thức",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "emotional",
+    "pos": "adj",
+    "meaning_vi": "cảm xúc",
+    "level": "B2",
+    "topic": "Tam ly hoc"
+  },
+  {
+    "word": "die Gesellschaft",
+    "pos": "noun",
+    "meaning_vi": "xã hội",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Kultur",
+    "pos": "noun",
+    "meaning_vi": "văn hóa",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Tradition",
+    "pos": "noun",
+    "meaning_vi": "truyền thống",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Norm",
+    "pos": "noun",
+    "meaning_vi": "chuẩn mực",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "der Wert",
+    "pos": "noun",
+    "meaning_vi": "giá trị",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Schicht",
+    "pos": "noun",
+    "meaning_vi": "tầng lớp",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Klasse",
+    "pos": "noun",
+    "meaning_vi": "giai cấp",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Elite",
+    "pos": "noun",
+    "meaning_vi": "tầng lớp tinh hoa",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Globalisierung",
+    "pos": "noun",
+    "meaning_vi": "toàn cầu hóa",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Integration",
+    "pos": "noun",
+    "meaning_vi": "hội nhập",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Diskriminierung",
+    "pos": "noun",
+    "meaning_vi": "phân biệt đối xử",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Gleichberechtigung",
+    "pos": "noun",
+    "meaning_vi": "bình đẳng",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "der Rassismus",
+    "pos": "noun",
+    "meaning_vi": "phân biệt chủng tộc",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "der Sexismus",
+    "pos": "noun",
+    "meaning_vi": "phân biệt giới tính",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "integrieren",
+    "pos": "verb",
+    "meaning_vi": "hội nhập",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "diskriminieren",
+    "pos": "verb",
+    "meaning_vi": "phân biệt đối xử",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "assimilieren",
+    "pos": "verb",
+    "meaning_vi": "đồng hóa",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "sozialisieren",
+    "pos": "verb",
+    "meaning_vi": "xã hội hóa",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "sozial",
+    "pos": "adj",
+    "meaning_vi": "xã hội",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "kulturell",
+    "pos": "adj",
+    "meaning_vi": "văn hóa",
+    "level": "B2",
+    "topic": "Xa hoi hoc"
+  },
+  {
+    "word": "die Verfassung",
+    "pos": "noun",
+    "meaning_vi": "hiến pháp",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "das Grundgesetz",
+    "pos": "noun",
+    "meaning_vi": "luật cơ bản",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "die Rechtsprechung",
+    "pos": "noun",
+    "meaning_vi": "án lệ",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "das Zivilrecht",
+    "pos": "noun",
+    "meaning_vi": "luật dân sự",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "das Strafrecht",
+    "pos": "noun",
+    "meaning_vi": "luật hình sự",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "das Verwaltungsrecht",
+    "pos": "noun",
+    "meaning_vi": "luật hành chính",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "das Arbeitsrecht",
+    "pos": "noun",
+    "meaning_vi": "luật lao động",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "der Präzedenzfall",
+    "pos": "noun",
+    "meaning_vi": "tiền lệ",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "die Klausel",
+    "pos": "noun",
+    "meaning_vi": "điều khoản",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "die Berufung",
+    "pos": "noun",
+    "meaning_vi": "kháng cáo",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "die Revision",
+    "pos": "noun",
+    "meaning_vi": "phúc thẩm",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "der Freispruch",
+    "pos": "noun",
+    "meaning_vi": "tha bổng",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "die Bewährungsstrafe",
+    "pos": "noun",
+    "meaning_vi": "án treo",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "die Haftstrafe",
+    "pos": "noun",
+    "meaning_vi": "án tù",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "verklagen",
+    "pos": "verb",
+    "meaning_vi": "kiện",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "berappen",
+    "pos": "verb",
+    "meaning_vi": "kháng cáo",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "verfassungswidrig",
+    "pos": "adj",
+    "meaning_vi": "vi hiến",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "rechtmäßig",
+    "pos": "adj",
+    "meaning_vi": "hợp pháp",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "rechtswidrig",
+    "pos": "adj",
+    "meaning_vi": "bất hợp pháp",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "strafbar",
+    "pos": "adj",
+    "meaning_vi": "có thể bị truy tố",
+    "level": "C1",
+    "topic": "Phap luat nang cao"
+  },
+  {
+    "word": "das Unternehmen",
+    "pos": "noun",
+    "meaning_vi": "doanh nghiệp",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "die Firma",
+    "pos": "noun",
+    "meaning_vi": "công ty",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "der Konzern",
+    "pos": "noun",
+    "meaning_vi": "tập đoàn",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "die Geschäftsführung",
+    "pos": "noun",
+    "meaning_vi": "ban giám đốc",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "der Vorstand",
+    "pos": "noun",
+    "meaning_vi": "hội đồng quản trị",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "die Bilanz",
+    "pos": "noun",
+    "meaning_vi": "bảng cân đối",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "der Umsatz",
+    "pos": "noun",
+    "meaning_vi": "doanh thu",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "der Gewinn",
+    "pos": "noun",
+    "meaning_vi": "lợi nhuận",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "der Verlust",
+    "pos": "noun",
+    "meaning_vi": "thua lỗ",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "die Buchhaltung",
+    "pos": "noun",
+    "meaning_vi": "kế toán",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "die Rechnung",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "die Quittung",
+    "pos": "noun",
+    "meaning_vi": "biên lai",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "der Lieferant",
+    "pos": "noun",
+    "meaning_vi": "nhà cung cấp",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "der Kunde",
+    "pos": "noun",
+    "meaning_vi": "khách hàng",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "die Konkurrenz",
+    "pos": "noun",
+    "meaning_vi": "cạnh tranh",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "gründen",
+    "pos": "verb",
+    "meaning_vi": "thành lập",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "fusionieren",
+    "pos": "verb",
+    "meaning_vi": "sáp nhập",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "expandieren",
+    "pos": "verb",
+    "meaning_vi": "mở rộng",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "konkurrieren",
+    "pos": "verb",
+    "meaning_vi": "cạnh tranh",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "rentabel",
+    "pos": "adj",
+    "meaning_vi": "có lãi",
+    "level": "B2",
+    "topic": "Kinh doanh"
+  },
+  {
+    "word": "die Presse",
+    "pos": "noun",
+    "meaning_vi": "báo chí",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "die Zeitung",
+    "pos": "noun",
+    "meaning_vi": "tờ báo",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "die Zeitschrift",
+    "pos": "noun",
+    "meaning_vi": "tạp chí",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "der Artikel",
+    "pos": "noun",
+    "meaning_vi": "bài báo",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "die Schlagzeile",
+    "pos": "noun",
+    "meaning_vi": "tiêu đề",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "der Journalist",
+    "pos": "noun",
+    "meaning_vi": "nhà báo",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "der Reporter",
+    "pos": "noun",
+    "meaning_vi": "phóng viên",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "die Redaktion",
+    "pos": "noun",
+    "meaning_vi": "tòa soạn",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "die Sendung",
+    "pos": "noun",
+    "meaning_vi": "chương trình",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "die Nachrichten",
+    "pos": "noun",
+    "meaning_vi": "tin tức",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "der Moderator",
+    "pos": "noun",
+    "meaning_vi": "người dẫn chương trình",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "die Werbung",
+    "pos": "noun",
+    "meaning_vi": "quảng cáo",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "der Podcast",
+    "pos": "noun",
+    "meaning_vi": "podcast",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "der Livestream",
+    "pos": "noun",
+    "meaning_vi": "phát trực tiếp",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "berichten",
+    "pos": "verb",
+    "meaning_vi": "đưa tin",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "veröffentlichen",
+    "pos": "verb",
+    "meaning_vi": "công bố",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "senden",
+    "pos": "verb",
+    "meaning_vi": "phát sóng",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "übertragen",
+    "pos": "verb",
+    "meaning_vi": "truyền",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "aktuell",
+    "pos": "adj",
+    "meaning_vi": "hiện tại",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "viral",
+    "pos": "adj",
+    "meaning_vi": "lan truyền",
+    "level": "B1",
+    "topic": "Truyen thong"
+  },
+  {
+    "word": "die Bildung",
+    "pos": "noun",
+    "meaning_vi": "giáo dục",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "das Wissen",
+    "pos": "noun",
+    "meaning_vi": "kiến thức",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Fertigkeit",
+    "pos": "noun",
+    "meaning_vi": "kỹ năng",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Kompetenz",
+    "pos": "noun",
+    "meaning_vi": "năng lực",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "der Lehrplan",
+    "pos": "noun",
+    "meaning_vi": "chương trình học",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Methode",
+    "pos": "noun",
+    "meaning_vi": "phương pháp",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Didaktik",
+    "pos": "noun",
+    "meaning_vi": "phương pháp giảng dạy",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Pädagogik",
+    "pos": "noun",
+    "meaning_vi": "sư phạm",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Evaluation",
+    "pos": "noun",
+    "meaning_vi": "đánh giá",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Bewertung",
+    "pos": "noun",
+    "meaning_vi": "chấm điểm",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "der Lernprozess",
+    "pos": "noun",
+    "meaning_vi": "quá trình học",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Nachhilfe",
+    "pos": "noun",
+    "meaning_vi": "dạy kèm",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Weiterbildung",
+    "pos": "noun",
+    "meaning_vi": "đào tạo nâng cao",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Fortbildung",
+    "pos": "noun",
+    "meaning_vi": "bồi dưỡng",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "unterrichten",
+    "pos": "verb",
+    "meaning_vi": "dạy",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "ausbilden",
+    "pos": "verb",
+    "meaning_vi": "đào tạo",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "fördern",
+    "pos": "verb",
+    "meaning_vi": "hỗ trợ",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "bewerten",
+    "pos": "verb",
+    "meaning_vi": "đánh giá",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "pädagogisch",
+    "pos": "adj",
+    "meaning_vi": "sư phạm",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "akademisch",
+    "pos": "adj",
+    "meaning_vi": "học thuật",
+    "level": "B1",
+    "topic": "Giao duc"
+  },
+  {
+    "word": "die Kunst",
+    "pos": "noun",
+    "meaning_vi": "nghệ thuật",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "der Künstler",
+    "pos": "noun",
+    "meaning_vi": "nghệ sĩ",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "das Gemälde",
+    "pos": "noun",
+    "meaning_vi": "bức tranh",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "die Skulptur",
+    "pos": "noun",
+    "meaning_vi": "điêu khắc",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "die Ausstellung",
+    "pos": "noun",
+    "meaning_vi": "triển lãm",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "die Galerie",
+    "pos": "noun",
+    "meaning_vi": "phòng trưng bày",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "der Stil",
+    "pos": "noun",
+    "meaning_vi": "phong cách",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "die Epoche",
+    "pos": "noun",
+    "meaning_vi": "thời kỳ",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "der Impressionismus",
+    "pos": "noun",
+    "meaning_vi": "trường phái ấn tượng",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "der Expressionismus",
+    "pos": "noun",
+    "meaning_vi": "trường phái biểu hiện",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "die Fotografie",
+    "pos": "noun",
+    "meaning_vi": "nhiếp ảnh",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "die Architektur",
+    "pos": "noun",
+    "meaning_vi": "kiến trúc",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "das Design",
+    "pos": "noun",
+    "meaning_vi": "thiết kế",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "die Kreativität",
+    "pos": "noun",
+    "meaning_vi": "sáng tạo",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "malen",
+    "pos": "verb",
+    "meaning_vi": "vẽ",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "zeichnen",
+    "pos": "verb",
+    "meaning_vi": "vẽ/phác họa",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "gestalten",
+    "pos": "verb",
+    "meaning_vi": "thiết kế",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "ausstellen",
+    "pos": "verb",
+    "meaning_vi": "triển lãm",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "künstlerisch",
+    "pos": "adj",
+    "meaning_vi": "nghệ thuật",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "ästhetisch",
+    "pos": "adj",
+    "meaning_vi": "thẩm mỹ",
+    "level": "B1",
+    "topic": "Nghe thuat"
+  },
+  {
+    "word": "die Musik",
+    "pos": "noun",
+    "meaning_vi": "âm nhạc",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "der Musiker",
+    "pos": "noun",
+    "meaning_vi": "nhạc sĩ",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "der Komponist",
+    "pos": "noun",
+    "meaning_vi": "nhà soạn nhạc",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "das Orchester",
+    "pos": "noun",
+    "meaning_vi": "dàn nhạc",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "der Dirigent",
+    "pos": "noun",
+    "meaning_vi": "nhạc trưởng",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "die Symphonie",
+    "pos": "noun",
+    "meaning_vi": "giao hưởng",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "das Konzert",
+    "pos": "noun",
+    "meaning_vi": "buổi hòa nhạc",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "die Melodie",
+    "pos": "noun",
+    "meaning_vi": "giai điệu",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "der Rhythmus",
+    "pos": "noun",
+    "meaning_vi": "nhịp điệu",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "die Harmonie",
+    "pos": "noun",
+    "meaning_vi": "hòa âm",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "der Ton",
+    "pos": "noun",
+    "meaning_vi": "âm thanh",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "die Tonleiter",
+    "pos": "noun",
+    "meaning_vi": "âm giai",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "das Instrument",
+    "pos": "noun",
+    "meaning_vi": "nhạc cụ",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "die Geige",
+    "pos": "noun",
+    "meaning_vi": "violin",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "komponieren",
+    "pos": "verb",
+    "meaning_vi": "soạn nhạc",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "dirigieren",
+    "pos": "verb",
+    "meaning_vi": "chỉ huy",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "auftreten",
+    "pos": "verb",
+    "meaning_vi": "biểu diễn",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "üben",
+    "pos": "verb",
+    "meaning_vi": "luyện tập",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "klassisch",
+    "pos": "adj",
+    "meaning_vi": "cổ điển",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "melodisch",
+    "pos": "adj",
+    "meaning_vi": "du dương",
+    "level": "B1",
+    "topic": "Am nhac"
+  },
+  {
+    "word": "die Literatur",
+    "pos": "noun",
+    "meaning_vi": "văn học",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "der Roman",
+    "pos": "noun",
+    "meaning_vi": "tiểu thuyết",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "die Novelle",
+    "pos": "noun",
+    "meaning_vi": "truyện vừa",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "die Kurzgeschichte",
+    "pos": "noun",
+    "meaning_vi": "truyện ngắn",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "das Gedicht",
+    "pos": "noun",
+    "meaning_vi": "bài thơ",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "das Drama",
+    "pos": "noun",
+    "meaning_vi": "kịch",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "der Autor",
+    "pos": "noun",
+    "meaning_vi": "tác giả",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "der Dichter",
+    "pos": "noun",
+    "meaning_vi": "nhà thơ",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "der Schriftsteller",
+    "pos": "noun",
+    "meaning_vi": "nhà văn",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "die Handlung",
+    "pos": "noun",
+    "meaning_vi": "cốt truyện",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "die Figur",
+    "pos": "noun",
+    "meaning_vi": "nhân vật",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "der Erzähler",
+    "pos": "noun",
+    "meaning_vi": "người kể chuyện",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "die Metapher",
+    "pos": "noun",
+    "meaning_vi": "ẩn dụ",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "das Symbol",
+    "pos": "noun",
+    "meaning_vi": "biểu tượng",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "verfassen",
+    "pos": "verb",
+    "meaning_vi": "soạn",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "dichten",
+    "pos": "verb",
+    "meaning_vi": "làm thơ",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "interpretieren",
+    "pos": "verb",
+    "meaning_vi": "diễn giải",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "analysieren",
+    "pos": "verb",
+    "meaning_vi": "phân tích",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "literarisch",
+    "pos": "adj",
+    "meaning_vi": "văn học",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "poetisch",
+    "pos": "adj",
+    "meaning_vi": "thơ mộng",
+    "level": "B2",
+    "topic": "Van hoc"
+  },
+  {
+    "word": "die Geschichte",
+    "pos": "noun",
+    "meaning_vi": "lịch sử",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "die Epoche",
+    "pos": "noun",
+    "meaning_vi": "thời đại",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "das Jahrhundert",
+    "pos": "noun",
+    "meaning_vi": "thế kỷ",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "das Jahrzehnt",
+    "pos": "noun",
+    "meaning_vi": "thập kỷ",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "die Antike",
+    "pos": "noun",
+    "meaning_vi": "thời cổ đại",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "das Mittelalter",
+    "pos": "noun",
+    "meaning_vi": "thời trung cổ",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "die Renaissance",
+    "pos": "noun",
+    "meaning_vi": "thời phục hưng",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "die Aufklärung",
+    "pos": "noun",
+    "meaning_vi": "thời khai sáng",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "die Revolution",
+    "pos": "noun",
+    "meaning_vi": "cách mạng",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "der Weltkrieg",
+    "pos": "noun",
+    "meaning_vi": "thế chiến",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "das Reich",
+    "pos": "noun",
+    "meaning_vi": "đế chế",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "die Dynastie",
+    "pos": "noun",
+    "meaning_vi": "triều đại",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "der Herrscher",
+    "pos": "noun",
+    "meaning_vi": "người cai trị",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "die Kolonie",
+    "pos": "noun",
+    "meaning_vi": "thuộc địa",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "erobern",
+    "pos": "verb",
+    "meaning_vi": "chinh phục",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "herrschen",
+    "pos": "verb",
+    "meaning_vi": "cai trị",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "kolonisieren",
+    "pos": "verb",
+    "meaning_vi": "thuộc địa hóa",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "revolutionieren",
+    "pos": "verb",
+    "meaning_vi": "cách mạng hóa",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "historisch",
+    "pos": "adj",
+    "meaning_vi": "lịch sử",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "mittelalterlich",
+    "pos": "adj",
+    "meaning_vi": "trung cổ",
+    "level": "B2",
+    "topic": "Lich su"
+  },
+  {
+    "word": "die Religion",
+    "pos": "noun",
+    "meaning_vi": "tôn giáo",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "der Glaube",
+    "pos": "noun",
+    "meaning_vi": "niềm tin",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "die Spiritualität",
+    "pos": "noun",
+    "meaning_vi": "tâm linh",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "das Christentum",
+    "pos": "noun",
+    "meaning_vi": "Kitô giáo",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "der Islam",
+    "pos": "noun",
+    "meaning_vi": "Hồi giáo",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "das Judentum",
+    "pos": "noun",
+    "meaning_vi": "Do Thái giáo",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "der Buddhismus",
+    "pos": "noun",
+    "meaning_vi": "Phật giáo",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "der Hinduismus",
+    "pos": "noun",
+    "meaning_vi": "Ấn Độ giáo",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "der Atheismus",
+    "pos": "noun",
+    "meaning_vi": "thuyết vô thần",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "die Seele",
+    "pos": "noun",
+    "meaning_vi": "linh hồn",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "das Gebet",
+    "pos": "noun",
+    "meaning_vi": "lời cầu nguyện",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "die Meditation",
+    "pos": "noun",
+    "meaning_vi": "thiền định",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "der Gottesdienst",
+    "pos": "noun",
+    "meaning_vi": "lễ cầu nguyện",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "die Gemeinde",
+    "pos": "noun",
+    "meaning_vi": "cộng đồng tín ngưỡng",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "glauben",
+    "pos": "verb",
+    "meaning_vi": "tin",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "beten",
+    "pos": "verb",
+    "meaning_vi": "cầu nguyện",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "meditieren",
+    "pos": "verb",
+    "meaning_vi": "thiền",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "religiös",
+    "pos": "adj",
+    "meaning_vi": "tôn giáo",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "spirituell",
+    "pos": "adj",
+    "meaning_vi": "tâm linh",
+    "level": "B2",
+    "topic": "Ton giao"
+  },
+  {
+    "word": "gläubig",
+    "pos": "adj",
+    "meaning_vi": "có đức tin",
+    "level": "B2",
+    "topic": "Ton giao"
+  }
+]

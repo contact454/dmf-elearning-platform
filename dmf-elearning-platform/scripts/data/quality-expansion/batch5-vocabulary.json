@@ -1,0 +1,2137 @@
+[
+  {
+    "word": "aufmachen",
+    "meaning_vi": "mở",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "zumachen",
+    "meaning_vi": "đóng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "aufstehen",
+    "meaning_vi": "đứng dậy",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "einschlafen",
+    "meaning_vi": "ngủ thiếp đi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "mitkommen",
+    "meaning_vi": "đi cùng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "mitbringen",
+    "meaning_vi": "mang theo",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "mitnehmen",
+    "meaning_vi": "mang đi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "zurückkommen",
+    "meaning_vi": "quay lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "zurückgeben",
+    "meaning_vi": "trả lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "zurückrufen",
+    "meaning_vi": "gọi lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "vorbeikommen",
+    "meaning_vi": "ghé qua",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "vorbeigehen",
+    "meaning_vi": "đi ngang qua",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "anfangen",
+    "meaning_vi": "bắt đầu",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "aufhören",
+    "meaning_vi": "ngừng, dừng lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "anrufen",
+    "meaning_vi": "gọi điện",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "abholen",
+    "meaning_vi": "đón",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "abgeben",
+    "meaning_vi": "nộp, giao",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "einladen",
+    "meaning_vi": "mời",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "einsteigen",
+    "meaning_vi": "lên (xe)",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "aussteigen",
+    "meaning_vi": "xuống (xe)",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "umsteigen",
+    "meaning_vi": "đổi (xe)",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "ankommen",
+    "meaning_vi": "đến nơi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "abfahren",
+    "meaning_vi": "khởi hành",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "wegfahren",
+    "meaning_vi": "đi xa",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "hinfahren",
+    "meaning_vi": "đi đến",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "aufräumen",
+    "meaning_vi": "dọn dẹp",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "ausmachen",
+    "meaning_vi": "tắt",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "anmachen",
+    "meaning_vi": "bật",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "einkaufen",
+    "meaning_vi": "mua sắm",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "fernsehen",
+    "meaning_vi": "xem TV",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "separable_verbs"
+  },
+  {
+    "word": "verstehen",
+    "meaning_vi": "hiểu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "vergessen",
+    "meaning_vi": "quên",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "verkaufen",
+    "meaning_vi": "bán",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "verlieren",
+    "meaning_vi": "mất, thua",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "verlassen",
+    "meaning_vi": "rời bỏ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "versuchen",
+    "meaning_vi": "thử",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "versprechen",
+    "meaning_vi": "hứa",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "verbringen",
+    "meaning_vi": "dành (thời gian)",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "verdienen",
+    "meaning_vi": "kiếm tiền",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "verändern",
+    "meaning_vi": "thay đổi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "verbessern",
+    "meaning_vi": "cải thiện",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "vergleichen",
+    "meaning_vi": "so sánh",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "verbieten",
+    "meaning_vi": "cấm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "beschreiben",
+    "meaning_vi": "mô tả",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "beschließen",
+    "meaning_vi": "quyết định",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "besuchen",
+    "meaning_vi": "thăm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "bezahlen",
+    "meaning_vi": "thanh toán",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "beginnen",
+    "meaning_vi": "bắt đầu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "bekommen",
+    "meaning_vi": "nhận được",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "benutzen",
+    "meaning_vi": "sử dụng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "bemerken",
+    "meaning_vi": "nhận ra",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "beenden",
+    "meaning_vi": "kết thúc",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "empfehlen",
+    "meaning_vi": "giới thiệu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "entdecken",
+    "meaning_vi": "phát hiện",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "entscheiden",
+    "meaning_vi": "quyết định",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "entschuldigen",
+    "meaning_vi": "xin lỗi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "entwickeln",
+    "meaning_vi": "phát triển",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "erklären",
+    "meaning_vi": "giải thích",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "erhalten",
+    "meaning_vi": "nhận",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "erlauben",
+    "meaning_vi": "cho phép",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "inseparable_verbs"
+  },
+  {
+    "word": "sich freuen",
+    "meaning_vi": "vui mừng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich ärgern",
+    "meaning_vi": "tức giận",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich fühlen",
+    "meaning_vi": "cảm thấy",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich vorstellen",
+    "meaning_vi": "tự giới thiệu",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich setzen",
+    "meaning_vi": "ngồi xuống",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich hinlegen",
+    "meaning_vi": "nằm xuống",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich anziehen",
+    "meaning_vi": "mặc quần áo",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich ausziehen",
+    "meaning_vi": "cởi quần áo",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich waschen",
+    "meaning_vi": "rửa mặt/tay",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich duschen",
+    "meaning_vi": "tắm vòi sen",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich kämmen",
+    "meaning_vi": "chải tóc",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich rasieren",
+    "meaning_vi": "cạo râu",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich schminken",
+    "meaning_vi": "trang điểm",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich beeilen",
+    "meaning_vi": "vội vàng",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich verspäten",
+    "meaning_vi": "đến muộn",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich entschuldigen",
+    "meaning_vi": "xin lỗi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich unterhalten",
+    "meaning_vi": "trò chuyện",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich erinnern",
+    "meaning_vi": "nhớ lại",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich interessieren",
+    "meaning_vi": "quan tâm",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich kümmern",
+    "meaning_vi": "chăm sóc",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich treffen",
+    "meaning_vi": "gặp gỡ",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich verabreden",
+    "meaning_vi": "hẹn gặp",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich ausruhen",
+    "meaning_vi": "nghỉ ngơi",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich entspannen",
+    "meaning_vi": "thư giãn",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "sich verlieben",
+    "meaning_vi": "yêu",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "reflexive_verbs"
+  },
+  {
+    "word": "Haustür",
+    "meaning_vi": "cửa chính",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Hausaufgabe",
+    "meaning_vi": "bài tập về nhà",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Hausarbeit",
+    "meaning_vi": "việc nhà",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Handtuch",
+    "meaning_vi": "khăn tay",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Handtasche",
+    "meaning_vi": "túi xách",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Handschuh",
+    "meaning_vi": "găng tay",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Kopfschmerzen",
+    "meaning_vi": "đau đầu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Bauchschmerzen",
+    "meaning_vi": "đau bụng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Rückenschmerzen",
+    "meaning_vi": "đau lưng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Halsschmerzen",
+    "meaning_vi": "đau họng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Zahnschmerzen",
+    "meaning_vi": "đau răng",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Geburtstag",
+    "meaning_vi": "sinh nhật",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Feiertag",
+    "meaning_vi": "ngày lễ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Wochentag",
+    "meaning_vi": "ngày trong tuần",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Wochenende",
+    "meaning_vi": "cuối tuần",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Jahreszeit",
+    "meaning_vi": "mùa",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Arbeitsplatz",
+    "meaning_vi": "nơi làm việc",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Parkplatz",
+    "meaning_vi": "bãi đỗ xe",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Spielplatz",
+    "meaning_vi": "sân chơi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Sitzplatz",
+    "meaning_vi": "chỗ ngồi",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Schlafzimmer",
+    "meaning_vi": "phòng ngủ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Wohnzimmer",
+    "meaning_vi": "phòng khách",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Esszimmer",
+    "meaning_vi": "phòng ăn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Badezimmer",
+    "meaning_vi": "phòng tắm",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "Kinderzimmer",
+    "meaning_vi": "phòng trẻ em",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "compound_nouns"
+  },
+  {
+    "word": "warten auf",
+    "meaning_vi": "chờ đợi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "denken an",
+    "meaning_vi": "nghĩ về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "glauben an",
+    "meaning_vi": "tin vào",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "hoffen auf",
+    "meaning_vi": "hy vọng về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "achten auf",
+    "meaning_vi": "chú ý đến",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "aufpassen auf",
+    "meaning_vi": "trông chừng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "sprechen über",
+    "meaning_vi": "nói về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "nachdenken über",
+    "meaning_vi": "suy nghĩ về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "sich freuen über",
+    "meaning_vi": "vui về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "sich freuen auf",
+    "meaning_vi": "mong đợi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "sich ärgern über",
+    "meaning_vi": "tức giận về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "sich interessieren für",
+    "meaning_vi": "quan tâm đến",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "sich kümmern um",
+    "meaning_vi": "chăm sóc",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "sich bewerben um",
+    "meaning_vi": "ứng tuyển",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "teilnehmen an",
+    "meaning_vi": "tham gia",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "gehören zu",
+    "meaning_vi": "thuộc về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "passen zu",
+    "meaning_vi": "phù hợp với",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "gratulieren zu",
+    "meaning_vi": "chúc mừng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "bitten um",
+    "meaning_vi": "xin, yêu cầu",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "danken für",
+    "meaning_vi": "cảm ơn về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "fragen nach",
+    "meaning_vi": "hỏi về",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "suchen nach",
+    "meaning_vi": "tìm kiếm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "riechen nach",
+    "meaning_vi": "có mùi như",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "schmecken nach",
+    "meaning_vi": "có vị như",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "aussehen wie",
+    "meaning_vi": "trông như",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "verbs_prepositions"
+  },
+  {
+    "word": "Wirtschaft",
+    "meaning_vi": "kinh tế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Handel",
+    "meaning_vi": "thương mại",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Export",
+    "meaning_vi": "xuất khẩu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Import",
+    "meaning_vi": "nhập khẩu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Wettbewerb",
+    "meaning_vi": "cạnh tranh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Aktie",
+    "meaning_vi": "cổ phiếu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Börse",
+    "meaning_vi": "sàn chứng khoán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Anlage",
+    "meaning_vi": "đầu tư",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Kapital",
+    "meaning_vi": "vốn",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Budget",
+    "meaning_vi": "ngân sách",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Kosten",
+    "meaning_vi": "chi phí",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Einnahme",
+    "meaning_vi": "thu nhập",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Ausgabe",
+    "meaning_vi": "chi tiêu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Bilanz",
+    "meaning_vi": "bảng cân đối",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Steuererklärung",
+    "meaning_vi": "khai thuế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Mehrwertsteuer",
+    "meaning_vi": "thuế giá trị gia tăng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Unternehmer",
+    "meaning_vi": "doanh nhân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Geschäftsführer",
+    "meaning_vi": "giám đốc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Mitarbeiter",
+    "meaning_vi": "nhân viên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Angestellter",
+    "meaning_vi": "nhân viên văn phòng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Bewerber",
+    "meaning_vi": "ứng viên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Praktikant",
+    "meaning_vi": "thực tập sinh",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Auszubildender",
+    "meaning_vi": "học viên",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Verhandlung",
+    "meaning_vi": "đàm phán",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Vereinbarung",
+    "meaning_vi": "thỏa thuận",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business_terms"
+  },
+  {
+    "word": "Antrag",
+    "meaning_vi": "đơn xin",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Formular",
+    "meaning_vi": "biểu mẫu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Bescheinigung",
+    "meaning_vi": "giấy chứng nhận",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Urkunde",
+    "meaning_vi": "giấy khai sinh/tờ khai",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Ausweis",
+    "meaning_vi": "giấy tờ tùy thân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Personalausweis",
+    "meaning_vi": "chứng minh nhân dân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Führerschein",
+    "meaning_vi": "bằng lái xe",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Meldebescheinigung",
+    "meaning_vi": "giấy đăng ký tạm trú",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Anmeldung",
+    "meaning_vi": "đăng ký",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Abmeldung",
+    "meaning_vi": "hủy đăng ký",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Ummeldung",
+    "meaning_vi": "đăng ký chuyển",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Amt",
+    "meaning_vi": "cơ quan",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Behörde",
+    "meaning_vi": "cơ quan chức năng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Rathaus",
+    "meaning_vi": "tòa thị chính",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Bürgeramt",
+    "meaning_vi": "văn phòng công dân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Finanzamt",
+    "meaning_vi": "sở thuế",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Arbeitsamt",
+    "meaning_vi": "sở lao động",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Standesamt",
+    "meaning_vi": "phòng hộ tịch",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Einwohnermeldeamt",
+    "meaning_vi": "phòng đăng ký cư trú",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Ausländerbehörde",
+    "meaning_vi": "sở ngoại kiều",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "beantragen",
+    "meaning_vi": "nộp đơn xin",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "genehmigen",
+    "meaning_vi": "phê duyệt",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "ablehnen",
+    "meaning_vi": "từ chối",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "verlängern",
+    "meaning_vi": "gia hạn",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "ausstellen",
+    "meaning_vi": "cấp",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "legal_admin"
+  },
+  {
+    "word": "Fernsehen",
+    "meaning_vi": "truyền hình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Fernseher",
+    "meaning_vi": "TV",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Programm",
+    "meaning_vi": "chương trình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Nachrichten",
+    "meaning_vi": "tin tức",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Tagesschau",
+    "meaning_vi": "bản tin hàng ngày",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Wetterbericht",
+    "meaning_vi": "dự báo thời tiết",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Spielfilm",
+    "meaning_vi": "phim truyện",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Dokumentarfilm",
+    "meaning_vi": "phim tài liệu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Serie",
+    "meaning_vi": "phim bộ",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Folge",
+    "meaning_vi": "tập phim",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Staffel",
+    "meaning_vi": "mùa phim",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Krimi",
+    "meaning_vi": "phim trinh thám",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Komödie",
+    "meaning_vi": "phim hài",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Drama",
+    "meaning_vi": "phim chính kịch",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Thriller",
+    "meaning_vi": "phim kinh dị",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Sender",
+    "meaning_vi": "đài, kênh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Kanal",
+    "meaning_vi": "kênh",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Sendung",
+    "meaning_vi": "chương trình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Moderator",
+    "meaning_vi": "người dẫn chương trình",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Schauspieler",
+    "meaning_vi": "diễn viên",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Regisseur",
+    "meaning_vi": "đạo diễn",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Produzent",
+    "meaning_vi": "nhà sản xuất",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Kamera",
+    "meaning_vi": "máy quay",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Drehbuch",
+    "meaning_vi": "kịch bản",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Premiere",
+    "meaning_vi": "buổi công chiếu",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "media_entertainment"
+  },
+  {
+    "word": "Soziale Medien",
+    "meaning_vi": "mạng xã hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Profil",
+    "meaning_vi": "hồ sơ cá nhân",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Beitrag",
+    "meaning_vi": "bài đăng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Post",
+    "meaning_vi": "bài đăng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Kommentar",
+    "meaning_vi": "bình luận",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Follower",
+    "meaning_vi": "người theo dõi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Abonnent",
+    "meaning_vi": "người đăng ký",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Like",
+    "meaning_vi": "lượt thích",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Teilen",
+    "meaning_vi": "chia sẻ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Hashtag",
+    "meaning_vi": "hashtag",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Link",
+    "meaning_vi": "liên kết",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Blog",
+    "meaning_vi": "blog",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Podcast",
+    "meaning_vi": "podcast",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Livestream",
+    "meaning_vi": "phát trực tiếp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Influencer",
+    "meaning_vi": "người có ảnh hưởng",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Viral",
+    "meaning_vi": "lan truyền",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "online",
+    "meaning_vi": "trực tuyến",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "offline",
+    "meaning_vi": "ngoại tuyến",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "posten",
+    "meaning_vi": "đăng bài",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "teilen",
+    "meaning_vi": "chia sẻ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "kommentieren",
+    "meaning_vi": "bình luận",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "liken",
+    "meaning_vi": "thích",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "folgen",
+    "meaning_vi": "theo dõi",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "abonnieren",
+    "meaning_vi": "đăng ký",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "streamen",
+    "meaning_vi": "phát trực tuyến",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "social_media"
+  },
+  {
+    "word": "Forschung",
+    "meaning_vi": "nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Studie",
+    "meaning_vi": "nghiên cứu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Untersuchung",
+    "meaning_vi": "khảo sát",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Analyse",
+    "meaning_vi": "phân tích",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Ergebnis",
+    "meaning_vi": "kết quả",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Daten",
+    "meaning_vi": "dữ liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Statistik",
+    "meaning_vi": "thống kê",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Theorie",
+    "meaning_vi": "lý thuyết",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Hypothese",
+    "meaning_vi": "giả thuyết",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Methode",
+    "meaning_vi": "phương pháp",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Quelle",
+    "meaning_vi": "nguồn",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Literatur",
+    "meaning_vi": "tài liệu",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Artikel",
+    "meaning_vi": "bài báo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Zeitschrift",
+    "meaning_vi": "tạp chí",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Dissertation",
+    "meaning_vi": "luận văn tiến sĩ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Masterarbeit",
+    "meaning_vi": "luận văn thạc sĩ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Bachelorarbeit",
+    "meaning_vi": "luận văn cử nhân",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Seminar",
+    "meaning_vi": "hội thảo",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Vorlesung",
+    "meaning_vi": "bài giảng",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Übung",
+    "meaning_vi": "bài tập",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Referat",
+    "meaning_vi": "bài thuyết trình",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Klausur",
+    "meaning_vi": "bài thi",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Semester",
+    "meaning_vi": "học kỳ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Dozent",
+    "meaning_vi": "giảng viên",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Professor",
+    "meaning_vi": "giáo sư",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "academic_research"
+  },
+  {
+    "word": "Miete",
+    "meaning_vi": "tiền thuê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Mieter",
+    "meaning_vi": "người thuê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Vermieter",
+    "meaning_vi": "người cho thuê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Mietvertrag",
+    "meaning_vi": "hợp đồng thuê",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Kaution",
+    "meaning_vi": "tiền đặt cọc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Nebenkosten",
+    "meaning_vi": "chi phí phụ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Heizung",
+    "meaning_vi": "hệ thống sưởi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Strom",
+    "meaning_vi": "điện",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Gas",
+    "meaning_vi": "ga",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Wasser",
+    "meaning_vi": "nước",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Müll",
+    "meaning_vi": "rác",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Renovierung",
+    "meaning_vi": "sửa chữa",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Umzug",
+    "meaning_vi": "chuyển nhà",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Einzug",
+    "meaning_vi": "dọn vào",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Auszug",
+    "meaning_vi": "dọn ra",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Nachbar",
+    "meaning_vi": "hàng xóm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Hausmeister",
+    "meaning_vi": "quản lý tòa nhà",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Hausverwaltung",
+    "meaning_vi": "ban quản lý nhà",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "mieten",
+    "meaning_vi": "thuê",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "vermieten",
+    "meaning_vi": "cho thuê",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "kündigen",
+    "meaning_vi": "hủy hợp đồng",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "einziehen",
+    "meaning_vi": "dọn vào",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "ausziehen",
+    "meaning_vi": "dọn ra",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "renovieren",
+    "meaning_vi": "sửa chữa",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "möbliert",
+    "meaning_vi": "có nội thất",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "housing_real_estate"
+  },
+  {
+    "word": "Versicherung",
+    "meaning_vi": "bảo hiểm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Krankenversicherung",
+    "meaning_vi": "bảo hiểm y tế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Rentenversicherung",
+    "meaning_vi": "bảo hiểm hưu trí",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Arbeitslosenversicherung",
+    "meaning_vi": "bảo hiểm thất nghiệp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Pflegeversicherung",
+    "meaning_vi": "bảo hiểm chăm sóc",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Haftpflichtversicherung",
+    "meaning_vi": "bảo hiểm trách nhiệm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Hausratversicherung",
+    "meaning_vi": "bảo hiểm tài sản",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Lebensversicherung",
+    "meaning_vi": "bảo hiểm nhân thọ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Beitrag",
+    "meaning_vi": "khoản đóng góp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Prämie",
+    "meaning_vi": "phí bảo hiểm",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Leistung",
+    "meaning_vi": "quyền lợi",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Sozialversicherung",
+    "meaning_vi": "bảo hiểm xã hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Krankenkasse",
+    "meaning_vi": "quỹ bảo hiểm y tế",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Arbeitslosengeld",
+    "meaning_vi": "trợ cấp thất nghiệp",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Kindergeld",
+    "meaning_vi": "trợ cấp nuôi con",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Elterngeld",
+    "meaning_vi": "trợ cấp thai sản",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Wohngeld",
+    "meaning_vi": "trợ cấp nhà ở",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Sozialhilfe",
+    "meaning_vi": "trợ cấp xã hội",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "Rente",
+    "meaning_vi": "lương hưu",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "insurance_social"
+  },
+  {
+    "word": "versichern",
+    "meaning_vi": "bảo hiểm",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "insurance_social"
+  }
+]

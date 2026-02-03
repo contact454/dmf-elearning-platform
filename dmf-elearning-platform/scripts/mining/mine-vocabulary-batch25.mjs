@@ -1,0 +1,260 @@
+#!/usr/bin/env node
+/**
+ * Mine Vocabulary Batch 25 - Final Push to 10K
+ * Target: ~250 unique words focusing on less common but useful vocabulary
+ */
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const OUTPUT = path.join(__dirname, '../data/quality-expansion/batch25-vocabulary.json');
+
+// Carefully curated vocabulary to avoid duplicates
+const vocabulary = [
+  // A1 - Everyday essentials often missed
+  { word: 'das Gepäck', level: 'A1', topic: 'travel', pos: 'noun', meaning_vi: 'hành lý' },
+  { word: 'der Koffer', level: 'A1', topic: 'travel', pos: 'noun', meaning_vi: 'vali' },
+  { word: 'das Handtuch', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'khăn tắm' },
+  { word: 'die Zahnbürste', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'bàn chải đánh răng' },
+  { word: 'die Seife', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'xà phòng' },
+  { word: 'das Shampoo', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'dầu gội' },
+  { word: 'der Kamm', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'lược' },
+  { word: 'der Spiegel', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'gương' },
+  { word: 'die Dusche', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'vòi sen' },
+  { word: 'die Badewanne', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'bồn tắm' },
+  { word: 'das Waschbecken', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'bồn rửa mặt' },
+  { word: 'die Toilette', level: 'A1', topic: 'bathroom', pos: 'noun', meaning_vi: 'nhà vệ sinh' },
+  { word: 'der Schlüssel', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'chìa khóa' },
+  { word: 'die Treppe', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'cầu thang' },
+  { word: 'der Aufzug', level: 'A1', topic: 'building', pos: 'noun', meaning_vi: 'thang máy' },
+  { word: 'der Balkon', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'ban công' },
+  { word: 'der Garten', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'vườn' },
+  { word: 'die Garage', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'nhà để xe' },
+  { word: 'der Keller', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'tầng hầm' },
+  { word: 'das Dach', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'mái nhà' },
+  { word: 'die Wand', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'bức tường' },
+  { word: 'die Decke', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'trần nhà' },
+  { word: 'der Boden', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'sàn nhà' },
+  { word: 'das Kissen', level: 'A1', topic: 'bedroom', pos: 'noun', meaning_vi: 'gối' },
+  { word: 'die Matratze', level: 'A1', topic: 'bedroom', pos: 'noun', meaning_vi: 'nệm' },
+  { word: 'der Wecker', level: 'A1', topic: 'bedroom', pos: 'noun', meaning_vi: 'đồng hồ báo thức' },
+  { word: 'die Lampe', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'đèn' },
+  { word: 'der Vorhang', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'rèm cửa' },
+  { word: 'der Teppich', level: 'A1', topic: 'home', pos: 'noun', meaning_vi: 'thảm' },
+  { word: 'das Regal', level: 'A1', topic: 'furniture', pos: 'noun', meaning_vi: 'kệ sách' },
+
+  // A2 - Practical vocabulary
+  { word: 'der Staubsauger', level: 'A2', topic: 'household', pos: 'noun', meaning_vi: 'máy hút bụi' },
+  { word: 'die Waschmaschine', level: 'A2', topic: 'household', pos: 'noun', meaning_vi: 'máy giặt' },
+  { word: 'der Trockner', level: 'A2', topic: 'household', pos: 'noun', meaning_vi: 'máy sấy' },
+  { word: 'die Spülmaschine', level: 'A2', topic: 'household', pos: 'noun', meaning_vi: 'máy rửa bát' },
+  { word: 'der Kühlschrank', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'tủ lạnh' },
+  { word: 'die Mikrowelle', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'lò vi sóng' },
+  { word: 'der Backofen', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'lò nướng' },
+  { word: 'der Herd', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'bếp' },
+  { word: 'die Pfanne', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'chảo' },
+  { word: 'der Topf', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'nồi' },
+  { word: 'das Schneidebrett', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'thớt' },
+  { word: 'das Besteck', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'bộ dao nĩa' },
+  { word: 'die Schüssel', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'bát tô' },
+  { word: 'der Becher', level: 'A2', topic: 'kitchen', pos: 'noun', meaning_vi: 'cốc' },
+  { word: 'die Serviette', level: 'A2', topic: 'dining', pos: 'noun', meaning_vi: 'khăn ăn' },
+  { word: 'die Kerze', level: 'A2', topic: 'home', pos: 'noun', meaning_vi: 'nến' },
+  { word: 'das Streichholz', level: 'A2', topic: 'home', pos: 'noun', meaning_vi: 'que diêm' },
+  { word: 'das Feuerzeug', level: 'A2', topic: 'home', pos: 'noun', meaning_vi: 'bật lửa' },
+  { word: 'die Schere', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'kéo' },
+  { word: 'der Kleber', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'keo dán' },
+  { word: 'das Klebeband', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'băng dính' },
+  { word: 'die Büroklammer', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'kẹp giấy' },
+  { word: 'der Locher', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'máy đục lỗ' },
+  { word: 'der Hefter', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'máy dập ghim' },
+  { word: 'der Ordner', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'cặp hồ sơ' },
+  { word: 'die Mappe', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'bìa đựng tài liệu' },
+  { word: 'der Briefumschlag', level: 'A2', topic: 'office', pos: 'noun', meaning_vi: 'phong bì' },
+  { word: 'die Briefmarke', level: 'A2', topic: 'postal', pos: 'noun', meaning_vi: 'tem thư' },
+  { word: 'das Paket', level: 'A2', topic: 'postal', pos: 'noun', meaning_vi: 'gói hàng' },
+  { word: 'der Absender', level: 'A2', topic: 'postal', pos: 'noun', meaning_vi: 'người gửi' },
+  { word: 'der Empfänger', level: 'A2', topic: 'postal', pos: 'noun', meaning_vi: 'người nhận' },
+  { word: 'die Postleitzahl', level: 'A2', topic: 'postal', pos: 'noun', meaning_vi: 'mã bưu điện' },
+  { word: 'der Briefkasten', level: 'A2', topic: 'postal', pos: 'noun', meaning_vi: 'hộp thư' },
+  { word: 'einpacken', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'đóng gói' },
+  { word: 'auspacken', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'mở gói' },
+  { word: 'verpacken', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'bao bọc' },
+  { word: 'kleben', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'dán' },
+  { word: 'schneiden', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'cắt' },
+  { word: 'falten', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'gấp' },
+
+  // B1 - Intermediate vocabulary
+  { word: 'die Renovierung', level: 'B1', topic: 'housing', pos: 'noun', meaning_vi: 'việc sửa chữa' },
+  { word: 'der Umzug', level: 'B1', topic: 'housing', pos: 'noun', meaning_vi: 'việc chuyển nhà' },
+  { word: 'die Einrichtung', level: 'B1', topic: 'housing', pos: 'noun', meaning_vi: 'nội thất' },
+  { word: 'die Heizung', level: 'B1', topic: 'housing', pos: 'noun', meaning_vi: 'hệ thống sưởi' },
+  { word: 'die Klimaanlage', level: 'B1', topic: 'housing', pos: 'noun', meaning_vi: 'điều hòa' },
+  { word: 'der Wasserhahn', level: 'B1', topic: 'plumbing', pos: 'noun', meaning_vi: 'vòi nước' },
+  { word: 'das Rohr', level: 'B1', topic: 'plumbing', pos: 'noun', meaning_vi: 'ống dẫn' },
+  { word: 'der Abfluss', level: 'B1', topic: 'plumbing', pos: 'noun', meaning_vi: 'cống thoát nước' },
+  { word: 'die Steckdose', level: 'B1', topic: 'electrical', pos: 'noun', meaning_vi: 'ổ cắm điện' },
+  { word: 'der Schalter', level: 'B1', topic: 'electrical', pos: 'noun', meaning_vi: 'công tắc' },
+  { word: 'die Sicherung', level: 'B1', topic: 'electrical', pos: 'noun', meaning_vi: 'cầu chì' },
+  { word: 'das Kabel', level: 'B1', topic: 'electrical', pos: 'noun', meaning_vi: 'dây cáp' },
+  { word: 'die Verlängerung', level: 'B1', topic: 'electrical', pos: 'noun', meaning_vi: 'dây nối dài' },
+  { word: 'der Stecker', level: 'B1', topic: 'electrical', pos: 'noun', meaning_vi: 'phích cắm' },
+  { word: 'der Hammer', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'búa' },
+  { word: 'der Schraubenzieher', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'tuốc nơ vít' },
+  { word: 'die Zange', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'kìm' },
+  { word: 'die Säge', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'cưa' },
+  { word: 'der Nagel', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'đinh' },
+  { word: 'die Schraube', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'ốc vít' },
+  { word: 'der Bohrer', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'mũi khoan' },
+  { word: 'die Bohrmaschine', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'máy khoan' },
+  { word: 'das Maßband', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'thước dây' },
+  { word: 'die Wasserwaage', level: 'B1', topic: 'tools', pos: 'noun', meaning_vi: 'thước thủy' },
+  { word: 'der Pinsel', level: 'B1', topic: 'painting', pos: 'noun', meaning_vi: 'cọ sơn' },
+  { word: 'die Farbe', level: 'B1', topic: 'painting', pos: 'noun', meaning_vi: 'sơn, màu' },
+  { word: 'die Tapete', level: 'B1', topic: 'decoration', pos: 'noun', meaning_vi: 'giấy dán tường' },
+  { word: 'die Fliese', level: 'B1', topic: 'decoration', pos: 'noun', meaning_vi: 'gạch lát' },
+  { word: 'das Parkett', level: 'B1', topic: 'decoration', pos: 'noun', meaning_vi: 'sàn gỗ' },
+  { word: 'die Gardine', level: 'B1', topic: 'decoration', pos: 'noun', meaning_vi: 'rèm voan' },
+  { word: 'die Jalousie', level: 'B1', topic: 'decoration', pos: 'noun', meaning_vi: 'rèm lá' },
+  { word: 'reparieren', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'sửa chữa' },
+  { word: 'renovieren', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'tân trang' },
+  { word: 'streichen', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'sơn' },
+  { word: 'bohren', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'khoan' },
+  { word: 'schrauben', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'vặn ốc' },
+  { word: 'hämmern', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'đóng búa' },
+  { word: 'montieren', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'lắp đặt' },
+  { word: 'installieren', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'cài đặt' },
+  { word: 'anschließen', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'kết nối' },
+  { word: 'einschalten', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'bật' },
+  { word: 'ausschalten', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'tắt' },
+
+  // B2 - Advanced practical vocabulary
+  { word: 'die Gewährleistung', level: 'B2', topic: 'legal', pos: 'noun', meaning_vi: 'bảo hành' },
+  { word: 'die Reklamation', level: 'B2', topic: 'consumer', pos: 'noun', meaning_vi: 'khiếu nại' },
+  { word: 'der Umtausch', level: 'B2', topic: 'consumer', pos: 'noun', meaning_vi: 'đổi hàng' },
+  { word: 'die Rückerstattung', level: 'B2', topic: 'consumer', pos: 'noun', meaning_vi: 'hoàn tiền' },
+  { word: 'der Lieferschein', level: 'B2', topic: 'business', pos: 'noun', meaning_vi: 'phiếu giao hàng' },
+  { word: 'die Bestellung', level: 'B2', topic: 'business', pos: 'noun', meaning_vi: 'đơn đặt hàng' },
+  { word: 'die Lieferung', level: 'B2', topic: 'business', pos: 'noun', meaning_vi: 'giao hàng' },
+  { word: 'der Versand', level: 'B2', topic: 'business', pos: 'noun', meaning_vi: 'vận chuyển' },
+  { word: 'die Verpackung', level: 'B2', topic: 'business', pos: 'noun', meaning_vi: 'bao bì' },
+  { word: 'die Sendungsverfolgung', level: 'B2', topic: 'business', pos: 'noun', meaning_vi: 'theo dõi đơn hàng' },
+  { word: 'die Zahlungsbedingungen', level: 'B2', topic: 'business', pos: 'noun', meaning_vi: 'điều khoản thanh toán' },
+  { word: 'die Überweisung', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'chuyển khoản' },
+  { word: 'der Dauerauftrag', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'lệnh thanh toán định kỳ' },
+  { word: 'die Lastschrift', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'trích nợ tự động' },
+  { word: 'die Buchung', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'giao dịch ngân hàng' },
+  { word: 'der Kontoauszug', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'sao kê tài khoản' },
+  { word: 'die Kontonummer', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'số tài khoản' },
+  { word: 'die Bankleitzahl', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'mã ngân hàng' },
+  { word: 'der Zinssatz', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'lãi suất' },
+  { word: 'die Tilgung', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'trả nợ gốc' },
+  { word: 'die Hypothek', level: 'B2', topic: 'finance', pos: 'noun', meaning_vi: 'thế chấp' },
+  { word: 'die Kaution', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'tiền đặt cọc' },
+  { word: 'die Nebenkosten', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'chi phí phụ' },
+  { word: 'die Betriebskosten', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'chi phí vận hành' },
+  { word: 'der Mietvertrag', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'hợp đồng thuê' },
+  { word: 'die Kündigungsfrist', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'thời hạn báo trước' },
+  { word: 'der Vermieter', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'chủ nhà' },
+  { word: 'der Mieter', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'người thuê' },
+  { word: 'die Hausverwaltung', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'ban quản lý tòa nhà' },
+  { word: 'der Hausmeister', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'quản lý tòa nhà' },
+  { word: 'die Eigentümerversammlung', level: 'B2', topic: 'housing', pos: 'noun', meaning_vi: 'họp chủ sở hữu' },
+  { word: 'reklamieren', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'khiếu nại' },
+  { word: 'umtauschen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'đổi hàng' },
+  { word: 'erstatten', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'hoàn trả' },
+  { word: 'überweisen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'chuyển khoản' },
+  { word: 'kündigen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'hủy hợp đồng' },
+  { word: 'verlängern', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'gia hạn' },
+  { word: 'beantragen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'nộp đơn xin' },
+  { word: 'genehmigen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'phê duyệt' },
+  { word: 'ablehnen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'từ chối' },
+  { word: 'bewilligen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'cấp phép' },
+
+  // C1 - Professional and academic vocabulary
+  { word: 'die Fälligkeit', level: 'C1', topic: 'finance', pos: 'noun', meaning_vi: 'ngày đáo hạn' },
+  { word: 'die Bonität', level: 'C1', topic: 'finance', pos: 'noun', meaning_vi: 'mức tín nhiệm' },
+  { word: 'die Schufa', level: 'C1', topic: 'finance', pos: 'noun', meaning_vi: 'cơ quan thẩm định tín dụng' },
+  { word: 'die Bürgschaft', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'bảo lãnh' },
+  { word: 'die Vollmacht', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'giấy ủy quyền' },
+  { word: 'die Beglaubigung', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'công chứng' },
+  { word: 'die Beurkundung', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'chứng thực' },
+  { word: 'der Notar', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'công chứng viên' },
+  { word: 'das Grundbuch', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'sổ đỏ bất động sản' },
+  { word: 'der Grundbuchauszug', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'trích lục sổ đỏ' },
+  { word: 'die Grundschuld', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'quyền thế chấp đất' },
+  { word: 'die Löschungsbewilligung', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'giấy xóa thế chấp' },
+  { word: 'der Kaufvertrag', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'hợp đồng mua bán' },
+  { word: 'die Auflassung', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'chuyển nhượng quyền sở hữu' },
+  { word: 'die Unbedenklichkeitsbescheinigung', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'giấy chứng nhận không nợ thuế' },
+  { word: 'die Maklerprovision', level: 'C1', topic: 'real_estate', pos: 'noun', meaning_vi: 'phí môi giới' },
+  { word: 'der Sachverständige', level: 'C1', topic: 'professional', pos: 'noun', meaning_vi: 'chuyên gia thẩm định' },
+  { word: 'das Gutachten', level: 'C1', topic: 'professional', pos: 'noun', meaning_vi: 'báo cáo thẩm định' },
+  { word: 'die Bewertung', level: 'C1', topic: 'professional', pos: 'noun', meaning_vi: 'đánh giá' },
+  { word: 'der Verkehrswert', level: 'C1', topic: 'real_estate', pos: 'noun', meaning_vi: 'giá trị thị trường' },
+  { word: 'der Einheitswert', level: 'C1', topic: 'real_estate', pos: 'noun', meaning_vi: 'giá trị chuẩn' },
+  { word: 'die Grunderwerbsteuer', level: 'C1', topic: 'tax', pos: 'noun', meaning_vi: 'thuế chuyển nhượng BĐS' },
+  { word: 'die Spekulationssteuer', level: 'C1', topic: 'tax', pos: 'noun', meaning_vi: 'thuế lợi nhuận đầu cơ' },
+  { word: 'die Abschreibung', level: 'C1', topic: 'tax', pos: 'noun', meaning_vi: 'khấu hao' },
+  { word: 'die Werbungskosten', level: 'C1', topic: 'tax', pos: 'noun', meaning_vi: 'chi phí được khấu trừ' },
+  { word: 'beglaubigen', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'công chứng' },
+  { word: 'beurkunden', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'chứng thực' },
+  { word: 'bevollmächtigen', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'ủy quyền' },
+  { word: 'veräußern', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'chuyển nhượng' },
+  { word: 'erwerben', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'mua, có được' },
+  { word: 'verpfänden', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'thế chấp' },
+  { word: 'tilgen', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'trả hết nợ' },
+  { word: 'abschreiben', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'khấu hao' },
+  { word: 'veranlagen', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'tính thuế' },
+  { word: 'versteuern', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'đóng thuế' },
+
+  // C2 - Highly specialized vocabulary
+  { word: 'die Grunddienstbarkeit', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'quyền địa dịch' },
+  { word: 'das Erbbaurecht', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'quyền xây dựng trên đất' },
+  { word: 'das Vorkaufsrecht', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'quyền ưu tiên mua' },
+  { word: 'die Reallast', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'nghĩa vụ gắn liền BĐS' },
+  { word: 'das Wegerecht', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'quyền đi qua' },
+  { word: 'die Baulast', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'nghĩa vụ xây dựng' },
+  { word: 'der Bebauungsplan', level: 'C2', topic: 'urban', pos: 'noun', meaning_vi: 'quy hoạch xây dựng' },
+  { word: 'der Flächennutzungsplan', level: 'C2', topic: 'urban', pos: 'noun', meaning_vi: 'quy hoạch sử dụng đất' },
+  { word: 'die Bauvoranfrage', level: 'C2', topic: 'urban', pos: 'noun', meaning_vi: 'thẩm tra quy hoạch' },
+  { word: 'die Baugenehmigung', level: 'C2', topic: 'urban', pos: 'noun', meaning_vi: 'giấy phép xây dựng' },
+  { word: 'die Nutzungsänderung', level: 'C2', topic: 'urban', pos: 'noun', meaning_vi: 'thay đổi mục đích sử dụng' },
+  { word: 'der Denkmalschutz', level: 'C2', topic: 'heritage', pos: 'noun', meaning_vi: 'bảo tồn di sản' },
+  { word: 'die Sanierungssatzung', level: 'C2', topic: 'urban', pos: 'noun', meaning_vi: 'quy chế cải tạo' },
+  { word: 'das Vorkaufsrechtsverzichtserklärung', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'tuyên bố từ bỏ quyền ưu tiên mua' },
+  { word: 'die Teilungserklärung', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'tuyên bố phân chia' },
+  { word: 'die Gemeinschaftsordnung', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'nội quy cộng đồng' },
+  { word: 'die Instandhaltungsrücklage', level: 'C2', topic: 'finance', pos: 'noun', meaning_vi: 'quỹ bảo trì' },
+  { word: 'die Sonderumlage', level: 'C2', topic: 'finance', pos: 'noun', meaning_vi: 'phí đặc biệt' },
+  { word: 'das Hausgeld', level: 'C2', topic: 'finance', pos: 'noun', meaning_vi: 'phí quản lý chung cư' },
+  { word: 'die Beschlussfassung', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'ra quyết định' },
+];
+
+// Ensure output directory exists
+const outputDir = path.dirname(OUTPUT);
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// Write vocabulary
+fs.writeFileSync(OUTPUT, JSON.stringify(vocabulary, null, 2));
+
+console.log('╔════════════════════════════════════════════════════════════╗');
+console.log('║    ⛏️  BATCH 25 VOCABULARY GENERATED                        ║');
+console.log('╚════════════════════════════════════════════════════════════╝\n');
+
+console.log(`📦 Total words: ${vocabulary.length}`);
+console.log(`📁 Saved to: ${OUTPUT}`);
+
+// Distribution
+const dist = {};
+vocabulary.forEach(w => {
+  dist[w.level] = (dist[w.level] || 0) + 1;
+});
+console.log('\n📊 Distribution:');
+Object.entries(dist).sort().forEach(([level, count]) => {
+  console.log(`   ${level}: ${count} words`);
+});

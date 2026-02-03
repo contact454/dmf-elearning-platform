@@ -1,0 +1,1865 @@
+[
+  {
+    "word": "das Gepäck",
+    "level": "A1",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "hành lý",
+    "example_de": "Ich muss mein Gepäck am Flughafen abholen.",
+    "example_vi": "Tôi phải lấy hành lý của mình ở sân bay."
+  },
+  {
+    "word": "der Koffer",
+    "level": "A1",
+    "topic": "travel",
+    "pos": "noun",
+    "meaning_vi": "vali",
+    "example_de": "Mein Koffer ist zu schwer für das Flugzeug.",
+    "example_vi": "Vali của tôi quá nặng cho chuyến bay."
+  },
+  {
+    "word": "das Handtuch",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "khăn tắm",
+    "example_de": "Kannst du mir bitte ein sauberes Handtuch geben?",
+    "example_vi": "Bạn có thể đưa tôi một chiếc khăn tắm sạch được không?"
+  },
+  {
+    "word": "die Zahnbürste",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "bàn chải đánh răng",
+    "example_de": "Ich habe meine Zahnbürste zu Hause vergessen.",
+    "example_vi": "Tôi đã quên bàn chải đánh răng ở nhà."
+  },
+  {
+    "word": "die Seife",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "xà phòng",
+    "example_de": "Die Seife im Badezimmer riecht sehr gut.",
+    "example_vi": "Xà phòng trong phòng tắm có mùi rất thơm."
+  },
+  {
+    "word": "das Shampoo",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "dầu gội",
+    "example_de": "Dieses Shampoo ist gut für trockenes Haar.",
+    "example_vi": "Dầu gội này tốt cho tóc khô."
+  },
+  {
+    "word": "der Kamm",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "lược",
+    "example_de": "Wo ist mein Kamm? Ich muss meine Haare kämmen.",
+    "example_vi": "Chiếc lược của tôi đâu? Tôi phải chải tóc."
+  },
+  {
+    "word": "der Spiegel",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "gương",
+    "example_de": "Der Spiegel im Flur ist sehr groß.",
+    "example_vi": "Chiếc gương trong hành lang rất lớn."
+  },
+  {
+    "word": "die Dusche",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "vòi sen",
+    "example_de": "Ich nehme jeden Morgen eine kalte Dusche.",
+    "example_vi": "Tôi tắm vòi sen nước lạnh mỗi sáng."
+  },
+  {
+    "word": "die Badewanne",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "bồn tắm",
+    "example_de": "Am Wochenende entspanne ich gerne in der Badewanne.",
+    "example_vi": "Vào cuối tuần tôi thích thư giãn trong bồn tắm."
+  },
+  {
+    "word": "das Waschbecken",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "bồn rửa mặt",
+    "example_de": "Das Waschbecken im Badezimmer ist verstopft.",
+    "example_vi": "Bồn rửa mặt trong phòng tắm bị tắc."
+  },
+  {
+    "word": "die Toilette",
+    "level": "A1",
+    "topic": "bathroom",
+    "pos": "noun",
+    "meaning_vi": "nhà vệ sinh",
+    "example_de": "Entschuldigung, wo ist hier die Toilette?",
+    "example_vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?"
+  },
+  {
+    "word": "der Schlüssel",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "chìa khóa",
+    "example_de": "Ich kann meinen Schlüssel nicht finden.",
+    "example_vi": "Tôi không thể tìm thấy chìa khóa của mình."
+  },
+  {
+    "word": "die Treppe",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "cầu thang",
+    "example_de": "Die Treppe ist steil, sei bitte vorsichtig!",
+    "example_vi": "Cầu thang dốc, hãy cẩn thận nhé!"
+  },
+  {
+    "word": "der Aufzug",
+    "level": "A1",
+    "topic": "building",
+    "pos": "noun",
+    "meaning_vi": "thang máy",
+    "example_de": "Der Aufzug ist kaputt, wir müssen die Treppe nehmen.",
+    "example_vi": "Thang máy bị hỏng, chúng ta phải đi cầu thang."
+  },
+  {
+    "word": "der Balkon",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "ban công",
+    "example_de": "Wir frühstücken gerne auf dem Balkon.",
+    "example_vi": "Chúng tôi thích ăn sáng trên ban công."
+  },
+  {
+    "word": "der Garten",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "vườn",
+    "example_de": "Im Garten wachsen viele schöne Blumen.",
+    "example_vi": "Trong vườn có nhiều hoa đẹp mọc."
+  },
+  {
+    "word": "die Garage",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "nhà để xe",
+    "example_de": "Mein Auto steht in der Garage.",
+    "example_vi": "Xe của tôi đang đậu trong nhà để xe."
+  },
+  {
+    "word": "der Keller",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "tầng hầm",
+    "example_de": "Wir lagern alte Möbel im Keller.",
+    "example_vi": "Chúng tôi cất đồ nội thất cũ ở tầng hầm."
+  },
+  {
+    "word": "das Dach",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "mái nhà",
+    "example_de": "Das Dach muss repariert werden, es regnet rein.",
+    "example_vi": "Mái nhà cần được sửa chữa, nước mưa chảy vào."
+  },
+  {
+    "word": "die Wand",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "bức tường",
+    "example_de": "Ich hänge ein Bild an die Wand.",
+    "example_vi": "Tôi treo một bức tranh lên tường."
+  },
+  {
+    "word": "die Decke",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "trần nhà",
+    "example_de": "Die Lampe hängt an der Decke.",
+    "example_vi": "Cái đèn treo trên trần nhà."
+  },
+  {
+    "word": "der Boden",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "sàn nhà",
+    "example_de": "Der Boden ist sehr sauber.",
+    "example_vi": "Sàn nhà rất sạch."
+  },
+  {
+    "word": "das Kissen",
+    "level": "A1",
+    "topic": "bedroom",
+    "pos": "noun",
+    "meaning_vi": "gối",
+    "example_de": "Das Kissen auf dem Sofa ist weich.",
+    "example_vi": "Cái gối trên ghế sofa rất mềm."
+  },
+  {
+    "word": "die Matratze",
+    "level": "A1",
+    "topic": "bedroom",
+    "pos": "noun",
+    "meaning_vi": "nệm",
+    "example_de": "Ich brauche eine neue Matratze für mein Bett.",
+    "example_vi": "Tôi cần một cái nệm mới cho giường của tôi."
+  },
+  {
+    "word": "der Wecker",
+    "level": "A1",
+    "topic": "bedroom",
+    "pos": "noun",
+    "meaning_vi": "đồng hồ báo thức",
+    "example_de": "Der Wecker klingelt um 7 Uhr morgens.",
+    "example_vi": "Đồng hồ báo thức reo lúc 7 giờ sáng."
+  },
+  {
+    "word": "die Lampe",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "đèn",
+    "example_de": "Kannst du bitte die Lampe einschalten?",
+    "example_vi": "Bạn có thể bật đèn được không?"
+  },
+  {
+    "word": "der Vorhang",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "rèm cửa",
+    "example_de": "Ich ziehe den Vorhang zu, weil es zu hell ist.",
+    "example_vi": "Tôi kéo rèm lại vì trời quá sáng."
+  },
+  {
+    "word": "der Teppich",
+    "level": "A1",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "thảm",
+    "example_de": "Der Teppich im Wohnzimmer ist sehr gemütlich.",
+    "example_vi": "Tấm thảm trong phòng khách rất ấm cúng."
+  },
+  {
+    "word": "das Regal",
+    "level": "A1",
+    "topic": "furniture",
+    "pos": "noun",
+    "meaning_vi": "kệ sách",
+    "example_de": "Meine Bücher stehen im Regal.",
+    "example_vi": "Sách của tôi để trên kệ."
+  },
+  {
+    "word": "der Staubsauger",
+    "level": "A2",
+    "topic": "household",
+    "pos": "noun",
+    "meaning_vi": "máy hút bụi",
+    "example_de": "Ich muss mit dem Staubsauger das Zimmer reinigen.",
+    "example_vi": "Tôi phải dùng máy hút bụi để dọn phòng."
+  },
+  {
+    "word": "die Waschmaschine",
+    "level": "A2",
+    "topic": "household",
+    "pos": "noun",
+    "meaning_vi": "máy giặt",
+    "example_de": "Die Waschmaschine ist kaputt.",
+    "example_vi": "Máy giặt bị hỏng."
+  },
+  {
+    "word": "der Trockner",
+    "level": "A2",
+    "topic": "household",
+    "pos": "noun",
+    "meaning_vi": "máy sấy",
+    "example_de": "Nach dem Waschen kommt die Wäsche in den Trockner.",
+    "example_vi": "Sau khi giặt, quần áo được cho vào máy sấy."
+  },
+  {
+    "word": "die Spülmaschine",
+    "level": "A2",
+    "topic": "household",
+    "pos": "noun",
+    "meaning_vi": "máy rửa bát",
+    "example_de": "Ich stelle das schmutzige Geschirr in die Spülmaschine.",
+    "example_vi": "Tôi để bát đĩa bẩn vào máy rửa bát."
+  },
+  {
+    "word": "der Kühlschrank",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "tủ lạnh",
+    "example_de": "Die Milch ist im Kühlschrank.",
+    "example_vi": "Sữa ở trong tủ lạnh."
+  },
+  {
+    "word": "die Mikrowelle",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "lò vi sóng",
+    "example_de": "Ich wärme das Essen in der Mikrowelle auf.",
+    "example_vi": "Tôi hâm nóng đồ ăn trong lò vi sóng."
+  },
+  {
+    "word": "der Backofen",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "lò nướng",
+    "example_de": "Der Kuchen backt im Backofen.",
+    "example_vi": "Bánh đang nướng trong lò."
+  },
+  {
+    "word": "der Herd",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "bếp",
+    "example_de": "Ich koche Suppe auf dem Herd.",
+    "example_vi": "Tôi nấu súp trên bếp."
+  },
+  {
+    "word": "die Pfanne",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "chảo",
+    "example_de": "Ich brate Eier in der Pfanne.",
+    "example_vi": "Tôi chiên trứng trong chảo."
+  },
+  {
+    "word": "der Topf",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "nồi",
+    "example_de": "Das Wasser kocht im Topf.",
+    "example_vi": "Nước đang sôi trong nồi."
+  },
+  {
+    "word": "das Schneidebrett",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "thớt",
+    "example_de": "Ich schneide das Gemüse auf dem Schneidebrett.",
+    "example_vi": "Tôi cắt rau trên thớt."
+  },
+  {
+    "word": "das Besteck",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "bộ dao nĩa",
+    "example_de": "Kannst du bitte das Besteck auf den Tisch legen?",
+    "example_vi": "Bạn có thể đặt bộ dao nĩa lên bàn được không?"
+  },
+  {
+    "word": "die Schüssel",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "bát tô",
+    "example_de": "Die Suppe ist in der großen Schüssel.",
+    "example_vi": "Súp ở trong cái bát tô lớn."
+  },
+  {
+    "word": "der Becher",
+    "level": "A2",
+    "topic": "kitchen",
+    "pos": "noun",
+    "meaning_vi": "cốc",
+    "example_de": "Ich trinke meinen Kaffee aus einem Becher.",
+    "example_vi": "Tôi uống cà phê từ một cái cốc."
+  },
+  {
+    "word": "die Serviette",
+    "level": "A2",
+    "topic": "dining",
+    "pos": "noun",
+    "meaning_vi": "khăn ăn",
+    "example_de": "Bitte nimm eine Serviette, deine Hände sind schmutzig.",
+    "example_vi": "Làm ơn lấy khăn ăn, tay bạn bẩn rồi."
+  },
+  {
+    "word": "die Kerze",
+    "level": "A2",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "nến",
+    "example_de": "Wir zünden eine Kerze beim Abendessen an.",
+    "example_vi": "Chúng tôi thắp nến khi ăn tối."
+  },
+  {
+    "word": "das Streichholz",
+    "level": "A2",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "que diêm",
+    "example_de": "Hast du ein Streichholz, um die Kerze anzuzünden?",
+    "example_vi": "Bạn có que diêm để thắp nến không?"
+  },
+  {
+    "word": "das Feuerzeug",
+    "level": "A2",
+    "topic": "home",
+    "pos": "noun",
+    "meaning_vi": "bật lửa",
+    "example_de": "Er hat sein Feuerzeug auf dem Tisch vergessen.",
+    "example_vi": "Anh ấy quên bật lửa trên bàn."
+  },
+  {
+    "word": "die Schere",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "kéo",
+    "example_de": "Ich brauche eine Schere, um das Papier zu schneiden.",
+    "example_vi": "Tôi cần một cái kéo để cắt giấy."
+  },
+  {
+    "word": "der Kleber",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "keo dán",
+    "example_de": "Der Kleber ist noch nicht trocken.",
+    "example_vi": "Keo dán vẫn chưa khô."
+  },
+  {
+    "word": "das Klebeband",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "băng dính",
+    "example_de": "Kannst du mir das Klebeband geben?",
+    "example_vi": "Bạn có thể đưa tôi băng dính không?"
+  },
+  {
+    "word": "die Büroklammer",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "kẹp giấy",
+    "example_de": "Ich halte die Dokumente mit einer Büroklammer zusammen.",
+    "example_vi": "Tôi giữ các tài liệu lại với nhau bằng kẹp giấy."
+  },
+  {
+    "word": "der Locher",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "máy đục lỗ",
+    "example_de": "Mit dem Locher mache ich Löcher in das Papier.",
+    "example_vi": "Với máy đục lỗ, tôi đục lỗ vào giấy."
+  },
+  {
+    "word": "der Hefter",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "máy dập ghim",
+    "example_de": "Der Hefter ist leer, wir brauchen neue Klammern.",
+    "example_vi": "Máy dập ghim hết ghim rồi, chúng ta cần ghim mới."
+  },
+  {
+    "word": "der Ordner",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "cặp hồ sơ",
+    "example_de": "Alle wichtigen Dokumente sind im blauen Ordner.",
+    "example_vi": "Tất cả tài liệu quan trọng đều ở trong cặp hồ sơ màu xanh."
+  },
+  {
+    "word": "die Mappe",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "bìa đựng tài liệu",
+    "example_de": "Ich trage meine Unterlagen in einer schwarzen Mappe.",
+    "example_vi": "Tôi mang tài liệu của mình trong bìa đựng tài liệu màu đen."
+  },
+  {
+    "word": "der Briefumschlag",
+    "level": "A2",
+    "topic": "office",
+    "pos": "noun",
+    "meaning_vi": "phong bì",
+    "example_de": "Steck den Brief in den Briefumschlag.",
+    "example_vi": "Cho lá thư vào phong bì."
+  },
+  {
+    "word": "die Briefmarke",
+    "level": "A2",
+    "topic": "postal",
+    "pos": "noun",
+    "meaning_vi": "tem thư",
+    "example_de": "Vergiss nicht, eine Briefmarke auf den Brief zu kleben.",
+    "example_vi": "Đừng quên dán tem thư lên lá thư."
+  },
+  {
+    "word": "das Paket",
+    "level": "A2",
+    "topic": "postal",
+    "pos": "noun",
+    "meaning_vi": "gói hàng",
+    "example_de": "Das Paket wird morgen geliefert.",
+    "example_vi": "Gói hàng sẽ được giao vào ngày mai."
+  },
+  {
+    "word": "der Absender",
+    "level": "A2",
+    "topic": "postal",
+    "pos": "noun",
+    "meaning_vi": "người gửi",
+    "example_de": "Der Absender steht oben links auf dem Brief.",
+    "example_vi": "Người gửi được ghi ở góc trên bên trái của lá thư."
+  },
+  {
+    "word": "der Empfänger",
+    "level": "A2",
+    "topic": "postal",
+    "pos": "noun",
+    "meaning_vi": "người nhận",
+    "example_de": "Bitte schreiben Sie den Namen des Empfängers deutlich auf den Umschlag.",
+    "example_vi": "Vui lòng viết tên người nhận rõ ràng lên phong bì."
+  },
+  {
+    "word": "die Postleitzahl",
+    "level": "A2",
+    "topic": "postal",
+    "pos": "noun",
+    "meaning_vi": "mã bưu điện",
+    "example_de": "Ohne die richtige Postleitzahl kann der Brief nicht zugestellt werden.",
+    "example_vi": "Không có mã bưu điện đúng thì thư không thể được giao."
+  },
+  {
+    "word": "der Briefkasten",
+    "level": "A2",
+    "topic": "postal",
+    "pos": "noun",
+    "meaning_vi": "hộp thư",
+    "example_de": "Ich werfe den Brief schnell in den Briefkasten an der Ecke.",
+    "example_vi": "Tôi nhanh chóng bỏ lá thư vào hộp thư ở góc đường."
+  },
+  {
+    "word": "einpacken",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "đóng gói",
+    "example_de": "Kannst du bitte die Geschenke für die Party einpacken?",
+    "example_vi": "Bạn có thể đóng gói quà cho bữa tiệc được không?"
+  },
+  {
+    "word": "auspacken",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "mở gói",
+    "example_de": "Die Kinder können es kaum erwarten, ihre Weihnachtsgeschenke auszupacken.",
+    "example_vi": "Bọn trẻ không thể chờ đợi để mở quà Giáng sinh của chúng."
+  },
+  {
+    "word": "verpacken",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "bao bọc",
+    "example_de": "Wir müssen die zerbrechlichen Gläser sorgfältig verpacken.",
+    "example_vi": "Chúng ta phải bao bọc cẩn thận những chiếc ly dễ vỡ."
+  },
+  {
+    "word": "kleben",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "dán",
+    "example_de": "Vergiss nicht, die Briefmarke auf den Umschlag zu kleben.",
+    "example_vi": "Đừng quên dán tem lên phong bì."
+  },
+  {
+    "word": "schneiden",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "cắt",
+    "example_de": "Ich muss das Geschenkpapier noch in der richtigen Größe schneiden.",
+    "example_vi": "Tôi còn phải cắt giấy gói quà theo đúng kích thước."
+  },
+  {
+    "word": "falten",
+    "level": "A2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "gấp",
+    "example_de": "Sie faltet den Brief sorgfältig, bevor sie ihn in den Umschlag steckt.",
+    "example_vi": "Cô ấy gấp lá thư cẩn thận trước khi cho vào phong bì."
+  },
+  {
+    "word": "die Renovierung",
+    "level": "B1",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "việc sửa chữa",
+    "example_de": "Die Renovierung der Wohnung wird etwa drei Monate dauern.",
+    "example_vi": "Việc sửa chữa căn hộ sẽ kéo dài khoảng ba tháng."
+  },
+  {
+    "word": "der Umzug",
+    "level": "B1",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "việc chuyển nhà",
+    "example_de": "Unser Umzug in die neue Wohnung ist für nächsten Samstag geplant.",
+    "example_vi": "Việc chuyển nhà của chúng tôi sang căn hộ mới được lên kế hoạch vào thứ Bảy tuần sau."
+  },
+  {
+    "word": "die Einrichtung",
+    "level": "B1",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "nội thất",
+    "example_de": "Die moderne Einrichtung des Büros gefällt mir sehr gut.",
+    "example_vi": "Nội thất hiện đại của văn phòng làm tôi rất hài lòng."
+  },
+  {
+    "word": "die Heizung",
+    "level": "B1",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "hệ thống sưởi",
+    "example_de": "Im Winter funktioniert die Heizung in unserem Haus leider nicht richtig.",
+    "example_vi": "Vào mùa đông, hệ thống sưởi trong nhà chúng tôi không hoạt động đúng cách."
+  },
+  {
+    "word": "die Klimaanlage",
+    "level": "B1",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "điều hòa",
+    "example_de": "Bei dieser Hitze ist die Klimaanlage im Büro unbedingt notwendig.",
+    "example_vi": "Với cái nóng này, điều hòa trong văn phòng là thực sự cần thiết."
+  },
+  {
+    "word": "der Wasserhahn",
+    "level": "B1",
+    "topic": "plumbing",
+    "pos": "noun",
+    "meaning_vi": "vòi nước",
+    "example_de": "Der Wasserhahn in der Küche tropft und muss repariert werden.",
+    "example_vi": "Vòi nước trong bếp bị nhỏ giọt và cần được sửa chữa."
+  },
+  {
+    "word": "das Rohr",
+    "level": "B1",
+    "topic": "plumbing",
+    "pos": "noun",
+    "meaning_vi": "ống dẫn",
+    "example_de": "Das Rohr unter dem Waschbecken ist geplatzt und muss ausgetauscht werden.",
+    "example_vi": "Ống dẫn dưới bồn rửa bị vỡ và cần được thay thế."
+  },
+  {
+    "word": "der Abfluss",
+    "level": "B1",
+    "topic": "plumbing",
+    "pos": "noun",
+    "meaning_vi": "cống thoát nước",
+    "example_de": "Der Abfluss in der Dusche ist verstopft, das Wasser läuft nicht mehr ab.",
+    "example_vi": "Cống thoát nước trong phòng tắm bị tắc, nước không chảy được nữa."
+  },
+  {
+    "word": "die Steckdose",
+    "level": "B1",
+    "topic": "electrical",
+    "pos": "noun",
+    "meaning_vi": "ổ cắm điện",
+    "example_de": "In diesem Zimmer gibt es leider nur eine Steckdose.",
+    "example_vi": "Trong phòng này rất tiếc chỉ có một ổ cắm điện."
+  },
+  {
+    "word": "der Schalter",
+    "level": "B1",
+    "topic": "electrical",
+    "pos": "noun",
+    "meaning_vi": "công tắc",
+    "example_de": "Wo ist der Schalter für das Licht im Flur?",
+    "example_vi": "Công tắc đèn ở hành lang ở đâu?"
+  },
+  {
+    "word": "die Sicherung",
+    "level": "B1",
+    "topic": "electrical",
+    "pos": "noun",
+    "meaning_vi": "cầu chì",
+    "example_de": "Die Sicherung ist rausgesprungen, deshalb haben wir keinen Strom mehr.",
+    "example_vi": "Cầu chì bị hỏng, vì vậy chúng tôi không còn điện nữa."
+  },
+  {
+    "word": "das Kabel",
+    "level": "B1",
+    "topic": "electrical",
+    "pos": "noun",
+    "meaning_vi": "dây cáp",
+    "example_de": "Das Kabel ist zu kurz, um den Fernseher anzuschließen.",
+    "example_vi": "Dây cáp quá ngắn để kết nối tivi."
+  },
+  {
+    "word": "die Verlängerung",
+    "level": "B1",
+    "topic": "electrical",
+    "pos": "noun",
+    "meaning_vi": "dây nối dài",
+    "example_de": "Ich brauche eine Verlängerung für die Lampe im Wohnzimmer.",
+    "example_vi": "Tôi cần một dây nối dài cho cái đèn trong phòng khách."
+  },
+  {
+    "word": "der Stecker",
+    "level": "B1",
+    "topic": "electrical",
+    "pos": "noun",
+    "meaning_vi": "phích cắm",
+    "example_de": "Der Stecker passt nicht in diese Steckdose.",
+    "example_vi": "Phích cắm không vừa với ổ cắm này."
+  },
+  {
+    "word": "der Hammer",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "búa",
+    "example_de": "Mit dem Hammer schlage ich den Nagel in die Wand.",
+    "example_vi": "Tôi dùng búa để đóng đinh vào tường."
+  },
+  {
+    "word": "der Schraubenzieher",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "tuốc nơ vít",
+    "example_de": "Kannst du mir bitte den Schraubenzieher geben?",
+    "example_vi": "Bạn có thể đưa cho tôi cái tuốc nơ vít được không?"
+  },
+  {
+    "word": "die Zange",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "kìm",
+    "example_de": "Ich benutze die Zange, um den Draht zu schneiden.",
+    "example_vi": "Tôi dùng kìm để cắt dây."
+  },
+  {
+    "word": "die Säge",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "cưa",
+    "example_de": "Er schneidet das Holz mit einer Säge.",
+    "example_vi": "Anh ấy cắt gỗ bằng cưa."
+  },
+  {
+    "word": "der Nagel",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "đinh",
+    "example_de": "Ich habe mir einen Nagel in den Finger gehauen.",
+    "example_vi": "Tôi đã đóng đinh trúng ngón tay."
+  },
+  {
+    "word": "die Schraube",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "ốc vít",
+    "example_de": "Die Schraube ist locker und muss festgezogen werden.",
+    "example_vi": "Ốc vít bị lỏng và cần được vặn chặt lại."
+  },
+  {
+    "word": "der Bohrer",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "mũi khoan",
+    "example_de": "Dieser Bohrer ist zu klein für das Loch.",
+    "example_vi": "Mũi khoan này quá nhỏ cho lỗ khoan."
+  },
+  {
+    "word": "die Bohrmaschine",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "máy khoan",
+    "example_de": "Mein Vater hat eine neue Bohrmaschine gekauft.",
+    "example_vi": "Bố tôi đã mua một máy khoan mới."
+  },
+  {
+    "word": "das Maßband",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "thước dây",
+    "example_de": "Mit dem Maßband messe ich die Länge des Tisches.",
+    "example_vi": "Tôi dùng thước dây để đo chiều dài của cái bàn."
+  },
+  {
+    "word": "die Wasserwaage",
+    "level": "B1",
+    "topic": "tools",
+    "pos": "noun",
+    "meaning_vi": "thước thủy",
+    "example_de": "Die Wasserwaage zeigt, dass das Regal schief hängt.",
+    "example_vi": "Thước thủy cho thấy kệ treo bị lệch."
+  },
+  {
+    "word": "der Pinsel",
+    "level": "B1",
+    "topic": "painting",
+    "pos": "noun",
+    "meaning_vi": "cọ sơn",
+    "example_de": "Ich streiche die Wand mit einem breiten Pinsel.",
+    "example_vi": "Tôi sơn tường bằng một cọ sơn rộng."
+  },
+  {
+    "word": "die Farbe",
+    "level": "B1",
+    "topic": "painting",
+    "pos": "noun",
+    "meaning_vi": "sơn, màu",
+    "example_de": "Welche Farbe möchtest du für dein Zimmer?",
+    "example_vi": "Bạn muốn màu sơn nào cho phòng của bạn?"
+  },
+  {
+    "word": "die Tapete",
+    "level": "B1",
+    "topic": "decoration",
+    "pos": "noun",
+    "meaning_vi": "giấy dán tường",
+    "example_de": "Wir haben gestern die alte Tapete von der Wand entfernt.",
+    "example_vi": "Hôm qua chúng tôi đã gỡ giấy dán tường cũ ra khỏi tường."
+  },
+  {
+    "word": "die Fliese",
+    "level": "B1",
+    "topic": "decoration",
+    "pos": "noun",
+    "meaning_vi": "gạch lát",
+    "example_de": "Im Badezimmer ist eine Fliese gesprungen.",
+    "example_vi": "Trong phòng tắm có một viên gạch bị nứt."
+  },
+  {
+    "word": "das Parkett",
+    "level": "B1",
+    "topic": "decoration",
+    "pos": "noun",
+    "meaning_vi": "sàn gỗ",
+    "example_de": "Das Parkett in unserem Wohnzimmer muss poliert werden.",
+    "example_vi": "Sàn gỗ trong phòng khách của chúng tôi cần được đánh bóng."
+  },
+  {
+    "word": "die Gardine",
+    "level": "B1",
+    "topic": "decoration",
+    "pos": "noun",
+    "meaning_vi": "rèm voan",
+    "example_de": "Die Gardine ist zu dünn und lässt viel Licht durch.",
+    "example_vi": "Rèm voan quá mỏng và để ánh sáng lọt qua nhiều."
+  },
+  {
+    "word": "die Jalousie",
+    "level": "B1",
+    "topic": "decoration",
+    "pos": "noun",
+    "meaning_vi": "rèm lá",
+    "example_de": "Ich ziehe die Jalousie hoch, um mehr Licht hereinzulassen.",
+    "example_vi": "Tôi kéo rèm lá lên để cho nhiều ánh sáng vào hơn."
+  },
+  {
+    "word": "reparieren",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "sửa chữa",
+    "example_de": "Ich muss mein Fahrrad reparieren lassen, weil die Bremsen nicht mehr funktionieren.",
+    "example_vi": "Tôi phải mang xe đạp đi sửa vì phanh không hoạt động nữa."
+  },
+  {
+    "word": "renovieren",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "tân trang",
+    "example_de": "Wir renovieren gerade unser Badezimmer und streichen die Wände neu.",
+    "example_vi": "Chúng tôi đang tân trang lại phòng tắm và sơn lại tường."
+  },
+  {
+    "word": "streichen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "sơn",
+    "example_de": "Am Wochenende werde ich die Küche weiß streichen.",
+    "example_vi": "Cuối tuần tôi sẽ sơn nhà bếp màu trắng."
+  },
+  {
+    "word": "bohren",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "khoan",
+    "example_de": "Kannst du bitte ein Loch in die Wand bohren, damit ich das Regal aufhängen kann?",
+    "example_vi": "Bạn có thể khoan một lỗ trên tường để tôi treo kệ được không?"
+  },
+  {
+    "word": "schrauben",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "vặn ốc",
+    "example_de": "Er schraubt die Möbel zusammen, die wir bei IKEA gekauft haben.",
+    "example_vi": "Anh ấy đang vặn ốc lắp ráp đồ nội thất mà chúng tôi mua ở IKEA."
+  },
+  {
+    "word": "hämmern",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "đóng búa",
+    "example_de": "Der Nachbar hämmert schon seit zwei Stunden - das ist sehr laut!",
+    "example_vi": "Người hàng xóm đã đóng búa được hai tiếng rồi - ồn quá!"
+  },
+  {
+    "word": "montieren",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "lắp đặt",
+    "example_de": "Der Techniker wird morgen die neue Klimaanlage montieren.",
+    "example_vi": "Ngày mai kỹ thuật viên sẽ lắp đặt máy điều hòa mới."
+  },
+  {
+    "word": "installieren",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "cài đặt",
+    "example_de": "Ich habe gestern eine neue Software auf meinem Computer installiert.",
+    "example_vi": "Hôm qua tôi đã cài đặt một phần mềm mới trên máy tính."
+  },
+  {
+    "word": "anschließen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "kết nối",
+    "example_de": "Vergiss nicht, die Waschmaschine an den Wasserhahn anzuschließen.",
+    "example_vi": "Đừng quên kết nối máy giặt với vòi nước nhé."
+  },
+  {
+    "word": "einschalten",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "bật",
+    "example_de": "Kannst du bitte das Licht einschalten? Es ist zu dunkel hier.",
+    "example_vi": "Bạn có thể bật đèn được không? Ở đây tối quá."
+  },
+  {
+    "word": "ausschalten",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "tắt",
+    "example_de": "Bitte schalte den Fernseher aus, bevor du ins Bett gehst.",
+    "example_vi": "Hãy tắt tivi trước khi đi ngủ nhé."
+  },
+  {
+    "word": "die Gewährleistung",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "bảo hành",
+    "example_de": "Dieses Produkt hat eine Gewährleistung von zwei Jahren.",
+    "example_vi": "Sản phẩm này có thời gian bảo hành hai năm."
+  },
+  {
+    "word": "die Reklamation",
+    "level": "B2",
+    "topic": "consumer",
+    "pos": "noun",
+    "meaning_vi": "khiếu nại",
+    "example_de": "Ich möchte eine Reklamation einreichen, weil das Gerät defekt ist.",
+    "example_vi": "Tôi muốn nộp đơn khiếu nại vì thiết bị bị hỏng."
+  },
+  {
+    "word": "der Umtausch",
+    "level": "B2",
+    "topic": "consumer",
+    "pos": "noun",
+    "meaning_vi": "đổi hàng",
+    "example_de": "Ein Umtausch ist nur mit der Originalverpackung und dem Kassenbon möglich.",
+    "example_vi": "Việc đổi hàng chỉ có thể thực hiện khi có bao bì gốc và hóa đơn."
+  },
+  {
+    "word": "die Rückerstattung",
+    "level": "B2",
+    "topic": "consumer",
+    "pos": "noun",
+    "meaning_vi": "hoàn tiền",
+    "example_de": "Nach der Stornierung erhalten Sie eine vollständige Rückerstattung innerhalb von 14 Tagen.",
+    "example_vi": "Sau khi hủy, bạn sẽ nhận được hoàn tiền đầy đủ trong vòng 14 ngày."
+  },
+  {
+    "word": "der Lieferschein",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "phiếu giao hàng",
+    "example_de": "Bitte unterschreiben Sie den Lieferschein, wenn Sie das Paket erhalten.",
+    "example_vi": "Vui lòng ký vào phiếu giao hàng khi bạn nhận được kiện hàng."
+  },
+  {
+    "word": "die Bestellung",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "đơn đặt hàng",
+    "example_de": "Meine Online-Bestellung sollte morgen ankommen.",
+    "example_vi": "Đơn đặt hàng trực tuyến của tôi sẽ đến vào ngày mai."
+  },
+  {
+    "word": "die Lieferung",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "giao hàng",
+    "example_de": "Die Lieferung ist kostenlos, wenn Sie für mehr als 50 Euro bestellen.",
+    "example_vi": "Giao hàng miễn phí nếu bạn đặt hàng trên 50 euro."
+  },
+  {
+    "word": "der Versand",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "vận chuyển",
+    "example_de": "Der Versand dauert normalerweise 3 bis 5 Werktage.",
+    "example_vi": "Vận chuyển thường mất từ 3 đến 5 ngày làm việc."
+  },
+  {
+    "word": "die Verpackung",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "bao bì",
+    "example_de": "Die Verpackung war beschädigt, aber das Produkt ist in Ordnung.",
+    "example_vi": "Bao bì bị hư hỏng nhưng sản phẩm vẫn ổn."
+  },
+  {
+    "word": "die Sendungsverfolgung",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "theo dõi đơn hàng",
+    "example_de": "Mit der Sendungsverfolgung können Sie jederzeit sehen, wo sich Ihr Paket gerade befindet.",
+    "example_vi": "Với tính năng theo dõi đơn hàng, bạn có thể xem gói hàng của mình đang ở đâu bất cứ lúc nào."
+  },
+  {
+    "word": "die Zahlungsbedingungen",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "điều khoản thanh toán",
+    "example_de": "Bitte lesen Sie die Zahlungsbedingungen sorgfältig durch, bevor Sie den Vertrag unterschreiben.",
+    "example_vi": "Vui lòng đọc kỹ các điều khoản thanh toán trước khi ký hợp đồng."
+  },
+  {
+    "word": "die Überweisung",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "chuyển khoản",
+    "example_de": "Ich habe gestern eine Überweisung von 500 Euro an meinen Vermieter getätigt.",
+    "example_vi": "Hôm qua tôi đã thực hiện một giao dịch chuyển khoản 500 Euro cho chủ nhà của tôi."
+  },
+  {
+    "word": "der Dauerauftrag",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "lệnh thanh toán định kỳ",
+    "example_de": "Für die monatliche Miete habe ich einen Dauerauftrag eingerichtet.",
+    "example_vi": "Tôi đã thiết lập lệnh thanh toán định kỳ cho tiền thuê nhà hàng tháng."
+  },
+  {
+    "word": "die Lastschrift",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "trích nợ tự động",
+    "example_de": "Die Stromrechnung wird automatisch per Lastschrift von meinem Konto abgebucht.",
+    "example_vi": "Hóa đơn tiền điện được tự động trích nợ từ tài khoản của tôi."
+  },
+  {
+    "word": "die Buchung",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "giao dịch ngân hàng",
+    "example_de": "Auf meinem Kontoauszug erscheint eine unbekannte Buchung von 50 Euro.",
+    "example_vi": "Trên sao kê tài khoản của tôi xuất hiện một giao dịch lạ trị giá 50 Euro."
+  },
+  {
+    "word": "der Kontoauszug",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "sao kê tài khoản",
+    "example_de": "Ich hole mir jeden Monat meinen Kontoauszug am Bankautomaten ab.",
+    "example_vi": "Hàng tháng tôi lấy sao kê tài khoản tại máy ATM."
+  },
+  {
+    "word": "die Kontonummer",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "số tài khoản",
+    "example_de": "Für die Überweisung benötigen Sie meine Kontonummer und die Bankleitzahl.",
+    "example_vi": "Để chuyển khoản, bạn cần số tài khoản và mã ngân hàng của tôi."
+  },
+  {
+    "word": "die Bankleitzahl",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "mã ngân hàng",
+    "example_de": "Die Bankleitzahl meiner Bank ist 50010517.",
+    "example_vi": "Mã ngân hàng của ngân hàng tôi là 50010517."
+  },
+  {
+    "word": "der Zinssatz",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "lãi suất",
+    "example_de": "Der Zinssatz für Sparbücher ist in den letzten Jahren stark gesunken.",
+    "example_vi": "Lãi suất cho sổ tiết kiệm đã giảm mạnh trong những năm gần đây."
+  },
+  {
+    "word": "die Tilgung",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "trả nợ gốc",
+    "example_de": "Die monatliche Rate besteht aus Zinsen und Tilgung des Kredits.",
+    "example_vi": "Khoản trả hàng tháng bao gồm lãi và trả nợ gốc của khoản vay."
+  },
+  {
+    "word": "die Hypothek",
+    "level": "B2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "thế chấp",
+    "example_de": "Wir haben eine Hypothek auf unser Haus aufgenommen, um den Kauf zu finanzieren.",
+    "example_vi": "Chúng tôi đã thế chấp ngôi nhà để tài trợ cho việc mua nhà."
+  },
+  {
+    "word": "die Kaution",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "tiền đặt cọc",
+    "example_de": "Der Vermieter verlangt eine Kaution in Höhe von drei Monatsmieten.",
+    "example_vi": "Chủ nhà yêu cầu tiền đặt cọc tương đương ba tháng tiền thuê."
+  },
+  {
+    "word": "die Nebenkosten",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "chi phí phụ",
+    "example_de": "Zusätzlich zur Kaltmiete muss ich monatlich 150 Euro Nebenkosten zahlen.",
+    "example_vi": "Ngoài tiền thuê cơ bản, tôi phải trả 150 Euro chi phí phụ mỗi tháng."
+  },
+  {
+    "word": "die Betriebskosten",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "chi phí vận hành",
+    "example_de": "Die Betriebskosten umfassen Heizung, Wasser und Müllabfuhr.",
+    "example_vi": "Chi phí vận hành bao gồm sưởi, nước và thu gom rác."
+  },
+  {
+    "word": "der Mietvertrag",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "hợp đồng thuê",
+    "example_de": "Bevor ich einziehe, muss ich den Mietvertrag unterschreiben.",
+    "example_vi": "Trước khi chuyển vào, tôi phải ký hợp đồng thuê nhà."
+  },
+  {
+    "word": "die Kündigungsfrist",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "thời hạn báo trước",
+    "example_de": "Die Kündigungsfrist für meine Wohnung beträgt drei Monate.",
+    "example_vi": "Thời hạn báo trước cho căn hộ của tôi là ba tháng."
+  },
+  {
+    "word": "der Vermieter",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "chủ nhà",
+    "example_de": "Mein Vermieter ist sehr freundlich und kümmert sich schnell um Reparaturen.",
+    "example_vi": "Chủ nhà của tôi rất thân thiện và nhanh chóng xử lý các vấn đề sửa chữa."
+  },
+  {
+    "word": "der Mieter",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "người thuê",
+    "example_de": "Als Mieter habe ich das Recht auf eine funktionierende Heizung.",
+    "example_vi": "Với tư cách là người thuê, tôi có quyền được sử dụng hệ thống sưởi hoạt động tốt."
+  },
+  {
+    "word": "die Hausverwaltung",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "ban quản lý tòa nhà",
+    "example_de": "Bei Problemen mit der Wohnung wende ich mich an die Hausverwaltung.",
+    "example_vi": "Khi có vấn đề với căn hộ, tôi liên hệ với ban quản lý tòa nhà."
+  },
+  {
+    "word": "der Hausmeister",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "quản lý tòa nhà",
+    "example_de": "Der Hausmeister kümmert sich um die Reparaturen im Gebäude.",
+    "example_vi": "Người quản lý tòa nhà lo việc sửa chữa trong tòa nhà."
+  },
+  {
+    "word": "die Eigentümerversammlung",
+    "level": "B2",
+    "topic": "housing",
+    "pos": "noun",
+    "meaning_vi": "họp chủ sở hữu",
+    "example_de": "Die Eigentümerversammlung findet einmal jährlich statt.",
+    "example_vi": "Cuộc họp chủ sở hữu diễn ra một lần mỗi năm."
+  },
+  {
+    "word": "reklamieren",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "khiếu nại",
+    "example_de": "Ich möchte dieses defekte Produkt reklamieren.",
+    "example_vi": "Tôi muốn khiếu nại sản phẩm bị lỗi này."
+  },
+  {
+    "word": "umtauschen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "đổi hàng",
+    "example_de": "Kann ich diese Schuhe gegen eine andere Größe umtauschen?",
+    "example_vi": "Tôi có thể đổi đôi giày này lấy size khác được không?"
+  },
+  {
+    "word": "erstatten",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "hoàn trả",
+    "example_de": "Die Versicherung wird die Kosten vollständig erstatten.",
+    "example_vi": "Công ty bảo hiểm sẽ hoàn trả toàn bộ chi phí."
+  },
+  {
+    "word": "überweisen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "chuyển khoản",
+    "example_de": "Bitte überweisen Sie den Betrag auf mein Konto.",
+    "example_vi": "Vui lòng chuyển khoản số tiền vào tài khoản của tôi."
+  },
+  {
+    "word": "kündigen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "hủy hợp đồng",
+    "example_de": "Ich muss meinen Handyvertrag bis Ende des Monats kündigen.",
+    "example_vi": "Tôi phải hủy hợp đồng điện thoại trước cuối tháng."
+  },
+  {
+    "word": "verlängern",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "gia hạn",
+    "example_de": "Ich möchte meinen Mietvertrag um ein Jahr verlängern.",
+    "example_vi": "Tôi muốn gia hạn hợp đồng thuê nhà thêm một năm."
+  },
+  {
+    "word": "beantragen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "nộp đơn xin",
+    "example_de": "Sie müssen ein Visum bei der Botschaft beantragen.",
+    "example_vi": "Bạn phải nộp đơn xin visa tại đại sứ quán."
+  },
+  {
+    "word": "genehmigen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "phê duyệt",
+    "example_de": "Die Behörde hat meinen Bauantrag genehmigt.",
+    "example_vi": "Cơ quan chức năng đã phê duyệt đơn xin xây dựng của tôi."
+  },
+  {
+    "word": "ablehnen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "từ chối",
+    "example_de": "Die Bank hat meinen Kreditantrag abgelehnt.",
+    "example_vi": "Ngân hàng đã từ chối đơn xin vay của tôi."
+  },
+  {
+    "word": "bewilligen",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "cấp phép",
+    "example_de": "Das Amt hat mir eine finanzielle Unterstützung bewilligt.",
+    "example_vi": "Cơ quan đã cấp phép hỗ trợ tài chính cho tôi."
+  },
+  {
+    "word": "die Fälligkeit",
+    "level": "C1",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "ngày đáo hạn",
+    "example_de": "Die Fälligkeit der Rechnung ist der 15. März.",
+    "example_vi": "Ngày đáo hạn của hóa đơn là ngày 15 tháng 3."
+  },
+  {
+    "word": "die Bonität",
+    "level": "C1",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "mức tín nhiệm",
+    "example_de": "Für einen Kredit muss man eine gute Bonität nachweisen.",
+    "example_vi": "Để vay tiền, người ta phải chứng minh mức tín nhiệm tốt."
+  },
+  {
+    "word": "die Schufa",
+    "level": "C1",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "cơ quan thẩm định tín dụng",
+    "example_de": "Die Schufa speichert Informationen über Ihre Kreditwürdigkeit.",
+    "example_vi": "Schufa lưu trữ thông tin về khả năng tín dụng của bạn."
+  },
+  {
+    "word": "die Bürgschaft",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "bảo lãnh",
+    "example_de": "Mein Vater hat eine Bürgschaft für meinen Kredit übernommen.",
+    "example_vi": "Bố tôi đã làm bảo lãnh cho khoản vay của tôi."
+  },
+  {
+    "word": "die Vollmacht",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "giấy ủy quyền",
+    "example_de": "Ich habe meinem Anwalt eine Vollmacht erteilt.",
+    "example_vi": "Tôi đã cấp giấy ủy quyền cho luật sư của tôi."
+  },
+  {
+    "word": "die Beglaubigung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "công chứng",
+    "example_de": "Für die Bewerbung brauche ich eine Beglaubigung meiner Zeugnisse.",
+    "example_vi": "Để nộp hồ sơ, tôi cần công chứng bằng cấp của mình."
+  },
+  {
+    "word": "die Beurkundung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "chứng thực",
+    "example_de": "Die Beurkundung des Kaufvertrags erfolgt beim Notar.",
+    "example_vi": "Việc chứng thực hợp đồng mua bán được thực hiện tại công chứng viên."
+  },
+  {
+    "word": "der Notar",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "công chứng viên",
+    "example_de": "Der Notar hat den Immobilienkaufvertrag beglaubigt.",
+    "example_vi": "Công chứng viên đã công chứng hợp đồng mua bán bất động sản."
+  },
+  {
+    "word": "das Grundbuch",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "sổ đỏ bất động sản",
+    "example_de": "Der Notar hat die Eigentumsübertragung im Grundbuch eingetragen.",
+    "example_vi": "Công chứng viên đã ghi việc chuyển quyền sở hữu vào sổ đỏ bất động sản."
+  },
+  {
+    "word": "der Grundbuchauszug",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "trích lục sổ đỏ",
+    "example_de": "Für den Kreditantrag benötigt die Bank einen aktuellen Grundbuchauszug.",
+    "example_vi": "Để xin vay tín dụng, ngân hàng cần một bản trích lục sổ đỏ mới nhất."
+  },
+  {
+    "word": "die Grundschuld",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền thế chấp đất",
+    "example_de": "Die Bank hat eine Grundschuld von 300.000 Euro auf das Haus eingetragen.",
+    "example_vi": "Ngân hàng đã đăng ký quyền thế chấp đất trị giá 300.000 Euro lên ngôi nhà."
+  },
+  {
+    "word": "die Löschungsbewilligung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "giấy xóa thế chấp",
+    "example_de": "Nach vollständiger Tilgung des Kredits stellt die Bank eine Löschungsbewilligung aus.",
+    "example_vi": "Sau khi trả hết khoản vay, ngân hàng cấp giấy xóa thế chấp."
+  },
+  {
+    "word": "der Kaufvertrag",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "hợp đồng mua bán",
+    "example_de": "Der Kaufvertrag für die Wohnung wurde gestern beim Notar unterschrieben.",
+    "example_vi": "Hợp đồng mua bán căn hộ đã được ký tại văn phòng công chứng ngày hôm qua."
+  },
+  {
+    "word": "die Auflassung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "chuyển nhượng quyền sở hữu",
+    "example_de": "Die Auflassung muss notariell beurkundet werden, damit der Eigentumsübergang wirksam wird.",
+    "example_vi": "Việc chuyển nhượng quyền sở hữu phải được công chứng để có hiệu lực chuyển giao quyền sở hữu."
+  },
+  {
+    "word": "die Unbedenklichkeitsbescheinigung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "giấy chứng nhận không nợ thuế",
+    "example_de": "Ohne die Unbedenklichkeitsbescheinigung vom Finanzamt kann der Verkauf nicht abgeschlossen werden.",
+    "example_vi": "Không có giấy chứng nhận không nợ thuế từ cơ quan thuế thì không thể hoàn tất việc bán."
+  },
+  {
+    "word": "die Maklerprovision",
+    "level": "C1",
+    "topic": "real_estate",
+    "pos": "noun",
+    "meaning_vi": "phí môi giới",
+    "example_de": "Die Maklerprovision beträgt in dieser Region üblicherweise 3,57% des Kaufpreises.",
+    "example_vi": "Phí môi giới ở khu vực này thường là 3,57% giá mua."
+  },
+  {
+    "word": "der Sachverständige",
+    "level": "C1",
+    "topic": "professional",
+    "pos": "noun",
+    "meaning_vi": "chuyên gia thẩm định",
+    "example_de": "Ein unabhängiger Sachverständiger wurde beauftragt, den Zustand des Gebäudes zu prüfen.",
+    "example_vi": "Một chuyên gia thẩm định độc lập đã được thuê để kiểm tra tình trạng của tòa nhà."
+  },
+  {
+    "word": "das Gutachten",
+    "level": "C1",
+    "topic": "professional",
+    "pos": "noun",
+    "meaning_vi": "báo cáo thẩm định",
+    "example_de": "Das Gutachten des Sachverständigen ergab einen Wert von 450.000 Euro für das Grundstück.",
+    "example_vi": "Báo cáo thẩm định của chuyên gia cho thấy giá trị của mảnh đất là 450.000 Euro."
+  },
+  {
+    "word": "die Bewertung",
+    "level": "C1",
+    "topic": "professional",
+    "pos": "noun",
+    "meaning_vi": "đánh giá",
+    "example_de": "Die Bewertung der Immobilie erfolgt nach dem Vergleichswertverfahren.",
+    "example_vi": "Việc đánh giá bất động sản được thực hiện theo phương pháp so sánh giá trị."
+  },
+  {
+    "word": "der Verkehrswert",
+    "level": "C1",
+    "topic": "real_estate",
+    "pos": "noun",
+    "meaning_vi": "giá trị thị trường",
+    "example_de": "Der Verkehrswert der Immobilie liegt deutlich über dem Einheitswert.",
+    "example_vi": "Giá trị thị trường của bất động sản cao hơn đáng kể so với giá trị chuẩn."
+  },
+  {
+    "word": "der Einheitswert",
+    "level": "C1",
+    "topic": "real_estate",
+    "pos": "noun",
+    "meaning_vi": "giá trị chuẩn",
+    "example_de": "Der Einheitswert wird vom Finanzamt zur Berechnung der Grundsteuer herangezogen.",
+    "example_vi": "Giá trị chuẩn được cơ quan thuế sử dụng để tính thuế đất."
+  },
+  {
+    "word": "die Grunderwerbsteuer",
+    "level": "C1",
+    "topic": "tax",
+    "pos": "noun",
+    "meaning_vi": "thuế chuyển nhượng BĐS",
+    "example_de": "In Bayern beträgt die Grunderwerbsteuer 3,5% des Kaufpreises.",
+    "example_vi": "Ở Bayern, thuế chuyển nhượng bất động sản là 3,5% giá mua."
+  },
+  {
+    "word": "die Spekulationssteuer",
+    "level": "C1",
+    "topic": "tax",
+    "pos": "noun",
+    "meaning_vi": "thuế lợi nhuận đầu cơ",
+    "example_de": "Wer eine Immobilie innerhalb von zehn Jahren nach dem Kauf wieder verkauft, muss Spekulationssteuer zahlen.",
+    "example_vi": "Ai bán lại bất động sản trong vòng mười năm sau khi mua phải đóng thuế lợi nhuận đầu cơ."
+  },
+  {
+    "word": "die Abschreibung",
+    "level": "C1",
+    "topic": "tax",
+    "pos": "noun",
+    "meaning_vi": "khấu hao",
+    "example_de": "Vermieter können jährlich 2% der Anschaffungskosten als Abschreibung geltend machen.",
+    "example_vi": "Chủ nhà cho thuê có thể khấu trừ 2% chi phí mua hàng năm dưới hình thức khấu hao."
+  },
+  {
+    "word": "die Werbungskosten",
+    "level": "C1",
+    "topic": "tax",
+    "pos": "noun",
+    "meaning_vi": "chi phí được khấu trừ",
+    "example_de": "Renovierungskosten und Maklergebühren zählen zu den Werbungskosten bei Vermietung.",
+    "example_vi": "Chi phí sửa chữa và phí môi giới được tính vào chi phí được khấu trừ khi cho thuê."
+  },
+  {
+    "word": "beglaubigen",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "công chứng",
+    "example_de": "Der Notar muss die Unterschriften auf dem Kaufvertrag beglaubigen.",
+    "example_vi": "Công chứng viên phải công chứng chữ ký trên hợp đồng mua bán."
+  },
+  {
+    "word": "beurkunden",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "chứng thực",
+    "example_de": "Der Immobilienkauf muss notariell beurkundet werden, um rechtsgültig zu sein.",
+    "example_vi": "Việc mua bất động sản phải được chứng thực bởi công chứng viên để có hiệu lực pháp lý."
+  },
+  {
+    "word": "bevollmächtigen",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "ủy quyền",
+    "example_de": "Ich habe meinen Anwalt bevollmächtigt, den Kaufvertrag in meinem Namen zu unterzeichnen.",
+    "example_vi": "Tôi đã ủy quyền cho luật sư của tôi ký hợp đồng mua bán thay mặt tôi."
+  },
+  {
+    "word": "veräußern",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "chuyển nhượng",
+    "example_de": "Die Familie möchte ihr Grundstück in bester Lage veräußern.",
+    "example_vi": "Gia đình muốn chuyển nhượng mảnh đất ở vị trí đẹp của họ."
+  },
+  {
+    "word": "erwerben",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "mua, có được",
+    "example_de": "Er hat vor zwei Jahren eine Eigentumswohnung in München erworben.",
+    "example_vi": "Anh ấy đã mua một căn hộ chung cư ở München hai năm trước."
+  },
+  {
+    "word": "verpfänden",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "thế chấp",
+    "example_de": "Um den Kredit zu erhalten, musste er sein Haus verpfänden.",
+    "example_vi": "Để nhận được khoản vay, anh ấy phải thế chấp ngôi nhà của mình."
+  },
+  {
+    "word": "tilgen",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "trả hết nợ",
+    "example_de": "Sie plant, ihre Hypothek innerhalb von 20 Jahren vollständig zu tilgen.",
+    "example_vi": "Cô ấy dự định trả hết khoản thế chấp trong vòng 20 năm."
+  },
+  {
+    "word": "abschreiben",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "khấu hao",
+    "example_de": "Das Unternehmen kann die Anschaffungskosten des Gebäudes über 50 Jahre abschreiben.",
+    "example_vi": "Công ty có thể khấu hao chi phí mua tòa nhà trong 50 năm."
+  },
+  {
+    "word": "veranlagen",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "tính thuế",
+    "example_de": "Die Mieteinnahmen werden jährlich vom Finanzamt veranlagt.",
+    "example_vi": "Thu nhập từ cho thuê được cơ quan thuế tính thuế hàng năm."
+  },
+  {
+    "word": "versteuern",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "đóng thuế",
+    "example_de": "Gewinne aus dem Verkauf von Immobilien müssen unter bestimmten Umständen versteuert werden.",
+    "example_vi": "Lợi nhuận từ bán bất động sản phải được đóng thuế trong một số trường hợp nhất định."
+  },
+  {
+    "word": "die Grunddienstbarkeit",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền địa dịch",
+    "example_de": "Auf dem Grundstück liegt eine Grunddienstbarkeit, die dem Nachbarn ein Wegerecht gewährt.",
+    "example_vi": "Trên mảnh đất có quyền địa dịch cho phép người hàng xóm có quyền đi qua."
+  },
+  {
+    "word": "das Erbbaurecht",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền xây dựng trên đất",
+    "example_de": "Mit einem Erbbaurecht kann man auf fremdem Grund und Boden bauen, ohne das Land zu kaufen.",
+    "example_vi": "Với quyền xây dựng trên đất, người ta có thể xây dựng trên đất của người khác mà không cần mua đất."
+  },
+  {
+    "word": "das Vorkaufsrecht",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền ưu tiên mua",
+    "example_de": "Die Gemeinde hat ein Vorkaufsrecht für dieses Grundstück geltend gemacht.",
+    "example_vi": "Chính quyền địa phương đã thực hiện quyền ưu tiên mua đối với mảnh đất này."
+  },
+  {
+    "word": "die Reallast",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "nghĩa vụ gắn liền BĐS",
+    "example_de": "Eine Reallast verpflichtet den Eigentümer zu wiederkehrenden Leistungen aus dem Grundstück.",
+    "example_vi": "Nghĩa vụ gắn liền bất động sản bắt buộc chủ sở hữu phải thực hiện các khoản thanh toán định kỳ từ bất động sản."
+  },
+  {
+    "word": "das Wegerecht",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền đi qua",
+    "example_de": "Der hintere Grundstücksteil ist nur über ein Wegerecht durch das Nachbargrundstück erreichbar.",
+    "example_vi": "Phần đất phía sau chỉ có thể tiếp cận thông qua quyền đi qua mảnh đất hàng xóm."
+  },
+  {
+    "word": "die Baulast",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "nghĩa vụ xây dựng",
+    "example_de": "Im Baulastenverzeichnis ist eine Abstandsflächenbaulast eingetragen.",
+    "example_vi": "Trong sổ đăng ký nghĩa vụ xây dựng có ghi nhận nghĩa vụ về khoảng cách xây dựng."
+  },
+  {
+    "word": "der Bebauungsplan",
+    "level": "C2",
+    "topic": "urban",
+    "pos": "noun",
+    "meaning_vi": "quy hoạch xây dựng",
+    "example_de": "Laut Bebauungsplan ist auf diesem Grundstück nur ein zweigeschossiges Wohnhaus zulässig.",
+    "example_vi": "Theo quy hoạch xây dựng, trên mảnh đất này chỉ được phép xây nhà ở hai tầng."
+  },
+  {
+    "word": "der Flächennutzungsplan",
+    "level": "C2",
+    "topic": "urban",
+    "pos": "noun",
+    "meaning_vi": "quy hoạch sử dụng đất",
+    "example_de": "Der Flächennutzungsplan weist dieses Gebiet als Wohnbaufläche aus.",
+    "example_vi": "Quy hoạch sử dụng đất chỉ định khu vực này là đất xây dựng nhà ở."
+  },
+  {
+    "word": "die Bauvoranfrage",
+    "level": "C2",
+    "topic": "urban",
+    "pos": "noun",
+    "meaning_vi": "thẩm tra quy hoạch",
+    "example_de": "Vor dem Grundstückskauf stellte er eine Bauvoranfrage, um die Bebaubarkeit zu prüfen.",
+    "example_vi": "Trước khi mua đất, anh ấy đã nộp đơn thẩm tra quy hoạch để kiểm tra khả năng xây dựng."
+  },
+  {
+    "word": "die Baugenehmigung",
+    "level": "C2",
+    "topic": "urban",
+    "pos": "noun",
+    "meaning_vi": "giấy phép xây dựng",
+    "example_de": "Die Baugenehmigung für das neue Einfamilienhaus wurde nach drei Monaten erteilt.",
+    "example_vi": "Giấy phép xây dựng cho ngôi nhà gia đình mới đã được cấp sau ba tháng."
+  },
+  {
+    "word": "die Nutzungsänderung",
+    "level": "C2",
+    "topic": "urban",
+    "pos": "noun",
+    "meaning_vi": "thay đổi mục đích sử dụng",
+    "example_de": "Für die Nutzungsänderung von Gewerbe zu Wohnen ist eine Genehmigung erforderlich.",
+    "example_vi": "Việc thay đổi mục đích sử dụng từ thương mại sang nhà ở cần có giấy phép."
+  },
+  {
+    "word": "der Denkmalschutz",
+    "level": "C2",
+    "topic": "heritage",
+    "pos": "noun",
+    "meaning_vi": "bảo tồn di sản",
+    "example_de": "Das Gebäude steht unter Denkmalschutz und darf nicht abgerissen werden.",
+    "example_vi": "Tòa nhà được bảo tồn di sản và không được phép phá dỡ."
+  },
+  {
+    "word": "die Sanierungssatzung",
+    "level": "C2",
+    "topic": "urban",
+    "pos": "noun",
+    "meaning_vi": "quy chế cải tạo",
+    "example_de": "Durch die Sanierungssatzung soll die Altstadt aufgewertet und modernisiert werden.",
+    "example_vi": "Quy chế cải tạo nhằm nâng cấp và hiện đại hóa khu phố cổ."
+  },
+  {
+    "word": "das Vorkaufsrechtsverzichtserklärung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "tuyên bố từ bỏ quyền ưu tiên mua",
+    "example_de": "Der Verkäufer benötigt eine Vorkaufsrechtsverzichtserklärung von der Gemeinde, bevor er die Immobilie an einen privaten Käufer verkaufen kann.",
+    "example_vi": "Người bán cần có tuyên bố từ bỏ quyền ưu tiên mua từ chính quyền địa phương trước khi có thể bán bất động sản cho người mua tư nhân."
+  },
+  {
+    "word": "die Teilungserklärung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "tuyên bố phân chia",
+    "example_de": "In der Teilungserklärung sind die genauen Grenzen jeder Eigentumswohnung sowie die Aufteilung der Gemeinschaftsflächen festgelegt.",
+    "example_vi": "Trong tuyên bố phân chia, ranh giới chính xác của mỗi căn hộ sở hữu cũng như việc phân chia các khu vực chung được quy định rõ ràng."
+  },
+  {
+    "word": "die Gemeinschaftsordnung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "nội quy cộng đồng",
+    "example_de": "Laut Gemeinschaftsordnung ist das Grillen auf dem Balkon nach 22 Uhr strengstens verboten.",
+    "example_vi": "Theo nội quy cộng đồng, việc nướng thịt trên ban công sau 22 giờ bị nghiêm cấm."
+  },
+  {
+    "word": "die Instandhaltungsrücklage",
+    "level": "C2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "quỹ bảo trì",
+    "example_de": "Alle Wohnungseigentümer müssen monatlich in die Instandhaltungsrücklage einzahlen, um zukünftige Reparaturen am Gebäude finanzieren zu können.",
+    "example_vi": "Tất cả chủ sở hữu căn hộ phải đóng góp hàng tháng vào quỹ bảo trì để có thể tài trợ cho các sửa chữa tòa nhà trong tương lai."
+  },
+  {
+    "word": "die Sonderumlage",
+    "level": "C2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "phí đặc biệt",
+    "example_de": "Wegen der unerwarteten Dachsanierung wurde eine Sonderumlage von 5.000 Euro pro Wohnung beschlossen.",
+    "example_vi": "Do việc sửa chữa mái nhà bất ngờ, một khoản phí đặc biệt 5.000 Euro cho mỗi căn hộ đã được quyết định."
+  },
+  {
+    "word": "das Hausgeld",
+    "level": "C2",
+    "topic": "finance",
+    "pos": "noun",
+    "meaning_vi": "phí quản lý chung cư",
+    "example_de": "Das monatliche Hausgeld beträgt 250 Euro und deckt die Kosten für Hausmeister, Müllabfuhr und Treppenhausreinigung.",
+    "example_vi": "Phí quản lý chung cư hàng tháng là 250 Euro và bao gồm chi phí cho người quản lý, thu gom rác và vệ sinh cầu thang."
+  },
+  {
+    "word": "die Beschlussfassung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "ra quyết định",
+    "example_de": "Die Beschlussfassung über die neue Hausordnung erfolgt in der nächsten Eigentümerversammlung mit einfacher Mehrheit.",
+    "example_vi": "Việc ra quyết định về nội quy mới của tòa nhà sẽ được thực hiện trong cuộc họp chủ sở hữu tiếp theo với đa số phiếu đơn giản."
+  }
+]

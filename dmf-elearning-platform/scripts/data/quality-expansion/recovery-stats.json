@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-02T07:48:06.009Z",
+  "totalMined": 12780,
+  "alreadyIncluded": 3955,
+  "notIncluded": 10204,
+  "recovered": 10158,
+  "stillSkipped": 46,
+  "distribution": {
+    "A2": 36,
+    "B1": 1971,
+    "B2": 3539,
+    "A1": 12,
+    "C1": 3797,
+    "C2": 803
+  }
+}

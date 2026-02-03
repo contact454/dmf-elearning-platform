@@ -1,0 +1,1402 @@
+[
+  {
+    "word": "Hallo",
+    "pos": "interjection",
+    "meaning_vi": "xin chào",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Guten Morgen",
+    "pos": "phrase",
+    "meaning_vi": "chào buổi sáng",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Guten Tag",
+    "pos": "phrase",
+    "meaning_vi": "chào buổi trưa",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Guten Abend",
+    "pos": "phrase",
+    "meaning_vi": "chào buổi tối",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Gute Nacht",
+    "pos": "phrase",
+    "meaning_vi": "chúc ngủ ngon",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Auf Wiedersehen",
+    "pos": "phrase",
+    "meaning_vi": "tạm biệt",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Tschüss",
+    "pos": "interjection",
+    "meaning_vi": "tạm biệt",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Bis bald",
+    "pos": "phrase",
+    "meaning_vi": "hẹn gặp lại",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Willkommen",
+    "pos": "interjection",
+    "meaning_vi": "chào mừng",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Bitte",
+    "pos": "particle",
+    "meaning_vi": "xin/mời",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Danke",
+    "pos": "interjection",
+    "meaning_vi": "cảm ơn",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Entschuldigung",
+    "pos": "interjection",
+    "meaning_vi": "xin lỗi",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Herzlichen Glückwunsch",
+    "pos": "phrase",
+    "meaning_vi": "chúc mừng",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Frohe Weihnachten",
+    "pos": "phrase",
+    "meaning_vi": "Giáng sinh vui vẻ",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Frohes neues Jahr",
+    "pos": "phrase",
+    "meaning_vi": "Chúc mừng năm mới",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Alles Gute",
+    "pos": "phrase",
+    "meaning_vi": "Chúc tất cả điều tốt đẹp",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Viel Glück",
+    "pos": "phrase",
+    "meaning_vi": "Chúc may mắn",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Viel Erfolg",
+    "pos": "phrase",
+    "meaning_vi": "Chúc thành công",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Gute Besserung",
+    "pos": "phrase",
+    "meaning_vi": "Chúc sớm khỏe",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Gute Reise",
+    "pos": "phrase",
+    "meaning_vi": "Chúc thượng lộ bình an",
+    "level": "A1",
+    "topic": "a1_greetings"
+  },
+  {
+    "word": "Wie geht es dir?",
+    "pos": "phrase",
+    "meaning_vi": "Bạn khỏe không?",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Mir geht es gut",
+    "pos": "phrase",
+    "meaning_vi": "Tôi khỏe",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Wie heißt du?",
+    "pos": "phrase",
+    "meaning_vi": "Bạn tên gì?",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Ich heiße...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi tên là...",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Woher kommst du?",
+    "pos": "phrase",
+    "meaning_vi": "Bạn từ đâu đến?",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Ich komme aus...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi đến từ...",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Wie alt bist du?",
+    "pos": "phrase",
+    "meaning_vi": "Bạn bao nhiêu tuổi?",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Ich bin...Jahre alt",
+    "pos": "phrase",
+    "meaning_vi": "Tôi...tuổi",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Ich verstehe nicht",
+    "pos": "phrase",
+    "meaning_vi": "Tôi không hiểu",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Können Sie das wiederholen?",
+    "pos": "phrase",
+    "meaning_vi": "Bạn có thể nhắc lại không?",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Wie sagt man...auf Deutsch?",
+    "pos": "phrase",
+    "meaning_vi": "Nói...bằng tiếng Đức như thế nào?",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Was bedeutet...?",
+    "pos": "phrase",
+    "meaning_vi": "...nghĩa là gì?",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Sprechen Sie Englisch?",
+    "pos": "phrase",
+    "meaning_vi": "Bạn nói tiếng Anh không?",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Ja",
+    "pos": "particle",
+    "meaning_vi": "vâng",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Nein",
+    "pos": "particle",
+    "meaning_vi": "không",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Vielleicht",
+    "pos": "adverb",
+    "meaning_vi": "có lẽ",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Natürlich",
+    "pos": "adverb",
+    "meaning_vi": "tất nhiên",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Genau",
+    "pos": "adverb",
+    "meaning_vi": "chính xác",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Sicher",
+    "pos": "adverb",
+    "meaning_vi": "chắc chắn",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "Klar",
+    "pos": "adverb",
+    "meaning_vi": "rõ ràng",
+    "level": "A1",
+    "topic": "a1_common_phrases"
+  },
+  {
+    "word": "links",
+    "pos": "adverb",
+    "meaning_vi": "bên trái",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "rechts",
+    "pos": "adverb",
+    "meaning_vi": "bên phải",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "geradeaus",
+    "pos": "adverb",
+    "meaning_vi": "đi thẳng",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "zurück",
+    "pos": "adverb",
+    "meaning_vi": "quay lại",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "vorwärts",
+    "pos": "adverb",
+    "meaning_vi": "tiến về phía trước",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "rückwärts",
+    "pos": "adverb",
+    "meaning_vi": "lùi lại",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "oben",
+    "pos": "adverb",
+    "meaning_vi": "ở trên",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "unten",
+    "pos": "adverb",
+    "meaning_vi": "ở dưới",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "drinnen",
+    "pos": "adverb",
+    "meaning_vi": "ở trong",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "draußen",
+    "pos": "adverb",
+    "meaning_vi": "ở ngoài",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "nah",
+    "pos": "adjective",
+    "meaning_vi": "gần",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "weit",
+    "pos": "adjective",
+    "meaning_vi": "xa",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "die Ecke",
+    "pos": "noun",
+    "meaning_vi": "góc",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "die Kreuzung",
+    "pos": "noun",
+    "meaning_vi": "ngã tư",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "die Ampel",
+    "pos": "noun",
+    "meaning_vi": "đèn giao thông",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "gegenüber",
+    "pos": "preposition",
+    "meaning_vi": "đối diện",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "entlang",
+    "pos": "preposition",
+    "meaning_vi": "dọc theo",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "bis zu",
+    "pos": "preposition",
+    "meaning_vi": "đến tận",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "abbiegen",
+    "pos": "verb",
+    "meaning_vi": "rẽ",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "überqueren",
+    "pos": "verb",
+    "meaning_vi": "băng qua",
+    "level": "A2",
+    "topic": "a2_directions"
+  },
+  {
+    "word": "die Waschmaschine",
+    "pos": "noun",
+    "meaning_vi": "máy giặt",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "der Trockner",
+    "pos": "noun",
+    "meaning_vi": "máy sấy",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "der Staubsauger",
+    "pos": "noun",
+    "meaning_vi": "máy hút bụi",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "das Bügeleisen",
+    "pos": "noun",
+    "meaning_vi": "bàn ủi",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "der Föhn",
+    "pos": "noun",
+    "meaning_vi": "máy sấy tóc",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "die Zahnbürste",
+    "pos": "noun",
+    "meaning_vi": "bàn chải đánh răng",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "die Zahnpasta",
+    "pos": "noun",
+    "meaning_vi": "kem đánh răng",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "die Seife",
+    "pos": "noun",
+    "meaning_vi": "xà phòng",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "das Shampoo",
+    "pos": "noun",
+    "meaning_vi": "dầu gội",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "das Handtuch",
+    "pos": "noun",
+    "meaning_vi": "khăn tắm",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "der Wecker",
+    "pos": "noun",
+    "meaning_vi": "đồng hồ báo thức",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "die Fernbedienung",
+    "pos": "noun",
+    "meaning_vi": "điều khiển từ xa",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "die Batterie",
+    "pos": "noun",
+    "meaning_vi": "pin",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "das Ladegerät",
+    "pos": "noun",
+    "meaning_vi": "bộ sạc",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "das Kabel",
+    "pos": "noun",
+    "meaning_vi": "cáp",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "der Ventilator",
+    "pos": "noun",
+    "meaning_vi": "quạt",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "die Heizung",
+    "pos": "noun",
+    "meaning_vi": "lò sưởi",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "der Müllbeutel",
+    "pos": "noun",
+    "meaning_vi": "túi rác",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "der Besen",
+    "pos": "noun",
+    "meaning_vi": "chổi",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "der Eimer",
+    "pos": "noun",
+    "meaning_vi": "xô",
+    "level": "A2",
+    "topic": "a2_home_items"
+  },
+  {
+    "word": "Was kostet das?",
+    "pos": "phrase",
+    "meaning_vi": "Cái này giá bao nhiêu?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Wie viel macht das?",
+    "pos": "phrase",
+    "meaning_vi": "Tổng cộng bao nhiêu?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Das ist zu teuer",
+    "pos": "phrase",
+    "meaning_vi": "Cái này đắt quá",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Haben Sie das billiger?",
+    "pos": "phrase",
+    "meaning_vi": "Có rẻ hơn không?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Kann ich bar bezahlen?",
+    "pos": "phrase",
+    "meaning_vi": "Tôi có thể trả tiền mặt không?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Kann ich mit Karte zahlen?",
+    "pos": "phrase",
+    "meaning_vi": "Tôi có thể trả bằng thẻ không?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Haben Sie eine größere Größe?",
+    "pos": "phrase",
+    "meaning_vi": "Có size lớn hơn không?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Haben Sie eine andere Farbe?",
+    "pos": "phrase",
+    "meaning_vi": "Có màu khác không?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Kann ich das anprobieren?",
+    "pos": "phrase",
+    "meaning_vi": "Tôi có thể thử không?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Wo ist die Umkleidekabine?",
+    "pos": "phrase",
+    "meaning_vi": "Phòng thử đồ ở đâu?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Ich nehme das",
+    "pos": "phrase",
+    "meaning_vi": "Tôi lấy cái này",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Ich schaue nur",
+    "pos": "phrase",
+    "meaning_vi": "Tôi chỉ xem thôi",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Kann ich eine Tüte haben?",
+    "pos": "phrase",
+    "meaning_vi": "Cho tôi một túi được không?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Haben Sie noch etwas anderes?",
+    "pos": "phrase",
+    "meaning_vi": "Còn cái khác không?",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Das passt nicht",
+    "pos": "phrase",
+    "meaning_vi": "Cái này không vừa",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Das gefällt mir",
+    "pos": "phrase",
+    "meaning_vi": "Tôi thích cái này",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "Das gefällt mir nicht",
+    "pos": "phrase",
+    "meaning_vi": "Tôi không thích cái này",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "die Sonderangebot",
+    "pos": "noun",
+    "meaning_vi": "ưu đãi đặc biệt",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "der Ausverkauf",
+    "pos": "noun",
+    "meaning_vi": "đợt sale",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "die Garantie",
+    "pos": "noun",
+    "meaning_vi": "bảo hành",
+    "level": "A2",
+    "topic": "a2_shopping_phrases"
+  },
+  {
+    "word": "der Lebenslauf",
+    "pos": "noun",
+    "meaning_vi": "CV",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "das Anschreiben",
+    "pos": "noun",
+    "meaning_vi": "thư xin việc",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Stelle",
+    "pos": "noun",
+    "meaning_vi": "vị trí",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Vollzeit",
+    "pos": "noun",
+    "meaning_vi": "toàn thời gian",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Teilzeit",
+    "pos": "noun",
+    "meaning_vi": "bán thời gian",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Probezeit",
+    "pos": "noun",
+    "meaning_vi": "thời gian thử việc",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "das Gehalt",
+    "pos": "noun",
+    "meaning_vi": "lương",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "der Lohn",
+    "pos": "noun",
+    "meaning_vi": "tiền công",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Sozialversicherung",
+    "pos": "noun",
+    "meaning_vi": "bảo hiểm xã hội",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Krankenversicherung",
+    "pos": "noun",
+    "meaning_vi": "bảo hiểm y tế",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "der Arbeitgeber",
+    "pos": "noun",
+    "meaning_vi": "người sử dụng lao động",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "der Arbeitnehmer",
+    "pos": "noun",
+    "meaning_vi": "người lao động",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "das Arbeitszeugnis",
+    "pos": "noun",
+    "meaning_vi": "giấy xác nhận làm việc",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Referenz",
+    "pos": "noun",
+    "meaning_vi": "tham chiếu",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Qualifikation",
+    "pos": "noun",
+    "meaning_vi": "bằng cấp",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Berufserfahrung",
+    "pos": "noun",
+    "meaning_vi": "kinh nghiệm làm việc",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Weiterbildung",
+    "pos": "noun",
+    "meaning_vi": "đào tạo thêm",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "der Arbeitsvertrag",
+    "pos": "noun",
+    "meaning_vi": "hợp đồng lao động",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Kündigung",
+    "pos": "noun",
+    "meaning_vi": "nghỉ việc",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "die Abfindung",
+    "pos": "noun",
+    "meaning_vi": "trợ cấp thôi việc",
+    "level": "B1",
+    "topic": "b1_work_phrases"
+  },
+  {
+    "word": "Ich denke, dass...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi nghĩ rằng...",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Meiner Meinung nach...",
+    "pos": "phrase",
+    "meaning_vi": "Theo ý kiến của tôi...",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Ich glaube, dass...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi tin rằng...",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Ich finde, dass...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi thấy rằng...",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Es scheint mir, dass...",
+    "pos": "phrase",
+    "meaning_vi": "Có vẻ như...",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Ich bin der Meinung, dass...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi cho rằng...",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Ich stimme zu",
+    "pos": "phrase",
+    "meaning_vi": "Tôi đồng ý",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Ich bin dagegen",
+    "pos": "phrase",
+    "meaning_vi": "Tôi phản đối",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Das stimmt",
+    "pos": "phrase",
+    "meaning_vi": "Đúng vậy",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Das stimmt nicht",
+    "pos": "phrase",
+    "meaning_vi": "Không đúng",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Einerseits...andererseits",
+    "pos": "phrase",
+    "meaning_vi": "Một mặt...mặt khác",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Im Gegensatz dazu",
+    "pos": "phrase",
+    "meaning_vi": "Trái lại",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Außerdem",
+    "pos": "adverb",
+    "meaning_vi": "Ngoài ra",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Deshalb",
+    "pos": "adverb",
+    "meaning_vi": "Vì vậy",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Trotzdem",
+    "pos": "adverb",
+    "meaning_vi": "Tuy nhiên",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Allerdings",
+    "pos": "adverb",
+    "meaning_vi": "Tuy nhiên",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Folglich",
+    "pos": "adverb",
+    "meaning_vi": "Do đó",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Insgesamt",
+    "pos": "adverb",
+    "meaning_vi": "Nhìn chung",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Zusammenfassend",
+    "pos": "adverb",
+    "meaning_vi": "Tóm lại",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "Letztendlich",
+    "pos": "adverb",
+    "meaning_vi": "Cuối cùng",
+    "level": "B1",
+    "topic": "b1_opinions"
+  },
+  {
+    "word": "die Speisekarte",
+    "pos": "noun",
+    "meaning_vi": "thực đơn",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "die Vorspeise",
+    "pos": "noun",
+    "meaning_vi": "món khai vị",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "das Hauptgericht",
+    "pos": "noun",
+    "meaning_vi": "món chính",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "die Nachspeise",
+    "pos": "noun",
+    "meaning_vi": "món tráng miệng",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "die Beilage",
+    "pos": "noun",
+    "meaning_vi": "món ăn kèm",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "das Tagesgericht",
+    "pos": "noun",
+    "meaning_vi": "món của ngày",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "die Empfehlung des Hauses",
+    "pos": "phrase",
+    "meaning_vi": "món đặc sản của nhà hàng",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "die Portion",
+    "pos": "noun",
+    "meaning_vi": "khẩu phần",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "das Trinkgeld",
+    "pos": "noun",
+    "meaning_vi": "tiền tip",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "die Rechnung",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Einen Tisch für...Personen",
+    "pos": "phrase",
+    "meaning_vi": "Bàn cho...người",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Ich hätte gern...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi muốn...",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Ich möchte bestellen",
+    "pos": "phrase",
+    "meaning_vi": "Tôi muốn gọi món",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Was können Sie empfehlen?",
+    "pos": "phrase",
+    "meaning_vi": "Bạn đề xuất món gì?",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Ist das vegetarisch?",
+    "pos": "phrase",
+    "meaning_vi": "Món này chay không?",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Ich bin allergisch gegen...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi dị ứng với...",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Die Rechnung, bitte",
+    "pos": "phrase",
+    "meaning_vi": "Cho tôi hóa đơn",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Getrennt oder zusammen?",
+    "pos": "phrase",
+    "meaning_vi": "Tính riêng hay chung?",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Es hat sehr gut geschmeckt",
+    "pos": "phrase",
+    "meaning_vi": "Rất ngon",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Stimmt so",
+    "pos": "phrase",
+    "meaning_vi": "Không cần thối lại",
+    "level": "B1",
+    "topic": "b1_restaurant"
+  },
+  {
+    "word": "Sehr geehrte Damen und Herren",
+    "pos": "phrase",
+    "meaning_vi": "Kính gửi quý ông/bà",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Mit freundlichen Grüßen",
+    "pos": "phrase",
+    "meaning_vi": "Trân trọng",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Ich beziehe mich auf...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi đề cập đến...",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Bezüglich",
+    "pos": "preposition",
+    "meaning_vi": "liên quan đến",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "In Bezug auf",
+    "pos": "phrase",
+    "meaning_vi": "liên quan đến",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Hiermit",
+    "pos": "adverb",
+    "meaning_vi": "bằng thư này",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Diesbezüglich",
+    "pos": "adverb",
+    "meaning_vi": "về vấn đề này",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Ich erlaube mir...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi xin phép...",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Ich bitte um...",
+    "pos": "phrase",
+    "meaning_vi": "Tôi xin...",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Anbei",
+    "pos": "adverb",
+    "meaning_vi": "đính kèm",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Beiliegend",
+    "pos": "adverb",
+    "meaning_vi": "đính kèm",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "der Anhang",
+    "pos": "noun",
+    "meaning_vi": "tệp đính kèm",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "die Anlage",
+    "pos": "noun",
+    "meaning_vi": "tài liệu đính kèm",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Für Rückfragen stehe ich gern zur Verfügung",
+    "pos": "phrase",
+    "meaning_vi": "Tôi sẵn sàng giải đáp thắc mắc",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Ich freue mich auf Ihre Antwort",
+    "pos": "phrase",
+    "meaning_vi": "Tôi mong nhận được hồi âm",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Ich danke Ihnen im Voraus",
+    "pos": "phrase",
+    "meaning_vi": "Xin cảm ơn trước",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Mit Bezug auf Ihr Schreiben vom...",
+    "pos": "phrase",
+    "meaning_vi": "Liên quan đến thư ngày...",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Wir bedauern...",
+    "pos": "phrase",
+    "meaning_vi": "Chúng tôi rất tiếc...",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Wir freuen uns...",
+    "pos": "phrase",
+    "meaning_vi": "Chúng tôi vui mừng...",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "Nach Prüfung...",
+    "pos": "phrase",
+    "meaning_vi": "Sau khi xem xét...",
+    "level": "B2",
+    "topic": "b2_formal_writing"
+  },
+  {
+    "word": "die Tendenz",
+    "pos": "noun",
+    "meaning_vi": "xu hướng",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Dimension",
+    "pos": "noun",
+    "meaning_vi": "khía cạnh",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Komplexität",
+    "pos": "noun",
+    "meaning_vi": "sự phức tạp",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Dynamik",
+    "pos": "noun",
+    "meaning_vi": "động lực",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Relevanz",
+    "pos": "noun",
+    "meaning_vi": "sự liên quan",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Effizienz",
+    "pos": "noun",
+    "meaning_vi": "hiệu quả",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Flexibilität",
+    "pos": "noun",
+    "meaning_vi": "linh hoạt",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Priorität",
+    "pos": "noun",
+    "meaning_vi": "ưu tiên",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Kapazität",
+    "pos": "noun",
+    "meaning_vi": "năng lực",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Intensität",
+    "pos": "noun",
+    "meaning_vi": "cường độ",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Kontinuität",
+    "pos": "noun",
+    "meaning_vi": "sự liên tục",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Kompatibilität",
+    "pos": "noun",
+    "meaning_vi": "tương thích",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Transparenz",
+    "pos": "noun",
+    "meaning_vi": "minh bạch",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Legitimität",
+    "pos": "noun",
+    "meaning_vi": "tính hợp pháp",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Objektivität",
+    "pos": "noun",
+    "meaning_vi": "tính khách quan",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Subjektivität",
+    "pos": "noun",
+    "meaning_vi": "tính chủ quan",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Authentizität",
+    "pos": "noun",
+    "meaning_vi": "tính xác thực",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Plausibilität",
+    "pos": "noun",
+    "meaning_vi": "tính hợp lý",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Kohärenz",
+    "pos": "noun",
+    "meaning_vi": "tính mạch lạc",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  },
+  {
+    "word": "die Konsistenz",
+    "pos": "noun",
+    "meaning_vi": "tính nhất quán",
+    "level": "B2",
+    "topic": "b2_abstract_concepts"
+  }
+]

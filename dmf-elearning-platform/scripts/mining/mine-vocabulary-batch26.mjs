@@ -1,0 +1,175 @@
+#!/usr/bin/env node
+/**
+ * Mine Vocabulary Batch 26 - Final 150 Words to 10K
+ */
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const OUTPUT = path.join(__dirname, '../data/quality-expansion/batch26-vocabulary.json');
+
+const vocabulary = [
+  // A1 - Basic vocabulary gaps
+  { word: 'das Taxi', level: 'A1', topic: 'transport', pos: 'noun', meaning_vi: 'xe taxi' },
+  { word: 'der Zug', level: 'A1', topic: 'transport', pos: 'noun', meaning_vi: 'tàu hỏa' },
+  { word: 'das Flugzeug', level: 'A1', topic: 'transport', pos: 'noun', meaning_vi: 'máy bay' },
+  { word: 'das Schiff', level: 'A1', topic: 'transport', pos: 'noun', meaning_vi: 'tàu thủy' },
+  { word: 'die U-Bahn', level: 'A1', topic: 'transport', pos: 'noun', meaning_vi: 'tàu điện ngầm' },
+  { word: 'die Straßenbahn', level: 'A1', topic: 'transport', pos: 'noun', meaning_vi: 'xe điện' },
+  { word: 'der Bahnhof', level: 'A1', topic: 'place', pos: 'noun', meaning_vi: 'nhà ga' },
+  { word: 'der Flughafen', level: 'A1', topic: 'place', pos: 'noun', meaning_vi: 'sân bay' },
+  { word: 'die Haltestelle', level: 'A1', topic: 'place', pos: 'noun', meaning_vi: 'trạm dừng' },
+  { word: 'die Fahrkarte', level: 'A1', topic: 'travel', pos: 'noun', meaning_vi: 'vé xe' },
+  { word: 'der Führerschein', level: 'A1', topic: 'document', pos: 'noun', meaning_vi: 'bằng lái xe' },
+  { word: 'der Reisepass', level: 'A1', topic: 'document', pos: 'noun', meaning_vi: 'hộ chiếu' },
+  { word: 'der Ausweis', level: 'A1', topic: 'document', pos: 'noun', meaning_vi: 'chứng minh thư' },
+  { word: 'die Unterschrift', level: 'A1', topic: 'document', pos: 'noun', meaning_vi: 'chữ ký' },
+  { word: 'das Formular', level: 'A1', topic: 'document', pos: 'noun', meaning_vi: 'mẫu đơn' },
+  { word: 'der Stempel', level: 'A1', topic: 'office', pos: 'noun', meaning_vi: 'con dấu' },
+  { word: 'die Kopie', level: 'A1', topic: 'office', pos: 'noun', meaning_vi: 'bản sao' },
+  { word: 'das Original', level: 'A1', topic: 'office', pos: 'noun', meaning_vi: 'bản gốc' },
+  { word: 'der Drucker', level: 'A1', topic: 'office', pos: 'noun', meaning_vi: 'máy in' },
+  { word: 'die Datei', level: 'A1', topic: 'computer', pos: 'noun', meaning_vi: 'tệp tin' },
+
+  // A2 - Intermediate basics
+  { word: 'die Abfahrt', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'sự khởi hành' },
+  { word: 'die Ankunft', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'sự đến nơi' },
+  { word: 'die Verspätung', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'sự chậm trễ' },
+  { word: 'der Umstieg', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'việc chuyển tàu/xe' },
+  { word: 'die Verbindung', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'kết nối, chuyến nối' },
+  { word: 'der Fahrplan', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'lịch trình' },
+  { word: 'das Gleis', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'đường ray, sân ga' },
+  { word: 'der Bahnsteig', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'sân ga' },
+  { word: 'die Durchsage', level: 'A2', topic: 'travel', pos: 'noun', meaning_vi: 'thông báo qua loa' },
+  { word: 'die Ermäßigung', level: 'A2', topic: 'shopping', pos: 'noun', meaning_vi: 'giảm giá' },
+  { word: 'der Rabatt', level: 'A2', topic: 'shopping', pos: 'noun', meaning_vi: 'chiết khấu' },
+  { word: 'die Quittung', level: 'A2', topic: 'shopping', pos: 'noun', meaning_vi: 'biên lai' },
+  { word: 'der Kassenbon', level: 'A2', topic: 'shopping', pos: 'noun', meaning_vi: 'hóa đơn thu ngân' },
+  { word: 'das Wechselgeld', level: 'A2', topic: 'shopping', pos: 'noun', meaning_vi: 'tiền thối lại' },
+  { word: 'die Kreditkarte', level: 'A2', topic: 'finance', pos: 'noun', meaning_vi: 'thẻ tín dụng' },
+  { word: 'die EC-Karte', level: 'A2', topic: 'finance', pos: 'noun', meaning_vi: 'thẻ ngân hàng' },
+  { word: 'der Geldautomat', level: 'A2', topic: 'finance', pos: 'noun', meaning_vi: 'máy ATM' },
+  { word: 'die Überweisung', level: 'A2', topic: 'finance', pos: 'noun', meaning_vi: 'chuyển khoản' },
+  { word: 'abheben', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'rút tiền' },
+  { word: 'einzahlen', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'nạp tiền' },
+
+  // B1 - Advanced practical
+  { word: 'die Stornierung', level: 'B1', topic: 'travel', pos: 'noun', meaning_vi: 'sự hủy' },
+  { word: 'die Buchungsbestätigung', level: 'B1', topic: 'travel', pos: 'noun', meaning_vi: 'xác nhận đặt chỗ' },
+  { word: 'die Reservierung', level: 'B1', topic: 'travel', pos: 'noun', meaning_vi: 'đặt trước' },
+  { word: 'der Aufenthalt', level: 'B1', topic: 'travel', pos: 'noun', meaning_vi: 'thời gian lưu trú' },
+  { word: 'die Unterkunft', level: 'B1', topic: 'travel', pos: 'noun', meaning_vi: 'chỗ ở' },
+  { word: 'die Pension', level: 'B1', topic: 'accommodation', pos: 'noun', meaning_vi: 'nhà nghỉ' },
+  { word: 'die Jugendherberge', level: 'B1', topic: 'accommodation', pos: 'noun', meaning_vi: 'nhà trọ thanh niên' },
+  { word: 'das Einzelzimmer', level: 'B1', topic: 'accommodation', pos: 'noun', meaning_vi: 'phòng đơn' },
+  { word: 'das Doppelzimmer', level: 'B1', topic: 'accommodation', pos: 'noun', meaning_vi: 'phòng đôi' },
+  { word: 'die Halbpension', level: 'B1', topic: 'accommodation', pos: 'noun', meaning_vi: 'bao gồm bữa sáng và tối' },
+  { word: 'die Vollpension', level: 'B1', topic: 'accommodation', pos: 'noun', meaning_vi: 'bao gồm 3 bữa' },
+  { word: 'die Rezeption', level: 'B1', topic: 'accommodation', pos: 'noun', meaning_vi: 'lễ tân' },
+  { word: 'der Zimmerschlüssel', level: 'B1', topic: 'accommodation', pos: 'noun', meaning_vi: 'chìa khóa phòng' },
+  { word: 'die Klimatisierung', level: 'B1', topic: 'amenities', pos: 'noun', meaning_vi: 'điều hòa' },
+  { word: 'das Frühstücksbuffet', level: 'B1', topic: 'food', pos: 'noun', meaning_vi: 'buffet sáng' },
+  { word: 'stornieren', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'hủy' },
+  { word: 'buchen', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'đặt chỗ' },
+  { word: 'reservieren', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'đặt trước' },
+  { word: 'auschecken', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'trả phòng' },
+  { word: 'einchecken', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'nhận phòng' },
+
+  // B2 - Upper intermediate
+  { word: 'die Reiserücktrittsversicherung', level: 'B2', topic: 'insurance', pos: 'noun', meaning_vi: 'bảo hiểm hủy chuyến' },
+  { word: 'die Auslandskrankenversicherung', level: 'B2', topic: 'insurance', pos: 'noun', meaning_vi: 'bảo hiểm y tế nước ngoài' },
+  { word: 'die Haftpflichtversicherung', level: 'B2', topic: 'insurance', pos: 'noun', meaning_vi: 'bảo hiểm trách nhiệm' },
+  { word: 'der Versicherungsfall', level: 'B2', topic: 'insurance', pos: 'noun', meaning_vi: 'trường hợp bảo hiểm' },
+  { word: 'die Selbstbeteiligung', level: 'B2', topic: 'insurance', pos: 'noun', meaning_vi: 'phí tự chịu' },
+  { word: 'der Schadensersatz', level: 'B2', topic: 'legal', pos: 'noun', meaning_vi: 'bồi thường thiệt hại' },
+  { word: 'die Haftung', level: 'B2', topic: 'legal', pos: 'noun', meaning_vi: 'trách nhiệm pháp lý' },
+  { word: 'die Kulanz', level: 'B2', topic: 'business', pos: 'noun', meaning_vi: 'sự thông cảm, ưu đãi' },
+  { word: 'die Beschwerde', level: 'B2', topic: 'consumer', pos: 'noun', meaning_vi: 'khiếu nại' },
+  { word: 'die Schlichtung', level: 'B2', topic: 'legal', pos: 'noun', meaning_vi: 'hòa giải' },
+  { word: 'der Widerspruch', level: 'B2', topic: 'legal', pos: 'noun', meaning_vi: 'phản đối' },
+  { word: 'die Frist', level: 'B2', topic: 'legal', pos: 'noun', meaning_vi: 'thời hạn' },
+  { word: 'versichern', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'bảo hiểm' },
+  { word: 'haften', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'chịu trách nhiệm' },
+  { word: 'entschädigen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'bồi thường' },
+  { word: 'widersprechen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'phản đối' },
+  { word: 'einhalten', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'tuân thủ' },
+  { word: 'überschreiten', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'vượt quá' },
+  { word: 'beanstanden', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'khiếu nại' },
+  { word: 'geltend machen', level: 'B2', topic: 'action', pos: 'verb', meaning_vi: 'đòi quyền lợi' },
+
+  // C1 - Advanced
+  { word: 'die Beweislast', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'nghĩa vụ chứng minh' },
+  { word: 'die Verjährung', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'hết thời hiệu' },
+  { word: 'die Zuständigkeit', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'thẩm quyền' },
+  { word: 'das Schiedsgericht', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'tòa trọng tài' },
+  { word: 'der Gerichtsstand', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'nơi xét xử' },
+  { word: 'die Rechtsmittel', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'kháng cáo' },
+  { word: 'die Berufung', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'kháng cáo' },
+  { word: 'die Revision', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'phúc thẩm' },
+  { word: 'das Urteil', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'bản án' },
+  { word: 'der Beschluss', level: 'C1', topic: 'legal', pos: 'noun', meaning_vi: 'quyết định' },
+  { word: 'verjähren', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'hết thời hiệu' },
+  { word: 'anfechten', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'kháng cáo' },
+  { word: 'vollstrecken', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'thi hành án' },
+  { word: 'schlichten', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'hòa giải' },
+  { word: 'verhandeln', level: 'C1', topic: 'action', pos: 'verb', meaning_vi: 'đàm phán' },
+
+  // C2 - Highly specialized
+  { word: 'die Bestandskraft', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'hiệu lực pháp lý' },
+  { word: 'die Rechtskraft', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'hiệu lực thi hành' },
+  { word: 'die Nichtigkeitsklage', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'kiện vô hiệu' },
+  { word: 'der Unterlassungsanspruch', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'yêu cầu chấm dứt vi phạm' },
+  { word: 'die Beweisaufnahme', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'thu thập chứng cứ' },
+  { word: 'die Aussetzung', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'tạm đình chỉ' },
+  { word: 'der Instanzenzug', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'cấp xét xử' },
+  { word: 'die Prozessführung', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'tiến hành tố tụng' },
+  { word: 'das Prozesskostenhilfe', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'trợ giúp phí tố tụng' },
+  { word: 'die Zwangsvollstreckung', level: 'C2', topic: 'legal', pos: 'noun', meaning_vi: 'cưỡng chế thi hành' },
+
+  // Additional unique words
+  { word: 'das Zeugnis', level: 'A2', topic: 'education', pos: 'noun', meaning_vi: 'bằng cấp, chứng chỉ' },
+  { word: 'die Bewerbung', level: 'A2', topic: 'work', pos: 'noun', meaning_vi: 'đơn xin việc' },
+  { word: 'der Lebenslauf', level: 'A2', topic: 'work', pos: 'noun', meaning_vi: 'lý lịch' },
+  { word: 'das Vorstellungsgespräch', level: 'B1', topic: 'work', pos: 'noun', meaning_vi: 'phỏng vấn' },
+  { word: 'die Probezeit', level: 'B1', topic: 'work', pos: 'noun', meaning_vi: 'thời gian thử việc' },
+  { word: 'der Arbeitsvertrag', level: 'B1', topic: 'work', pos: 'noun', meaning_vi: 'hợp đồng lao động' },
+  { word: 'die Gehaltsabrechnung', level: 'B2', topic: 'work', pos: 'noun', meaning_vi: 'bảng lương' },
+  { word: 'der Urlaubsanspruch', level: 'B2', topic: 'work', pos: 'noun', meaning_vi: 'quyền nghỉ phép' },
+  { word: 'die Sozialversicherung', level: 'B2', topic: 'work', pos: 'noun', meaning_vi: 'bảo hiểm xã hội' },
+  { word: 'der Arbeitgeber', level: 'A2', topic: 'work', pos: 'noun', meaning_vi: 'người sử dụng lao động' },
+  { word: 'der Arbeitnehmer', level: 'A2', topic: 'work', pos: 'noun', meaning_vi: 'người lao động' },
+  { word: 'die Stelle', level: 'A2', topic: 'work', pos: 'noun', meaning_vi: 'vị trí công việc' },
+  { word: 'bewerben', level: 'A2', topic: 'action', pos: 'verb', meaning_vi: 'ứng tuyển' },
+  { word: 'einstellen', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'tuyển dụng' },
+  { word: 'entlassen', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'sa thải' },
+  { word: 'befördern', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'thăng chức' },
+  { word: 'versetzen', level: 'B1', topic: 'action', pos: 'verb', meaning_vi: 'chuyển công tác' },
+  { word: 'die Beförderung', level: 'B1', topic: 'work', pos: 'noun', meaning_vi: 'sự thăng tiến' },
+  { word: 'die Versetzung', level: 'B1', topic: 'work', pos: 'noun', meaning_vi: 'sự chuyển công tác' },
+  { word: 'die Entlassung', level: 'B1', topic: 'work', pos: 'noun', meaning_vi: 'sự sa thải' },
+];
+
+const outputDir = path.dirname(OUTPUT);
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+fs.writeFileSync(OUTPUT, JSON.stringify(vocabulary, null, 2));
+
+console.log('╔════════════════════════════════════════════════════════════╗');
+console.log('║    ⛏️  BATCH 26 VOCABULARY GENERATED                        ║');
+console.log('╚════════════════════════════════════════════════════════════╝\n');
+
+console.log(`📦 Total words: ${vocabulary.length}`);
+console.log(`📁 Saved to: ${OUTPUT}`);
+
+const dist = {};
+vocabulary.forEach(w => {
+  dist[w.level] = (dist[w.level] || 0) + 1;
+});
+console.log('\n📊 Distribution:');
+Object.entries(dist).sort().forEach(([level, count]) => {
+  console.log(`   ${level}: ${count} words`);
+});

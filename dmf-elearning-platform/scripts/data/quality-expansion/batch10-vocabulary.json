@@ -1,0 +1,2802 @@
+[
+  {
+    "word": "der Einkauf",
+    "pos": "noun",
+    "meaning_vi": "việc mua sắm",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "der Warenkorb",
+    "pos": "noun",
+    "meaning_vi": "giỏ hàng",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "die Kasse",
+    "pos": "noun",
+    "meaning_vi": "quầy thu ngân",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "der Kassenbon",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "das Angebot",
+    "pos": "noun",
+    "meaning_vi": "khuyến mãi",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "der Rabatt",
+    "pos": "noun",
+    "meaning_vi": "giảm giá",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "der Ausverkauf",
+    "pos": "noun",
+    "meaning_vi": "bán hết hàng",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "die Umkleidekabine",
+    "pos": "noun",
+    "meaning_vi": "phòng thử đồ",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "die Größe",
+    "pos": "noun",
+    "meaning_vi": "kích cỡ",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "die Rückgabe",
+    "pos": "noun",
+    "meaning_vi": "trả hàng",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "der Umtausch",
+    "pos": "noun",
+    "meaning_vi": "đổi hàng",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "die Garantie",
+    "pos": "noun",
+    "meaning_vi": "bảo hành",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "bezahlen",
+    "pos": "verb",
+    "meaning_vi": "thanh toán",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "anprobieren",
+    "pos": "verb",
+    "meaning_vi": "thử (quần áo)",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "umtauschen",
+    "pos": "verb",
+    "meaning_vi": "đổi hàng",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "zurückgeben",
+    "pos": "verb",
+    "meaning_vi": "trả lại",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "reduziert",
+    "pos": "adj",
+    "meaning_vi": "giảm giá",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "ausverkauft",
+    "pos": "adj",
+    "meaning_vi": "hết hàng",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "günstig",
+    "pos": "adj",
+    "meaning_vi": "rẻ",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "teuer",
+    "pos": "adj",
+    "meaning_vi": "đắt",
+    "level": "A2",
+    "topic": "Mua sam"
+  },
+  {
+    "word": "die Speisekarte",
+    "pos": "noun",
+    "meaning_vi": "thực đơn",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "die Vorspeise",
+    "pos": "noun",
+    "meaning_vi": "món khai vị",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "das Hauptgericht",
+    "pos": "noun",
+    "meaning_vi": "món chính",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "die Nachspeise",
+    "pos": "noun",
+    "meaning_vi": "món tráng miệng",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "die Beilage",
+    "pos": "noun",
+    "meaning_vi": "món ăn kèm",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "das Tagesgericht",
+    "pos": "noun",
+    "meaning_vi": "món trong ngày",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "der Kellner",
+    "pos": "noun",
+    "meaning_vi": "bồi bàn nam",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "die Kellnerin",
+    "pos": "noun",
+    "meaning_vi": "bồi bàn nữ",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "das Trinkgeld",
+    "pos": "noun",
+    "meaning_vi": "tiền tip",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "die Reservierung",
+    "pos": "noun",
+    "meaning_vi": "đặt chỗ",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "bestellen",
+    "pos": "verb",
+    "meaning_vi": "gọi món",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "servieren",
+    "pos": "verb",
+    "meaning_vi": "phục vụ",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "reservieren",
+    "pos": "verb",
+    "meaning_vi": "đặt trước",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "empfehlen",
+    "pos": "verb",
+    "meaning_vi": "gợi ý",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "abräumen",
+    "pos": "verb",
+    "meaning_vi": "dọn bàn",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "lecker",
+    "pos": "adj",
+    "meaning_vi": "ngon",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "scharf",
+    "pos": "adj",
+    "meaning_vi": "cay",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "mild",
+    "pos": "adj",
+    "meaning_vi": "nhẹ",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "vegetarisch",
+    "pos": "adj",
+    "meaning_vi": "chay",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "vegan",
+    "pos": "adj",
+    "meaning_vi": "thuần chay",
+    "level": "A2",
+    "topic": "Nha hang"
+  },
+  {
+    "word": "die Rezeption",
+    "pos": "noun",
+    "meaning_vi": "lễ tân",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "das Einzelzimmer",
+    "pos": "noun",
+    "meaning_vi": "phòng đơn",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "das Doppelzimmer",
+    "pos": "noun",
+    "meaning_vi": "phòng đôi",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "die Suite",
+    "pos": "noun",
+    "meaning_vi": "phòng suite",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "der Zimmerschlüssel",
+    "pos": "noun",
+    "meaning_vi": "chìa khóa phòng",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "die Zimmerservice",
+    "pos": "noun",
+    "meaning_vi": "dịch vụ phòng",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "das Frühstücksbuffet",
+    "pos": "noun",
+    "meaning_vi": "buffet sáng",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "die Minibar",
+    "pos": "noun",
+    "meaning_vi": "minibar",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "der Safe",
+    "pos": "noun",
+    "meaning_vi": "két an toàn",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "die Klimaanlage",
+    "pos": "noun",
+    "meaning_vi": "điều hòa",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "einchecken",
+    "pos": "verb",
+    "meaning_vi": "nhận phòng",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "auschecken",
+    "pos": "verb",
+    "meaning_vi": "trả phòng",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "buchen",
+    "pos": "verb",
+    "meaning_vi": "đặt phòng",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "stornieren",
+    "pos": "verb",
+    "meaning_vi": "hủy đặt",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "übernachten",
+    "pos": "verb",
+    "meaning_vi": "nghỉ qua đêm",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "inklusive",
+    "pos": "adj",
+    "meaning_vi": "bao gồm",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "exklusive",
+    "pos": "adj",
+    "meaning_vi": "không bao gồm",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "gebucht",
+    "pos": "adj",
+    "meaning_vi": "đã đặt",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "verfügbar",
+    "pos": "adj",
+    "meaning_vi": "còn trống",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "ausgebucht",
+    "pos": "adj",
+    "meaning_vi": "hết phòng",
+    "level": "A2",
+    "topic": "Khach san"
+  },
+  {
+    "word": "der Flughafen",
+    "pos": "noun",
+    "meaning_vi": "sân bay",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "der Terminal",
+    "pos": "noun",
+    "meaning_vi": "nhà ga",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "der Check-in",
+    "pos": "noun",
+    "meaning_vi": "làm thủ tục",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "die Bordkarte",
+    "pos": "noun",
+    "meaning_vi": "thẻ lên máy bay",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "das Gepäck",
+    "pos": "noun",
+    "meaning_vi": "hành lý",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "das Handgepäck",
+    "pos": "noun",
+    "meaning_vi": "hành lý xách tay",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "die Gepäckausgabe",
+    "pos": "noun",
+    "meaning_vi": "nơi nhận hành lý",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "die Sicherheitskontrolle",
+    "pos": "noun",
+    "meaning_vi": "kiểm tra an ninh",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "der Zoll",
+    "pos": "noun",
+    "meaning_vi": "hải quan",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "das Gate",
+    "pos": "noun",
+    "meaning_vi": "cửa khởi hành",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "der Abflug",
+    "pos": "noun",
+    "meaning_vi": "khởi hành",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "die Ankunft",
+    "pos": "noun",
+    "meaning_vi": "đến nơi",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "die Verspätung",
+    "pos": "noun",
+    "meaning_vi": "trễ chuyến",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "der Anschlussflug",
+    "pos": "noun",
+    "meaning_vi": "chuyến bay nối chuyến",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "abfliegen",
+    "pos": "verb",
+    "meaning_vi": "cất cánh",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "landen",
+    "pos": "verb",
+    "meaning_vi": "hạ cánh",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "umsteigen",
+    "pos": "verb",
+    "meaning_vi": "đổi chuyến",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "verspätet",
+    "pos": "adj",
+    "meaning_vi": "bị trễ",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "pünktlich",
+    "pos": "adj",
+    "meaning_vi": "đúng giờ",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "gestrichen",
+    "pos": "adj",
+    "meaning_vi": "bị hủy",
+    "level": "B1",
+    "topic": "San bay"
+  },
+  {
+    "word": "die U-Bahn",
+    "pos": "noun",
+    "meaning_vi": "tàu điện ngầm",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "die S-Bahn",
+    "pos": "noun",
+    "meaning_vi": "tàu ngoại ô",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "die Straßenbahn",
+    "pos": "noun",
+    "meaning_vi": "tàu điện",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "die Haltestelle",
+    "pos": "noun",
+    "meaning_vi": "trạm dừng",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "der Bahnsteig",
+    "pos": "noun",
+    "meaning_vi": "sân ga",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "die Fahrkarte",
+    "pos": "noun",
+    "meaning_vi": "vé",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "der Fahrplan",
+    "pos": "noun",
+    "meaning_vi": "lịch trình",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "die Monatskarte",
+    "pos": "noun",
+    "meaning_vi": "vé tháng",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "die Tageskarte",
+    "pos": "noun",
+    "meaning_vi": "vé ngày",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "der Fahrschein",
+    "pos": "noun",
+    "meaning_vi": "vé xe",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "der Kontrolleur",
+    "pos": "noun",
+    "meaning_vi": "người soát vé",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "die Endstation",
+    "pos": "noun",
+    "meaning_vi": "ga cuối",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "einsteigen",
+    "pos": "verb",
+    "meaning_vi": "lên xe",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "aussteigen",
+    "pos": "verb",
+    "meaning_vi": "xuống xe",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "entwerten",
+    "pos": "verb",
+    "meaning_vi": "đóng dấu vé",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "umsteigen",
+    "pos": "verb",
+    "meaning_vi": "chuyển tuyến",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "halten",
+    "pos": "verb",
+    "meaning_vi": "dừng",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "abfahren",
+    "pos": "verb",
+    "meaning_vi": "khởi hành",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "ankommen",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "überfüllt",
+    "pos": "adj",
+    "meaning_vi": "đông đúc",
+    "level": "A2",
+    "topic": "Giao thong cong cong"
+  },
+  {
+    "word": "die Arztpraxis",
+    "pos": "noun",
+    "meaning_vi": "phòng khám",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "der Termin",
+    "pos": "noun",
+    "meaning_vi": "cuộc hẹn",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "das Wartezimmer",
+    "pos": "noun",
+    "meaning_vi": "phòng chờ",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "die Versichertenkarte",
+    "pos": "noun",
+    "meaning_vi": "thẻ bảo hiểm",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "die Krankmeldung",
+    "pos": "noun",
+    "meaning_vi": "giấy nghỉ bệnh",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "die Überweisung",
+    "pos": "noun",
+    "meaning_vi": "giấy chuyển viện",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "das Blutbild",
+    "pos": "noun",
+    "meaning_vi": "xét nghiệm máu",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "der Röntgen",
+    "pos": "noun",
+    "meaning_vi": "chụp X-quang",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "die Ultraschall",
+    "pos": "noun",
+    "meaning_vi": "siêu âm",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "die Blutdruckmessung",
+    "pos": "noun",
+    "meaning_vi": "đo huyết áp",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "untersuchen",
+    "pos": "verb",
+    "meaning_vi": "khám",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "abtasten",
+    "pos": "verb",
+    "meaning_vi": "sờ nắn",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "abhören",
+    "pos": "verb",
+    "meaning_vi": "nghe",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "verschreiben",
+    "pos": "verb",
+    "meaning_vi": "kê đơn",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "überweisen",
+    "pos": "verb",
+    "meaning_vi": "chuyển viện",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "krank",
+    "pos": "adj",
+    "meaning_vi": "ốm",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "gesund",
+    "pos": "adj",
+    "meaning_vi": "khỏe mạnh",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "ansteckend",
+    "pos": "adj",
+    "meaning_vi": "lây nhiễm",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "verschreibungspflichtig",
+    "pos": "adj",
+    "meaning_vi": "cần kê đơn",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "rezeptfrei",
+    "pos": "adj",
+    "meaning_vi": "không cần đơn",
+    "level": "B1",
+    "topic": "Di kham bac si"
+  },
+  {
+    "word": "der Sport",
+    "pos": "noun",
+    "meaning_vi": "thể thao",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "das Training",
+    "pos": "noun",
+    "meaning_vi": "tập luyện",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "der Wettkampf",
+    "pos": "noun",
+    "meaning_vi": "cuộc thi",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "die Mannschaft",
+    "pos": "noun",
+    "meaning_vi": "đội",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "der Trainer",
+    "pos": "noun",
+    "meaning_vi": "huấn luyện viên",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "das Tor",
+    "pos": "noun",
+    "meaning_vi": "bàn thắng",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "der Schiedsrichter",
+    "pos": "noun",
+    "meaning_vi": "trọng tài",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "die Halbzeit",
+    "pos": "noun",
+    "meaning_vi": "hiệp",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "das Finale",
+    "pos": "noun",
+    "meaning_vi": "trận chung kết",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "die Meisterschaft",
+    "pos": "noun",
+    "meaning_vi": "giải vô địch",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "trainieren",
+    "pos": "verb",
+    "meaning_vi": "tập luyện",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "gewinnen",
+    "pos": "verb",
+    "meaning_vi": "thắng",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "verlieren",
+    "pos": "verb",
+    "meaning_vi": "thua",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "spielen",
+    "pos": "verb",
+    "meaning_vi": "chơi",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "schießen",
+    "pos": "verb",
+    "meaning_vi": "sút",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "laufen",
+    "pos": "verb",
+    "meaning_vi": "chạy",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "schwimmen",
+    "pos": "verb",
+    "meaning_vi": "bơi",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "sportlich",
+    "pos": "adj",
+    "meaning_vi": "thể thao",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "fit",
+    "pos": "adj",
+    "meaning_vi": "khỏe mạnh",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "unentschieden",
+    "pos": "adj",
+    "meaning_vi": "hòa",
+    "level": "A2",
+    "topic": "The thao"
+  },
+  {
+    "word": "das Hobby",
+    "pos": "noun",
+    "meaning_vi": "sở thích",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "die Freizeit",
+    "pos": "noun",
+    "meaning_vi": "thời gian rảnh",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Lesen",
+    "pos": "noun",
+    "meaning_vi": "đọc sách",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Kochen",
+    "pos": "noun",
+    "meaning_vi": "nấu ăn",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Backen",
+    "pos": "noun",
+    "meaning_vi": "làm bánh",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Wandern",
+    "pos": "noun",
+    "meaning_vi": "đi bộ đường dài",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Radfahren",
+    "pos": "noun",
+    "meaning_vi": "đạp xe",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Fotografieren",
+    "pos": "noun",
+    "meaning_vi": "chụp ảnh",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Malen",
+    "pos": "noun",
+    "meaning_vi": "vẽ tranh",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Stricken",
+    "pos": "noun",
+    "meaning_vi": "đan len",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Nähen",
+    "pos": "noun",
+    "meaning_vi": "may vá",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Basteln",
+    "pos": "noun",
+    "meaning_vi": "thủ công",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "sammeln",
+    "pos": "verb",
+    "meaning_vi": "sưu tầm",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "zeichnen",
+    "pos": "verb",
+    "meaning_vi": "vẽ",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "wandern",
+    "pos": "verb",
+    "meaning_vi": "đi bộ đường dài",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "angeln",
+    "pos": "verb",
+    "meaning_vi": "câu cá",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "campen",
+    "pos": "verb",
+    "meaning_vi": "cắm trại",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "reiten",
+    "pos": "verb",
+    "meaning_vi": "cưỡi ngựa",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "entspannend",
+    "pos": "adj",
+    "meaning_vi": "thư giãn",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "kreativ",
+    "pos": "adj",
+    "meaning_vi": "sáng tạo",
+    "level": "A2",
+    "topic": "So thich"
+  },
+  {
+    "word": "das Rezept",
+    "pos": "noun",
+    "meaning_vi": "công thức",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "die Zutat",
+    "pos": "noun",
+    "meaning_vi": "nguyên liệu",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "die Pfanne",
+    "pos": "noun",
+    "meaning_vi": "chảo",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "der Topf",
+    "pos": "noun",
+    "meaning_vi": "nồi",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "der Ofen",
+    "pos": "noun",
+    "meaning_vi": "lò nướng",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "der Herd",
+    "pos": "noun",
+    "meaning_vi": "bếp",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "das Schneidebrett",
+    "pos": "noun",
+    "meaning_vi": "thớt",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "das Messer",
+    "pos": "noun",
+    "meaning_vi": "dao",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "der Löffel",
+    "pos": "noun",
+    "meaning_vi": "muỗng",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "die Gabel",
+    "pos": "noun",
+    "meaning_vi": "nĩa",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "schneiden",
+    "pos": "verb",
+    "meaning_vi": "cắt",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "braten",
+    "pos": "verb",
+    "meaning_vi": "chiên/xào",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "kochen",
+    "pos": "verb",
+    "meaning_vi": "nấu",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "backen",
+    "pos": "verb",
+    "meaning_vi": "nướng bánh",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "grillen",
+    "pos": "verb",
+    "meaning_vi": "nướng",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "würzen",
+    "pos": "verb",
+    "meaning_vi": "nêm gia vị",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "rühren",
+    "pos": "verb",
+    "meaning_vi": "khuấy",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "schälen",
+    "pos": "verb",
+    "meaning_vi": "gọt vỏ",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "roh",
+    "pos": "adj",
+    "meaning_vi": "sống",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "gar",
+    "pos": "adj",
+    "meaning_vi": "chín",
+    "level": "A2",
+    "topic": "Nau an"
+  },
+  {
+    "word": "der Garten",
+    "pos": "noun",
+    "meaning_vi": "vườn",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "die Pflanze",
+    "pos": "noun",
+    "meaning_vi": "cây",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "die Blume",
+    "pos": "noun",
+    "meaning_vi": "hoa",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "der Baum",
+    "pos": "noun",
+    "meaning_vi": "cây to",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "der Strauch",
+    "pos": "noun",
+    "meaning_vi": "bụi cây",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "das Gemüse",
+    "pos": "noun",
+    "meaning_vi": "rau củ",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "das Beet",
+    "pos": "noun",
+    "meaning_vi": "luống",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "der Rasen",
+    "pos": "noun",
+    "meaning_vi": "bãi cỏ",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "der Dünger",
+    "pos": "noun",
+    "meaning_vi": "phân bón",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "die Gießkanne",
+    "pos": "noun",
+    "meaning_vi": "bình tưới",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "der Rasenmäher",
+    "pos": "noun",
+    "meaning_vi": "máy cắt cỏ",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "die Schaufel",
+    "pos": "noun",
+    "meaning_vi": "xẻng",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "pflanzen",
+    "pos": "verb",
+    "meaning_vi": "trồng",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "gießen",
+    "pos": "verb",
+    "meaning_vi": "tưới",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "düngen",
+    "pos": "verb",
+    "meaning_vi": "bón phân",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "mähen",
+    "pos": "verb",
+    "meaning_vi": "cắt cỏ",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "jäten",
+    "pos": "verb",
+    "meaning_vi": "nhổ cỏ",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "ernten",
+    "pos": "verb",
+    "meaning_vi": "thu hoạch",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "beschneiden",
+    "pos": "verb",
+    "meaning_vi": "tỉa cây",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "biologisch",
+    "pos": "adj",
+    "meaning_vi": "hữu cơ",
+    "level": "B1",
+    "topic": "Lam vuon"
+  },
+  {
+    "word": "das Haustier",
+    "pos": "noun",
+    "meaning_vi": "thú cưng",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "der Hund",
+    "pos": "noun",
+    "meaning_vi": "chó",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "die Katze",
+    "pos": "noun",
+    "meaning_vi": "mèo",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "der Vogel",
+    "pos": "noun",
+    "meaning_vi": "chim",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "der Fisch",
+    "pos": "noun",
+    "meaning_vi": "cá",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "das Kaninchen",
+    "pos": "noun",
+    "meaning_vi": "thỏ",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "der Hamster",
+    "pos": "noun",
+    "meaning_vi": "chuột hamster",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "das Aquarium",
+    "pos": "noun",
+    "meaning_vi": "bể cá",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "der Käfig",
+    "pos": "noun",
+    "meaning_vi": "lồng",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "die Leine",
+    "pos": "noun",
+    "meaning_vi": "dây xích",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "das Futter",
+    "pos": "noun",
+    "meaning_vi": "thức ăn",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "der Tierarzt",
+    "pos": "noun",
+    "meaning_vi": "bác sĩ thú y",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "füttern",
+    "pos": "verb",
+    "meaning_vi": "cho ăn",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "Gassi gehen",
+    "pos": "verb",
+    "meaning_vi": "dắt chó đi dạo",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "streicheln",
+    "pos": "verb",
+    "meaning_vi": "vuốt ve",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "bellen",
+    "pos": "verb",
+    "meaning_vi": "sủa",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "miauen",
+    "pos": "verb",
+    "meaning_vi": "kêu meo meo",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "zahm",
+    "pos": "adj",
+    "meaning_vi": "thuần",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "wild",
+    "pos": "adj",
+    "meaning_vi": "hoang dã",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "treu",
+    "pos": "adj",
+    "meaning_vi": "trung thành",
+    "level": "A2",
+    "topic": "Thu cung"
+  },
+  {
+    "word": "das Möbel",
+    "pos": "noun",
+    "meaning_vi": "đồ nội thất",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "das Sofa",
+    "pos": "noun",
+    "meaning_vi": "ghế sofa",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "der Sessel",
+    "pos": "noun",
+    "meaning_vi": "ghế bành",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "der Schrank",
+    "pos": "noun",
+    "meaning_vi": "tủ",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "die Kommode",
+    "pos": "noun",
+    "meaning_vi": "tủ ngăn kéo",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "das Regal",
+    "pos": "noun",
+    "meaning_vi": "kệ",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "der Tisch",
+    "pos": "noun",
+    "meaning_vi": "bàn",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "der Stuhl",
+    "pos": "noun",
+    "meaning_vi": "ghế",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "das Bett",
+    "pos": "noun",
+    "meaning_vi": "giường",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "die Matratze",
+    "pos": "noun",
+    "meaning_vi": "đệm",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "das Kissen",
+    "pos": "noun",
+    "meaning_vi": "gối",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "die Decke",
+    "pos": "noun",
+    "meaning_vi": "chăn",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "der Teppich",
+    "pos": "noun",
+    "meaning_vi": "thảm",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "die Gardine",
+    "pos": "noun",
+    "meaning_vi": "rèm",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "die Lampe",
+    "pos": "noun",
+    "meaning_vi": "đèn",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "der Spiegel",
+    "pos": "noun",
+    "meaning_vi": "gương",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "einrichten",
+    "pos": "verb",
+    "meaning_vi": "bày trí",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "aufbauen",
+    "pos": "verb",
+    "meaning_vi": "lắp ráp",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "bequem",
+    "pos": "adj",
+    "meaning_vi": "thoải mái",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "gemütlich",
+    "pos": "adj",
+    "meaning_vi": "ấm cúng",
+    "level": "A2",
+    "topic": "Noi that"
+  },
+  {
+    "word": "das Badezimmer",
+    "pos": "noun",
+    "meaning_vi": "phòng tắm",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "die Dusche",
+    "pos": "noun",
+    "meaning_vi": "vòi sen",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "die Badewanne",
+    "pos": "noun",
+    "meaning_vi": "bồn tắm",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "das Waschbecken",
+    "pos": "noun",
+    "meaning_vi": "bồn rửa",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "die Toilette",
+    "pos": "noun",
+    "meaning_vi": "bồn cầu",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "der Wasserhahn",
+    "pos": "noun",
+    "meaning_vi": "vòi nước",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "das Handtuch",
+    "pos": "noun",
+    "meaning_vi": "khăn tắm",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "die Seife",
+    "pos": "noun",
+    "meaning_vi": "xà phòng",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "das Shampoo",
+    "pos": "noun",
+    "meaning_vi": "dầu gội",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "das Duschgel",
+    "pos": "noun",
+    "meaning_vi": "sữa tắm",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "die Zahnbürste",
+    "pos": "noun",
+    "meaning_vi": "bàn chải đánh răng",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "die Zahnpasta",
+    "pos": "noun",
+    "meaning_vi": "kem đánh răng",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "der Föhn",
+    "pos": "noun",
+    "meaning_vi": "máy sấy tóc",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "der Rasierer",
+    "pos": "noun",
+    "meaning_vi": "dao cạo",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "duschen",
+    "pos": "verb",
+    "meaning_vi": "tắm vòi sen",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "baden",
+    "pos": "verb",
+    "meaning_vi": "tắm bồn",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "sich waschen",
+    "pos": "verb",
+    "meaning_vi": "rửa",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "abtrocknen",
+    "pos": "verb",
+    "meaning_vi": "lau khô",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "sich rasieren",
+    "pos": "verb",
+    "meaning_vi": "cạo râu",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "feucht",
+    "pos": "adj",
+    "meaning_vi": "ẩm",
+    "level": "A2",
+    "topic": "Phong tam"
+  },
+  {
+    "word": "die Küche",
+    "pos": "noun",
+    "meaning_vi": "nhà bếp",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "der Kühlschrank",
+    "pos": "noun",
+    "meaning_vi": "tủ lạnh",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "der Gefrierschrank",
+    "pos": "noun",
+    "meaning_vi": "tủ đông",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "die Mikrowelle",
+    "pos": "noun",
+    "meaning_vi": "lò vi sóng",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "der Toaster",
+    "pos": "noun",
+    "meaning_vi": "máy nướng bánh mì",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "die Kaffeemaschine",
+    "pos": "noun",
+    "meaning_vi": "máy pha cà phê",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "der Wasserkocher",
+    "pos": "noun",
+    "meaning_vi": "ấm đun nước",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "der Mixer",
+    "pos": "noun",
+    "meaning_vi": "máy xay",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "die Spüle",
+    "pos": "noun",
+    "meaning_vi": "bồn rửa bát",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "der Mülleimer",
+    "pos": "noun",
+    "meaning_vi": "thùng rác",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "der Teller",
+    "pos": "noun",
+    "meaning_vi": "đĩa",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "die Tasse",
+    "pos": "noun",
+    "meaning_vi": "tách",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "das Glas",
+    "pos": "noun",
+    "meaning_vi": "ly",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "die Schüssel",
+    "pos": "noun",
+    "meaning_vi": "tô",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "der Becher",
+    "pos": "noun",
+    "meaning_vi": "cốc",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "spülen",
+    "pos": "verb",
+    "meaning_vi": "rửa bát",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "aufräumen",
+    "pos": "verb",
+    "meaning_vi": "dọn dẹp",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "aufbewahren",
+    "pos": "verb",
+    "meaning_vi": "bảo quản",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "sauber",
+    "pos": "adj",
+    "meaning_vi": "sạch",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "schmutzig",
+    "pos": "adj",
+    "meaning_vi": "bẩn",
+    "level": "A2",
+    "topic": "Nha bep"
+  },
+  {
+    "word": "die Kleidung",
+    "pos": "noun",
+    "meaning_vi": "quần áo",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "das Hemd",
+    "pos": "noun",
+    "meaning_vi": "áo sơ mi",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "die Bluse",
+    "pos": "noun",
+    "meaning_vi": "áo blouse",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "das T-Shirt",
+    "pos": "noun",
+    "meaning_vi": "áo thun",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "der Pullover",
+    "pos": "noun",
+    "meaning_vi": "áo len",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "die Jacke",
+    "pos": "noun",
+    "meaning_vi": "áo khoác",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "der Mantel",
+    "pos": "noun",
+    "meaning_vi": "áo choàng",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "die Hose",
+    "pos": "noun",
+    "meaning_vi": "quần",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "die Jeans",
+    "pos": "noun",
+    "meaning_vi": "quần jeans",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "der Rock",
+    "pos": "noun",
+    "meaning_vi": "váy",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "das Kleid",
+    "pos": "noun",
+    "meaning_vi": "đầm",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "der Anzug",
+    "pos": "noun",
+    "meaning_vi": "bộ vest",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "die Krawatte",
+    "pos": "noun",
+    "meaning_vi": "cà vạt",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "der Schal",
+    "pos": "noun",
+    "meaning_vi": "khăn choàng",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "die Mütze",
+    "pos": "noun",
+    "meaning_vi": "mũ",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "der Handschuh",
+    "pos": "noun",
+    "meaning_vi": "găng tay",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "anziehen",
+    "pos": "verb",
+    "meaning_vi": "mặc",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "ausziehen",
+    "pos": "verb",
+    "meaning_vi": "cởi",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "passen",
+    "pos": "verb",
+    "meaning_vi": "vừa",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "elegant",
+    "pos": "adj",
+    "meaning_vi": "thanh lịch",
+    "level": "A2",
+    "topic": "Quan ao"
+  },
+  {
+    "word": "die Tasche",
+    "pos": "noun",
+    "meaning_vi": "túi",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "der Rucksack",
+    "pos": "noun",
+    "meaning_vi": "ba lô",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "die Handtasche",
+    "pos": "noun",
+    "meaning_vi": "túi xách",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "der Gürtel",
+    "pos": "noun",
+    "meaning_vi": "thắt lưng",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "die Brille",
+    "pos": "noun",
+    "meaning_vi": "kính",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "die Sonnenbrille",
+    "pos": "noun",
+    "meaning_vi": "kính râm",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "die Uhr",
+    "pos": "noun",
+    "meaning_vi": "đồng hồ",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "der Ring",
+    "pos": "noun",
+    "meaning_vi": "nhẫn",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "die Kette",
+    "pos": "noun",
+    "meaning_vi": "dây chuyền",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "der Ohrring",
+    "pos": "noun",
+    "meaning_vi": "bông tai",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "das Armband",
+    "pos": "noun",
+    "meaning_vi": "vòng tay",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "der Regenschirm",
+    "pos": "noun",
+    "meaning_vi": "ô",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "die Geldbörse",
+    "pos": "noun",
+    "meaning_vi": "ví",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "der Schuh",
+    "pos": "noun",
+    "meaning_vi": "giày",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "der Stiefel",
+    "pos": "noun",
+    "meaning_vi": "ủng",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "die Sandale",
+    "pos": "noun",
+    "meaning_vi": "dép",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "der Hausschuh",
+    "pos": "noun",
+    "meaning_vi": "dép đi trong nhà",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "tragen",
+    "pos": "verb",
+    "meaning_vi": "mang/đeo",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "modisch",
+    "pos": "adj",
+    "meaning_vi": "thời trang",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "praktisch",
+    "pos": "adj",
+    "meaning_vi": "tiện dụng",
+    "level": "A2",
+    "topic": "Phu kien"
+  },
+  {
+    "word": "null",
+    "pos": "num",
+    "meaning_vi": "không",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "elf",
+    "pos": "num",
+    "meaning_vi": "mười một",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "zwölf",
+    "pos": "num",
+    "meaning_vi": "mười hai",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "dreizehn",
+    "pos": "num",
+    "meaning_vi": "mười ba",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "vierzehn",
+    "pos": "num",
+    "meaning_vi": "mười bốn",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "fünfzehn",
+    "pos": "num",
+    "meaning_vi": "mười lăm",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "sechzehn",
+    "pos": "num",
+    "meaning_vi": "mười sáu",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "siebzehn",
+    "pos": "num",
+    "meaning_vi": "mười bảy",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "achtzehn",
+    "pos": "num",
+    "meaning_vi": "mười tám",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "neunzehn",
+    "pos": "num",
+    "meaning_vi": "mười chín",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "zwanzig",
+    "pos": "num",
+    "meaning_vi": "hai mươi",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "dreißig",
+    "pos": "num",
+    "meaning_vi": "ba mươi",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "vierzig",
+    "pos": "num",
+    "meaning_vi": "bốn mươi",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "fünfzig",
+    "pos": "num",
+    "meaning_vi": "năm mươi",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "sechzig",
+    "pos": "num",
+    "meaning_vi": "sáu mươi",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "siebzig",
+    "pos": "num",
+    "meaning_vi": "bảy mươi",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "achtzig",
+    "pos": "num",
+    "meaning_vi": "tám mươi",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "neunzig",
+    "pos": "num",
+    "meaning_vi": "chín mươi",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "hundert",
+    "pos": "num",
+    "meaning_vi": "một trăm",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "tausend",
+    "pos": "num",
+    "meaning_vi": "một nghìn",
+    "level": "A1",
+    "topic": "So dem"
+  },
+  {
+    "word": "erste",
+    "pos": "adj",
+    "meaning_vi": "thứ nhất",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "zweite",
+    "pos": "adj",
+    "meaning_vi": "thứ hai",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "dritte",
+    "pos": "adj",
+    "meaning_vi": "thứ ba",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "vierte",
+    "pos": "adj",
+    "meaning_vi": "thứ tư",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "fünfte",
+    "pos": "adj",
+    "meaning_vi": "thứ năm",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "sechste",
+    "pos": "adj",
+    "meaning_vi": "thứ sáu",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "siebte",
+    "pos": "adj",
+    "meaning_vi": "thứ bảy",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "achte",
+    "pos": "adj",
+    "meaning_vi": "thứ tám",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "neunte",
+    "pos": "adj",
+    "meaning_vi": "thứ chín",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "zehnte",
+    "pos": "adj",
+    "meaning_vi": "thứ mười",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "elfte",
+    "pos": "adj",
+    "meaning_vi": "thứ mười một",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "zwölfte",
+    "pos": "adj",
+    "meaning_vi": "thứ mười hai",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "letzte",
+    "pos": "adj",
+    "meaning_vi": "cuối cùng",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "nächste",
+    "pos": "adj",
+    "meaning_vi": "tiếp theo",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "vorherige",
+    "pos": "adj",
+    "meaning_vi": "trước đó",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "einzige",
+    "pos": "adj",
+    "meaning_vi": "duy nhất",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "halbe",
+    "pos": "adj",
+    "meaning_vi": "một nửa",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "doppelte",
+    "pos": "adj",
+    "meaning_vi": "gấp đôi",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "dreifache",
+    "pos": "adj",
+    "meaning_vi": "gấp ba",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "vielfache",
+    "pos": "adj",
+    "meaning_vi": "gấp nhiều",
+    "level": "A2",
+    "topic": "So thu tu"
+  },
+  {
+    "word": "der Morgen",
+    "pos": "noun",
+    "meaning_vi": "buổi sáng",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "der Vormittag",
+    "pos": "noun",
+    "meaning_vi": "buổi sáng (trước trưa)",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "der Mittag",
+    "pos": "noun",
+    "meaning_vi": "buổi trưa",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "der Nachmittag",
+    "pos": "noun",
+    "meaning_vi": "buổi chiều",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "der Abend",
+    "pos": "noun",
+    "meaning_vi": "buổi tối",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "die Nacht",
+    "pos": "noun",
+    "meaning_vi": "ban đêm",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "gestern",
+    "pos": "adv",
+    "meaning_vi": "hôm qua",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "heute",
+    "pos": "adv",
+    "meaning_vi": "hôm nay",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "morgen",
+    "pos": "adv",
+    "meaning_vi": "ngày mai",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "übermorgen",
+    "pos": "adv",
+    "meaning_vi": "ngày kia",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "vorgestern",
+    "pos": "adv",
+    "meaning_vi": "hôm kia",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "täglich",
+    "pos": "adj",
+    "meaning_vi": "hàng ngày",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "wöchentlich",
+    "pos": "adj",
+    "meaning_vi": "hàng tuần",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "monatlich",
+    "pos": "adj",
+    "meaning_vi": "hàng tháng",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "jährlich",
+    "pos": "adj",
+    "meaning_vi": "hàng năm",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "früh",
+    "pos": "adj",
+    "meaning_vi": "sớm",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "spät",
+    "pos": "adj",
+    "meaning_vi": "muộn",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "pünktlich",
+    "pos": "adj",
+    "meaning_vi": "đúng giờ",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "rechtzeitig",
+    "pos": "adj",
+    "meaning_vi": "kịp lúc",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "verspätet",
+    "pos": "adj",
+    "meaning_vi": "trễ",
+    "level": "A2",
+    "topic": "Bieu hien thoi gian"
+  },
+  {
+    "word": "links",
+    "pos": "adv",
+    "meaning_vi": "bên trái",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "rechts",
+    "pos": "adv",
+    "meaning_vi": "bên phải",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "geradeaus",
+    "pos": "adv",
+    "meaning_vi": "thẳng",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "zurück",
+    "pos": "adv",
+    "meaning_vi": "quay lại",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "vorwärts",
+    "pos": "adv",
+    "meaning_vi": "tiến về phía trước",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "rückwärts",
+    "pos": "adv",
+    "meaning_vi": "lùi lại",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "oben",
+    "pos": "adv",
+    "meaning_vi": "phía trên",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "unten",
+    "pos": "adv",
+    "meaning_vi": "phía dưới",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "hinten",
+    "pos": "adv",
+    "meaning_vi": "phía sau",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "vorne",
+    "pos": "adv",
+    "meaning_vi": "phía trước",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "die Kreuzung",
+    "pos": "noun",
+    "meaning_vi": "ngã tư",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "die Ampel",
+    "pos": "noun",
+    "meaning_vi": "đèn giao thông",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "die Ecke",
+    "pos": "noun",
+    "meaning_vi": "góc",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "abbiegen",
+    "pos": "verb",
+    "meaning_vi": "rẽ",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "überqueren",
+    "pos": "verb",
+    "meaning_vi": "băng qua",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "folgen",
+    "pos": "verb",
+    "meaning_vi": "đi theo",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "weitergehen",
+    "pos": "verb",
+    "meaning_vi": "đi tiếp",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "nah",
+    "pos": "adj",
+    "meaning_vi": "gần",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "weit",
+    "pos": "adj",
+    "meaning_vi": "xa",
+    "level": "A2",
+    "topic": "Chi duong"
+  },
+  {
+    "word": "gegenüber",
+    "pos": "prep",
+    "meaning_vi": "đối diện",
+    "level": "A2",
+    "topic": "Chi duong"
+  }
+]

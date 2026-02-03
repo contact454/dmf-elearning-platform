@@ -1,0 +1,527 @@
+[
+  {
+    "word": "der Nachbar",
+    "level": "A1",
+    "topic": "people",
+    "pos": "noun",
+    "meaning_vi": "hàng xóm"
+  },
+  {
+    "word": "die Nachbarin",
+    "level": "A1",
+    "topic": "people",
+    "pos": "noun",
+    "meaning_vi": "hàng xóm (nữ)"
+  },
+  {
+    "word": "der Gast",
+    "level": "A1",
+    "topic": "people",
+    "pos": "noun",
+    "meaning_vi": "khách"
+  },
+  {
+    "word": "der Besucher",
+    "level": "A1",
+    "topic": "people",
+    "pos": "noun",
+    "meaning_vi": "người thăm"
+  },
+  {
+    "word": "der Kunde",
+    "level": "A1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "khách hàng"
+  },
+  {
+    "word": "die Kundin",
+    "level": "A1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "khách hàng (nữ)"
+  },
+  {
+    "word": "der Verkäufer",
+    "level": "A1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "người bán hàng"
+  },
+  {
+    "word": "die Verkäuferin",
+    "level": "A1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "người bán hàng (nữ)"
+  },
+  {
+    "word": "der Kellner",
+    "level": "A1",
+    "topic": "restaurant",
+    "pos": "noun",
+    "meaning_vi": "bồi bàn"
+  },
+  {
+    "word": "die Kellnerin",
+    "level": "A1",
+    "topic": "restaurant",
+    "pos": "noun",
+    "meaning_vi": "bồi bàn (nữ)"
+  },
+  {
+    "word": "der Koch",
+    "level": "A1",
+    "topic": "restaurant",
+    "pos": "noun",
+    "meaning_vi": "đầu bếp"
+  },
+  {
+    "word": "die Köchin",
+    "level": "A1",
+    "topic": "restaurant",
+    "pos": "noun",
+    "meaning_vi": "đầu bếp (nữ)"
+  },
+  {
+    "word": "der Bäcker",
+    "level": "A1",
+    "topic": "food",
+    "pos": "noun",
+    "meaning_vi": "thợ làm bánh"
+  },
+  {
+    "word": "die Bäckerei",
+    "level": "A1",
+    "topic": "shop",
+    "pos": "noun",
+    "meaning_vi": "tiệm bánh"
+  },
+  {
+    "word": "die Metzgerei",
+    "level": "A1",
+    "topic": "shop",
+    "pos": "noun",
+    "meaning_vi": "cửa hàng thịt"
+  },
+  {
+    "word": "der Friseur",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "thợ cắt tóc"
+  },
+  {
+    "word": "die Friseurin",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "thợ cắt tóc (nữ)"
+  },
+  {
+    "word": "der Elektriker",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ điện"
+  },
+  {
+    "word": "der Installateur",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ lắp đặt"
+  },
+  {
+    "word": "der Schlosser",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ khóa"
+  },
+  {
+    "word": "der Mechaniker",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ máy"
+  },
+  {
+    "word": "der Maler",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ sơn"
+  },
+  {
+    "word": "der Tischler",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ mộc"
+  },
+  {
+    "word": "der Maurer",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ xây"
+  },
+  {
+    "word": "der Dachdecker",
+    "level": "A2",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ lợp mái"
+  },
+  {
+    "word": "die Reinigung",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "tiệm giặt"
+  },
+  {
+    "word": "die Werkstatt",
+    "level": "A2",
+    "topic": "place",
+    "pos": "noun",
+    "meaning_vi": "xưởng sửa chữa"
+  },
+  {
+    "word": "die Tankstelle",
+    "level": "A2",
+    "topic": "place",
+    "pos": "noun",
+    "meaning_vi": "trạm xăng"
+  },
+  {
+    "word": "die Wäscherei",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "tiệm giặt ủi"
+  },
+  {
+    "word": "der Notdienst",
+    "level": "A2",
+    "topic": "service",
+    "pos": "noun",
+    "meaning_vi": "dịch vụ khẩn cấp"
+  },
+  {
+    "word": "der Handwerker",
+    "level": "B1",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "thợ thủ công"
+  },
+  {
+    "word": "der Fachmann",
+    "level": "B1",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "chuyên gia"
+  },
+  {
+    "word": "die Fachfrau",
+    "level": "B1",
+    "topic": "profession",
+    "pos": "noun",
+    "meaning_vi": "chuyên gia (nữ)"
+  },
+  {
+    "word": "der Dienstleister",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "nhà cung cấp dịch vụ"
+  },
+  {
+    "word": "der Auftragnehmer",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "nhà thầu"
+  },
+  {
+    "word": "der Auftraggeber",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "người đặt hàng"
+  },
+  {
+    "word": "der Kostenvoranschlag",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "báo giá"
+  },
+  {
+    "word": "die Rechnung",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn"
+  },
+  {
+    "word": "die Anzahlung",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "tiền đặt cọc"
+  },
+  {
+    "word": "die Restzahlung",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "số tiền còn lại"
+  },
+  {
+    "word": "die Abnahme",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "nghiệm thu"
+  },
+  {
+    "word": "die Fertigstellung",
+    "level": "B1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "hoàn thành"
+  },
+  {
+    "word": "beauftragen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "ủy thác"
+  },
+  {
+    "word": "fertigstellen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "hoàn thành"
+  },
+  {
+    "word": "abnehmen",
+    "level": "B1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "nghiệm thu"
+  },
+  {
+    "word": "die Leistungsbeschreibung",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "mô tả công việc"
+  },
+  {
+    "word": "die Gewährleistungsfrist",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thời hạn bảo hành"
+  },
+  {
+    "word": "die Mängelrüge",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "khiếu nại lỗi"
+  },
+  {
+    "word": "die Nachbesserung",
+    "level": "B2",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "sửa chữa bổ sung"
+  },
+  {
+    "word": "der Mangel",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "lỗi, khuyết điểm"
+  },
+  {
+    "word": "die Abmahnung",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "cảnh cáo"
+  },
+  {
+    "word": "die Fristsetzung",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "ấn định thời hạn"
+  },
+  {
+    "word": "die Vertragsstrafe",
+    "level": "B2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "phạt hợp đồng"
+  },
+  {
+    "word": "beanstanden",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "khiếu nại"
+  },
+  {
+    "word": "nachbessern",
+    "level": "B2",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "sửa chữa bổ sung"
+  },
+  {
+    "word": "die Bauabnahme",
+    "level": "C1",
+    "topic": "construction",
+    "pos": "noun",
+    "meaning_vi": "nghiệm thu xây dựng"
+  },
+  {
+    "word": "die Abschlagsrechnung",
+    "level": "C1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn tạm ứng"
+  },
+  {
+    "word": "die Schlussrechnung",
+    "level": "C1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "hóa đơn quyết toán"
+  },
+  {
+    "word": "die Bürgschaftsurkunde",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "giấy bảo lãnh"
+  },
+  {
+    "word": "der Erfüllungsort",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "nơi thực hiện"
+  },
+  {
+    "word": "die Ausführungsfrist",
+    "level": "C1",
+    "topic": "business",
+    "pos": "noun",
+    "meaning_vi": "thời hạn thực hiện"
+  },
+  {
+    "word": "die Vertragserfüllung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thực hiện hợp đồng"
+  },
+  {
+    "word": "die Leistungsstörung",
+    "level": "C1",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "vi phạm nghĩa vụ"
+  },
+  {
+    "word": "abrechnen",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "quyết toán"
+  },
+  {
+    "word": "abwickeln",
+    "level": "C1",
+    "topic": "action",
+    "pos": "verb",
+    "meaning_vi": "xử lý, giải quyết"
+  },
+  {
+    "word": "die Bauhandwerkersicherung",
+    "level": "C2",
+    "topic": "construction",
+    "pos": "noun",
+    "meaning_vi": "bảo đảm nhà thầu xây dựng"
+  },
+  {
+    "word": "der Werklohnanspruch",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền đòi tiền công"
+  },
+  {
+    "word": "die Abnahmefiktion",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "mặc định nghiệm thu"
+  },
+  {
+    "word": "die Mängelbeseitigungskosten",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "chi phí sửa lỗi"
+  },
+  {
+    "word": "der Bereicherungsanspruch",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền đòi bồi hoàn"
+  },
+  {
+    "word": "die Nacherfüllung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "thực hiện bổ sung"
+  },
+  {
+    "word": "die Störerhaftung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "trách nhiệm gây rối"
+  },
+  {
+    "word": "der Rücktritt",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "rút lui khỏi hợp đồng"
+  },
+  {
+    "word": "die Minderung",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "giảm giá"
+  },
+  {
+    "word": "der Vorschussanspruch",
+    "level": "C2",
+    "topic": "legal",
+    "pos": "noun",
+    "meaning_vi": "quyền yêu cầu tạm ứng"
+  }
+]

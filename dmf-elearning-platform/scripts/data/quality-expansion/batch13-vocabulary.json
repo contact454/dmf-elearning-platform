@@ -1,0 +1,2522 @@
+[
+  {
+    "word": "sein",
+    "pos": "verb",
+    "meaning_vi": "là",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "haben",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "werden",
+    "pos": "verb",
+    "meaning_vi": "trở thành",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "können",
+    "pos": "verb",
+    "meaning_vi": "có thể",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "müssen",
+    "pos": "verb",
+    "meaning_vi": "phải",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "sollen",
+    "pos": "verb",
+    "meaning_vi": "nên",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "wollen",
+    "pos": "verb",
+    "meaning_vi": "muốn",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "dürfen",
+    "pos": "verb",
+    "meaning_vi": "được phép",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "mögen",
+    "pos": "verb",
+    "meaning_vi": "thích",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "machen",
+    "pos": "verb",
+    "meaning_vi": "làm",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "gehen",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "kommen",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "sehen",
+    "pos": "verb",
+    "meaning_vi": "nhìn",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "geben",
+    "pos": "verb",
+    "meaning_vi": "cho",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "nehmen",
+    "pos": "verb",
+    "meaning_vi": "lấy",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "finden",
+    "pos": "verb",
+    "meaning_vi": "tìm thấy",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "denken",
+    "pos": "verb",
+    "meaning_vi": "nghĩ",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "sagen",
+    "pos": "verb",
+    "meaning_vi": "nói",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "wissen",
+    "pos": "verb",
+    "meaning_vi": "biết",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "lassen",
+    "pos": "verb",
+    "meaning_vi": "để",
+    "level": "A1",
+    "topic": "Dong tu thong dung"
+  },
+  {
+    "word": "arbeiten",
+    "pos": "verb",
+    "meaning_vi": "làm việc",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "spielen",
+    "pos": "verb",
+    "meaning_vi": "chơi",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "lernen",
+    "pos": "verb",
+    "meaning_vi": "học",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "lesen",
+    "pos": "verb",
+    "meaning_vi": "đọc",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "schreiben",
+    "pos": "verb",
+    "meaning_vi": "viết",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "sprechen",
+    "pos": "verb",
+    "meaning_vi": "nói",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "hören",
+    "pos": "verb",
+    "meaning_vi": "nghe",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "verstehen",
+    "pos": "verb",
+    "meaning_vi": "hiểu",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "kaufen",
+    "pos": "verb",
+    "meaning_vi": "mua",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "verkaufen",
+    "pos": "verb",
+    "meaning_vi": "bán",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "öffnen",
+    "pos": "verb",
+    "meaning_vi": "mở",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "schließen",
+    "pos": "verb",
+    "meaning_vi": "đóng",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "beginnen",
+    "pos": "verb",
+    "meaning_vi": "bắt đầu",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "beenden",
+    "pos": "verb",
+    "meaning_vi": "kết thúc",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "helfen",
+    "pos": "verb",
+    "meaning_vi": "giúp",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "brauchen",
+    "pos": "verb",
+    "meaning_vi": "cần",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "bringen",
+    "pos": "verb",
+    "meaning_vi": "mang",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "holen",
+    "pos": "verb",
+    "meaning_vi": "lấy",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "tragen",
+    "pos": "verb",
+    "meaning_vi": "mang/đeo",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "halten",
+    "pos": "verb",
+    "meaning_vi": "giữ",
+    "level": "A2",
+    "topic": "Dong tu hanh dong"
+  },
+  {
+    "word": "fahren",
+    "pos": "verb",
+    "meaning_vi": "lái xe/đi",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "fliegen",
+    "pos": "verb",
+    "meaning_vi": "bay",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "laufen",
+    "pos": "verb",
+    "meaning_vi": "chạy",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "springen",
+    "pos": "verb",
+    "meaning_vi": "nhảy",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "schwimmen",
+    "pos": "verb",
+    "meaning_vi": "bơi",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "steigen",
+    "pos": "verb",
+    "meaning_vi": "leo",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "fallen",
+    "pos": "verb",
+    "meaning_vi": "ngã",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "setzen",
+    "pos": "verb",
+    "meaning_vi": "đặt",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "stellen",
+    "pos": "verb",
+    "meaning_vi": "đặt đứng",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "legen",
+    "pos": "verb",
+    "meaning_vi": "đặt nằm",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "sitzen",
+    "pos": "verb",
+    "meaning_vi": "ngồi",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "stehen",
+    "pos": "verb",
+    "meaning_vi": "đứng",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "liegen",
+    "pos": "verb",
+    "meaning_vi": "nằm",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "hängen",
+    "pos": "verb",
+    "meaning_vi": "treo",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "folgen",
+    "pos": "verb",
+    "meaning_vi": "theo",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "erreichen",
+    "pos": "verb",
+    "meaning_vi": "đạt tới",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "verlassen",
+    "pos": "verb",
+    "meaning_vi": "rời đi",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "betreten",
+    "pos": "verb",
+    "meaning_vi": "bước vào",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "rennen",
+    "pos": "verb",
+    "meaning_vi": "chạy nhanh",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "wandern",
+    "pos": "verb",
+    "meaning_vi": "đi bộ",
+    "level": "A2",
+    "topic": "Dong tu di chuyen"
+  },
+  {
+    "word": "erzählen",
+    "pos": "verb",
+    "meaning_vi": "kể",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "berichten",
+    "pos": "verb",
+    "meaning_vi": "báo cáo",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "erklären",
+    "pos": "verb",
+    "meaning_vi": "giải thích",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "beschreiben",
+    "pos": "verb",
+    "meaning_vi": "mô tả",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "fragen",
+    "pos": "verb",
+    "meaning_vi": "hỏi",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "antworten",
+    "pos": "verb",
+    "meaning_vi": "trả lời",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "bitten",
+    "pos": "verb",
+    "meaning_vi": "yêu cầu",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "danken",
+    "pos": "verb",
+    "meaning_vi": "cảm ơn",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "entschuldigen",
+    "pos": "verb",
+    "meaning_vi": "xin lỗi",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "begrüßen",
+    "pos": "verb",
+    "meaning_vi": "chào hỏi",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "verabschieden",
+    "pos": "verb",
+    "meaning_vi": "tạm biệt",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "vorstellen",
+    "pos": "verb",
+    "meaning_vi": "giới thiệu",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "diskutieren",
+    "pos": "verb",
+    "meaning_vi": "thảo luận",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "argumentieren",
+    "pos": "verb",
+    "meaning_vi": "lập luận",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "überzeugen",
+    "pos": "verb",
+    "meaning_vi": "thuyết phục",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "zustimmen",
+    "pos": "verb",
+    "meaning_vi": "đồng ý",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "ablehnen",
+    "pos": "verb",
+    "meaning_vi": "từ chối",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "vorschlagen",
+    "pos": "verb",
+    "meaning_vi": "đề xuất",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "empfehlen",
+    "pos": "verb",
+    "meaning_vi": "gợi ý",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "warnen",
+    "pos": "verb",
+    "meaning_vi": "cảnh báo",
+    "level": "B1",
+    "topic": "Dong tu giao tiep"
+  },
+  {
+    "word": "glauben",
+    "pos": "verb",
+    "meaning_vi": "tin",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "meinen",
+    "pos": "verb",
+    "meaning_vi": "cho rằng",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "vermuten",
+    "pos": "verb",
+    "meaning_vi": "đoán",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "annehmen",
+    "pos": "verb",
+    "meaning_vi": "giả định",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "bezweifeln",
+    "pos": "verb",
+    "meaning_vi": "nghi ngờ",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "überlegen",
+    "pos": "verb",
+    "meaning_vi": "suy nghĩ",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "nachdenken",
+    "pos": "verb",
+    "meaning_vi": "suy ngẫm",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "erinnern",
+    "pos": "verb",
+    "meaning_vi": "nhớ",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "vergessen",
+    "pos": "verb",
+    "meaning_vi": "quên",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "erkennen",
+    "pos": "verb",
+    "meaning_vi": "nhận ra",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "bemerken",
+    "pos": "verb",
+    "meaning_vi": "nhận thấy",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "entdecken",
+    "pos": "verb",
+    "meaning_vi": "khám phá",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "verstehen",
+    "pos": "verb",
+    "meaning_vi": "hiểu",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "begreifen",
+    "pos": "verb",
+    "meaning_vi": "lĩnh hội",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "lernen",
+    "pos": "verb",
+    "meaning_vi": "học",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "studieren",
+    "pos": "verb",
+    "meaning_vi": "nghiên cứu",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "planen",
+    "pos": "verb",
+    "meaning_vi": "lên kế hoạch",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "entscheiden",
+    "pos": "verb",
+    "meaning_vi": "quyết định",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "wählen",
+    "pos": "verb",
+    "meaning_vi": "chọn",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "vergleichen",
+    "pos": "verb",
+    "meaning_vi": "so sánh",
+    "level": "B1",
+    "topic": "Dong tu tu duy"
+  },
+  {
+    "word": "gut",
+    "pos": "adj",
+    "meaning_vi": "tốt",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "schlecht",
+    "pos": "adj",
+    "meaning_vi": "xấu",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "groß",
+    "pos": "adj",
+    "meaning_vi": "lớn",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "klein",
+    "pos": "adj",
+    "meaning_vi": "nhỏ",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "alt",
+    "pos": "adj",
+    "meaning_vi": "già/cũ",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "jung",
+    "pos": "adj",
+    "meaning_vi": "trẻ",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "neu",
+    "pos": "adj",
+    "meaning_vi": "mới",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "schnell",
+    "pos": "adj",
+    "meaning_vi": "nhanh",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "langsam",
+    "pos": "adj",
+    "meaning_vi": "chậm",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "hoch",
+    "pos": "adj",
+    "meaning_vi": "cao",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "niedrig",
+    "pos": "adj",
+    "meaning_vi": "thấp",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "lang",
+    "pos": "adj",
+    "meaning_vi": "dài",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "kurz",
+    "pos": "adj",
+    "meaning_vi": "ngắn",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "breit",
+    "pos": "adj",
+    "meaning_vi": "rộng",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "schmal",
+    "pos": "adj",
+    "meaning_vi": "hẹp",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "dick",
+    "pos": "adj",
+    "meaning_vi": "dày/béo",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "dünn",
+    "pos": "adj",
+    "meaning_vi": "mỏng/gầy",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "schwer",
+    "pos": "adj",
+    "meaning_vi": "nặng/khó",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "leicht",
+    "pos": "adj",
+    "meaning_vi": "nhẹ/dễ",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "stark",
+    "pos": "adj",
+    "meaning_vi": "mạnh",
+    "level": "A1",
+    "topic": "Tinh tu co ban"
+  },
+  {
+    "word": "schwach",
+    "pos": "adj",
+    "meaning_vi": "yếu",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "hart",
+    "pos": "adj",
+    "meaning_vi": "cứng",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "weich",
+    "pos": "adj",
+    "meaning_vi": "mềm",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "hell",
+    "pos": "adj",
+    "meaning_vi": "sáng",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "dunkel",
+    "pos": "adj",
+    "meaning_vi": "tối",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "laut",
+    "pos": "adj",
+    "meaning_vi": "ồn",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "leise",
+    "pos": "adj",
+    "meaning_vi": "nhẹ nhàng",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "sauber",
+    "pos": "adj",
+    "meaning_vi": "sạch",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "schmutzig",
+    "pos": "adj",
+    "meaning_vi": "bẩn",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "trocken",
+    "pos": "adj",
+    "meaning_vi": "khô",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "nass",
+    "pos": "adj",
+    "meaning_vi": "ướt",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "voll",
+    "pos": "adj",
+    "meaning_vi": "đầy",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "leer",
+    "pos": "adj",
+    "meaning_vi": "trống",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "offen",
+    "pos": "adj",
+    "meaning_vi": "mở",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "geschlossen",
+    "pos": "adj",
+    "meaning_vi": "đóng",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "richtig",
+    "pos": "adj",
+    "meaning_vi": "đúng",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "falsch",
+    "pos": "adj",
+    "meaning_vi": "sai",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "wichtig",
+    "pos": "adj",
+    "meaning_vi": "quan trọng",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "einfach",
+    "pos": "adj",
+    "meaning_vi": "đơn giản",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "schwierig",
+    "pos": "adj",
+    "meaning_vi": "khó",
+    "level": "A2",
+    "topic": "Tinh tu mo ta"
+  },
+  {
+    "word": "möglich",
+    "pos": "adj",
+    "meaning_vi": "có thể",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "unmöglich",
+    "pos": "adj",
+    "meaning_vi": "không thể",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "notwendig",
+    "pos": "adj",
+    "meaning_vi": "cần thiết",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "nützlich",
+    "pos": "adj",
+    "meaning_vi": "hữu ích",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "nutzlos",
+    "pos": "adj",
+    "meaning_vi": "vô ích",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "gefährlich",
+    "pos": "adj",
+    "meaning_vi": "nguy hiểm",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "sicher",
+    "pos": "adj",
+    "meaning_vi": "an toàn",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "bekannt",
+    "pos": "adj",
+    "meaning_vi": "nổi tiếng",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "unbekannt",
+    "pos": "adj",
+    "meaning_vi": "không rõ",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "berühmt",
+    "pos": "adj",
+    "meaning_vi": "nổi tiếng",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "beliebt",
+    "pos": "adj",
+    "meaning_vi": "được yêu thích",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "typisch",
+    "pos": "adj",
+    "meaning_vi": "điển hình",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "normal",
+    "pos": "adj",
+    "meaning_vi": "bình thường",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "besonders",
+    "pos": "adj",
+    "meaning_vi": "đặc biệt",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "gewöhnlich",
+    "pos": "adj",
+    "meaning_vi": "thường",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "selten",
+    "pos": "adj",
+    "meaning_vi": "hiếm",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "häufig",
+    "pos": "adj",
+    "meaning_vi": "thường xuyên",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "regelmäßig",
+    "pos": "adj",
+    "meaning_vi": "đều đặn",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "plötzlich",
+    "pos": "adj",
+    "meaning_vi": "đột ngột",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "langsam",
+    "pos": "adj",
+    "meaning_vi": "chậm",
+    "level": "B1",
+    "topic": "Tinh tu chat luong"
+  },
+  {
+    "word": "hier",
+    "pos": "adv",
+    "meaning_vi": "ở đây",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "dort",
+    "pos": "adv",
+    "meaning_vi": "ở đó",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "überall",
+    "pos": "adv",
+    "meaning_vi": "khắp nơi",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "nirgendwo",
+    "pos": "adv",
+    "meaning_vi": "không đâu",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "irgendwo",
+    "pos": "adv",
+    "meaning_vi": "đâu đó",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "jetzt",
+    "pos": "adv",
+    "meaning_vi": "bây giờ",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "heute",
+    "pos": "adv",
+    "meaning_vi": "hôm nay",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "morgen",
+    "pos": "adv",
+    "meaning_vi": "ngày mai",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "gestern",
+    "pos": "adv",
+    "meaning_vi": "hôm qua",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "immer",
+    "pos": "adv",
+    "meaning_vi": "luôn luôn",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "nie",
+    "pos": "adv",
+    "meaning_vi": "không bao giờ",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "manchmal",
+    "pos": "adv",
+    "meaning_vi": "đôi khi",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "oft",
+    "pos": "adv",
+    "meaning_vi": "thường",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "selten",
+    "pos": "adv",
+    "meaning_vi": "hiếm khi",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "schon",
+    "pos": "adv",
+    "meaning_vi": "đã",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "noch",
+    "pos": "adv",
+    "meaning_vi": "vẫn",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "wieder",
+    "pos": "adv",
+    "meaning_vi": "lại",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "auch",
+    "pos": "adv",
+    "meaning_vi": "cũng",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "nur",
+    "pos": "adv",
+    "meaning_vi": "chỉ",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "sehr",
+    "pos": "adv",
+    "meaning_vi": "rất",
+    "level": "A2",
+    "topic": "Trang tu"
+  },
+  {
+    "word": "vielleicht",
+    "pos": "adv",
+    "meaning_vi": "có lẽ",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "wahrscheinlich",
+    "pos": "adv",
+    "meaning_vi": "có thể",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "sicherlich",
+    "pos": "adv",
+    "meaning_vi": "chắc chắn",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "bestimmt",
+    "pos": "adv",
+    "meaning_vi": "chắc chắn",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "eigentlich",
+    "pos": "adv",
+    "meaning_vi": "thực ra",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "wirklich",
+    "pos": "adv",
+    "meaning_vi": "thực sự",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "tatsächlich",
+    "pos": "adv",
+    "meaning_vi": "thực tế",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "ungefähr",
+    "pos": "adv",
+    "meaning_vi": "khoảng",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "genau",
+    "pos": "adv",
+    "meaning_vi": "chính xác",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "besonders",
+    "pos": "adv",
+    "meaning_vi": "đặc biệt",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "hauptsächlich",
+    "pos": "adv",
+    "meaning_vi": "chủ yếu",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "normalerweise",
+    "pos": "adv",
+    "meaning_vi": "thông thường",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "glücklicherweise",
+    "pos": "adv",
+    "meaning_vi": "may mắn",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "leider",
+    "pos": "adv",
+    "meaning_vi": "tiếc là",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "hoffentlich",
+    "pos": "adv",
+    "meaning_vi": "hy vọng",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "trotzdem",
+    "pos": "adv",
+    "meaning_vi": "mặc dù vậy",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "deshalb",
+    "pos": "adv",
+    "meaning_vi": "vì vậy",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "daher",
+    "pos": "adv",
+    "meaning_vi": "do đó",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "jedoch",
+    "pos": "adv",
+    "meaning_vi": "tuy nhiên",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "außerdem",
+    "pos": "adv",
+    "meaning_vi": "ngoài ra",
+    "level": "B1",
+    "topic": "Trang tu bo sung"
+  },
+  {
+    "word": "in",
+    "pos": "prep",
+    "meaning_vi": "trong",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "an",
+    "pos": "prep",
+    "meaning_vi": "ở/tại",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "auf",
+    "pos": "prep",
+    "meaning_vi": "trên",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "unter",
+    "pos": "prep",
+    "meaning_vi": "dưới",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "über",
+    "pos": "prep",
+    "meaning_vi": "trên/qua",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "vor",
+    "pos": "prep",
+    "meaning_vi": "trước",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "hinter",
+    "pos": "prep",
+    "meaning_vi": "sau",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "neben",
+    "pos": "prep",
+    "meaning_vi": "bên cạnh",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "zwischen",
+    "pos": "prep",
+    "meaning_vi": "giữa",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "mit",
+    "pos": "prep",
+    "meaning_vi": "với",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "ohne",
+    "pos": "prep",
+    "meaning_vi": "không có",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "für",
+    "pos": "prep",
+    "meaning_vi": "cho",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "gegen",
+    "pos": "prep",
+    "meaning_vi": "chống/khoảng",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "durch",
+    "pos": "prep",
+    "meaning_vi": "qua",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "um",
+    "pos": "prep",
+    "meaning_vi": "quanh/lúc",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "bei",
+    "pos": "prep",
+    "meaning_vi": "ở/tại",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "nach",
+    "pos": "prep",
+    "meaning_vi": "sau/đến",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "von",
+    "pos": "prep",
+    "meaning_vi": "từ/của",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "zu",
+    "pos": "prep",
+    "meaning_vi": "đến",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "seit",
+    "pos": "prep",
+    "meaning_vi": "từ (thời gian)",
+    "level": "A2",
+    "topic": "Gioi tu"
+  },
+  {
+    "word": "und",
+    "pos": "conj",
+    "meaning_vi": "và",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "oder",
+    "pos": "conj",
+    "meaning_vi": "hoặc",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "aber",
+    "pos": "conj",
+    "meaning_vi": "nhưng",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "denn",
+    "pos": "conj",
+    "meaning_vi": "bởi vì",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "sondern",
+    "pos": "conj",
+    "meaning_vi": "mà",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "weil",
+    "pos": "conj",
+    "meaning_vi": "vì",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "dass",
+    "pos": "conj",
+    "meaning_vi": "rằng",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "wenn",
+    "pos": "conj",
+    "meaning_vi": "nếu/khi",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "als",
+    "pos": "conj",
+    "meaning_vi": "khi/như",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "obwohl",
+    "pos": "conj",
+    "meaning_vi": "mặc dù",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "während",
+    "pos": "conj",
+    "meaning_vi": "trong khi",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "bevor",
+    "pos": "conj",
+    "meaning_vi": "trước khi",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "nachdem",
+    "pos": "conj",
+    "meaning_vi": "sau khi",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "bis",
+    "pos": "conj",
+    "meaning_vi": "cho đến khi",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "damit",
+    "pos": "conj",
+    "meaning_vi": "để",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "um zu",
+    "pos": "conj",
+    "meaning_vi": "để",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "falls",
+    "pos": "conj",
+    "meaning_vi": "trong trường hợp",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "sodass",
+    "pos": "conj",
+    "meaning_vi": "để mà",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "je ... desto",
+    "pos": "conj",
+    "meaning_vi": "càng ... càng",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "sowohl ... als auch",
+    "pos": "conj",
+    "meaning_vi": "cả ... lẫn",
+    "level": "A2",
+    "topic": "Lien tu"
+  },
+  {
+    "word": "ich",
+    "pos": "pron",
+    "meaning_vi": "tôi",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "du",
+    "pos": "pron",
+    "meaning_vi": "bạn",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "er",
+    "pos": "pron",
+    "meaning_vi": "anh ấy",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "sie",
+    "pos": "pron",
+    "meaning_vi": "cô ấy/họ",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "es",
+    "pos": "pron",
+    "meaning_vi": "nó",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "wir",
+    "pos": "pron",
+    "meaning_vi": "chúng tôi",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "ihr",
+    "pos": "pron",
+    "meaning_vi": "các bạn",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "Sie",
+    "pos": "pron",
+    "meaning_vi": "quý vị",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "mich",
+    "pos": "pron",
+    "meaning_vi": "tôi (Akk)",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "dich",
+    "pos": "pron",
+    "meaning_vi": "bạn (Akk)",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "mir",
+    "pos": "pron",
+    "meaning_vi": "tôi (Dat)",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "dir",
+    "pos": "pron",
+    "meaning_vi": "bạn (Dat)",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "mein",
+    "pos": "pron",
+    "meaning_vi": "của tôi",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "dein",
+    "pos": "pron",
+    "meaning_vi": "của bạn",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "sein",
+    "pos": "pron",
+    "meaning_vi": "của anh ấy",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "ihr",
+    "pos": "pron",
+    "meaning_vi": "của cô ấy",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "unser",
+    "pos": "pron",
+    "meaning_vi": "của chúng tôi",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "euer",
+    "pos": "pron",
+    "meaning_vi": "của các bạn",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "dieser",
+    "pos": "pron",
+    "meaning_vi": "này",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "jener",
+    "pos": "pron",
+    "meaning_vi": "kia",
+    "level": "A1",
+    "topic": "Dai tu"
+  },
+  {
+    "word": "wer",
+    "pos": "pron",
+    "meaning_vi": "ai",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "was",
+    "pos": "pron",
+    "meaning_vi": "cái gì",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wo",
+    "pos": "adv",
+    "meaning_vi": "ở đâu",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wohin",
+    "pos": "adv",
+    "meaning_vi": "đến đâu",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "woher",
+    "pos": "adv",
+    "meaning_vi": "từ đâu",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wann",
+    "pos": "adv",
+    "meaning_vi": "khi nào",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wie",
+    "pos": "adv",
+    "meaning_vi": "như thế nào",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "warum",
+    "pos": "adv",
+    "meaning_vi": "tại sao",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "welcher",
+    "pos": "pron",
+    "meaning_vi": "cái nào",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wessen",
+    "pos": "pron",
+    "meaning_vi": "của ai",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wem",
+    "pos": "pron",
+    "meaning_vi": "cho ai",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wen",
+    "pos": "pron",
+    "meaning_vi": "ai (Akk)",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wie viel",
+    "pos": "adv",
+    "meaning_vi": "bao nhiêu",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wie lange",
+    "pos": "adv",
+    "meaning_vi": "bao lâu",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wie oft",
+    "pos": "adv",
+    "meaning_vi": "bao nhiêu lần",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wie weit",
+    "pos": "adv",
+    "meaning_vi": "bao xa",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "wieso",
+    "pos": "adv",
+    "meaning_vi": "tại sao",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "weshalb",
+    "pos": "adv",
+    "meaning_vi": "vì sao",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "womit",
+    "pos": "adv",
+    "meaning_vi": "bằng gì",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "worüber",
+    "pos": "adv",
+    "meaning_vi": "về điều gì",
+    "level": "A1",
+    "topic": "Tu nghi van"
+  },
+  {
+    "word": "rot",
+    "pos": "adj",
+    "meaning_vi": "đỏ",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "blau",
+    "pos": "adj",
+    "meaning_vi": "xanh dương",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "grün",
+    "pos": "adj",
+    "meaning_vi": "xanh lá",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "gelb",
+    "pos": "adj",
+    "meaning_vi": "vàng",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "orange",
+    "pos": "adj",
+    "meaning_vi": "cam",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "lila",
+    "pos": "adj",
+    "meaning_vi": "tím",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "rosa",
+    "pos": "adj",
+    "meaning_vi": "hồng",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "braun",
+    "pos": "adj",
+    "meaning_vi": "nâu",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "schwarz",
+    "pos": "adj",
+    "meaning_vi": "đen",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "weiß",
+    "pos": "adj",
+    "meaning_vi": "trắng",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "grau",
+    "pos": "adj",
+    "meaning_vi": "xám",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "beige",
+    "pos": "adj",
+    "meaning_vi": "be",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "türkis",
+    "pos": "adj",
+    "meaning_vi": "ngọc lam",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "gold",
+    "pos": "adj",
+    "meaning_vi": "vàng kim",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "silber",
+    "pos": "adj",
+    "meaning_vi": "bạc",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "hell",
+    "pos": "adj",
+    "meaning_vi": "sáng",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "dunkel",
+    "pos": "adj",
+    "meaning_vi": "tối",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "bunt",
+    "pos": "adj",
+    "meaning_vi": "nhiều màu",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "farbig",
+    "pos": "adj",
+    "meaning_vi": "có màu",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "farblos",
+    "pos": "adj",
+    "meaning_vi": "không màu",
+    "level": "A1",
+    "topic": "Mau sac"
+  },
+  {
+    "word": "Deutschland",
+    "pos": "noun",
+    "meaning_vi": "Đức",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Österreich",
+    "pos": "noun",
+    "meaning_vi": "Áo",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "die Schweiz",
+    "pos": "noun",
+    "meaning_vi": "Thụy Sĩ",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Frankreich",
+    "pos": "noun",
+    "meaning_vi": "Pháp",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Italien",
+    "pos": "noun",
+    "meaning_vi": "Ý",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Spanien",
+    "pos": "noun",
+    "meaning_vi": "Tây Ban Nha",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "England",
+    "pos": "noun",
+    "meaning_vi": "Anh",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "die USA",
+    "pos": "noun",
+    "meaning_vi": "Mỹ",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "China",
+    "pos": "noun",
+    "meaning_vi": "Trung Quốc",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Japan",
+    "pos": "noun",
+    "meaning_vi": "Nhật Bản",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Russland",
+    "pos": "noun",
+    "meaning_vi": "Nga",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Vietnam",
+    "pos": "noun",
+    "meaning_vi": "Việt Nam",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Thailand",
+    "pos": "noun",
+    "meaning_vi": "Thái Lan",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Indien",
+    "pos": "noun",
+    "meaning_vi": "Ấn Độ",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Brasilien",
+    "pos": "noun",
+    "meaning_vi": "Brazil",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Australien",
+    "pos": "noun",
+    "meaning_vi": "Úc",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Kanada",
+    "pos": "noun",
+    "meaning_vi": "Canada",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "die Türkei",
+    "pos": "noun",
+    "meaning_vi": "Thổ Nhĩ Kỳ",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "Polen",
+    "pos": "noun",
+    "meaning_vi": "Ba Lan",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "die Niederlande",
+    "pos": "noun",
+    "meaning_vi": "Hà Lan",
+    "level": "A1",
+    "topic": "Quoc gia"
+  },
+  {
+    "word": "deutsch",
+    "pos": "adj",
+    "meaning_vi": "Đức",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "österreichisch",
+    "pos": "adj",
+    "meaning_vi": "Áo",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "schweizerisch",
+    "pos": "adj",
+    "meaning_vi": "Thụy Sĩ",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "französisch",
+    "pos": "adj",
+    "meaning_vi": "Pháp",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "italienisch",
+    "pos": "adj",
+    "meaning_vi": "Ý",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "spanisch",
+    "pos": "adj",
+    "meaning_vi": "Tây Ban Nha",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "englisch",
+    "pos": "adj",
+    "meaning_vi": "Anh",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "amerikanisch",
+    "pos": "adj",
+    "meaning_vi": "Mỹ",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "chinesisch",
+    "pos": "adj",
+    "meaning_vi": "Trung Quốc",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "japanisch",
+    "pos": "adj",
+    "meaning_vi": "Nhật Bản",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "russisch",
+    "pos": "adj",
+    "meaning_vi": "Nga",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "vietnamesisch",
+    "pos": "adj",
+    "meaning_vi": "Việt Nam",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "thailändisch",
+    "pos": "adj",
+    "meaning_vi": "Thái Lan",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "indisch",
+    "pos": "adj",
+    "meaning_vi": "Ấn Độ",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "brasilianisch",
+    "pos": "adj",
+    "meaning_vi": "Brazil",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "australisch",
+    "pos": "adj",
+    "meaning_vi": "Úc",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "kanadisch",
+    "pos": "adj",
+    "meaning_vi": "Canada",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "türkisch",
+    "pos": "adj",
+    "meaning_vi": "Thổ Nhĩ Kỳ",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "polnisch",
+    "pos": "adj",
+    "meaning_vi": "Ba Lan",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "niederländisch",
+    "pos": "adj",
+    "meaning_vi": "Hà Lan",
+    "level": "A2",
+    "topic": "Quoc tich"
+  },
+  {
+    "word": "Deutsch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Đức",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Englisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Anh",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Französisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Pháp",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Spanisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Tây Ban Nha",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Italienisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Ý",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Chinesisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Trung",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Japanisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Nhật",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Russisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Nga",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Portugiesisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Bồ Đào Nha",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Arabisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Ả Rập",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Vietnamesisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Việt",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Koreanisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Hàn",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Hindi",
+    "pos": "noun",
+    "meaning_vi": "tiếng Hindi",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Türkisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Thổ",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "Polnisch",
+    "pos": "noun",
+    "meaning_vi": "tiếng Ba Lan",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "die Sprache",
+    "pos": "noun",
+    "meaning_vi": "ngôn ngữ",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "die Muttersprache",
+    "pos": "noun",
+    "meaning_vi": "tiếng mẹ đẻ",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "die Fremdsprache",
+    "pos": "noun",
+    "meaning_vi": "ngoại ngữ",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "sprechen",
+    "pos": "verb",
+    "meaning_vi": "nói",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  },
+  {
+    "word": "übersetzen",
+    "pos": "verb",
+    "meaning_vi": "dịch",
+    "level": "A1",
+    "topic": "Ngon ngu"
+  }
+]

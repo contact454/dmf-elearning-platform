@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-02T05:28:44.156Z",
+  "source": {
+    "mined": 12780,
+    "curated": 1816
+  },
+  "classification": {
+    "keep": 1077,
+    "review": 6943,
+    "remove": 4760
+  },
+  "tiers": {
+    "A": 0,
+    "B": 1077,
+    "C": 6943,
+    "D": 4760
+  },
+  "selected": 1077,
+  "distribution": {
+    "A1": 173,
+    "A2": 904
+  },
+  "targetDistribution": {
+    "A1": 1500,
+    "A2": 2500,
+    "B1": 3000,
+    "B2": 2000,
+    "C1": 800,
+    "C2": 200
+  }
+}

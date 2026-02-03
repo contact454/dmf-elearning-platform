@@ -1,0 +1,3152 @@
+[
+  {
+    "word": "auch",
+    "pos": "adverb",
+    "meaning_vi": "cũng",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Ich komme auch aus Deutschland.",
+    "example_vi": "Tôi cũng đến từ Đức."
+  },
+  {
+    "word": "noch",
+    "pos": "adverb",
+    "meaning_vi": "còn/nữa",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Ich habe noch Zeit für einen Kaffee.",
+    "example_vi": "Tôi còn thời gian để uống cà phê."
+  },
+  {
+    "word": "schon",
+    "pos": "adverb",
+    "meaning_vi": "đã",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Hast du schon gegessen?",
+    "example_vi": "Bạn đã ăn chưa?"
+  },
+  {
+    "word": "sehr",
+    "pos": "adverb",
+    "meaning_vi": "rất",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Das Wetter ist heute sehr schön.",
+    "example_vi": "Thời tiết hôm nay rất đẹp."
+  },
+  {
+    "word": "nur",
+    "pos": "adverb",
+    "meaning_vi": "chỉ",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Ich habe nur fünf Euro dabei.",
+    "example_vi": "Tôi chỉ mang theo năm euro."
+  },
+  {
+    "word": "ganz",
+    "pos": "adverb",
+    "meaning_vi": "hoàn toàn",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Das ist ganz einfach zu verstehen.",
+    "example_vi": "Điều đó hoàn toàn dễ hiểu."
+  },
+  {
+    "word": "dann",
+    "pos": "adverb",
+    "meaning_vi": "sau đó",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Wir essen zuerst, dann gehen wir spazieren.",
+    "example_vi": "Chúng ta ăn trước, sau đó đi dạo."
+  },
+  {
+    "word": "hier",
+    "pos": "adverb",
+    "meaning_vi": "ở đây",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Hier ist mein Haus.",
+    "example_vi": "Đây là nhà của tôi."
+  },
+  {
+    "word": "dort",
+    "pos": "adverb",
+    "meaning_vi": "ở đó",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Dort drüben ist die Bushaltestelle.",
+    "example_vi": "Ở đằng kia là trạm xe buýt."
+  },
+  {
+    "word": "da",
+    "pos": "adverb",
+    "meaning_vi": "ở đó/vì",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Da kommt der Zug!",
+    "example_vi": "Tàu đang đến kìa!"
+  },
+  {
+    "word": "viel",
+    "pos": "adverb",
+    "meaning_vi": "nhiều",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Er arbeitet viel und schläft wenig.",
+    "example_vi": "Anh ấy làm việc nhiều và ngủ ít."
+  },
+  {
+    "word": "wenig",
+    "pos": "adverb",
+    "meaning_vi": "ít",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Ich habe heute wenig Zeit.",
+    "example_vi": "Hôm nay tôi có ít thời gian."
+  },
+  {
+    "word": "mehr",
+    "pos": "adverb",
+    "meaning_vi": "hơn",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Ich möchte mehr über deutsche Kultur lernen.",
+    "example_vi": "Tôi muốn học nhiều hơn về văn hóa Đức."
+  },
+  {
+    "word": "genug",
+    "pos": "adverb",
+    "meaning_vi": "đủ",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Danke, ich habe genug gegessen.",
+    "example_vi": "Cảm ơn, tôi đã ăn đủ rồi."
+  },
+  {
+    "word": "fast",
+    "pos": "adverb",
+    "meaning_vi": "gần như",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Wir sind fast am Ziel.",
+    "example_vi": "Chúng ta gần như đã đến đích."
+  },
+  {
+    "word": "etwa",
+    "pos": "adverb",
+    "meaning_vi": "khoảng",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Die Fahrt dauert etwa zwei Stunden.",
+    "example_vi": "Chuyến đi kéo dài khoảng hai tiếng."
+  },
+  {
+    "word": "wieder",
+    "pos": "adverb",
+    "meaning_vi": "lại",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Wann kommst du wieder nach Berlin?",
+    "example_vi": "Khi nào bạn lại đến Berlin?"
+  },
+  {
+    "word": "zusammen",
+    "pos": "adverb",
+    "meaning_vi": "cùng nhau",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Wir arbeiten zusammen an diesem Projekt.",
+    "example_vi": "Chúng tôi làm việc cùng nhau trong dự án này."
+  },
+  {
+    "word": "allein",
+    "pos": "adverb",
+    "meaning_vi": "một mình",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Sie wohnt allein in einer kleinen Wohnung.",
+    "example_vi": "Cô ấy sống một mình trong một căn hộ nhỏ."
+  },
+  {
+    "word": "eigentlich",
+    "pos": "adverb",
+    "meaning_vi": "thực ra",
+    "level": "A1",
+    "topic": "a1_more_basics",
+    "example_de": "Was machst du eigentlich beruflich?",
+    "example_vi": "Thực ra bạn làm nghề gì?"
+  },
+  {
+    "word": "und",
+    "pos": "conjunction",
+    "meaning_vi": "và",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Ich trinke Kaffee und esse Brot.",
+    "example_vi": "Tôi uống cà phê và ăn bánh mì."
+  },
+  {
+    "word": "oder",
+    "pos": "conjunction",
+    "meaning_vi": "hoặc",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Möchtest du Tee oder Kaffee?",
+    "example_vi": "Bạn muốn trà hay cà phê?"
+  },
+  {
+    "word": "aber",
+    "pos": "conjunction",
+    "meaning_vi": "nhưng",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Das Wetter ist schön, aber es ist kalt.",
+    "example_vi": "Thời tiết đẹp, nhưng trời lạnh."
+  },
+  {
+    "word": "denn",
+    "pos": "conjunction",
+    "meaning_vi": "vì",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Ich bleibe zu Hause, denn ich bin müde.",
+    "example_vi": "Tôi ở nhà, vì tôi mệt."
+  },
+  {
+    "word": "weil",
+    "pos": "conjunction",
+    "meaning_vi": "bởi vì",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+    "example_vi": "Tôi học tiếng Đức, bởi vì tôi muốn làm việc ở Đức."
+  },
+  {
+    "word": "wenn",
+    "pos": "conjunction",
+    "meaning_vi": "khi/nếu",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Wenn es regnet, nehme ich einen Regenschirm mit.",
+    "example_vi": "Khi trời mưa, tôi mang theo ô."
+  },
+  {
+    "word": "dass",
+    "pos": "conjunction",
+    "meaning_vi": "rằng",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Ich hoffe, dass du bald kommst.",
+    "example_vi": "Tôi hy vọng rằng bạn sẽ đến sớm."
+  },
+  {
+    "word": "ob",
+    "pos": "conjunction",
+    "meaning_vi": "liệu",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Ich weiß nicht, ob er heute kommt.",
+    "example_vi": "Tôi không biết liệu anh ấy có đến hôm nay không."
+  },
+  {
+    "word": "als",
+    "pos": "conjunction",
+    "meaning_vi": "khi/hơn",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Als ich klein war, spielte ich oft im Park.",
+    "example_vi": "Khi tôi còn nhỏ, tôi thường chơi ở công viên."
+  },
+  {
+    "word": "bevor",
+    "pos": "conjunction",
+    "meaning_vi": "trước khi",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Wasch dir die Hände, bevor du isst.",
+    "example_vi": "Rửa tay trước khi ăn."
+  },
+  {
+    "word": "nachdem",
+    "pos": "conjunction",
+    "meaning_vi": "sau khi",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Nachdem ich gegessen habe, gehe ich spazieren.",
+    "example_vi": "Sau khi tôi ăn xong, tôi đi dạo."
+  },
+  {
+    "word": "während",
+    "pos": "conjunction",
+    "meaning_vi": "trong khi",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Während ich koche, hört mein Mann Musik.",
+    "example_vi": "Trong khi tôi nấu ăn, chồng tôi nghe nhạc."
+  },
+  {
+    "word": "obwohl",
+    "pos": "conjunction",
+    "meaning_vi": "mặc dù",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Obwohl es kalt ist, trägt er keine Jacke.",
+    "example_vi": "Mặc dù trời lạnh, anh ấy không mặc áo khoác."
+  },
+  {
+    "word": "damit",
+    "pos": "conjunction",
+    "meaning_vi": "để",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Ich lerne viel, damit ich die Prüfung bestehe.",
+    "example_vi": "Tôi học nhiều, để tôi đậu kỳ thi."
+  },
+  {
+    "word": "sodass",
+    "pos": "conjunction",
+    "meaning_vi": "đến nỗi",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Es regnete stark, sodass die Straßen überflutet wurden.",
+    "example_vi": "Trời mưa to, đến nỗi đường phố bị ngập."
+  },
+  {
+    "word": "ja",
+    "pos": "particle",
+    "meaning_vi": "vâng",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Ja, ich komme mit dir ins Kino.",
+    "example_vi": "Vâng, tôi sẽ đi xem phim với bạn."
+  },
+  {
+    "word": "nein",
+    "pos": "particle",
+    "meaning_vi": "không",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Nein, ich möchte keinen Zucker im Kaffee.",
+    "example_vi": "Không, tôi không muốn đường trong cà phê."
+  },
+  {
+    "word": "doch",
+    "pos": "particle",
+    "meaning_vi": "có chứ",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Kommst du nicht mit? - Doch, ich komme mit!",
+    "example_vi": "Bạn không đi cùng à? - Có chứ, tôi đi cùng!"
+  },
+  {
+    "word": "mal",
+    "pos": "particle",
+    "meaning_vi": "lần",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Komm mal her und hilf mir bitte!",
+    "example_vi": "Lại đây một lần và giúp tôi với!"
+  },
+  {
+    "word": "wohl",
+    "pos": "particle",
+    "meaning_vi": "có lẽ",
+    "level": "A1",
+    "topic": "a1_conjunctions",
+    "example_de": "Er ist wohl schon nach Hause gegangen.",
+    "example_vi": "Có lẽ anh ấy đã về nhà rồi."
+  },
+  {
+    "word": "helfen",
+    "pos": "verb",
+    "meaning_vi": "giúp đỡ",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Ich helfe meiner Mutter beim Kochen.",
+    "example_vi": "Tôi giúp mẹ tôi nấu ăn."
+  },
+  {
+    "word": "brauchen",
+    "pos": "verb",
+    "meaning_vi": "cần",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Wir brauchen mehr Zeit für das Projekt.",
+    "example_vi": "Chúng tôi cần nhiều thời gian hơn cho dự án."
+  },
+  {
+    "word": "mögen",
+    "pos": "verb",
+    "meaning_vi": "thích",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Die Kinder mögen Schokolade sehr.",
+    "example_vi": "Bọn trẻ rất thích sô-cô-la."
+  },
+  {
+    "word": "wollen",
+    "pos": "verb",
+    "meaning_vi": "muốn",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Er will nächstes Jahr nach Deutschland reisen.",
+    "example_vi": "Anh ấy muốn đi du lịch Đức vào năm tới."
+  },
+  {
+    "word": "können",
+    "pos": "verb",
+    "meaning_vi": "có thể",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Sie kann sehr gut Klavier spielen.",
+    "example_vi": "Cô ấy có thể chơi piano rất tốt."
+  },
+  {
+    "word": "müssen",
+    "pos": "verb",
+    "meaning_vi": "phải",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Ich muss heute früh aufstehen.",
+    "example_vi": "Hôm nay tôi phải dậy sớm."
+  },
+  {
+    "word": "sollen",
+    "pos": "verb",
+    "meaning_vi": "nên",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Du sollst mehr Wasser trinken.",
+    "example_vi": "Bạn nên uống nhiều nước hơn."
+  },
+  {
+    "word": "dürfen",
+    "pos": "verb",
+    "meaning_vi": "được phép",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Hier dürfen Sie nicht rauchen.",
+    "example_vi": "Ở đây bạn không được phép hút thuốc."
+  },
+  {
+    "word": "beginnen",
+    "pos": "verb",
+    "meaning_vi": "bắt đầu",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Der Unterricht beginnt um 8 Uhr.",
+    "example_vi": "Buổi học bắt đầu lúc 8 giờ."
+  },
+  {
+    "word": "beenden",
+    "pos": "verb",
+    "meaning_vi": "kết thúc",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Wir beenden die Arbeit um 17 Uhr.",
+    "example_vi": "Chúng tôi kết thúc công việc lúc 17 giờ."
+  },
+  {
+    "word": "versuchen",
+    "pos": "verb",
+    "meaning_vi": "thử",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Ich versuche, Deutsch zu lernen.",
+    "example_vi": "Tôi cố gắng học tiếng Đức."
+  },
+  {
+    "word": "vergessen",
+    "pos": "verb",
+    "meaning_vi": "quên",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Vergiss nicht, deine Hausaufgaben zu machen!",
+    "example_vi": "Đừng quên làm bài tập về nhà!"
+  },
+  {
+    "word": "erinnern",
+    "pos": "verb",
+    "meaning_vi": "nhớ lại",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Ich erinnere mich an unseren ersten Tag in der Schule.",
+    "example_vi": "Tôi nhớ lại ngày đầu tiên của chúng ta ở trường."
+  },
+  {
+    "word": "zeigen",
+    "pos": "verb",
+    "meaning_vi": "chỉ",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Kannst du mir den Weg zum Bahnhof zeigen?",
+    "example_vi": "Bạn có thể chỉ cho tôi đường đến nhà ga không?"
+  },
+  {
+    "word": "tragen",
+    "pos": "verb",
+    "meaning_vi": "mang",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Sie trägt heute ein schönes Kleid.",
+    "example_vi": "Hôm nay cô ấy mặc một chiếc váy đẹp."
+  },
+  {
+    "word": "halten",
+    "pos": "verb",
+    "meaning_vi": "giữ",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Bitte halten Sie die Tür offen!",
+    "example_vi": "Làm ơn giữ cửa mở!"
+  },
+  {
+    "word": "lassen",
+    "pos": "verb",
+    "meaning_vi": "để",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Lass mich in Ruhe!",
+    "example_vi": "Để tôi yên!"
+  },
+  {
+    "word": "bleiben",
+    "pos": "verb",
+    "meaning_vi": "ở lại",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Ich bleibe heute zu Hause.",
+    "example_vi": "Hôm nay tôi ở nhà."
+  },
+  {
+    "word": "werden",
+    "pos": "verb",
+    "meaning_vi": "trở thành",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Mein Bruder wird nächstes Jahr Arzt.",
+    "example_vi": "Năm tới anh trai tôi sẽ trở thành bác sĩ."
+  },
+  {
+    "word": "treffen",
+    "pos": "verb",
+    "meaning_vi": "gặp",
+    "level": "A2",
+    "topic": "a2_more_verbs",
+    "example_de": "Wir treffen uns morgen um 10 Uhr im Café.",
+    "example_vi": "Ngày mai chúng ta gặp nhau lúc 10 giờ ở quán cà phê."
+  },
+  {
+    "word": "anders",
+    "pos": "adjective",
+    "meaning_vi": "khác",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Dieses Jahr machen wir den Urlaub anders als sonst.",
+    "example_vi": "Năm nay chúng tôi đi nghỉ khác so với thường lệ."
+  },
+  {
+    "word": "gleich",
+    "pos": "adjective",
+    "meaning_vi": "giống",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Wir haben das gleiche Auto gekauft.",
+    "example_vi": "Chúng tôi đã mua cùng một chiếc xe."
+  },
+  {
+    "word": "ähnlich",
+    "pos": "adjective",
+    "meaning_vi": "tương tự",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Deine Jacke ist meiner sehr ähnlich.",
+    "example_vi": "Áo khoác của bạn rất giống của tôi."
+  },
+  {
+    "word": "verschieden",
+    "pos": "adjective",
+    "meaning_vi": "khác nhau",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Die Geschwister haben ganz verschiedene Charaktere.",
+    "example_vi": "Anh chị em có tính cách hoàn toàn khác nhau."
+  },
+  {
+    "word": "bekannt",
+    "pos": "adjective",
+    "meaning_vi": "nổi tiếng",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Dieser Schauspieler ist in Deutschland sehr bekannt.",
+    "example_vi": "Nam diễn viên này rất nổi tiếng ở Đức."
+  },
+  {
+    "word": "berühmt",
+    "pos": "adjective",
+    "meaning_vi": "nổi tiếng",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Mozart ist ein berühmter Komponist aus Österreich.",
+    "example_vi": "Mozart là một nhà soạn nhạc nổi tiếng đến từ Áo."
+  },
+  {
+    "word": "beliebt",
+    "pos": "adjective",
+    "meaning_vi": "được yêu thích",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Pizza ist bei Kindern sehr beliebt.",
+    "example_vi": "Pizza rất được trẻ em yêu thích."
+  },
+  {
+    "word": "besonders",
+    "pos": "adjective",
+    "meaning_vi": "đặc biệt",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Heute ist ein besonderer Tag für mich.",
+    "example_vi": "Hôm nay là một ngày đặc biệt đối với tôi."
+  },
+  {
+    "word": "gewöhnlich",
+    "pos": "adjective",
+    "meaning_vi": "thông thường",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Das ist ein ganz gewöhnlicher Montag.",
+    "example_vi": "Đây là một ngày thứ Hai hoàn toàn thông thường."
+  },
+  {
+    "word": "normal",
+    "pos": "adjective",
+    "meaning_vi": "bình thường",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Es ist normal, dass Kinder viele Fragen stellen.",
+    "example_vi": "Việc trẻ em đặt nhiều câu hỏi là bình thường."
+  },
+  {
+    "word": "typisch",
+    "pos": "adjective",
+    "meaning_vi": "điển hình",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Pünktlichkeit ist typisch deutsch.",
+    "example_vi": "Đúng giờ là điển hình của người Đức."
+  },
+  {
+    "word": "komisch",
+    "pos": "adjective",
+    "meaning_vi": "kỳ lạ",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Er hat sich heute komisch verhalten.",
+    "example_vi": "Hôm nay anh ấy cư xử kỳ lạ."
+  },
+  {
+    "word": "seltsam",
+    "pos": "adjective",
+    "meaning_vi": "lạ",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Das Wetter ist heute sehr seltsam.",
+    "example_vi": "Thời tiết hôm nay rất lạ."
+  },
+  {
+    "word": "wunderbar",
+    "pos": "adjective",
+    "meaning_vi": "tuyệt vời",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Wir hatten einen wunderbaren Abend zusammen.",
+    "example_vi": "Chúng tôi đã có một buổi tối tuyệt vời bên nhau."
+  },
+  {
+    "word": "fantastisch",
+    "pos": "adjective",
+    "meaning_vi": "tuyệt vời",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Das Konzert war einfach fantastisch!",
+    "example_vi": "Buổi hòa nhạc thật sự tuyệt vời!"
+  },
+  {
+    "word": "toll",
+    "pos": "adjective",
+    "meaning_vi": "tuyệt",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Das ist eine tolle Idee!",
+    "example_vi": "Đó là một ý tưởng tuyệt vời!"
+  },
+  {
+    "word": "super",
+    "pos": "adjective",
+    "meaning_vi": "siêu",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Du hast das super gemacht!",
+    "example_vi": "Bạn đã làm điều đó thật tuyệt!"
+  },
+  {
+    "word": "schrecklich",
+    "pos": "adjective",
+    "meaning_vi": "kinh khủng",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Das Wetter war im Urlaub schrecklich.",
+    "example_vi": "Thời tiết trong kỳ nghỉ thật kinh khủng."
+  },
+  {
+    "word": "furchtbar",
+    "pos": "adjective",
+    "meaning_vi": "khủng khiếp",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Ich habe furchtbare Kopfschmerzen.",
+    "example_vi": "Tôi bị đau đầu khủng khiếp."
+  },
+  {
+    "word": "angenehm",
+    "pos": "adjective",
+    "meaning_vi": "dễ chịu",
+    "level": "A2",
+    "topic": "a2_more_adjectives",
+    "example_de": "Die Temperatur im Zimmer ist sehr angenehm.",
+    "example_vi": "Nhiệt độ trong phòng rất dễ chịu."
+  },
+  {
+    "word": "der Ordner",
+    "pos": "noun",
+    "meaning_vi": "cặp tài liệu",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Ich bewahre alle wichtigen Dokumente in einem blauen Ordner auf.",
+    "example_vi": "Tôi cất giữ tất cả các tài liệu quan trọng trong một cặp tài liệu màu xanh."
+  },
+  {
+    "word": "der Zettel",
+    "pos": "noun",
+    "meaning_vi": "tờ giấy",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Sie schrieb die Telefonnummer auf einen kleinen Zettel.",
+    "example_vi": "Cô ấy viết số điện thoại lên một tờ giấy nhỏ."
+  },
+  {
+    "word": "der Stift",
+    "pos": "noun",
+    "meaning_vi": "bút",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Kannst du mir bitte einen Stift leihen?",
+    "example_vi": "Bạn có thể cho tôi mượn một cây bút được không?"
+  },
+  {
+    "word": "das Papier",
+    "pos": "noun",
+    "meaning_vi": "giấy",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Wir brauchen mehr Papier für den Drucker.",
+    "example_vi": "Chúng tôi cần thêm giấy cho máy in."
+  },
+  {
+    "word": "die Schere",
+    "pos": "noun",
+    "meaning_vi": "kéo",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Mit der Schere schneide ich das Geschenkpapier zurecht.",
+    "example_vi": "Tôi cắt giấy gói quà bằng cái kéo."
+  },
+  {
+    "word": "der Klebestreifen",
+    "pos": "noun",
+    "meaning_vi": "băng dính",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Ich brauche Klebestreifen, um das Paket zu verschließen.",
+    "example_vi": "Tôi cần băng dính để niêm phong gói hàng."
+  },
+  {
+    "word": "die Büroklammer",
+    "pos": "noun",
+    "meaning_vi": "kẹp giấy",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Er befestigte die Seiten mit einer Büroklammer.",
+    "example_vi": "Anh ấy ghép các trang lại bằng một chiếc kẹp giấy."
+  },
+  {
+    "word": "der Hefter",
+    "pos": "noun",
+    "meaning_vi": "dập ghim",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Der Hefter ist leer, wir müssen neue Klammern kaufen.",
+    "example_vi": "Dập ghim hết kim rồi, chúng ta phải mua kim mới."
+  },
+  {
+    "word": "der Locher",
+    "pos": "noun",
+    "meaning_vi": "dụng cụ đục lỗ",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Mit dem Locher mache ich Löcher in die Blätter für den Ordner.",
+    "example_vi": "Tôi dùng dụng cụ đục lỗ để đục lỗ vào các tờ giấy cho cặp tài liệu."
+  },
+  {
+    "word": "der Kalender",
+    "pos": "noun",
+    "meaning_vi": "lịch",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Ich habe den Termin in meinem Kalender eingetragen.",
+    "example_vi": "Tôi đã ghi cuộc hẹn vào lịch của mình."
+  },
+  {
+    "word": "die Agenda",
+    "pos": "noun",
+    "meaning_vi": "nhật ký",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Die Agenda für das Meeting wurde gestern verschickt.",
+    "example_vi": "Chương trình nghị sự cho cuộc họp đã được gửi đi hôm qua."
+  },
+  {
+    "word": "der Terminplaner",
+    "pos": "noun",
+    "meaning_vi": "lịch hẹn",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "In meinem Terminplaner stehen alle wichtigen Besprechungen.",
+    "example_vi": "Trong lịch hẹn của tôi có tất cả các cuộc họp quan trọng."
+  },
+  {
+    "word": "die Notiz",
+    "pos": "noun",
+    "meaning_vi": "ghi chú",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Ich habe mir eine Notiz gemacht, damit ich es nicht vergesse.",
+    "example_vi": "Tôi đã ghi chú lại để không quên."
+  },
+  {
+    "word": "der Brief",
+    "pos": "noun",
+    "meaning_vi": "thư",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Gestern habe ich einen Brief von meiner Oma bekommen.",
+    "example_vi": "Hôm qua tôi nhận được một lá thư từ bà tôi."
+  },
+  {
+    "word": "der Umschlag",
+    "pos": "noun",
+    "meaning_vi": "phong bì",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Steck den Brief in den Umschlag und verschließe ihn.",
+    "example_vi": "Cho lá thư vào phong bì và niêm phong lại."
+  },
+  {
+    "word": "die Briefmarke",
+    "pos": "noun",
+    "meaning_vi": "tem",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Vergiss nicht, eine Briefmarke auf den Umschlag zu kleben.",
+    "example_vi": "Đừng quên dán tem lên phong bì."
+  },
+  {
+    "word": "das Paket",
+    "pos": "noun",
+    "meaning_vi": "gói hàng",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Das Paket sollte morgen bei dir ankommen.",
+    "example_vi": "Gói hàng sẽ đến nơi bạn vào ngày mai."
+  },
+  {
+    "word": "der Empfänger",
+    "pos": "noun",
+    "meaning_vi": "người nhận",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Der Name des Empfängers steht auf dem Paket.",
+    "example_vi": "Tên người nhận được ghi trên gói hàng."
+  },
+  {
+    "word": "der Absender",
+    "pos": "noun",
+    "meaning_vi": "người gửi",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Der Absender muss seine Adresse auf den Umschlag schreiben.",
+    "example_vi": "Người gửi phải viết địa chỉ của mình lên phong bì."
+  },
+  {
+    "word": "die Adresse",
+    "pos": "noun",
+    "meaning_vi": "địa chỉ",
+    "level": "A2",
+    "topic": "a2_office",
+    "example_de": "Kannst du mir deine Adresse geben?",
+    "example_vi": "Bạn có thể cho tôi địa chỉ của bạn không?"
+  },
+  {
+    "word": "die Gurke",
+    "pos": "noun",
+    "meaning_vi": "dưa chuột",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Ich schneide die Gurke für den Salat.",
+    "example_vi": "Tôi cắt dưa chuột cho món salad."
+  },
+  {
+    "word": "die Paprika",
+    "pos": "noun",
+    "meaning_vi": "ớt chuông",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Die rote Paprika schmeckt süßer als die grüne.",
+    "example_vi": "Ớt chuông đỏ có vị ngọt hơn ớt chuông xanh."
+  },
+  {
+    "word": "die Möhre",
+    "pos": "noun",
+    "meaning_vi": "cà rốt",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Mein Kaninchen frisst gerne Möhren.",
+    "example_vi": "Thỏ của tôi thích ăn cà rốt."
+  },
+  {
+    "word": "der Spinat",
+    "pos": "noun",
+    "meaning_vi": "rau chân vịt",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Spinat enthält viel Eisen und ist sehr gesund.",
+    "example_vi": "Rau chân vịt chứa nhiều sắt và rất tốt cho sức khỏe."
+  },
+  {
+    "word": "der Kohl",
+    "pos": "noun",
+    "meaning_vi": "bắp cải",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Wir kochen heute Kohl mit Kartoffeln.",
+    "example_vi": "Hôm nay chúng tôi nấu bắp cải với khoai tây."
+  },
+  {
+    "word": "die Bohne",
+    "pos": "noun",
+    "meaning_vi": "đậu",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Grüne Bohnen sind mein Lieblingsgemüse.",
+    "example_vi": "Đậu xanh là loại rau yêu thích của tôi."
+  },
+  {
+    "word": "die Erbse",
+    "pos": "noun",
+    "meaning_vi": "đậu Hà Lan",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Die Kinder mögen keine Erbsen essen.",
+    "example_vi": "Bọn trẻ không thích ăn đậu Hà Lan."
+  },
+  {
+    "word": "der Pilz",
+    "pos": "noun",
+    "meaning_vi": "nấm",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Im Herbst sammeln wir Pilze im Wald.",
+    "example_vi": "Vào mùa thu chúng tôi hái nấm trong rừng."
+  },
+  {
+    "word": "die Kirsche",
+    "pos": "noun",
+    "meaning_vi": "quả anh đào",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Die Kirschen sind im Sommer besonders süß.",
+    "example_vi": "Quả anh đào vào mùa hè đặc biệt ngọt."
+  },
+  {
+    "word": "die Erdbeere",
+    "pos": "noun",
+    "meaning_vi": "dâu tây",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Ich esse gerne Erdbeeren mit Sahne.",
+    "example_vi": "Tôi thích ăn dâu tây với kem."
+  },
+  {
+    "word": "die Himbeere",
+    "pos": "noun",
+    "meaning_vi": "mâm xôi",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Himbeeren sind perfekt für Marmelade.",
+    "example_vi": "Mâm xôi rất hoàn hảo để làm mứt."
+  },
+  {
+    "word": "die Traube",
+    "pos": "noun",
+    "meaning_vi": "nho",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Aus Trauben macht man Wein.",
+    "example_vi": "Từ nho người ta làm ra rượu vang."
+  },
+  {
+    "word": "die Birne",
+    "pos": "noun",
+    "meaning_vi": "lê",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Diese Birne ist sehr saftig und reif.",
+    "example_vi": "Quả lê này rất mọng nước và chín."
+  },
+  {
+    "word": "die Zitrone",
+    "pos": "noun",
+    "meaning_vi": "chanh",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Ich presse eine Zitrone für den Tee.",
+    "example_vi": "Tôi vắt một quả chanh cho trà."
+  },
+  {
+    "word": "die Ananas",
+    "pos": "noun",
+    "meaning_vi": "dứa",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Die Ananas kommt aus tropischen Ländern.",
+    "example_vi": "Dứa đến từ các nước nhiệt đới."
+  },
+  {
+    "word": "die Melone",
+    "pos": "noun",
+    "meaning_vi": "dưa",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Im Sommer erfrische ich mich mit einer kalten Melone.",
+    "example_vi": "Vào mùa hè tôi giải khát bằng một quả dưa lạnh."
+  },
+  {
+    "word": "die Nuss",
+    "pos": "noun",
+    "meaning_vi": "hạt",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Eichhörnchen sammeln Nüsse für den Winter.",
+    "example_vi": "Sóc thu thập hạt cho mùa đông."
+  },
+  {
+    "word": "die Mandel",
+    "pos": "noun",
+    "meaning_vi": "hạnh nhân",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Mandeln sind eine gesunde Zwischenmahlzeit.",
+    "example_vi": "Hạnh nhân là món ăn nhẹ lành mạnh."
+  },
+  {
+    "word": "die Haselnuss",
+    "pos": "noun",
+    "meaning_vi": "hạt phỉ",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Haselnüsse schmecken gut in Schokolade.",
+    "example_vi": "Hạt phỉ có vị ngon trong sô-cô-la."
+  },
+  {
+    "word": "die Walnuss",
+    "pos": "noun",
+    "meaning_vi": "óc chó",
+    "level": "A2",
+    "topic": "a2_food_more",
+    "example_de": "Walnüsse sind reich an Omega-3-Fettsäuren.",
+    "example_vi": "Óc chó giàu axit béo Omega-3."
+  },
+  {
+    "word": "das Pferd",
+    "pos": "noun",
+    "meaning_vi": "con ngựa",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Das Pferd läuft schnell über die Wiese.",
+    "example_vi": "Con ngựa chạy nhanh qua đồng cỏ."
+  },
+  {
+    "word": "die Kuh",
+    "pos": "noun",
+    "meaning_vi": "con bò cái",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Die Kuh gibt jeden Tag frische Milch.",
+    "example_vi": "Con bò cái cho sữa tươi mỗi ngày."
+  },
+  {
+    "word": "das Schwein",
+    "pos": "noun",
+    "meaning_vi": "con lợn",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Das Schwein spielt gerne im Schlamm.",
+    "example_vi": "Con lợn thích chơi trong bùn."
+  },
+  {
+    "word": "das Schaf",
+    "pos": "noun",
+    "meaning_vi": "con cừu",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Das Schaf hat weiche Wolle.",
+    "example_vi": "Con cừu có lông mềm mại."
+  },
+  {
+    "word": "die Ziege",
+    "pos": "noun",
+    "meaning_vi": "con dê",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Die Ziege klettert auf den Berg.",
+    "example_vi": "Con dê leo lên núi."
+  },
+  {
+    "word": "das Huhn",
+    "pos": "noun",
+    "meaning_vi": "con gà",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Das Huhn legt jeden Morgen ein Ei.",
+    "example_vi": "Con gà đẻ một quả trứng mỗi sáng."
+  },
+  {
+    "word": "die Ente",
+    "pos": "noun",
+    "meaning_vi": "con vịt",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Die Ente schwimmt im Teich.",
+    "example_vi": "Con vịt bơi trong ao."
+  },
+  {
+    "word": "die Gans",
+    "pos": "noun",
+    "meaning_vi": "con ngỗng",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Die Gans macht laute Geräusche.",
+    "example_vi": "Con ngỗng kêu rất to."
+  },
+  {
+    "word": "der Hase",
+    "pos": "noun",
+    "meaning_vi": "con thỏ",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Der Hase hüpft durch den Garten.",
+    "example_vi": "Con thỏ nhảy qua khu vườn."
+  },
+  {
+    "word": "die Maus",
+    "pos": "noun",
+    "meaning_vi": "con chuột",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Die Maus versteckt sich im Loch.",
+    "example_vi": "Con chuột trốn trong lỗ."
+  },
+  {
+    "word": "der Bär",
+    "pos": "noun",
+    "meaning_vi": "con gấu",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Der Bär schläft im Winter.",
+    "example_vi": "Con gấu ngủ vào mùa đông."
+  },
+  {
+    "word": "der Wolf",
+    "pos": "noun",
+    "meaning_vi": "con sói",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Der Wolf heult in der Nacht.",
+    "example_vi": "Con sói hú vào ban đêm."
+  },
+  {
+    "word": "der Fuchs",
+    "pos": "noun",
+    "meaning_vi": "con cáo",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Der Fuchs ist sehr schlau.",
+    "example_vi": "Con cáo rất thông minh."
+  },
+  {
+    "word": "der Löwe",
+    "pos": "noun",
+    "meaning_vi": "con sư tử",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Der Löwe ist der König der Tiere.",
+    "example_vi": "Con sư tử là vua của các loài động vật."
+  },
+  {
+    "word": "der Tiger",
+    "pos": "noun",
+    "meaning_vi": "con hổ",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Der Tiger jagt in der Nacht.",
+    "example_vi": "Con hổ săn mồi vào ban đêm."
+  },
+  {
+    "word": "der Elefant",
+    "pos": "noun",
+    "meaning_vi": "con voi",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Der Elefant hat einen langen Rüssel.",
+    "example_vi": "Con voi có cái vòi dài."
+  },
+  {
+    "word": "die Giraffe",
+    "pos": "noun",
+    "meaning_vi": "con hươu cao cổ",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Die Giraffe hat einen langen Hals.",
+    "example_vi": "Con hươu cao cổ có cái cổ dài."
+  },
+  {
+    "word": "das Zebra",
+    "pos": "noun",
+    "meaning_vi": "con ngựa vằn",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Das Zebra hat schwarze und weiße Streifen.",
+    "example_vi": "Con ngựa vằn có sọc đen và trắng."
+  },
+  {
+    "word": "der Affe",
+    "pos": "noun",
+    "meaning_vi": "con khỉ",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Der Affe klettert auf den Baum.",
+    "example_vi": "Con khỉ leo lên cây."
+  },
+  {
+    "word": "die Schlange",
+    "pos": "noun",
+    "meaning_vi": "con rắn",
+    "level": "A2",
+    "topic": "a2_animals",
+    "example_de": "Die Schlange kriecht durch das Gras.",
+    "example_vi": "Con rắn bò qua bãi cỏ."
+  },
+  {
+    "word": "der Wettkampf",
+    "pos": "noun",
+    "meaning_vi": "cuộc thi đấu",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Der internationale Wettkampf findet nächste Woche in Berlin statt.",
+    "example_vi": "Cuộc thi đấu quốc tế sẽ diễn ra vào tuần tới ở Berlin."
+  },
+  {
+    "word": "das Spiel",
+    "pos": "noun",
+    "meaning_vi": "trận đấu",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Das Spiel zwischen Bayern München und Borussia Dortmund war sehr spannend.",
+    "example_vi": "Trận đấu giữa Bayern München và Borussia Dortmund rất hấp dẫn."
+  },
+  {
+    "word": "die Mannschaft",
+    "pos": "noun",
+    "meaning_vi": "đội",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Unsere Mannschaft hat hart für die Meisterschaft trainiert.",
+    "example_vi": "Đội của chúng tôi đã tập luyện chăm chỉ cho giải vô địch."
+  },
+  {
+    "word": "der Spieler",
+    "pos": "noun",
+    "meaning_vi": "cầu thủ",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Der Spieler hat in dieser Saison bereits 15 Tore geschossen.",
+    "example_vi": "Cầu thủ này đã ghi được 15 bàn thắng trong mùa giải này."
+  },
+  {
+    "word": "der Trainer",
+    "pos": "noun",
+    "meaning_vi": "huấn luyện viên",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Der Trainer gibt der Mannschaft wichtige Anweisungen vor dem Spiel.",
+    "example_vi": "Huấn luyện viên đưa ra những chỉ dẫn quan trọng cho đội trước trận đấu."
+  },
+  {
+    "word": "der Schiedsrichter",
+    "pos": "noun",
+    "meaning_vi": "trọng tài",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Der Schiedsrichter hat eine gelbe Karte gezeigt.",
+    "example_vi": "Trọng tài đã rút thẻ vàng."
+  },
+  {
+    "word": "das Tor",
+    "pos": "noun",
+    "meaning_vi": "bàn thắng",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Er hat in der letzten Minute ein wichtiges Tor erzielt.",
+    "example_vi": "Anh ấy đã ghi một bàn thắng quan trọng ở phút cuối cùng."
+  },
+  {
+    "word": "der Ball",
+    "pos": "noun",
+    "meaning_vi": "bóng",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Der Ball flog direkt ins Tor.",
+    "example_vi": "Quả bóng bay thẳng vào khung thành."
+  },
+  {
+    "word": "das Stadion",
+    "pos": "noun",
+    "meaning_vi": "sân vận động",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Das Stadion war mit 75.000 Zuschauern ausverkauft.",
+    "example_vi": "Sân vận động đã kín chỗ với 75.000 khán giả."
+  },
+  {
+    "word": "der Fan",
+    "pos": "noun",
+    "meaning_vi": "người hâm mộ",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Die Fans haben ihre Mannschaft lautstark unterstützt.",
+    "example_vi": "Những người hâm mộ đã cổ vũ đội của họ rất nhiệt tình."
+  },
+  {
+    "word": "der Sieg",
+    "pos": "noun",
+    "meaning_vi": "chiến thắng",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Der Sieg gegen den Meister war eine große Überraschung.",
+    "example_vi": "Chiến thắng trước nhà vô địch là một bất ngờ lớn."
+  },
+  {
+    "word": "die Niederlage",
+    "pos": "noun",
+    "meaning_vi": "thất bại",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Nach der Niederlage war die Stimmung in der Kabine sehr schlecht.",
+    "example_vi": "Sau thất bại, không khí trong phòng thay đồ rất tệ."
+  },
+  {
+    "word": "das Unentschieden",
+    "pos": "noun",
+    "meaning_vi": "hòa",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Das Spiel endete mit einem 2:2 Unentschieden.",
+    "example_vi": "Trận đấu kết thúc với tỷ số hòa 2:2."
+  },
+  {
+    "word": "die Meisterschaft",
+    "pos": "noun",
+    "meaning_vi": "giải vô địch",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Die Mannschaft hat zum dritten Mal die deutsche Meisterschaft gewonnen.",
+    "example_vi": "Đội đã giành chức vô địch Đức lần thứ ba."
+  },
+  {
+    "word": "die Olympiade",
+    "pos": "noun",
+    "meaning_vi": "thế vận hội",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Die nächste Olympiade findet 2028 in Los Angeles statt.",
+    "example_vi": "Thế vận hội tiếp theo sẽ diễn ra năm 2028 tại Los Angeles."
+  },
+  {
+    "word": "gewinnen",
+    "pos": "verb",
+    "meaning_vi": "thắng",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Wir müssen dieses Spiel unbedingt gewinnen.",
+    "example_vi": "Chúng ta nhất định phải thắng trận đấu này."
+  },
+  {
+    "word": "verlieren",
+    "pos": "verb",
+    "meaning_vi": "thua",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Die Mannschaft will nicht schon wieder verlieren.",
+    "example_vi": "Đội không muốn thua một lần nữa."
+  },
+  {
+    "word": "trainieren",
+    "pos": "verb",
+    "meaning_vi": "tập luyện",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Die Spieler trainieren jeden Tag drei Stunden.",
+    "example_vi": "Các cầu thủ tập luyện ba tiếng mỗi ngày."
+  },
+  {
+    "word": "schießen",
+    "pos": "verb",
+    "meaning_vi": "sút",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Er kann sehr gut mit dem linken Fuß schießen.",
+    "example_vi": "Anh ấy có thể sút rất tốt bằng chân trái."
+  },
+  {
+    "word": "werfen",
+    "pos": "verb",
+    "meaning_vi": "ném",
+    "level": "B1",
+    "topic": "b1_sports",
+    "example_de": "Der Torwart muss den Ball weit werfen können.",
+    "example_vi": "Thủ môn phải có thể ném bóng xa."
+  },
+  {
+    "word": "das Konto",
+    "pos": "noun",
+    "meaning_vi": "tài khoản",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Ich möchte ein neues Konto bei dieser Bank eröffnen.",
+    "example_vi": "Tôi muốn mở một tài khoản mới tại ngân hàng này."
+  },
+  {
+    "word": "das Girokonto",
+    "pos": "noun",
+    "meaning_vi": "tài khoản vãng lai",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Mein Gehalt wird jeden Monat auf mein Girokonto überwiesen.",
+    "example_vi": "Lương của tôi được chuyển vào tài khoản vãng lai mỗi tháng."
+  },
+  {
+    "word": "das Sparkonto",
+    "pos": "noun",
+    "meaning_vi": "tài khoản tiết kiệm",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Auf dem Sparkonto bekomme ich höhere Zinsen als auf dem Girokonto.",
+    "example_vi": "Trên tài khoản tiết kiệm tôi nhận được lãi suất cao hơn so với tài khoản vãng lai."
+  },
+  {
+    "word": "die Überweisung",
+    "pos": "noun",
+    "meaning_vi": "chuyển khoản",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Die Überweisung dauert normalerweise ein bis zwei Werktage.",
+    "example_vi": "Việc chuyển khoản thường mất một đến hai ngày làm việc."
+  },
+  {
+    "word": "die Abhebung",
+    "pos": "noun",
+    "meaning_vi": "rút tiền",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Für jede Abhebung am fremden Geldautomaten fallen Gebühren an.",
+    "example_vi": "Mỗi lần rút tiền tại máy ATM khác ngân hàng sẽ phải trả phí."
+  },
+  {
+    "word": "die Einzahlung",
+    "pos": "noun",
+    "meaning_vi": "nộp tiền",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Sie können die Einzahlung am Schalter oder am Automaten vornehmen.",
+    "example_vi": "Bạn có thể thực hiện việc nộp tiền tại quầy hoặc tại máy tự động."
+  },
+  {
+    "word": "der Kontostand",
+    "pos": "noun",
+    "meaning_vi": "số dư",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Ich prüfe meinen Kontostand regelmäßig in der Banking-App.",
+    "example_vi": "Tôi kiểm tra số dư tài khoản thường xuyên trên ứng dụng ngân hàng."
+  },
+  {
+    "word": "der Kontoauszug",
+    "pos": "noun",
+    "meaning_vi": "sao kê",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Den Kontoauszug können Sie online herunterladen oder am Automaten ausdrucken.",
+    "example_vi": "Bạn có thể tải sao kê tài khoản trực tuyến hoặc in tại máy tự động."
+  },
+  {
+    "word": "die EC-Karte",
+    "pos": "noun",
+    "meaning_vi": "thẻ ghi nợ",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Mit der EC-Karte kann ich in fast allen Geschäften bargeldlos bezahlen.",
+    "example_vi": "Với thẻ ghi nợ tôi có thể thanh toán không dùng tiền mặt ở hầu hết các cửa hàng."
+  },
+  {
+    "word": "die Kreditkarte",
+    "pos": "noun",
+    "meaning_vi": "thẻ tín dụng",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Für die Hotelbuchung benötigen Sie eine gültige Kreditkarte.",
+    "example_vi": "Để đặt phòng khách sạn bạn cần một thẻ tín dụng còn hiệu lực."
+  },
+  {
+    "word": "der Geldautomat",
+    "pos": "noun",
+    "meaning_vi": "máy ATM",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Der nächste Geldautomat befindet sich direkt vor der Bankfiliale.",
+    "example_vi": "Máy ATM gần nhất nằm ngay trước chi nhánh ngân hàng."
+  },
+  {
+    "word": "der Kredit",
+    "pos": "noun",
+    "meaning_vi": "khoản vay",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Wir haben einen Kredit aufgenommen, um unser Haus zu finanzieren.",
+    "example_vi": "Chúng tôi đã vay một khoản vay để tài trợ cho ngôi nhà của mình."
+  },
+  {
+    "word": "die Schulden",
+    "pos": "noun",
+    "meaning_vi": "nợ",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Nach dem Studium hatte er hohe Schulden bei der Bank.",
+    "example_vi": "Sau khi học xong anh ấy có khoản nợ lớn với ngân hàng."
+  },
+  {
+    "word": "die Zinsen",
+    "pos": "noun",
+    "meaning_vi": "lãi suất",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Die Zinsen für Kredite sind in den letzten Jahren gestiegen.",
+    "example_vi": "Lãi suất cho các khoản vay đã tăng trong những năm gần đây."
+  },
+  {
+    "word": "die Rate",
+    "pos": "noun",
+    "meaning_vi": "tỷ lệ",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Ich zahle den Kredit in monatlichen Raten von 500 Euro zurück.",
+    "example_vi": "Tôi trả khoản vay theo các kỳ hạn hàng tháng là 500 Euro."
+  },
+  {
+    "word": "überweisen",
+    "pos": "verb",
+    "meaning_vi": "chuyển khoản",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Kannst du mir bitte 50 Euro auf mein Konto überweisen?",
+    "example_vi": "Bạn có thể chuyển khoản cho tôi 50 Euro vào tài khoản được không?"
+  },
+  {
+    "word": "abheben",
+    "pos": "verb",
+    "meaning_vi": "rút tiền",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Ich muss noch schnell 100 Euro am Automaten abheben.",
+    "example_vi": "Tôi cần rút nhanh 100 Euro tại máy ATM."
+  },
+  {
+    "word": "einzahlen",
+    "pos": "verb",
+    "meaning_vi": "nộp tiền",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Sie können das Bargeld direkt am Schalter einzahlen.",
+    "example_vi": "Bạn có thể nộp tiền mặt trực tiếp tại quầy."
+  },
+  {
+    "word": "leihen",
+    "pos": "verb",
+    "meaning_vi": "vay",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Ich habe mir von meinem Bruder 200 Euro geliehen.",
+    "example_vi": "Tôi đã vay 200 Euro từ anh trai tôi."
+  },
+  {
+    "word": "zurückzahlen",
+    "pos": "verb",
+    "meaning_vi": "trả lại",
+    "level": "B1",
+    "topic": "b1_banking",
+    "example_de": "Ich werde dir das Geld nächste Woche zurückzahlen.",
+    "example_vi": "Tôi sẽ trả lại tiền cho bạn vào tuần sau."
+  },
+  {
+    "word": "die Veranstaltung",
+    "pos": "noun",
+    "meaning_vi": "sự kiện",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Die Veranstaltung findet am Samstag im Stadtpark statt.",
+    "example_vi": "Sự kiện diễn ra vào thứ Bảy tại công viên thành phố."
+  },
+  {
+    "word": "die Feier",
+    "pos": "noun",
+    "meaning_vi": "buổi lễ",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Wir organisieren eine große Feier zu seinem 50. Geburtstag.",
+    "example_vi": "Chúng tôi tổ chức một buổi lễ lớn cho sinh nhật thứ 50 của anh ấy."
+  },
+  {
+    "word": "die Party",
+    "pos": "noun",
+    "meaning_vi": "tiệc",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Kommst du heute Abend zu meiner Party?",
+    "example_vi": "Tối nay bạn có đến bữa tiệc của tôi không?"
+  },
+  {
+    "word": "die Hochzeit",
+    "pos": "noun",
+    "meaning_vi": "đám cưới",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Die Hochzeit meiner Schwester war wunderschön.",
+    "example_vi": "Đám cưới của chị gái tôi thật tuyệt vời."
+  },
+  {
+    "word": "die Taufe",
+    "pos": "noun",
+    "meaning_vi": "lễ rửa tội",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Die Taufe des Babys findet nächsten Sonntag in der Kirche statt.",
+    "example_vi": "Lễ rửa tội cho em bé diễn ra vào Chủ nhật tới tại nhà thờ."
+  },
+  {
+    "word": "die Beerdigung",
+    "pos": "noun",
+    "meaning_vi": "đám tang",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Die Beerdigung war sehr emotional und viele Leute kamen.",
+    "example_vi": "Đám tang rất cảm động và nhiều người đã đến."
+  },
+  {
+    "word": "das Jubiläum",
+    "pos": "noun",
+    "meaning_vi": "kỷ niệm",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Die Firma feiert dieses Jahr ihr 100-jähriges Jubiläum.",
+    "example_vi": "Công ty kỷ niệm 100 năm thành lập trong năm nay."
+  },
+  {
+    "word": "der Jahrestag",
+    "pos": "noun",
+    "meaning_vi": "ngày kỷ niệm",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Morgen ist unser zehnter Hochzeitsjahrestag.",
+    "example_vi": "Ngày mai là ngày kỷ niệm 10 năm ngày cưới của chúng tôi."
+  },
+  {
+    "word": "die Einladung",
+    "pos": "noun",
+    "meaning_vi": "lời mời",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Hast du die Einladung zur Geburtstagsparty schon bekommen?",
+    "example_vi": "Bạn đã nhận được lời mời đến bữa tiệc sinh nhật chưa?"
+  },
+  {
+    "word": "der Gast",
+    "pos": "noun",
+    "meaning_vi": "khách",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Wir erwarten heute Abend zwanzig Gäste.",
+    "example_vi": "Tối nay chúng tôi mong đợi hai mươi vị khách."
+  },
+  {
+    "word": "der Gastgeber",
+    "pos": "noun",
+    "meaning_vi": "chủ nhà",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Der Gastgeber begrüßte alle Gäste persönlich an der Tür.",
+    "example_vi": "Chủ nhà chào đón tất cả khách mời tại cửa."
+  },
+  {
+    "word": "das Geschenk",
+    "pos": "noun",
+    "meaning_vi": "quà",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Ich habe ein tolles Geschenk für meinen Bruder gekauft.",
+    "example_vi": "Tôi đã mua một món quà tuyệt vời cho anh trai tôi."
+  },
+  {
+    "word": "die Dekoration",
+    "pos": "noun",
+    "meaning_vi": "trang trí",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Die Dekoration im Saal ist sehr elegant und festlich.",
+    "example_vi": "Trang trí trong hội trường rất thanh lịch và trang trọng."
+  },
+  {
+    "word": "das Buffet",
+    "pos": "noun",
+    "meaning_vi": "tiệc tự chọn",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Am Buffet gibt es viele leckere Speisen zur Auswahl.",
+    "example_vi": "Tại tiệc buffet có nhiều món ăn ngon để lựa chọn."
+  },
+  {
+    "word": "der Kuchen",
+    "pos": "noun",
+    "meaning_vi": "bánh",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Meine Oma hat einen köstlichen Kuchen für die Feier gebacken.",
+    "example_vi": "Bà tôi đã nướng một chiếc bánh ngon cho buổi lễ."
+  },
+  {
+    "word": "einladen",
+    "pos": "verb",
+    "meaning_vi": "mời",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Ich möchte dich zu meiner Geburtstagsparty einladen.",
+    "example_vi": "Tôi muốn mời bạn đến bữa tiệc sinh nhật của tôi."
+  },
+  {
+    "word": "feiern",
+    "pos": "verb",
+    "meaning_vi": "ăn mừng",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Wir feiern heute meinen Erfolg bei der Prüfung.",
+    "example_vi": "Hôm nay chúng tôi ăn mừng thành công của tôi trong kỳ thi."
+  },
+  {
+    "word": "schenken",
+    "pos": "verb",
+    "meaning_vi": "tặng",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Was möchtest du deiner Mutter zum Geburtstag schenken?",
+    "example_vi": "Bạn muốn tặng gì cho mẹ bạn nhân ngày sinh nhật?"
+  },
+  {
+    "word": "dekorieren",
+    "pos": "verb",
+    "meaning_vi": "trang trí",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Wir müssen den Raum noch mit Luftballons und Girlanden dekorieren.",
+    "example_vi": "Chúng ta còn phải trang trí phòng bằng bóng bay và dây hoa."
+  },
+  {
+    "word": "gratulieren",
+    "pos": "verb",
+    "meaning_vi": "chúc mừng",
+    "level": "B1",
+    "topic": "b1_events",
+    "example_de": "Ich gratuliere dir herzlich zum bestandenen Examen!",
+    "example_vi": "Tôi chúc mừng bạn đã vượt qua kỳ thi!"
+  },
+  {
+    "word": "die Stimmung",
+    "pos": "noun",
+    "meaning_vi": "tâm trạng",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Die Stimmung auf der Party war ausgelassen und fröhlich.",
+    "example_vi": "Không khí trong bữa tiệc rất vui vẻ và thoải mái."
+  },
+  {
+    "word": "die Laune",
+    "pos": "noun",
+    "meaning_vi": "tâm trạng",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Er ist heute schlechter Laune, weil er schlecht geschlafen hat.",
+    "example_vi": "Hôm nay anh ấy có tâm trạng tồi tệ vì đã ngủ không ngon."
+  },
+  {
+    "word": "das Gefühl",
+    "pos": "noun",
+    "meaning_vi": "cảm xúc",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Ich habe das Gefühl, dass wir uns schon einmal getroffen haben.",
+    "example_vi": "Tôi có cảm giác rằng chúng ta đã gặp nhau rồi."
+  },
+  {
+    "word": "die Begeisterung",
+    "pos": "noun",
+    "meaning_vi": "sự nhiệt tình",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Die Kinder zeigten große Begeisterung für das neue Spielzeug.",
+    "example_vi": "Những đứa trẻ thể hiện sự nhiệt tình lớn với món đồ chơi mới."
+  },
+  {
+    "word": "die Zufriedenheit",
+    "pos": "noun",
+    "meaning_vi": "sự hài lòng",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Nach dem erfolgreichen Projekt herrschte große Zufriedenheit im Team.",
+    "example_vi": "Sau dự án thành công, sự hài lòng lớn tràn ngập trong nhóm."
+  },
+  {
+    "word": "die Unzufriedenheit",
+    "pos": "noun",
+    "meaning_vi": "sự không hài lòng",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Die Unzufriedenheit der Mitarbeiter wächst wegen der niedrigen Gehälter.",
+    "example_vi": "Sự không hài lòng của nhân viên tăng lên vì mức lương thấp."
+  },
+  {
+    "word": "die Langeweile",
+    "pos": "noun",
+    "meaning_vi": "sự nhàm chán",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Aus Langeweile begann er, ein Buch zu lesen.",
+    "example_vi": "Vì nhàm chán, anh ấy bắt đầu đọc một cuốn sách."
+  },
+  {
+    "word": "die Einsamkeit",
+    "pos": "noun",
+    "meaning_vi": "sự cô đơn",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Nach dem Umzug in die neue Stadt litt sie unter Einsamkeit.",
+    "example_vi": "Sau khi chuyển đến thành phố mới, cô ấy chịu đựng sự cô đơn."
+  },
+  {
+    "word": "die Sehnsucht",
+    "pos": "noun",
+    "meaning_vi": "nỗi nhớ",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Er verspürt eine tiefe Sehnsucht nach seiner Heimat.",
+    "example_vi": "Anh ấy cảm thấy nỗi nhớ sâu sắc về quê hương."
+  },
+  {
+    "word": "die Eifersucht",
+    "pos": "noun",
+    "meaning_vi": "sự ghen tuông",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Seine Eifersucht wurde immer stärker, als er sie mit einem anderen Mann sah.",
+    "example_vi": "Sự ghen tuông của anh ấy ngày càng mạnh mẽ khi thấy cô ấy với một người đàn ông khác."
+  },
+  {
+    "word": "begeistert",
+    "pos": "adjective",
+    "meaning_vi": "hào hứng",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Sie war begeistert von der Idee, nach Japan zu reisen.",
+    "example_vi": "Cô ấy rất hào hứng với ý tưởng đi du lịch Nhật Bản."
+  },
+  {
+    "word": "zufrieden",
+    "pos": "adjective",
+    "meaning_vi": "hài lòng",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Der Kunde war mit dem Service sehr zufrieden.",
+    "example_vi": "Khách hàng rất hài lòng với dịch vụ."
+  },
+  {
+    "word": "unzufrieden",
+    "pos": "adjective",
+    "meaning_vi": "không hài lòng",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Viele Bürger sind unzufrieden mit der aktuellen Politik.",
+    "example_vi": "Nhiều công dân không hài lòng với chính sách hiện tại."
+  },
+  {
+    "word": "gelangweilt",
+    "pos": "adjective",
+    "meaning_vi": "chán",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Die Schüler saßen gelangweilt im Unterricht und schauten aus dem Fenster.",
+    "example_vi": "Các học sinh ngồi chán nản trong lớp và nhìn ra ngoài cửa sổ."
+  },
+  {
+    "word": "einsam",
+    "pos": "adjective",
+    "meaning_vi": "cô đơn",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Er fühlte sich einsam in der großen Stadt ohne Freunde.",
+    "example_vi": "Anh ấy cảm thấy cô đơn trong thành phố lớn mà không có bạn bè."
+  },
+  {
+    "word": "sehnsüchtig",
+    "pos": "adjective",
+    "meaning_vi": "nhớ nhung",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Sie blickte sehnsüchtig auf die Fotos ihrer Familie.",
+    "example_vi": "Cô ấy nhìn những bức ảnh gia đình với vẻ nhớ nhung."
+  },
+  {
+    "word": "neugierig",
+    "pos": "adjective",
+    "meaning_vi": "tò mò",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Das Kind war neugierig und stellte viele Fragen.",
+    "example_vi": "Đứa trẻ tò mò và đặt nhiều câu hỏi."
+  },
+  {
+    "word": "dankbar",
+    "pos": "adjective",
+    "meaning_vi": "biết ơn",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Ich bin dir sehr dankbar für deine Hilfe.",
+    "example_vi": "Tôi rất biết ơn sự giúp đỡ của bạn."
+  },
+  {
+    "word": "überwältigt",
+    "pos": "adjective",
+    "meaning_vi": "choáng ngợp",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Sie war überwältigt von den vielen Glückwünschen zu ihrem Geburtstag.",
+    "example_vi": "Cô ấy choáng ngợp trước rất nhiều lời chúc mừng sinh nhật."
+  },
+  {
+    "word": "erleichtert",
+    "pos": "adjective",
+    "meaning_vi": "nhẹ nhõm",
+    "level": "B1",
+    "topic": "b1_feelings",
+    "example_de": "Nach der bestandenen Prüfung war er sehr erleichtert.",
+    "example_vi": "Sau khi đậu kỳ thi, anh ấy rất nhẹ nhõm."
+  },
+  {
+    "word": "die Webseite",
+    "pos": "noun",
+    "meaning_vi": "trang web",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Ich habe eine neue Webseite für mein Unternehmen erstellt.",
+    "example_vi": "Tôi đã tạo một trang web mới cho công ty của mình."
+  },
+  {
+    "word": "der Browser",
+    "pos": "noun",
+    "meaning_vi": "trình duyệt",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Welchen Browser benutzt du? Chrome oder Firefox?",
+    "example_vi": "Bạn dùng trình duyệt nào? Chrome hay Firefox?"
+  },
+  {
+    "word": "die Suchmaschine",
+    "pos": "noun",
+    "meaning_vi": "công cụ tìm kiếm",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Google ist die beliebteste Suchmaschine der Welt.",
+    "example_vi": "Google là công cụ tìm kiếm phổ biến nhất thế giới."
+  },
+  {
+    "word": "der Link",
+    "pos": "noun",
+    "meaning_vi": "liên kết",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Kannst du mir bitte den Link zu dem Artikel schicken?",
+    "example_vi": "Bạn có thể gửi cho tôi liên kết đến bài viết được không?"
+  },
+  {
+    "word": "der Account",
+    "pos": "noun",
+    "meaning_vi": "tài khoản",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Ich habe gestern einen neuen Account bei Instagram erstellt.",
+    "example_vi": "Hôm qua tôi đã tạo một tài khoản mới trên Instagram."
+  },
+  {
+    "word": "das Profil",
+    "pos": "noun",
+    "meaning_vi": "hồ sơ",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Dein Profil sieht sehr professionell aus.",
+    "example_vi": "Hồ sơ của bạn trông rất chuyên nghiệp."
+  },
+  {
+    "word": "der Beitrag",
+    "pos": "noun",
+    "meaning_vi": "bài đăng",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Ihr letzter Beitrag hat über 1000 Likes bekommen.",
+    "example_vi": "Bài đăng cuối cùng của cô ấy đã nhận được hơn 1000 lượt thích."
+  },
+  {
+    "word": "der Kommentar",
+    "pos": "noun",
+    "meaning_vi": "bình luận",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Unter dem Video gibt es viele negative Kommentare.",
+    "example_vi": "Dưới video có nhiều bình luận tiêu cực."
+  },
+  {
+    "word": "der Follower",
+    "pos": "noun",
+    "meaning_vi": "người theo dõi",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Sie hat bereits 50.000 Follower auf TikTok.",
+    "example_vi": "Cô ấy đã có 50.000 người theo dõi trên TikTok."
+  },
+  {
+    "word": "der Like",
+    "pos": "noun",
+    "meaning_vi": "lượt thích",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Mein Foto hat nur drei Likes bekommen.",
+    "example_vi": "Ảnh của tôi chỉ nhận được ba lượt thích."
+  },
+  {
+    "word": "der Hashtag",
+    "pos": "noun",
+    "meaning_vi": "hashtag",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Vergiss nicht, den Hashtag #Reisen zu verwenden.",
+    "example_vi": "Đừng quên sử dụng hashtag #Reisen (du lịch)."
+  },
+  {
+    "word": "die Benachrichtigung",
+    "pos": "noun",
+    "meaning_vi": "thông báo",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Ich bekomme zu viele Benachrichtigungen auf meinem Handy.",
+    "example_vi": "Tôi nhận quá nhiều thông báo trên điện thoại."
+  },
+  {
+    "word": "der Newsletter",
+    "pos": "noun",
+    "meaning_vi": "bản tin",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Ich habe den Newsletter der Zeitung abonniert.",
+    "example_vi": "Tôi đã đăng ký bản tin của tờ báo."
+  },
+  {
+    "word": "der Spam",
+    "pos": "noun",
+    "meaning_vi": "thư rác",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Mein E-Mail-Ordner ist voll mit Spam.",
+    "example_vi": "Hộp thư email của tôi đầy thư rác."
+  },
+  {
+    "word": "die Privatsphäre",
+    "pos": "noun",
+    "meaning_vi": "quyền riêng tư",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Mir ist meine Privatsphäre im Internet sehr wichtig.",
+    "example_vi": "Quyền riêng tư của tôi trên internet rất quan trọng đối với tôi."
+  },
+  {
+    "word": "posten",
+    "pos": "verb",
+    "meaning_vi": "đăng",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Sie postet jeden Tag ein neues Foto auf Instagram.",
+    "example_vi": "Cô ấy đăng một bức ảnh mới lên Instagram mỗi ngày."
+  },
+  {
+    "word": "liken",
+    "pos": "verb",
+    "meaning_vi": "thích",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Hast du schon meinen Beitrag geliket?",
+    "example_vi": "Bạn đã thích bài đăng của tôi chưa?"
+  },
+  {
+    "word": "folgen",
+    "pos": "verb",
+    "meaning_vi": "theo dõi",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Ich folge vielen interessanten Bloggern auf Twitter.",
+    "example_vi": "Tôi theo dõi nhiều blogger thú vị trên Twitter."
+  },
+  {
+    "word": "abonnieren",
+    "pos": "verb",
+    "meaning_vi": "đăng ký",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Vergiss nicht, meinen YouTube-Kanal zu abonnieren!",
+    "example_vi": "Đừng quên đăng ký kênh YouTube của tôi!"
+  },
+  {
+    "word": "blockieren",
+    "pos": "verb",
+    "meaning_vi": "chặn",
+    "level": "B1",
+    "topic": "b1_internet",
+    "example_de": "Ich musste ihn blockieren, weil er mir ständig Spam geschickt hat.",
+    "example_vi": "Tôi phải chặn anh ta vì anh ta liên tục gửi thư rác cho tôi."
+  },
+  {
+    "word": "die Diplomatie",
+    "pos": "noun",
+    "meaning_vi": "ngoại giao",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die Diplomatie spielt eine wichtige Rolle bei der Lösung internationaler Konflikte.",
+    "example_vi": "Ngoại giao đóng vai trò quan trọng trong việc giải quyết các xung đột quốc tế."
+  },
+  {
+    "word": "der Botschafter",
+    "pos": "noun",
+    "meaning_vi": "đại sứ",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Der deutsche Botschafter wurde gestern vom Präsidenten empfangen.",
+    "example_vi": "Đại sứ Đức đã được tổng thống tiếp đón hôm qua."
+  },
+  {
+    "word": "die Botschaft",
+    "pos": "noun",
+    "meaning_vi": "đại sứ quán",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die amerikanische Botschaft befindet sich im Zentrum von Berlin.",
+    "example_vi": "Đại sứ quán Mỹ nằm ở trung tâm Berlin."
+  },
+  {
+    "word": "das Konsulat",
+    "pos": "noun",
+    "meaning_vi": "lãnh sự quán",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Für ein Visum müssen Sie sich an das Konsulat wenden.",
+    "example_vi": "Để xin visa, bạn phải liên hệ với lãnh sự quán."
+  },
+  {
+    "word": "der Vertrag",
+    "pos": "noun",
+    "meaning_vi": "hiệp ước",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die beiden Länder haben einen Friedensvertrag unterzeichnet.",
+    "example_vi": "Hai nước đã ký kết một hiệp ước hòa bình."
+  },
+  {
+    "word": "das Abkommen",
+    "pos": "noun",
+    "meaning_vi": "thỏa thuận",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Das Klimaabkommen von Paris wurde 2015 beschlossen.",
+    "example_vi": "Thỏa thuận khí hậu Paris đã được thông qua năm 2015."
+  },
+  {
+    "word": "die Verhandlung",
+    "pos": "noun",
+    "meaning_vi": "đàm phán",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die Verhandlungen zwischen den beiden Staaten dauern schon drei Monate.",
+    "example_vi": "Các cuộc đàm phán giữa hai quốc gia đã kéo dài ba tháng."
+  },
+  {
+    "word": "die Sanktion",
+    "pos": "noun",
+    "meaning_vi": "trừng phạt",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die EU hat neue Sanktionen gegen das Land verhängt.",
+    "example_vi": "EU đã áp đặt các biện pháp trừng phạt mới đối với quốc gia đó."
+  },
+  {
+    "word": "die Allianz",
+    "pos": "noun",
+    "meaning_vi": "liên minh",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die NATO ist eine militärische Allianz von 31 Mitgliedsstaaten.",
+    "example_vi": "NATO là một liên minh quân sự gồm 31 quốc gia thành viên."
+  },
+  {
+    "word": "die Neutralität",
+    "pos": "noun",
+    "meaning_vi": "trung lập",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die Schweiz bewahrt seit Jahrhunderten ihre Neutralität.",
+    "example_vi": "Thụy Sĩ đã duy trì sự trung lập của mình trong nhiều thế kỷ."
+  },
+  {
+    "word": "der Konflikt",
+    "pos": "noun",
+    "meaning_vi": "xung đột",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Der Konflikt in der Region bedroht den Weltfrieden.",
+    "example_vi": "Xung đột trong khu vực đe dọa hòa bình thế giới."
+  },
+  {
+    "word": "der Frieden",
+    "pos": "noun",
+    "meaning_vi": "hòa bình",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Nach Jahren des Krieges herrscht endlich Frieden im Land.",
+    "example_vi": "Sau nhiều năm chiến tranh, cuối cùng hòa bình đã đến với đất nước."
+  },
+  {
+    "word": "die Abrüstung",
+    "pos": "noun",
+    "meaning_vi": "giải trừ quân bị",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die Abrüstung von Atomwaffen ist ein wichtiges Ziel der UN.",
+    "example_vi": "Giải trừ vũ khí hạt nhân là mục tiêu quan trọng của Liên Hợp Quốc."
+  },
+  {
+    "word": "die Souveränität",
+    "pos": "noun",
+    "meaning_vi": "chủ quyền",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Jedes Land hat das Recht auf nationale Souveränität.",
+    "example_vi": "Mỗi quốc gia đều có quyền chủ quyền quốc gia."
+  },
+  {
+    "word": "die Intervention",
+    "pos": "noun",
+    "meaning_vi": "can thiệp",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die militärische Intervention wurde von vielen Staaten kritisiert.",
+    "example_vi": "Sự can thiệp quân sự đã bị nhiều quốc gia chỉ trích."
+  },
+  {
+    "word": "verhandeln",
+    "pos": "verb",
+    "meaning_vi": "đàm phán",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die Regierungen verhandeln über ein neues Handelsabkommen.",
+    "example_vi": "Các chính phủ đang đàm phán về một thỏa thuận thương mại mới."
+  },
+  {
+    "word": "vermitteln",
+    "pos": "verb",
+    "meaning_vi": "hòa giải",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die UN versucht, zwischen den Konfliktparteien zu vermitteln.",
+    "example_vi": "Liên Hợp Quốc đang cố gắng hòa giải giữa các bên xung đột."
+  },
+  {
+    "word": "sanktionieren",
+    "pos": "verb",
+    "meaning_vi": "trừng phạt",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Die internationale Gemeinschaft will das aggressive Verhalten sanktionieren.",
+    "example_vi": "Cộng đồng quốc tế muốn trừng phạt hành vi hung hăng đó."
+  },
+  {
+    "word": "diplomatisch",
+    "pos": "adjective",
+    "meaning_vi": "ngoại giao",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Er löste das Problem auf diplomatischem Wege.",
+    "example_vi": "Anh ấy đã giải quyết vấn đề bằng con đường ngoại giao."
+  },
+  {
+    "word": "neutral",
+    "pos": "adjective",
+    "meaning_vi": "trung lập",
+    "level": "B2",
+    "topic": "b2_diplomacy",
+    "example_de": "Österreich ist ein neutrales Land und gehört keinem Militärbündnis an.",
+    "example_vi": "Áo là một quốc gia trung lập và không thuộc bất kỳ liên minh quân sự nào."
+  },
+  {
+    "word": "die Psychologie",
+    "pos": "noun",
+    "meaning_vi": "tâm lý học",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Sie studiert Psychologie an der Universität München.",
+    "example_vi": "Cô ấy học tâm lý học tại Đại học Munich."
+  },
+  {
+    "word": "das Verhalten",
+    "pos": "noun",
+    "meaning_vi": "hành vi",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Das Verhalten der Kinder hat sich nach dem Umzug verändert.",
+    "example_vi": "Hành vi của bọn trẻ đã thay đổi sau khi chuyển nhà."
+  },
+  {
+    "word": "die Wahrnehmung",
+    "pos": "noun",
+    "meaning_vi": "nhận thức",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Die Wahrnehmung von Farben ist bei jedem Menschen unterschiedlich.",
+    "example_vi": "Nhận thức về màu sắc ở mỗi người là khác nhau."
+  },
+  {
+    "word": "das Gedächtnis",
+    "pos": "noun",
+    "meaning_vi": "trí nhớ",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Mein Gedächtnis lässt mich manchmal im Stich.",
+    "example_vi": "Trí nhớ của tôi đôi khi phản tôi."
+  },
+  {
+    "word": "die Motivation",
+    "pos": "noun",
+    "meaning_vi": "động lực",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Ohne Motivation fällt es schwer, die Ziele zu erreichen.",
+    "example_vi": "Không có động lực thì khó đạt được mục tiêu."
+  },
+  {
+    "word": "die Persönlichkeit",
+    "pos": "noun",
+    "meaning_vi": "nhân cách",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Ihre offene Persönlichkeit macht sie sehr beliebt.",
+    "example_vi": "Nhân cách cởi mở của cô ấy khiến cô ấy rất được yêu mến."
+  },
+  {
+    "word": "das Trauma",
+    "pos": "noun",
+    "meaning_vi": "chấn thương tâm lý",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Das Trauma aus der Kindheit begleitet ihn bis heute.",
+    "example_vi": "Chấn thương tâm lý từ thời thơ ấu vẫn theo anh ấy cho đến ngày nay."
+  },
+  {
+    "word": "die Depression",
+    "pos": "noun",
+    "meaning_vi": "trầm cảm",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Er leidet seit Jahren an einer schweren Depression.",
+    "example_vi": "Anh ấy bị trầm cảm nặng trong nhiều năm."
+  },
+  {
+    "word": "die Angststörung",
+    "pos": "noun",
+    "meaning_vi": "rối loạn lo âu",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Die Angststörung hindert sie daran, das Haus zu verlassen.",
+    "example_vi": "Rối loạn lo âu ngăn cản cô ấy rời khỏi nhà."
+  },
+  {
+    "word": "das Selbstbewusstsein",
+    "pos": "noun",
+    "meaning_vi": "sự tự tin",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Durch den Erfolg hat er mehr Selbstbewusstsein gewonnen.",
+    "example_vi": "Nhờ thành công, anh ấy đã có được nhiều sự tự tin hơn."
+  },
+  {
+    "word": "die Selbstachtung",
+    "pos": "noun",
+    "meaning_vi": "lòng tự trọng",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Selbstachtung ist wichtig für ein gesundes Leben.",
+    "example_vi": "Lòng tự trọng rất quan trọng cho một cuộc sống khỏe mạnh."
+  },
+  {
+    "word": "die Achtsamkeit",
+    "pos": "noun",
+    "meaning_vi": "chánh niệm",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Achtsamkeit hilft mir, im Moment zu leben und Stress abzubauen.",
+    "example_vi": "Chánh niệm giúp tôi sống trong hiện tại và giảm căng thẳng."
+  },
+  {
+    "word": "die Resilienz",
+    "pos": "noun",
+    "meaning_vi": "khả năng phục hồi",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Ihre Resilienz half ihr, die schwere Krise zu überwinden.",
+    "example_vi": "Khả năng phục hồi của cô ấy đã giúp cô ấy vượt qua cuộc khủng hoảng nặng nề."
+  },
+  {
+    "word": "die Empathie",
+    "pos": "noun",
+    "meaning_vi": "sự đồng cảm",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Empathie ist eine wichtige Eigenschaft für Therapeuten.",
+    "example_vi": "Sự đồng cảm là một đặc tính quan trọng đối với các nhà trị liệu."
+  },
+  {
+    "word": "die Intelligenz",
+    "pos": "noun",
+    "meaning_vi": "trí thông minh",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Intelligenz allein garantiert keinen Erfolg im Leben.",
+    "example_vi": "Chỉ riêng trí thông minh không đảm bảo thành công trong cuộc sống."
+  },
+  {
+    "word": "wahrnehmen",
+    "pos": "verb",
+    "meaning_vi": "nhận thức",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Ich nehme wahr, dass du in letzter Zeit sehr gestresst bist.",
+    "example_vi": "Tôi nhận thức rằng gần đây bạn rất căng thẳng."
+  },
+  {
+    "word": "verdrängen",
+    "pos": "verb",
+    "meaning_vi": "kìm nén",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Er versucht, die schlechten Erinnerungen zu verdrängen.",
+    "example_vi": "Anh ấy cố gắng kìm nén những ký ức tồi tệ."
+  },
+  {
+    "word": "reflektieren",
+    "pos": "verb",
+    "meaning_vi": "suy ngẫm",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Es ist wichtig, über das eigene Verhalten zu reflektieren.",
+    "example_vi": "Việc suy ngẫm về hành vi của bản thân là rất quan trọng."
+  },
+  {
+    "word": "psychologisch",
+    "pos": "adjective",
+    "meaning_vi": "tâm lý",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Die psychologische Betreuung nach dem Unfall war sehr hilfreich.",
+    "example_vi": "Sự hỗ trợ tâm lý sau tai nạn rất hữu ích."
+  },
+  {
+    "word": "empathisch",
+    "pos": "adjective",
+    "meaning_vi": "đồng cảm",
+    "level": "B2",
+    "topic": "b2_psychology",
+    "example_de": "Sie ist eine sehr empathische Person und versteht die Gefühle anderer gut.",
+    "example_vi": "Cô ấy là một người rất đồng cảm và hiểu rõ cảm xúc của người khác."
+  },
+  {
+    "word": "die Medizin",
+    "pos": "noun",
+    "meaning_vi": "y học",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Sie studiert Medizin an der Universität München und möchte später Ärztin werden.",
+    "example_vi": "Cô ấy học y khoa tại Đại học Munich và muốn trở thành bác sĩ sau này."
+  },
+  {
+    "word": "die Chirurgie",
+    "pos": "noun",
+    "meaning_vi": "phẫu thuật",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Nach dem Unfall musste er sich einer komplizierten Chirurgie unterziehen.",
+    "example_vi": "Sau tai nạn, anh ấy phải trải qua một ca phẫu thuật phức tạp."
+  },
+  {
+    "word": "die Kardiologie",
+    "pos": "noun",
+    "meaning_vi": "tim mạch",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Mein Vater hat einen Termin in der Kardiologie, weil er Herzprobleme hat.",
+    "example_vi": "Bố tôi có lịch hẹn ở khoa tim mạch vì ông có vấn đề về tim."
+  },
+  {
+    "word": "die Neurologie",
+    "pos": "noun",
+    "meaning_vi": "thần kinh",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Die Neurologie beschäftigt sich mit Erkrankungen des Nervensystems.",
+    "example_vi": "Khoa thần kinh học nghiên cứu các bệnh về hệ thần kinh."
+  },
+  {
+    "word": "die Onkologie",
+    "pos": "noun",
+    "meaning_vi": "ung thư",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "In der Onkologie werden Krebspatienten mit modernsten Therapien behandelt.",
+    "example_vi": "Tại khoa ung thư, bệnh nhân ung thư được điều trị bằng các liệu pháp hiện đại nhất."
+  },
+  {
+    "word": "die Dermatologie",
+    "pos": "noun",
+    "meaning_vi": "da liễu",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Bei Hautproblemen sollten Sie einen Facharzt für Dermatologie aufsuchen.",
+    "example_vi": "Khi có vấn đề về da, bạn nên đến gặp bác sĩ chuyên khoa da liễu."
+  },
+  {
+    "word": "die Psychiatrie",
+    "pos": "noun",
+    "meaning_vi": "tâm thần",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Er arbeitet seit zehn Jahren in der Psychiatrie und hilft Menschen mit psychischen Erkrankungen.",
+    "example_vi": "Anh ấy làm việc trong khoa tâm thần được mười năm và giúp đỡ những người mắc bệnh tâm thần."
+  },
+  {
+    "word": "die Pädiatrie",
+    "pos": "noun",
+    "meaning_vi": "nhi khoa",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Die Pädiatrie im Krankenhaus hat eine sehr freundliche und bunte Atmosphäre für Kinder.",
+    "example_vi": "Khoa nhi trong bệnh viện có bầu không khí rất thân thiện và đầy màu sắc cho trẻ em."
+  },
+  {
+    "word": "die Anästhesie",
+    "pos": "noun",
+    "meaning_vi": "gây mê",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Vor der Operation erklärt der Arzt dem Patienten die verschiedenen Möglichkeiten der Anästhesie.",
+    "example_vi": "Trước ca phẫu thuật, bác sĩ giải thích cho bệnh nhân các phương pháp gây mê khác nhau."
+  },
+  {
+    "word": "die Rehabilitation",
+    "pos": "noun",
+    "meaning_vi": "phục hồi chức năng",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Nach dem Schlaganfall verbrachte sie drei Monate in der Rehabilitation, um wieder laufen zu lernen.",
+    "example_vi": "Sau cơn đột quỵ, cô ấy dành ba tháng trong phục hồi chức năng để học đi lại."
+  },
+  {
+    "word": "der Blutdruck",
+    "pos": "noun",
+    "meaning_vi": "huyết áp",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Der Arzt misst regelmäßig meinen Blutdruck, weil ich Probleme mit Hypertonie habe.",
+    "example_vi": "Bác sĩ thường xuyên đo huyết áp của tôi vì tôi có vấn đề về tăng huyết áp."
+  },
+  {
+    "word": "der Puls",
+    "pos": "noun",
+    "meaning_vi": "mạch",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Die Krankenschwester fühlte seinen Puls und stellte fest, dass er zu schnell schlug.",
+    "example_vi": "Y tá sờ mạch anh ấy và nhận thấy rằng mạch đập quá nhanh."
+  },
+  {
+    "word": "das Röntgen",
+    "pos": "noun",
+    "meaning_vi": "chụp X-quang",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Das Röntgen zeigte einen Bruch im linken Arm des Patienten.",
+    "example_vi": "Chụp X-quang cho thấy một vết gãy ở cánh tay trái của bệnh nhân."
+  },
+  {
+    "word": "die MRT",
+    "pos": "noun",
+    "meaning_vi": "chụp MRI",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Die MRT des Gehirns ergab keine Auffälligkeiten.",
+    "example_vi": "Chụp MRI não không phát hiện bất thường nào."
+  },
+  {
+    "word": "das EKG",
+    "pos": "noun",
+    "meaning_vi": "điện tâm đồ",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Das EKG wird durchgeführt, um die elektrische Aktivität des Herzens zu überwachen.",
+    "example_vi": "Điện tâm đồ được thực hiện để theo dõi hoạt động điện của tim."
+  },
+  {
+    "word": "diagnostizieren",
+    "pos": "verb",
+    "meaning_vi": "chẩn đoán",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Die Ärzte konnten die seltene Krankheit erst nach mehreren Tests diagnostizieren.",
+    "example_vi": "Các bác sĩ chỉ có thể chẩn đoán căn bệnh hiếm gặp này sau nhiều xét nghiệm."
+  },
+  {
+    "word": "transplantieren",
+    "pos": "verb",
+    "meaning_vi": "ghép",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Die Chirurgen mussten eine neue Niere transplantieren, um sein Leben zu retten.",
+    "example_vi": "Các bác sĩ phẫu thuật phải ghép một quả thận mới để cứu mạng anh ấy."
+  },
+  {
+    "word": "medizinisch",
+    "pos": "adjective",
+    "meaning_vi": "y học",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Aus medizinischer Sicht ist es wichtig, dass der Patient seine Medikamente regelmäßig einnimmt.",
+    "example_vi": "Từ góc độ y học, điều quan trọng là bệnh nhân phải uống thuốc đều đặn."
+  },
+  {
+    "word": "klinisch",
+    "pos": "adjective",
+    "meaning_vi": "lâm sàng",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Die klinischen Studien haben gezeigt, dass das neue Medikament sehr wirksam ist.",
+    "example_vi": "Các nghiên cứu lâm sàng đã chỉ ra rằng loại thuốc mới rất hiệu quả."
+  },
+  {
+    "word": "chronisch",
+    "pos": "adjective",
+    "meaning_vi": "mãn tính",
+    "level": "B2",
+    "topic": "b2_medicine",
+    "example_de": "Er leidet an chronischen Rückenschmerzen und muss regelmäßig zur Physiotherapie gehen.",
+    "example_vi": "Anh ấy bị đau lưng mãn tính và phải đi vật lý trị liệu thường xuyên."
+  },
+  {
+    "word": "die Abhandlung",
+    "pos": "noun",
+    "meaning_vi": "luận văn",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Der Professor hat eine umfassende Abhandlung über die Klimaveränderung verfasst.",
+    "example_vi": "Giáo sư đã viết một luận văn toàn diện về biến đổi khí hậu."
+  },
+  {
+    "word": "die Erörterung",
+    "pos": "noun",
+    "meaning_vi": "thảo luận",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die Erörterung der ethischen Fragen nahm mehrere Stunden in Anspruch.",
+    "example_vi": "Việc thảo luận các vấn đề đạo đức đã mất vài giờ."
+  },
+  {
+    "word": "die Ausführung",
+    "pos": "noun",
+    "meaning_vi": "trình bày",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die Ausführung des Projekts erfolgte nach einem detaillierten Plan.",
+    "example_vi": "Việc trình bày dự án được thực hiện theo một kế hoạch chi tiết."
+  },
+  {
+    "word": "die Darlegung",
+    "pos": "noun",
+    "meaning_vi": "trình bày",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Seine Darlegung der Argumente war klar und überzeugend.",
+    "example_vi": "Việc trình bày các lập luận của anh ấy rõ ràng và thuyết phục."
+  },
+  {
+    "word": "der Sachverhalt",
+    "pos": "noun",
+    "meaning_vi": "tình hình thực tế",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Der Anwalt erklärte dem Gericht den genauen Sachverhalt des Unfalls.",
+    "example_vi": "Luật sư giải thích cho tòa án tình hình thực tế chính xác của vụ tai nạn."
+  },
+  {
+    "word": "die Problematik",
+    "pos": "noun",
+    "meaning_vi": "vấn đề",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die Problematik der Wasserknappheit betrifft viele Regionen weltweit.",
+    "example_vi": "Vấn đề khan hiếm nước ảnh hưởng đến nhiều khu vực trên toàn thế giới."
+  },
+  {
+    "word": "die Thematik",
+    "pos": "noun",
+    "meaning_vi": "chủ đề",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die Thematik des Romans dreht sich um soziale Ungerechtigkeit.",
+    "example_vi": "Chủ đề của tiểu thuyết xoay quanh sự bất công xã hội."
+  },
+  {
+    "word": "die Fragestellung",
+    "pos": "noun",
+    "meaning_vi": "câu hỏi nghiên cứu",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die zentrale Fragestellung der Studie lautet: Wie beeinflusst Technologie unser Leben?",
+    "example_vi": "Câu hỏi nghiên cứu trung tâm của nghiên cứu là: Công nghệ ảnh hưởng đến cuộc sống của chúng ta như thế nào?"
+  },
+  {
+    "word": "die Zielsetzung",
+    "pos": "noun",
+    "meaning_vi": "mục tiêu",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die Zielsetzung des Unternehmens ist es, bis 2030 klimaneutral zu werden.",
+    "example_vi": "Mục tiêu của công ty là trở nên trung hòa carbon vào năm 2030."
+  },
+  {
+    "word": "die Vorgehensweise",
+    "pos": "noun",
+    "meaning_vi": "phương pháp",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die Vorgehensweise bei der Datenanalyse wurde im Methodenteil beschrieben.",
+    "example_vi": "Phương pháp phân tích dữ liệu đã được mô tả trong phần phương pháp luận."
+  },
+  {
+    "word": "die Herangehensweise",
+    "pos": "noun",
+    "meaning_vi": "cách tiếp cận",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Ihre kreative Herangehensweise an das Problem führte zu einer innovativen Lösung.",
+    "example_vi": "Cách tiếp cận sáng tạo của cô ấy đối với vấn đề đã dẫn đến một giải pháp đổi mới."
+  },
+  {
+    "word": "die Grundlage",
+    "pos": "noun",
+    "meaning_vi": "cơ sở",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Mathematik bildet die Grundlage für viele wissenschaftliche Disziplinen.",
+    "example_vi": "Toán học tạo thành cơ sở cho nhiều ngành khoa học."
+  },
+  {
+    "word": "der Rahmen",
+    "pos": "noun",
+    "meaning_vi": "khuôn khổ",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Im Rahmen dieser Arbeit werden nur europäische Länder untersucht.",
+    "example_vi": "Trong khuôn khổ công trình này, chỉ các quốc gia châu Âu được nghiên cứu."
+  },
+  {
+    "word": "die Einschränkung",
+    "pos": "noun",
+    "meaning_vi": "hạn chế",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Eine wichtige Einschränkung der Studie ist die kleine Stichprobengröße.",
+    "example_vi": "Một hạn chế quan trọng của nghiên cứu là quy mô mẫu nhỏ."
+  },
+  {
+    "word": "die Implikation",
+    "pos": "noun",
+    "meaning_vi": "hàm ý",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die Implikationen dieser Entdeckung für die Medizin sind enorm.",
+    "example_vi": "Những hàm ý của khám phá này đối với y học là rất lớn."
+  },
+  {
+    "word": "darlegen",
+    "pos": "verb",
+    "meaning_vi": "trình bày",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Der Wissenschaftler legte seine Theorie in einem Vortrag dar.",
+    "example_vi": "Nhà khoa học đã trình bày lý thuyết của mình trong một bài thuyết trình."
+  },
+  {
+    "word": "ausführen",
+    "pos": "verb",
+    "meaning_vi": "thực hiện",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Sie führte ihre Ideen ausführlich in der Präsentation aus.",
+    "example_vi": "Cô ấy đã thực hiện các ý tưởng của mình một cách chi tiết trong bài thuyết trình."
+  },
+  {
+    "word": "erörtern",
+    "pos": "verb",
+    "meaning_vi": "thảo luận",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "In der Diskussion erörterten wir verschiedene Lösungsansätze.",
+    "example_vi": "Trong cuộc thảo luận, chúng tôi đã thảo luận các phương pháp giải quyết khác nhau."
+  },
+  {
+    "word": "herausarbeiten",
+    "pos": "verb",
+    "meaning_vi": "làm rõ",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die Forscherin arbeitete die wichtigsten Unterschiede zwischen den Theorien heraus.",
+    "example_vi": "Nhà nghiên cứu đã làm rõ những khác biệt quan trọng nhất giữa các lý thuyết."
+  },
+  {
+    "word": "zugrunde legen",
+    "pos": "verb",
+    "meaning_vi": "dựa trên",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Der Analyse wurden aktuelle statistische Daten zugrunde gelegt.",
+    "example_vi": "Phân tích được dựa trên dữ liệu thống kê hiện tại."
+  },
+  {
+    "word": "einschränken",
+    "pos": "verb",
+    "meaning_vi": "hạn chế",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Die neuen Gesetze schränken die Freiheit der Bürger erheblich ein.",
+    "example_vi": "Các luật mới hạn chế đáng kể quyền tự do của công dân."
+  },
+  {
+    "word": "implizieren",
+    "pos": "verb",
+    "meaning_vi": "ngụ ý",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Seine Aussage impliziert, dass er mit der Entscheidung nicht einverstanden ist.",
+    "example_vi": "Phát biểu của anh ấy ngụ ý rằng anh ấy không đồng ý với quyết định đó."
+  },
+  {
+    "word": "grundlegend",
+    "pos": "adjective",
+    "meaning_vi": "cơ bản",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Das Verständnis der Mathematik ist grundlegend für das Studium der Physik.",
+    "example_vi": "Hiểu biết về toán học là cơ bản cho việc học vật lý."
+  },
+  {
+    "word": "wesentlich",
+    "pos": "adjective",
+    "meaning_vi": "thiết yếu",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Eine ausgewogene Ernährung ist wesentlich für die Gesundheit.",
+    "example_vi": "Chế độ ăn uống cân bằng là thiết yếu cho sức khỏe."
+  },
+  {
+    "word": "umfassend",
+    "pos": "adjective",
+    "meaning_vi": "toàn diện",
+    "level": "C1",
+    "topic": "c1_academic_writing",
+    "example_de": "Der Professor gab eine umfassende Einführung in die Philosophiegeschichte.",
+    "example_vi": "Giáo sư đã đưa ra một giới thiệu toàn diện về lịch sử triết học."
+  },
+  {
+    "word": "der Determinismus",
+    "pos": "noun",
+    "meaning_vi": "thuyết quyết định",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Der Determinismus behauptet, dass alle Ereignisse durch vorherige Ursachen festgelegt sind.",
+    "example_vi": "Thuyết quyết định cho rằng mọi sự kiện đều được xác định bởi các nguyên nhân trước đó."
+  },
+  {
+    "word": "der Relativismus",
+    "pos": "noun",
+    "meaning_vi": "thuyết tương đối",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Der moralische Relativismus lehrt, dass ethische Wahrheiten von kulturellen Kontexten abhängen.",
+    "example_vi": "Thuyết tương đối đạo đức dạy rằng các chân lý đạo đức phụ thuộc vào bối cảnh văn hóa."
+  },
+  {
+    "word": "der Rationalismus",
+    "pos": "noun",
+    "meaning_vi": "chủ nghĩa duy lý",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Descartes gilt als einer der Hauptvertreter des Rationalismus in der Philosophie.",
+    "example_vi": "Descartes được coi là một trong những đại diện chính của chủ nghĩa duy lý trong triết học."
+  },
+  {
+    "word": "der Empirismus",
+    "pos": "noun",
+    "meaning_vi": "chủ nghĩa kinh nghiệm",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Der Empirismus betont, dass Wissen hauptsächlich aus sinnlicher Erfahrung stammt.",
+    "example_vi": "Chủ nghĩa kinh nghiệm nhấn mạnh rằng kiến thức chủ yếu đến từ kinh nghiệm giác quan."
+  },
+  {
+    "word": "die Ontologie",
+    "pos": "noun",
+    "meaning_vi": "bản thể học",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Die Ontologie beschäftigt sich mit der Frage nach dem Wesen des Seins.",
+    "example_vi": "Bản thể học quan tâm đến câu hỏi về bản chất của sự tồn tại."
+  },
+  {
+    "word": "die Epistemologie",
+    "pos": "noun",
+    "meaning_vi": "nhận thức luận",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "In der Epistemologie untersuchen wir die Grundlagen und Grenzen menschlichen Wissens.",
+    "example_vi": "Trong nhận thức luận, chúng ta nghiên cứu nền tảng và giới hạn của tri thức con người."
+  },
+  {
+    "word": "die Phänomenologie",
+    "pos": "noun",
+    "meaning_vi": "hiện tượng học",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Husserl entwickelte die Phänomenologie als Methode zur Untersuchung des Bewusstseins.",
+    "example_vi": "Husserl đã phát triển hiện tượng học như một phương pháp để nghiên cứu ý thức."
+  },
+  {
+    "word": "die Hermeneutik",
+    "pos": "noun",
+    "meaning_vi": "thông diễn học",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Die Hermeneutik befasst sich mit der Theorie und Praxis der Textinterpretation.",
+    "example_vi": "Thông diễn học liên quan đến lý thuyết và thực hành giải thích văn bản."
+  },
+  {
+    "word": "das Apriori",
+    "pos": "noun",
+    "meaning_vi": "tiên nghiệm",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Kant unterschied zwischen Apriori-Wissen, das unabhängig von Erfahrung ist, und empirischem Wissen.",
+    "example_vi": "Kant phân biệt giữa tri thức tiên nghiệm, độc lập với kinh nghiệm, và tri thức kinh nghiệm."
+  },
+  {
+    "word": "das Aposteriori",
+    "pos": "noun",
+    "meaning_vi": "hậu nghiệm",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Aposteriori-Urteile basieren auf Beobachtungen und Erfahrungen aus der Welt.",
+    "example_vi": "Các phán đoán hậu nghiệm dựa trên quan sát và kinh nghiệm từ thế giới."
+  },
+  {
+    "word": "das Axiom",
+    "pos": "noun",
+    "meaning_vi": "tiên đề",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "In der Mathematik ist ein Axiom eine grundlegende Annahme, die nicht bewiesen werden muss.",
+    "example_vi": "Trong toán học, một tiên đề là một giả định cơ bản không cần phải chứng minh."
+  },
+  {
+    "word": "die Tautologie",
+    "pos": "noun",
+    "meaning_vi": "trùng ngôn",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Der Satz 'Alle Junggesellen sind unverheiratet' ist eine Tautologie.",
+    "example_vi": "Câu 'Tất cả những người độc thân đều chưa kết hôn' là một trùng ngôn."
+  },
+  {
+    "word": "das Paradox",
+    "pos": "noun",
+    "meaning_vi": "nghịch lý",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Das Lügner-Paradox zeigt die Grenzen der klassischen Logik auf.",
+    "example_vi": "Nghịch lý người nói dối cho thấy giới hạn của logic cổ điển."
+  },
+  {
+    "word": "die Dialektik",
+    "pos": "noun",
+    "meaning_vi": "biện chứng",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Hegels Dialektik beschreibt die Entwicklung durch These, Antithese und Synthese.",
+    "example_vi": "Biện chứng của Hegel mô tả sự phát triển qua luận đề, phản đề và tổng hợp."
+  },
+  {
+    "word": "die Synthese",
+    "pos": "noun",
+    "meaning_vi": "tổng hợp",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Die Synthese verschiedener philosophischer Ansätze führte zu einer neuen Theorie.",
+    "example_vi": "Sự tổng hợp các cách tiếp cận triết học khác nhau đã dẫn đến một lý thuyết mới."
+  },
+  {
+    "word": "konstituieren",
+    "pos": "verb",
+    "meaning_vi": "cấu thành",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Die Erfahrungen der Kindheit konstituieren unsere Persönlichkeit.",
+    "example_vi": "Những trải nghiệm thời thơ ấu cấu thành nên tính cách của chúng ta."
+  },
+  {
+    "word": "transzendieren",
+    "pos": "verb",
+    "meaning_vi": "siêu việt",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Die Kunst kann die Grenzen der Realität transzendieren.",
+    "example_vi": "Nghệ thuật có thể siêu việt những ranh giới của thực tại."
+  },
+  {
+    "word": "synthetisieren",
+    "pos": "verb",
+    "meaning_vi": "tổng hợp",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Kant versuchte, Rationalismus und Empirismus zu synthetisieren.",
+    "example_vi": "Kant đã cố gắng tổng hợp chủ nghĩa duy lý và chủ nghĩa kinh nghiệm."
+  },
+  {
+    "word": "deterministisch",
+    "pos": "adjective",
+    "meaning_vi": "quyết định",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Eine deterministische Weltanschauung lässt keinen Raum für freien Willen.",
+    "example_vi": "Một thế giới quan mang tính quyết định luận không để chỗ cho ý chí tự do."
+  },
+  {
+    "word": "ontologisch",
+    "pos": "adjective",
+    "meaning_vi": "bản thể",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Die ontologische Frage nach dem Sein beschäftigt Philosophen seit Jahrtausenden.",
+    "example_vi": "Câu hỏi bản thể học về sự tồn tại đã làm bận tâm các triết gia hàng thiên niên kỷ."
+  },
+  {
+    "word": "epistemisch",
+    "pos": "adjective",
+    "meaning_vi": "nhận thức",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Epistemische Unsicherheit entsteht aus mangelndem Wissen über die Welt.",
+    "example_vi": "Sự bất định nhận thức luận phát sinh từ sự thiếu hiểu biết về thế giới."
+  },
+  {
+    "word": "phänomenologisch",
+    "pos": "adjective",
+    "meaning_vi": "hiện tượng học",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Husserl entwickelte die phänomenologische Methode zur Untersuchung des Bewusstseins.",
+    "example_vi": "Husserl đã phát triển phương pháp hiện tượng học để nghiên cứu ý thức."
+  },
+  {
+    "word": "hermeneutisch",
+    "pos": "adjective",
+    "meaning_vi": "thông diễn",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Der hermeneutische Zirkel beschreibt den Prozess des Textverstehens.",
+    "example_vi": "Vòng tròn thông diễn học mô tả quá trình hiểu văn bản."
+  },
+  {
+    "word": "apriorisch",
+    "pos": "adjective",
+    "meaning_vi": "tiên nghiệm",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "Mathematische Wahrheiten gelten als apriorisches Wissen, unabhängig von Erfahrung.",
+    "example_vi": "Các chân lý toán học được coi là tri thức tiên nghiệm, độc lập với kinh nghiệm."
+  },
+  {
+    "word": "axiomatisch",
+    "pos": "adjective",
+    "meaning_vi": "tiên đề",
+    "level": "C1",
+    "topic": "c1_philosophy_more",
+    "example_de": "In der Geometrie werden axiomatische Grundsätze als selbstverständlich angenommen.",
+    "example_vi": "Trong hình học, các nguyên lý tiên đề được chấp nhận như điều hiển nhiên."
+  }
+]

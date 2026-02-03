@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-02-02T07:35:49.933Z",
+  "sources": {
+    "enrichedMerged": 2794,
+    "enrichedAIApproved": 1177
+  },
+  "final": {
+    "total": 3955,
+    "withExamples": 3955,
+    "distribution": {
+      "A1": 515,
+      "A2": 1167,
+      "B1": 770,
+      "B2": 667,
+      "C1": 714,
+      "C2": 122
+    },
+    "targetDistribution": {
+      "A1": 1500,
+      "A2": 2500,
+      "B1": 3000,
+      "B2": 2000,
+      "C1": 800,
+      "C2": 200
+    }
+  }
+}
