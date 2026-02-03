@@ -1,6 +1,7 @@
 import express from 'express';
 import resourceRoutes from './resources';
 import vocabularyRoutes from './vocabulary';
+import readingRoutes from './reading';
 
 const router = express.Router();
 
@@ -18,5 +19,8 @@ router.use('/resources', resourceRoutes);
 
 // Mount vocabulary routes (database-backed)
 router.use('/vocabulary', vocabularyRoutes);
+
+// Mount reading routes (Smart Library)
+router.use('/reading', readingRoutes);
 
 export default router;

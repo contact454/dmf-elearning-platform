@@ -58,3 +58,75 @@ model UserVocabularyProgress {
   @@index([userId, status])
   @@index([userId, nextReviewAt])
 }
+
+// ═══════════════════════════════════════════════════════════════
+// SMART LIBRARY - Reading Content Models
+// ═══════════════════════════════════════════════════════════════
+
+model ReadingContent {
+  id              String   @id @default(uuid())
+  title           String
+  content         String   // Full text content (markdown supported)
+  summary         String?  // Brief description
+  level           String   // A1, A2, B1, B2, C1, C2
+  topic           String?  // Topic category
+
+  // Content Analysis
+  wordCount       Int      @default(0)      // Total word count
+  uniqueWords     Int      @default(0)      // Unique words count
+  difficultyScore Float    @default(0)      // 0-100 difficulty score
+  vocabularyList  String[] // Array of unique German words in content
+
+  // Metadata
+  source          String?  // Original source or "AI-generated"
+  author          String?  // Author name
+  imageUrl        String?  // Cover image
+  audioUrl        String?  // TTS audio for full content
+  estimatedTime   Int      @default(5)      // Reading time in minutes
+
+  // Status
+  isPublished     Boolean  @default(true)
+  isFeatured      Boolean  @default(false)
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  progress        UserReadingProgress[]
+
+  @@index([level])
+  @@index([topic])
+  @@index([difficultyScore])
+}
+
+model UserReadingProgress {
+  id              String         @id @default(uuid())
+  userId          String
+  contentId       String
+  content         ReadingContent @relation(fields: [contentId], references: [id])
+
+  // Progress Tracking
+  status          String         @default("not_started") // not_started, in_progress, completed
+  progressPercent Int            @default(0)             // 0-100
+  lastPosition    Int            @default(0)             // Last read position (character index)
+
+  // Learning Metrics
+  wordsRead       Int            @default(0)             // Total words read
+  newWordsFound   Int            @default(0)             // New words encountered
+  wordsLookedUp   String[]       // Words user clicked for definition
+
+  // Time Tracking
+  totalReadTime   Int            @default(0)             // Total reading time in seconds
+  startedAt       DateTime?
+  completedAt     DateTime?
+
+  // Rating
+  rating          Int?           // 1-5 star rating
+
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  @@unique([userId, contentId])
+  @@index([userId, status])
+  @@index([userId, completedAt])
+}

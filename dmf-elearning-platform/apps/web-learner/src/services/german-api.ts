@@ -482,3 +482,260 @@ export function getStatusInfo(status: string): { label: string; color: string } 
   };
   return statuses[status] || { label: status, color: 'gray' };
 }
+
+// ============================================================================
+// SMART LIBRARY - READING API
+// ============================================================================
+
+export interface ReadingContent {
+  id: string;
+  title: string;
+  content: string;
+  summary: string | null;
+  level: string;
+  topic: string | null;
+  wordCount: number;
+  uniqueWords: number;
+  difficultyScore: number;
+  vocabularyList: string[];
+  source: string | null;
+  author: string | null;
+  imageUrl: string | null;
+  audioUrl: string | null;
+  estimatedTime: number;
+  isPublished: boolean;
+  isFeatured: boolean;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface ReadingProgress {
+  id: string;
+  userId: string;
+  contentId: string;
+  status: 'not_started' | 'in_progress' | 'completed';
+  progressPercent: number;
+  lastPosition: number;
+  wordsRead: number;
+  newWordsFound: number;
+  wordsLookedUp: string[];
+  totalReadTime: number;
+  startedAt: string | null;
+  completedAt: string | null;
+  rating: number | null;
+}
+
+export interface ContentAnalysis {
+  totalWords: number;
+  uniqueWords: number;
+  vocabularyList: string[];
+  knownWords: string[];
+  unknownWords: string[];
+  knownPercentage: number;
+  unknownPercentage: number;
+  difficultyScore: number;
+  suitability: 'too_easy' | 'optimal' | 'too_hard';
+  estimatedReadingTime: number;
+  levelDistribution: Record<string, number>;
+}
+
+export interface ReadingWithAnalysis extends ReadingContent {
+  userProgress?: ReadingProgress | null;
+  analysis?: ContentAnalysis | null;
+}
+
+export interface ReadingStats {
+  totalContent: number;
+  byLevel: { level: string; count: number }[];
+  byTopic: { topic: string; count: number }[];
+  totalWordsRead: number;
+  completedCount: number;
+}
+
+export interface UserReadingStats {
+  totalRead: number;
+  completed: number;
+  inProgress: number;
+  totalWords: number;
+  totalTime: number;
+  wordsLearned: number;
+}
+
+export interface ReadingFilters {
+  level?: string;
+  topic?: string;
+  search?: string;
+  limit?: number;
+  offset?: number;
+}
+
+/**
+ * Get reading content list with filters
+ */
+export async function getReadingContent(
+  filters: ReadingFilters = {}
+): Promise<{ items: ReadingContent[]; total: number }> {
+  const params = new URLSearchParams();
+  if (filters.level) params.append('level', filters.level);
+  if (filters.topic) params.append('topic', filters.topic);
+  if (filters.search) params.append('search', filters.search);
+  if (filters.limit) params.append('limit', String(filters.limit));
+  if (filters.offset) params.append('offset', String(filters.offset));
+
+  return await fetchWithRetry<{ items: ReadingContent[]; total: number }>(
+    `${BASE_URL}/reading?${params.toString()}`
+  );
+}
+
+/**
+ * Get recommended reading content for user (i+1 filtered)
+ */
+export async function getRecommendedReading(
+  userId: string,
+  limit: number = 10
+): Promise<ReadingContent[]> {
+  const params = new URLSearchParams({ userId, limit: String(limit) });
+  return await fetchWithRetry<ReadingContent[]>(
+    `${BASE_URL}/reading/recommended?${params.toString()}`
+  );
+}
+
+/**
+ * Get featured reading content
+ */
+export async function getFeaturedReading(limit: number = 5): Promise<ReadingContent[]> {
+  return await fetchWithRetry<ReadingContent[]>(
+    `${BASE_URL}/reading/featured?limit=${limit}`
+  );
+}
+
+/**
+ * Get reading content by ID with optional user analysis
+ */
+export async function getReadingById(
+  id: string,
+  userId?: string
+): Promise<ReadingWithAnalysis> {
+  const params = userId ? `?userId=${userId}` : '';
+  return await fetchWithRetry<ReadingWithAnalysis>(
+    `${BASE_URL}/reading/${id}${params}`
+  );
+}
+
+/**
+ * Get reading statistics
+ */
+export async function getReadingStats(): Promise<ReadingStats> {
+  return await fetchWithRetry<ReadingStats>(`${BASE_URL}/reading/stats`);
+}
+
+/**
+ * Get available reading levels
+ */
+export async function getReadingLevels(): Promise<string[]> {
+  return await fetchWithRetry<string[]>(`${BASE_URL}/reading/levels`);
+}
+
+/**
+ * Get available reading topics
+ */
+export async function getReadingTopics(level?: string): Promise<string[]> {
+  const params = level ? `?level=${level}` : '';
+  return await fetchWithRetry<string[]>(`${BASE_URL}/reading/topics${params}`);
+}
+
+/**
+ * Start reading content
+ */
+export async function startReading(
+  userId: string,
+  contentId: string
+): Promise<ReadingProgress> {
+  return await fetchWithRetry<ReadingProgress>(
+    `${BASE_URL}/reading/${contentId}/start`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId }),
+    }
+  );
+}
+
+/**
+ * Update reading progress
+ */
+export async function updateReadingProgress(
+  userId: string,
+  contentId: string,
+  data: {
+    progressPercent?: number;
+    lastPosition?: number;
+    wordsRead?: number;
+    totalReadTime?: number;
+    wordsLookedUp?: string[];
+  }
+): Promise<ReadingProgress> {
+  return await fetchWithRetry<ReadingProgress>(
+    `${BASE_URL}/reading/${contentId}/progress`,
+    {
+      method: 'PUT',
+      body: JSON.stringify({ userId, ...data }),
+    }
+  );
+}
+
+/**
+ * Mark reading as completed
+ */
+export async function completeReading(
+  userId: string,
+  contentId: string,
+  rating?: number
+): Promise<ReadingProgress> {
+  return await fetchWithRetry<ReadingProgress>(
+    `${BASE_URL}/reading/${contentId}/complete`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId, rating }),
+    }
+  );
+}
+
+/**
+ * Get user's reading history
+ */
+export async function getUserReadingHistory(
+  userId: string,
+  status?: 'not_started' | 'in_progress' | 'completed'
+): Promise<Array<ReadingProgress & { content: ReadingContent }>> {
+  const params = status ? `?status=${status}` : '';
+  return await fetchWithRetry<Array<ReadingProgress & { content: ReadingContent }>>(
+    `${BASE_URL}/reading/user/${userId}/history${params}`
+  );
+}
+
+/**
+ * Get user's reading statistics
+ */
+export async function getUserReadingStats(userId: string): Promise<UserReadingStats> {
+  return await fetchWithRetry<UserReadingStats>(
+    `${BASE_URL}/reading/user/${userId}/stats`
+  );
+}
+
+/**
+ * Generate new reading content using AI
+ */
+export async function generateReadingContent(options: {
+  level: string;
+  topic: string;
+  targetWordCount?: number;
+  style?: 'story' | 'article' | 'dialogue' | 'description';
+}): Promise<{ id: string }> {
+  return await fetchWithRetry<{ id: string }>(
+    `${BASE_URL}/reading/generate`,
+    {
+      method: 'POST',
+      body: JSON.stringify(options),
+    }
+  );
+}
