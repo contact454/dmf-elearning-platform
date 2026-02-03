@@ -257,4 +257,160 @@ export class VocabularyController {
       });
     }
   }
+
+  // ═══════════════════════════════════════════════════════════════
+  // SRS (Spaced Repetition System) Endpoints
+  // ═══════════════════════════════════════════════════════════════
+
+  /**
+   * GET /api/vocabulary/srs/due
+   * Get vocabulary cards due for review
+   */
+  static async getDueCards(req: Request, res: Response) {
+    try {
+      const { userId, limit, level } = req.query;
+
+      if (!userId) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing userId parameter',
+        });
+      }
+
+      const items = await vocabularyService.getDueCards(
+        userId as string,
+        limit ? parseInt(limit as string, 10) : 20,
+        level as string
+      );
+
+      return res.status(200).json({
+        success: true,
+        data: items,
+        count: items.length,
+      });
+    } catch (error) {
+      console.error('Error fetching due cards:', error);
+      return res.status(500).json({
+        success: false,
+        error: 'Failed to fetch due cards',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      });
+    }
+  }
+
+  /**
+   * POST /api/vocabulary/srs/review
+   * Submit a review and update SRS parameters
+   */
+  static async submitReview(req: Request, res: Response) {
+    try {
+      const { userId, vocabId, rating } = req.body;
+
+      if (!userId || !vocabId || rating === undefined) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing required fields: userId, vocabId, rating',
+        });
+      }
+
+      if (rating < 0 || rating > 3) {
+        return res.status(400).json({
+          success: false,
+          error: 'Rating must be between 0 and 3 (0=Again, 1=Hard, 2=Good, 3=Easy)',
+        });
+      }
+
+      const progress = await vocabularyService.submitReview(userId, vocabId, rating);
+
+      return res.status(200).json({
+        success: true,
+        data: progress,
+        message: 'Review submitted successfully',
+      });
+    } catch (error) {
+      console.error('Error submitting review:', error);
+      return res.status(500).json({
+        success: false,
+        error: 'Failed to submit review',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      });
+    }
+  }
+
+  /**
+   * GET /api/vocabulary/srs/progress/:userId
+   * Get user's learning progress statistics
+   */
+  static async getUserProgress(req: Request, res: Response) {
+    try {
+      const userId = req.params.userId;
+
+      if (!userId) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing userId parameter',
+        });
+      }
+
+      const stats = await vocabularyService.getUserProgress(userId);
+
+      return res.status(200).json({
+        success: true,
+        data: stats,
+      });
+    } catch (error) {
+      console.error('Error fetching user progress:', error);
+      return res.status(500).json({
+        success: false,
+        error: 'Failed to fetch user progress',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      });
+    }
+  }
+
+  /**
+   * GET /api/vocabulary/with-progress
+   * Get vocabulary with user progress
+   */
+  static async listWithProgress(req: Request, res: Response) {
+    try {
+      const { userId, level, topic, pos, search, limit, offset } = req.query;
+
+      if (!userId) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing userId parameter',
+        });
+      }
+
+      const result = await vocabularyService.getVocabularyWithProgress(
+        userId as string,
+        {
+          level: level as string,
+          topic: topic as string,
+          pos: pos as string,
+          search: search as string,
+          limit: limit ? parseInt(limit as string, 10) : 50,
+          offset: offset ? parseInt(offset as string, 10) : 0,
+        }
+      );
+
+      return res.status(200).json({
+        success: true,
+        data: result.items,
+        pagination: {
+          total: result.total,
+          limit: limit ? parseInt(limit as string, 10) : 50,
+          offset: offset ? parseInt(offset as string, 10) : 0,
+        },
+      });
+    } catch (error) {
+      console.error('Error listing vocabulary with progress:', error);
+      return res.status(500).json({
+        success: false,
+        error: 'Failed to fetch vocabulary with progress',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      });
+    }
+  }
 }

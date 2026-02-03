@@ -347,3 +347,138 @@ export async function getDbLevels(): Promise<string[]> {
 export async function getVocabularyByWord(word: string): Promise<DbVocabularyItem> {
   return await fetchWithRetry<DbVocabularyItem>(`${BASE_URL}/vocabulary/word/${encodeURIComponent(word)}`);
 }
+
+// ============================================================================
+// SRS (SPACED REPETITION SYSTEM) API
+// ============================================================================
+
+export interface UserVocabularyProgress {
+  id: string;
+  userId: string;
+  vocabId: string;
+  status: 'new' | 'learning' | 'review' | 'mastered';
+  easeFactor: number;
+  interval: number;
+  repetitions: number;
+  nextReviewAt: string | null;
+  lastReviewedAt: string | null;
+  totalReviews: number;
+  correctReviews: number;
+  lapseCount: number;
+}
+
+export interface VocabularyWithProgress extends DbVocabularyItem {
+  progress: UserVocabularyProgress | null;
+}
+
+export interface UserProgressStats {
+  totalCards: number;
+  newCards: number;
+  learningCards: number;
+  reviewCards: number;
+  masteredCards: number;
+  dueToday: number;
+  averageEaseFactor: number;
+  averageRetention: number;
+  streak: number;
+  lastReviewDate: string | null;
+}
+
+export type SRSRating = 0 | 1 | 2 | 3; // 0=Again, 1=Hard, 2=Good, 3=Easy
+
+/**
+ * Get vocabulary cards due for review
+ * @param userId - User ID
+ * @param limit - Maximum number of cards to fetch (default: 20)
+ * @param level - Optional CEFR level filter
+ */
+export async function getDueCards(
+  userId: string,
+  limit: number = 20,
+  level?: string
+): Promise<VocabularyWithProgress[]> {
+  const params = new URLSearchParams({ userId, limit: String(limit) });
+  if (level) params.append('level', level);
+
+  return await fetchWithRetry<VocabularyWithProgress[]>(
+    `${BASE_URL}/vocabulary/srs/due?${params.toString()}`
+  );
+}
+
+/**
+ * Submit a review and update SRS parameters
+ * @param userId - User ID
+ * @param vocabId - Vocabulary item ID
+ * @param rating - Rating (0=Again, 1=Hard, 2=Good, 3=Easy)
+ */
+export async function submitReview(
+  userId: string,
+  vocabId: string,
+  rating: SRSRating
+): Promise<UserVocabularyProgress> {
+  return await fetchWithRetry<UserVocabularyProgress>(
+    `${BASE_URL}/vocabulary/srs/review`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId, vocabId, rating }),
+    }
+  );
+}
+
+/**
+ * Get user's learning progress statistics
+ * @param userId - User ID
+ */
+export async function getUserProgress(userId: string): Promise<UserProgressStats> {
+  return await fetchWithRetry<UserProgressStats>(
+    `${BASE_URL}/vocabulary/srs/progress/${encodeURIComponent(userId)}`
+  );
+}
+
+/**
+ * Get vocabulary with user progress
+ * @param userId - User ID
+ * @param filters - Vocabulary filters
+ */
+export async function getVocabularyWithProgress(
+  userId: string,
+  filters: VocabularyFilters = {}
+): Promise<{ items: VocabularyWithProgress[]; total: number }> {
+  const params = new URLSearchParams({ userId });
+  if (filters.level) params.append('level', filters.level);
+  if (filters.topic) params.append('topic', filters.topic);
+  if (filters.pos) params.append('pos', filters.pos);
+  if (filters.search) params.append('search', filters.search);
+  if (filters.limit) params.append('limit', String(filters.limit));
+  if (filters.offset) params.append('offset', String(filters.offset));
+
+  return await fetchWithRetry<{ items: VocabularyWithProgress[]; total: number }>(
+    `${BASE_URL}/vocabulary/with-progress?${params.toString()}`
+  );
+}
+
+/**
+ * Get rating display info
+ */
+export function getRatingInfo(rating: SRSRating): { label: string; color: string; description: string } {
+  const ratings = {
+    0: { label: 'Again', color: 'red', description: 'Complete blackout' },
+    1: { label: 'Hard', color: 'orange', description: 'Incorrect but remembered' },
+    2: { label: 'Good', color: 'blue', description: 'Correct with hesitation' },
+    3: { label: 'Easy', color: 'green', description: 'Perfect recall' },
+  };
+  return ratings[rating];
+}
+
+/**
+ * Get status display info
+ */
+export function getStatusInfo(status: string): { label: string; color: string } {
+  const statuses: Record<string, { label: string; color: string }> = {
+    new: { label: 'New', color: 'gray' },
+    learning: { label: 'Learning', color: 'blue' },
+    review: { label: 'Review', color: 'yellow' },
+    mastered: { label: 'Mastered', color: 'green' },
+  };
+  return statuses[status] || { label: status, color: 'gray' };
+}

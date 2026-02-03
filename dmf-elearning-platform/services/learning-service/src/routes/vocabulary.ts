@@ -8,6 +8,26 @@ const router = express.Router();
  * Serves German vocabulary data from PostgreSQL via Prisma
  */
 
+// ═══════════════════════════════════════════════════════════════
+// SRS (Spaced Repetition System) Routes
+// ═══════════════════════════════════════════════════════════════
+
+// Get vocabulary cards due for review
+router.get('/srs/due', VocabularyController.getDueCards);
+
+// Submit a review and update SRS parameters
+router.post('/srs/review', VocabularyController.submitReview);
+
+// Get user's learning progress statistics
+router.get('/srs/progress/:userId', VocabularyController.getUserProgress);
+
+// Get vocabulary with user progress
+router.get('/with-progress', VocabularyController.listWithProgress);
+
+// ═══════════════════════════════════════════════════════════════
+// Standard Vocabulary Routes
+// ═══════════════════════════════════════════════════════════════
+
 // Get vocabulary statistics
 router.get('/stats', VocabularyController.stats);
 
