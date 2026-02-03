@@ -1,0 +1,1 @@
+export { SpeechRecorder } from './SpeechRecorder';

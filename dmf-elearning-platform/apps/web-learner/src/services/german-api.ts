@@ -1014,3 +1014,222 @@ export async function generateListeningExercises(
     { method: 'POST' }
   );
 }
+
+// ============================================================================
+// SPEAKING STUDIO - SPEAKING API
+// ============================================================================
+
+export interface SpeakingPrompt {
+  id: string;
+  title: string;
+  description: string | null;
+  level: string;
+  topic: string | null;
+  category: string;
+  promptText: string;
+  promptTextVi: string | null;
+  sampleResponse: string | null;
+  sampleAudioUrl: string | null;
+  targetWords: string[];
+  phonetics: string[];
+  difficulty: number;
+  estimatedTime: number;
+  tags: string[];
+  isPublished: boolean;
+  isFeatured: boolean;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface SpeakingAttempt {
+  id: string;
+  promptId: string;
+  userId: string;
+  audioUrl: string | null;
+  audioDuration: number;
+  transcript: string | null;
+  pronunciationScore: number;
+  fluencyScore: number;
+  accuracyScore: number;
+  overallScore: number;
+  wordScores: WordScore[] | null;
+  feedback: string | null;
+  corrections: SpeakingCorrection[] | null;
+  recordingTime: number;
+  attemptNumber: number;
+  createdAt: string;
+}
+
+export interface WordScore {
+  word: string;
+  userWord: string;
+  score: number;
+  isCorrect: boolean;
+}
+
+export interface SpeakingCorrection {
+  word: string;
+  correction: string;
+  explanation: string;
+}
+
+export interface SpeakingProgress {
+  id: string;
+  userId: string;
+  promptId: string;
+  status: 'not_started' | 'attempted' | 'mastered';
+  attemptCount: number;
+  bestScore: number;
+  lastScore: number;
+  avgPronunciation: number;
+  avgFluency: number;
+  avgAccuracy: number;
+  firstAttemptAt: string | null;
+  lastAttemptAt: string | null;
+}
+
+export interface SpeakingWithProgress extends SpeakingPrompt {
+  userProgress?: SpeakingProgress | null;
+  attemptCount?: number;
+}
+
+export interface SpeakingStats {
+  totalPrompts: number;
+  byLevel: { level: string; count: number }[];
+  byCategory: { category: string; count: number }[];
+}
+
+export interface UserSpeakingStats {
+  totalAttempts: number;
+  promptsAttempted: number;
+  promptsMastered: number;
+  averageScore: number;
+  totalPracticeTime: number;
+}
+
+export interface SpeakingFilters {
+  level?: string;
+  category?: string;
+  topic?: string;
+  search?: string;
+  limit?: number;
+  offset?: number;
+}
+
+/**
+ * Get speaking prompts with filters
+ */
+export async function getSpeakingPrompts(
+  filters: SpeakingFilters = {}
+): Promise<{ items: SpeakingPrompt[]; total: number }> {
+  const params = new URLSearchParams();
+  if (filters.level) params.append('level', filters.level);
+  if (filters.category) params.append('category', filters.category);
+  if (filters.topic) params.append('topic', filters.topic);
+  if (filters.search) params.append('search', filters.search);
+  if (filters.limit) params.append('limit', String(filters.limit));
+  if (filters.offset) params.append('offset', String(filters.offset));
+
+  return await fetchWithRetry<{ items: SpeakingPrompt[]; total: number }>(
+    `${BASE_URL}/speaking?${params.toString()}`
+  );
+}
+
+/**
+ * Get featured speaking prompts
+ */
+export async function getFeaturedSpeaking(limit: number = 5): Promise<SpeakingPrompt[]> {
+  return await fetchWithRetry<SpeakingPrompt[]>(
+    `${BASE_URL}/speaking/featured?limit=${limit}`
+  );
+}
+
+/**
+ * Get speaking prompt by ID with optional user progress
+ */
+export async function getSpeakingById(
+  id: string,
+  userId?: string
+): Promise<SpeakingWithProgress> {
+  const params = userId ? `?userId=${userId}` : '';
+  return await fetchWithRetry<SpeakingWithProgress>(
+    `${BASE_URL}/speaking/${id}${params}`
+  );
+}
+
+/**
+ * Get speaking statistics
+ */
+export async function getSpeakingStats(): Promise<SpeakingStats> {
+  return await fetchWithRetry<SpeakingStats>(`${BASE_URL}/speaking/stats`);
+}
+
+/**
+ * Get available speaking levels
+ */
+export async function getSpeakingLevels(): Promise<string[]> {
+  return await fetchWithRetry<string[]>(`${BASE_URL}/speaking/levels`);
+}
+
+/**
+ * Get available speaking categories
+ */
+export async function getSpeakingCategories(): Promise<string[]> {
+  return await fetchWithRetry<string[]>(`${BASE_URL}/speaking/categories`);
+}
+
+/**
+ * Submit speaking attempt
+ */
+export async function submitSpeakingAttempt(
+  promptId: string,
+  userId: string,
+  data: {
+    transcript: string;
+    audioUrl?: string;
+    audioDuration?: number;
+    recordingTime?: number;
+  }
+): Promise<SpeakingAttempt> {
+  return await fetchWithRetry<SpeakingAttempt>(
+    `${BASE_URL}/speaking/${promptId}/attempt`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId, ...data }),
+    }
+  );
+}
+
+/**
+ * Get user's attempts for a prompt
+ */
+export async function getSpeakingAttempts(
+  promptId: string,
+  userId: string
+): Promise<SpeakingAttempt[]> {
+  return await fetchWithRetry<SpeakingAttempt[]>(
+    `${BASE_URL}/speaking/${promptId}/attempts?userId=${userId}`
+  );
+}
+
+/**
+ * Get user's speaking history
+ */
+export async function getUserSpeakingHistory(
+  userId: string,
+  status?: 'not_started' | 'attempted' | 'mastered'
+): Promise<Array<SpeakingProgress & { prompt: SpeakingPrompt }>> {
+  const params = status ? `?status=${status}` : '';
+  return await fetchWithRetry<Array<SpeakingProgress & { prompt: SpeakingPrompt }>>(
+    `${BASE_URL}/speaking/user/${userId}/history${params}`
+  );
+}
+
+/**
+ * Get user's speaking statistics
+ */
+export async function getUserSpeakingStats(userId: string): Promise<UserSpeakingStats> {
+  return await fetchWithRetry<UserSpeakingStats>(
+    `${BASE_URL}/speaking/user/${userId}/stats`
+  );
+}

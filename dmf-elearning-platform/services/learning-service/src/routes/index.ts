@@ -3,6 +3,7 @@ import resourceRoutes from './resources';
 import vocabularyRoutes from './vocabulary';
 import readingRoutes from './reading';
 import listeningRoutes from './listening';
+import speakingRoutes from './speaking';
 
 const router = express.Router();
 
@@ -26,5 +27,8 @@ router.use('/reading', readingRoutes);
 
 // Mount listening routes (Listening Lab)
 router.use('/listening', listeningRoutes);
+
+// Mount speaking routes (Speaking Studio)
+router.use('/speaking', speakingRoutes);
 
 export default router;

@@ -261,3 +261,106 @@ model UserListeningProgress {
   @@unique([userId, contentId])
   @@index([userId, status])
 }
+
+// ═══════════════════════════════════════════════════════════════
+// SPEAKING STUDIO - Speaking Practice Models
+// ═══════════════════════════════════════════════════════════════
+
+model SpeakingPrompt {
+  id              String   @id @default(uuid())
+  title           String
+  description     String?
+  level           String   // A1, A2, B1, B2, C1, C2
+  topic           String?
+  category        String   @default("general") // general, conversation, roleplay, pronunciation, reading
+
+  // Prompt Content
+  promptText      String   // The main prompt/question in German
+  promptTextVi    String?  // Vietnamese translation
+  sampleResponse  String?  // Example correct response
+  sampleAudioUrl  String?  // Audio of sample response
+
+  // For pronunciation practice
+  targetWords     String[] // Words to focus on for pronunciation
+  phonetics       String[] // IPA phonetics for target words
+
+  // Difficulty & Metadata
+  difficulty      Int      @default(1)      // 1-5
+  estimatedTime   Int      @default(30)     // Seconds to complete
+  tags            String[]
+
+  // Status
+  isPublished     Boolean  @default(true)
+  isFeatured      Boolean  @default(false)
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  attempts        SpeakingAttempt[]
+  progress        UserSpeakingProgress[]
+
+  @@index([level])
+  @@index([category])
+  @@index([topic])
+}
+
+model SpeakingAttempt {
+  id              String         @id @default(uuid())
+  promptId        String
+  prompt          SpeakingPrompt @relation(fields: [promptId], references: [id])
+  userId          String
+
+  // User Recording
+  audioUrl        String?        // URL to recorded audio (if saved)
+  audioDuration   Float          @default(0)    // Duration in seconds
+  transcript      String?        // Speech-to-text result
+
+  // Pronunciation Scoring
+  pronunciationScore Float       @default(0)    // 0-100
+  fluencyScore       Float       @default(0)    // 0-100
+  accuracyScore      Float       @default(0)    // 0-100 (word matching)
+  overallScore       Float       @default(0)    // Weighted average
+
+  // Detailed Feedback
+  wordScores      Json?          // Array of {word, expected, actual, score}
+  feedback        String?        // AI-generated feedback
+  corrections     Json?          // Array of {word, correction, explanation}
+
+  // Timing
+  recordingTime   Int            @default(0)    // Time spent recording (seconds)
+  attemptNumber   Int            @default(1)    // Which attempt this is
+
+  createdAt       DateTime       @default(now())
+
+  @@index([userId, promptId])
+  @@index([userId, createdAt])
+}
+
+model UserSpeakingProgress {
+  id              String         @id @default(uuid())
+  userId          String
+  promptId        String
+  prompt          SpeakingPrompt @relation(fields: [promptId], references: [id])
+
+  // Progress Tracking
+  status          String         @default("not_started") // not_started, attempted, mastered
+  attemptCount    Int            @default(0)
+  bestScore       Float          @default(0)
+  lastScore       Float          @default(0)
+
+  // Improvement Tracking
+  avgPronunciation Float         @default(0)
+  avgFluency       Float         @default(0)
+  avgAccuracy      Float         @default(0)
+
+  // Timestamps
+  firstAttemptAt  DateTime?
+  lastAttemptAt   DateTime?
+
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  @@unique([userId, promptId])
+  @@index([userId, status])
+}
