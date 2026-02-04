@@ -4,6 +4,7 @@ import { Outfit, Inter, Space_Grotesk } from "next/font/google";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { ToastProvider } from "@/components/ui/toast";
 import { MobileBottomNav } from "@/components/ui/mobile-nav";
+import { QueryProvider, UserProvider } from "@/providers";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -61,12 +62,16 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
       >
-        <ThemeProvider>
-          <ToastProvider>
-            {children}
-            <MobileBottomNav />
-          </ToastProvider>
-        </ThemeProvider>
+        <QueryProvider>
+          <UserProvider>
+            <ThemeProvider>
+              <ToastProvider>
+                {children}
+                <MobileBottomNav />
+              </ToastProvider>
+            </ThemeProvider>
+          </UserProvider>
+        </QueryProvider>
       </body>
     </html>
   );
