@@ -45,6 +45,9 @@ router.post('/exercise/:exerciseId/attempt', ListeningController.submitAttempt);
 // Content Management
 // ═══════════════════════════════════════════════════════════════
 
+// Seed sample content
+router.post('/seed', ListeningController.seedContent);
+
 // Create new content
 router.post('/', ListeningController.createContent);
 

@@ -41,6 +41,9 @@ router.get('/user/:userId/stats', ReadingController.getUserStats);
 // Content Management
 // ═══════════════════════════════════════════════════════════════
 
+// Seed sample content
+router.post('/seed', ReadingController.seedContent);
+
 // Generate new content using AI
 router.post('/generate', ReadingController.generateContent);
 

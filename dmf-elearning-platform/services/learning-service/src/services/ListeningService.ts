@@ -499,11 +499,122 @@ export class ListeningService {
       const exercise = await this.createExercise(contentId, {
         exerciseType: 'full',
         correctText: content.transcript,
-        difficulty: 3,
+        difficultyScore: 3,
       });
       exercises.push(exercise);
     }
 
     return exercises;
+  }
+
+  /**
+   * Seed sample listening content
+   */
+  async seedContent(): Promise<number> {
+    const sampleContent = [
+      {
+        title: 'Begrüßungen und Vorstellungen',
+        description: 'Lernen Sie grundlegende Begrüßungen auf Deutsch.',
+        level: 'A1',
+        topic: 'Alltag',
+        transcript: 'Hallo! Guten Tag! Ich heiße Anna. Wie heißt du? Freut mich, dich kennenzulernen.',
+        audioUrl: null,
+        duration: 15,
+        difficultyScore: 1,
+        segments: [
+          { start: 0, end: 3, text: 'Hallo! Guten Tag!' },
+          { start: 3, end: 8, text: 'Ich heiße Anna.' },
+          { start: 8, end: 12, text: 'Wie heißt du?' },
+          { start: 12, end: 15, text: 'Freut mich, dich kennenzulernen.' },
+        ],
+      },
+      {
+        title: 'Im Supermarkt einkaufen',
+        description: 'Ein kurzes Gespräch beim Einkaufen.',
+        level: 'A1',
+        topic: 'Einkaufen',
+        transcript: 'Guten Tag! Ich möchte bitte zwei Kilo Äpfel. Das macht drei Euro fünfzig. Hier bitte. Danke schön! Auf Wiedersehen!',
+        audioUrl: null,
+        duration: 20,
+        difficultyScore: 1,
+        segments: [
+          { start: 0, end: 5, text: 'Guten Tag! Ich möchte bitte zwei Kilo Äpfel.' },
+          { start: 5, end: 10, text: 'Das macht drei Euro fünfzig.' },
+          { start: 10, end: 15, text: 'Hier bitte. Danke schön!' },
+          { start: 15, end: 20, text: 'Auf Wiedersehen!' },
+        ],
+      },
+      {
+        title: 'Mein Tagesablauf',
+        description: 'Eine Person erzählt von ihrem typischen Tag.',
+        level: 'A2',
+        topic: 'Alltag',
+        transcript: 'Ich stehe jeden Tag um sieben Uhr auf. Dann dusche ich und esse Frühstück. Um acht Uhr fahre ich zur Arbeit. Ich arbeite von neun bis fünf. Nach der Arbeit gehe ich einkaufen oder treffe Freunde.',
+        audioUrl: null,
+        duration: 30,
+        difficultyScore: 2,
+        segments: [
+          { start: 0, end: 8, text: 'Ich stehe jeden Tag um sieben Uhr auf.' },
+          { start: 8, end: 14, text: 'Dann dusche ich und esse Frühstück.' },
+          { start: 14, end: 20, text: 'Um acht Uhr fahre ich zur Arbeit.' },
+          { start: 20, end: 25, text: 'Ich arbeite von neun bis fünf.' },
+          { start: 25, end: 30, text: 'Nach der Arbeit gehe ich einkaufen oder treffe Freunde.' },
+        ],
+      },
+      {
+        title: 'Das Wetter in Deutschland',
+        description: 'Ein Wetterbericht für die kommende Woche.',
+        level: 'A2',
+        topic: 'Wetter',
+        transcript: 'Heute ist es sonnig und warm. Die Temperatur liegt bei fünfundzwanzig Grad. Morgen wird es bewölkt mit leichtem Regen. Am Wochenende erwarten wir wieder Sonnenschein.',
+        audioUrl: null,
+        duration: 25,
+        difficultyScore: 2,
+        segments: [
+          { start: 0, end: 7, text: 'Heute ist es sonnig und warm.' },
+          { start: 7, end: 14, text: 'Die Temperatur liegt bei fünfundzwanzig Grad.' },
+          { start: 14, end: 20, text: 'Morgen wird es bewölkt mit leichtem Regen.' },
+          { start: 20, end: 25, text: 'Am Wochenende erwarten wir wieder Sonnenschein.' },
+        ],
+      },
+      {
+        title: 'Ein Telefongespräch',
+        description: 'Ein Telefongespräch zwischen zwei Kollegen.',
+        level: 'B1',
+        topic: 'Arbeit',
+        transcript: 'Hallo, hier ist Müller. Guten Tag, Herr Müller. Hier spricht Schmidt von der Firma Bauer. Ich rufe an wegen unseres Termins morgen. Leider muss ich den Termin verschieben. Könnten wir uns stattdessen am Donnerstag treffen?',
+        audioUrl: null,
+        duration: 35,
+        difficultyScore: 3,
+        segments: [
+          { start: 0, end: 8, text: 'Hallo, hier ist Müller. Guten Tag, Herr Müller.' },
+          { start: 8, end: 16, text: 'Hier spricht Schmidt von der Firma Bauer.' },
+          { start: 16, end: 24, text: 'Ich rufe an wegen unseres Termins morgen.' },
+          { start: 24, end: 30, text: 'Leider muss ich den Termin verschieben.' },
+          { start: 30, end: 35, text: 'Könnten wir uns stattdessen am Donnerstag treffen?' },
+        ],
+      },
+    ];
+
+    let count = 0;
+    for (const content of sampleContent) {
+      const exists = await prisma.listeningContent.findFirst({
+        where: { title: content.title },
+      });
+
+      if (!exists) {
+        await prisma.listeningContent.create({
+          data: {
+            ...content,
+            vocabularyList: [],
+            isPublished: true,
+            isFeatured: count < 2,
+          },
+        });
+        count++;
+      }
+    }
+
+    return count;
   }
 }

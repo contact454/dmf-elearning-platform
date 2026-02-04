@@ -432,4 +432,88 @@ export class ReadingService {
       return false;
     }
   }
+
+  /**
+   * Seed sample reading content
+   */
+  async seedContent(): Promise<number> {
+    const sampleContent = [
+      {
+        title: 'Meine Familie',
+        content: 'Ich habe eine große Familie. Mein Vater heißt Thomas und meine Mutter heißt Maria. Ich habe zwei Geschwister: einen Bruder und eine Schwester. Mein Bruder ist älter als ich. Er ist zwanzig Jahre alt. Meine Schwester ist jünger. Sie ist zehn Jahre alt. Wir wohnen zusammen in einem Haus. Am Wochenende essen wir immer zusammen. Das ist schön.',
+        summary: 'Eine einfache Geschichte über eine Familie.',
+        level: 'A1',
+        topic: 'Familie',
+        wordCount: 67,
+        uniqueWords: 45,
+        difficultyScore: 1,
+        estimatedTime: 120,
+      },
+      {
+        title: 'Ein Tag im Park',
+        content: 'Heute ist Sonntag. Das Wetter ist schön. Die Sonne scheint und es ist warm. Ich gehe in den Park. Im Park gibt es viele Bäume und Blumen. Die Vögel singen. Kinder spielen auf dem Spielplatz. Einige Leute joggen. Andere lesen ein Buch auf einer Bank. Ich kaufe ein Eis und setze mich auf das Gras. Der Park ist ein schöner Ort.',
+        summary: 'Ein entspannter Tag im Park.',
+        level: 'A1',
+        topic: 'Freizeit',
+        wordCount: 74,
+        uniqueWords: 52,
+        difficultyScore: 1,
+        estimatedTime: 150,
+      },
+      {
+        title: 'Im Restaurant',
+        content: 'Gestern bin ich mit meiner Freundin ins Restaurant gegangen. Das Restaurant war sehr gemütlich. Der Kellner war freundlich und hat uns die Speisekarte gebracht. Ich habe eine Suppe als Vorspeise bestellt. Als Hauptgericht habe ich Schnitzel mit Kartoffeln gewählt. Meine Freundin hat Pasta gegessen. Zum Nachtisch haben wir Schokoladenkuchen geteilt. Das Essen war lecker und nicht zu teuer. Wir kommen bestimmt wieder.',
+        summary: 'Ein Besuch in einem Restaurant mit einer Freundin.',
+        level: 'A2',
+        topic: 'Essen',
+        wordCount: 78,
+        uniqueWords: 58,
+        difficultyScore: 2,
+        estimatedTime: 180,
+      },
+      {
+        title: 'Mein Beruf',
+        content: 'Ich arbeite als Softwareentwickler bei einer großen Firma in Berlin. Jeden Tag fahre ich mit der U-Bahn zur Arbeit. Die Fahrt dauert etwa 30 Minuten. Im Büro arbeite ich meistens am Computer. Ich schreibe Programme und löse technische Probleme. Die Arbeit macht mir Spaß, weil sie kreativ und abwechslungsreich ist. Manchmal arbeite ich auch von zu Hause aus. Das nennt man Homeoffice. Meine Kollegen sind nett und wir verstehen uns gut.',
+        summary: 'Ein Tag im Leben eines Softwareentwicklers.',
+        level: 'B1',
+        topic: 'Arbeit',
+        wordCount: 89,
+        uniqueWords: 68,
+        difficultyScore: 3,
+        estimatedTime: 240,
+      },
+      {
+        title: 'Umweltschutz im Alltag',
+        content: 'Der Klimawandel ist eines der größten Probleme unserer Zeit. Jeder von uns kann etwas tun, um die Umwelt zu schützen. Im Alltag gibt es viele Möglichkeiten: Wir können weniger Plastik verwenden, öfter mit dem Fahrrad fahren und Energie sparen. Auch das Recycling ist wichtig. Wenn wir Müll trennen, können viele Materialien wiederverwendet werden. Außerdem sollten wir regionale Produkte kaufen, um lange Transportwege zu vermeiden. Kleine Änderungen im Alltag können einen großen Unterschied machen.',
+        summary: 'Tipps für umweltfreundliches Verhalten im Alltag.',
+        level: 'B1',
+        topic: 'Umwelt',
+        wordCount: 95,
+        uniqueWords: 72,
+        difficultyScore: 3,
+        estimatedTime: 300,
+      },
+    ];
+
+    let count = 0;
+    for (const content of sampleContent) {
+      const exists = await prisma.readingContent.findFirst({
+        where: { title: content.title },
+      });
+
+      if (!exists) {
+        await prisma.readingContent.create({
+          data: {
+            ...content,
+            vocabularyList: [],
+            isPublished: true,
+            isFeatured: count < 2,
+          },
+        });
+        count++;
+      }
+    }
+
+    return count;
+  }
 }

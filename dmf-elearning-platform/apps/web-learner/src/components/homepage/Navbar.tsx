@@ -3,9 +3,10 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, BookOpen, Brain, Trophy, Users } from 'lucide-react';
+import { Menu, X, BookOpen, Brain, Trophy, Users, Target } from 'lucide-react';
 
 const navLinks = [
+  { href: '/learn/hub', label: 'Learning Hub', icon: Target },
   { href: '/learn/german', label: 'Khoá học', icon: BookOpen },
   { href: '/practice/flashcard', label: 'Flashcards', icon: Brain },
   { href: '/quiz', label: 'Luyện tập', icon: Trophy },

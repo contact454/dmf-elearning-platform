@@ -474,4 +474,27 @@ export class ReadingController {
       });
     }
   }
+
+  /**
+   * POST /api/reading/seed
+   * Seed sample reading content
+   */
+  static async seedContent(req: Request, res: Response) {
+    try {
+      const count = await readingService.seedContent();
+
+      return res.status(201).json({
+        success: true,
+        data: { count },
+        message: `Seeded ${count} reading content items`,
+      });
+    } catch (error) {
+      console.error('Error seeding content:', error);
+      return res.status(500).json({
+        success: false,
+        error: 'Failed to seed content',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      });
+    }
+  }
 }

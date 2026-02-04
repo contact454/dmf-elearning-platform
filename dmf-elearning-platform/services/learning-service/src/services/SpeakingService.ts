@@ -522,4 +522,87 @@ export class SpeakingService {
       },
     });
   }
+
+  /**
+   * Seed sample speaking prompts
+   */
+  async seedContent(): Promise<number> {
+    const samplePrompts = [
+      {
+        title: 'Begrüßung - Guten Tag',
+        level: 'A1',
+        category: 'greetings',
+        topic: 'Begrüßungen',
+        promptText: 'Guten Tag! Wie geht es Ihnen?',
+        promptTextVi: 'Chào buổi chiều! Bạn khỏe không?',
+        sampleResponse: 'Guten Tag! Wie geht es Ihnen?',
+        targetWords: ['Guten', 'Tag', 'Ihnen'],
+        difficulty: 1,
+      },
+      {
+        title: 'Sich vorstellen',
+        level: 'A1',
+        category: 'introduction',
+        topic: 'Vorstellung',
+        promptText: 'Ich heiße Maria und komme aus Vietnam.',
+        promptTextVi: 'Tôi tên là Maria và đến từ Việt Nam.',
+        sampleResponse: 'Ich heiße Maria und komme aus Vietnam.',
+        targetWords: ['heiße', 'komme', 'aus'],
+        difficulty: 1,
+      },
+      {
+        title: 'Im Restaurant bestellen',
+        level: 'A2',
+        category: 'ordering',
+        topic: 'Restaurant',
+        promptText: 'Ich möchte bitte eine Tasse Kaffee und ein Stück Kuchen.',
+        promptTextVi: 'Tôi muốn một tách cà phê và một miếng bánh.',
+        sampleResponse: 'Ich möchte bitte eine Tasse Kaffee und ein Stück Kuchen.',
+        targetWords: ['möchte', 'bitte', 'Tasse', 'Stück'],
+        difficulty: 2,
+      },
+      {
+        title: 'Den Weg beschreiben',
+        level: 'A2',
+        category: 'directions',
+        topic: 'Wegbeschreibung',
+        promptText: 'Gehen Sie geradeaus und dann links. Das Krankenhaus ist auf der rechten Seite.',
+        promptTextVi: 'Đi thẳng rồi rẽ trái. Bệnh viện ở phía bên phải.',
+        sampleResponse: 'Gehen Sie geradeaus und dann links. Das Krankenhaus ist auf der rechten Seite.',
+        targetWords: ['geradeaus', 'links', 'rechten', 'Seite'],
+        difficulty: 2,
+      },
+      {
+        title: 'Über die Arbeit sprechen',
+        level: 'B1',
+        category: 'work',
+        topic: 'Arbeit',
+        promptText: 'Ich arbeite als Softwareentwickler bei einer internationalen Firma. Die Arbeit macht mir viel Spaß.',
+        promptTextVi: 'Tôi làm việc như một lập trình viên tại một công ty quốc tế. Công việc rất thú vị với tôi.',
+        sampleResponse: 'Ich arbeite als Softwareentwickler bei einer internationalen Firma. Die Arbeit macht mir viel Spaß.',
+        targetWords: ['Softwareentwickler', 'internationalen', 'Firma', 'Spaß'],
+        difficulty: 3,
+      },
+    ];
+
+    let count = 0;
+    for (const prompt of samplePrompts) {
+      const exists = await prisma.speakingPrompt.findFirst({
+        where: { title: prompt.title },
+      });
+
+      if (!exists) {
+        await prisma.speakingPrompt.create({
+          data: {
+            ...prompt,
+            isPublished: true,
+            isFeatured: count < 2,
+          },
+        });
+        count++;
+      }
+    }
+
+    return count;
+  }
 }

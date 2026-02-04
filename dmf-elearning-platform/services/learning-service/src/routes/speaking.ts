@@ -38,6 +38,9 @@ router.get('/user/:userId/stats', SpeakingController.getUserStats);
 // Content Management
 // ═══════════════════════════════════════════════════════════════
 
+// Seed sample prompts
+router.post('/seed', SpeakingController.seedContent);
+
 // Create new prompt
 router.post('/', SpeakingController.createPrompt);
 

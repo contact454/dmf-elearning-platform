@@ -1233,3 +1233,417 @@ export async function getUserSpeakingStats(userId: string): Promise<UserSpeaking
     `${BASE_URL}/speaking/user/${userId}/stats`
   );
 }
+
+// ============================================================================
+// WRITING WORKSHOP - WRITING API
+// ============================================================================
+
+export interface WritingPrompt {
+  id: string;
+  title: string;
+  description: string | null;
+  level: string;
+  topic: string | null;
+  category: string;
+  promptText: string;
+  promptTextVi: string | null;
+  instructions: string | null;
+  instructionsVi: string | null;
+  templateText: string | null;
+  correctAnswers: any | null;
+  hints: string[];
+  keywords: string[];
+  wordLimit: number | null;
+  minWords: number;
+  sampleResponse: string | null;
+  sampleResponseVi: string | null;
+  grammarPoints: string[];
+  vocabularyFocus: string[];
+  difficulty: number;
+  estimatedTime: number;
+  tags: string[];
+  isPublished: boolean;
+  isFeatured: boolean;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface WritingSubmission {
+  id: string;
+  promptId: string;
+  userId: string;
+  content: string;
+  wordCount: number;
+  answers: any | null;
+  overallScore: number;
+  grammarScore: number;
+  vocabularyScore: number;
+  coherenceScore: number;
+  taskScore: number;
+  feedback: string | null;
+  feedbackVi: string | null;
+  corrections: WritingCorrection[] | null;
+  suggestions: WritingSuggestion[] | null;
+  grammarErrors: GrammarError[] | null;
+  keywordsUsed: string[];
+  keywordsMissing: string[];
+  requirementsMet: any | null;
+  timeSpent: number;
+  submissionNum: number;
+  status: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface WritingCorrection {
+  original: string;
+  corrected: string;
+  explanation: string;
+  explanationVi: string;
+  type: 'grammar' | 'spelling' | 'vocabulary' | 'style';
+}
+
+export interface WritingSuggestion {
+  suggestion: string;
+  suggestionVi: string;
+  category: 'vocabulary' | 'structure' | 'expression' | 'clarity';
+}
+
+export interface GrammarError {
+  text: string;
+  error: string;
+  rule: string;
+  correction: string;
+  position: number;
+}
+
+export interface WritingProgress {
+  id: string;
+  userId: string;
+  promptId: string;
+  status: string;
+  submissionCount: number;
+  bestScore: number;
+  lastScore: number;
+  avgGrammarScore: number;
+  avgVocabularyScore: number;
+  avgCoherenceScore: number;
+  avgTaskScore: number;
+  totalWordsWritten: number;
+  totalTimeSpent: number;
+  draftContent: string | null;
+  draftUpdatedAt: string | null;
+  firstSubmissionAt: string | null;
+  lastSubmissionAt: string | null;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface WritingWithProgress extends WritingPrompt {
+  userProgress?: WritingProgress | null;
+  submissionCount?: number;
+}
+
+export interface WritingFilters {
+  level?: string;
+  category?: string;
+  topic?: string;
+  search?: string;
+  limit?: number;
+  offset?: number;
+}
+
+export interface WritingStats {
+  totalPrompts: number;
+  byLevel: { level: string; count: number }[];
+  byCategory: { category: string; count: number }[];
+}
+
+export interface UserWritingStats {
+  totalSubmissions: number;
+  promptsAttempted: number;
+  promptsMastered: number;
+  averageScore: number;
+  totalWordsWritten: number;
+  totalTimeSpent: number;
+}
+
+// ----------------------------------------------------------------------------
+// Writing Content Functions
+// ----------------------------------------------------------------------------
+
+/**
+ * Get writing prompts with filters
+ */
+export async function getWritingPrompts(
+  filters: WritingFilters = {}
+): Promise<{ items: WritingPrompt[]; total: number }> {
+  const params = new URLSearchParams();
+  if (filters.level) params.append('level', filters.level);
+  if (filters.category) params.append('category', filters.category);
+  if (filters.topic) params.append('topic', filters.topic);
+  if (filters.search) params.append('search', filters.search);
+  if (filters.limit) params.append('limit', String(filters.limit));
+  if (filters.offset) params.append('offset', String(filters.offset));
+
+  try {
+    const url = `${BASE_URL}/writing?${params.toString()}`;
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: { 'Content-Type': 'application/json' },
+    });
+
+    if (!response.ok) {
+      throw new GermanApiError(`HTTP ${response.status}: ${response.statusText}`, response.status);
+    }
+
+    const json = await response.json();
+    if (!json.success) {
+      throw new GermanApiError(json.error || 'API request failed');
+    }
+
+    return {
+      items: json.data || [],
+      total: json.pagination?.total || 0,
+    };
+  } catch (error) {
+    if (error instanceof GermanApiError) throw error;
+    console.error('getWritingPrompts fetch error:', error);
+    throw new GermanApiError(
+      error instanceof Error ? error.message : 'Failed to fetch writing prompts',
+      undefined,
+      error
+    );
+  }
+}
+
+/**
+ * Get featured writing prompts
+ */
+export async function getFeaturedWriting(limit: number = 5): Promise<WritingPrompt[]> {
+  return await fetchWithRetry<WritingPrompt[]>(
+    `${BASE_URL}/writing/featured?limit=${limit}`
+  );
+}
+
+/**
+ * Get writing statistics
+ */
+export async function getWritingStats(): Promise<WritingStats> {
+  return await fetchWithRetry<WritingStats>(`${BASE_URL}/writing/stats`);
+}
+
+/**
+ * Get available writing levels
+ */
+export async function getWritingLevels(): Promise<string[]> {
+  return await fetchWithRetry<string[]>(`${BASE_URL}/writing/levels`);
+}
+
+/**
+ * Get available writing categories
+ */
+export async function getWritingCategories(): Promise<string[]> {
+  return await fetchWithRetry<string[]>(`${BASE_URL}/writing/categories`);
+}
+
+/**
+ * Get single writing prompt by ID
+ */
+export async function getWritingById(id: string, userId?: string): Promise<WritingWithProgress> {
+  const params = userId ? `?userId=${userId}` : '';
+  return await fetchWithRetry<WritingWithProgress>(
+    `${BASE_URL}/writing/${id}${params}`
+  );
+}
+
+// ----------------------------------------------------------------------------
+// Writing Submission Functions
+// ----------------------------------------------------------------------------
+
+/**
+ * Submit writing for evaluation
+ */
+export async function submitWriting(
+  promptId: string,
+  userId: string,
+  data: {
+    content: string;
+    answers?: any;
+    timeSpent?: number;
+  }
+): Promise<WritingSubmission> {
+  return await fetchWithRetry<WritingSubmission>(
+    `${BASE_URL}/writing/${promptId}/submit`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId, ...data }),
+    }
+  );
+}
+
+/**
+ * Get user's submissions for a prompt
+ */
+export async function getWritingSubmissions(
+  promptId: string,
+  userId: string
+): Promise<WritingSubmission[]> {
+  return await fetchWithRetry<WritingSubmission[]>(
+    `${BASE_URL}/writing/${promptId}/submissions?userId=${userId}`
+  );
+}
+
+// ----------------------------------------------------------------------------
+// Draft Functions
+// ----------------------------------------------------------------------------
+
+/**
+ * Save writing draft
+ */
+export async function saveWritingDraft(
+  promptId: string,
+  userId: string,
+  content: string
+): Promise<WritingProgress> {
+  return await fetchWithRetry<WritingProgress>(
+    `${BASE_URL}/writing/${promptId}/draft`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId, content }),
+    }
+  );
+}
+
+/**
+ * Get writing draft
+ */
+export async function getWritingDraft(
+  promptId: string,
+  userId: string
+): Promise<{ content: string | null }> {
+  return await fetchWithRetry<{ content: string | null }>(
+    `${BASE_URL}/writing/${promptId}/draft?userId=${userId}`
+  );
+}
+
+// ----------------------------------------------------------------------------
+// User Progress Functions
+// ----------------------------------------------------------------------------
+
+/**
+ * Get user's writing history
+ */
+export async function getUserWritingHistory(
+  userId: string,
+  status?: 'not_started' | 'in_progress' | 'completed' | 'mastered'
+): Promise<Array<WritingProgress & { prompt: WritingPrompt }>> {
+  const params = status ? `?status=${status}` : '';
+  return await fetchWithRetry<Array<WritingProgress & { prompt: WritingPrompt }>>(
+    `${BASE_URL}/writing/user/${userId}/history${params}`
+  );
+}
+
+/**
+ * Get user's writing statistics
+ */
+export async function getUserWritingStats(userId: string): Promise<UserWritingStats> {
+  return await fetchWithRetry<UserWritingStats>(
+    `${BASE_URL}/writing/user/${userId}/stats`
+  );
+}
+
+/**
+ * Seed sample writing prompts (development only)
+ */
+export async function seedWritingPrompts(): Promise<{ count: number }> {
+  return await fetchWithRetry<{ count: number }>(
+    `${BASE_URL}/writing/seed`,
+    { method: 'POST' }
+  );
+}
+
+// ============================================================================
+// LEARNING HUB API
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+// Hub Types
+// ----------------------------------------------------------------------------
+
+export interface SkillProgress {
+  skill: string;
+  level: string;
+  progress: number;
+  itemsLearned: number;
+  itemsTotal: number;
+  lastPracticed: string | null;
+  streak: number;
+}
+
+export interface DailyGoal {
+  type: 'vocabulary' | 'reading' | 'listening' | 'speaking' | 'writing';
+  target: number;
+  completed: number;
+  unit: string;
+}
+
+export interface Achievement {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  unlockedAt: string;
+}
+
+export interface RecommendedActivity {
+  type: string;
+  title: string;
+  reason: string;
+  link: string;
+}
+
+export interface HubData {
+  userId: string;
+  overallLevel: string;
+  totalXP: number;
+  currentStreak: number;
+  longestStreak: number;
+  skillProgress: SkillProgress[];
+  dailyGoals: DailyGoal[];
+  recentAchievements: Achievement[];
+  recommendedActivity: RecommendedActivity;
+}
+
+// ----------------------------------------------------------------------------
+// Hub Functions
+// ----------------------------------------------------------------------------
+
+/**
+ * Get comprehensive hub data for a user
+ */
+export async function getHubData(userId: string): Promise<HubData> {
+  return await fetchWithRetry<HubData>(`${BASE_URL}/hub/${userId}`);
+}
+
+/**
+ * Get skill progress for a user
+ */
+export async function getSkillProgress(userId: string): Promise<SkillProgress[]> {
+  return await fetchWithRetry<SkillProgress[]>(`${BASE_URL}/hub/${userId}/skills`);
+}
+
+/**
+ * Get daily goals with progress
+ */
+export async function getDailyGoals(userId: string): Promise<DailyGoal[]> {
+  return await fetchWithRetry<DailyGoal[]>(`${BASE_URL}/hub/${userId}/daily-goals`);
+}
+
+/**
+ * Get recommended next activity
+ */
+export async function getRecommendation(userId: string): Promise<RecommendedActivity> {
+  return await fetchWithRetry<RecommendedActivity>(`${BASE_URL}/hub/${userId}/recommendation`);
+}
+
