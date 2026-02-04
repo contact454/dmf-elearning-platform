@@ -39,6 +39,10 @@ import {
   StreakFlame,
   PulseIndicator,
   ThemeToggle,
+  StaggeredList,
+  StaggeredItem,
+  AnimateOnScroll,
+  LiftCard,
 } from '@/components/ui';
 
 // ═══════════════════════════════════════════════════════════════
@@ -202,7 +206,6 @@ const skillConfig = {
 export default function LearningHubPage() {
   const [data, setData] = useState<HubData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [selectedSkill, setSelectedSkill] = useState<string | null>(null);
   const [useMockData, setUseMockData] = useState(false);
 
   const DEMO_USER_ID = 'user-demo';
@@ -342,40 +345,44 @@ export default function LearningHubPage() {
         )}
 
         {/* Stats Overview */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"
-        >
-          <StatsCard
-            icon={<Star className="w-5 h-5" />}
-            label="Level"
-            value={data.overallLevel}
-            color="purple"
-          />
-          <StatsCard
-            icon={<Zap className="w-5 h-5" />}
-            label="Total XP"
-            value={<CountUp end={data.totalXP} />}
-            color="amber"
-          />
-          <div className="p-4 rounded-xl bg-orange-50 text-orange-700">
-            <div className="flex items-center gap-2 mb-1">
-              <Flame className="w-5 h-5" />
-              <span className="text-xs font-medium opacity-80">Current Streak</span>
+        <StaggeredList className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+          <StaggeredItem>
+            <StatsCard
+              icon={<Star className="w-5 h-5" />}
+              label="Level"
+              value={data.overallLevel}
+              color="purple"
+            />
+          </StaggeredItem>
+          <StaggeredItem>
+            <StatsCard
+              icon={<Zap className="w-5 h-5" />}
+              label="Total XP"
+              value={<CountUp end={data.totalXP} />}
+              color="amber"
+            />
+          </StaggeredItem>
+          <StaggeredItem>
+            <div className="p-4 rounded-xl bg-orange-50 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300">
+              <div className="flex items-center gap-2 mb-1">
+                <Flame className="w-5 h-5" />
+                <span className="text-xs font-medium opacity-80">Current Streak</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <StreakFlame streak={data.currentStreak} size="sm" />
+                <span className="text-2xl font-bold">{data.currentStreak} days</span>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
-              <StreakFlame streak={data.currentStreak} size="sm" />
-              <span className="text-2xl font-bold">{data.currentStreak} days</span>
-            </div>
-          </div>
-          <StatsCard
-            icon={<Trophy className="w-5 h-5" />}
-            label="Best Streak"
-            value={`${data.longestStreak} days`}
-            color="blue"
-          />
-        </motion.div>
+          </StaggeredItem>
+          <StaggeredItem>
+            <StatsCard
+              icon={<Trophy className="w-5 h-5" />}
+              label="Best Streak"
+              value={`${data.longestStreak} days`}
+              color="blue"
+            />
+          </StaggeredItem>
+        </StaggeredList>
 
         {/* Daily Progress */}
         <motion.section
@@ -468,33 +475,23 @@ export default function LearningHubPage() {
         </motion.section>
 
         {/* Skills Grid */}
-        <motion.section
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-        >
+        <AnimateOnScroll variant="fadeUp" delay={0.2}>
           <div className="flex items-center gap-2 mb-4">
             <BarChart3 className="w-5 h-5 text-gray-600" />
-            <h2 className="text-lg font-semibold text-gray-900">Your Skills</h2>
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Your Skills</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {data.skillProgress.map((skill, index) => {
+          <StaggeredList className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" staggerDelay={0.08}>
+            {data.skillProgress.map((skill) => {
               const config = skillConfig[skill.skill as keyof typeof skillConfig];
               const Icon = config.icon;
 
               return (
-                <motion.div
-                  key={skill.skill}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.4 + index * 0.1 }}
-                >
+                <StaggeredItem key={skill.skill}>
                   <Link href={config.link}>
-                    <div
-                      className="bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all cursor-pointer group"
-                      onMouseEnter={() => setSelectedSkill(skill.skill)}
-                      onMouseLeave={() => setSelectedSkill(null)}
+                    <LiftCard
+                      className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-700 overflow-hidden group"
+                      liftAmount={6}
                     >
                       {/* Header */}
                       <div className={`h-24 bg-gradient-to-br ${config.gradient} p-4 flex items-end`}>
@@ -517,7 +514,7 @@ export default function LearningHubPage() {
                             Level {skill.level}
                           </span>
                           {skill.streak > 0 && (
-                            <span className="flex items-center gap-1 text-xs text-orange-600">
+                            <span className="flex items-center gap-1 text-xs text-orange-600 dark:text-orange-400">
                               <Flame className="w-3 h-3" />
                               {skill.streak} day streak
                             </span>
@@ -527,19 +524,21 @@ export default function LearningHubPage() {
                         {/* Progress */}
                         <div className="mb-3">
                           <div className="flex justify-between text-sm mb-1">
-                            <span className="text-gray-600">Progress</span>
-                            <span className="font-medium text-gray-900">{skill.progress}%</span>
+                            <span className="text-gray-600 dark:text-gray-400">Progress</span>
+                            <span className="font-medium text-gray-900 dark:text-white">{skill.progress}%</span>
                           </div>
-                          <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-                            <div
+                          <div className="h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                            <motion.div
+                              initial={{ width: 0 }}
+                              animate={{ width: `${skill.progress}%` }}
+                              transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
                               className={`h-full bg-gradient-to-r ${config.gradient} rounded-full`}
-                              style={{ width: `${skill.progress}%` }}
                             />
                           </div>
                         </div>
 
                         {/* Stats */}
-                        <div className="flex items-center justify-between text-sm text-gray-600">
+                        <div className="flex items-center justify-between text-sm text-gray-600 dark:text-gray-400">
                           <span>{skill.itemsLearned}/{skill.itemsTotal} items</span>
                           <span className="flex items-center gap-1">
                             <Clock className="w-3 h-3" />
@@ -550,50 +549,44 @@ export default function LearningHubPage() {
                         </div>
 
                         {/* CTA */}
-                        <div className="mt-4 pt-3 border-t border-gray-100">
+                        <div className="mt-4 pt-3 border-t border-gray-100 dark:border-gray-700">
                           <div className="flex items-center justify-between">
-                            <span className="text-sm text-gray-500">{config.description}</span>
+                            <span className="text-sm text-gray-500 dark:text-gray-400">{config.description}</span>
                             <ChevronRight className={`w-5 h-5 ${config.textColor} group-hover:translate-x-1 transition-transform`} />
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </LiftCard>
                   </Link>
-                </motion.div>
+                </StaggeredItem>
               );
             })}
-          </div>
-        </motion.section>
+          </StaggeredList>
+        </AnimateOnScroll>
 
         {/* Recent Achievements */}
         {data.recentAchievements.length > 0 && (
-          <motion.section
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="mt-8"
-          >
+          <AnimateOnScroll variant="fadeUp" delay={0.3} className="mt-8">
             <div className="flex items-center gap-2 mb-4">
               <Award className="w-5 h-5 text-amber-500" />
-              <h2 className="text-lg font-semibold text-gray-900">Recent Achievements</h2>
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Recent Achievements</h2>
             </div>
 
-            <div className="flex gap-4 overflow-x-auto pb-2">
+            <StaggeredList className="flex gap-4 overflow-x-auto pb-2 scrollbar-hide" staggerDelay={0.1}>
               {data.recentAchievements.map((achievement) => (
-                <div
-                  key={achievement.id}
-                  className="flex-shrink-0 bg-white rounded-xl border border-gray-200 p-4 min-w-[200px]"
-                >
-                  <div className="text-3xl mb-2">{achievement.icon}</div>
-                  <h4 className="font-semibold text-gray-900">{achievement.name}</h4>
-                  <p className="text-sm text-gray-600">{achievement.description}</p>
-                  <p className="text-xs text-gray-400 mt-2">
-                    {new Date(achievement.unlockedAt).toLocaleDateString()}
-                  </p>
-                </div>
+                <StaggeredItem key={achievement.id} className="flex-shrink-0">
+                  <LiftCard className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-700 p-4 min-w-[200px]">
+                    <div className="text-3xl mb-2">{achievement.icon}</div>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">{achievement.name}</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">{achievement.description}</p>
+                    <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">
+                      {new Date(achievement.unlockedAt).toLocaleDateString()}
+                    </p>
+                  </LiftCard>
+                </StaggeredItem>
               ))}
-            </div>
-          </motion.section>
+            </StaggeredList>
+          </AnimateOnScroll>
         )}
       </main>
     </div>
