@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
   ArrowLeft,
-  Loader2,
   Headphones,
   Clock,
   Target,
@@ -25,6 +24,7 @@ import {
   ListeningStats,
   GermanApiError,
 } from '@/services/german-api';
+import { SkeletonCard, SkeletonStats, CountUp, useToast } from '@/components/ui';
 
 // Temporary user ID
 const TEMP_USER_ID = 'demo-user-001';
@@ -36,6 +36,7 @@ export default function ListeningLabPage() {
   const [levels, setLevels] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const toast = useToast();
 
   // Filters
   const [selectedLevel, setSelectedLevel] = useState<string>('');
@@ -55,11 +56,14 @@ export default function ListeningLabPage() {
         setFeatured(featuredData);
         setStats(statsData);
         setLevels(levelsData);
+        toast.success('Listening Lab loaded!', `${contentData.items.length} audio exercises available`);
       } catch (err) {
         if (err instanceof GermanApiError) {
           setError(err.message);
+          toast.error('Connection Error', err.message);
         } else {
           setError('Failed to load content. Is the Learning Service running?');
+          toast.error('Error', 'Failed to load content');
         }
       } finally {
         setLoading(false);
@@ -92,11 +96,44 @@ export default function ListeningLabPage() {
 
   if (loading && content.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50 flex items-center justify-center">
-        <div className="text-center">
-          <Loader2 className="w-16 h-16 animate-spin text-indigo-500 mx-auto mb-4" />
-          <p className="text-lg font-medium text-gray-700">Loading Listening Lab...</p>
-        </div>
+      <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+        {/* Header */}
+        <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-40">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div className="flex items-center gap-4">
+              <Link href="/learn/hub" className="p-2 hover:bg-gray-100 rounded-lg transition cursor-pointer">
+                <ArrowLeft className="w-5 h-5 text-gray-600" />
+              </Link>
+              <div>
+                <h1 className="text-xl font-bold text-gray-900 flex items-center gap-2">
+                  <Headphones className="w-6 h-6 text-indigo-500" />
+                  Listening Lab
+                </h1>
+                <p className="text-sm text-gray-600">Dictation Practice - Train your ears</p>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {/* Stats Skeleton */}
+          <SkeletonStats className="mb-8" />
+
+          {/* Content Grid Skeleton */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[1, 2, 3, 4, 5, 6].map((i) => (
+              <SkeletonCard key={i} className="!p-0">
+                <div className="h-28 bg-gradient-to-br from-gray-200 to-gray-300 animate-pulse" />
+                <div className="p-4 space-y-3">
+                  <div className="h-4 bg-gray-200 rounded w-1/4 animate-pulse" />
+                  <div className="h-5 bg-gray-200 rounded w-3/4 animate-pulse" />
+                  <div className="h-4 bg-gray-200 rounded w-full animate-pulse" />
+                  <div className="h-3 bg-gray-200 rounded w-1/2 animate-pulse" />
+                </div>
+              </SkeletonCard>
+            ))}
+          </div>
+        </main>
       </div>
     );
   }
@@ -310,7 +347,7 @@ function StatCard({
         <span className="text-xs font-medium opacity-80">{label}</span>
       </div>
       <p className="text-2xl font-bold">
-        {value.toLocaleString()}
+        <CountUp end={value} />
         {suffix && <span className="text-sm ml-1">{suffix}</span>}
       </p>
     </div>

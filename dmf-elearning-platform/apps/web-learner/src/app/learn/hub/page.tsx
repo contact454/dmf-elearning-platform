@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
   BookOpen,
@@ -10,7 +10,6 @@ import {
   PenTool,
   Brain,
   Target,
-  TrendingUp,
   Clock,
   Calendar,
   Award,
@@ -23,7 +22,6 @@ import {
   BarChart3,
   ArrowRight,
   RefreshCw,
-  Loader2,
 } from 'lucide-react';
 import {
   getHubData,
@@ -31,54 +29,20 @@ import {
   SkillProgress,
   DailyGoal,
   Achievement,
-  GermanApiError,
 } from '@/services/german-api';
+import {
+  SkeletonCard,
+  SkeletonStats,
+  ProgressBar,
+  CircularProgress,
+  CountUp,
+  StreakFlame,
+  PulseIndicator,
+} from '@/components/ui';
 
 // ═══════════════════════════════════════════════════════════════
-// Types
+// Types (removed - using imported types from german-api)
 // ═══════════════════════════════════════════════════════════════
-
-interface SkillProgress {
-  skill: string;
-  level: string;
-  progress: number;
-  itemsLearned: number;
-  itemsTotal: number;
-  lastPracticed: string | null;
-  streak: number;
-}
-
-interface DailyGoal {
-  type: 'vocabulary' | 'reading' | 'listening' | 'speaking' | 'writing';
-  target: number;
-  completed: number;
-  unit: string;
-}
-
-interface Achievement {
-  id: string;
-  name: string;
-  description: string;
-  icon: string;
-  unlockedAt: string;
-}
-
-interface HubData {
-  userId: string;
-  overallLevel: string;
-  totalXP: number;
-  currentStreak: number;
-  longestStreak: number;
-  skillProgress: SkillProgress[];
-  dailyGoals: DailyGoal[];
-  recentAchievements: Achievement[];
-  recommendedActivity: {
-    type: string;
-    title: string;
-    reason: string;
-    link: string;
-  };
-}
 
 // ═══════════════════════════════════════════════════════════════
 // Mock Data (until backend integration)
@@ -265,11 +229,56 @@ export default function LearningHubPage() {
 
   if (loading || !data) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50/30 flex items-center justify-center">
-        <div className="text-center">
-          <Loader2 className="w-16 h-16 animate-spin text-indigo-500 mx-auto mb-4" />
-          <p className="text-lg font-medium text-gray-700">Loading Learning Hub...</p>
-        </div>
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50/30">
+        {/* Header Skeleton */}
+        <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-40">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <div className="p-2 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl">
+                  <Target className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h1 className="text-xl font-bold text-gray-900">Learning Hub</h1>
+                  <p className="text-sm text-gray-600">Your German learning journey</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {/* Stats Skeleton */}
+          <SkeletonStats className="mb-8" />
+
+          {/* Daily Progress Skeleton */}
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 mb-8">
+            <div className="flex items-center gap-2 mb-4">
+              <Calendar className="w-5 h-5 text-indigo-500" />
+              <h2 className="text-lg font-semibold text-gray-900">Today&apos;s Goals</h2>
+            </div>
+            <ProgressBar value={0} max={100} variant="gradient" className="mb-6" />
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              {[1, 2, 3, 4, 5].map((i) => (
+                <SkeletonCard key={i} className="!p-4" />
+              ))}
+            </div>
+          </div>
+
+          {/* Skills Grid Skeleton */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[1, 2, 3, 4, 5].map((i) => (
+              <SkeletonCard key={i} className="!p-0">
+                <div className="h-24 bg-gradient-to-br from-gray-200 to-gray-300 animate-pulse rounded-t-2xl" />
+                <div className="p-4 space-y-3">
+                  <div className="h-4 bg-gray-200 rounded w-1/3 animate-pulse" />
+                  <div className="h-2 bg-gray-200 rounded w-full animate-pulse" />
+                  <div className="h-4 bg-gray-200 rounded w-2/3 animate-pulse" />
+                </div>
+              </SkeletonCard>
+            ))}
+          </div>
+        </main>
       </div>
     );
   }
@@ -345,15 +354,19 @@ export default function LearningHubPage() {
           <StatsCard
             icon={<Zap className="w-5 h-5" />}
             label="Total XP"
-            value={data.totalXP.toLocaleString()}
+            value={<CountUp end={data.totalXP} />}
             color="amber"
           />
-          <StatsCard
-            icon={<Flame className="w-5 h-5" />}
-            label="Current Streak"
-            value={`${data.currentStreak} days`}
-            color="orange"
-          />
+          <div className="p-4 rounded-xl bg-orange-50 text-orange-700">
+            <div className="flex items-center gap-2 mb-1">
+              <Flame className="w-5 h-5" />
+              <span className="text-xs font-medium opacity-80">Current Streak</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <StreakFlame streak={data.currentStreak} size="sm" />
+              <span className="text-2xl font-bold">{data.currentStreak} days</span>
+            </div>
+          </div>
           <StatsCard
             icon={<Trophy className="w-5 h-5" />}
             label="Best Streak"
@@ -380,14 +393,13 @@ export default function LearningHubPage() {
           </div>
 
           {/* Progress Bar */}
-          <div className="h-3 bg-gray-100 rounded-full mb-6 overflow-hidden">
-            <motion.div
-              initial={{ width: 0 }}
-              animate={{ width: `${dailyProgressPercent}%` }}
-              transition={{ duration: 1, delay: 0.3 }}
-              className="h-full bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full"
-            />
-          </div>
+          <ProgressBar
+            value={dailyProgressPercent}
+            max={100}
+            variant="gradient"
+            size="md"
+            className="mb-6"
+          />
 
           {/* Daily Goals Grid */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
@@ -598,7 +610,7 @@ function StatsCard({
 }: {
   icon: React.ReactNode;
   label: string;
-  value: string;
+  value: React.ReactNode;
   color: string;
 }) {
   const colorClasses: Record<string, string> = {

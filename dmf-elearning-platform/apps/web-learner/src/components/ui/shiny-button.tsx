@@ -2,30 +2,34 @@
 
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
-import { ButtonHTMLAttributes } from 'react';
 
-interface ShinyButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface ShinyButtonProps {
   children: React.ReactNode;
   className?: string;
+  onClick?: () => void;
+  disabled?: boolean;
+  type?: 'button' | 'submit' | 'reset';
 }
 
-export function ShinyButton({ children, className, ...props }: ShinyButtonProps) {
+export function ShinyButton({ children, className, onClick, disabled, type = 'button' }: ShinyButtonProps) {
   return (
     <motion.button
       initial={{ scale: 0.95, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
+      whileHover={!disabled ? { scale: 1.05 } : undefined}
+      whileTap={!disabled ? { scale: 0.95 } : undefined}
       transition={{ duration: 0.2 }}
+      onClick={onClick}
+      disabled={disabled}
+      type={type}
       className={cn(
-        'relative inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-medium text-white',
+        'relative inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-medium text-white cursor-pointer',
         'bg-gradient-to-r from-purple-500 via-violet-500 to-indigo-500',
         'hover:from-purple-600 hover:via-violet-600 hover:to-indigo-600',
         'shadow-lg hover:shadow-xl transition-shadow duration-300',
         'overflow-hidden group disabled:opacity-50 disabled:cursor-not-allowed',
         className
       )}
-      {...props}
     >
       {/* Shiny overlay effect */}
       <motion.div
