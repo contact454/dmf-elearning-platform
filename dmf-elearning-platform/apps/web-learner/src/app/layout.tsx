@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Outfit, Inter, Space_Grotesk } from "next/font/google";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { ToastProvider } from "@/components/ui/toast";
+import { MobileBottomNav } from "@/components/ui/mobile-nav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -39,6 +40,17 @@ export const metadata: Metadata = {
   keywords: ["học tiếng đức", "german learning", "flashcard", "quiz", "A1", "A2", "B1", "B2", "goethe"],
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#EEF2FF" },
+    { media: "(prefers-color-scheme: dark)", color: "#0F0D1A" },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -46,15 +58,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi" className="scroll-smooth" suppressHydrationWarning>
-      <head>
-        <meta name="theme-color" content="#EEF2FF" />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
       >
         <ThemeProvider>
           <ToastProvider>
             {children}
+            <MobileBottomNav />
           </ToastProvider>
         </ThemeProvider>
       </body>

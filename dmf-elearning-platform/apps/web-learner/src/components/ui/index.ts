@@ -22,6 +22,24 @@ export { ProgressBar, CircularProgress, StepProgress } from './progress';
 export { ThemeProvider, useTheme } from './theme-provider';
 export { ThemeToggle } from './theme-toggle';
 
+// Mobile/Responsive components
+export { MobileBottomNav, TouchTarget, MobileIconButton } from './mobile-nav';
+export {
+  MobileFilterDrawer,
+  MobileFilterTrigger,
+  FilterChipGroup,
+  ResponsiveSearch,
+} from './mobile-filter';
+export {
+  ResponsiveContainer,
+  ResponsiveGrid,
+  PageWrapper,
+  StickyHeader,
+  TouchCard,
+  HorizontalScroll,
+  ScrollItem,
+} from './responsive';
+
 // Micro-interactions
 export {
   RippleButton,
