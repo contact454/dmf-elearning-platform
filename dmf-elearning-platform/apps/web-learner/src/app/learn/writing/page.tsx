@@ -5,39 +5,42 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
   ArrowLeft,
-  Mic,
+  PenTool,
   Clock,
   Target,
   TrendingUp,
   Sparkles,
   Filter,
   Search,
-  Volume2,
+  FileText,
   Trophy,
+  BookOpen,
+  CheckSquare,
+  RefreshCw,
+  Loader2,
 } from 'lucide-react';
 import {
-  getSpeakingPrompts,
-  getFeaturedSpeaking,
-  getSpeakingStats,
-  getSpeakingLevels,
-  getSpeakingCategories,
-  SpeakingPrompt,
-  SpeakingStats,
+  getWritingPrompts,
+  getFeaturedWriting,
+  getWritingStats,
+  getWritingLevels,
+  getWritingCategories,
+  seedWritingPrompts,
+  WritingPrompt,
+  WritingStats,
   GermanApiError,
 } from '@/services/german-api';
 import { SkeletonCard, SkeletonStats, CountUp, useToast, ThemeToggle } from '@/components/ui';
 
-// Temporary user ID
-const TEMP_USER_ID = 'demo-user-001';
-
-export default function SpeakingStudioPage() {
-  const [prompts, setPrompts] = useState<SpeakingPrompt[]>([]);
-  const [featured, setFeatured] = useState<SpeakingPrompt[]>([]);
-  const [stats, setStats] = useState<SpeakingStats | null>(null);
+export default function WritingWorkshopPage() {
+  const [prompts, setPrompts] = useState<WritingPrompt[]>([]);
+  const [featured, setFeatured] = useState<WritingPrompt[]>([]);
+  const [stats, setStats] = useState<WritingStats | null>(null);
   const [levels, setLevels] = useState<string[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [seeding, setSeeding] = useState(false);
   const toast = useToast();
 
   // Filters
@@ -45,42 +48,86 @@ export default function SpeakingStudioPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>('');
   const [searchQuery, setSearchQuery] = useState('');
 
-  useEffect(() => {
-    async function loadData() {
-      try {
-        setLoading(true);
-        const [promptsData, featuredData, statsData, levelsData, categoriesData] = await Promise.all([
-          getSpeakingPrompts({ limit: 20 }),
-          getFeaturedSpeaking(5),
-          getSpeakingStats(),
-          getSpeakingLevels(),
-          getSpeakingCategories(),
-        ]);
-        setPrompts(promptsData.items);
-        setFeatured(featuredData);
-        setStats(statsData);
-        setLevels(levelsData);
-        setCategories(categoriesData);
-        toast.success('Speaking Studio loaded!', `${promptsData.items.length} speaking prompts available`);
-      } catch (err) {
-        if (err instanceof GermanApiError) {
-          setError(err.message);
-          toast.error('Connection Error', err.message);
-        } else {
-          setError('Failed to load content. Is the Learning Service running?');
-          toast.error('Error', 'Failed to load content');
-        }
-      } finally {
-        setLoading(false);
+  const loadData = useCallback(async () => {
+    try {
+      setLoading(true);
+      setError(null);
+
+      // Use Promise.allSettled to handle partial failures gracefully
+      const results = await Promise.allSettled([
+        getWritingPrompts({ limit: 20 }),
+        getFeaturedWriting(5),
+        getWritingStats(),
+        getWritingLevels(),
+        getWritingCategories(),
+      ]);
+
+      // Process results, using defaults for failed requests
+      const [promptsResult, featuredResult, statsResult, levelsResult, categoriesResult] = results;
+
+      if (promptsResult.status === 'fulfilled') {
+        setPrompts(promptsResult.value.items);
+      } else {
+        console.error('Failed to load prompts:', promptsResult.reason);
       }
+
+      if (featuredResult.status === 'fulfilled') {
+        setFeatured(featuredResult.value);
+      } else {
+        console.error('Failed to load featured:', featuredResult.reason);
+      }
+
+      if (statsResult.status === 'fulfilled') {
+        setStats(statsResult.value);
+      } else {
+        console.error('Failed to load stats:', statsResult.reason);
+      }
+
+      if (levelsResult.status === 'fulfilled') {
+        setLevels(levelsResult.value);
+      } else {
+        console.error('Failed to load levels:', levelsResult.reason);
+      }
+
+      if (categoriesResult.status === 'fulfilled') {
+        setCategories(categoriesResult.value);
+      } else {
+        console.error('Failed to load categories:', categoriesResult.reason);
+      }
+
+      // Only show error if all critical requests failed
+      const allFailed = results.every(r => r.status === 'rejected');
+      if (allFailed) {
+        setError('Failed to load content. Is the Learning Service running on port 3003?');
+        toast.error('Connection Error', 'Failed to load writing prompts');
+      } else {
+        const promptCount = promptsResult.status === 'fulfilled' ? promptsResult.value.items.length : 0;
+        if (promptCount > 0) {
+          toast.success('Writing Workshop loaded!', `${promptCount} writing prompts available`);
+        }
+      }
+    } catch (err) {
+      console.error('Unexpected error in loadData:', err);
+      if (err instanceof GermanApiError) {
+        setError(err.message);
+        toast.error('Connection Error', err.message);
+      } else {
+        setError('Failed to load content. Is the Learning Service running?');
+        toast.error('Error', 'Failed to load content');
+      }
+    } finally {
+      setLoading(false);
     }
-    loadData();
   }, []);
+
+  useEffect(() => {
+    loadData();
+  }, [loadData]);
 
   const handleFilter = useCallback(async () => {
     try {
       setLoading(true);
-      const data = await getSpeakingPrompts({
+      const data = await getWritingPrompts({
         level: selectedLevel || undefined,
         category: selectedCategory || undefined,
         search: searchQuery || undefined,
@@ -100,9 +147,21 @@ export default function SpeakingStudioPage() {
     }
   }, [selectedLevel, selectedCategory, handleFilter]);
 
+  const handleSeedPrompts = async () => {
+    try {
+      setSeeding(true);
+      await seedWritingPrompts();
+      await loadData();
+    } catch (err) {
+      console.error('Seed error:', err);
+    } finally {
+      setSeeding(false);
+    }
+  };
+
   if (loading && prompts.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-rose-50 via-white to-orange-50">
+      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-orange-50">
         {/* Header */}
         <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-40">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -112,10 +171,10 @@ export default function SpeakingStudioPage() {
               </Link>
               <div>
                 <h1 className="text-xl font-bold text-gray-900 flex items-center gap-2">
-                  <Mic className="w-6 h-6 text-rose-500" />
-                  Speaking Studio
+                  <PenTool className="w-6 h-6 text-amber-500" />
+                  Writing Workshop
                 </h1>
-                <p className="text-sm text-gray-600">Practice pronunciation and speaking</p>
+                <p className="text-sm text-gray-600">Practice German writing with AI feedback</p>
               </div>
             </div>
           </div>
@@ -146,23 +205,34 @@ export default function SpeakingStudioPage() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-rose-50 via-white to-orange-50 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-orange-50 flex items-center justify-center p-4">
         <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8 max-w-md text-center">
           <h2 className="text-xl font-bold text-red-800 mb-2">Connection Error</h2>
           <p className="text-red-600 mb-4">{error}</p>
-          <Link
-            href="/dashboard"
-            className="inline-block px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition"
-          >
-            Back to Dashboard
-          </Link>
+          <div className="flex gap-3 justify-center">
+            <button
+              onClick={() => {
+                setError(null);
+                loadData();
+              }}
+              className="px-6 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition"
+            >
+              Try Again
+            </button>
+            <Link
+              href="/dashboard"
+              className="inline-block px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition"
+            >
+              Back to Dashboard
+            </Link>
+          </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-white to-orange-50">
+    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-orange-50">
       {/* Header */}
       <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -173,13 +243,39 @@ export default function SpeakingStudioPage() {
               </Link>
               <div>
                 <h1 className="text-xl font-bold text-gray-900 flex items-center gap-2">
-                  <Mic className="w-6 h-6 text-rose-500" />
-                  Speaking Studio
+                  <PenTool className="w-6 h-6 text-amber-500" />
+                  Writing Workshop
                 </h1>
-                <p className="text-sm text-gray-600">Practice pronunciation and speaking</p>
+                <p className="text-sm text-gray-600">Practice German writing with AI feedback</p>
               </div>
             </div>
-            <ThemeToggle />
+            <div className="flex items-center gap-2">
+              <ThemeToggle />
+              <button
+                onClick={() => loadData()}
+                disabled={loading}
+                className="p-2 hover:bg-gray-100 rounded-lg transition disabled:opacity-50 cursor-pointer"
+                title="Refresh data"
+              >
+                <RefreshCw className={`w-5 h-5 text-gray-600 ${loading ? 'animate-spin' : ''}`} />
+              </button>
+              {prompts.length === 0 && (
+                <button
+                  onClick={handleSeedPrompts}
+                  disabled={seeding}
+                  className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition disabled:opacity-50 cursor-pointer"
+                >
+                  {seeding ? (
+                    <span className="flex items-center gap-2">
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                      Seeding...
+                    </span>
+                  ) : (
+                    'Add Sample Prompts'
+                  )}
+                </button>
+              )}
+            </div>
           </div>
         </div>
       </header>
@@ -193,10 +289,10 @@ export default function SpeakingStudioPage() {
             className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"
           >
             <StatCard
-              icon={<Mic className="w-5 h-5" />}
+              icon={<PenTool className="w-5 h-5" />}
               label="Total Prompts"
               value={stats.totalPrompts}
-              color="rose"
+              color="amber"
             />
             <StatCard
               icon={<Target className="w-5 h-5" />}
@@ -212,8 +308,8 @@ export default function SpeakingStudioPage() {
             />
             <StatCard
               icon={<Trophy className="w-5 h-5" />}
-              label="Practice Minutes"
-              value={stats.totalPrompts * 2}
+              label="Writing Minutes"
+              value={stats.totalPrompts * 5}
               color="orange"
             />
           </motion.div>
@@ -258,7 +354,7 @@ export default function SpeakingStudioPage() {
                 onClick={() => setSelectedLevel('')}
                 className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
                   selectedLevel === ''
-                    ? 'bg-rose-500 text-white'
+                    ? 'bg-amber-500 text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -270,7 +366,7 @@ export default function SpeakingStudioPage() {
                   onClick={() => setSelectedLevel(level)}
                   className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
                     selectedLevel === level
-                      ? 'bg-rose-500 text-white'
+                      ? 'bg-amber-500 text-white'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
                 >
@@ -283,12 +379,12 @@ export default function SpeakingStudioPage() {
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-3 py-1.5 rounded-lg text-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-rose-500"
+              className="px-3 py-1.5 rounded-lg text-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500"
             >
               <option value="">All Categories</option>
               {categories.map((cat) => (
                 <option key={cat} value={cat}>
-                  {cat.charAt(0).toUpperCase() + cat.slice(1)}
+                  {getCategoryLabel(cat)}
                 </option>
               ))}
             </select>
@@ -303,7 +399,7 @@ export default function SpeakingStudioPage() {
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onKeyDown={(e) => e.key === 'Enter' && handleFilter()}
-                  className="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent"
+                  className="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"
                 />
               </div>
             </div>
@@ -319,9 +415,13 @@ export default function SpeakingStudioPage() {
           <h2 className="text-lg font-semibold text-gray-900 mb-4">All Prompts</h2>
           {prompts.length === 0 ? (
             <div className="text-center py-12 bg-white rounded-xl border border-gray-200">
-              <Mic className="w-12 h-12 text-gray-400 mx-auto mb-4" />
+              <PenTool className="w-12 h-12 text-gray-400 mx-auto mb-4" />
               <h3 className="text-lg font-medium text-gray-900 mb-2">No prompts found</h3>
-              <p className="text-gray-600">Try adjusting your filters or check back later.</p>
+              <p className="text-gray-600 mb-4">
+                {stats?.totalPrompts === 0
+                  ? 'Click "Add Sample Prompts" to get started.'
+                  : 'Try adjusting your filters or check back later.'}
+              </p>
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -334,6 +434,21 @@ export default function SpeakingStudioPage() {
       </main>
     </div>
   );
+}
+
+// ═══════════════════════════════════════════════════════════════
+// Helper Functions
+// ═══════════════════════════════════════════════════════════════
+
+function getCategoryLabel(category: string): string {
+  const labels: Record<string, string> = {
+    free_writing: 'Free Writing',
+    fill_blank: 'Fill in the Blank',
+    sentence_construction: 'Sentence Building',
+    correction: 'Error Correction',
+    essay: 'Essay',
+  };
+  return labels[category] || category.charAt(0).toUpperCase() + category.slice(1);
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -352,7 +467,7 @@ function StatCard({
   color: string;
 }) {
   const colorClasses: Record<string, string> = {
-    rose: 'bg-rose-50 text-rose-700',
+    amber: 'bg-amber-50 text-amber-700',
     blue: 'bg-blue-50 text-blue-700',
     purple: 'bg-purple-50 text-purple-700',
     orange: 'bg-orange-50 text-orange-700',
@@ -375,19 +490,22 @@ function PromptCard({
   prompt,
   featured = false,
 }: {
-  prompt: SpeakingPrompt;
+  prompt: WritingPrompt;
   featured?: boolean;
 }) {
   const categoryIcons: Record<string, string> = {
-    general: '💬',
-    conversation: '🗣️',
-    roleplay: '🎭',
-    pronunciation: '🔤',
-    reading: '📖',
+    free_writing: '✍️',
+    fill_blank: '📝',
+    sentence_construction: '🔤',
+    correction: '✏️',
+    essay: '📄',
   };
 
+  const CategoryIcon = prompt.category === 'fill_blank' ? CheckSquare :
+                       prompt.category === 'essay' ? BookOpen : FileText;
+
   return (
-    <Link href={`/learn/speaking/${prompt.id}`}>
+    <Link href={`/learn/writing/${prompt.id}`}>
       <motion.div
         whileHover={{ scale: 1.02 }}
         className={`bg-white rounded-xl border overflow-hidden cursor-pointer transition-shadow hover:shadow-lg ${
@@ -408,18 +526,18 @@ function PromptCard({
               : 'from-pink-400 to-rose-500'
           } flex items-center justify-center`}
         >
-          <span className="text-4xl">{categoryIcons[prompt.category] || '🎤'}</span>
+          <span className="text-4xl">{categoryIcons[prompt.category] || '✍️'}</span>
         </div>
 
         {/* Content */}
         <div className="p-4">
           {/* Badges */}
-          <div className="flex items-center gap-2 mb-2">
-            <span className="px-2 py-0.5 bg-rose-100 text-rose-700 text-xs font-medium rounded-full">
+          <div className="flex items-center gap-2 mb-2 flex-wrap">
+            <span className="px-2 py-0.5 bg-amber-100 text-amber-700 text-xs font-medium rounded-full">
               {prompt.level}
             </span>
-            <span className="px-2 py-0.5 bg-gray-100 text-gray-700 text-xs font-medium rounded-full capitalize">
-              {prompt.category}
+            <span className="px-2 py-0.5 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
+              {getCategoryLabel(prompt.category)}
             </span>
             {featured && (
               <span className="px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs font-medium rounded-full">
@@ -439,12 +557,12 @@ function PromptCard({
             <div className="flex items-center gap-3">
               <span className="flex items-center gap-1">
                 <Clock className="w-3 h-3" />
-                ~{prompt.estimatedTime}s
+                ~{Math.round(prompt.estimatedTime / 60)}min
               </span>
-              {prompt.targetWords.length > 0 && (
+              {prompt.minWords > 0 && (
                 <span className="flex items-center gap-1">
-                  <Volume2 className="w-3 h-3" />
-                  {prompt.targetWords.length} focus words
+                  <FileText className="w-3 h-3" />
+                  {prompt.minWords}+ words
                 </span>
               )}
             </div>
@@ -459,6 +577,22 @@ function PromptCard({
               ))}
             </div>
           </div>
+
+          {/* Grammar Focus */}
+          {prompt.grammarPoints.length > 0 && (
+            <div className="mt-3 pt-3 border-t border-gray-100">
+              <div className="flex flex-wrap gap-1">
+                {prompt.grammarPoints.slice(0, 3).map((point) => (
+                  <span
+                    key={point}
+                    className="px-2 py-0.5 bg-blue-50 text-blue-600 text-xs rounded"
+                  >
+                    {point}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </motion.div>
     </Link>

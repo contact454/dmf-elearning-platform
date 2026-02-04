@@ -38,6 +38,7 @@ import {
   CountUp,
   StreakFlame,
   PulseIndicator,
+  ThemeToggle,
 } from '@/components/ui';
 
 // ═══════════════════════════════════════════════════════════════
@@ -303,10 +304,11 @@ export default function LearningHubPage() {
               </div>
             </div>
             <div className="flex items-center gap-4">
+              <ThemeToggle />
               <button
                 onClick={loadData}
                 disabled={loading}
-                className="p-2 hover:bg-gray-100 rounded-lg transition"
+                className="p-2 hover:bg-gray-100 rounded-lg transition cursor-pointer"
               >
                 <RefreshCw className={`w-5 h-5 text-gray-600 ${loading ? 'animate-spin' : ''}`} />
               </button>

@@ -22,7 +22,7 @@ import {
   ReadingStats,
   GermanApiError,
 } from '@/services/german-api';
-import { SkeletonCard, SkeletonStats, CountUp, useToast } from '@/components/ui';
+import { SkeletonCard, SkeletonStats, CountUp, useToast, ThemeToggle } from '@/components/ui';
 
 // Temporary user ID
 const TEMP_USER_ID = 'demo-user-001';
@@ -160,7 +160,7 @@ export default function SmartLibraryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <Link href="/dashboard" className="p-2 hover:bg-gray-100 rounded-lg transition">
+              <Link href="/learn/hub" className="p-2 hover:bg-gray-100 rounded-lg transition cursor-pointer">
                 <ArrowLeft className="w-5 h-5 text-gray-600" />
               </Link>
               <div>
@@ -171,6 +171,7 @@ export default function SmartLibraryPage() {
                 <p className="text-sm text-gray-600">i+1 Reading - Learn at your level</p>
               </div>
             </div>
+            <ThemeToggle />
           </div>
         </div>
       </header>

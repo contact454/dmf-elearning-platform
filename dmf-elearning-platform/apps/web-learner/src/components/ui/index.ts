@@ -18,6 +18,10 @@ export { ToastProvider, useToast } from './toast';
 // Progress indicators
 export { ProgressBar, CircularProgress, StepProgress } from './progress';
 
+// Theme system
+export { ThemeProvider, useTheme } from './theme-provider';
+export { ThemeToggle } from './theme-toggle';
+
 // Micro-interactions
 export {
   RippleButton,
