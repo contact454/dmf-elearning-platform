@@ -23,11 +23,18 @@ model Vocabulary {
   phoneticIpa String?  // IPA pronunciation
   familyWords String[] // Related words from same root
   grammarTags String[] // Grammar categories
+  source      String?  // Source of the word (e.g., kaikki.org)
+  addedAt     DateTime? // Original import timestamp
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
   // Relations
   progress    UserVocabularyProgress[]
+
+  // Indexes for performance
+  @@index([level])
+  @@index([pos])
+  @@index([word, level])
 }
 
 model UserVocabularyProgress {
@@ -360,6 +367,145 @@ model UserSpeakingProgress {
 
   createdAt       DateTime       @default(now())
   updatedAt       DateTime       @updatedAt
+
+  @@unique([userId, promptId])
+  @@index([userId, status])
+}
+
+// ═══════════════════════════════════════════════════════════════
+// WRITING WORKSHOP - Writing Practice Models
+// ═══════════════════════════════════════════════════════════════
+
+model WritingPrompt {
+  id              String   @id @default(uuid())
+  title           String
+  description     String?
+  level           String   // A1, A2, B1, B2, C1, C2
+  topic           String?
+  category        String   @default("free_writing") // free_writing, fill_blank, sentence_construction, correction, essay
+
+  // Prompt Content
+  promptText      String   // The writing task/question in German
+  promptTextVi    String?  // Vietnamese translation
+  instructions    String?  // Detailed instructions
+  instructionsVi  String?  // Vietnamese instructions
+
+  // For structured exercises
+  templateText    String?  // Template with blanks for fill_blank type
+  correctAnswers  Json?    // Array of acceptable answers for structured exercises
+  hints           String[] // Hints for the user
+  keywords        String[] // Required keywords to include
+  wordLimit       Int?     // Maximum word count (null = unlimited)
+  minWords        Int      @default(0)  // Minimum word count
+
+  // Sample Response
+  sampleResponse  String?  // Example correct response
+  sampleResponseVi String? // Vietnamese translation of sample
+
+  // Grammar Focus
+  grammarPoints   String[] // Grammar points to practice (e.g., "Akkusativ", "Perfekt")
+  vocabularyFocus String[] // Target vocabulary words
+
+  // Difficulty & Metadata
+  difficulty      Int      @default(1)      // 1-5
+  estimatedTime   Int      @default(300)    // Seconds to complete (default 5 min)
+  tags            String[]
+
+  // Status
+  isPublished     Boolean  @default(true)
+  isFeatured      Boolean  @default(false)
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  submissions     WritingSubmission[]
+  progress        UserWritingProgress[]
+
+  @@index([level])
+  @@index([category])
+  @@index([topic])
+}
+
+model WritingSubmission {
+  id              String        @id @default(uuid())
+  promptId        String
+  prompt          WritingPrompt @relation(fields: [promptId], references: [id])
+  userId          String
+
+  // User Submission
+  content         String        // User's written text
+  wordCount       Int           @default(0)
+
+  // For fill_blank exercises
+  answers         Json?         // Array of answers for structured exercises
+
+  // AI Feedback
+  overallScore    Float         @default(0)    // 0-100
+  grammarScore    Float         @default(0)    // 0-100
+  vocabularyScore Float         @default(0)    // 0-100
+  coherenceScore  Float         @default(0)    // 0-100
+  taskScore       Float         @default(0)    // 0-100 (task completion)
+
+  // Detailed Feedback
+  feedback        String?       // Overall AI feedback
+  feedbackVi      String?       // Vietnamese translation
+  corrections     Json?         // Array of {original, corrected, explanation, explanationVi, type}
+  suggestions     Json?         // Array of {suggestion, suggestionVi, category}
+  grammarErrors   Json?         // Array of {text, error, rule, correction}
+
+  // Keyword & Requirements Check
+  keywordsUsed    String[]      // Which required keywords were used
+  keywordsMissing String[]      // Which required keywords were missing
+  requirementsMet Json?         // Checklist of requirements met
+
+  // Timing
+  timeSpent       Int           @default(0)    // Seconds spent writing
+  submissionNum   Int           @default(1)    // Which submission attempt
+
+  // Status
+  status          String        @default("submitted") // submitted, reviewed, revised
+
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@index([userId, promptId])
+  @@index([userId, createdAt])
+  @@index([status])
+}
+
+model UserWritingProgress {
+  id              String        @id @default(uuid())
+  userId          String
+  promptId        String
+  prompt          WritingPrompt @relation(fields: [promptId], references: [id])
+
+  // Progress Tracking
+  status          String        @default("not_started") // not_started, in_progress, completed, mastered
+  submissionCount Int           @default(0)
+  bestScore       Float         @default(0)
+  lastScore       Float         @default(0)
+
+  // Performance Metrics
+  avgGrammarScore    Float      @default(0)
+  avgVocabularyScore Float      @default(0)
+  avgCoherenceScore  Float      @default(0)
+  avgTaskScore       Float      @default(0)
+
+  // Improvement Tracking
+  totalWordsWritten  Int        @default(0)
+  totalTimeSpent     Int        @default(0)
+
+  // Draft (auto-save)
+  draftContent    String?       // Current draft being worked on
+  draftUpdatedAt  DateTime?
+
+  // Timestamps
+  firstSubmissionAt DateTime?
+  lastSubmissionAt  DateTime?
+
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
 
   @@unique([userId, promptId])
   @@index([userId, status])

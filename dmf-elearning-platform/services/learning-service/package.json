@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/index.ts",
+    "dev": "nodemon --exec 'ts-node --transpile-only' src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,7 @@
     "prisma:migrate": "prisma migrate dev --schema=./prisma/schema.prisma",
     "prisma:studio": "prisma studio --schema=./prisma/schema.prisma",
     "seed": "tsx prisma/seed-vocab.ts",
+    "seed:vocabulary": "tsx prisma/seed-vocabulary.ts",
     "repair-vocab": "tsx scripts/repair-vocab.ts",
     "data:mine": "node scripts/mining-drill.mjs",
     "data:seed": "npx tsx prisma/seed-vocab.ts",
