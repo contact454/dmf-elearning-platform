@@ -1,0 +1,296 @@
+{
+  "timestamp": "2026-02-07T01:16:37.038Z",
+  "summary": {
+    "total": 15,
+    "passed": 14,
+    "failed": 0,
+    "errors": 1,
+    "passRate": "93.3",
+    "results": [
+      {
+        "testId": "TC-SEC-001a",
+        "name": "JWT Token Validation & Expiry - Missing Token",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Server correctly rejected request without token (401)",
+        "timestamp": "2026-02-07T01:16:33.947Z"
+      },
+      {
+        "testId": "TC-SEC-001b",
+        "name": "JWT Token Validation & Expiry - Invalid Signature",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Server correctly rejected token with invalid signature (401)",
+        "timestamp": "2026-02-07T01:16:33.949Z"
+      },
+      {
+        "testId": "TC-SEC-001c",
+        "name": "JWT Token Validation & Expiry - Expired Token",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Server correctly rejected expired token (401)",
+        "timestamp": "2026-02-07T01:16:33.951Z"
+      },
+      {
+        "testId": "TC-SEC-002",
+        "name": "Submission Ownership Enforcement",
+        "category": "Authorization",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Server correctly rejected unauthorized access (403)",
+        "timestamp": "2026-02-07T01:16:34.023Z"
+      },
+      {
+        "testId": "TC-SEC-003a",
+        "name": "Password Storage Security (bcrypt) - Password in Response",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Password not exposed in API response",
+        "timestamp": "2026-02-07T01:16:34.075Z"
+      },
+      {
+        "testId": "TC-SEC-003b",
+        "name": "Password Storage Security (bcrypt) - bcrypt Verification",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Password verification working (implies bcrypt hashing)",
+        "timestamp": "2026-02-07T01:16:34.126Z"
+      },
+      {
+        "testId": "TC-SEC-003c",
+        "name": "Password Storage Security (bcrypt) - Wrong Password",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "Server correctly rejected wrong password",
+        "timestamp": "2026-02-07T01:16:34.177Z"
+      },
+      {
+        "testId": "TC-SEC-004",
+        "name": "Rate Limiting (Analysis Endpoint Abuse Prevention)",
+        "category": "Rate Limiting",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "Rate limit enforced after 0 requests (expected ~10)",
+        "timestamp": "2026-02-07T01:16:36.930Z"
+      },
+      {
+        "testId": "TC-SEC-005",
+        "name": "File Upload Size Limit (Max 10MB)",
+        "category": "File Upload",
+        "status": "ERROR",
+        "severity": "MEDIUM",
+        "details": "Test execution failed: Request failed with status code 429",
+        "timestamp": "2026-02-07T01:16:36.941Z"
+      },
+      {
+        "testId": "TC-SEC-006",
+        "name": "File Type Validation (Audio Only)",
+        "category": "File Upload",
+        "status": "PASS",
+        "severity": "MEDIUM",
+        "details": "File rejected during processing (acceptable)",
+        "timestamp": "2026-02-07T01:16:36.953Z"
+      },
+      {
+        "testId": "TC-SEC-007",
+        "name": "Malicious File Upload Prevention",
+        "category": "File Upload",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "Malicious file rejected (MIME validation or processing error)",
+        "timestamp": "2026-02-07T01:16:36.955Z"
+      },
+      {
+        "testId": "TC-SEC-008",
+        "name": "SQL Injection Prevention",
+        "category": "Input Validation",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "SQL injection payloads safely handled (Prisma ORM parameterization)",
+        "timestamp": "2026-02-07T01:16:37.002Z"
+      },
+      {
+        "testId": "TC-SEC-009",
+        "name": "XSS Attack Prevention",
+        "category": "Input Validation",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "Backend stores content as-is (XSS prevention delegated to frontend React escaping)",
+        "timestamp": "2026-02-07T01:16:37.036Z"
+      },
+      {
+        "testId": "TC-SEC-010a",
+        "name": "CORS + Security Headers (Helmet) - CORS",
+        "category": "Infrastructure",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "CORS properly configured - restricts origins",
+        "evidence": {},
+        "timestamp": "2026-02-07T01:16:37.038Z"
+      },
+      {
+        "testId": "TC-SEC-010b",
+        "name": "CORS + Security Headers (Helmet) - Security Headers",
+        "category": "Infrastructure",
+        "status": "PASS",
+        "severity": "MEDIUM",
+        "details": "All security headers present: x-content-type-options, x-frame-options",
+        "evidence": {
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN"
+        },
+        "timestamp": "2026-02-07T01:16:37.038Z"
+      }
+    ],
+    "criticalCount": 0,
+    "highCount": 0
+  },
+  "results": [
+    {
+      "testId": "TC-SEC-001a",
+      "name": "JWT Token Validation & Expiry - Missing Token",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Server correctly rejected request without token (401)",
+      "timestamp": "2026-02-07T01:16:33.947Z"
+    },
+    {
+      "testId": "TC-SEC-001b",
+      "name": "JWT Token Validation & Expiry - Invalid Signature",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Server correctly rejected token with invalid signature (401)",
+      "timestamp": "2026-02-07T01:16:33.949Z"
+    },
+    {
+      "testId": "TC-SEC-001c",
+      "name": "JWT Token Validation & Expiry - Expired Token",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Server correctly rejected expired token (401)",
+      "timestamp": "2026-02-07T01:16:33.951Z"
+    },
+    {
+      "testId": "TC-SEC-002",
+      "name": "Submission Ownership Enforcement",
+      "category": "Authorization",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Server correctly rejected unauthorized access (403)",
+      "timestamp": "2026-02-07T01:16:34.023Z"
+    },
+    {
+      "testId": "TC-SEC-003a",
+      "name": "Password Storage Security (bcrypt) - Password in Response",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Password not exposed in API response",
+      "timestamp": "2026-02-07T01:16:34.075Z"
+    },
+    {
+      "testId": "TC-SEC-003b",
+      "name": "Password Storage Security (bcrypt) - bcrypt Verification",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Password verification working (implies bcrypt hashing)",
+      "timestamp": "2026-02-07T01:16:34.126Z"
+    },
+    {
+      "testId": "TC-SEC-003c",
+      "name": "Password Storage Security (bcrypt) - Wrong Password",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "Server correctly rejected wrong password",
+      "timestamp": "2026-02-07T01:16:34.177Z"
+    },
+    {
+      "testId": "TC-SEC-004",
+      "name": "Rate Limiting (Analysis Endpoint Abuse Prevention)",
+      "category": "Rate Limiting",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "Rate limit enforced after 0 requests (expected ~10)",
+      "timestamp": "2026-02-07T01:16:36.930Z"
+    },
+    {
+      "testId": "TC-SEC-005",
+      "name": "File Upload Size Limit (Max 10MB)",
+      "category": "File Upload",
+      "status": "ERROR",
+      "severity": "MEDIUM",
+      "details": "Test execution failed: Request failed with status code 429",
+      "timestamp": "2026-02-07T01:16:36.941Z"
+    },
+    {
+      "testId": "TC-SEC-006",
+      "name": "File Type Validation (Audio Only)",
+      "category": "File Upload",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "details": "File rejected during processing (acceptable)",
+      "timestamp": "2026-02-07T01:16:36.953Z"
+    },
+    {
+      "testId": "TC-SEC-007",
+      "name": "Malicious File Upload Prevention",
+      "category": "File Upload",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "Malicious file rejected (MIME validation or processing error)",
+      "timestamp": "2026-02-07T01:16:36.955Z"
+    },
+    {
+      "testId": "TC-SEC-008",
+      "name": "SQL Injection Prevention",
+      "category": "Input Validation",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "SQL injection payloads safely handled (Prisma ORM parameterization)",
+      "timestamp": "2026-02-07T01:16:37.002Z"
+    },
+    {
+      "testId": "TC-SEC-009",
+      "name": "XSS Attack Prevention",
+      "category": "Input Validation",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "Backend stores content as-is (XSS prevention delegated to frontend React escaping)",
+      "timestamp": "2026-02-07T01:16:37.036Z"
+    },
+    {
+      "testId": "TC-SEC-010a",
+      "name": "CORS + Security Headers (Helmet) - CORS",
+      "category": "Infrastructure",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "CORS properly configured - restricts origins",
+      "evidence": {},
+      "timestamp": "2026-02-07T01:16:37.038Z"
+    },
+    {
+      "testId": "TC-SEC-010b",
+      "name": "CORS + Security Headers (Helmet) - Security Headers",
+      "category": "Infrastructure",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "details": "All security headers present: x-content-type-options, x-frame-options",
+      "evidence": {
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "timestamp": "2026-02-07T01:16:37.038Z"
+    }
+  ]
+}

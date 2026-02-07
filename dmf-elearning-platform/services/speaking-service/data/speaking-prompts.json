@@ -1,0 +1,592 @@
+{
+  "prompts": [
+    {
+      "cefrLevel": "A1",
+      "topic": "daily_conversation",
+      "title": "Introduce Yourself",
+      "description": "Tell us about yourself in simple sentences",
+      "questionText": "Please introduce yourself. What is your name? Where are you from? What do you do?",
+      "preparationTimeSeconds": 20,
+      "speakingTimeSeconds": 45,
+      "difficultyLevel": 1,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.3,
+          "description": "Clear pronunciation of basic words and simple sentences"
+        },
+        "fluency": {
+          "weight": 0.2,
+          "description": "Ability to speak with minimal pauses in simple responses"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Use of basic everyday vocabulary appropriately"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Simple present tense and basic sentence structures"
+        }
+      }
+    },
+    {
+      "cefrLevel": "A1",
+      "topic": "daily_conversation",
+      "title": "Your Daily Routine",
+      "description": "Describe what you do every day",
+      "questionText": "What do you do every day? Tell me about your typical morning or evening routine.",
+      "preparationTimeSeconds": 25,
+      "speakingTimeSeconds": 50,
+      "difficultyLevel": 1,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.3,
+          "description": "Clear pronunciation of daily activity verbs"
+        },
+        "fluency": {
+          "weight": 0.2,
+          "description": "Sequential description with simple connectors"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Basic verbs related to daily activities"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Simple present tense for habitual actions"
+        }
+      }
+    },
+    {
+      "cefrLevel": "A1",
+      "topic": "descriptions",
+      "title": "Describe Your Family",
+      "description": "Talk about your family members",
+      "questionText": "Tell me about your family. Who are the members of your family? What do they do?",
+      "preparationTimeSeconds": 25,
+      "speakingTimeSeconds": 50,
+      "difficultyLevel": 1,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.3,
+          "description": "Clear pronunciation of family-related vocabulary"
+        },
+        "fluency": {
+          "weight": 0.2,
+          "description": "Simple descriptions with basic linking"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Family member names and basic occupations"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Subject-verb agreement in simple sentences"
+        }
+      }
+    },
+    {
+      "cefrLevel": "A1",
+      "topic": "daily_conversation",
+      "title": "Your Favorite Food",
+      "description": "Talk about what you like to eat",
+      "questionText": "What is your favorite food? Why do you like it? When do you eat it?",
+      "preparationTimeSeconds": 20,
+      "speakingTimeSeconds": 45,
+      "difficultyLevel": 1,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.3,
+          "description": "Clear pronunciation of food-related words"
+        },
+        "fluency": {
+          "weight": 0.2,
+          "description": "Simple expression of preferences"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Basic food vocabulary and simple adjectives"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Simple present for preferences (I like, I eat)"
+        }
+      }
+    },
+    {
+      "cefrLevel": "A2",
+      "topic": "daily_conversation",
+      "title": "Weekend Activities",
+      "description": "Describe what you do on weekends",
+      "questionText": "What do you usually do on weekends? Describe your last weekend activities.",
+      "preparationTimeSeconds": 30,
+      "speakingTimeSeconds": 60,
+      "difficultyLevel": 2,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.28,
+          "description": "Clear pronunciation with expanding vocabulary"
+        },
+        "fluency": {
+          "weight": 0.22,
+          "description": "Coherent description of past and habitual activities"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Leisure and activity vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Mix of simple present and past tense"
+        }
+      }
+    },
+    {
+      "cefrLevel": "A2",
+      "topic": "descriptions",
+      "title": "Your Home or Neighborhood",
+      "description": "Describe where you live",
+      "questionText": "Describe your home or neighborhood. What do you like about it? What facilities are nearby?",
+      "preparationTimeSeconds": 30,
+      "speakingTimeSeconds": 60,
+      "difficultyLevel": 2,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.28,
+          "description": "Clear pronunciation of descriptive vocabulary"
+        },
+        "fluency": {
+          "weight": 0.22,
+          "description": "Organized spatial description"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Location and facility vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "There is/are, prepositions of place"
+        }
+      }
+    },
+    {
+      "cefrLevel": "A2",
+      "topic": "storytelling",
+      "title": "A Memorable Day",
+      "description": "Tell a story about a special day",
+      "questionText": "Tell me about a memorable day in your life. What happened? Why was it special?",
+      "preparationTimeSeconds": 35,
+      "speakingTimeSeconds": 70,
+      "difficultyLevel": 2,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Clear pronunciation in narrative context"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Narrative flow with time sequencing"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Past tense verbs and time expressions"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Past simple tense for storytelling"
+        }
+      }
+    },
+    {
+      "cefrLevel": "A2",
+      "topic": "opinions",
+      "title": "Your Hobbies",
+      "description": "Talk about activities you enjoy",
+      "questionText": "What are your hobbies? How often do you do them? Why do you enjoy them?",
+      "preparationTimeSeconds": 30,
+      "speakingTimeSeconds": 60,
+      "difficultyLevel": 2,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.28,
+          "description": "Clear pronunciation of hobby-related vocabulary"
+        },
+        "fluency": {
+          "weight": 0.22,
+          "description": "Expressing preferences and frequency"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Hobby and frequency vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Frequency adverbs and expressing likes"
+        }
+      }
+    },
+    {
+      "cefrLevel": "A2",
+      "topic": "daily_conversation",
+      "title": "Shopping Experience",
+      "description": "Describe a recent shopping trip",
+      "questionText": "Tell me about the last time you went shopping. What did you buy? Where did you go?",
+      "preparationTimeSeconds": 30,
+      "speakingTimeSeconds": 60,
+      "difficultyLevel": 2,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.28,
+          "description": "Clear pronunciation of shopping vocabulary"
+        },
+        "fluency": {
+          "weight": 0.22,
+          "description": "Narrative description of shopping experience"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Shopping and transaction vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Past simple for completed actions"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B1",
+      "topic": "opinions",
+      "title": "Technology in Daily Life",
+      "description": "Discuss how technology affects your life",
+      "questionText": "How does technology affect your daily life? What are the advantages and disadvantages?",
+      "preparationTimeSeconds": 40,
+      "speakingTimeSeconds": 90,
+      "difficultyLevel": 3,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Clear articulation of technology-related terms"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Sustained speech with opinion expression"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Technology vocabulary and opinion markers"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Complex sentences with connectors (because, although, however)"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B1",
+      "topic": "storytelling",
+      "title": "A Travel Experience",
+      "description": "Describe a trip you took",
+      "questionText": "Tell me about a trip you took. Where did you go? What did you do? What was your favorite part?",
+      "preparationTimeSeconds": 40,
+      "speakingTimeSeconds": 90,
+      "difficultyLevel": 3,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Natural pronunciation in extended narrative"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Coherent storytelling with detailed descriptions"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Travel vocabulary and descriptive language"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Past tenses (simple and continuous) and sequence markers"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B1",
+      "topic": "opinions",
+      "title": "Healthy Lifestyle",
+      "description": "Express your views on staying healthy",
+      "questionText": "What does it mean to live a healthy lifestyle? What do you do to stay healthy? What advice would you give others?",
+      "preparationTimeSeconds": 40,
+      "speakingTimeSeconds": 90,
+      "difficultyLevel": 3,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Clear pronunciation in opinion-giving context"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Expressing opinions and giving advice smoothly"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Health and lifestyle vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Modal verbs (should, could, might) and conditionals"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B1",
+      "topic": "descriptions",
+      "title": "Your Dream Job",
+      "description": "Describe your ideal career",
+      "questionText": "What is your dream job? What qualities and skills are needed? Why does it interest you?",
+      "preparationTimeSeconds": 40,
+      "speakingTimeSeconds": 90,
+      "difficultyLevel": 3,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Clear pronunciation of career-related vocabulary"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Extended description with reasoning"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Professional and skill-related vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Would/could for hypotheticals, present perfect"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B1",
+      "topic": "opinions",
+      "title": "Social Media Impact",
+      "description": "Discuss the effects of social media",
+      "questionText": "How has social media changed the way people communicate? What are the positive and negative effects?",
+      "preparationTimeSeconds": 45,
+      "speakingTimeSeconds": 90,
+      "difficultyLevel": 3,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Natural pronunciation in discussion context"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Balanced discussion with examples"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Social media and communication vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Present perfect, comparatives, and complex sentences"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B1",
+      "topic": "storytelling",
+      "title": "An Important Decision",
+      "description": "Share a significant choice you made",
+      "questionText": "Tell me about an important decision you had to make. What was the situation? What did you decide? How did it turn out?",
+      "preparationTimeSeconds": 45,
+      "speakingTimeSeconds": 90,
+      "difficultyLevel": 3,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Clear articulation in reflective narrative"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Coherent narrative with cause and effect"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Decision-making and outcome vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Past tenses, conditionals, and result clauses"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B2",
+      "topic": "opinions",
+      "title": "Environmental Challenges",
+      "description": "Discuss environmental issues and solutions",
+      "questionText": "What are the most pressing environmental challenges today? What can individuals and governments do to address them?",
+      "preparationTimeSeconds": 50,
+      "speakingTimeSeconds": 120,
+      "difficultyLevel": 4,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Natural pronunciation of complex vocabulary"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Extended discourse with well-organized arguments"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Environmental and policy vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Passive voice, conditionals, and complex structures"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B2",
+      "topic": "descriptions",
+      "title": "Cultural Differences",
+      "description": "Compare cultures and customs",
+      "questionText": "Compare your culture with another culture you know about. What are the main differences in customs, values, or social norms?",
+      "preparationTimeSeconds": 50,
+      "speakingTimeSeconds": 120,
+      "difficultyLevel": 4,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Clear pronunciation in comparative discussion"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Sustained comparison with detailed examples"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Cultural and comparative vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Comparative structures and cultural present tense"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B2",
+      "topic": "opinions",
+      "title": "The Future of Work",
+      "description": "Predict changes in employment",
+      "questionText": "How do you think the nature of work will change in the next 20 years? What skills will be most important? How should education adapt?",
+      "preparationTimeSeconds": 50,
+      "speakingTimeSeconds": 120,
+      "difficultyLevel": 4,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Natural pronunciation in speculative discourse"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Extended prediction with supporting reasoning"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Future trends and education vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Future forms, conditionals, and modal verbs for speculation"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B2",
+      "topic": "storytelling",
+      "title": "A Learning Experience",
+      "description": "Reflect on something that taught you a lesson",
+      "questionText": "Describe a challenging experience that taught you an important lesson. What happened? What did you learn? How has it influenced you since?",
+      "preparationTimeSeconds": 50,
+      "speakingTimeSeconds": 120,
+      "difficultyLevel": 4,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Natural pronunciation in reflective narrative"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Coherent narrative with reflection and analysis"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Reflective and analytical vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Past perfect, present perfect, and result clauses"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B2",
+      "topic": "opinions",
+      "title": "Education System Reform",
+      "description": "Critique and propose improvements to education",
+      "questionText": "What do you think are the strengths and weaknesses of modern education systems? What changes would you recommend?",
+      "preparationTimeSeconds": 50,
+      "speakingTimeSeconds": 120,
+      "difficultyLevel": 4,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Clear articulation of educational terminology"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Well-structured critique with recommendations"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Educational and reform vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Conditionals, passive voice, and evaluative language"
+        }
+      }
+    },
+    {
+      "cefrLevel": "B2",
+      "topic": "descriptions",
+      "title": "Personal Achievement",
+      "description": "Describe something you're proud of accomplishing",
+      "questionText": "Tell me about an achievement you're particularly proud of. What did you do? What obstacles did you overcome? What made it meaningful?",
+      "preparationTimeSeconds": 50,
+      "speakingTimeSeconds": 120,
+      "difficultyLevel": 4,
+      "evaluationCriteria": {
+        "pronunciation": {
+          "weight": 0.25,
+          "description": "Natural pronunciation in personal narrative"
+        },
+        "fluency": {
+          "weight": 0.25,
+          "description": "Detailed account with emotional expression"
+        },
+        "vocabulary": {
+          "weight": 0.25,
+          "description": "Achievement and challenge vocabulary"
+        },
+        "grammar": {
+          "weight": 0.25,
+          "description": "Mixed past tenses and participial phrases"
+        }
+      }
+    }
+  ]
+}

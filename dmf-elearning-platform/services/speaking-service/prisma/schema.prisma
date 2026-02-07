@@ -1,0 +1,127 @@
+// Speaking Module - Prisma Schema
+// Database: PostgreSQL
+// ORM: Prisma
+// Version: 1.0
+// Last Updated: 2026-02-07
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// USER MANAGEMENT
+// ============================================
+model User {
+  id           String   @id @default(uuid()) @db.Uuid
+  email        String   @unique @db.VarChar(255)
+  passwordHash String   @map("password_hash") @db.VarChar(255)
+  name         String?  @db.VarChar(255)
+  tier         String   @default("free") @db.VarChar(20) // free, premium, classroom
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt    DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  submissions SpeakingSubmission[]
+
+  @@index([email])
+  @@map("users")
+}
+
+// ============================================
+// SPEAKING PROMPTS
+// ============================================
+model SpeakingPrompt {
+  id                      String   @id @default(uuid()) @db.Uuid
+  cefrLevel               String   @map("cefr_level") @db.VarChar(2) // A1, A2, B1, B2, C1, C2
+  topic                   String   @db.VarChar(100) // daily_conversation, opinions, descriptions, storytelling
+  title                   String   @db.VarChar(255)
+  description             String   @db.Text
+  questionText            String   @map("question_text") @db.Text
+  preparationTimeSeconds  Int      @default(30) @map("preparation_time_seconds")
+  speakingTimeSeconds     Int      @default(60) @map("speaking_time_seconds")
+  difficultyLevel         Int      @default(1) @map("difficulty_level") // 1-5 scale
+  
+  // Evaluation criteria stored as JSONB
+  // Structure: { pronunciation: { weight: 0.25, description: "..." }, fluency: {...}, vocabulary: {...}, grammar: {...} }
+  evaluationCriteria      Json     @map("evaluation_criteria")
+  
+  createdAt               DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt               DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  submissions SpeakingSubmission[]
+
+  @@index([cefrLevel], name: "idx_speaking_prompts_cefr")
+  @@index([topic], name: "idx_speaking_prompts_topic")
+  @@index([difficultyLevel], name: "idx_speaking_prompts_difficulty")
+  @@index([cefrLevel, topic], name: "idx_speaking_prompts_cefr_topic")
+  @@map("speaking_prompts")
+}
+
+// ============================================
+// SPEAKING SUBMISSIONS
+// ============================================
+model SpeakingSubmission {
+  id                  String    @id @default(uuid()) @db.Uuid
+  userId              String    @map("user_id") @db.Uuid
+  promptId            String    @map("prompt_id") @db.Uuid
+  audioUrl            String    @map("audio_url") @db.VarChar(500)
+  transcriptText      String?   @map("transcript_text") @db.Text
+  durationSeconds     Decimal   @default(0) @map("duration_seconds") @db.Decimal(6, 2)
+  submittedAt         DateTime  @default(now()) @map("submitted_at") @db.Timestamptz(6)
+  
+  // Scores (0-100 scale)
+  overallScore        Decimal?  @map("overall_score") @db.Decimal(5, 2)
+  pronunciationScore  Decimal?  @map("pronunciation_score") @db.Decimal(5, 2)
+  fluencyScore        Decimal?  @map("fluency_score") @db.Decimal(5, 2)
+  vocabularyScore     Decimal?  @map("vocabulary_score") @db.Decimal(5, 2)
+  grammarScore        Decimal?  @map("grammar_score") @db.Decimal(5, 2)
+  
+  // AI feedback stored as JSONB
+  // Structure: { strengths: [...], weaknesses: [...], suggestions: [...], detailed_feedback: "..." }
+  aiFeedback          Json?     @map("ai_feedback")
+  
+  // Processing status
+  status              String    @default("pending") @db.VarChar(20) // pending, analyzing, analyzed, reviewed
+  
+  createdAt           DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt           DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  user                User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  prompt              SpeakingPrompt          @relation(fields: [promptId], references: [id], onDelete: Cascade)
+  pronunciationFeedback PronunciationFeedback[]
+
+  @@index([userId], name: "idx_speaking_submissions_user")
+  @@index([promptId], name: "idx_speaking_submissions_prompt")
+  @@index([status], name: "idx_speaking_submissions_status")
+  @@index([submittedAt(sort: Desc)], name: "idx_speaking_submissions_submitted")
+  @@index([userId, submittedAt(sort: Desc)], name: "idx_speaking_submissions_user_submitted")
+  @@map("speaking_submissions")
+}
+
+// ============================================
+// PRONUNCIATION FEEDBACK
+// ============================================
+model PronunciationFeedback {
+  id                      String   @id @default(uuid()) @db.Uuid
+  submissionId            String   @map("submission_id") @db.Uuid
+  word                    String   @db.VarChar(100)
+  phoneme                 String?  @db.VarChar(50) // IPA phoneme
+  expectedPronunciation   String?  @map("expected_pronunciation") @db.VarChar(100) // IPA representation
+  actualPronunciation     String?  @map("actual_pronunciation") @db.VarChar(100) // IPA representation
+  accuracyScore           Decimal  @map("accuracy_score") @db.Decimal(5, 2) // 0-100
+  feedbackText            String?  @map("feedback_text") @db.Text
+  timestampMs             Int?     @map("timestamp_ms") // Position in audio (milliseconds)
+  
+  createdAt               DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  submission SpeakingSubmission @relation(fields: [submissionId], references: [id], onDelete: Cascade)
+
+  @@index([submissionId], name: "idx_pronunciation_feedback_submission")
+  @@index([accuracyScore], name: "idx_pronunciation_feedback_accuracy")
+  @@index([word], name: "idx_pronunciation_feedback_word")
+  @@map("pronunciation_feedback")
+}
