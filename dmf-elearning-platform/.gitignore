@@ -53,3 +53,4 @@ next-env.d.ts
 # Docker data
 docker-data/
 services/learning-service/storage/raw-data/
+services/learning-service/storage/
