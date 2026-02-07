@@ -1,20 +1,24 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, BookOpen, Brain, Trophy, Users, Target } from 'lucide-react';
-
-const navLinks = [
-  { href: '/learn/hub', label: 'Learning Hub', icon: Target },
-  { href: '/learn/german', label: 'Khoá học', icon: BookOpen },
-  { href: '/practice/flashcard', label: 'Flashcards', icon: Brain },
-  { href: '/quiz', label: 'Luyện tập', icon: Trophy },
-  { href: '/dashboard/leaderboard', label: 'Cộng đồng', icon: Users },
-];
+import { LanguageSwitcher } from '@/components/ui/language-switcher';
 
 export function Navbar() {
+  const t = useTranslations('navigation');
+  const tCommon = useTranslations('common');
   const [isOpen, setIsOpen] = useState(false);
+
+  const navLinks = [
+    { href: '/learn/hub', label: t('learn'), icon: Target },
+    { href: '/learn/german', label: t('learn'), icon: BookOpen },
+    { href: '/practice/flashcard', label: t('practice'), icon: Brain },
+    { href: '/quiz', label: t('practice'), icon: Trophy },
+    { href: '/dashboard/leaderboard', label: t('leaderboard'), icon: Users },
+  ];
 
   return (
     <motion.nav
@@ -33,7 +37,7 @@ export function Navbar() {
               </div>
               <div className="hidden sm:block">
                 <span className="font-bold text-xl text-indigo-900 font-[family-name:var(--font-outfit)]">
-                  DMF German
+                  {tCommon('appName')}
                 </span>
               </div>
             </Link>
@@ -52,19 +56,20 @@ export function Navbar() {
               ))}
             </div>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons + Language Switcher */}
             <div className="hidden md:flex items-center gap-3">
+              <LanguageSwitcher />
               <Link
                 href="/auth/login"
                 className="px-4 py-2 text-indigo-600 hover:text-indigo-800 font-medium transition-colors duration-200"
               >
-                Đăng nhập
+                {tCommon('login')}
               </Link>
               <Link
                 href="/auth/login"
                 className="px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-xl hover:from-indigo-700 hover:to-purple-700 shadow-lg hover:shadow-indigo-500/30 transition-all duration-200 flex items-center gap-2"
               >
-                Bắt đầu
+                {tCommon('signup')}
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -103,19 +108,22 @@ export function Navbar() {
                     </Link>
                   ))}
                   <div className="pt-2 space-y-2">
+                    <div className="px-4">
+                      <LanguageSwitcher />
+                    </div>
                     <Link
                       href="/auth/login"
                       className="block w-full text-center px-4 py-3 text-indigo-600 border border-indigo-200 rounded-xl font-medium"
                       onClick={() => setIsOpen(false)}
                     >
-                      Đăng nhập
+                      {tCommon('login')}
                     </Link>
                     <Link
                       href="/auth/login"
                       className="block w-full text-center px-4 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl font-semibold"
                       onClick={() => setIsOpen(false)}
                     >
-                      Bắt đầu miễn phí
+                      {tCommon('signup')}
                     </Link>
                   </div>
                 </div>

@@ -68,5 +68,194 @@
     "meaning_vi": "Eat",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T05:10:16.389Z"
+  },
+  {
+    "word": "Mumm",
+    "pos": "noun",
+    "meaning_vi": "Dried fruit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:19:27.578Z"
+  },
+  {
+    "word": "reiftest",
+    "pos": "verb",
+    "meaning_vi": "Ready",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:48:18.603Z"
+  },
+  {
+    "word": "genährt",
+    "pos": "verb",
+    "meaning_vi": "Eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:06:38.680Z"
+  },
+  {
+    "word": "gesüßt",
+    "pos": "verb",
+    "meaning_vi": "sweeten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:57:05.549Z"
+  },
+  {
+    "word": "meckere",
+    "pos": "verb",
+    "meaning_vi": "to complain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:00:28.537Z"
+  },
+  {
+    "word": "schwelte",
+    "pos": "verb",
+    "meaning_vi": "to sweat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:52:56.203Z"
+  },
+  {
+    "word": "Käsebrots",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:53:03.495Z"
+  },
+  {
+    "word": "süßes",
+    "pos": "adj",
+    "meaning_vi": "Sweet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:32:37.285Z"
+  },
+  {
+    "word": "hungrigster",
+    "pos": "adj",
+    "meaning_vi": "Hungriest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:19:07.453Z"
+  },
+  {
+    "word": "Konsums",
+    "pos": "noun",
+    "meaning_vi": "Consumption",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:50:04.806Z"
+  },
+  {
+    "word": "bohrscher",
+    "pos": "adj",
+    "meaning_vi": "peanut",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:39:50.720Z"
+  },
+  {
+    "word": "bitterste",
+    "pos": "adj",
+    "meaning_vi": "hardest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:34:24.846Z"
+  },
+  {
+    "word": "dümmere",
+    "pos": "adj",
+    "meaning_vi": "Dull, stupid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:28:10.472Z"
+  },
+  {
+    "word": "feinen",
+    "pos": "adj",
+    "meaning_vi": "fine",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:33:29.476Z"
+  },
+  {
+    "word": "gesunden",
+    "pos": "adj",
+    "meaning_vi": "Healthy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T19:12:29.336Z"
+  },
+  {
+    "word": "leckerer",
+    "pos": "adj",
+    "meaning_vi": "Delicious",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:17:29.124Z"
+  },
+  {
+    "word": "verfeinerten",
+    "pos": "adj",
+    "meaning_vi": "Refine",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:25:39.867Z"
+  },
+  {
+    "word": "liest aus",
+    "pos": "verb",
+    "meaning_vi": "Eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:23:47.141Z"
+  },
+  {
+    "word": "Zetteln",
+    "pos": "noun",
+    "meaning_vi": "Noodles",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:19:34.320Z"
+  },
+  {
+    "word": "Beizen",
+    "pos": "noun",
+    "meaning_vi": "to dye, color",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:17:48.454Z"
+  },
+  {
+    "word": "ertrug",
+    "pos": "verb",
+    "meaning_vi": "to tolerate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:37:36.775Z"
+  },
+  {
+    "word": "ertrugt",
+    "pos": "verb",
+    "meaning_vi": "can eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:37:41.250Z"
+  },
+  {
+    "word": "essbare",
+    "pos": "adj",
+    "meaning_vi": "Eatable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:20:59.952Z"
+  },
+  {
+    "word": "essbarem",
+    "pos": "adj",
+    "meaning_vi": "Eatable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:21:04.677Z"
+  },
+  {
+    "word": "geräucherte",
+    "pos": "adj",
+    "meaning_vi": "Smoked",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:00:25.566Z"
+  },
+  {
+    "word": "müßigem",
+    "pos": "adj",
+    "meaning_vi": "Lazy, idle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:46:34.851Z"
+  },
+  {
+    "word": "schicker",
+    "pos": "adj",
+    "meaning_vi": "Delicate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:45:33.853Z"
   }
 ]

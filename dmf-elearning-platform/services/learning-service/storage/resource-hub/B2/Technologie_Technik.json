@@ -12,5 +12,103 @@
     "meaning_vi": "Geräte, das Energie erzeugt",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T06:09:58.606Z"
+  },
+  {
+    "word": "Assemblers",
+    "pos": "noun",
+    "meaning_vi": "Machwerker",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:39:10.070Z"
+  },
+  {
+    "word": "Dimmers",
+    "pos": "noun",
+    "meaning_vi": "Gerät zum Regeln der Lichtstärke",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:53:59.750Z"
+  },
+  {
+    "word": "Demonstrationskraftwerks",
+    "pos": "noun",
+    "meaning_vi": "Energiegewinnung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:37:46.108Z"
+  },
+  {
+    "word": "Strahltriebwerkes",
+    "pos": "noun",
+    "meaning_vi": "Raketenmotor",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:59:13.958Z"
+  },
+  {
+    "word": "Hochtemperaturreaktors",
+    "pos": "noun",
+    "meaning_vi": "Hochtemperaturreaktor",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:47:05.175Z"
+  },
+  {
+    "word": "Kernfusionsreaktors",
+    "pos": "noun",
+    "meaning_vi": "Kernfusion",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:52:56.199Z"
+  },
+  {
+    "word": "Vakuumverdampfers",
+    "pos": "noun",
+    "meaning_vi": "Vacuum drying",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:00:17.286Z"
+  },
+  {
+    "word": "Linearmotors",
+    "pos": "noun",
+    "meaning_vi": "Linearmotor",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:46:29.308Z"
+  },
+  {
+    "word": "Feststoffraketen",
+    "pos": "noun",
+    "meaning_vi": "Raketen, Feststoffrakete",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:50:25.425Z"
+  },
+  {
+    "word": "Hochvakuums",
+    "pos": "noun",
+    "meaning_vi": "Vacuum cleaner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:39:14.663Z"
+  },
+  {
+    "word": "Wirbelschichtreaktoren",
+    "pos": "noun",
+    "meaning_vi": "Stromerzeugungsanlage",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:43:32.281Z"
+  },
+  {
+    "word": "Excimerlaser",
+    "pos": "noun",
+    "meaning_vi": "Laserstrahlungsbildung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:06:24.065Z"
+  },
+  {
+    "word": "Kernreaktorunfalles",
+    "pos": "noun",
+    "meaning_vi": "Nuklearreaktorunfall",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:35:21.232Z"
+  },
+  {
+    "word": "telefonischem",
+    "pos": "adj",
+    "meaning_vi": "telefonisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:17:59.306Z"
   }
 ]

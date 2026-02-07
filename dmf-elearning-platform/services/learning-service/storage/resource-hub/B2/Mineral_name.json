@@ -47,5 +47,635 @@
     "meaning_vi": "Jaspis",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T02:31:53.065Z"
+  },
+  {
+    "word": "Manganerz",
+    "pos": "noun",
+    "meaning_vi": "Manganese ore",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:18:48.099Z"
+  },
+  {
+    "word": "Granites",
+    "pos": "noun",
+    "meaning_vi": "Granat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:42:08.643Z"
+  },
+  {
+    "word": "Saphirs",
+    "pos": "noun",
+    "meaning_vi": "Sapphire",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:14:54.846Z"
+  },
+  {
+    "word": "Amblygonite",
+    "pos": "noun",
+    "meaning_vi": "mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:26:29.657Z"
+  },
+  {
+    "word": "Graphite",
+    "pos": "noun",
+    "meaning_vi": "Kẽm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:40:00.438Z"
+  },
+  {
+    "word": "Lithiummineral",
+    "pos": "noun",
+    "meaning_vi": "Lithium mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:45:35.918Z"
+  },
+  {
+    "word": "Tetraborat",
+    "pos": "noun",
+    "meaning_vi": "Tetraborat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:46:09.200Z"
+  },
+  {
+    "word": "Lepidolithe",
+    "pos": "noun",
+    "meaning_vi": "Lepidolith",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:46:38.449Z"
+  },
+  {
+    "word": "Lithiumminerals",
+    "pos": "noun",
+    "meaning_vi": "Lithium minerals",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:48:01.690Z"
+  },
+  {
+    "word": "Berylliumerz",
+    "pos": "noun",
+    "meaning_vi": "Beryllium ore",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:05:08.505Z"
+  },
+  {
+    "word": "Chrysoberyll",
+    "pos": "noun",
+    "meaning_vi": "Chrysoberyll",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:06:10.363Z"
+  },
+  {
+    "word": "Bertrandite",
+    "pos": "noun",
+    "meaning_vi": "mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:07:47.190Z"
+  },
+  {
+    "word": "Chrysoberylls",
+    "pos": "noun",
+    "meaning_vi": "Chrysoberyll",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:09:01.396Z"
+  },
+  {
+    "word": "Gadolinite",
+    "pos": "noun",
+    "meaning_vi": "Gadolinite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:12:36.519Z"
+  },
+  {
+    "word": "Phenakite",
+    "pos": "noun",
+    "meaning_vi": "Mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:19:22.390Z"
+  },
+  {
+    "word": "Kalisalze",
+    "pos": "noun",
+    "meaning_vi": "Calcium sulfate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:45:00.111Z"
+  },
+  {
+    "word": "Carbonatgestein",
+    "pos": "noun",
+    "meaning_vi": "Carbonate rock",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:54:25.028Z"
+  },
+  {
+    "word": "Zinkspat",
+    "pos": "noun",
+    "meaning_vi": "Zinkspat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:15:14.084Z"
+  },
+  {
+    "word": "Zeolith",
+    "pos": "noun",
+    "meaning_vi": "Type of mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:43:51.538Z"
+  },
+  {
+    "word": "Zeolithen",
+    "pos": "noun",
+    "meaning_vi": "Rock mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:44:16.067Z"
+  },
+  {
+    "word": "Fluoritkristall",
+    "pos": "noun",
+    "meaning_vi": "Fluorite crystal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:38:20.799Z"
+  },
+  {
+    "word": "Fluorapatite",
+    "pos": "noun",
+    "meaning_vi": "Fluorapatite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:39:12.477Z"
+  },
+  {
+    "word": "Kryolith",
+    "pos": "noun",
+    "meaning_vi": "Calcium sulfate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:47:03.848Z"
+  },
+  {
+    "word": "Carnallit",
+    "pos": "noun",
+    "meaning_vi": "Calcium borate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:29:47.937Z"
+  },
+  {
+    "word": "Magnesiumminerals",
+    "pos": "noun",
+    "meaning_vi": "Magnesium minerals",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:45:57.424Z"
+  },
+  {
+    "word": "Moissanits",
+    "pos": "noun",
+    "meaning_vi": "a mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:39:52.790Z"
+  },
+  {
+    "word": "Phosphorit",
+    "pos": "noun",
+    "meaning_vi": "Phosphorit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:32:09.373Z"
+  },
+  {
+    "word": "Quarzsande",
+    "pos": "noun",
+    "meaning_vi": "Quarz",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:53:44.634Z"
+  },
+  {
+    "word": "Quarzsände",
+    "pos": "noun",
+    "meaning_vi": "Quarz sand",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:53:46.480Z"
+  },
+  {
+    "word": "Aragonit",
+    "pos": "noun",
+    "meaning_vi": "Aragonit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:39:36.155Z"
+  },
+  {
+    "word": "Calcit",
+    "pos": "noun",
+    "meaning_vi": "Calcit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:53:40.754Z"
+  },
+  {
+    "word": "Cyanotrichite",
+    "pos": "noun",
+    "meaning_vi": "Cyanotrichite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T05:03:28.054Z"
+  },
+  {
+    "word": "Evaporite",
+    "pos": "noun",
+    "meaning_vi": "Salt deposit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T05:24:36.129Z"
+  },
+  {
+    "word": "Leadhillite",
+    "pos": "noun",
+    "meaning_vi": "Lead carbonate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:09:35.521Z"
+  },
+  {
+    "word": "Berylls",
+    "pos": "noun",
+    "meaning_vi": "Mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:21:34.750Z"
+  },
+  {
+    "word": "Wolframite",
+    "pos": "noun",
+    "meaning_vi": "Wolframite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:25:28.553Z"
+  },
+  {
+    "word": "Ilmenit",
+    "pos": "noun",
+    "meaning_vi": "Ilmenit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:32:32.771Z"
+  },
+  {
+    "word": "Titancarbids",
+    "pos": "noun",
+    "meaning_vi": "Titan carbide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:37:59.744Z"
+  },
+  {
+    "word": "Descloizite",
+    "pos": "noun",
+    "meaning_vi": "Descloizite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:42:14.619Z"
+  },
+  {
+    "word": "Rhodochrosit",
+    "pos": "noun",
+    "meaning_vi": "Rhodochrosit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:50:00.469Z"
+  },
+  {
+    "word": "Rhodochrosits",
+    "pos": "noun",
+    "meaning_vi": "Rhodochrosit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:50:31.101Z"
+  },
+  {
+    "word": "Rhodonite",
+    "pos": "noun",
+    "meaning_vi": "Rhodonit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:50:32.636Z"
+  },
+  {
+    "word": "Limonite",
+    "pos": "noun",
+    "meaning_vi": "Iron ore",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:24:03.771Z"
+  },
+  {
+    "word": "Magneteisenerz",
+    "pos": "noun",
+    "meaning_vi": "Iron ore",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:25:44.366Z"
+  },
+  {
+    "word": "Melanterite",
+    "pos": "noun",
+    "meaning_vi": "Copper carbonate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:29:43.499Z"
+  },
+  {
+    "word": "Siderite",
+    "pos": "noun",
+    "meaning_vi": "Siderite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:37:17.313Z"
+  },
+  {
+    "word": "Wüstite",
+    "pos": "noun",
+    "meaning_vi": "Wüstite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:43:36.853Z"
+  },
+  {
+    "word": "Chalkopyrit",
+    "pos": "noun",
+    "meaning_vi": "Chalkopyrit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:47:32.511Z"
+  },
+  {
+    "word": "Chalkopyrits",
+    "pos": "noun",
+    "meaning_vi": "Chalkopyrits",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:48:37.490Z"
+  },
+  {
+    "word": "Cornwallite",
+    "pos": "noun",
+    "meaning_vi": "mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:48:42.215Z"
+  },
+  {
+    "word": "Kupfercarbonate",
+    "pos": "noun",
+    "meaning_vi": "Carbonate of copper",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:55:47.922Z"
+  },
+  {
+    "word": "Malachits",
+    "pos": "noun",
+    "meaning_vi": "Malachit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:57:39.815Z"
+  },
+  {
+    "word": "Hemimorphite",
+    "pos": "noun",
+    "meaning_vi": "Hemimorphite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:10:29.544Z"
+  },
+  {
+    "word": "Rammelsbergite",
+    "pos": "noun",
+    "meaning_vi": "Rammelsbergite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:15:02.269Z"
+  },
+  {
+    "word": "Sphalerits",
+    "pos": "noun",
+    "meaning_vi": "Sphalerit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:19:39.478Z"
+  },
+  {
+    "word": "Zinkminerals",
+    "pos": "noun",
+    "meaning_vi": "Zinkminerals",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:23:07.094Z"
+  },
+  {
+    "word": "Argyrodite",
+    "pos": "noun",
+    "meaning_vi": "Argyrodite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:58:10.960Z"
+  },
+  {
+    "word": "Freibergite",
+    "pos": "noun",
+    "meaning_vi": "German mineral name",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:58:57.811Z"
+  },
+  {
+    "word": "Arsenopyrit",
+    "pos": "noun",
+    "meaning_vi": "Arsenopyrit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:09:44.208Z"
+  },
+  {
+    "word": "Arsenminerale",
+    "pos": "noun",
+    "meaning_vi": "Arsenic minerals",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:10:39.097Z"
+  },
+  {
+    "word": "Arsenminerals",
+    "pos": "noun",
+    "meaning_vi": "Arsenic minerals",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:10:42.319Z"
+  },
+  {
+    "word": "Arsenopyrits",
+    "pos": "noun",
+    "meaning_vi": "Arsenopyrits",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:11:10.454Z"
+  },
+  {
+    "word": "Cobaltits",
+    "pos": "noun",
+    "meaning_vi": "Cobalt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:18:25.329Z"
+  },
+  {
+    "word": "Kobaltglanzes",
+    "pos": "noun",
+    "meaning_vi": "Blue sheen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:24:38.388Z"
+  },
+  {
+    "word": "Berylliumerzen",
+    "pos": "noun",
+    "meaning_vi": "Copper ore",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:34:37.961Z"
+  },
+  {
+    "word": "Eisensteinen",
+    "pos": "noun",
+    "meaning_vi": "Iron ore",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:43:34.668Z"
+  },
+  {
+    "word": "Scherbenkobalt",
+    "pos": "noun",
+    "meaning_vi": "Broken cobalt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:48:36.901Z"
+  },
+  {
+    "word": "Sulfidmineral",
+    "pos": "noun",
+    "meaning_vi": "Sulfide mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:50:39.796Z"
+  },
+  {
+    "word": "Skutterudite",
+    "pos": "noun",
+    "meaning_vi": "Skutterudite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:51:29.708Z"
+  },
+  {
+    "word": "Sulfidminerals",
+    "pos": "noun",
+    "meaning_vi": "Sulfide minerals",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:52:13.536Z"
+  },
+  {
+    "word": "Boraciten",
+    "pos": "noun",
+    "meaning_vi": "Calcium borate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:26:51.473Z"
+  },
+  {
+    "word": "Fluoriten",
+    "pos": "noun",
+    "meaning_vi": "Fluorite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:27:49.551Z"
+  },
+  {
+    "word": "Magnesiten",
+    "pos": "noun",
+    "meaning_vi": "Magnesium",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:28:26.847Z"
+  },
+  {
+    "word": "Rhodochrositen",
+    "pos": "noun",
+    "meaning_vi": "Rhodochrosite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:31:18.416Z"
+  },
+  {
+    "word": "Chalkopyriten",
+    "pos": "noun",
+    "meaning_vi": "Chalkopyriten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:32:10.858Z"
+  },
+  {
+    "word": "Arsenolithen",
+    "pos": "noun",
+    "meaning_vi": "arsenic mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:33:47.567Z"
+  },
+  {
+    "word": "Natriumselenit",
+    "pos": "noun",
+    "meaning_vi": "sodium selenite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:41:30.047Z"
+  },
+  {
+    "word": "Selenite",
+    "pos": "noun",
+    "meaning_vi": "Selenit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:42:19.630Z"
+  },
+  {
+    "word": "Naumannite",
+    "pos": "noun",
+    "meaning_vi": "Naumannit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:42:22.917Z"
+  },
+  {
+    "word": "Natronkalks",
+    "pos": "noun",
+    "meaning_vi": "Calcium carbonate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:11:19.983Z"
+  },
+  {
+    "word": "Strontiummineral",
+    "pos": "noun",
+    "meaning_vi": "Mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:37:32.344Z"
+  },
+  {
+    "word": "Monazitsandes",
+    "pos": "noun",
+    "meaning_vi": "Sand",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:28:44.883Z"
+  },
+  {
+    "word": "Monazite",
+    "pos": "noun",
+    "meaning_vi": "Mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:28:46.494Z"
+  },
+  {
+    "word": "Monazits",
+    "pos": "noun",
+    "meaning_vi": "Mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:28:48.067Z"
+  },
+  {
+    "word": "Zirconiumminerale",
+    "pos": "noun",
+    "meaning_vi": "Zirconium mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:47:40.208Z"
+  },
+  {
+    "word": "Zirconiumminerals",
+    "pos": "noun",
+    "meaning_vi": "Zirconium",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:47:47.417Z"
+  },
+  {
+    "word": "Zirkonias",
+    "pos": "noun",
+    "meaning_vi": "Zirkon",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:48:01.409Z"
+  },
+  {
+    "word": "Coltan",
+    "pos": "noun",
+    "meaning_vi": "Columbite-tantalite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:05:00.204Z"
+  },
+  {
+    "word": "Karbonatite",
+    "pos": "noun",
+    "meaning_vi": "mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:11:50.384Z"
+  },
+  {
+    "word": "Tantalite",
+    "pos": "noun",
+    "meaning_vi": "mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:13:30.207Z"
   }
 ]

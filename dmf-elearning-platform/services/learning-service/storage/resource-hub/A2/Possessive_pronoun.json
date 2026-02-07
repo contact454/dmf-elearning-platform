@@ -5,5 +5,47 @@
     "meaning_vi": "own",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T01:25:28.865Z"
+  },
+  {
+    "word": "Ihre",
+    "pos": "pron",
+    "meaning_vi": "Your",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T01:09:44.919Z"
+  },
+  {
+    "word": "ihres",
+    "pos": "det",
+    "meaning_vi": "of their own",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:23:12.146Z"
+  },
+  {
+    "word": "unserem",
+    "pos": "pron",
+    "meaning_vi": "our",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:04:01.801Z"
+  },
+  {
+    "word": "meines",
+    "pos": "det",
+    "meaning_vi": "my",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:02:36.216Z"
+  },
+  {
+    "word": "meynes",
+    "pos": "pron",
+    "meaning_vi": "my",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:06:39.913Z"
+  },
+  {
+    "word": "deins",
+    "pos": "pron",
+    "meaning_vi": "Your",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:03:01.686Z"
   }
 ]

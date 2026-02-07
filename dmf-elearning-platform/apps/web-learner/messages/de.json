@@ -1,0 +1,190 @@
+{
+  "common": {
+    "appName": "DMF Deutsch Lernen",
+    "tagline": "Deutsch intelligent lernen",
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "submit": "Absenden",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "profile": "Profil",
+    "settings": "Einstellungen"
+  },
+  "metadata": {
+    "title": "DMF Deutsch Lernen - Deutsch intelligent lernen",
+    "description": "KI-gestützte Deutsch-Lernplattform von A1 bis C2. 15.000+ Vokabeln, Karteikarten, Quiz und 24/7 KI-Sensei-Unterstützung.",
+    "keywords": "Deutsch lernen, Deutschlernen, Karteikarten, Quiz, A1, A2, B1, B2, Goethe"
+  },
+  "hero": {
+    "badge": "Goethe-Standard A1-C2",
+    "title": "Beherrsche",
+    "titleHighlight": "Deutsch",
+    "subtitle": "Von A1 bis C2",
+    "description": "Lerne intelligent mit KI-Sensei, intelligenten Karteikarten und adaptiven Quiz. Erobere Deutsch nach dem Goethe-Standard.",
+    "stats": {
+      "vocabulary": "Vokabeln",
+      "lessons": "Lektionen",
+      "aiSupport": "KI-Support"
+    },
+    "cta": {
+      "tryFree": "Kostenlos testen",
+      "viewCourses": "Kurse ansehen"
+    },
+    "socialProof": {
+      "rating": "4,9/5",
+      "trustedBy": "Vertrauen von",
+      "students": "Lernenden"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "dashboard": "Dashboard",
+    "learn": "Lernen",
+    "practice": "Üben",
+    "vocabulary": "Vokabeln",
+    "reading": "Lesen",
+    "listening": "Hören",
+    "speaking": "Sprechen",
+    "writing": "Schreiben",
+    "grammar": "Grammatik",
+    "challenges": "Tägliche Herausforderungen",
+    "leaderboard": "Bestenliste",
+    "analytics": "Analytik",
+    "achievements": "Erfolge"
+  },
+  "practice": {
+    "vocabulary": {
+      "title": "Vokabel-Übung",
+      "description": "Baue deinen deutschen Wortschatz mit interaktiven Übungen auf",
+      "startPractice": "Übung starten",
+      "difficulty": "Schwierigkeit",
+      "category": "Kategorie",
+      "progress": "Fortschritt"
+    },
+    "reading": {
+      "title": "Lese-Übung",
+      "description": "Verbessere dein Leseverständnis mit deutschen Texten"
+    },
+    "listening": {
+      "title": "Hör-Übung",
+      "description": "Trainiere dein Gehör mit authentischen deutschen Audios"
+    },
+    "speaking": {
+      "title": "Sprech-Übung",
+      "description": "Übe die Aussprache mit KI-Feedback"
+    },
+    "writing": {
+      "title": "Schreib-Übung",
+      "description": "Verbessere deine Schreibfähigkeiten mit geführten Übungen"
+    },
+    "grammar": {
+      "title": "Grammatik-Quiz",
+      "description": "Meistere deutsche Grammatikregeln"
+    }
+  },
+  "challenges": {
+    "title": "Tägliche Herausforderungen",
+    "description": "Erfülle tägliche Aufgaben, um Belohnungen zu verdienen und deine Serie aufrechtzuerhalten",
+    "currentStreak": "Aktuelle Serie",
+    "days": "Tage",
+    "completedToday": "Heute abgeschlossen",
+    "availableRewards": "Verfügbare Belohnungen",
+    "claimReward": "Belohnung einfordern"
+  },
+  "leaderboard": {
+    "title": "Bestenliste",
+    "description": "Sieh, wie du im Vergleich zu anderen Lernenden abschneidest",
+    "thisWeek": "Diese Woche",
+    "thisMonth": "Dieser Monat",
+    "allTime": "Alle Zeit",
+    "rank": "Rang",
+    "username": "Benutzername",
+    "points": "Punkte",
+    "level": "Niveau"
+  },
+  "achievements": {
+    "title": "Erfolge",
+    "description": "Verfolge deine Lernmeilensteine",
+    "unlocked": "Freigeschaltet",
+    "locked": "Gesperrt",
+    "progress": "Fortschritt",
+    "earnedOn": "Verdient am",
+    "categories": {
+      "vocabulary": "Vokabeln",
+      "grammar": "Grammatik",
+      "reading": "Lesen",
+      "listening": "Hören",
+      "speaking": "Sprechen",
+      "writing": "Schreiben",
+      "streak": "Serie",
+      "social": "Sozial"
+    }
+  },
+  "analytics": {
+    "title": "Lernanalytik",
+    "description": "Verfolge deinen Lernfortschritt und Erkenntnisse",
+    "studyTime": "Lernzeit",
+    "accuracy": "Genauigkeit",
+    "wordsLearned": "Gelernte Wörter",
+    "lessonsCompleted": "Abgeschlossene Lektionen",
+    "weeklyProgress": "Wöchentlicher Fortschritt",
+    "strengths": "Stärken",
+    "weaknesses": "Verbesserungsbereiche",
+    "recommendations": "Empfehlungen"
+  },
+  "profile": {
+    "title": "Profil",
+    "bio": "Biografie",
+    "learningGoals": "Lernziele",
+    "studyStreak": "Lernserie",
+    "totalPoints": "Gesamtpunkte",
+    "editProfile": "Profil bearbeiten",
+    "changePassword": "Passwort ändern",
+    "preferences": "Einstellungen",
+    "notifications": "Benachrichtigungen"
+  },
+  "auth": {
+    "loginTitle": "Willkommen zurück",
+    "loginDescription": "Melde dich an, um deine Deutsch-Lernreise fortzusetzen",
+    "signupTitle": "Konto erstellen",
+    "signupDescription": "Beginne noch heute Deutsch zu lernen",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "forgotPassword": "Passwort vergessen?",
+    "rememberMe": "Angemeldet bleiben",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "loginButton": "Anmelden",
+    "signupButton": "Registrieren",
+    "orContinueWith": "Oder fortfahren mit",
+    "googleSignIn": "Mit Google anmelden"
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "networkError": "Netzwerkfehler. Bitte überprüfe deine Verbindung.",
+    "unauthorized": "Du musst angemeldet sein, um auf diese Seite zuzugreifen.",
+    "notFound": "Seite nicht gefunden.",
+    "validationError": "Bitte überprüfe deine Eingabe und versuche es erneut."
+  },
+  "footer": {
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "© 2024 DMF Deutsch Lernen. Alle Rechte vorbehalten.",
+    "followUs": "Folge uns"
+  }
+}

@@ -14,7 +14,7 @@
     "prisma:validate": "prisma validate",
     "prisma:studio": "prisma studio",
     "build": "tsc",
-    "dev": "tsx watch src/index.ts",
+    "dev": "tsx watch src/server.ts",
     "test": "vitest"
   },
   "keywords": [

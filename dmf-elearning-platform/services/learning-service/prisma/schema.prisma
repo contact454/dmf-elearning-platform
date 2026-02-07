@@ -7,63 +7,97 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Vocabulary {
-  id          String   @id @default(uuid())
-  word        String   @unique
-  meaning_vi  String
-  level       String   // A1, A2, B1...
+model VocabularyItem {
+  id          String    @id @default(cuid())
+  word        String    @unique
+  meaning_vi  String    @map("meaning_vi")
+  level       String // A1, A2, B1...
   topic       String?
-  example_de  String?
-  example_vi  String?
-  pos         String?  // noun, verb, adj
-  artikel     String?  // der, die, das (for nouns)
-  plural      String?  // plural form: Äpfel, Häuser
-  gender      String?  // m, f, n (masculine, feminine, neuter)
-  audioUrl    String?  // TTS audio URL
-  phoneticIpa String?  // IPA pronunciation
-  familyWords String[] // Related words from same root
-  grammarTags String[] // Grammar categories
-  source      String?  // Source of the word (e.g., kaikki.org)
-  addedAt     DateTime? // Original import timestamp
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  example_de  String?   @map("example_de")
+  example_vi  String?   @map("example_vi")
+  pos         String? // noun, verb, adj
+  artikel     String? // der, die, das (for nouns)
+  plural      String? // plural form: Äpfel, Häuser
+  gender      String? // m, f, n (masculine, feminine, neuter)
+  audioUrl    String?   @map("audio_url")
+  phoneticIpa String?   @map("phonetic_ipa")
+  familyWords String[]  @map("family_words")
+  grammarTags String[]  @map("grammar_tags")
+  source      String? // Source of the word (e.g., kaikki.org)
+  addedAt     DateTime? @map("added_at")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
 
   // Relations
-  progress    UserVocabularyProgress[]
+  progress UserWordProgress[]
 
   // Indexes for performance
   @@index([level])
   @@index([pos])
   @@index([word, level])
+  @@map("vocabulary_items")
 }
 
-model UserVocabularyProgress {
-  id             String     @id @default(uuid())
-  userId         String
-  vocabId        String
-  vocabulary     Vocabulary @relation(fields: [vocabId], references: [id])
-
-  // Status
-  status         String     @default("new") // new, learning, review, mastered
+model UserWordProgress {
+  id     String @id @default(cuid())
+  userId String @map("user_id")
+  wordId String @map("word_id")
 
   // SM-2 Algorithm Fields
-  easeFactor     Float      @default(2.5)   // SM-2 ease factor (min 1.3)
-  interval       Int        @default(0)     // Days until next review
-  repetitions    Int        @default(0)     // Consecutive correct answers
-  nextReviewAt   DateTime?                  // Scheduled review date
-  lastReviewedAt DateTime?                  // Last review timestamp
+  easeFactor   Float    @default(2.5) @map("ease_factor")
+  intervalDays Int      @default(1) @map("interval_days")
+  repetitions  Int      @default(0)
+  nextReview   DateTime @map("next_review")
+
+  // Status Tracking
+  status     ReviewStatus @default(NEW)
+  lastResult Boolean?     @map("last_result")
 
   // Statistics
-  totalReviews   Int        @default(0)     // Total review count
-  correctReviews Int        @default(0)     // Correct answer count
-  lapseCount     Int        @default(0)     // Times marked as "Again"
+  totalReviews   Int @default(0) @map("total_reviews")
+  correctReviews Int @default(0) @map("correct_reviews")
 
-  createdAt      DateTime   @default(now())
-  updatedAt      DateTime   @updatedAt
+  // Timestamps
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
 
-  @@unique([userId, vocabId])
-  @@index([userId, status])
-  @@index([userId, nextReviewAt])
+  // Relations
+  user User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word VocabularyItem @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  // Indexes
+  @@unique([userId, wordId], name: "user_word_unique")
+  @@index([userId, nextReview], name: "user_next_review_idx")
+  @@index([userId, status], name: "user_status_idx")
+  @@index([wordId], name: "word_idx")
+  @@map("user_word_progress")
+}
+
+enum ReviewStatus {
+  NEW
+  LEARNING
+  REVIEW
+  MASTERED
+}
+
+// User model (core fields - extended in onboarding-service)
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Streak tracking (Task 2.1)
+  currentStreak    Int       @default(0) @map("current_streak")
+  longestStreak    Int       @default(0) @map("longest_streak")
+  lastActivityDate DateTime? @map("last_activity_date")
+  timezone         String    @default("UTC") // IANA timezone
+
+  // Relations
+  wordProgress UserWordProgress[]
+
+  @@map("users")
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -71,35 +105,35 @@ model UserVocabularyProgress {
 // ═══════════════════════════════════════════════════════════════
 
 model ReadingContent {
-  id              String   @id @default(uuid())
-  title           String
-  content         String   // Full text content (markdown supported)
-  summary         String?  // Brief description
-  level           String   // A1, A2, B1, B2, C1, C2
-  topic           String?  // Topic category
+  id      String  @id @default(uuid())
+  title   String
+  content String // Full text content (markdown supported)
+  summary String? // Brief description
+  level   String // A1, A2, B1, B2, C1, C2
+  topic   String? // Topic category
 
   // Content Analysis
-  wordCount       Int      @default(0)      // Total word count
-  uniqueWords     Int      @default(0)      // Unique words count
-  difficultyScore Float    @default(0)      // 0-100 difficulty score
+  wordCount       Int      @default(0) // Total word count
+  uniqueWords     Int      @default(0) // Unique words count
+  difficultyScore Float    @default(0) // 0-100 difficulty score
   vocabularyList  String[] // Array of unique German words in content
 
   // Metadata
-  source          String?  // Original source or "AI-generated"
-  author          String?  // Author name
-  imageUrl        String?  // Cover image
-  audioUrl        String?  // TTS audio for full content
-  estimatedTime   Int      @default(5)      // Reading time in minutes
+  source        String? // Original source or "AI-generated"
+  author        String? // Author name
+  imageUrl      String? // Cover image
+  audioUrl      String? // TTS audio for full content
+  estimatedTime Int     @default(5) // Reading time in minutes
 
   // Status
-  isPublished     Boolean  @default(true)
-  isFeatured      Boolean  @default(false)
+  isPublished Boolean @default(true)
+  isFeatured  Boolean @default(false)
 
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   // Relations
-  progress        UserReadingProgress[]
+  progress UserReadingProgress[]
 
   @@index([level])
   @@index([topic])
@@ -107,31 +141,31 @@ model ReadingContent {
 }
 
 model UserReadingProgress {
-  id              String         @id @default(uuid())
-  userId          String
-  contentId       String
-  content         ReadingContent @relation(fields: [contentId], references: [id])
+  id        String         @id @default(uuid())
+  userId    String
+  contentId String
+  content   ReadingContent @relation(fields: [contentId], references: [id])
 
   // Progress Tracking
-  status          String         @default("not_started") // not_started, in_progress, completed
-  progressPercent Int            @default(0)             // 0-100
-  lastPosition    Int            @default(0)             // Last read position (character index)
+  status          String @default("not_started") // not_started, in_progress, completed
+  progressPercent Int    @default(0) // 0-100
+  lastPosition    Int    @default(0) // Last read position (character index)
 
   // Learning Metrics
-  wordsRead       Int            @default(0)             // Total words read
-  newWordsFound   Int            @default(0)             // New words encountered
-  wordsLookedUp   String[]       // Words user clicked for definition
+  wordsRead     Int      @default(0) // Total words read
+  newWordsFound Int      @default(0) // New words encountered
+  wordsLookedUp String[] // Words user clicked for definition
 
   // Time Tracking
-  totalReadTime   Int            @default(0)             // Total reading time in seconds
-  startedAt       DateTime?
-  completedAt     DateTime?
+  totalReadTime Int       @default(0) // Total reading time in seconds
+  startedAt     DateTime?
+  completedAt   DateTime?
 
   // Rating
-  rating          Int?           // 1-5 star rating
+  rating Int? // 1-5 star rating
 
-  createdAt       DateTime       @default(now())
-  updatedAt       DateTime       @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@unique([userId, contentId])
   @@index([userId, status])
@@ -143,26 +177,26 @@ model UserReadingProgress {
 // ═══════════════════════════════════════════════════════════════
 
 model ListeningContent {
-  id              String   @id @default(uuid())
-  title           String
-  description     String?
-  level           String   // A1, A2, B1, B2, C1, C2
-  topic           String?
+  id          String  @id @default(uuid())
+  title       String
+  description String?
+  level       String // A1, A2, B1, B2, C1, C2
+  topic       String?
 
   // Audio Content
-  audioUrl        String?  // Primary audio file URL
-  duration        Int      @default(0)      // Duration in seconds
-  transcript      String   // Full German transcript
-  transcriptVi    String?  // Vietnamese translation
+  audioUrl     String? // Primary audio file URL
+  duration     Int     @default(0) // Duration in seconds
+  transcript   String // Full German transcript
+  transcriptVi String? // Vietnamese translation
 
   // Segmented Content for exercises
-  segments        Json?    // Array of {start, end, text, translation}
+  segments Json? // Array of {start, end, text, translation}
 
   // Metadata
-  source          String?  // Original source or "AI-generated"
-  speaker         String?  // Speaker name/type
-  speed           String   @default("normal") // slow, normal, fast
-  accent          String?  // Standard German, Austrian, Swiss
+  source  String? // Original source or "AI-generated"
+  speaker String? // Speaker name/type
+  speed   String  @default("normal") // slow, normal, fast
+  accent  String? // Standard German, Austrian, Swiss
 
   // Content Analysis
   wordCount       Int      @default(0)
@@ -170,15 +204,15 @@ model ListeningContent {
   vocabularyList  String[]
 
   // Status
-  isPublished     Boolean  @default(true)
-  isFeatured      Boolean  @default(false)
+  isPublished Boolean @default(true)
+  isFeatured  Boolean @default(false)
 
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   // Relations
-  progress        UserListeningProgress[]
-  exercises       DictationExercise[]
+  progress  UserListeningProgress[]
+  exercises DictationExercise[]
 
   @@index([level])
   @@index([topic])
@@ -186,84 +220,84 @@ model ListeningContent {
 }
 
 model DictationExercise {
-  id              String           @id @default(uuid())
-  contentId       String
-  content         ListeningContent @relation(fields: [contentId], references: [id])
+  id        String           @id @default(uuid())
+  contentId String
+  content   ListeningContent @relation(fields: [contentId], references: [id])
 
   // Exercise Config
-  exerciseType    String           @default("full") // full, segment, word
-  segmentIndex    Int?             // Which segment (for segment-based)
+  exerciseType String @default("full") // full, segment, word
+  segmentIndex Int? // Which segment (for segment-based)
 
   // Audio Segment
-  audioStart      Float            @default(0)      // Start time in seconds
-  audioEnd        Float?           // End time (null = end of audio)
+  audioStart Float  @default(0) // Start time in seconds
+  audioEnd   Float? // End time (null = end of audio)
 
   // Expected Answer
-  correctText     String           // Correct transcription
-  hints           String[]         // Optional hints
+  correctText String // Correct transcription
+  hints       String[] // Optional hints
 
   // Difficulty
-  difficulty      Int              @default(1)      // 1-5
+  difficulty Int @default(1) // 1-5
 
-  createdAt       DateTime         @default(now())
+  createdAt DateTime @default(now())
 
   // Relations
-  attempts        DictationAttempt[]
+  attempts DictationAttempt[]
 
   @@index([contentId])
 }
 
 model DictationAttempt {
-  id              String             @id @default(uuid())
-  exerciseId      String
-  exercise        DictationExercise  @relation(fields: [exerciseId], references: [id])
-  userId          String
+  id         String            @id @default(uuid())
+  exerciseId String
+  exercise   DictationExercise @relation(fields: [exerciseId], references: [id])
+  userId     String
 
   // User Response
-  userText        String             // What user typed
+  userText String // What user typed
 
   // Scoring
-  accuracy        Float              @default(0)    // 0-100 percentage
-  wordsCorrect    Int                @default(0)
-  wordsTotal      Int                @default(0)
-  mistakes        Json?              // Array of {expected, actual, position}
+  accuracy     Float @default(0) // 0-100 percentage
+  wordsCorrect Int   @default(0)
+  wordsTotal   Int   @default(0)
+  mistakes     Json? // Array of {expected, actual, position}
 
   // Timing
-  listenCount     Int                @default(1)    // How many times played
-  timeSpent       Int                @default(0)    // Seconds spent
+  listenCount Int @default(1) // How many times played
+  timeSpent   Int @default(0) // Seconds spent
 
-  createdAt       DateTime           @default(now())
+  createdAt DateTime @default(now())
 
   @@index([userId, exerciseId])
   @@index([userId, createdAt])
 }
 
 model UserListeningProgress {
-  id              String           @id @default(uuid())
-  userId          String
-  contentId       String
-  content         ListeningContent @relation(fields: [contentId], references: [id])
+  id        String           @id @default(uuid())
+  userId    String
+  contentId String
+  content   ListeningContent @relation(fields: [contentId], references: [id])
 
   // Progress Tracking
-  status          String           @default("not_started") // not_started, in_progress, completed
-  progressPercent Int              @default(0)
+  status          String @default("not_started") // not_started, in_progress, completed
+  progressPercent Int    @default(0)
 
   // Listening Metrics
-  totalListenTime Int              @default(0)    // Total listening time in seconds
-  playCount       Int              @default(0)    // How many times played
-  lastPosition    Float            @default(0)    // Last playback position
+  totalListenTime Int   @default(0) // Total listening time in seconds
+  playCount       Int   @default(0) // How many times played
+  lastPosition    Float @default(0) // Last playback position
 
   // Dictation Stats
-  exercisesCompleted Int           @default(0)
-  exercisesTotal     Int           @default(0)
-  averageAccuracy    Float         @default(0)
+  exercisesCompleted Int   @default(0)
+  exercisesTotal     Int   @default(0)
+  averageAccuracy    Float @default(0)
 
   // Timestamps
-  startedAt       DateTime?
-  completedAt     DateTime?
+  startedAt   DateTime?
+  completedAt DateTime?
 
-  createdAt       DateTime         @default(now())
-  updatedAt       DateTime         @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@unique([userId, contentId])
   @@index([userId, status])
@@ -274,38 +308,38 @@ model UserListeningProgress {
 // ═══════════════════════════════════════════════════════════════
 
 model SpeakingPrompt {
-  id              String   @id @default(uuid())
-  title           String
-  description     String?
-  level           String   // A1, A2, B1, B2, C1, C2
-  topic           String?
-  category        String   @default("general") // general, conversation, roleplay, pronunciation, reading
+  id          String  @id @default(uuid())
+  title       String
+  description String?
+  level       String // A1, A2, B1, B2, C1, C2
+  topic       String?
+  category    String  @default("general") // general, conversation, roleplay, pronunciation, reading
 
   // Prompt Content
-  promptText      String   // The main prompt/question in German
-  promptTextVi    String?  // Vietnamese translation
-  sampleResponse  String?  // Example correct response
-  sampleAudioUrl  String?  // Audio of sample response
+  promptText     String // The main prompt/question in German
+  promptTextVi   String? // Vietnamese translation
+  sampleResponse String? // Example correct response
+  sampleAudioUrl String? // Audio of sample response
 
   // For pronunciation practice
-  targetWords     String[] // Words to focus on for pronunciation
-  phonetics       String[] // IPA phonetics for target words
+  targetWords String[] // Words to focus on for pronunciation
+  phonetics   String[] // IPA phonetics for target words
 
   // Difficulty & Metadata
-  difficulty      Int      @default(1)      // 1-5
-  estimatedTime   Int      @default(30)     // Seconds to complete
-  tags            String[]
+  difficulty    Int      @default(1) // 1-5
+  estimatedTime Int      @default(30) // Seconds to complete
+  tags          String[]
 
   // Status
-  isPublished     Boolean  @default(true)
-  isFeatured      Boolean  @default(false)
+  isPublished Boolean @default(true)
+  isFeatured  Boolean @default(false)
 
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   // Relations
-  attempts        SpeakingAttempt[]
-  progress        UserSpeakingProgress[]
+  attempts SpeakingAttempt[]
+  progress UserSpeakingProgress[]
 
   @@index([level])
   @@index([category])
@@ -313,60 +347,60 @@ model SpeakingPrompt {
 }
 
 model SpeakingAttempt {
-  id              String         @id @default(uuid())
-  promptId        String
-  prompt          SpeakingPrompt @relation(fields: [promptId], references: [id])
-  userId          String
+  id       String         @id @default(uuid())
+  promptId String
+  prompt   SpeakingPrompt @relation(fields: [promptId], references: [id])
+  userId   String
 
   // User Recording
-  audioUrl        String?        // URL to recorded audio (if saved)
-  audioDuration   Float          @default(0)    // Duration in seconds
-  transcript      String?        // Speech-to-text result
+  audioUrl      String? // URL to recorded audio (if saved)
+  audioDuration Float   @default(0) // Duration in seconds
+  transcript    String? // Speech-to-text result
 
   // Pronunciation Scoring
-  pronunciationScore Float       @default(0)    // 0-100
-  fluencyScore       Float       @default(0)    // 0-100
-  accuracyScore      Float       @default(0)    // 0-100 (word matching)
-  overallScore       Float       @default(0)    // Weighted average
+  pronunciationScore Float @default(0) // 0-100
+  fluencyScore       Float @default(0) // 0-100
+  accuracyScore      Float @default(0) // 0-100 (word matching)
+  overallScore       Float @default(0) // Weighted average
 
   // Detailed Feedback
-  wordScores      Json?          // Array of {word, expected, actual, score}
-  feedback        String?        // AI-generated feedback
-  corrections     Json?          // Array of {word, correction, explanation}
+  wordScores  Json? // Array of {word, expected, actual, score}
+  feedback    String? // AI-generated feedback
+  corrections Json? // Array of {word, correction, explanation}
 
   // Timing
-  recordingTime   Int            @default(0)    // Time spent recording (seconds)
-  attemptNumber   Int            @default(1)    // Which attempt this is
+  recordingTime Int @default(0) // Time spent recording (seconds)
+  attemptNumber Int @default(1) // Which attempt this is
 
-  createdAt       DateTime       @default(now())
+  createdAt DateTime @default(now())
 
   @@index([userId, promptId])
   @@index([userId, createdAt])
 }
 
 model UserSpeakingProgress {
-  id              String         @id @default(uuid())
-  userId          String
-  promptId        String
-  prompt          SpeakingPrompt @relation(fields: [promptId], references: [id])
+  id       String         @id @default(uuid())
+  userId   String
+  promptId String
+  prompt   SpeakingPrompt @relation(fields: [promptId], references: [id])
 
   // Progress Tracking
-  status          String         @default("not_started") // not_started, attempted, mastered
-  attemptCount    Int            @default(0)
-  bestScore       Float          @default(0)
-  lastScore       Float          @default(0)
+  status       String @default("not_started") // not_started, attempted, mastered
+  attemptCount Int    @default(0)
+  bestScore    Float  @default(0)
+  lastScore    Float  @default(0)
 
   // Improvement Tracking
-  avgPronunciation Float         @default(0)
-  avgFluency       Float         @default(0)
-  avgAccuracy      Float         @default(0)
+  avgPronunciation Float @default(0)
+  avgFluency       Float @default(0)
+  avgAccuracy      Float @default(0)
 
   // Timestamps
-  firstAttemptAt  DateTime?
-  lastAttemptAt   DateTime?
+  firstAttemptAt DateTime?
+  lastAttemptAt  DateTime?
 
-  createdAt       DateTime       @default(now())
-  updatedAt       DateTime       @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@unique([userId, promptId])
   @@index([userId, status])
@@ -377,29 +411,29 @@ model UserSpeakingProgress {
 // ═══════════════════════════════════════════════════════════════
 
 model WritingPrompt {
-  id              String   @id @default(uuid())
-  title           String
-  description     String?
-  level           String   // A1, A2, B1, B2, C1, C2
-  topic           String?
-  category        String   @default("free_writing") // free_writing, fill_blank, sentence_construction, correction, essay
+  id          String  @id @default(uuid())
+  title       String
+  description String?
+  level       String // A1, A2, B1, B2, C1, C2
+  topic       String?
+  category    String  @default("free_writing") // free_writing, fill_blank, sentence_construction, correction, essay
 
   // Prompt Content
-  promptText      String   // The writing task/question in German
-  promptTextVi    String?  // Vietnamese translation
-  instructions    String?  // Detailed instructions
-  instructionsVi  String?  // Vietnamese instructions
+  promptText     String // The writing task/question in German
+  promptTextVi   String? // Vietnamese translation
+  instructions   String? // Detailed instructions
+  instructionsVi String? // Vietnamese instructions
 
   // For structured exercises
-  templateText    String?  // Template with blanks for fill_blank type
-  correctAnswers  Json?    // Array of acceptable answers for structured exercises
-  hints           String[] // Hints for the user
-  keywords        String[] // Required keywords to include
-  wordLimit       Int?     // Maximum word count (null = unlimited)
-  minWords        Int      @default(0)  // Minimum word count
+  templateText   String? // Template with blanks for fill_blank type
+  correctAnswers Json? // Array of acceptable answers for structured exercises
+  hints          String[] // Hints for the user
+  keywords       String[] // Required keywords to include
+  wordLimit      Int? // Maximum word count (null = unlimited)
+  minWords       Int      @default(0) // Minimum word count
 
   // Sample Response
-  sampleResponse  String?  // Example correct response
+  sampleResponse   String? // Example correct response
   sampleResponseVi String? // Vietnamese translation of sample
 
   // Grammar Focus
@@ -407,20 +441,20 @@ model WritingPrompt {
   vocabularyFocus String[] // Target vocabulary words
 
   // Difficulty & Metadata
-  difficulty      Int      @default(1)      // 1-5
-  estimatedTime   Int      @default(300)    // Seconds to complete (default 5 min)
-  tags            String[]
+  difficulty    Int      @default(1) // 1-5
+  estimatedTime Int      @default(300) // Seconds to complete (default 5 min)
+  tags          String[]
 
   // Status
-  isPublished     Boolean  @default(true)
-  isFeatured      Boolean  @default(false)
+  isPublished Boolean @default(true)
+  isFeatured  Boolean @default(false)
 
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   // Relations
-  submissions     WritingSubmission[]
-  progress        UserWritingProgress[]
+  submissions WritingSubmission[]
+  progress    UserWritingProgress[]
 
   @@index([level])
   @@index([category])
@@ -428,46 +462,46 @@ model WritingPrompt {
 }
 
 model WritingSubmission {
-  id              String        @id @default(uuid())
-  promptId        String
-  prompt          WritingPrompt @relation(fields: [promptId], references: [id])
-  userId          String
+  id       String        @id @default(uuid())
+  promptId String
+  prompt   WritingPrompt @relation(fields: [promptId], references: [id])
+  userId   String
 
   // User Submission
-  content         String        // User's written text
-  wordCount       Int           @default(0)
+  content   String // User's written text
+  wordCount Int    @default(0)
 
   // For fill_blank exercises
-  answers         Json?         // Array of answers for structured exercises
+  answers Json? // Array of answers for structured exercises
 
   // AI Feedback
-  overallScore    Float         @default(0)    // 0-100
-  grammarScore    Float         @default(0)    // 0-100
-  vocabularyScore Float         @default(0)    // 0-100
-  coherenceScore  Float         @default(0)    // 0-100
-  taskScore       Float         @default(0)    // 0-100 (task completion)
+  overallScore    Float @default(0) // 0-100
+  grammarScore    Float @default(0) // 0-100
+  vocabularyScore Float @default(0) // 0-100
+  coherenceScore  Float @default(0) // 0-100
+  taskScore       Float @default(0) // 0-100 (task completion)
 
   // Detailed Feedback
-  feedback        String?       // Overall AI feedback
-  feedbackVi      String?       // Vietnamese translation
-  corrections     Json?         // Array of {original, corrected, explanation, explanationVi, type}
-  suggestions     Json?         // Array of {suggestion, suggestionVi, category}
-  grammarErrors   Json?         // Array of {text, error, rule, correction}
+  feedback      String? // Overall AI feedback
+  feedbackVi    String? // Vietnamese translation
+  corrections   Json? // Array of {original, corrected, explanation, explanationVi, type}
+  suggestions   Json? // Array of {suggestion, suggestionVi, category}
+  grammarErrors Json? // Array of {text, error, rule, correction}
 
   // Keyword & Requirements Check
-  keywordsUsed    String[]      // Which required keywords were used
-  keywordsMissing String[]      // Which required keywords were missing
-  requirementsMet Json?         // Checklist of requirements met
+  keywordsUsed    String[] // Which required keywords were used
+  keywordsMissing String[] // Which required keywords were missing
+  requirementsMet Json? // Checklist of requirements met
 
   // Timing
-  timeSpent       Int           @default(0)    // Seconds spent writing
-  submissionNum   Int           @default(1)    // Which submission attempt
+  timeSpent     Int @default(0) // Seconds spent writing
+  submissionNum Int @default(1) // Which submission attempt
 
   // Status
-  status          String        @default("submitted") // submitted, reviewed, revised
+  status String @default("submitted") // submitted, reviewed, revised
 
-  createdAt       DateTime      @default(now())
-  updatedAt       DateTime      @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@index([userId, promptId])
   @@index([userId, createdAt])
@@ -475,38 +509,245 @@ model WritingSubmission {
 }
 
 model UserWritingProgress {
-  id              String        @id @default(uuid())
-  userId          String
-  promptId        String
-  prompt          WritingPrompt @relation(fields: [promptId], references: [id])
+  id       String        @id @default(uuid())
+  userId   String
+  promptId String
+  prompt   WritingPrompt @relation(fields: [promptId], references: [id])
 
   // Progress Tracking
-  status          String        @default("not_started") // not_started, in_progress, completed, mastered
-  submissionCount Int           @default(0)
-  bestScore       Float         @default(0)
-  lastScore       Float         @default(0)
+  status          String @default("not_started") // not_started, in_progress, completed, mastered
+  submissionCount Int    @default(0)
+  bestScore       Float  @default(0)
+  lastScore       Float  @default(0)
 
   // Performance Metrics
-  avgGrammarScore    Float      @default(0)
-  avgVocabularyScore Float      @default(0)
-  avgCoherenceScore  Float      @default(0)
-  avgTaskScore       Float      @default(0)
+  avgGrammarScore    Float @default(0)
+  avgVocabularyScore Float @default(0)
+  avgCoherenceScore  Float @default(0)
+  avgTaskScore       Float @default(0)
 
   // Improvement Tracking
-  totalWordsWritten  Int        @default(0)
-  totalTimeSpent     Int        @default(0)
+  totalWordsWritten Int @default(0)
+  totalTimeSpent    Int @default(0)
 
   // Draft (auto-save)
-  draftContent    String?       // Current draft being worked on
-  draftUpdatedAt  DateTime?
+  draftContent   String? // Current draft being worked on
+  draftUpdatedAt DateTime?
 
   // Timestamps
   firstSubmissionAt DateTime?
   lastSubmissionAt  DateTime?
 
-  createdAt       DateTime      @default(now())
-  updatedAt       DateTime      @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@unique([userId, promptId])
   @@index([userId, status])
+}
+
+// ═══════════════════════════════════════════════════════════════
+// LISTENING MODULE PHASE 1 - Core Exercise Tables
+// ═══════════════════════════════════════════════════════════════
+
+model ListeningExercise {
+  id              String       @id @default(uuid())
+  title           String
+  difficulty      Int // 1-10 (A1=1-2, A2=3-4, B1=5-6, B2=7-8, C1=9, C2=10)
+  audioUrl        String       @map("audio_url")
+  transcript      String // Full transcript
+  translation     String? // Vietnamese translation
+  durationSeconds Int          @map("duration_seconds")
+  exerciseType    ExerciseType @map("exercise_type")
+  exerciseData    Json?        @map("exercise_data") // Type-specific data (options, images, etc.)
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  userProgress UserListeningExerciseProgress[]
+  attempts     ListeningExerciseAttempt[]
+
+  // Indexes for performance
+  @@index([difficulty], name: "idx_exercises_difficulty")
+  @@index([exerciseType], name: "idx_exercises_type")
+  @@map("listening_exercises")
+}
+
+model UserListeningExerciseProgress {
+  id         String @id @default(uuid())
+  userId     String @map("user_id")
+  exerciseId String @map("exercise_id")
+
+  // SRS Algorithm Fields (SM-2)
+  totalAttempts    Int       @default(0) @map("total_attempts")
+  correctAttempts  Int       @default(0) @map("correct_attempts")
+  lastAttemptAt    DateTime? @map("last_attempt_at")
+  nextReviewAt     DateTime? @map("next_review_at")
+  difficultyRating Int       @default(5) @map("difficulty_rating") // 1-10
+  easeFactor       Float     @default(2.5) @map("ease_factor") // SM-2 easiness
+  intervalDays     Int       @default(0) @map("interval_days") // SM-2 interval
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  exercise ListeningExercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  // Constraints
+  @@unique([userId, exerciseId], name: "user_exercise_unique")
+  @@index([userId], name: "idx_user_progress_user")
+  @@index([nextReviewAt], name: "idx_user_progress_next_review")
+  @@index([userId, exerciseId], name: "idx_user_progress_composite")
+  @@map("user_listening_exercise_progress")
+}
+
+model ListeningExerciseAttempt {
+  id         String @id @default(uuid())
+  userId     String @map("user_id")
+  exerciseId String @map("exercise_id")
+
+  // Answer Data
+  userAnswer       Json    @map("user_answer") // Type-specific answer
+  correct          Boolean
+  timeSpentSeconds Int     @default(0) @map("time_spent_seconds")
+  accuracyScore    Float?  @map("accuracy_score") // 0-100 (for partial credit)
+  qualityRating    Int?    @map("quality_rating") // 0-5 (SM-2 quality)
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  exercise ListeningExercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  // Indexes for analytics
+  @@index([userId], name: "idx_attempts_user")
+  @@index([exerciseId], name: "idx_attempts_exercise")
+  @@index([createdAt], name: "idx_attempts_created")
+  @@map("listening_exercise_attempts")
+}
+
+enum ExerciseType {
+  dictation
+  multiple_choice
+  audio_image
+  fill_blank
+}
+
+// ═══════════════════════════════════════════════════════════════
+// READING MODULE PHASE 1 - Core Reading Comprehension Tables
+// Exercise-based reading with 4 types: multiple_choice, true_false, 
+// fill_blank, sequencing
+// ═══════════════════════════════════════════════════════════════
+
+model ReadingPassage {
+  id                          String   @id @default(uuid()) @db.Uuid
+  title                       String   @db.VarChar(200)
+  content                     String   @db.Text
+  cefrLevel                   String   @map("cefr_level") @db.VarChar(2)
+  topic                       String?  @db.VarChar(100)
+  wordCount                   Int      @map("word_count")
+  estimatedReadingTimeMinutes Int      @default(0) @map("estimated_reading_time_minutes")
+  difficultyScore             Decimal? @default(0) @map("difficulty_score") @db.Decimal(3, 2)
+  source                      String?  @db.VarChar(200)
+  isPremium                   Boolean  @default(false) @map("is_premium")
+  createdAt                   DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt                   DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  // Relations
+  exercises           ReadingExercise[]
+  userPassageProgress UserPassageProgress[]
+  readingAttempts     ReadingAttempt[]
+
+  // Indexes for performance
+  @@index([cefrLevel], name: "idx_reading_passages_cefr")
+  @@index([topic], name: "idx_reading_passages_topic")
+  @@index([isPremium], name: "idx_reading_passages_premium")
+  @@index([difficultyScore], name: "idx_reading_passages_difficulty")
+  @@map("reading_passages")
+}
+
+model ReadingExercise {
+  id              String   @id @default(uuid()) @db.Uuid
+  passageId       String   @map("passage_id") @db.Uuid
+  exerciseType    String   @map("exercise_type") @db.VarChar(50)
+  question        String   @db.Text
+  exerciseData    Json     @map("exercise_data")
+  explanation     String?  @db.Text
+  difficultyLevel Int      @default(5) @map("difficulty_level")
+  displayOrder    Int      @default(0) @map("display_order")
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  // Relations
+  passage         ReadingPassage   @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  readingAttempts ReadingAttempt[]
+
+  // Indexes
+  @@index([passageId], name: "idx_reading_exercises_passage_id")
+  @@index([exerciseType], name: "idx_reading_exercises_type")
+  @@index([passageId, displayOrder], name: "idx_reading_exercises_display_order")
+  @@map("reading_exercises")
+}
+
+model UserPassageProgress {
+  id        String @id @default(uuid()) @db.Uuid
+  userId    String @map("user_id") @db.Uuid
+  passageId String @map("passage_id") @db.Uuid
+
+  // Progress tracking
+  completedAt        DateTime? @map("completed_at") @db.Timestamptz(6)
+  totalExercises     Int       @default(0) @map("total_exercises")
+  correctExercises   Int       @default(0) @map("correct_exercises")
+  accuracyPercentage Decimal   @default(0) @map("accuracy_percentage") @db.Decimal(5, 2)
+  timeSpentSeconds   Int       @default(0) @map("time_spent_seconds")
+
+  // SRS data (SuperMemo-2)
+  reviewCount  Int       @default(0) @map("review_count")
+  nextReviewAt DateTime? @map("next_review_at") @db.Timestamptz(6)
+  easeFactor   Decimal   @default(2.5) @map("ease_factor") @db.Decimal(3, 2)
+  intervalDays Int       @default(0) @map("interval_days")
+
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  // Relations
+  passage ReadingPassage @relation(fields: [passageId], references: [id], onDelete: Cascade)
+
+  // Constraints
+  @@unique([userId, passageId], name: "user_passage_unique")
+  @@index([userId], name: "idx_user_passage_progress_user_id")
+  @@index([nextReviewAt], name: "idx_user_passage_progress_next_review")
+  @@index([completedAt], name: "idx_user_passage_progress_completed")
+  @@index([userId, passageId], name: "idx_user_passage_progress_composite")
+  @@index([userId, accuracyPercentage], name: "idx_user_passage_progress_accuracy")
+  @@map("user_passage_progress")
+}
+
+model ReadingAttempt {
+  id         String @id @default(uuid()) @db.Uuid
+  userId     String @map("user_id") @db.Uuid
+  passageId  String @map("passage_id") @db.Uuid
+  exerciseId String @map("exercise_id") @db.Uuid
+
+  // Attempt data
+  userAnswer       Json    @map("user_answer")
+  correctAnswer    Json    @map("correct_answer")
+  isCorrect        Boolean @map("is_correct")
+  accuracyScore    Decimal @default(0) @map("accuracy_score") @db.Decimal(5, 2)
+  timeSpentSeconds Int     @default(0) @map("time_spent_seconds")
+
+  // SRS rating (optional: user feedback on difficulty)
+  qualityRating Int? @map("quality_rating")
+
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  // Relations
+  passage  ReadingPassage  @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  exercise ReadingExercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  // Indexes for analytics
+  @@index([userId], name: "idx_reading_attempts_user_id")
+  @@index([exerciseId], name: "idx_reading_attempts_exercise_id")
+  @@index([passageId], name: "idx_reading_attempts_passage_id")
+  @@index([createdAt], name: "idx_reading_attempts_created_at")
+  @@index([userId, createdAt], name: "idx_reading_attempts_user_created")
+  @@map("reading_attempts")
 }

@@ -1,0 +1,1053 @@
+{
+  "exercises": [
+    {
+      "title": "Basic Greeting - Hallo (A1)",
+      "difficulty": 1,
+      "audio_url": "https://r2.dmf.com/audio/a1-greeting-01.mp3",
+      "transcript": "Hallo, wie heißt du?",
+      "translation": "Xin chào, bạn tên là gì?",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Numbers 1-10 (A1)",
+      "difficulty": 1,
+      "audio_url": "https://r2.dmf.com/audio/a1-numbers-01.mp3",
+      "transcript": "Eins, zwei, drei, vier, fünf.",
+      "translation": "Một, hai, ba, bốn, năm.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Days of the Week (A1)",
+      "difficulty": 1,
+      "audio_url": "https://r2.dmf.com/audio/a1-days-01.mp3",
+      "transcript": "Heute ist Montag.",
+      "translation": "Hôm nay là thứ Hai.",
+      "duration_seconds": 2,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Choose Correct Greeting (A1)",
+      "difficulty": 1,
+      "audio_url": "https://r2.dmf.com/audio/a1-choice-01.mp3",
+      "transcript": "Guten Morgen!",
+      "translation": "Chào buổi sáng!",
+      "duration_seconds": 2,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Was sagt die Person?",
+        "options": [
+          "Guten Morgen!",
+          "Guten Abend!",
+          "Gute Nacht!",
+          "Auf Wiedersehen!"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Identify Object - Der Apfel (A1)",
+      "difficulty": 1,
+      "audio_url": "https://r2.dmf.com/audio/a1-apple-01.mp3",
+      "transcript": "Das ist ein Apfel.",
+      "translation": "Đây là một quả táo.",
+      "duration_seconds": 2,
+      "exercise_type": "audio_image",
+      "exercise_data": {
+        "images": [
+          {
+            "id": "img-apple",
+            "url": "https://r2.dmf.com/images/apple.jpg",
+            "alt": "Ein Apfel",
+            "is_correct": true
+          },
+          {
+            "id": "img-banana",
+            "url": "https://r2.dmf.com/images/banana.jpg",
+            "alt": "Eine Banane",
+            "is_correct": false
+          },
+          {
+            "id": "img-orange",
+            "url": "https://r2.dmf.com/images/orange.jpg",
+            "alt": "Eine Orange",
+            "is_correct": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Color Identification (A1)",
+      "difficulty": 2,
+      "audio_url": "https://r2.dmf.com/audio/a1-color-01.mp3",
+      "transcript": "Die Farbe ist rot.",
+      "translation": "Màu sắc là đỏ.",
+      "duration_seconds": 2,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Welche Farbe wird genannt?",
+        "options": ["rot", "blau", "grün", "gelb"],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Simple Question (A1)",
+      "difficulty": 2,
+      "audio_url": "https://r2.dmf.com/audio/a1-question-01.mp3",
+      "transcript": "Wie geht es dir?",
+      "translation": "Bạn khỏe không?",
+      "duration_seconds": 2,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Family Members (A1)",
+      "difficulty": 2,
+      "audio_url": "https://r2.dmf.com/audio/a1-family-01.mp3",
+      "transcript": "Das ist meine Mutter.",
+      "translation": "Đây là mẹ tôi.",
+      "duration_seconds": 2,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Daily Action - Running (A1)",
+      "difficulty": 2,
+      "audio_url": "https://r2.dmf.com/audio/a1-running-01.mp3",
+      "transcript": "Er läuft schnell.",
+      "translation": "Anh ấy chạy nhanh.",
+      "duration_seconds": 2,
+      "exercise_type": "audio_image",
+      "exercise_data": {
+        "images": [
+          {
+            "id": "img-running",
+            "url": "https://r2.dmf.com/images/running.jpg",
+            "alt": "Person läuft",
+            "is_correct": true
+          },
+          {
+            "id": "img-walking",
+            "url": "https://r2.dmf.com/images/walking.jpg",
+            "alt": "Person geht",
+            "is_correct": false
+          },
+          {
+            "id": "img-sitting",
+            "url": "https://r2.dmf.com/images/sitting.jpg",
+            "alt": "Person sitzt",
+            "is_correct": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Weather Today (A1)",
+      "difficulty": 2,
+      "audio_url": "https://r2.dmf.com/audio/a1-weather-01.mp3",
+      "transcript": "Das Wetter ist schön.",
+      "translation": "Thời tiết đẹp.",
+      "duration_seconds": 2,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Wie ist das Wetter?",
+        "options": ["schön", "schlecht", "kalt", "heiß"],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Introduction Dialogue (A2)",
+      "difficulty": 3,
+      "audio_url": "https://r2.dmf.com/audio/a2-intro-01.mp3",
+      "transcript": "Ich heiße Anna und komme aus Deutschland.",
+      "translation": "Tôi tên là Anna và đến từ Đức.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Time Expression (A2)",
+      "difficulty": 3,
+      "audio_url": "https://r2.dmf.com/audio/a2-time-01.mp3",
+      "transcript": "Es ist halb drei.",
+      "translation": "Bây giờ là hai rưỡi.",
+      "duration_seconds": 2,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Restaurant Order (A2)",
+      "difficulty": 3,
+      "audio_url": "https://r2.dmf.com/audio/a2-restaurant-01.mp3",
+      "transcript": "Ich möchte ein Wasser, bitte.",
+      "translation": "Tôi muốn một ly nước, làm ơn.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Shopping Conversation (A2)",
+      "difficulty": 3,
+      "audio_url": "https://r2.dmf.com/audio/a2-shopping-01.mp3",
+      "transcript": "Wie viel kostet das?",
+      "translation": "Cái này giá bao nhiêu?",
+      "duration_seconds": 2,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Was fragt die Person?",
+        "options": [
+          "Wie viel kostet das?",
+          "Wo ist das?",
+          "Wann kommt das?",
+          "Warum ist das?"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Common Phrase (A2)",
+      "difficulty": 3,
+      "audio_url": "https://r2.dmf.com/audio/a2-phrase-01.mp3",
+      "transcript": "Ich gehe nach Hause.",
+      "translation": "Tôi về nhà.",
+      "duration_seconds": 2,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 8,
+            "options": ["nach", "zu", "in", "auf"],
+            "correct_answer": "nach"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Daily Routine (A2)",
+      "difficulty": 4,
+      "audio_url": "https://r2.dmf.com/audio/a2-routine-01.mp3",
+      "transcript": "Ich stehe um sieben Uhr auf.",
+      "translation": "Tôi thức dậy lúc bảy giờ.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Directions (A2)",
+      "difficulty": 4,
+      "audio_url": "https://r2.dmf.com/audio/a2-directions-01.mp3",
+      "transcript": "Gehen Sie geradeaus und dann links.",
+      "translation": "Đi thẳng và sau đó rẽ trái.",
+      "duration_seconds": 3,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Wohin soll man gehen?",
+        "options": [
+          "geradeaus und dann links",
+          "rechts und dann geradeaus",
+          "zurück und dann rechts",
+          "links und dann zurück"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Hobby Description (A2)",
+      "difficulty": 4,
+      "audio_url": "https://r2.dmf.com/audio/a2-hobby-01.mp3",
+      "transcript": "Ich spiele gerne Fußball.",
+      "translation": "Tôi thích chơi bóng đá.",
+      "duration_seconds": 2,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 10,
+            "options": ["gerne", "nie", "oft", "manchmal"],
+            "correct_answer": "gerne"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Weekend Plans (A2)",
+      "difficulty": 4,
+      "audio_url": "https://r2.dmf.com/audio/a2-weekend-01.mp3",
+      "transcript": "Am Wochenende besuche ich meine Freunde.",
+      "translation": "Cuối tuần tôi thăm bạn bè.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Activity Image (A2)",
+      "difficulty": 4,
+      "audio_url": "https://r2.dmf.com/audio/a2-activity-01.mp3",
+      "transcript": "Sie liest ein Buch im Park.",
+      "translation": "Cô ấy đọc sách ở công viên.",
+      "duration_seconds": 3,
+      "exercise_type": "audio_image",
+      "exercise_data": {
+        "images": [
+          {
+            "id": "img-reading-park",
+            "url": "https://r2.dmf.com/images/reading_park.jpg",
+            "alt": "Frau liest im Park",
+            "is_correct": true
+          },
+          {
+            "id": "img-reading-home",
+            "url": "https://r2.dmf.com/images/reading_home.jpg",
+            "alt": "Frau liest zu Hause",
+            "is_correct": false
+          },
+          {
+            "id": "img-writing",
+            "url": "https://r2.dmf.com/images/writing.jpg",
+            "alt": "Frau schreibt",
+            "is_correct": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Job Description (B1)",
+      "difficulty": 5,
+      "audio_url": "https://r2.dmf.com/audio/b1-job-01.mp3",
+      "transcript": "Ich arbeite als Lehrer in einer Schule.",
+      "translation": "Tôi làm giáo viên ở một trường học.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Past Event (B1)",
+      "difficulty": 5,
+      "audio_url": "https://r2.dmf.com/audio/b1-past-01.mp3",
+      "transcript": "Gestern habe ich einen Film gesehen.",
+      "translation": "Hôm qua tôi đã xem một bộ phim.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Travel Plans (B1)",
+      "difficulty": 5,
+      "audio_url": "https://r2.dmf.com/audio/b1-travel-01.mp3",
+      "transcript": "Ich möchte nächstes Jahr nach Italien reisen.",
+      "translation": "Tôi muốn đi du lịch Ý vào năm sau.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Opinion Expression (B1)",
+      "difficulty": 5,
+      "audio_url": "https://r2.dmf.com/audio/b1-opinion-01.mp3",
+      "transcript": "Meiner Meinung nach ist das eine gute Idee.",
+      "translation": "Theo ý kiến của tôi, đó là một ý tưởng hay.",
+      "duration_seconds": 4,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Was denkt die Person?",
+        "options": [
+          "Das ist eine gute Idee",
+          "Das ist eine schlechte Idee",
+          "Das ist keine Idee",
+          "Das weiß ich nicht"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Phrasal Verb (B1)",
+      "difficulty": 5,
+      "audio_url": "https://r2.dmf.com/audio/b1-phrasal-01.mp3",
+      "transcript": "Ich rufe dich morgen an.",
+      "translation": "Tôi sẽ gọi cho bạn vào ngày mai.",
+      "duration_seconds": 2,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 17,
+            "options": ["an", "auf", "aus", "ein"],
+            "correct_answer": "an"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Conditional Sentence (B1)",
+      "difficulty": 6,
+      "audio_url": "https://r2.dmf.com/audio/b1-conditional-01.mp3",
+      "transcript": "Wenn es regnet, bleibe ich zu Hause.",
+      "translation": "Nếu trời mưa, tôi ở nhà.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Idiom: Daumen drücken (B1)",
+      "difficulty": 6,
+      "audio_url": "https://r2.dmf.com/audio/b1-idiom-01.mp3",
+      "transcript": "Ich drücke dir die Daumen für die Prüfung!",
+      "translation": "Tôi chúc bạn may mắn cho kỳ thi!",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Complex Question (B1)",
+      "difficulty": 6,
+      "audio_url": "https://r2.dmf.com/audio/b1-complex-01.mp3",
+      "transcript": "Kannst du mir erklären, wie das funktioniert?",
+      "translation": "Bạn có thể giải thích cho tôi cái này hoạt động như thế nào không?",
+      "duration_seconds": 4,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Was möchte die Person?",
+        "options": [
+          "Eine Erklärung bekommen",
+          "Etwas kaufen",
+          "Nach Hause gehen",
+          "Essen bestellen"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Separable Verb (B1)",
+      "difficulty": 6,
+      "audio_url": "https://r2.dmf.com/audio/b1-separable-01.mp3",
+      "transcript": "Ich ziehe mich schnell um.",
+      "translation": "Tôi thay quần áo nhanh.",
+      "duration_seconds": 2,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 20,
+            "options": ["um", "an", "aus", "auf"],
+            "correct_answer": "um"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Scene: Library (B1)",
+      "difficulty": 6,
+      "audio_url": "https://r2.dmf.com/audio/b1-library-01.mp3",
+      "transcript": "Die Studenten lernen leise in der Bibliothek.",
+      "translation": "Các sinh viên học yên lặng trong thư viện.",
+      "duration_seconds": 4,
+      "exercise_type": "audio_image",
+      "exercise_data": {
+        "images": [
+          {
+            "id": "img-library",
+            "url": "https://r2.dmf.com/images/library.jpg",
+            "alt": "Studenten in Bibliothek",
+            "is_correct": true
+          },
+          {
+            "id": "img-classroom",
+            "url": "https://r2.dmf.com/images/classroom.jpg",
+            "alt": "Klassenzimmer",
+            "is_correct": false
+          },
+          {
+            "id": "img-cafe",
+            "url": "https://r2.dmf.com/images/cafe.jpg",
+            "alt": "Café",
+            "is_correct": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Formal Request (B2)",
+      "difficulty": 7,
+      "audio_url": "https://r2.dmf.com/audio/b2-formal-01.mp3",
+      "transcript": "Könnten Sie mir bitte helfen, dieses Formular auszufüllen?",
+      "translation": "Bạn có thể giúp tôi điền vào mẫu đơn này được không?",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Fast Speech: News (B2)",
+      "difficulty": 7,
+      "audio_url": "https://r2.dmf.com/audio/b2-news-01.mp3",
+      "transcript": "Die Regierung hat heute neue Maßnahmen angekündigt.",
+      "translation": "Chính phủ đã công bố các biện pháp mới hôm nay.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Academic Vocabulary (B2)",
+      "difficulty": 7,
+      "audio_url": "https://r2.dmf.com/audio/b2-academic-01.mp3",
+      "transcript": "Die Forschung zeigt interessante Ergebnisse.",
+      "translation": "Nghiên cứu cho thấy kết quả thú vị.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Inference: Emotion (B2)",
+      "difficulty": 7,
+      "audio_url": "https://r2.dmf.com/audio/b2-emotion-01.mp3",
+      "transcript": "Obwohl er lächelte, wirkte er traurig.",
+      "translation": "Mặc dù anh ấy cười, nhưng trông buồn.",
+      "duration_seconds": 3,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Wie fühlte sich die Person wirklich?",
+        "options": ["traurig", "glücklich", "wütend", "neutral"],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Academic Phrase (B2)",
+      "difficulty": 7,
+      "audio_url": "https://r2.dmf.com/audio/b2-phrase-01.mp3",
+      "transcript": "Im Hinblick auf die Entwicklung ist das wichtig.",
+      "translation": "Xét về sự phát triển, điều này quan trọng.",
+      "duration_seconds": 4,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 3,
+            "options": ["Hinblick", "Rücksicht", "Ansicht", "Sicht"],
+            "correct_answer": "Hinblick"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Debate Argument (B2)",
+      "difficulty": 8,
+      "audio_url": "https://r2.dmf.com/audio/b2-debate-01.mp3",
+      "transcript": "Einerseits ist das vorteilhaft, andererseits gibt es Risiken.",
+      "translation": "Một mặt, điều này có lợi, mặt khác có rủi ro.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Technical Description (B2)",
+      "difficulty": 8,
+      "audio_url": "https://r2.dmf.com/audio/b2-technical-01.mp3",
+      "transcript": "Das System wird automatisch aktualisiert und optimiert.",
+      "translation": "Hệ thống được cập nhật và tối ưu hóa tự động.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Nuanced Opinion (B2)",
+      "difficulty": 8,
+      "audio_url": "https://r2.dmf.com/audio/b2-nuanced-01.mp3",
+      "transcript": "Es kommt darauf an, wie man es betrachtet.",
+      "translation": "Tùy thuộc vào cách nhìn nhận.",
+      "duration_seconds": 3,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Was will die Person sagen?",
+        "options": [
+          "Es hängt von der Perspektive ab",
+          "Es ist immer richtig",
+          "Es ist immer falsch",
+          "Es ist egal"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Subjunctive (B2)",
+      "difficulty": 8,
+      "audio_url": "https://r2.dmf.com/audio/b2-subjunctive-01.mp3",
+      "transcript": "Ich würde gerne mitkommen, aber ich habe keine Zeit.",
+      "translation": "Tôi muốn đi cùng, nhưng tôi không có thời gian.",
+      "duration_seconds": 4,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 4,
+            "options": ["würde", "werde", "will", "wollte"],
+            "correct_answer": "würde"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Abstract Concept (B2)",
+      "difficulty": 8,
+      "audio_url": "https://r2.dmf.com/audio/b2-abstract-01.mp3",
+      "transcript": "Freiheit bedeutet Verantwortung zu übernehmen.",
+      "translation": "Tự do có nghĩa là chịu trách nhiệm.",
+      "duration_seconds": 3,
+      "exercise_type": "audio_image",
+      "exercise_data": {
+        "images": [
+          {
+            "id": "img-freedom",
+            "url": "https://r2.dmf.com/images/freedom.jpg",
+            "alt": "Freiheit Symbol",
+            "is_correct": true
+          },
+          {
+            "id": "img-chain",
+            "url": "https://r2.dmf.com/images/chain.jpg",
+            "alt": "Kette",
+            "is_correct": false
+          },
+          {
+            "id": "img-prison",
+            "url": "https://r2.dmf.com/images/prison.jpg",
+            "alt": "Gefängnis",
+            "is_correct": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Literary Quote (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-literary-01.mp3",
+      "transcript": "Das Leben ist kein Ponyhof, sagte meine Großmutter immer.",
+      "translation": "Cuộc sống không dễ dàng, bà tôi luôn nói.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Complex Idiom (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-idiom-01.mp3",
+      "transcript": "Da liegt der Hund begraben - das ist der Kern des Problems.",
+      "translation": "Đó là cốt lõi của vấn đề.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Philosophical Statement (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-philosophy-01.mp3",
+      "transcript": "Die Wahrheit liegt oft zwischen den Extremen.",
+      "translation": "Sự thật thường nằm giữa các thái cực.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Historical Context (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-history-01.mp3",
+      "transcript": "Die industrielle Revolution veränderte die Gesellschaft grundlegend.",
+      "translation": "Cách mạng công nghiệp đã thay đổi xã hội một cách cơ bản.",
+      "duration_seconds": 5,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Nuanced Meaning (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-nuance-01.mp3",
+      "transcript": "Seine Worte klangen versöhnlich, doch sein Ton verriet Skepsis.",
+      "translation": "Lời nói của anh ấy nghe có vẻ hòa giải, nhưng giọng điệu tiết lộ sự hoài nghi.",
+      "duration_seconds": 4,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Was zeigt der Ton der Person?",
+        "options": ["Skepsis", "Freude", "Traurigkeit", "Wut"],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Advanced Grammar (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-grammar-01.mp3",
+      "transcript": "Indem man übt, verbessert man seine Fähigkeiten.",
+      "translation": "Bằng cách luyện tập, người ta cải thiện kỹ năng.",
+      "duration_seconds": 3,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 0,
+            "options": ["Indem", "Wenn", "Als", "Während"],
+            "correct_answer": "Indem"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Scientific Explanation (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-science-01.mp3",
+      "transcript": "Die Hypothese basiert auf empirischen Daten und theoretischen Annahmen.",
+      "translation": "Giả thuyết dựa trên dữ liệu thực nghiệm và các giả định lý thuyết.",
+      "duration_seconds": 5,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Subtle Difference (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-subtle-01.mp3",
+      "transcript": "Es besteht ein Unterschied zwischen Wissen und Weisheit.",
+      "translation": "Có sự khác biệt giữa kiến thức và trí tuệ.",
+      "duration_seconds": 4,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Worüber spricht die Person?",
+        "options": [
+          "Unterschied zwischen Wissen und Weisheit",
+          "Bedeutung von Bildung",
+          "Geschichte der Philosophie",
+          "Moderne Wissenschaft"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Rare Conjunction (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-conjunction-01.mp3",
+      "transcript": "Sofern keine Einwände bestehen, können wir fortfahren.",
+      "translation": "Nếu không có phản đối, chúng ta có thể tiếp tục.",
+      "duration_seconds": 4,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 0,
+            "options": ["Sofern", "Falls", "Wenn", "Obwohl"],
+            "correct_answer": "Sofern"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cultural Reference (C1)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/c1-culture-01.mp3",
+      "transcript": "Die Aufklärung prägte das moderne Denken nachhaltig.",
+      "translation": "Thời kỳ Khai sáng đã định hình tư duy hiện đại một cách bền vững.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Native Speed: Podcast (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-podcast-01.mp3",
+      "transcript": "Nichtsdestotrotz muss man die Konsequenzen sorgfältig abwägen, bevor man eine Entscheidung trifft.",
+      "translation": "Dù vậy, người ta phải cân nhắc hậu quả cẩn thận trước khi đưa ra quyết định.",
+      "duration_seconds": 6,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Fast Debate (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-debate-01.mp3",
+      "transcript": "Die Argumentation erscheint zwar schlüssig, jedoch fehlt es an empirischer Evidenz.",
+      "translation": "Lập luận có vẻ hợp lý, tuy nhiên thiếu bằng chứng thực nghiệm.",
+      "duration_seconds": 5,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Archaic Expression (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-archaic-01.mp3",
+      "transcript": "Dergestalt verhält es sich mit den meisten philosophischen Fragestellungen.",
+      "translation": "Đó là cách mà hầu hết các vấn đề triết học được đặt ra.",
+      "duration_seconds": 5,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Technical Jargon (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-jargon-01.mp3",
+      "transcript": "Die Metaanalyse zeigt signifikante Korrelationen zwischen den Variablen.",
+      "translation": "Phân tích tổng hợp cho thấy mối tương quan đáng kể giữa các biến số.",
+      "duration_seconds": 5,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Subtle Irony (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-irony-01.mp3",
+      "transcript": "Gewiss, die Lösung ist derart simpel, dass selbst ein Kind sie übersehen würde.",
+      "translation": "Chắc chắn, giải pháp đơn giản đến mức ngay cả trẻ con cũng sẽ bỏ qua.",
+      "duration_seconds": 5,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Was meint der Sprecher wirklich?",
+        "options": [
+          "Die Lösung ist kompliziert",
+          "Die Lösung ist einfach",
+          "Kinder verstehen es nicht",
+          "Es gibt keine Lösung"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Rare Vocabulary (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-vocab-01.mp3",
+      "transcript": "Die Quintessenz seiner Aussage liegt in der Betonung der Eigenverantwortung.",
+      "translation": "Cốt lõi của tuyên bố của ông nằm ở việc nhấn mạnh trách nhiệm cá nhân.",
+      "duration_seconds": 5,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 4,
+            "options": ["Quintessenz", "Bedeutung", "Meinung", "Idee"],
+            "correct_answer": "Quintessenz"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Literary Analysis (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-literary-01.mp3",
+      "transcript": "Kafkas Protagonist verkörpert die Entfremdung des modernen Menschen.",
+      "translation": "Nhân vật chính của Kafka thể hiện sự xa lánh của con người hiện đại.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Philosophical Paradox (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-paradox-01.mp3",
+      "transcript": "Je mehr wir wissen, desto bewusster wird uns unsere Unwissenheit.",
+      "translation": "Càng biết nhiều, chúng ta càng nhận thức được sự thiếu hiểu biết của mình.",
+      "duration_seconds": 4,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Contextual Nuance (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-context-01.mp3",
+      "transcript": "Seine Zurückhaltung deutet auf eine tiefgreifende Ambivalenz hin.",
+      "translation": "Sự dè dặt của anh ấy cho thấy sự mơ hồ sâu sắc.",
+      "duration_seconds": 4,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Was zeigt die Zurückhaltung?",
+        "options": [
+          "Ambivalenz",
+          "Sicherheit",
+          "Freude",
+          "Gleichgültigkeit"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Fill: Complex Structure (C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/c2-structure-01.mp3",
+      "transcript": "Ungeachtet dessen, was geschehen mag, bleiben wir standhaft.",
+      "translation": "Bất kể điều gì xảy ra, chúng ta vẫn kiên định.",
+      "duration_seconds": 4,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 0,
+            "options": ["Ungeachtet", "Trotz", "Wegen", "Ohne"],
+            "correct_answer": "Ungeachtet"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Mixed: Weather Idiom (A2-B1)",
+      "difficulty": 4,
+      "audio_url": "https://r2.dmf.com/audio/mixed-weather-01.mp3",
+      "transcript": "Es regnet in Strömen heute.",
+      "translation": "Hôm nay mưa như trút nước.",
+      "duration_seconds": 2,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Mixed: Technology (B1-B2)",
+      "difficulty": 6,
+      "audio_url": "https://r2.dmf.com/audio/mixed-tech-01.mp3",
+      "transcript": "Hast du das neueste Update installiert?",
+      "translation": "Bạn đã cài bản cập nhật mới nhất chưa?",
+      "duration_seconds": 3,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Worum geht es?",
+        "options": [
+          "Software Update",
+          "Neue Hardware",
+          "Internet Problem",
+          "Telefonanruf"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Mixed: Emotions (A1-A2)",
+      "difficulty": 2,
+      "audio_url": "https://r2.dmf.com/audio/mixed-emotion-01.mp3",
+      "transcript": "Ich bin sehr glücklich heute!",
+      "translation": "Hôm nay tôi rất vui!",
+      "duration_seconds": 2,
+      "exercise_type": "audio_image",
+      "exercise_data": {
+        "images": [
+          {
+            "id": "img-happy",
+            "url": "https://r2.dmf.com/images/happy.jpg",
+            "alt": "Glückliche Person",
+            "is_correct": true
+          },
+          {
+            "id": "img-sad",
+            "url": "https://r2.dmf.com/images/sad.jpg",
+            "alt": "Traurige Person",
+            "is_correct": false
+          },
+          {
+            "id": "img-angry",
+            "url": "https://r2.dmf.com/images/angry.jpg",
+            "alt": "Wütende Person",
+            "is_correct": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Mixed: Health (B2-C1)",
+      "difficulty": 8,
+      "audio_url": "https://r2.dmf.com/audio/mixed-health-01.mp3",
+      "transcript": "Regelmäßige Bewegung trägt zur Gesundheit bei.",
+      "translation": "Vận động thường xuyên góp phần vào sức khỏe.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Mixed: Environment (C1-C2)",
+      "difficulty": 9,
+      "audio_url": "https://r2.dmf.com/audio/mixed-environment-01.mp3",
+      "transcript": "Der Klimawandel erfordert unverzügliches Handeln.",
+      "translation": "Biến đổi khí hậu đòi hỏi hành động ngay lập tức.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Mixed: Education (A2-B1)",
+      "difficulty": 5,
+      "audio_url": "https://r2.dmf.com/audio/mixed-education-01.mp3",
+      "transcript": "Die Prüfung findet nächste Woche statt.",
+      "translation": "Kỳ thi diễn ra vào tuần sau.",
+      "duration_seconds": 3,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Wann ist die Prüfung?",
+        "options": [
+          "Nächste Woche",
+          "Heute",
+          "Morgen",
+          "Nächsten Monat"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Mixed: Food (A1-A2)",
+      "difficulty": 3,
+      "audio_url": "https://r2.dmf.com/audio/mixed-food-01.mp3",
+      "transcript": "Ich esse gerne Pizza und Pasta.",
+      "translation": "Tôi thích ăn pizza và mì ống.",
+      "duration_seconds": 3,
+      "exercise_type": "fill_blank",
+      "exercise_data": {
+        "blanks": [
+          {
+            "id": "blank-1",
+            "position": 10,
+            "options": ["gerne", "nicht", "manchmal", "nie"],
+            "correct_answer": "gerne"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Mixed: Sports (B1-B2)",
+      "difficulty": 7,
+      "audio_url": "https://r2.dmf.com/audio/mixed-sports-01.mp3",
+      "transcript": "Die Mannschaft hat das Spiel gewonnen.",
+      "translation": "Đội đã thắng trận đấu.",
+      "duration_seconds": 3,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    },
+    {
+      "title": "Mixed: Music (B2-C1)",
+      "difficulty": 8,
+      "audio_url": "https://r2.dmf.com/audio/mixed-music-01.mp3",
+      "transcript": "Beethovens Symphonien sind zeitlose Meisterwerke.",
+      "translation": "Các bản giao hưởng của Beethoven là những kiệt tác vượt thời gian.",
+      "duration_seconds": 4,
+      "exercise_type": "multiple_choice",
+      "exercise_data": {
+        "question": "Worüber wird gesprochen?",
+        "options": [
+          "Beethovens Musik",
+          "Moderne Musik",
+          "Rockmusik",
+          "Volksmusik"
+        ],
+        "correct_index": 0
+      }
+    },
+    {
+      "title": "Mixed: Science (C1-C2)",
+      "difficulty": 10,
+      "audio_url": "https://r2.dmf.com/audio/mixed-science-01.mp3",
+      "transcript": "Die Quantenmechanik revolutionierte unser Weltbild grundlegend.",
+      "translation": "Cơ học lượng tử đã cách mạng hóa thế giới quan của chúng ta một cách cơ bản.",
+      "duration_seconds": 5,
+      "exercise_type": "dictation",
+      "exercise_data": null
+    }
+  ]
+}

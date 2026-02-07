@@ -635,5 +635,810 @@
     "meaning_vi": "to decide, to settle",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:58:13.328Z"
+  },
+  {
+    "word": "freimachte",
+    "pos": "verb",
+    "meaning_vi": "Open",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:27:03.559Z"
+  },
+  {
+    "word": "vorliegen",
+    "pos": "verb",
+    "meaning_vi": "to exist, be present",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:33:28.259Z"
+  },
+  {
+    "word": "seiftest ein",
+    "pos": "verb",
+    "meaning_vi": "Most strongest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:52:42.862Z"
+  },
+  {
+    "word": "ersetzten",
+    "pos": "verb",
+    "meaning_vi": "Replace/replace with",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:08:29.092Z"
+  },
+  {
+    "word": "besetzet",
+    "pos": "verb",
+    "meaning_vi": "Occupied, Occupying",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:10:04.649Z"
+  },
+  {
+    "word": "besetzte",
+    "pos": "verb",
+    "meaning_vi": "Occupied",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:10:12.762Z"
+  },
+  {
+    "word": "besetzend",
+    "pos": "verb",
+    "meaning_vi": "Occupied",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:10:14.482Z"
+  },
+  {
+    "word": "zurückruft",
+    "pos": "verb",
+    "meaning_vi": "to call back",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:25:51.598Z"
+  },
+  {
+    "word": "entstandet",
+    "pos": "verb",
+    "meaning_vi": "Become, Originate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:34:20.474Z"
+  },
+  {
+    "word": "abdeckst",
+    "pos": "verb",
+    "meaning_vi": "to cover, to enclose",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:47:18.393Z"
+  },
+  {
+    "word": "zurückverfolgten",
+    "pos": "verb",
+    "meaning_vi": "Follow up, track back",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:10:07.512Z"
+  },
+  {
+    "word": "zurückverfolgt",
+    "pos": "verb",
+    "meaning_vi": "Follow back",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:10:12.264Z"
+  },
+  {
+    "word": "annektierend",
+    "pos": "verb",
+    "meaning_vi": "Attractive, charming",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:16:29.324Z"
+  },
+  {
+    "word": "ausprobiere",
+    "pos": "verb",
+    "meaning_vi": "Try out",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:24:35.350Z"
+  },
+  {
+    "word": "avisierest",
+    "pos": "verb",
+    "meaning_vi": "to inform",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:24:52.636Z"
+  },
+  {
+    "word": "destabilisiert",
+    "pos": "verb",
+    "meaning_vi": "Become unstable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:31:08.048Z"
+  },
+  {
+    "word": "dirigierte",
+    "pos": "verb",
+    "meaning_vi": "to direct, to manage",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:31:58.185Z"
+  },
+  {
+    "word": "einbetoniert",
+    "pos": "verb",
+    "meaning_vi": "Fixed, settled",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:34:43.393Z"
+  },
+  {
+    "word": "explizierend",
+    "pos": "verb",
+    "meaning_vi": "Openly showing affection",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:37:34.437Z"
+  },
+  {
+    "word": "gruppieret",
+    "pos": "verb",
+    "meaning_vi": "to organize",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:40:57.582Z"
+  },
+  {
+    "word": "konstatierten",
+    "pos": "verb",
+    "meaning_vi": "to report or declare",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:49:14.972Z"
+  },
+  {
+    "word": "konvergiert",
+    "pos": "verb",
+    "meaning_vi": "to converge, to meet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:50:23.752Z"
+  },
+  {
+    "word": "koordinierest",
+    "pos": "verb",
+    "meaning_vi": "to coordinate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:50:32.540Z"
+  },
+  {
+    "word": "koordinierten",
+    "pos": "verb",
+    "meaning_vi": "to coordinate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:50:35.786Z"
+  },
+  {
+    "word": "penetrierest",
+    "pos": "verb",
+    "meaning_vi": "to penetrate, to enter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:03:46.469Z"
+  },
+  {
+    "word": "reflektierten",
+    "pos": "verb",
+    "meaning_vi": "to reflect, look back at",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:08:47.316Z"
+  },
+  {
+    "word": "reflektiert",
+    "pos": "verb",
+    "meaning_vi": "Reflect, observe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:08:49.009Z"
+  },
+  {
+    "word": "regenerierte",
+    "pos": "verb",
+    "meaning_vi": "Reborn, Rejuvenated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:09:06.473Z"
+  },
+  {
+    "word": "solidarisierend",
+    "pos": "verb",
+    "meaning_vi": "Supporting",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:13:01.013Z"
+  },
+  {
+    "word": "usurpiert",
+    "pos": "verb",
+    "meaning_vi": "To take over, occupy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:22:51.094Z"
+  },
+  {
+    "word": "einwickelt",
+    "pos": "verb",
+    "meaning_vi": "to wrap, to envelop",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:29:11.306Z"
+  },
+  {
+    "word": "versammle",
+    "pos": "verb",
+    "meaning_vi": "To gather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:38:43.188Z"
+  },
+  {
+    "word": "einläuft",
+    "pos": "verb",
+    "meaning_vi": "to come into effect, to take place",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:45:38.789Z"
+  },
+  {
+    "word": "fusionierte",
+    "pos": "verb",
+    "meaning_vi": "To merge, combine",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:45:57.054Z"
+  },
+  {
+    "word": "fusioniere",
+    "pos": "verb",
+    "meaning_vi": "Unite, join together",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:46:03.241Z"
+  },
+  {
+    "word": "fusioniert",
+    "pos": "verb",
+    "meaning_vi": "to unite, to merge",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:46:06.391Z"
+  },
+  {
+    "word": "generierten",
+    "pos": "verb",
+    "meaning_vi": "Generate, produce",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:46:27.918Z"
+  },
+  {
+    "word": "erläuterst",
+    "pos": "verb",
+    "meaning_vi": "to explain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:56:08.094Z"
+  },
+  {
+    "word": "gartet",
+    "pos": "verb",
+    "meaning_vi": "to take care of, to look after",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:31:24.807Z"
+  },
+  {
+    "word": "abfliegst",
+    "pos": "verb",
+    "meaning_vi": "Leave, depart",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:34:35.370Z"
+  },
+  {
+    "word": "kündigten",
+    "pos": "verb",
+    "meaning_vi": "to inform or notify",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:43:51.221Z"
+  },
+  {
+    "word": "kündigt an",
+    "pos": "verb",
+    "meaning_vi": "to announce, to inform",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:44:18.739Z"
+  },
+  {
+    "word": "klagten an",
+    "pos": "verb",
+    "meaning_vi": "To complain or grumble",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:44:45.407Z"
+  },
+  {
+    "word": "durchzwängest",
+    "pos": "verb",
+    "meaning_vi": "Forced to do something",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:11:18.806Z"
+  },
+  {
+    "word": "ungeeignete",
+    "pos": "adj",
+    "meaning_vi": "Unsuitable, inappropriate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T21:23:37.389Z"
+  },
+  {
+    "word": "anerkennten",
+    "pos": "verb",
+    "meaning_vi": "To acknowledge or recognize",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T21:59:08.092Z"
+  },
+  {
+    "word": "stigmatisiert",
+    "pos": "verb",
+    "meaning_vi": "To mark or label as a defect",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:51:41.440Z"
+  },
+  {
+    "word": "besetzter",
+    "pos": "adj",
+    "meaning_vi": "Occupied, Occupant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:59:46.040Z"
+  },
+  {
+    "word": "gemütlicheres",
+    "pos": "adj",
+    "meaning_vi": "Cozy, warm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:28:41.340Z"
+  },
+  {
+    "word": "gemütlichstes",
+    "pos": "adj",
+    "meaning_vi": "Cozy, intimate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:28:49.650Z"
+  },
+  {
+    "word": "schweigsamen",
+    "pos": "adj",
+    "meaning_vi": "Quiet, reserved",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:53:32.894Z"
+  },
+  {
+    "word": "Wertbegriffe",
+    "pos": "noun",
+    "meaning_vi": "Value concept",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:31:46.229Z"
+  },
+  {
+    "word": "abgerufen",
+    "pos": "verb",
+    "meaning_vi": "to call for, to ask for",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:40:10.269Z"
+  },
+  {
+    "word": "aufgebaut",
+    "pos": "verb",
+    "meaning_vi": "Built, constructed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:42:49.017Z"
+  },
+  {
+    "word": "beruht",
+    "pos": "verb",
+    "meaning_vi": "to rely on, to depend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:46:49.086Z"
+  },
+  {
+    "word": "erhöht",
+    "pos": "adj",
+    "meaning_vi": "Increased, raised",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:02:59.310Z"
+  },
+  {
+    "word": "hinreichendem",
+    "pos": "adj",
+    "meaning_vi": "Sufficient",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:47:18.726Z"
+  },
+  {
+    "word": "ungünstigen",
+    "pos": "adj",
+    "meaning_vi": "Unfavorable, disadvantageous",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:16:52.986Z"
+  },
+  {
+    "word": "versetzt",
+    "pos": "verb",
+    "meaning_vi": "to set up, to install",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:19:17.930Z"
+  },
+  {
+    "word": "versetztes",
+    "pos": "adj",
+    "meaning_vi": "Separated, divorced",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:20:45.143Z"
+  },
+  {
+    "word": "zusammenhängendes",
+    "pos": "adj",
+    "meaning_vi": "Together belonging",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:07:33.909Z"
+  },
+  {
+    "word": "aufgesetzte",
+    "pos": "adj",
+    "meaning_vi": "Extended, added",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:20:50.578Z"
+  },
+  {
+    "word": "steigendem",
+    "pos": "adj",
+    "meaning_vi": "Increasing, growing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:18:33.677Z"
+  },
+  {
+    "word": "erstaunliche",
+    "pos": "adj",
+    "meaning_vi": "Surprising, Astonishing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:11:56.094Z"
+  },
+  {
+    "word": "beruhen",
+    "pos": "verb",
+    "meaning_vi": "Reliable, Trustworthy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:59:37.430Z"
+  },
+  {
+    "word": "heraufsetzen",
+    "pos": "verb",
+    "meaning_vi": "Raise, support",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T19:28:28.785Z"
+  },
+  {
+    "word": "unschädlichere",
+    "pos": "adj",
+    "meaning_vi": "Useless, harmless",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:26:03.293Z"
+  },
+  {
+    "word": "umkehrbar",
+    "pos": "adj",
+    "meaning_vi": "Can be turned around",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:28:03.059Z"
+  },
+  {
+    "word": "großzügiger",
+    "pos": "adj",
+    "meaning_vi": "Generous, liberal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:44:28.733Z"
+  },
+  {
+    "word": "übereinstimmen",
+    "pos": "verb",
+    "meaning_vi": "Agree",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:03:45.782Z"
+  },
+  {
+    "word": "geklemmt",
+    "pos": "verb",
+    "meaning_vi": "Locked, confined",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:16:09.281Z"
+  },
+  {
+    "word": "gliedret",
+    "pos": "verb",
+    "meaning_vi": "to cut, to divide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:59:30.953Z"
+  },
+  {
+    "word": "ausbaut",
+    "pos": "verb",
+    "meaning_vi": "to expand, to develop",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:04:33.888Z"
+  },
+  {
+    "word": "ausbaute",
+    "pos": "verb",
+    "meaning_vi": "to expand or enlarge",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:04:56.268Z"
+  },
+  {
+    "word": "betrachtetes",
+    "pos": "adj",
+    "meaning_vi": "Seen, viewed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:58:44.908Z"
+  },
+  {
+    "word": "eingehalten",
+    "pos": "verb",
+    "meaning_vi": "Maintain, Obey",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:59:29.483Z"
+  },
+  {
+    "word": "nachgeschaltet",
+    "pos": "verb",
+    "meaning_vi": "to switch on, to turn on",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:50:23.626Z"
+  },
+  {
+    "word": "ungenauste",
+    "pos": "adj",
+    "meaning_vi": "Uncertain, questionable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:13:08.654Z"
+  },
+  {
+    "word": "spürtest auf",
+    "pos": "verb",
+    "meaning_vi": "You would feel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:56:47.220Z"
+  },
+  {
+    "word": "beruhigte",
+    "pos": "verb",
+    "meaning_vi": "Become calm, soothe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:00:26.933Z"
+  },
+  {
+    "word": "beschäftigten",
+    "pos": "verb",
+    "meaning_vi": "to occupy, to be engaged",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:01:53.999Z"
+  },
+  {
+    "word": "machet durch",
+    "pos": "verb",
+    "meaning_vi": "Cut through, to cut",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:05:56.255Z"
+  },
+  {
+    "word": "stillgelegt",
+    "pos": "verb",
+    "meaning_vi": "Left behind, abandoned",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:32:51.359Z"
+  },
+  {
+    "word": "verteilst um",
+    "pos": "verb",
+    "meaning_vi": "to distribute, to share",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:35:04.900Z"
+  },
+  {
+    "word": "vermacht",
+    "pos": "verb",
+    "meaning_vi": "to be able to, to have the power to",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:39:22.687Z"
+  },
+  {
+    "word": "vermacht",
+    "pos": "adj",
+    "meaning_vi": "Strong, powerful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:39:24.503Z"
+  },
+  {
+    "word": "verzeigten",
+    "pos": "verb",
+    "meaning_vi": "to yield, to give in",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:42:35.425Z"
+  },
+  {
+    "word": "besichtigt",
+    "pos": "verb",
+    "meaning_vi": "visited, seen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:03:23.121Z"
+  },
+  {
+    "word": "erdrückest",
+    "pos": "verb",
+    "meaning_vi": "To press or squeeze",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:06:04.971Z"
+  },
+  {
+    "word": "verachtete",
+    "pos": "verb",
+    "meaning_vi": "Dislike, despise",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:13:06.092Z"
+  },
+  {
+    "word": "behütete",
+    "pos": "verb",
+    "meaning_vi": "to protect, take care of",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:17:19.686Z"
+  },
+  {
+    "word": "verhältst",
+    "pos": "verb",
+    "meaning_vi": "to behave, act",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:20:24.099Z"
+  },
+  {
+    "word": "liebevollster",
+    "pos": "adj",
+    "meaning_vi": "loving, caring",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:05:49.091Z"
+  },
+  {
+    "word": "rückwirkende",
+    "pos": "adj",
+    "meaning_vi": "Reversal, Retrospection",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:19:41.333Z"
+  },
+  {
+    "word": "stimmlosem",
+    "pos": "adj",
+    "meaning_vi": "Unhappy, unhappy person",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:28:20.693Z"
+  },
+  {
+    "word": "verlässlicheres",
+    "pos": "adj",
+    "meaning_vi": "Faithful, reliable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:34:01.628Z"
+  },
+  {
+    "word": "führte herbei",
+    "pos": "verb",
+    "meaning_vi": "Bring someone or something here",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:56:11.644Z"
+  },
+  {
+    "word": "homogenisierend",
+    "pos": "verb",
+    "meaning_vi": "Unifying",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:56:41.676Z"
+  },
+  {
+    "word": "konstruiere",
+    "pos": "verb",
+    "meaning_vi": "Build, create",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:59:00.283Z"
+  },
+  {
+    "word": "verdrängend",
+    "pos": "verb",
+    "meaning_vi": "Pushing someone away",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:06:27.632Z"
+  },
+  {
+    "word": "enthaltet",
+    "pos": "verb",
+    "meaning_vi": "to include, contain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:33:06.641Z"
+  },
+  {
+    "word": "entsprächest",
+    "pos": "verb",
+    "meaning_vi": "to match, correspond",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:34:48.938Z"
+  },
+  {
+    "word": "geschlungen",
+    "pos": "verb",
+    "meaning_vi": "To twist, turn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:48:32.376Z"
+  },
+  {
+    "word": "erschließest",
+    "pos": "verb",
+    "meaning_vi": "Open up, make accessible",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:06:30.315Z"
+  },
+  {
+    "word": "weisen nach",
+    "pos": "verb",
+    "meaning_vi": "to advise",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:10:07.137Z"
+  },
+  {
+    "word": "wies nach",
+    "pos": "verb",
+    "meaning_vi": "Follow, behave like",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:10:10.777Z"
+  },
+  {
+    "word": "fandet statt",
+    "pos": "verb",
+    "meaning_vi": "to meet, encounter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:13:18.871Z"
+  },
+  {
+    "word": "fändest statt",
+    "pos": "verb",
+    "meaning_vi": "Found, encountered",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:13:22.288Z"
+  },
+  {
+    "word": "umgibt",
+    "pos": "verb",
+    "meaning_vi": "Surrounds, surrounds",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:13:58.404Z"
+  },
+  {
+    "word": "verschmelzend",
+    "pos": "verb",
+    "meaning_vi": "Melt, dissolve",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:19:46.149Z"
+  },
+  {
+    "word": "erbärmliches",
+    "pos": "adj",
+    "meaning_vi": "Useless, worthless",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:15:20.489Z"
+  },
+  {
+    "word": "unangemessenes",
+    "pos": "adj",
+    "meaning_vi": "Unsuitable, inappropriate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:53:17.640Z"
+  },
+  {
+    "word": "unerklärliche",
+    "pos": "adj",
+    "meaning_vi": "Unexplainable, mysterious",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:05:19.051Z"
+  },
+  {
+    "word": "unterwürfigeren",
+    "pos": "adj",
+    "meaning_vi": "Submissive, obedient",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:34:26.944Z"
+  },
+  {
+    "word": "verderblichen",
+    "pos": "adj",
+    "meaning_vi": "Untrustworthy, corrupt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:49:10.067Z"
   }
 ]

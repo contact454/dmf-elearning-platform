@@ -96,5 +96,61 @@
     "meaning_vi": "Regtest",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:42:25.858Z"
+  },
+  {
+    "word": "abschirmtest",
+    "pos": "verb",
+    "meaning_vi": "abschirmen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:18:08.064Z"
+  },
+  {
+    "word": "paniertest",
+    "pos": "verb",
+    "meaning_vi": "Testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:02:06.605Z"
+  },
+  {
+    "word": "fehlbesetztest",
+    "pos": "verb",
+    "meaning_vi": "Fehlbesetztest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:17:57.316Z"
+  },
+  {
+    "word": "muntertest auf",
+    "pos": "verb",
+    "meaning_vi": "test",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:27:51.744Z"
+  },
+  {
+    "word": "klappertest",
+    "pos": "verb",
+    "meaning_vi": "Testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:09:01.494Z"
+  },
+  {
+    "word": "vormerktest",
+    "pos": "verb",
+    "meaning_vi": "Vorprüfung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:54:22.202Z"
+  },
+  {
+    "word": "beinhaltetest",
+    "pos": "verb",
+    "meaning_vi": "contain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:59:33.946Z"
+  },
+  {
+    "word": "europäisiertest",
+    "pos": "verb",
+    "meaning_vi": "Testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:52:58.036Z"
   }
 ]

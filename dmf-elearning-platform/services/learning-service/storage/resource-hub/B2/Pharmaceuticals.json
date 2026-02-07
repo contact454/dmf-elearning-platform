@@ -19,5 +19,166 @@
     "meaning_vi": "Medication",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T07:37:09.359Z"
+  },
+  {
+    "word": "Menthols",
+    "pos": "noun",
+    "meaning_vi": "Menthol",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:54:10.703Z"
+  },
+  {
+    "word": "Pestizides",
+    "pos": "noun",
+    "meaning_vi": "Pesticides",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:08:24.957Z"
+  },
+  {
+    "word": "Implantats",
+    "pos": "noun",
+    "meaning_vi": "Implant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:55:39.896Z"
+  },
+  {
+    "word": "Herbizids",
+    "pos": "noun",
+    "meaning_vi": "Herbicides",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:00:17.707Z"
+  },
+  {
+    "word": "Herbizides",
+    "pos": "noun",
+    "meaning_vi": "Herbicides",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:00:19.273Z"
+  },
+  {
+    "word": "Pentoxids",
+    "pos": "noun",
+    "meaning_vi": "Blood thinner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:38:33.269Z"
+  },
+  {
+    "word": "Suboxids",
+    "pos": "noun",
+    "meaning_vi": "Substitution therapy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:38:37.497Z"
+  },
+  {
+    "word": "Psychopharmakons",
+    "pos": "noun",
+    "meaning_vi": "Medicines",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:52:52.114Z"
+  },
+  {
+    "word": "Borazols",
+    "pos": "noun",
+    "meaning_vi": "Antibiotic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:25:15.446Z"
+  },
+  {
+    "word": "Antazida",
+    "pos": "noun",
+    "meaning_vi": "Antibiotic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:28:03.128Z"
+  },
+  {
+    "word": "Kortikoiden",
+    "pos": "noun",
+    "meaning_vi": "steroid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:40:50.182Z"
+  },
+  {
+    "word": "pharmazeutischer",
+    "pos": "adj",
+    "meaning_vi": "Chemical",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:14:11.595Z"
+  },
+  {
+    "word": "pharmazeutische",
+    "pos": "adj",
+    "meaning_vi": "Chemical",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:14:13.136Z"
+  },
+  {
+    "word": "Klathrates",
+    "pos": "noun",
+    "meaning_vi": "Medication",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:01:57.213Z"
+  },
+  {
+    "word": "Digitalisate",
+    "pos": "noun",
+    "meaning_vi": "to take digitalis",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:06:11.659Z"
+  },
+  {
+    "word": "bakteriziden",
+    "pos": "adj",
+    "meaning_vi": "Antibiotic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:49:33.958Z"
+  },
+  {
+    "word": "Chemotherapeutikums",
+    "pos": "noun",
+    "meaning_vi": "Treatment",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:18:14.982Z"
+  },
+  {
+    "word": "Therapeutikums",
+    "pos": "noun",
+    "meaning_vi": "Treatment",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:18:20.446Z"
+  },
+  {
+    "word": "Fluoracetaten",
+    "pos": "noun",
+    "meaning_vi": "Medicines",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:37:12.203Z"
+  },
+  {
+    "word": "medikamentöser",
+    "pos": "adj",
+    "meaning_vi": "medicinal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:04:26.380Z"
+  },
+  {
+    "word": "heparinisier",
+    "pos": "verb",
+    "meaning_vi": "to treat with heparin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:55:00.878Z"
+  },
+  {
+    "word": "entkoffeinierter",
+    "pos": "adj",
+    "meaning_vi": "decaffeinated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:12:09.713Z"
+  },
+  {
+    "word": "narkoleptisches",
+    "pos": "adj",
+    "meaning_vi": "sleep-inducing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:49:01.286Z"
   }
 ]

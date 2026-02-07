@@ -215,5 +215,698 @@
     "meaning_vi": "Wetter",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T05:11:30.293Z"
+  },
+  {
+    "word": "Konifere",
+    "pos": "noun",
+    "meaning_vi": "Bäume, Pflanzen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:14:54.921Z"
+  },
+  {
+    "word": "Bommel",
+    "pos": "noun",
+    "meaning_vi": "Kroton",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:27:58.761Z"
+  },
+  {
+    "word": "Almhütte",
+    "pos": "noun",
+    "meaning_vi": "Hütte in der Alpen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:35:45.260Z"
+  },
+  {
+    "word": "wiese ab",
+    "pos": "verb",
+    "meaning_vi": "Wiese, abwiesen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:36:15.341Z"
+  },
+  {
+    "word": "wiese aus",
+    "pos": "verb",
+    "meaning_vi": "Grasland",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:38:11.753Z"
+  },
+  {
+    "word": "wiese ein",
+    "pos": "verb",
+    "meaning_vi": "Wiese",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:39:04.798Z"
+  },
+  {
+    "word": "Herbste",
+    "pos": "noun",
+    "meaning_vi": "Gras, Wiese",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T11:30:28.284Z"
+  },
+  {
+    "word": "Holzquirl",
+    "pos": "noun",
+    "meaning_vi": "Holzlauschen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T11:48:37.932Z"
+  },
+  {
+    "word": "Hautarztes",
+    "pos": "noun",
+    "meaning_vi": "Arzt der Haut",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T14:23:45.262Z"
+  },
+  {
+    "word": "Waldhorn",
+    "pos": "noun",
+    "meaning_vi": "Waldhorn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T14:41:25.053Z"
+  },
+  {
+    "word": "Grashüpfers",
+    "pos": "noun",
+    "meaning_vi": "Grashüpfers sind Pflanzen, die sich an Hängen oder Steilen bewegen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T15:53:00.096Z"
+  },
+  {
+    "word": "Staubblatt",
+    "pos": "noun",
+    "meaning_vi": "Staub, Blatt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T17:53:24.459Z"
+  },
+  {
+    "word": "lichtfunkelnd",
+    "pos": "adj",
+    "meaning_vi": "leuchtend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T22:58:51.739Z"
+  },
+  {
+    "word": "weitverbreitet",
+    "pos": "adj",
+    "meaning_vi": "weit verbreitet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:56:24.160Z"
+  },
+  {
+    "word": "grünsten",
+    "pos": "adj",
+    "meaning_vi": "grünster, grüner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:24:17.611Z"
+  },
+  {
+    "word": "nebeligste",
+    "pos": "adj",
+    "meaning_vi": "nebeligsten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:25:28.322Z"
+  },
+  {
+    "word": "wüstem",
+    "pos": "adj",
+    "meaning_vi": "Wüste",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:39:27.221Z"
+  },
+  {
+    "word": "weisestem",
+    "pos": "adj",
+    "meaning_vi": "Gras",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:51:44.995Z"
+  },
+  {
+    "word": "seichtere",
+    "pos": "adj",
+    "meaning_vi": "dunkel, klar",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:56:20.288Z"
+  },
+  {
+    "word": "seichteste",
+    "pos": "adj",
+    "meaning_vi": "dunkel, trübe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:56:28.336Z"
+  },
+  {
+    "word": "grünlicherer",
+    "pos": "adj",
+    "meaning_vi": "grünlicher, grüner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:22:12.850Z"
+  },
+  {
+    "word": "grünlicheres",
+    "pos": "adj",
+    "meaning_vi": "grünlicher, grüner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:22:16.237Z"
+  },
+  {
+    "word": "grünlicheren",
+    "pos": "adj",
+    "meaning_vi": "grünlicher",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:22:17.870Z"
+  },
+  {
+    "word": "herrlichen",
+    "pos": "adj",
+    "meaning_vi": "schön, angenehm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:13:26.496Z"
+  },
+  {
+    "word": "Strands",
+    "pos": "noun",
+    "meaning_vi": "Stränge, Faden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:50:33.737Z"
+  },
+  {
+    "word": "Grünschnabels",
+    "pos": "noun",
+    "meaning_vi": "Grün, Schnabel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:21:23.944Z"
+  },
+  {
+    "word": "Wildnisse",
+    "pos": "noun",
+    "meaning_vi": "Unordentlichkeit, Ungezügigkeit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:45:51.373Z"
+  },
+  {
+    "word": "Erdböden",
+    "pos": "noun",
+    "meaning_vi": "Erde, Boden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:47:53.600Z"
+  },
+  {
+    "word": "Orakels",
+    "pos": "noun",
+    "meaning_vi": "Orakel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:53:33.586Z"
+  },
+  {
+    "word": "Waldmeisters",
+    "pos": "noun",
+    "meaning_vi": "Buchholz, Buchenwald",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:19:31.599Z"
+  },
+  {
+    "word": "Immergrüns",
+    "pos": "noun",
+    "meaning_vi": "grün, immer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:02:58.004Z"
+  },
+  {
+    "word": "Laichs",
+    "pos": "noun",
+    "meaning_vi": "junges Tier",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:11:34.173Z"
+  },
+  {
+    "word": "Gesträuche",
+    "pos": "noun",
+    "meaning_vi": "Pflanzengruppe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:20:53.561Z"
+  },
+  {
+    "word": "Nebenblatts",
+    "pos": "noun",
+    "meaning_vi": "Blatt neben einem Blatt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:22:03.709Z"
+  },
+  {
+    "word": "Staubblätter",
+    "pos": "noun",
+    "meaning_vi": "Staub, Blätter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:30:19.520Z"
+  },
+  {
+    "word": "Kirschbaumes",
+    "pos": "noun",
+    "meaning_vi": "Eiche",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:34:17.166Z"
+  },
+  {
+    "word": "Stromdichte",
+    "pos": "noun",
+    "meaning_vi": "stromdicht",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:58:32.379Z"
+  },
+  {
+    "word": "Stromdichten",
+    "pos": "noun",
+    "meaning_vi": "Wetter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:59:17.089Z"
+  },
+  {
+    "word": "blaustem",
+    "pos": "adj",
+    "meaning_vi": "Wetter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:42:08.860Z"
+  },
+  {
+    "word": "wilderes",
+    "pos": "adj",
+    "meaning_vi": "wildere, wilder",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:02:32.230Z"
+  },
+  {
+    "word": "verdunsteter",
+    "pos": "adj",
+    "meaning_vi": "verdunstet bedeutet etwas zu trocken werden oder zu schmelzen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:20:30.791Z"
+  },
+  {
+    "word": "Elementhäufigkeiten",
+    "pos": "noun",
+    "meaning_vi": "Frequenzen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:12:23.830Z"
+  },
+  {
+    "word": "Holzschutz",
+    "pos": "noun",
+    "meaning_vi": "Holzschutz ist ein Schutz vor Holzfeuer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:34:36.861Z"
+  },
+  {
+    "word": "pflanzlichem",
+    "pos": "adj",
+    "meaning_vi": "naturlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:44:20.849Z"
+  },
+  {
+    "word": "Atemlüfte",
+    "pos": "noun",
+    "meaning_vi": "Luft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:42:03.439Z"
+  },
+  {
+    "word": "einatomige",
+    "pos": "adj",
+    "meaning_vi": "Einatmig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:01:03.432Z"
+  },
+  {
+    "word": "üppigsten",
+    "pos": "adj",
+    "meaning_vi": "dichtest, dicht",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:04:01.114Z"
+  },
+  {
+    "word": "hellgrüner",
+    "pos": "adj",
+    "meaning_vi": "grün, hell",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:06:11.309Z"
+  },
+  {
+    "word": "hellgrünstes",
+    "pos": "adj",
+    "meaning_vi": "hellgrüner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:09:04.109Z"
+  },
+  {
+    "word": "hellgrüne",
+    "pos": "adj",
+    "meaning_vi": "braungrün",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:09:07.427Z"
+  },
+  {
+    "word": "hellgrünem",
+    "pos": "adj",
+    "meaning_vi": "grün, hell",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:09:12.335Z"
+  },
+  {
+    "word": "lindgrünen",
+    "pos": "adj",
+    "meaning_vi": "grün, lind",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:09:19.462Z"
+  },
+  {
+    "word": "elbischer",
+    "pos": "adj",
+    "meaning_vi": "von oder bezüglich der Elbe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:32:31.358Z"
+  },
+  {
+    "word": "endotherme",
+    "pos": "adj",
+    "meaning_vi": "in sich selbst wärme erzeugend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T19:45:52.159Z"
+  },
+  {
+    "word": "bergiger",
+    "pos": "adj",
+    "meaning_vi": "bergartig, mit Bergart",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T21:14:06.363Z"
+  },
+  {
+    "word": "bergige",
+    "pos": "adj",
+    "meaning_vi": "hochgelegenes, steiles Gelände",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T21:14:26.959Z"
+  },
+  {
+    "word": "stromführender",
+    "pos": "adj",
+    "meaning_vi": "regenförmig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:16:47.961Z"
+  },
+  {
+    "word": "Oberholz",
+    "pos": "noun",
+    "meaning_vi": "Hochwald",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:12:12.055Z"
+  },
+  {
+    "word": "nadelförmiges",
+    "pos": "adj",
+    "meaning_vi": "nadelartig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:13:36.917Z"
+  },
+  {
+    "word": "normotherme",
+    "pos": "adj",
+    "meaning_vi": "Mittlere Temperatur",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:00:39.136Z"
+  },
+  {
+    "word": "freiliegendes",
+    "pos": "adj",
+    "meaning_vi": "offen liegend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:11:15.863Z"
+  },
+  {
+    "word": "witterungsbeständigem",
+    "pos": "adj",
+    "meaning_vi": "wetterbeständig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:21:29.543Z"
+  },
+  {
+    "word": "Hirtinnen",
+    "pos": "noun",
+    "meaning_vi": "Weibliche Naturgeister oder Hexen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:35:14.914Z"
+  },
+  {
+    "word": "wunderschöner",
+    "pos": "adj",
+    "meaning_vi": "schön, wunderbar",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:03:42.503Z"
+  },
+  {
+    "word": "wunderschöne",
+    "pos": "adj",
+    "meaning_vi": "schöne Natur",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:03:44.271Z"
+  },
+  {
+    "word": "Ufern",
+    "pos": "noun",
+    "meaning_vi": "Küste",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:29:03.033Z"
+  },
+  {
+    "word": "Monden",
+    "pos": "noun",
+    "meaning_vi": "Mond",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:13:58.352Z"
+  },
+  {
+    "word": "Holländern",
+    "pos": "noun",
+    "meaning_vi": "Holländerwindmühle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:18:58.912Z"
+  },
+  {
+    "word": "Selenmangelkrankheiten",
+    "pos": "noun",
+    "meaning_vi": "Lichtkrankheiten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:46:01.137Z"
+  },
+  {
+    "word": "peripheres",
+    "pos": "adj",
+    "meaning_vi": "Umwelt, Randgebiet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:54:15.904Z"
+  },
+  {
+    "word": "starrstem",
+    "pos": "adj",
+    "meaning_vi": "Stern, Stamm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:27:11.835Z"
+  },
+  {
+    "word": "verwittere",
+    "pos": "verb",
+    "meaning_vi": "alter, abgenutzt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:42:05.972Z"
+  },
+  {
+    "word": "verwitter",
+    "pos": "verb",
+    "meaning_vi": "Verwittern",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:42:21.063Z"
+  },
+  {
+    "word": "holziger",
+    "pos": "adj",
+    "meaning_vi": "holzartig, aus Holz stammend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:56:51.263Z"
+  },
+  {
+    "word": "holziger",
+    "pos": "adj",
+    "meaning_vi": "Holzart oder -typ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:56:52.846Z"
+  },
+  {
+    "word": "holzigeres",
+    "pos": "adj",
+    "meaning_vi": "holziger, holzartig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:56:58.409Z"
+  },
+  {
+    "word": "holzigem",
+    "pos": "adj",
+    "meaning_vi": "holzig, holzartig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:57:19.861Z"
+  },
+  {
+    "word": "üppiges",
+    "pos": "adj",
+    "meaning_vi": "reichhaltig, dicht",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:39:47.437Z"
+  },
+  {
+    "word": "widriger",
+    "pos": "adj",
+    "meaning_vi": "ungünstig, unangenehm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:40:47.172Z"
+  },
+  {
+    "word": "windigeres",
+    "pos": "adj",
+    "meaning_vi": "mehr windig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:41:21.092Z"
+  },
+  {
+    "word": "ausgestorbener",
+    "pos": "adj",
+    "meaning_vi": "sterbender",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:10:59.026Z"
+  },
+  {
+    "word": "botanischer",
+    "pos": "adj",
+    "meaning_vi": "naturwissenschaftlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:39:29.217Z"
+  },
+  {
+    "word": "endemische",
+    "pos": "adj",
+    "meaning_vi": "eigentliches Heimatgebiet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:06:54.584Z"
+  },
+  {
+    "word": "entenartigen",
+    "pos": "adj",
+    "meaning_vi": "ähnlich, ähnliches Tier",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:10:12.698Z"
+  },
+  {
+    "word": "flockigeres",
+    "pos": "adj",
+    "meaning_vi": "mehr bewohnbar",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:39:04.053Z"
+  },
+  {
+    "word": "hauchdünne",
+    "pos": "adj",
+    "meaning_vi": "dünn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:20:03.329Z"
+  },
+  {
+    "word": "herbstlicher",
+    "pos": "adj",
+    "meaning_vi": "herbstig, ähnlich dem Herbst",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:25:03.951Z"
+  },
+  {
+    "word": "herbstlichem",
+    "pos": "adj",
+    "meaning_vi": "herbstlich, herbstartig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:25:12.100Z"
+  },
+  {
+    "word": "mondsüchtige",
+    "pos": "adj",
+    "meaning_vi": "naturverbunden, nachhaltig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:41:26.831Z"
+  },
+  {
+    "word": "rustikalste",
+    "pos": "adj",
+    "meaning_vi": "naturvoll, landschaftlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:39:14.711Z"
+  },
+  {
+    "word": "rustikale",
+    "pos": "adj",
+    "meaning_vi": "rücksichtslos, ungesteuert",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:39:23.835Z"
+  },
+  {
+    "word": "sehenswertesten",
+    "pos": "adj",
+    "meaning_vi": "sehr schön",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:59:08.495Z"
+  },
+  {
+    "word": "sommerlichen",
+    "pos": "adj",
+    "meaning_vi": "sommerlich, ähnlich dem Sommer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:10:24.066Z"
+  },
+  {
+    "word": "trächtige",
+    "pos": "adj",
+    "meaning_vi": "reich an Wasser",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:47:02.284Z"
+  },
+  {
+    "word": "silikatischsten",
+    "pos": "adj",
+    "meaning_vi": "schönsten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:14:29.757Z"
+  },
+  {
+    "word": "wasserscheuste",
+    "pos": "adj",
+    "meaning_vi": "Wasserablagerung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:08:49.527Z"
+  },
+  {
+    "word": "winterlichen",
+    "pos": "adj",
+    "meaning_vi": "ähnlich, ähnlichsehend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:14:59.391Z"
+  },
+  {
+    "word": "übernatürlicher",
+    "pos": "adj",
+    "meaning_vi": "natürlich, über",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:36:57.120Z"
+  },
+  {
+    "word": "überwachsener",
+    "pos": "adj",
+    "meaning_vi": "bedeckt, umgeben",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:38:39.136Z"
   }
 ]

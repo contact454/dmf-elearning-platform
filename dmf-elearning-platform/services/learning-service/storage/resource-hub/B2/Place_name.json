@@ -180,5 +180,327 @@
     "meaning_vi": "Small village",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:34:09.343Z"
+  },
+  {
+    "word": "Chalcedon",
+    "pos": "noun",
+    "meaning_vi": "City in Turkey",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:39:32.147Z"
+  },
+  {
+    "word": "Orvieto",
+    "pos": "noun",
+    "meaning_vi": "Italian town",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:42:04.116Z"
+  },
+  {
+    "word": "Klausen",
+    "pos": "noun",
+    "meaning_vi": "Lake",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:50:05.926Z"
+  },
+  {
+    "word": "Fenn",
+    "pos": "noun",
+    "meaning_vi": "River",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:19:51.396Z"
+  },
+  {
+    "word": "Waliser",
+    "pos": "noun",
+    "meaning_vi": "Swiss",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T14:02:40.167Z"
+  },
+  {
+    "word": "Flensers",
+    "pos": "noun",
+    "meaning_vi": "City in Schleswig-Holstein, Germany",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T20:22:16.793Z"
+  },
+  {
+    "word": "Uhüchen",
+    "pos": "noun",
+    "meaning_vi": "Mountain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T22:24:42.419Z"
+  },
+  {
+    "word": "ODESSA",
+    "pos": "noun",
+    "meaning_vi": "Port city",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:14:06.023Z"
+  },
+  {
+    "word": "Portales",
+    "pos": "noun",
+    "meaning_vi": "Gateway",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:47:35.528Z"
+  },
+  {
+    "word": "Strandes",
+    "pos": "noun",
+    "meaning_vi": "Beach",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:50:35.292Z"
+  },
+  {
+    "word": "Rüssels",
+    "pos": "noun",
+    "meaning_vi": "Rüsselsheim",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:59:24.806Z"
+  },
+  {
+    "word": "Heilands",
+    "pos": "noun",
+    "meaning_vi": "Heiliger Land",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:10:17.866Z"
+  },
+  {
+    "word": "Grabsteines",
+    "pos": "noun",
+    "meaning_vi": "Grave stone",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:22:30.621Z"
+  },
+  {
+    "word": "Sanatoriums",
+    "pos": "noun",
+    "meaning_vi": "Sanatorium",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:03:32.296Z"
+  },
+  {
+    "word": "Lazarettes",
+    "pos": "noun",
+    "meaning_vi": "Isolation hospital",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:05:51.060Z"
+  },
+  {
+    "word": "Nilbarsches",
+    "pos": "noun",
+    "meaning_vi": "Bar or inn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:12:06.641Z"
+  },
+  {
+    "word": "Bartenwales",
+    "pos": "noun",
+    "meaning_vi": "Wales",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:13:32.623Z"
+  },
+  {
+    "word": "Markörs",
+    "pos": "noun",
+    "meaning_vi": "Market",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:20:05.221Z"
+  },
+  {
+    "word": "Fennes",
+    "pos": "noun",
+    "meaning_vi": "Fens",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:23:12.600Z"
+  },
+  {
+    "word": "Rasthofs",
+    "pos": "noun",
+    "meaning_vi": "Station, halt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:25:36.694Z"
+  },
+  {
+    "word": "Steigs",
+    "pos": "noun",
+    "meaning_vi": "Mountain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:22:37.031Z"
+  },
+  {
+    "word": "Niederösterreich",
+    "pos": "name",
+    "meaning_vi": "Lower Austria",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:58:24.346Z"
+  },
+  {
+    "word": "Wolgametropole",
+    "pos": "noun",
+    "meaning_vi": "Wolga River Delta",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:06:28.443Z"
+  },
+  {
+    "word": "Rheines",
+    "pos": "noun",
+    "meaning_vi": "River",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:38:22.892Z"
+  },
+  {
+    "word": "Fundorts",
+    "pos": "noun",
+    "meaning_vi": "Port",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:50:49.018Z"
+  },
+  {
+    "word": "Memeler",
+    "pos": "noun",
+    "meaning_vi": "Memel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:43:31.348Z"
+  },
+  {
+    "word": "Bernsteines",
+    "pos": "noun",
+    "meaning_vi": "City",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:17:50.448Z"
+  },
+  {
+    "word": "wollener",
+    "pos": "adj",
+    "meaning_vi": "Wollen is a municipality in the district of Uelzen, Lower Saxony",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:45:48.722Z"
+  },
+  {
+    "word": "Amarantes",
+    "pos": "noun",
+    "meaning_vi": "Portuguese city",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:11:35.346Z"
+  },
+  {
+    "word": "Freibergits",
+    "pos": "noun",
+    "meaning_vi": "Mining town",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:59:02.071Z"
+  },
+  {
+    "word": "Karers",
+    "pos": "noun",
+    "meaning_vi": "Island",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:37:53.811Z"
+  },
+  {
+    "word": "Hualien",
+    "pos": "name",
+    "meaning_vi": "City in Taiwan",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:53:19.586Z"
+  },
+  {
+    "word": "Bellinzona",
+    "pos": "name",
+    "meaning_vi": "Swiss city",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:53:33.797Z"
+  },
+  {
+    "word": "Chiasso",
+    "pos": "name",
+    "meaning_vi": "Swiss town",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:53:47.394Z"
+  },
+  {
+    "word": "Baslers",
+    "pos": "noun",
+    "meaning_vi": "Basel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:55:10.858Z"
+  },
+  {
+    "word": "Düsseldorfer",
+    "pos": "adj",
+    "meaning_vi": "Person from Düsseldorf",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:00:11.131Z"
+  },
+  {
+    "word": "Dorpat",
+    "pos": "name",
+    "meaning_vi": "city in Estonia",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:07:43.740Z"
+  },
+  {
+    "word": "Arsenbergwerk",
+    "pos": "noun",
+    "meaning_vi": "Mine",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:09:10.587Z"
+  },
+  {
+    "word": "Arsoran",
+    "pos": "noun",
+    "meaning_vi": "River",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:10:10.027Z"
+  },
+  {
+    "word": "Fennen",
+    "pos": "noun",
+    "meaning_vi": "River",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:31:33.981Z"
+  },
+  {
+    "word": "Rotgüldenseen",
+    "pos": "noun",
+    "meaning_vi": "Red lake",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:48:26.229Z"
+  },
+  {
+    "word": "Lonsdaleiten",
+    "pos": "noun",
+    "meaning_vi": "Lonsdale",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:27:11.043Z"
+  },
+  {
+    "word": "Engerlingen",
+    "pos": "noun",
+    "meaning_vi": "town",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:31:23.522Z"
+  },
+  {
+    "word": "Clausthalits",
+    "pos": "noun",
+    "meaning_vi": "Town",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:38:20.207Z"
+  },
+  {
+    "word": "Triselans",
+    "pos": "noun",
+    "meaning_vi": "Mountain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:47:32.898Z"
+  },
+  {
+    "word": "Aachener",
+    "pos": "adj",
+    "meaning_vi": "City in North Rhine-Westphalia, Germany",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:15:28.078Z"
   }
 ]

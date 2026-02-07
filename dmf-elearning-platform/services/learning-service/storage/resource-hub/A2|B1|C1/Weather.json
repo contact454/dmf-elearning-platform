@@ -5,5 +5,33 @@
     "meaning_vi": "to freeze",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T12:34:15.274Z"
+  },
+  {
+    "word": "donnert",
+    "pos": "verb",
+    "meaning_vi": "Rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:56:10.259Z"
+  },
+  {
+    "word": "Sturms",
+    "pos": "noun",
+    "meaning_vi": "Storm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:04:50.509Z"
+  },
+  {
+    "word": "stürmischer",
+    "pos": "adj",
+    "meaning_vi": "Stormy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:30:22.180Z"
+  },
+  {
+    "word": "wolkigere",
+    "pos": "adj",
+    "meaning_vi": "Cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:20:59.392Z"
   }
 ]

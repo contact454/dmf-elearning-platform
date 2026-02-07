@@ -1,5 +1,7 @@
 import { Request, Response } from 'express';
 import { ListeningService } from '../services/ListeningService';
+import { updateProgress as updateSRSProgress } from '../lib/listening-srs';
+import { updateStreak } from '../services/streakService';
 
 const listeningService = new ListeningService();
 
@@ -210,6 +212,7 @@ export class ListeningController {
         });
       }
 
+      // Submit attempt to database
       const attempt = await listeningService.submitAttempt(exerciseId, userId, {
         userText,
         accuracy: accuracy || 0,
@@ -220,9 +223,30 @@ export class ListeningController {
         timeSpent: timeSpent || 0,
       });
 
+      // Update SRS progress
+      const srsResult = await updateSRSProgress(userId, exerciseId, {
+        correct: (accuracy || 0) >= 70, // 70%+ considered correct
+        accuracy_score: accuracy || 0,
+        time_spent_seconds: timeSpent || 0,
+      });
+
+      // Update streak if correct
+      if ((accuracy || 0) >= 70) {
+        await updateStreak(userId);
+      }
+
       return res.status(201).json({
         success: true,
-        data: attempt,
+        data: {
+          attempt,
+          srs: {
+            quality: srsResult.quality,
+            nextReviewAt: srsResult.nextReviewAt,
+            interval: srsResult.interval,
+            easeFactor: srsResult.easeFactor,
+            xpEarned: srsResult.xp_earned,
+          },
+        },
       });
     } catch (error) {
       console.error('Error submitting attempt:', error);

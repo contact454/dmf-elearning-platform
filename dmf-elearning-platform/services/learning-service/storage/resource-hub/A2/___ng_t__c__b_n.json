@@ -894,5 +894,614 @@
     "meaning_vi": "catch",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T05:10:54.550Z"
+  },
+  {
+    "word": "spinnest",
+    "pos": "verb",
+    "meaning_vi": "spinnest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:15:29.806Z"
+  },
+  {
+    "word": "krallen",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:21:09.839Z"
+  },
+  {
+    "word": "sporne an",
+    "pos": "verb",
+    "meaning_vi": "đẩy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:54:02.031Z"
+  },
+  {
+    "word": "schlugt vor",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:25:13.563Z"
+  },
+  {
+    "word": "entstand",
+    "pos": "verb",
+    "meaning_vi": "đã trở nên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:34:15.723Z"
+  },
+  {
+    "word": "durchzogen",
+    "pos": "verb",
+    "meaning_vi": "đổ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:44:43.682Z"
+  },
+  {
+    "word": "durchzöget",
+    "pos": "verb",
+    "meaning_vi": "thoát qua",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:45:08.660Z"
+  },
+  {
+    "word": "erhübe",
+    "pos": "verb",
+    "meaning_vi": "học",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:52:43.153Z"
+  },
+  {
+    "word": "höbe aus",
+    "pos": "verb",
+    "meaning_vi": "nâng lên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:54:39.425Z"
+  },
+  {
+    "word": "nagt",
+    "pos": "verb",
+    "meaning_vi": "nấu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:06:50.264Z"
+  },
+  {
+    "word": "mähest",
+    "pos": "verb",
+    "meaning_vi": "mạnh nhất",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:07:10.040Z"
+  },
+  {
+    "word": "wühle",
+    "pos": "verb",
+    "meaning_vi": "wù",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:10:56.244Z"
+  },
+  {
+    "word": "wühlten",
+    "pos": "verb",
+    "meaning_vi": "có, làm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:11:04.154Z"
+  },
+  {
+    "word": "wälze",
+    "pos": "verb",
+    "meaning_vi": "wälzen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:11:08.645Z"
+  },
+  {
+    "word": "juckten",
+    "pos": "verb",
+    "meaning_vi": "chạm, chà",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:18:58.290Z"
+  },
+  {
+    "word": "fischtet",
+    "pos": "verb",
+    "meaning_vi": "catch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:38:41.802Z"
+  },
+  {
+    "word": "tauend",
+    "pos": "verb",
+    "meaning_vi": "tạo",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:56:38.656Z"
+  },
+  {
+    "word": "tastet",
+    "pos": "verb",
+    "meaning_vi": "taste",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:56:51.082Z"
+  },
+  {
+    "word": "säumend",
+    "pos": "verb",
+    "meaning_vi": "trễ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:57:12.933Z"
+  },
+  {
+    "word": "mutieret",
+    "pos": "verb",
+    "meaning_vi": "biến đổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:00:45.400Z"
+  },
+  {
+    "word": "mutierst",
+    "pos": "verb",
+    "meaning_vi": "change",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:00:52.968Z"
+  },
+  {
+    "word": "rüttel durch",
+    "pos": "verb",
+    "meaning_vi": "rút",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:26:46.365Z"
+  },
+  {
+    "word": "rüttelt durch",
+    "pos": "verb",
+    "meaning_vi": "rút",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:27:07.154Z"
+  },
+  {
+    "word": "generierend",
+    "pos": "verb",
+    "meaning_vi": "tạo ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:46:23.067Z"
+  },
+  {
+    "word": "rüstete",
+    "pos": "verb",
+    "meaning_vi": "đã chuẩn bị",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:50:47.313Z"
+  },
+  {
+    "word": "schälet",
+    "pos": "verb",
+    "meaning_vi": "có vẻ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:51:16.732Z"
+  },
+  {
+    "word": "behinder",
+    "pos": "verb",
+    "meaning_vi": "chuyển động",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:51:46.222Z"
+  },
+  {
+    "word": "rangst",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:03:49.055Z"
+  },
+  {
+    "word": "schleudret",
+    "pos": "verb",
+    "meaning_vi": "sét",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:05:49.110Z"
+  },
+  {
+    "word": "federt ab",
+    "pos": "verb",
+    "meaning_vi": "bốc hơi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:17:35.233Z"
+  },
+  {
+    "word": "federten ab",
+    "pos": "verb",
+    "meaning_vi": "federten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:17:45.873Z"
+  },
+  {
+    "word": "schwankte",
+    "pos": "verb",
+    "meaning_vi": "đoán",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:24:24.990Z"
+  },
+  {
+    "word": "reiben ab",
+    "pos": "verb",
+    "meaning_vi": "rub",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:37:40.929Z"
+  },
+  {
+    "word": "reibe ab",
+    "pos": "verb",
+    "meaning_vi": "rub",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:37:45.620Z"
+  },
+  {
+    "word": "schlurfte",
+    "pos": "verb",
+    "meaning_vi": "làm phiền",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:49:44.049Z"
+  },
+  {
+    "word": "schwächte",
+    "pos": "verb",
+    "meaning_vi": "giảm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:53:18.938Z"
+  },
+  {
+    "word": "säuget",
+    "pos": "verb",
+    "meaning_vi": "milk",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:59:04.179Z"
+  },
+  {
+    "word": "tauget",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:59:52.931Z"
+  },
+  {
+    "word": "tobst",
+    "pos": "verb",
+    "meaning_vi": "tự hào",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:00:21.826Z"
+  },
+  {
+    "word": "krallten",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:04:17.434Z"
+  },
+  {
+    "word": "kralltet",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:04:23.427Z"
+  },
+  {
+    "word": "gekickt",
+    "pos": "verb",
+    "meaning_vi": "kicks",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:20:01.960Z"
+  },
+  {
+    "word": "scher",
+    "pos": "verb",
+    "meaning_vi": "sợ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T14:22:01.135Z"
+  },
+  {
+    "word": "gestr.",
+    "pos": "verb",
+    "meaning_vi": "go",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T01:10:41.433Z"
+  },
+  {
+    "word": "aktiveren",
+    "pos": "adj",
+    "meaning_vi": "động tác",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:24:01.838Z"
+  },
+  {
+    "word": "bewegt",
+    "pos": "adj",
+    "meaning_vi": "di chuyển",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:28:10.986Z"
+  },
+  {
+    "word": "bewegte",
+    "pos": "adj",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:29:15.649Z"
+  },
+  {
+    "word": "bewegten",
+    "pos": "adj",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:29:18.853Z"
+  },
+  {
+    "word": "wilderen",
+    "pos": "adj",
+    "meaning_vi": "có nghĩa là",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:02:34.076Z"
+  },
+  {
+    "word": "aufreibenderen",
+    "pos": "adj",
+    "meaning_vi": "cải thiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:15:41.743Z"
+  },
+  {
+    "word": "klemmt",
+    "pos": "verb",
+    "meaning_vi": "cản lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:16:15.686Z"
+  },
+  {
+    "word": "wob",
+    "pos": "verb",
+    "meaning_vi": "wob",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:56:29.083Z"
+  },
+  {
+    "word": "erstarrend",
+    "pos": "verb",
+    "meaning_vi": "dừng lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:38:31.848Z"
+  },
+  {
+    "word": "renn",
+    "pos": "verb",
+    "meaning_vi": "run",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:47:19.474Z"
+  },
+  {
+    "word": "spürte auf",
+    "pos": "verb",
+    "meaning_vi": "đã cảm nhận",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:56:43.658Z"
+  },
+  {
+    "word": "betätigt",
+    "pos": "verb",
+    "meaning_vi": "động tác",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:02:37.009Z"
+  },
+  {
+    "word": "bückest",
+    "pos": "verb",
+    "meaning_vi": "bẻ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:04:19.851Z"
+  },
+  {
+    "word": "erwecke",
+    "pos": "verb",
+    "meaning_vi": "rên, rỉ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:12:59.742Z"
+  },
+  {
+    "word": "leg hin",
+    "pos": "verb",
+    "meaning_vi": "go",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:19:15.942Z"
+  },
+  {
+    "word": "hortete",
+    "pos": "verb",
+    "meaning_vi": "mời",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:19:42.305Z"
+  },
+  {
+    "word": "äffen nach",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:25:37.085Z"
+  },
+  {
+    "word": "raubet",
+    "pos": "verb",
+    "meaning_vi": "đánh cắp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:27:30.114Z"
+  },
+  {
+    "word": "stierend",
+    "pos": "verb",
+    "meaning_vi": "đang đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:32:32.348Z"
+  },
+  {
+    "word": "stiert",
+    "pos": "verb",
+    "meaning_vi": "đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:32:35.559Z"
+  },
+  {
+    "word": "stierst",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:32:38.744Z"
+  },
+  {
+    "word": "wiederkäuend",
+    "pos": "verb",
+    "meaning_vi": "có lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:44:35.893Z"
+  },
+  {
+    "word": "spritzten ab",
+    "pos": "verb",
+    "meaning_vi": "rửa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:56:03.263Z"
+  },
+  {
+    "word": "sauget auf",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:59:37.749Z"
+  },
+  {
+    "word": "erdrückt",
+    "pos": "verb",
+    "meaning_vi": "nén ép",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:06:00.084Z"
+  },
+  {
+    "word": "melktet",
+    "pos": "verb",
+    "meaning_vi": "melt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:18:26.879Z"
+  },
+  {
+    "word": "rührigeren",
+    "pos": "adj",
+    "meaning_vi": "rối loạn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:19:54.461Z"
+  },
+  {
+    "word": "datiere",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:48:53.285Z"
+  },
+  {
+    "word": "abwicht",
+    "pos": "verb",
+    "meaning_vi": "nghị",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:20:48.431Z"
+  },
+  {
+    "word": "warft ab",
+    "pos": "verb",
+    "meaning_vi": "đẩy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:24:28.924Z"
+  },
+  {
+    "word": "betraf",
+    "pos": "verb",
+    "meaning_vi": "đã ảnh hưởng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:29:34.558Z"
+  },
+  {
+    "word": "schlugt entgegen",
+    "pos": "verb",
+    "meaning_vi": "bắn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:32:53.074Z"
+  },
+  {
+    "word": "entspringst",
+    "pos": "verb",
+    "meaning_vi": "spring",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:34:59.949Z"
+  },
+  {
+    "word": "entsprangt",
+    "pos": "verb",
+    "meaning_vi": "có sprung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:35:10.810Z"
+  },
+  {
+    "word": "fliehend",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:39:32.119Z"
+  },
+  {
+    "word": "rannt",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:47:59.999Z"
+  },
+  {
+    "word": "schlangen",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:48:43.861Z"
+  },
+  {
+    "word": "schlangst",
+    "pos": "verb",
+    "meaning_vi": "lên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:48:45.437Z"
+  },
+  {
+    "word": "verschlangen",
+    "pos": "verb",
+    "meaning_vi": "cong ngặt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:52:38.658Z"
+  },
+  {
+    "word": "williger",
+    "pos": "adj",
+    "meaning_vi": "có ý định",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:14:08.171Z"
+  },
+  {
+    "word": "willigerer",
+    "pos": "adj",
+    "meaning_vi": "có sức, có lực",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:14:11.259Z"
+  },
+  {
+    "word": "willigerem",
+    "pos": "adj",
+    "meaning_vi": "có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:14:17.728Z"
+  },
+  {
+    "word": "schwingt mit",
+    "pos": "verb",
+    "meaning_vi": "đoán",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:09:47.656Z"
   }
 ]

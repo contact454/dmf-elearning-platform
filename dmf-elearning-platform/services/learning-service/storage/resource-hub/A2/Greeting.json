@@ -1,0 +1,23 @@
+[
+  {
+    "word": "aber hallo",
+    "pos": "intj",
+    "meaning_vi": "Hello",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T01:10:53.517Z"
+  },
+  {
+    "word": "herzlichem",
+    "pos": "adj",
+    "meaning_vi": "Dear",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:27:33.609Z"
+  },
+  {
+    "word": "begrüsstet",
+    "pos": "verb",
+    "meaning_vi": "to greet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:04:09.999Z"
+  }
+]

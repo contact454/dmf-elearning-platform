@@ -47,5 +47,166 @@
     "meaning_vi": "Financial markets",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:23:12.544Z"
+  },
+  {
+    "word": "Globalisierungsfalle",
+    "pos": "noun",
+    "meaning_vi": "Trap for globalization",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:18:17.299Z"
+  },
+  {
+    "word": "Börsencrashes",
+    "pos": "noun",
+    "meaning_vi": "Market collapse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:00:41.350Z"
+  },
+  {
+    "word": "Ineffizienzen",
+    "pos": "noun",
+    "meaning_vi": "Inefficiency",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:08:34.654Z"
+  },
+  {
+    "word": "unwirtschaftlichster",
+    "pos": "adj",
+    "meaning_vi": "unprofitable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:07:57.592Z"
+  },
+  {
+    "word": "wirtschaftlicher",
+    "pos": "adj",
+    "meaning_vi": "Economic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:18:14.802Z"
+  },
+  {
+    "word": "Privatwirtschaften",
+    "pos": "noun",
+    "meaning_vi": "Private economy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:06:37.507Z"
+  },
+  {
+    "word": "vorindustrielle",
+    "pos": "adj",
+    "meaning_vi": "Pre-industrial",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:16:26.069Z"
+  },
+  {
+    "word": "ökonomischsten",
+    "pos": "adj",
+    "meaning_vi": "most economical",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:26:32.216Z"
+  },
+  {
+    "word": "ökonomischer",
+    "pos": "adj",
+    "meaning_vi": "Economic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:26:35.258Z"
+  },
+  {
+    "word": "makroökonomischen",
+    "pos": "adj",
+    "meaning_vi": "Macro economy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:31:07.239Z"
+  },
+  {
+    "word": "mikroökonomischer",
+    "pos": "adj",
+    "meaning_vi": "Micro economy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:31:10.368Z"
+  },
+  {
+    "word": "mikroökonomische",
+    "pos": "adj",
+    "meaning_vi": "Micro-economics",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:31:11.943Z"
+  },
+  {
+    "word": "Holzwirtschaft",
+    "pos": "noun",
+    "meaning_vi": "Wood economy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:17:01.916Z"
+  },
+  {
+    "word": "ökonomischeren",
+    "pos": "adj",
+    "meaning_vi": "economic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:11:37.785Z"
+  },
+  {
+    "word": "ökonomischerem",
+    "pos": "adj",
+    "meaning_vi": "Economic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:11:39.311Z"
+  },
+  {
+    "word": "ökonomische",
+    "pos": "adj",
+    "meaning_vi": "Economic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:11:40.875Z"
+  },
+  {
+    "word": "ökonomisches",
+    "pos": "adj",
+    "meaning_vi": "Economic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:11:42.419Z"
+  },
+  {
+    "word": "finanzschwache",
+    "pos": "adj",
+    "meaning_vi": "weak economy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:36:46.896Z"
+  },
+  {
+    "word": "finanzschwachen",
+    "pos": "adj",
+    "meaning_vi": "Weaknesses in finance",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:36:50.391Z"
+  },
+  {
+    "word": "wirtschaftsliberaleren",
+    "pos": "adj",
+    "meaning_vi": "more liberal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:18:56.306Z"
+  },
+  {
+    "word": "wirtschaftsliberalster",
+    "pos": "adj",
+    "meaning_vi": "liberal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:18:59.159Z"
+  },
+  {
+    "word": "wirtschaftsliberalstes",
+    "pos": "adj",
+    "meaning_vi": "liberalist",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:19:02.819Z"
+  },
+  {
+    "word": "wirtschaftsliberalen",
+    "pos": "adj",
+    "meaning_vi": "liberal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:19:13.345Z"
   }
 ]

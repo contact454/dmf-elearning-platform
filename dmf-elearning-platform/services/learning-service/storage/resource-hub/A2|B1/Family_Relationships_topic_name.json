@@ -145,5 +145,131 @@
     "meaning_vi": "Appear, seem",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:53:11.618Z"
+  },
+  {
+    "word": "versorgend",
+    "pos": "verb",
+    "meaning_vi": "Providing for, Supporting",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:55:19.503Z"
+  },
+  {
+    "word": "attestiert",
+    "pos": "verb",
+    "meaning_vi": "to confirm, to agree",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:23:43.683Z"
+  },
+  {
+    "word": "gefallet",
+    "pos": "verb",
+    "meaning_vi": "Fallen, failed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:32:23.535Z"
+  },
+  {
+    "word": "durchschaute",
+    "pos": "verb",
+    "meaning_vi": "Looked through, saw",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:10:41.524Z"
+  },
+  {
+    "word": "einbaute",
+    "pos": "verb",
+    "meaning_vi": "to build, construct",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:11:39.635Z"
+  },
+  {
+    "word": "beistehen",
+    "pos": "verb",
+    "meaning_vi": "to stand by someone or something",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T18:36:20.442Z"
+  },
+  {
+    "word": "verdrängen",
+    "pos": "verb",
+    "meaning_vi": "Push away, exclude",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:23:48.536Z"
+  },
+  {
+    "word": "herausbringen",
+    "pos": "verb",
+    "meaning_vi": "Bring out, reveal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:23:36.401Z"
+  },
+  {
+    "word": "beharrlich",
+    "pos": "adj",
+    "meaning_vi": "Persistent, stubborn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:24:31.997Z"
+  },
+  {
+    "word": "erteilst",
+    "pos": "verb",
+    "meaning_vi": "to share, to give",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:46:24.826Z"
+  },
+  {
+    "word": "beschützend",
+    "pos": "verb",
+    "meaning_vi": "Protective, Careful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:50:59.738Z"
+  },
+  {
+    "word": "legen ein",
+    "pos": "verb",
+    "meaning_vi": "to settle, establish",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:22:48.856Z"
+  },
+  {
+    "word": "beruhet",
+    "pos": "verb",
+    "meaning_vi": "to feel calm, to soothe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:47:31.812Z"
+  },
+  {
+    "word": "hinterzögest",
+    "pos": "verb",
+    "meaning_vi": "to be behind or lag behind",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:46:03.999Z"
+  },
+  {
+    "word": "vertriebe",
+    "pos": "verb",
+    "meaning_vi": "Leave, Expel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:53:22.109Z"
+  },
+  {
+    "word": "wüchsen aus",
+    "pos": "verb",
+    "meaning_vi": "to grow up",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:05:25.077Z"
+  },
+  {
+    "word": "weist nach",
+    "pos": "verb",
+    "meaning_vi": "Know, be aware of",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:10:08.993Z"
+  },
+  {
+    "word": "unterwerft",
+    "pos": "verb",
+    "meaning_vi": "to submit to or obey",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:16:11.608Z"
   }
 ]

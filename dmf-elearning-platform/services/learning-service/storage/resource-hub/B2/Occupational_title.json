@@ -33,5 +33,110 @@
     "meaning_vi": "nurse",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T03:38:35.017Z"
+  },
+  {
+    "word": "Baristas",
+    "pos": "noun",
+    "meaning_vi": "Specialist in coffee preparation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T22:25:32.868Z"
+  },
+  {
+    "word": "Baristai",
+    "pos": "noun",
+    "meaning_vi": "Coffee maker",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T22:25:34.469Z"
+  },
+  {
+    "word": "Käsemachers",
+    "pos": "noun",
+    "meaning_vi": "Cheese maker",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:31:18.231Z"
+  },
+  {
+    "word": "Müllerinnen",
+    "pos": "noun",
+    "meaning_vi": "millers",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:34:49.065Z"
+  },
+  {
+    "word": "Klempnerinnen",
+    "pos": "noun",
+    "meaning_vi": "Plumbers",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:34:59.201Z"
+  },
+  {
+    "word": "Schneiders",
+    "pos": "noun",
+    "meaning_vi": "Shoemaker",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:53:22.752Z"
+  },
+  {
+    "word": "Metzgers",
+    "pos": "noun",
+    "meaning_vi": "Butcher",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:12:05.973Z"
+  },
+  {
+    "word": "Sensenmannes",
+    "pos": "noun",
+    "meaning_vi": "Grass cutter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:44:56.008Z"
+  },
+  {
+    "word": "Klabautermanns",
+    "pos": "noun",
+    "meaning_vi": "clerk, administrator",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:03:58.821Z"
+  },
+  {
+    "word": "Dipl.-Ing.",
+    "pos": "noun",
+    "meaning_vi": "Engineer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:40:44.436Z"
+  },
+  {
+    "word": "Koproduzentin",
+    "pos": "noun",
+    "meaning_vi": "Producer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:32:07.196Z"
+  },
+  {
+    "word": "Karerin",
+    "pos": "noun",
+    "meaning_vi": "Sailor",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:37:55.408Z"
+  },
+  {
+    "word": "Schweinepriestern",
+    "pos": "noun",
+    "meaning_vi": "Pig priest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:24:02.468Z"
+  },
+  {
+    "word": "majorenner",
+    "pos": "adj",
+    "meaning_vi": "Head of a department",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:27:05.664Z"
+  },
+  {
+    "word": "tongaischerer",
+    "pos": "adj",
+    "meaning_vi": "Tailor",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:43:23.375Z"
   }
 ]

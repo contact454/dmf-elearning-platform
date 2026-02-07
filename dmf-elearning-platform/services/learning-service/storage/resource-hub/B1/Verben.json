@@ -124,5 +124,89 @@
     "meaning_vi": "teilen",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:18:13.386Z"
+  },
+  {
+    "word": "nähmen wahr",
+    "pos": "verb",
+    "meaning_vi": "nehmen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:32:22.030Z"
+  },
+  {
+    "word": "divergierst",
+    "pos": "verb",
+    "meaning_vi": "sich von etwas abweichen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:32:36.582Z"
+  },
+  {
+    "word": "paraphrasierend",
+    "pos": "verb",
+    "meaning_vi": "beschreiben",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:03:21.625Z"
+  },
+  {
+    "word": "validiere",
+    "pos": "verb",
+    "meaning_vi": "machen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:23:05.628Z"
+  },
+  {
+    "word": "transitive Verben",
+    "pos": "noun",
+    "meaning_vi": "Verben",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T16:18:43.955Z"
+  },
+  {
+    "word": "abgepackt",
+    "pos": "verb",
+    "meaning_vi": "abpacken",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:45:55.368Z"
+  },
+  {
+    "word": "kennzeichnetet",
+    "pos": "verb",
+    "meaning_vi": "zeigen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:15:19.348Z"
+  },
+  {
+    "word": "kennzeichnet",
+    "pos": "verb",
+    "meaning_vi": "biestehen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:15:28.045Z"
+  },
+  {
+    "word": "unterstellt",
+    "pos": "verb",
+    "meaning_vi": "annimt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:51:15.036Z"
+  },
+  {
+    "word": "verstellten",
+    "pos": "verb",
+    "meaning_vi": "verändern",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:40:41.588Z"
+  },
+  {
+    "word": "verbauest",
+    "pos": "verb",
+    "meaning_vi": "sprechen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:05:37.629Z"
+  },
+  {
+    "word": "verscheuchet",
+    "pos": "verb",
+    "meaning_vi": "verdrängen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:08:45.371Z"
   }
 ]

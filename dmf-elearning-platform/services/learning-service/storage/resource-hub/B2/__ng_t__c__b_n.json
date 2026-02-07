@@ -1104,5 +1104,1741 @@
     "meaning_vi": "có",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T05:05:18.517Z"
+  },
+  {
+    "word": "fixem",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:17:26.030Z"
+  },
+  {
+    "word": "abschirmtet",
+    "pos": "verb",
+    "meaning_vi": "tránh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:17:51.462Z"
+  },
+  {
+    "word": "abschirmte",
+    "pos": "verb",
+    "meaning_vi": "tránh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:18:12.917Z"
+  },
+  {
+    "word": "kauerten",
+    "pos": "verb",
+    "meaning_vi": "sitting",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:47:29.379Z"
+  },
+  {
+    "word": "einbette",
+    "pos": "verb",
+    "meaning_vi": "làm việc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:55:44.111Z"
+  },
+  {
+    "word": "versagest",
+    "pos": "verb",
+    "meaning_vi": "nghị định",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:56:58.990Z"
+  },
+  {
+    "word": "specke ab",
+    "pos": "verb",
+    "meaning_vi": "đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:58:36.176Z"
+  },
+  {
+    "word": "implodierest",
+    "pos": "verb",
+    "meaning_vi": "nghị",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:01:19.161Z"
+  },
+  {
+    "word": "rotztet",
+    "pos": "verb",
+    "meaning_vi": "tắt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:01:43.306Z"
+  },
+  {
+    "word": "abschlachtetet",
+    "pos": "verb",
+    "meaning_vi": "đập nát",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:07:08.523Z"
+  },
+  {
+    "word": "besetze",
+    "pos": "verb",
+    "meaning_vi": "làm việc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:10:06.235Z"
+  },
+  {
+    "word": "kotzte",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:12:46.735Z"
+  },
+  {
+    "word": "kacktest",
+    "pos": "verb",
+    "meaning_vi": "đẩy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:13:05.961Z"
+  },
+  {
+    "word": "vorhersiehst",
+    "pos": "verb",
+    "meaning_vi": "được dự đoán",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:15:33.417Z"
+  },
+  {
+    "word": "enterest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:18:57.010Z"
+  },
+  {
+    "word": "entrest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:18:58.567Z"
+  },
+  {
+    "word": "bestandest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:32:57.739Z"
+  },
+  {
+    "word": "bestündest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:33:08.357Z"
+  },
+  {
+    "word": "widerstehe",
+    "pos": "verb",
+    "meaning_vi": "có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:34:53.509Z"
+  },
+  {
+    "word": "abbuche",
+    "pos": "verb",
+    "meaning_vi": "hãy chợt nhận ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:46:03.517Z"
+  },
+  {
+    "word": "aushobt",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:54:53.261Z"
+  },
+  {
+    "word": "donnertet",
+    "pos": "verb",
+    "meaning_vi": "đập",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:55:53.117Z"
+  },
+  {
+    "word": "aushole",
+    "pos": "verb",
+    "meaning_vi": "mất đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:59:19.330Z"
+  },
+  {
+    "word": "mähtet",
+    "pos": "verb",
+    "meaning_vi": "mát",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:07:11.593Z"
+  },
+  {
+    "word": "mildrest",
+    "pos": "verb",
+    "meaning_vi": "ngồi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:07:33.505Z"
+  },
+  {
+    "word": "kacktest ab",
+    "pos": "verb",
+    "meaning_vi": "kacktest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:12:43.239Z"
+  },
+  {
+    "word": "akquirieret",
+    "pos": "verb",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:14:04.725Z"
+  },
+  {
+    "word": "amenagiertet",
+    "pos": "verb",
+    "meaning_vi": "phát triển",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:16:03.857Z"
+  },
+  {
+    "word": "jätest",
+    "pos": "verb",
+    "meaning_vi": "tự",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:19:19.021Z"
+  },
+  {
+    "word": "jätete",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:19:26.548Z"
+  },
+  {
+    "word": "kapiere",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:19:32.482Z"
+  },
+  {
+    "word": "attestiere",
+    "pos": "verb",
+    "meaning_vi": "bắt đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:23:34.819Z"
+  },
+  {
+    "word": "desavouiere",
+    "pos": "verb",
+    "meaning_vi": "đánh lừa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:30:10.682Z"
+  },
+  {
+    "word": "desavouierest",
+    "pos": "verb",
+    "meaning_vi": "đồng ý, chấp nhận",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:30:23.387Z"
+  },
+  {
+    "word": "dividierest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:32:58.430Z"
+  },
+  {
+    "word": "ejakulierest",
+    "pos": "verb",
+    "meaning_vi": "ejakulieren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:34:59.402Z"
+  },
+  {
+    "word": "ejakuliert",
+    "pos": "verb",
+    "meaning_vi": "thực hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:35:10.437Z"
+  },
+  {
+    "word": "graviertet",
+    "pos": "verb",
+    "meaning_vi": "tranh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:40:44.711Z"
+  },
+  {
+    "word": "kaputtrepariere",
+    "pos": "verb",
+    "meaning_vi": "trở lại làm việc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:44:14.624Z"
+  },
+  {
+    "word": "kaputtrepariert",
+    "pos": "verb",
+    "meaning_vi": "trở lại hoạt động",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:44:29.035Z"
+  },
+  {
+    "word": "kaputtreparieret",
+    "pos": "verb",
+    "meaning_vi": "trở về",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:44:36.297Z"
+  },
+  {
+    "word": "kollationiere",
+    "pos": "verb",
+    "meaning_vi": "để lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:46:25.165Z"
+  },
+  {
+    "word": "zappt",
+    "pos": "verb",
+    "meaning_vi": "đã bắt đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:54:54.508Z"
+  },
+  {
+    "word": "widerrieft",
+    "pos": "verb",
+    "meaning_vi": "thở",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:55:55.467Z"
+  },
+  {
+    "word": "oktroyierend",
+    "pos": "verb",
+    "meaning_vi": "quá khứ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:01:58.548Z"
+  },
+  {
+    "word": "paralysieret",
+    "pos": "verb",
+    "meaning_vi": "paralysieren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:03:10.338Z"
+  },
+  {
+    "word": "pressieret",
+    "pos": "verb",
+    "meaning_vi": "để nén",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:06:41.906Z"
+  },
+  {
+    "word": "prokrastinierest",
+    "pos": "verb",
+    "meaning_vi": "trễn trễ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:07:01.390Z"
+  },
+  {
+    "word": "prokrastinierte",
+    "pos": "verb",
+    "meaning_vi": "trễn trễ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:07:11.166Z"
+  },
+  {
+    "word": "regenerieret",
+    "pos": "verb",
+    "meaning_vi": "cải thiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:09:15.674Z"
+  },
+  {
+    "word": "sedieret",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:12:00.955Z"
+  },
+  {
+    "word": "repariert",
+    "pos": "verb",
+    "meaning_vi": "trở lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:15:50.927Z"
+  },
+  {
+    "word": "rotieret",
+    "pos": "verb",
+    "meaning_vi": "quay",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:15:56.720Z"
+  },
+  {
+    "word": "rotiertest",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:15:59.780Z"
+  },
+  {
+    "word": "spekulieret",
+    "pos": "verb",
+    "meaning_vi": "đặt ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:16:35.250Z"
+  },
+  {
+    "word": "systematisierte",
+    "pos": "verb",
+    "meaning_vi": "cải thiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:17:46.084Z"
+  },
+  {
+    "word": "spreiztest",
+    "pos": "verb",
+    "meaning_vi": "sử dụng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:18:45.973Z"
+  },
+  {
+    "word": "touchierest",
+    "pos": "verb",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:21:27.600Z"
+  },
+  {
+    "word": "transchierst",
+    "pos": "verb",
+    "meaning_vi": "tranh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:21:39.527Z"
+  },
+  {
+    "word": "transferieret",
+    "pos": "verb",
+    "meaning_vi": "được chuyển",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:21:58.712Z"
+  },
+  {
+    "word": "usurpierest",
+    "pos": "verb",
+    "meaning_vi": "được cướp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:22:33.677Z"
+  },
+  {
+    "word": "usurpierst",
+    "pos": "verb",
+    "meaning_vi": "được chiếm đoạt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:22:38.983Z"
+  },
+  {
+    "word": "besudele",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:25:51.356Z"
+  },
+  {
+    "word": "einkapsele",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:27:34.779Z"
+  },
+  {
+    "word": "funklest",
+    "pos": "verb",
+    "meaning_vi": "một cách",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:31:56.347Z"
+  },
+  {
+    "word": "sprenklest",
+    "pos": "verb",
+    "meaning_vi": "trộn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:36:39.275Z"
+  },
+  {
+    "word": "worfelest",
+    "pos": "verb",
+    "meaning_vi": "thể hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:39:35.089Z"
+  },
+  {
+    "word": "besicherest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:52:48.186Z"
+  },
+  {
+    "word": "fladert",
+    "pos": "verb",
+    "meaning_vi": "quay",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:57:38.889Z"
+  },
+  {
+    "word": "fordrest",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:58:11.311Z"
+  },
+  {
+    "word": "schachert",
+    "pos": "verb",
+    "meaning_vi": "mất đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:02:11.159Z"
+  },
+  {
+    "word": "schauertet",
+    "pos": "verb",
+    "meaning_vi": "đểt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:02:46.852Z"
+  },
+  {
+    "word": "schimmerest",
+    "pos": "verb",
+    "meaning_vi": "mọc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:03:13.017Z"
+  },
+  {
+    "word": "sickerest",
+    "pos": "verb",
+    "meaning_vi": "một",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:07:18.901Z"
+  },
+  {
+    "word": "steigerest",
+    "pos": "verb",
+    "meaning_vi": "nâng lên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:08:25.557Z"
+  },
+  {
+    "word": "steigre",
+    "pos": "verb",
+    "meaning_vi": "nâng lên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:08:27.200Z"
+  },
+  {
+    "word": "steigrest",
+    "pos": "verb",
+    "meaning_vi": "nâng lên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:08:33.400Z"
+  },
+  {
+    "word": "versicheret",
+    "pos": "verb",
+    "meaning_vi": "bảo vệ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:14:08.859Z"
+  },
+  {
+    "word": "federtet ab",
+    "pos": "verb",
+    "meaning_vi": "rơi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:17:44.276Z"
+  },
+  {
+    "word": "kupfret ab",
+    "pos": "verb",
+    "meaning_vi": "trở lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:18:23.995Z"
+  },
+  {
+    "word": "ausräucherest",
+    "pos": "verb",
+    "meaning_vi": "trộn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:19:41.495Z"
+  },
+  {
+    "word": "schupptest",
+    "pos": "verb",
+    "meaning_vi": "chuyển động",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:24:00.147Z"
+  },
+  {
+    "word": "leiteten ab",
+    "pos": "verb",
+    "meaning_vi": "nghe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:36:53.363Z"
+  },
+  {
+    "word": "abrieben",
+    "pos": "verb",
+    "meaning_vi": "mở",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:37:42.493Z"
+  },
+  {
+    "word": "abtötetest",
+    "pos": "verb",
+    "meaning_vi": "tử",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:38:09.263Z"
+  },
+  {
+    "word": "auferstandest",
+    "pos": "verb",
+    "meaning_vi": "đứng dậy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:41:37.000Z"
+  },
+  {
+    "word": "schmuste",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:51:20.234Z"
+  },
+  {
+    "word": "schnarchet",
+    "pos": "verb",
+    "meaning_vi": "sigh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:51:35.155Z"
+  },
+  {
+    "word": "schnäuzest",
+    "pos": "verb",
+    "meaning_vi": "sniff",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:52:19.105Z"
+  },
+  {
+    "word": "stampftest",
+    "pos": "verb",
+    "meaning_vi": "đẩy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:56:10.069Z"
+  },
+  {
+    "word": "starrtest",
+    "pos": "verb",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:56:32.562Z"
+  },
+  {
+    "word": "staube",
+    "pos": "verb",
+    "meaning_vi": "thổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:56:46.830Z"
+  },
+  {
+    "word": "stockten",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:58:04.105Z"
+  },
+  {
+    "word": "trotzest",
+    "pos": "verb",
+    "meaning_vi": "đã làm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:01:20.502Z"
+  },
+  {
+    "word": "checktest",
+    "pos": "verb",
+    "meaning_vi": "để kiểm tra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:07:57.788Z"
+  },
+  {
+    "word": "dealst",
+    "pos": "verb",
+    "meaning_vi": "đểst",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:08:22.232Z"
+  },
+  {
+    "word": "durchquertet",
+    "pos": "verb",
+    "meaning_vi": "đi qua",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:09:54.868Z"
+  },
+  {
+    "word": "durchschauet",
+    "pos": "verb",
+    "meaning_vi": "đọc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:10:12.774Z"
+  },
+  {
+    "word": "eincheckten",
+    "pos": "verb",
+    "meaning_vi": "đã kiểm tra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:11:56.565Z"
+  },
+  {
+    "word": "einchecket",
+    "pos": "verb",
+    "meaning_vi": "đã kiểm tra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:12:03.048Z"
+  },
+  {
+    "word": "startetest",
+    "pos": "verb",
+    "meaning_vi": "bắt đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:22:12.270Z"
+  },
+  {
+    "word": "sorgfältigsten",
+    "pos": "adj",
+    "meaning_vi": "đồng hành",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T12:19:52.010Z"
+  },
+  {
+    "word": "hochleistungsfähiger",
+    "pos": "adj",
+    "meaning_vi": "cạnh tranh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T19:11:04.065Z"
+  },
+  {
+    "word": "sinnier",
+    "pos": "verb",
+    "meaning_vi": "có ý nghĩa",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T21:23:55.579Z"
+  },
+  {
+    "word": "offenbaret",
+    "pos": "verb",
+    "meaning_vi": "mở ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T22:41:42.745Z"
+  },
+  {
+    "word": "verderblich",
+    "pos": "adj",
+    "meaning_vi": "rất xấu hổ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T00:53:41.182Z"
+  },
+  {
+    "word": "imposantes",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:16:33.586Z"
+  },
+  {
+    "word": "fügsamsten",
+    "pos": "adj",
+    "meaning_vi": "nghị sĩ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:48:22.008Z"
+  },
+  {
+    "word": "blankster",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:27:41.405Z"
+  },
+  {
+    "word": "lockererer",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:31:30.334Z"
+  },
+  {
+    "word": "flinkerer",
+    "pos": "adj",
+    "meaning_vi": "motions, movements",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:40:34.792Z"
+  },
+  {
+    "word": "schiefen",
+    "pos": "adj",
+    "meaning_vi": "quá",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:49:08.410Z"
+  },
+  {
+    "word": "ebenerem",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:52:36.970Z"
+  },
+  {
+    "word": "heuchlerischere",
+    "pos": "adj",
+    "meaning_vi": "quá khích",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:00:52.310Z"
+  },
+  {
+    "word": "deftigerem",
+    "pos": "adj",
+    "meaning_vi": "động",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:50:52.620Z"
+  },
+  {
+    "word": "deftigsten",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:50:59.637Z"
+  },
+  {
+    "word": "eiligsten",
+    "pos": "adj",
+    "meaning_vi": "đau",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:57:10.493Z"
+  },
+  {
+    "word": "deplaciertester",
+    "pos": "adj",
+    "meaning_vi": "đã di chuyển",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:02:21.799Z"
+  },
+  {
+    "word": "deplaciertesten",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:02:26.558Z"
+  },
+  {
+    "word": "deplazierterem",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:02:46.773Z"
+  },
+  {
+    "word": "behutsamste",
+    "pos": "adj",
+    "meaning_vi": "cẩn thận",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:16:00.481Z"
+  },
+  {
+    "word": "Transfers",
+    "pos": "noun",
+    "meaning_vi": "chuyển đổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:51:07.507Z"
+  },
+  {
+    "word": "Transits",
+    "pos": "noun",
+    "meaning_vi": "Di chuyển",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:51:10.715Z"
+  },
+  {
+    "word": "Streikes",
+    "pos": "noun",
+    "meaning_vi": "đầu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:30:20.035Z"
+  },
+  {
+    "word": "außerordentlicher",
+    "pos": "adj",
+    "meaning_vi": "quá đặc biệt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:43:44.854Z"
+  },
+  {
+    "word": "eherner",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:22:43.747Z"
+  },
+  {
+    "word": "schädlichem",
+    "pos": "adj",
+    "meaning_vi": "harmful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:52:27.517Z"
+  },
+  {
+    "word": "eleganterem",
+    "pos": "adj",
+    "meaning_vi": "quá",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:03:11.114Z"
+  },
+  {
+    "word": "ungünstigsten",
+    "pos": "adj",
+    "meaning_vi": "không lợi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:16:43.926Z"
+  },
+  {
+    "word": "Niobat",
+    "pos": "noun",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:45:39.109Z"
+  },
+  {
+    "word": "Tremor",
+    "pos": "noun",
+    "meaning_vi": "Lắc lư",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:58:19.950Z"
+  },
+  {
+    "word": "metamorph",
+    "pos": "adj",
+    "meaning_vi": "biến đổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:07:53.247Z"
+  },
+  {
+    "word": "einzigartigster",
+    "pos": "adj",
+    "meaning_vi": "độc nhất",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:24:42.384Z"
+  },
+  {
+    "word": "durstigste",
+    "pos": "adj",
+    "meaning_vi": "thirstiest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:53:54.258Z"
+  },
+  {
+    "word": "eloquentestes",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:56:31.144Z"
+  },
+  {
+    "word": "ignoranterem",
+    "pos": "adj",
+    "meaning_vi": "quá",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:04:26.622Z"
+  },
+  {
+    "word": "inkongruentestes",
+    "pos": "adj",
+    "meaning_vi": "có sự khác biệt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:13:28.795Z"
+  },
+  {
+    "word": "Tracer",
+    "pos": "noun",
+    "meaning_vi": "Theo dõi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:23:35.476Z"
+  },
+  {
+    "word": "charmantesten",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:31:25.529Z"
+  },
+  {
+    "word": "optimaler",
+    "pos": "adj",
+    "meaning_vi": "được tối ưu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:39:36.097Z"
+  },
+  {
+    "word": "frappanterer",
+    "pos": "adj",
+    "meaning_vi": "trộn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T19:45:32.066Z"
+  },
+  {
+    "word": "brillantester",
+    "pos": "adj",
+    "meaning_vi": "brillantest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T20:29:21.096Z"
+  },
+  {
+    "word": "abscheulicherer",
+    "pos": "adj",
+    "meaning_vi": "ghê tởm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:29:50.197Z"
+  },
+  {
+    "word": "faserigerem",
+    "pos": "adj",
+    "meaning_vi": "có thêm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:35:24.326Z"
+  },
+  {
+    "word": "schlagartigsten",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:50:15.419Z"
+  },
+  {
+    "word": "Aggregates",
+    "pos": "noun",
+    "meaning_vi": "chuyển đổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:41:31.111Z"
+  },
+  {
+    "word": "perfider",
+    "pos": "adj",
+    "meaning_vi": "trốn tránh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T05:15:37.742Z"
+  },
+  {
+    "word": "strapaziöserer",
+    "pos": "adj",
+    "meaning_vi": "một",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:25:16.187Z"
+  },
+  {
+    "word": "strapaziösesten",
+    "pos": "adj",
+    "meaning_vi": "quá",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:25:33.204Z"
+  },
+  {
+    "word": "leistungsfähigere",
+    "pos": "adj",
+    "meaning_vi": "có khả năng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:53:06.407Z"
+  },
+  {
+    "word": "leistungsfähigstem",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:53:18.659Z"
+  },
+  {
+    "word": "leistungsfähigem",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:53:25.083Z"
+  },
+  {
+    "word": "subtilsten",
+    "pos": "adj",
+    "meaning_vi": "nán",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:37:01.760Z"
+  },
+  {
+    "word": "anfälligsten",
+    "pos": "adj",
+    "meaning_vi": "nghèo",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:01:30.768Z"
+  },
+  {
+    "word": "desaströserer",
+    "pos": "adj",
+    "meaning_vi": "có hại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:18:01.854Z"
+  },
+  {
+    "word": "tollpatschigeren",
+    "pos": "adj",
+    "meaning_vi": "đã làm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:05:53.407Z"
+  },
+  {
+    "word": "tollpatschigsten",
+    "pos": "adj",
+    "meaning_vi": "đã làm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:06:02.881Z"
+  },
+  {
+    "word": "ausfielest",
+    "pos": "verb",
+    "meaning_vi": "rơi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:14:56.165Z"
+  },
+  {
+    "word": "bescheidenster",
+    "pos": "adj",
+    "meaning_vi": "n้อย nhất",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:22:38.536Z"
+  },
+  {
+    "word": "Aware",
+    "pos": "noun",
+    "meaning_vi": "biết",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:36:20.816Z"
+  },
+  {
+    "word": "schellest",
+    "pos": "verb",
+    "meaning_vi": "hát",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:56:39.091Z"
+  },
+  {
+    "word": "grausamstes",
+    "pos": "adj",
+    "meaning_vi": "cruellest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:00:44.721Z"
+  },
+  {
+    "word": "inkompatibelster",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:17:17.784Z"
+  },
+  {
+    "word": "rotestes",
+    "pos": "adj",
+    "meaning_vi": "protestieren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:31:42.543Z"
+  },
+  {
+    "word": "lesenswertesten",
+    "pos": "adj",
+    "meaning_vi": "được đọc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:34:00.126Z"
+  },
+  {
+    "word": "erfände",
+    "pos": "verb",
+    "meaning_vi": "đã tạo ra",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:47:00.363Z"
+  },
+  {
+    "word": "besticktet",
+    "pos": "verb",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:02:13.742Z"
+  },
+  {
+    "word": "boßten",
+    "pos": "verb",
+    "meaning_vi": "đã làm, đã cho",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:03:15.670Z"
+  },
+  {
+    "word": "demobilisiere",
+    "pos": "verb",
+    "meaning_vi": "giải phóng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:04:54.195Z"
+  },
+  {
+    "word": "demobilisieret",
+    "pos": "verb",
+    "meaning_vi": "dỡ bỏ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:04:58.993Z"
+  },
+  {
+    "word": "stellest klar",
+    "pos": "verb",
+    "meaning_vi": "được rõ ràng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:20:53.355Z"
+  },
+  {
+    "word": "picktest",
+    "pos": "verb",
+    "meaning_vi": "Thử nghiệm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:26:00.680Z"
+  },
+  {
+    "word": "prustetest",
+    "pos": "verb",
+    "meaning_vi": "thở",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:27:04.468Z"
+  },
+  {
+    "word": "ragend",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:27:07.761Z"
+  },
+  {
+    "word": "rücket",
+    "pos": "verb",
+    "meaning_vi": "đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:28:47.584Z"
+  },
+  {
+    "word": "spukend",
+    "pos": "verb",
+    "meaning_vi": "đang làm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:31:42.611Z"
+  },
+  {
+    "word": "spukest",
+    "pos": "verb",
+    "meaning_vi": "spoke",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:31:50.299Z"
+  },
+  {
+    "word": "spurtetest",
+    "pos": "verb",
+    "meaning_vi": "sốt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:32:09.780Z"
+  },
+  {
+    "word": "mehrtet",
+    "pos": "verb",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:52:35.149Z"
+  },
+  {
+    "word": "siezest",
+    "pos": "verb",
+    "meaning_vi": "thực hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:52:41.408Z"
+  },
+  {
+    "word": "abfertigend",
+    "pos": "verb",
+    "meaning_vi": "thể hiện sự đồng ý",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:53:26.784Z"
+  },
+  {
+    "word": "cremtest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:04:13.865Z"
+  },
+  {
+    "word": "erspartest",
+    "pos": "verb",
+    "meaning_vi": "tự nguyện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:06:43.411Z"
+  },
+  {
+    "word": "jobbtest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:09:35.184Z"
+  },
+  {
+    "word": "stürzet",
+    "pos": "verb",
+    "meaning_vi": "thử",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:11:58.919Z"
+  },
+  {
+    "word": "webt",
+    "pos": "verb",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:15:09.433Z"
+  },
+  {
+    "word": "crèmtet",
+    "pos": "verb",
+    "meaning_vi": "còn lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:15:39.528Z"
+  },
+  {
+    "word": "amüsantestem",
+    "pos": "adj",
+    "meaning_vi": "am hiểu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:29:05.150Z"
+  },
+  {
+    "word": "einlegtet",
+    "pos": "verb",
+    "meaning_vi": "đặt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:31:56.044Z"
+  },
+  {
+    "word": "eindrucksvollerem",
+    "pos": "adj",
+    "meaning_vi": "mehr",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:43:15.330Z"
+  },
+  {
+    "word": "eindrucksvollste",
+    "pos": "adj",
+    "meaning_vi": "được ấn tượng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:43:18.403Z"
+  },
+  {
+    "word": "eindrucksvolle",
+    "pos": "adj",
+    "meaning_vi": "được ấn tượng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:43:26.150Z"
+  },
+  {
+    "word": "maßvollsten",
+    "pos": "adj",
+    "meaning_vi": "có độ, phù hợp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:07:03.801Z"
+  },
+  {
+    "word": "dissoziierest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:50:12.069Z"
+  },
+  {
+    "word": "eloxiere",
+    "pos": "verb",
+    "meaning_vi": "mài nhám",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:50:53.359Z"
+  },
+  {
+    "word": "entteerend",
+    "pos": "verb",
+    "meaning_vi": "dễ chịu",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:51:28.108Z"
+  },
+  {
+    "word": "entteerst",
+    "pos": "verb",
+    "meaning_vi": "thể hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:51:34.116Z"
+  },
+  {
+    "word": "entteerest",
+    "pos": "verb",
+    "meaning_vi": "được quan tâm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:51:35.778Z"
+  },
+  {
+    "word": "mobilisierest",
+    "pos": "verb",
+    "meaning_vi": "động",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:00:04.485Z"
+  },
+  {
+    "word": "pexiere",
+    "pos": "verb",
+    "meaning_vi": "thực hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:01:28.516Z"
+  },
+  {
+    "word": "textetest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:04:47.077Z"
+  },
+  {
+    "word": "titriere",
+    "pos": "verb",
+    "meaning_vi": "trở lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:04:51.396Z"
+  },
+  {
+    "word": "translozierest",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:05:07.928Z"
+  },
+  {
+    "word": "versalzet",
+    "pos": "verb",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:08:27.144Z"
+  },
+  {
+    "word": "zankest",
+    "pos": "verb",
+    "meaning_vi": "có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:09:52.795Z"
+  },
+  {
+    "word": "dünke",
+    "pos": "verb",
+    "meaning_vi": "thực hiện",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:12:03.561Z"
+  },
+  {
+    "word": "sähet ab",
+    "pos": "verb",
+    "meaning_vi": "sợ hãi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:13:44.132Z"
+  },
+  {
+    "word": "hinauslehnest",
+    "pos": "verb",
+    "meaning_vi": "lên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:15:51.291Z"
+  },
+  {
+    "word": "böten feil",
+    "pos": "verb",
+    "meaning_vi": "để",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:38:35.107Z"
+  },
+  {
+    "word": "entrisset",
+    "pos": "verb",
+    "meaning_vi": "đến",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:06:16.984Z"
+  },
+  {
+    "word": "niederstoßend",
+    "pos": "verb",
+    "meaning_vi": "đập",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:10:56.002Z"
+  },
+  {
+    "word": "vorsehend",
+    "pos": "verb",
+    "meaning_vi": "sẽ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:20:57.257Z"
+  },
+  {
+    "word": "sah vor",
+    "pos": "verb",
+    "meaning_vi": "to look",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:21:07.021Z"
+  },
+  {
+    "word": "überschrittest",
+    "pos": "verb",
+    "meaning_vi": "đã vượt qua",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:24:22.209Z"
+  },
+  {
+    "word": "übertreffet",
+    "pos": "verb",
+    "meaning_vi": "trả lời",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:24:43.858Z"
+  },
+  {
+    "word": "funktionalisieret",
+    "pos": "verb",
+    "meaning_vi": "được tạo thành",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:39:14.150Z"
+  },
+  {
+    "word": "ausgemergelterer",
+    "pos": "adj",
+    "meaning_vi": "mất sức",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:10:11.443Z"
+  },
+  {
+    "word": "beengtem",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:17:44.614Z"
+  },
+  {
+    "word": "begabterem",
+    "pos": "adj",
+    "meaning_vi": "có khả năng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:18:34.149Z"
+  },
+  {
+    "word": "berechnendstes",
+    "pos": "adj",
+    "meaning_vi": "động từ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:25:09.340Z"
+  },
+  {
+    "word": "besorgtere",
+    "pos": "adj",
+    "meaning_vi": "mẹo",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:29:16.139Z"
+  },
+  {
+    "word": "bewundernswerterem",
+    "pos": "adj",
+    "meaning_vi": "có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:32:03.114Z"
+  },
+  {
+    "word": "biegsamem",
+    "pos": "adj",
+    "meaning_vi": "nối tiếp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:34:14.150Z"
+  },
+  {
+    "word": "couragierterer",
+    "pos": "adj",
+    "meaning_vi": "courageous",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:45:50.980Z"
+  },
+  {
+    "word": "defektester",
+    "pos": "adj",
+    "meaning_vi": "để lỗi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:46:42.694Z"
+  },
+  {
+    "word": "dringlichster",
+    "pos": "adj",
+    "meaning_vi": "quyết",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:57:00.465Z"
+  },
+  {
+    "word": "frappierenderer",
+    "pos": "adj",
+    "meaning_vi": "mehr",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:40:22.267Z"
+  },
+  {
+    "word": "frappierendstes",
+    "pos": "adj",
+    "meaning_vi": "có hiệu quả",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:40:33.909Z"
+  },
+  {
+    "word": "furchtbarerer",
+    "pos": "adj",
+    "meaning_vi": "có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:45:05.253Z"
+  },
+  {
+    "word": "horrender",
+    "pos": "adj",
+    "meaning_vi": "hành động",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:34:26.944Z"
+  },
+  {
+    "word": "interessantesten",
+    "pos": "adj",
+    "meaning_vi": "có phần đặc biệt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:47:06.490Z"
+  },
+  {
+    "word": "kontraproduktiver",
+    "pos": "adj",
+    "meaning_vi": "cản trở",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:03:13.021Z"
+  },
+  {
+    "word": "kurzsichtigere",
+    "pos": "adj",
+    "meaning_vi": "mehr",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:09:13.084Z"
+  },
+  {
+    "word": "opportunistischste",
+    "pos": "adj",
+    "meaning_vi": "có lợi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:58:25.395Z"
+  },
+  {
+    "word": "resolutes",
+    "pos": "adj",
+    "meaning_vi": "biến chất",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:32:52.301Z"
+  },
+  {
+    "word": "rutschigerem",
+    "pos": "adj",
+    "meaning_vi": "rutschigerem",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:39:41.614Z"
+  },
+  {
+    "word": "schlampigerem",
+    "pos": "adj",
+    "meaning_vi": "quá",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:48:53.114Z"
+  },
+  {
+    "word": "schneidbarstem",
+    "pos": "adj",
+    "meaning_vi": "cắt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:51:59.011Z"
+  },
+  {
+    "word": "schwindelerregendes",
+    "pos": "adj",
+    "meaning_vi": "một điều gì đó khiến người khác bị lừa dối",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:57:27.388Z"
+  },
+  {
+    "word": "selbstsüchtigsten",
+    "pos": "adj",
+    "meaning_vi": "thirsty",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:02:48.841Z"
+  },
+  {
+    "word": "speiüblerer",
+    "pos": "adj",
+    "meaning_vi": "có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:14:46.216Z"
+  },
+  {
+    "word": "spekulativsten",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:15:32.406Z"
+  },
+  {
+    "word": "spendableren",
+    "pos": "adj",
+    "meaning_vi": "có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:15:52.789Z"
+  },
+  {
+    "word": "unangemessenerer",
+    "pos": "adj",
+    "meaning_vi": "được",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:52:57.027Z"
+  },
+  {
+    "word": "ungeduldigeres",
+    "pos": "adj",
+    "meaning_vi": "thể thao",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:09:05.796Z"
+  },
+  {
+    "word": "ungeduldigstes",
+    "pos": "adj",
+    "meaning_vi": "nghị",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:09:14.017Z"
+  },
+  {
+    "word": "unverbesserlichsten",
+    "pos": "adj",
+    "meaning_vi": "có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:37:25.588Z"
+  },
+  {
+    "word": "verlausterem",
+    "pos": "adj",
+    "meaning_vi": "mất đi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:52:41.993Z"
   }
 ]

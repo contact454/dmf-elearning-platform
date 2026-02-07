@@ -236,5 +236,271 @@
     "meaning_vi": "go under",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T05:08:57.094Z"
+  },
+  {
+    "word": "geduldet",
+    "pos": "verb",
+    "meaning_vi": "Tolerate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:20:10.352Z"
+  },
+  {
+    "word": "kollationierte",
+    "pos": "verb",
+    "meaning_vi": "Discuss",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:46:14.987Z"
+  },
+  {
+    "word": "rezitierend",
+    "pos": "verb",
+    "meaning_vi": "to perform",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:10:42.597Z"
+  },
+  {
+    "word": "erstandet auf",
+    "pos": "verb",
+    "meaning_vi": "Understand",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:41:46.701Z"
+  },
+  {
+    "word": "große Sache",
+    "pos": "noun",
+    "meaning_vi": "Big thing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T19:54:05.418Z"
+  },
+  {
+    "word": "brachten mit",
+    "pos": "verb",
+    "meaning_vi": "to bring with",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T21:42:06.419Z"
+  },
+  {
+    "word": "Einstieg",
+    "pos": "noun",
+    "meaning_vi": "Entry point",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T23:25:35.649Z"
+  },
+  {
+    "word": "Kleinkinder",
+    "pos": "noun",
+    "meaning_vi": "Small children",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T23:59:01.593Z"
+  },
+  {
+    "word": "einfältige",
+    "pos": "adj",
+    "meaning_vi": "simple",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:27:14.009Z"
+  },
+  {
+    "word": "Schlüsselbeines",
+    "pos": "noun",
+    "meaning_vi": "elbow",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:20:27.265Z"
+  },
+  {
+    "word": "mehrere",
+    "pos": "pron",
+    "meaning_vi": "Several",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:40:05.505Z"
+  },
+  {
+    "word": "einfachste",
+    "pos": "adj",
+    "meaning_vi": "simplest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:54:55.607Z"
+  },
+  {
+    "word": "folgende",
+    "pos": "adj",
+    "meaning_vi": "Next",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:08:53.802Z"
+  },
+  {
+    "word": "gebundenen",
+    "pos": "adj",
+    "meaning_vi": "Bound, tied",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:13:13.337Z"
+  },
+  {
+    "word": "jeglicher",
+    "pos": "det",
+    "meaning_vi": "Everyone",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:24:46.425Z"
+  },
+  {
+    "word": "mögliche",
+    "pos": "adj",
+    "meaning_vi": "possible",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:37:30.930Z"
+  },
+  {
+    "word": "ganzes",
+    "pos": "adj",
+    "meaning_vi": "Whole",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:41:50.620Z"
+  },
+  {
+    "word": "vollständiger",
+    "pos": "adj",
+    "meaning_vi": "Full",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:19:32.118Z"
+  },
+  {
+    "word": "eingeengt",
+    "pos": "adj",
+    "meaning_vi": "Tight, crowded",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:33:29.387Z"
+  },
+  {
+    "word": "geschätzte",
+    "pos": "adj",
+    "meaning_vi": "estimated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:11:52.922Z"
+  },
+  {
+    "word": "langgestreckte",
+    "pos": "adj",
+    "meaning_vi": "Extended",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:10:38.861Z"
+  },
+  {
+    "word": "Steig",
+    "pos": "noun",
+    "meaning_vi": "Step",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:21:57.414Z"
+  },
+  {
+    "word": "protektiver",
+    "pos": "adj",
+    "meaning_vi": "Protective",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:16:47.538Z"
+  },
+  {
+    "word": "wachstes",
+    "pos": "adj",
+    "meaning_vi": "greatest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:40:09.773Z"
+  },
+  {
+    "word": "schonender",
+    "pos": "adj",
+    "meaning_vi": "Kind",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:35:55.841Z"
+  },
+  {
+    "word": "halbe",
+    "pos": "adj",
+    "meaning_vi": "Half",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:52:24.604Z"
+  },
+  {
+    "word": "tüchtige",
+    "pos": "adj",
+    "meaning_vi": "capable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:56:07.541Z"
+  },
+  {
+    "word": "ungefähren",
+    "pos": "adj",
+    "meaning_vi": "Approximate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:51:07.041Z"
+  },
+  {
+    "word": "eingeheimst",
+    "pos": "verb",
+    "meaning_vi": "to get used to",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:06:27.936Z"
+  },
+  {
+    "word": "erröteten",
+    "pos": "verb",
+    "meaning_vi": "become red",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:12:14.065Z"
+  },
+  {
+    "word": "spielt mit",
+    "pos": "verb",
+    "meaning_vi": "Play",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:23:55.003Z"
+  },
+  {
+    "word": "heraufsetzet",
+    "pos": "verb",
+    "meaning_vi": "Set",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:16:20.654Z"
+  },
+  {
+    "word": "aushärtest",
+    "pos": "verb",
+    "meaning_vi": "Hardest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:17:25.788Z"
+  },
+  {
+    "word": "betrafen",
+    "pos": "verb",
+    "meaning_vi": "to affect",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:29:36.142Z"
+  },
+  {
+    "word": "wüchsest aus",
+    "pos": "verb",
+    "meaning_vi": "grows up",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:05:23.251Z"
+  },
+  {
+    "word": "innige",
+    "pos": "adj",
+    "meaning_vi": "Intimate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:46:04.026Z"
+  },
+  {
+    "word": "verlaustester",
+    "pos": "adj",
+    "meaning_vi": "Lost child",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:52:43.561Z"
+  },
+  {
+    "word": "arbiträrer",
+    "pos": "adj",
+    "meaning_vi": "Arbitrary",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:53:25.530Z"
   }
 ]

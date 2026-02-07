@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  
+  "permissions": {
+    "allow": [
+      "Bash(pnpm *)",
+      "Bash(npm *)",
+      "Bash(git *)",
+      "Bash(prisma *)",
+      "Bash(node *)",
+      "Bash(npx *)",
+      "Bash(prettier *)",
+      "Bash(eslint *)",
+      "Bash(tsc *)",
+      "Bash(tsx *)",
+      "Bash(curl *)",
+      "Bash(cat *)",
+      "Bash(ls *)",
+      "Bash(ab *)",
+      "Read(**/*)",
+      "Edit(apps/**/*)",
+      "Edit(services/**/*)",
+      "Edit(prisma/**/*)",
+      "Edit(package.json)",
+      "Edit(package-lock.json)",
+      "Edit(pnpm-lock.yaml)",
+      "Edit(tsconfig.json)",
+      "Edit(next.config.ts)",
+      "Edit(*.md)",
+      "Edit(*.ts)",
+      "Edit(*.tsx)",
+      "Edit(*.js)",
+      "Edit(*.jsx)",
+      "Edit(*.json)",
+      "Edit(*.css)",
+      "Edit(.testing/**/*)"
+    ],
+    
+    "ask": [
+      "Bash(rm *)",
+      "Bash(git push *)",
+      "Edit(.env*)",
+      "Edit(prisma/schema.prisma)"
+    ],
+    
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo *)",
+      "Bash(curl * ~/.ssh/*)",
+      "Bash(curl * ~/.aws/*)",
+      "Bash(wget * ~/.ssh/*)",
+      "Bash(wget * ~/.aws/*)",
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(secrets/**)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Edit(.env)",
+      "Edit(.env.production)",
+      "Edit(.env.local)",
+      "Edit(node_modules/**)",
+      "Edit(.git/**)",
+      "Edit(~/.ssh/**)",
+      "Edit(~/.aws/**)"
+    ],
+    
+    "defaultMode": "plan"
+  },
+  
+  "env": {
+    "NODE_ENV": "development",
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "0",
+    "DISABLE_PROMPT_CACHING": "0"
+  },
+  
+  "attribution": {
+    "commit": "🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+    "pr": "🤖 Generated with Claude Code"
+  },
+  
+  "alwaysThinkingEnabled": false,
+  "showTurnDuration": true,
+  "respectGitignore": true
+}

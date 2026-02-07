@@ -12,5 +12,54 @@
     "meaning_vi": "Eat",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T01:53:10.893Z"
+  },
+  {
+    "word": "schnitzet",
+    "pos": "verb",
+    "meaning_vi": "to pound or crush",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:15:05.572Z"
+  },
+  {
+    "word": "geschnitzt",
+    "pos": "verb",
+    "meaning_vi": "to cut into small pieces",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:15:10.452Z"
+  },
+  {
+    "word": "versiegelte",
+    "pos": "verb",
+    "meaning_vi": "to grease",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:20:55.395Z"
+  },
+  {
+    "word": "zersetzt",
+    "pos": "adj",
+    "meaning_vi": "Deteriorate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:49:40.597Z"
+  },
+  {
+    "word": "Magensaftes",
+    "pos": "noun",
+    "meaning_vi": "Digestive juice",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:44:27.185Z"
+  },
+  {
+    "word": "raffiniertes",
+    "pos": "adj",
+    "meaning_vi": "Refined",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:49:57.506Z"
+  },
+  {
+    "word": "Pizzateige",
+    "pos": "noun",
+    "meaning_vi": "Pizza",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:29:41.143Z"
   }
 ]

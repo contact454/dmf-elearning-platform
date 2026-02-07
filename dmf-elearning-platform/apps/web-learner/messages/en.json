@@ -1,0 +1,190 @@
+{
+  "common": {
+    "appName": "DMF German Learning",
+    "tagline": "Learn German Intelligently",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "logout": "Logout",
+    "login": "Login",
+    "signup": "Sign Up",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "metadata": {
+    "title": "DMF German Learning - Learn German Intelligently",
+    "description": "AI-powered German learning platform from A1 to C2. 15,000+ vocabulary, Flashcards, Quizzes, and 24/7 AI Sensei support.",
+    "keywords": "learn German, German learning, flashcard, quiz, A1, A2, B1, B2, Goethe"
+  },
+  "hero": {
+    "badge": "Goethe Standard A1-C2",
+    "title": "Master",
+    "titleHighlight": "German",
+    "subtitle": "From A1 to C2",
+    "description": "Learn smartly with AI Sensei, intelligent Flashcards, and adaptive Quizzes. Conquer German with the Goethe standard.",
+    "stats": {
+      "vocabulary": "Vocabulary",
+      "lessons": "Lessons",
+      "aiSupport": "AI Support"
+    },
+    "cta": {
+      "tryFree": "Try Free",
+      "viewCourses": "View Courses"
+    },
+    "socialProof": {
+      "rating": "4.9/5",
+      "trustedBy": "Trusted by",
+      "students": "students"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "learn": "Learn",
+    "practice": "Practice",
+    "vocabulary": "Vocabulary",
+    "reading": "Reading",
+    "listening": "Listening",
+    "speaking": "Speaking",
+    "writing": "Writing",
+    "grammar": "Grammar",
+    "challenges": "Daily Challenges",
+    "leaderboard": "Leaderboard",
+    "analytics": "Analytics",
+    "achievements": "Achievements"
+  },
+  "practice": {
+    "vocabulary": {
+      "title": "Vocabulary Practice",
+      "description": "Build your German vocabulary with interactive exercises",
+      "startPractice": "Start Practice",
+      "difficulty": "Difficulty",
+      "category": "Category",
+      "progress": "Progress"
+    },
+    "reading": {
+      "title": "Reading Practice",
+      "description": "Improve your reading comprehension with German texts"
+    },
+    "listening": {
+      "title": "Listening Practice",
+      "description": "Train your ear with authentic German audio"
+    },
+    "speaking": {
+      "title": "Speaking Practice",
+      "description": "Practice pronunciation with AI feedback"
+    },
+    "writing": {
+      "title": "Writing Practice",
+      "description": "Enhance your writing skills with guided exercises"
+    },
+    "grammar": {
+      "title": "Grammar Quiz",
+      "description": "Master German grammar rules"
+    }
+  },
+  "challenges": {
+    "title": "Daily Challenges",
+    "description": "Complete daily tasks to earn rewards and maintain your streak",
+    "currentStreak": "Current Streak",
+    "days": "days",
+    "completedToday": "Completed Today",
+    "availableRewards": "Available Rewards",
+    "claimReward": "Claim Reward"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "description": "See how you rank against other learners",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "allTime": "All Time",
+    "rank": "Rank",
+    "username": "Username",
+    "points": "Points",
+    "level": "Level"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "description": "Track your learning milestones",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "progress": "Progress",
+    "earnedOn": "Earned on",
+    "categories": {
+      "vocabulary": "Vocabulary",
+      "grammar": "Grammar",
+      "reading": "Reading",
+      "listening": "Listening",
+      "speaking": "Speaking",
+      "writing": "Writing",
+      "streak": "Streak",
+      "social": "Social"
+    }
+  },
+  "analytics": {
+    "title": "Study Analytics",
+    "description": "Track your learning progress and insights",
+    "studyTime": "Study Time",
+    "accuracy": "Accuracy",
+    "wordsLearned": "Words Learned",
+    "lessonsCompleted": "Lessons Completed",
+    "weeklyProgress": "Weekly Progress",
+    "strengths": "Strengths",
+    "weaknesses": "Areas to Improve",
+    "recommendations": "Recommendations"
+  },
+  "profile": {
+    "title": "Profile",
+    "bio": "Bio",
+    "learningGoals": "Learning Goals",
+    "studyStreak": "Study Streak",
+    "totalPoints": "Total Points",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "preferences": "Preferences",
+    "notifications": "Notifications"
+  },
+  "auth": {
+    "loginTitle": "Welcome Back",
+    "loginDescription": "Log in to continue your German learning journey",
+    "signupTitle": "Create Account",
+    "signupDescription": "Start learning German today",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember Me",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginButton": "Log In",
+    "signupButton": "Sign Up",
+    "orContinueWith": "Or continue with",
+    "googleSignIn": "Sign in with Google"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "unauthorized": "You must be logged in to access this page.",
+    "notFound": "Page not found.",
+    "validationError": "Please check your input and try again."
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 DMF German Learning. All rights reserved.",
+    "followUs": "Follow Us"
+  }
+}

@@ -1647,3 +1647,98 @@ export async function getRecommendation(userId: string): Promise<RecommendedActi
   return await fetchWithRetry<RecommendedActivity>(`${BASE_URL}/hub/${userId}/recommendation`);
 }
 
+// ============================================================================
+// LEADERBOARD
+// ============================================================================
+
+export interface LeaderboardEntry {
+  rank: number;
+  userId: string;
+  username: string;
+  displayName: string;
+  avatar?: string;
+  totalPoints: number;
+  level: string;
+  streak: number;
+  badges: number;
+  weeklyPoints?: number;
+  monthlyPoints?: number;
+  isCurrentUser?: boolean;
+}
+
+export interface LeaderboardStats {
+  totalUsers: number;
+  averagePoints: number;
+  topLevel: string;
+  highestStreak: number;
+}
+
+export type LeaderboardTimeframe = 'weekly' | 'monthly' | 'all-time';
+export type LeaderboardScope = 'global' | 'level' | 'module';
+
+export interface LeaderboardFilters {
+  timeframe?: LeaderboardTimeframe;
+  scope?: LeaderboardScope;
+  level?: string;
+  module?: 'vocabulary' | 'reading' | 'listening' | 'speaking' | 'writing' | 'grammar';
+  limit?: number;
+  offset?: number;
+}
+
+export interface LeaderboardResponse {
+  entries: LeaderboardEntry[];
+  currentUser?: LeaderboardEntry;
+  stats: LeaderboardStats;
+  total: number;
+  timeframe: LeaderboardTimeframe;
+  scope: LeaderboardScope;
+}
+
+// ----------------------------------------------------------------------------
+// Leaderboard Functions
+// ----------------------------------------------------------------------------
+
+/**
+ * Get leaderboard data with filters
+ */
+export async function getLeaderboard(
+  userId: string,
+  filters: LeaderboardFilters = {}
+): Promise<LeaderboardResponse> {
+  const params = new URLSearchParams();
+  
+  if (filters.timeframe) params.append('timeframe', filters.timeframe);
+  if (filters.scope) params.append('scope', filters.scope);
+  if (filters.level) params.append('level', filters.level);
+  if (filters.module) params.append('module', filters.module);
+  if (filters.limit) params.append('limit', filters.limit.toString());
+  if (filters.offset) params.append('offset', filters.offset.toString());
+  
+  const url = `${BASE_URL}/leaderboard/${userId}?${params.toString()}`;
+  return await fetchWithRetry<LeaderboardResponse>(url);
+}
+
+/**
+ * Get user's rank in different categories
+ */
+export async function getUserRankings(userId: string): Promise<{
+  global: number;
+  weekly: number;
+  monthly: number;
+  byLevel: Record<string, number>;
+  byModule: Record<string, number>;
+}> {
+  return await fetchWithRetry(`${BASE_URL}/leaderboard/${userId}/rankings`);
+}
+
+/**
+ * Get leaderboard stats
+ */
+export async function getLeaderboardStats(
+  timeframe: LeaderboardTimeframe = 'all-time'
+): Promise<LeaderboardStats> {
+  return await fetchWithRetry<LeaderboardStats>(
+    `${BASE_URL}/leaderboard/stats?timeframe=${timeframe}`
+  );
+}
+

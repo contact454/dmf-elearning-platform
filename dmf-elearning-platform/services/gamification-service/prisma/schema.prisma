@@ -9,13 +9,87 @@ datasource db {
 }
 
 model UserStats {
+  id            String   @id @default(uuid())
+  userId        String   @unique
+  xp            Int      @default(0)
+  level         Int      @default(1)
+  streak        Int      @default(0)
+  lastActiveAt  DateTime @default(now())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([userId])
+  @@index([xp])
+}
+
+model Achievement {
+  id          String   @id @default(uuid())
+  key         String   @unique
+  name        String
+  description String
+  icon        String
+  category    String
+  tier        String   @default("bronze") // bronze, silver, gold, platinum
+  xpReward    Int      @default(0)
+  requirement Int      @default(1)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  userAchievements UserAchievement[]
+
+  @@index([category])
+  @@index([tier])
+}
+
+model UserAchievement {
+  id            String      @id @default(uuid())
+  userId        String
+  achievementId String
+  achievement   Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+  progress      Int         @default(0)
+  isUnlocked    Boolean     @default(false)
+  unlockedAt    DateTime?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  @@unique([userId, achievementId])
+  @@index([userId])
+  @@index([isUnlocked])
+}
+
+model DailyChallenge {
+  id          String   @id @default(uuid())
+  userId      String
+  type        String   // vocabulary, reading, listening, speaking, writing, grammar
+  goal        Int      // target number
+  progress    Int      @default(0)
+  isCompleted Boolean  @default(false)
+  xpReward    Int      @default(50)
+  date        DateTime @default(now())
+  expiresAt   DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, type, date])
+  @@index([userId, date])
+  @@index([expiresAt])
+}
+
+model LeaderboardEntry {
   id        String   @id @default(uuid())
-  userId    String   @unique
-  xp        Int      @default(0)
-  level     Int      @default(1)
-  streak    Int      @default(0)
+  userId    String
+  username  String
+  xp        Int
+  level     Int
+  streak    Int
+  rank      Int?
+  period    String   // daily, weekly, monthly, allTime
+  startDate DateTime
+  endDate   DateTime
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  @@index([userId])
+  @@unique([userId, period, startDate])
+  @@index([period, xp])
+  @@index([startDate, endDate])
 }

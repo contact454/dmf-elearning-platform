@@ -19,5 +19,138 @@
     "meaning_vi": "Rain",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T10:55:14.720Z"
+  },
+  {
+    "word": "donnernd",
+    "pos": "verb",
+    "meaning_vi": "rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:55:54.619Z"
+  },
+  {
+    "word": "mähend",
+    "pos": "verb",
+    "meaning_vi": "rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:07:14.619Z"
+  },
+  {
+    "word": "witternd",
+    "pos": "verb",
+    "meaning_vi": "Wind",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:16:11.670Z"
+  },
+  {
+    "word": "wolkenverhangen",
+    "pos": "adj",
+    "meaning_vi": "Cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:33:00.341Z"
+  },
+  {
+    "word": "Sandsturms",
+    "pos": "noun",
+    "meaning_vi": "Sandstorm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:49:10.061Z"
+  },
+  {
+    "word": "Wolkenbrüche",
+    "pos": "noun",
+    "meaning_vi": "Storm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:31:32.289Z"
+  },
+  {
+    "word": "Wolkenbruchs",
+    "pos": "noun",
+    "meaning_vi": "Storm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:31:33.708Z"
+  },
+  {
+    "word": "Gewittern",
+    "pos": "noun",
+    "meaning_vi": "To storm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:29:54.412Z"
+  },
+  {
+    "word": "schwülster",
+    "pos": "adj",
+    "meaning_vi": "humid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:26:33.263Z"
+  },
+  {
+    "word": "Witterung",
+    "pos": "noun",
+    "meaning_vi": "Weather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:19:19.019Z"
+  },
+  {
+    "word": "Nebelstreif",
+    "pos": "noun",
+    "meaning_vi": "Fog strip",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:07:30.636Z"
+  },
+  {
+    "word": "gewittere",
+    "pos": "verb",
+    "meaning_vi": "Storm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:20:28.172Z"
+  },
+  {
+    "word": "Temperaturanstiegen",
+    "pos": "noun",
+    "meaning_vi": "Temperature increase",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:26:13.620Z"
+  },
+  {
+    "word": "tropften",
+    "pos": "verb",
+    "meaning_vi": "rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:12:37.310Z"
+  },
+  {
+    "word": "sturmfreier",
+    "pos": "adj",
+    "meaning_vi": "Storm-free",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:28:31.049Z"
+  },
+  {
+    "word": "sturmfreies",
+    "pos": "adj",
+    "meaning_vi": "storm-free",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:28:34.043Z"
+  },
+  {
+    "word": "wolkenverhangenen",
+    "pos": "adj",
+    "meaning_vi": "Cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:20:54.406Z"
+  },
+  {
+    "word": "wolkigster",
+    "pos": "adj",
+    "meaning_vi": "Cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:21:05.686Z"
+  },
+  {
+    "word": "wolkigstem",
+    "pos": "adj",
+    "meaning_vi": "Cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:21:10.263Z"
   }
 ]

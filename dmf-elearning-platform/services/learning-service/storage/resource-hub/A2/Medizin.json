@@ -12,5 +12,47 @@
     "meaning_vi": "Fernseher",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T08:24:38.462Z"
+  },
+  {
+    "word": "Kuren",
+    "pos": "noun",
+    "meaning_vi": "Behandlung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:00:16.090Z"
+  },
+  {
+    "word": "proinflammatorische",
+    "pos": "adj",
+    "meaning_vi": "entzündungsfördernd",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:46:12.171Z"
+  },
+  {
+    "word": "antimikrobielle",
+    "pos": "adj",
+    "meaning_vi": "widerstandsfähig gegen Mikroorganismen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:26:13.182Z"
+  },
+  {
+    "word": "Brechzahl",
+    "pos": "noun",
+    "meaning_vi": "Mengenheit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:31:25.319Z"
+  },
+  {
+    "word": "Brechzahlen",
+    "pos": "noun",
+    "meaning_vi": "Zahlen, die einen Medikamenten oder einer Behandlung zugeordnet werden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:31:51.582Z"
+  },
+  {
+    "word": "prophylaktische",
+    "pos": "adj",
+    "meaning_vi": "Verhütung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:35:31.148Z"
   }
 ]

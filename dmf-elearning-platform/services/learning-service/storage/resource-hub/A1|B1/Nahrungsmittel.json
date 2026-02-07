@@ -12,5 +12,75 @@
     "meaning_vi": "Fleisch",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T22:25:47.941Z"
+  },
+  {
+    "word": "gefordert",
+    "pos": "adj",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:58:03.230Z"
+  },
+  {
+    "word": "räucherten aus",
+    "pos": "verb",
+    "meaning_vi": "Rauchen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:19:57.580Z"
+  },
+  {
+    "word": "Sägemehle",
+    "pos": "noun",
+    "meaning_vi": "Mehl",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:06:54.029Z"
+  },
+  {
+    "word": "Staubzucker",
+    "pos": "noun",
+    "meaning_vi": "Zucker",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:07:12.362Z"
+  },
+  {
+    "word": "geruchlos",
+    "pos": "adj",
+    "meaning_vi": "ungeruchvoll",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:14:48.514Z"
+  },
+  {
+    "word": "kohlenstoffreichen",
+    "pos": "adj",
+    "meaning_vi": "nahrungsmittelfreundlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:07:14.720Z"
+  },
+  {
+    "word": "benetzbar",
+    "pos": "adj",
+    "meaning_vi": "getränkbar",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:24:05.696Z"
+  },
+  {
+    "word": "vergiftetem",
+    "pos": "adj",
+    "meaning_vi": "Essen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:12:07.682Z"
+  },
+  {
+    "word": "Rauchen",
+    "pos": "noun",
+    "meaning_vi": "Rauchiger Tabak",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:14:07.869Z"
+  },
+  {
+    "word": "genießbaren",
+    "pos": "adj",
+    "meaning_vi": "nahrhaft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:52:43.497Z"
   }
 ]

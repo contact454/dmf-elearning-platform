@@ -1,0 +1,314 @@
+{
+  "timestamp": "2026-02-06T21:02:16.108Z",
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "errors": 0,
+    "passRate": "100.0",
+    "results": [
+      {
+        "testId": "TC-SEC-001a",
+        "name": "JWT Token Validation & Expiry - Missing Token",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Server correctly rejected request without token (401)",
+        "timestamp": "2026-02-06T21:01:57.882Z"
+      },
+      {
+        "testId": "TC-SEC-001b",
+        "name": "JWT Token Validation & Expiry - Invalid Signature",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Server correctly rejected token with invalid signature (401)",
+        "timestamp": "2026-02-06T21:01:57.885Z"
+      },
+      {
+        "testId": "TC-SEC-001c",
+        "name": "JWT Token Validation & Expiry - Expired Token",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Server correctly rejected expired token (401)",
+        "timestamp": "2026-02-06T21:01:57.886Z"
+      },
+      {
+        "testId": "TC-SEC-002",
+        "name": "Essay Ownership Enforcement",
+        "category": "Authorization",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Server correctly rejected unauthorized access (403)",
+        "timestamp": "2026-02-06T21:01:57.938Z"
+      },
+      {
+        "testId": "TC-SEC-003a",
+        "name": "Password Storage Security (bcrypt) - Password in Response",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Password not exposed in API response",
+        "timestamp": "2026-02-06T21:01:57.983Z"
+      },
+      {
+        "testId": "TC-SEC-003b",
+        "name": "Password Storage Security (bcrypt) - bcrypt Verification",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "Password verification working (implies bcrypt hashing)",
+        "timestamp": "2026-02-06T21:01:58.027Z"
+      },
+      {
+        "testId": "TC-SEC-003c",
+        "name": "Password Storage Security (bcrypt) - Wrong Password",
+        "category": "Authentication",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "Server correctly rejected wrong password",
+        "timestamp": "2026-02-06T21:01:58.071Z"
+      },
+      {
+        "testId": "TC-SEC-004",
+        "name": "Rate Limiting (Grammar Check Abuse Prevention)",
+        "category": "Rate Limiting",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "Rate limit enforced after 60 requests (expected ~60)",
+        "timestamp": "2026-02-06T21:02:15.943Z"
+      },
+      {
+        "testId": "TC-SEC-005",
+        "name": "SQL Injection Prevention",
+        "category": "Input Validation",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "SQL injection payloads safely handled (Prisma ORM parameterization)",
+        "timestamp": "2026-02-06T21:02:15.987Z"
+      },
+      {
+        "testId": "TC-SEC-006",
+        "name": "XSS Attack Prevention",
+        "category": "Input Validation",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "Backend stores content as-is (XSS prevention delegated to frontend React escaping)",
+        "timestamp": "2026-02-06T21:02:16.021Z"
+      },
+      {
+        "testId": "TC-SEC-007b",
+        "name": "Input Length Validation - Empty Content",
+        "category": "Input Validation",
+        "status": "PASS",
+        "severity": "LOW",
+        "details": "Server correctly rejected empty content",
+        "timestamp": "2026-02-06T21:02:16.026Z"
+      },
+      {
+        "testId": "TC-SEC-008",
+        "name": "CORS Origin Validation",
+        "category": "CORS",
+        "status": "PASS",
+        "severity": "HIGH",
+        "details": "CORS properly configured - restricts origins",
+        "evidence": {},
+        "timestamp": "2026-02-06T21:02:16.032Z"
+      },
+      {
+        "testId": "TC-SEC-009",
+        "name": "Security Headers (Helmet)",
+        "category": "Security Headers",
+        "status": "PASS",
+        "severity": "MEDIUM",
+        "details": "All security headers present: x-content-type-options, x-frame-options, x-xss-protection",
+        "evidence": {
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        },
+        "timestamp": "2026-02-06T21:02:16.034Z"
+      },
+      {
+        "testId": "TC-SEC-010a",
+        "name": "Sensitive Data Leakage (Logs & Responses) - Registration Response",
+        "category": "Data Exposure",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "No sensitive data in registration response",
+        "timestamp": "2026-02-06T21:02:16.107Z"
+      },
+      {
+        "testId": "TC-SEC-010b",
+        "name": "Sensitive Data Leakage (Logs & Responses) - JWT Token Claims",
+        "category": "Data Exposure",
+        "status": "PASS",
+        "severity": "CRITICAL",
+        "details": "JWT token contains only safe claims (userId, email)",
+        "evidence": {
+          "claims": [
+            "userId",
+            "email",
+            "iat",
+            "exp"
+          ]
+        },
+        "timestamp": "2026-02-06T21:02:16.108Z"
+      }
+    ],
+    "criticalCount": 0,
+    "highCount": 0
+  },
+  "results": [
+    {
+      "testId": "TC-SEC-001a",
+      "name": "JWT Token Validation & Expiry - Missing Token",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Server correctly rejected request without token (401)",
+      "timestamp": "2026-02-06T21:01:57.882Z"
+    },
+    {
+      "testId": "TC-SEC-001b",
+      "name": "JWT Token Validation & Expiry - Invalid Signature",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Server correctly rejected token with invalid signature (401)",
+      "timestamp": "2026-02-06T21:01:57.885Z"
+    },
+    {
+      "testId": "TC-SEC-001c",
+      "name": "JWT Token Validation & Expiry - Expired Token",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Server correctly rejected expired token (401)",
+      "timestamp": "2026-02-06T21:01:57.886Z"
+    },
+    {
+      "testId": "TC-SEC-002",
+      "name": "Essay Ownership Enforcement",
+      "category": "Authorization",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Server correctly rejected unauthorized access (403)",
+      "timestamp": "2026-02-06T21:01:57.938Z"
+    },
+    {
+      "testId": "TC-SEC-003a",
+      "name": "Password Storage Security (bcrypt) - Password in Response",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Password not exposed in API response",
+      "timestamp": "2026-02-06T21:01:57.983Z"
+    },
+    {
+      "testId": "TC-SEC-003b",
+      "name": "Password Storage Security (bcrypt) - bcrypt Verification",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "Password verification working (implies bcrypt hashing)",
+      "timestamp": "2026-02-06T21:01:58.027Z"
+    },
+    {
+      "testId": "TC-SEC-003c",
+      "name": "Password Storage Security (bcrypt) - Wrong Password",
+      "category": "Authentication",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "Server correctly rejected wrong password",
+      "timestamp": "2026-02-06T21:01:58.071Z"
+    },
+    {
+      "testId": "TC-SEC-004",
+      "name": "Rate Limiting (Grammar Check Abuse Prevention)",
+      "category": "Rate Limiting",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "Rate limit enforced after 60 requests (expected ~60)",
+      "timestamp": "2026-02-06T21:02:15.943Z"
+    },
+    {
+      "testId": "TC-SEC-005",
+      "name": "SQL Injection Prevention",
+      "category": "Input Validation",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "SQL injection payloads safely handled (Prisma ORM parameterization)",
+      "timestamp": "2026-02-06T21:02:15.987Z"
+    },
+    {
+      "testId": "TC-SEC-006",
+      "name": "XSS Attack Prevention",
+      "category": "Input Validation",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "Backend stores content as-is (XSS prevention delegated to frontend React escaping)",
+      "timestamp": "2026-02-06T21:02:16.021Z"
+    },
+    {
+      "testId": "TC-SEC-007b",
+      "name": "Input Length Validation - Empty Content",
+      "category": "Input Validation",
+      "status": "PASS",
+      "severity": "LOW",
+      "details": "Server correctly rejected empty content",
+      "timestamp": "2026-02-06T21:02:16.026Z"
+    },
+    {
+      "testId": "TC-SEC-008",
+      "name": "CORS Origin Validation",
+      "category": "CORS",
+      "status": "PASS",
+      "severity": "HIGH",
+      "details": "CORS properly configured - restricts origins",
+      "evidence": {},
+      "timestamp": "2026-02-06T21:02:16.032Z"
+    },
+    {
+      "testId": "TC-SEC-009",
+      "name": "Security Headers (Helmet)",
+      "category": "Security Headers",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "details": "All security headers present: x-content-type-options, x-frame-options, x-xss-protection",
+      "evidence": {
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "0"
+      },
+      "timestamp": "2026-02-06T21:02:16.034Z"
+    },
+    {
+      "testId": "TC-SEC-010a",
+      "name": "Sensitive Data Leakage (Logs & Responses) - Registration Response",
+      "category": "Data Exposure",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "No sensitive data in registration response",
+      "timestamp": "2026-02-06T21:02:16.107Z"
+    },
+    {
+      "testId": "TC-SEC-010b",
+      "name": "Sensitive Data Leakage (Logs & Responses) - JWT Token Claims",
+      "category": "Data Exposure",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "details": "JWT token contains only safe claims (userId, email)",
+      "evidence": {
+        "claims": [
+          "userId",
+          "email",
+          "iat",
+          "exp"
+        ]
+      },
+      "timestamp": "2026-02-06T21:02:16.108Z"
+    }
+  ]
+}

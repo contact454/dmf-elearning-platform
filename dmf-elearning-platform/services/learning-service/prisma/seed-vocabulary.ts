@@ -172,7 +172,7 @@ async function seedVocabulary() {
 
   // Clear existing vocabulary data
   console.log(`\n🗑️  Clearing existing vocabulary data...`);
-  const deletedCount = await prisma.vocabulary.deleteMany({});
+  const deletedCount = await prisma.vocabularyItem.deleteMany({});
   console.log(`   Deleted ${deletedCount.count.toLocaleString()} existing entries`);
 
   // Batch insert vocabulary
@@ -188,7 +188,7 @@ async function seedVocabulary() {
     try {
       await prisma.$transaction(
         batch.map(vocab =>
-          prisma.vocabulary.create({
+          prisma.vocabularyItem.create({
             data: {
               word: vocab.word,
               meaning_vi: vocab.meaning_vi,
@@ -213,7 +213,7 @@ async function seedVocabulary() {
       // If batch fails, try individual inserts
       for (const vocab of batch) {
         try {
-          await prisma.vocabulary.create({
+          await prisma.vocabularyItem.create({
             data: {
               word: vocab.word,
               meaning_vi: vocab.meaning_vi,
@@ -250,10 +250,10 @@ async function seedVocabulary() {
 
   // Verify import
   console.log(`\n🔍 Verifying database...`);
-  const totalInDb = await prisma.vocabulary.count();
+  const totalInDb = await prisma.vocabularyItem.count();
   console.log(`   Total words in database: ${totalInDb.toLocaleString()}`);
 
-  const levelCounts = await prisma.vocabulary.groupBy({
+  const levelCounts = await prisma.vocabularyItem.groupBy({
     by: ['level'],
     _count: true,
   });
@@ -267,7 +267,7 @@ async function seedVocabulary() {
 
   // Sample words
   console.log(`\n📝 Sample vocabulary entries:`);
-  const sampleWords = await prisma.vocabulary.findMany({
+  const sampleWords = await prisma.vocabularyItem.findMany({
     take: 5,
     orderBy: { word: 'asc' },
   });

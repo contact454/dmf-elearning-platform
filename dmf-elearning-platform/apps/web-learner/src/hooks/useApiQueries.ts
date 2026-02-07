@@ -26,6 +26,7 @@ import {
   completeReading,
   getUserReadingHistory,
   getUserReadingStats,
+  getReadingStats,
   ReadingFilters,
   // Listening
   getListeningContent,
@@ -37,6 +38,7 @@ import {
   updateListeningProgress,
   getUserListeningHistory,
   getUserListeningStats,
+  getListeningStats,
   ListeningFilters,
   DictationMistake,
   // Speaking
@@ -47,6 +49,7 @@ import {
   getSpeakingAttempts,
   getUserSpeakingHistory,
   getUserSpeakingStats,
+  getSpeakingStats,
   SpeakingFilters,
   // Writing
   getWritingPrompts,
@@ -58,12 +61,19 @@ import {
   getWritingDraft,
   getUserWritingHistory,
   getUserWritingStats,
+  getWritingStats,
   WritingFilters,
   // Hub
   getHubData,
   getSkillProgress,
   getDailyGoals,
   getRecommendation,
+  // Leaderboard
+  getLeaderboard,
+  getUserRankings,
+  getLeaderboardStats,
+  LeaderboardFilters,
+  LeaderboardTimeframe,
 } from '@/services/german-api';
 import { useUser } from '@/providers/user-provider';
 
@@ -138,6 +148,16 @@ export const queryKeys = {
     skills: (userId: string) => [...queryKeys.hub.all, 'skills', userId] as const,
     dailyGoals: (userId: string) => [...queryKeys.hub.all, 'dailyGoals', userId] as const,
     recommendation: (userId: string) => [...queryKeys.hub.all, 'recommendation', userId] as const,
+  },
+  // Leaderboard
+  leaderboard: {
+    all: ['leaderboard'] as const,
+    list: (userId: string, filters: LeaderboardFilters) => 
+      [...queryKeys.leaderboard.all, 'list', userId, filters] as const,
+    rankings: (userId: string) => 
+      [...queryKeys.leaderboard.all, 'rankings', userId] as const,
+    stats: (timeframe: LeaderboardTimeframe) => 
+      [...queryKeys.leaderboard.all, 'stats', timeframe] as const,
   },
 };
 
@@ -301,6 +321,14 @@ export function useReadingStats() {
   });
 }
 
+export function useReadingContentStats() {
+  return useQuery({
+    queryKey: ['reading', 'content-stats'],
+    queryFn: getReadingStats,
+    staleTime: 5 * 60 * 1000, // 5 minutes
+  });
+}
+
 export function useStartReading() {
   const queryClient = useQueryClient();
   const { userId } = useUser();
@@ -393,6 +421,14 @@ export function useListeningStats() {
     queryKey: queryKeys.listening.stats(userId),
     queryFn: () => getUserListeningStats(userId),
     enabled: !!userId,
+  });
+}
+
+export function useListeningContentStats() {
+  return useQuery({
+    queryKey: ['listening', 'content-stats'],
+    queryFn: getListeningStats,
+    staleTime: 5 * 60 * 1000, // 5 minutes
   });
 }
 
@@ -492,6 +528,14 @@ export function useSpeakingStats() {
   });
 }
 
+export function useSpeakingContentStats() {
+  return useQuery({
+    queryKey: ['speaking', 'content-stats'],
+    queryFn: getSpeakingStats,
+    staleTime: 5 * 60 * 1000, // 5 minutes
+  });
+}
+
 export function useSubmitSpeaking() {
   const queryClient = useQueryClient();
   const { userId } = useUser();
@@ -574,6 +618,14 @@ export function useWritingStats() {
   });
 }
 
+export function useWritingContentStats() {
+  return useQuery({
+    queryKey: ['writing', 'content-stats'],
+    queryFn: getWritingStats,
+    staleTime: 5 * 60 * 1000, // 5 minutes
+  });
+}
+
 export function useSubmitWriting() {
   const queryClient = useQueryClient();
   const { userId } = useUser();
@@ -645,6 +697,40 @@ export function useRecommendation() {
     queryKey: queryKeys.hub.recommendation(userId),
     queryFn: () => getRecommendation(userId),
     enabled: !!userId,
+    staleTime: 5 * 60 * 1000, // 5 minutes
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════
+// Leaderboard Hooks
+// ═══════════════════════════════════════════════════════════════
+
+export function useLeaderboard(filters: LeaderboardFilters = {}) {
+  const { userId } = useUser();
+
+  return useQuery({
+    queryKey: queryKeys.leaderboard.list(userId, filters),
+    queryFn: () => getLeaderboard(userId, filters),
+    enabled: !!userId,
+    staleTime: 2 * 60 * 1000, // 2 minutes
+  });
+}
+
+export function useUserRankings() {
+  const { userId } = useUser();
+
+  return useQuery({
+    queryKey: queryKeys.leaderboard.rankings(userId),
+    queryFn: () => getUserRankings(userId),
+    enabled: !!userId,
+    staleTime: 5 * 60 * 1000, // 5 minutes
+  });
+}
+
+export function useLeaderboardStats(timeframe: LeaderboardTimeframe = 'all-time') {
+  return useQuery({
+    queryKey: queryKeys.leaderboard.stats(timeframe),
+    queryFn: () => getLeaderboardStats(timeframe),
     staleTime: 5 * 60 * 1000, // 5 minutes
   });
 }

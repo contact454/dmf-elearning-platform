@@ -5,5 +5,145 @@
     "meaning_vi": "Overcooked",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T05:47:57.014Z"
+  },
+  {
+    "word": "jaulten",
+    "pos": "verb",
+    "meaning_vi": "to bite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:18:39.046Z"
+  },
+  {
+    "word": "stocheret",
+    "pos": "verb",
+    "meaning_vi": "to eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:09:30.717Z"
+  },
+  {
+    "word": "lahmerem",
+    "pos": "adj",
+    "meaning_vi": "Slow-cooked",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:46:23.353Z"
+  },
+  {
+    "word": "pikanterem",
+    "pos": "adj",
+    "meaning_vi": "Spicy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:14:30.392Z"
+  },
+  {
+    "word": "hungrigere",
+    "pos": "adj",
+    "meaning_vi": "Hungry",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:19:01.247Z"
+  },
+  {
+    "word": "hungrigerem",
+    "pos": "adj",
+    "meaning_vi": "Hungrier",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:19:05.870Z"
+  },
+  {
+    "word": "restlich",
+    "pos": "adj",
+    "meaning_vi": "relating to food",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:50:07.241Z"
+  },
+  {
+    "word": "unangetastetes",
+    "pos": "adj",
+    "meaning_vi": "Uncooked",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:05:55.794Z"
+  },
+  {
+    "word": "vermischtem",
+    "pos": "adj",
+    "meaning_vi": "Mixed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:07:31.445Z"
+  },
+  {
+    "word": "verdorbeneren",
+    "pos": "adj",
+    "meaning_vi": "Polluted",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:24:59.058Z"
+  },
+  {
+    "word": "mulmigsten",
+    "pos": "adj",
+    "meaning_vi": "most disgusting",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:50:10.999Z"
+  },
+  {
+    "word": "mulmigeren",
+    "pos": "adj",
+    "meaning_vi": "stale",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:51:29.965Z"
+  },
+  {
+    "word": "lemnisch",
+    "pos": "adj",
+    "meaning_vi": "peasant, rustic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:38:35.421Z"
+  },
+  {
+    "word": "Magenkrebse",
+    "pos": "noun",
+    "meaning_vi": "Cancer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:25:54.423Z"
+  },
+  {
+    "word": "mobbtet",
+    "pos": "verb",
+    "meaning_vi": "Eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:24:45.359Z"
+  },
+  {
+    "word": "fettärmeren",
+    "pos": "adj",
+    "meaning_vi": "Fat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:21:11.323Z"
+  },
+  {
+    "word": "pfundiges",
+    "pos": "adj",
+    "meaning_vi": "heavy, dense",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:13:55.980Z"
+  },
+  {
+    "word": "blasierteste",
+    "pos": "adj",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:36:16.980Z"
+  },
+  {
+    "word": "speiübele",
+    "pos": "adj",
+    "meaning_vi": "Fruit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:15:05.907Z"
+  },
+  {
+    "word": "ekligem",
+    "pos": "adj",
+    "meaning_vi": "ugly",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:16:51.736Z"
   }
 ]

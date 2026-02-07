@@ -1,25 +1,7 @@
-import {
-  Navbar,
-  HeroSection,
-  BentoGrid,
-  CourseShowcase,
-  AISenseiDemo,
-  SocialProof,
-  CTASection,
-  Footer,
-} from '@/components/homepage';
+import { routing } from '@/i18n/routing'
+import { redirect } from 'next/navigation';
 
-export default function HomePage() {
-  return (
-    <main className="min-h-screen bg-gradient-to-b from-indigo-50 via-white to-indigo-50/30">
-      <Navbar />
-      <HeroSection />
-      <BentoGrid />
-      <CourseShowcase />
-      <AISenseiDemo />
-      <SocialProof />
-      <CTASection />
-      <Footer />
-    </main>
-  );
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
+  redirect(`/${routing.defaultLocale}`);
 }

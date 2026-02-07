@@ -1,0 +1,68 @@
+# Dependencies (Các gói phụ thuộc)
+node_modules/
+.pnpm-store/
+package-lock.json
+yarn.lock
+
+# Build outputs (Kết quả build)
+.next/
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment (Môi trường)
+.env
+.env.*
+!.env.example
+
+# Secrets & Credentials (Bí mật & Thông tin xác thực)
+secrets/
+*.key
+*.pem
+*.crt
+config/credentials.*
+
+# Logs (Nhật ký)
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing (Kiểm thử)
+coverage/
+.nyc_output/
+*.coverage
+
+# Cache (Bộ nhớ đệm)
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# OS files (Files hệ điều hành)
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE (Môi trường phát triển)
+.vscode/
+.idea/
+*.sublime-*
+
+# Database (Cơ sở dữ liệu)
+*.sqlite
+*.db
+prisma/*.db
+
+# Temporary (Tạm thời)
+tmp/
+temp/
+*.tmp
+
+# Personal (Cá nhân)
+.claude-session-*
+*.local.*

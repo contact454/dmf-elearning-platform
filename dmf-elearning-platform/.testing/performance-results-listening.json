@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "totalTests": 10,
+    "passedTests": 7,
+    "failedTests": 1,
+    "skippedTests": 2,
+    "passRate": "87.5%",
+    "grade": "B"
+  },
+  "results": {
+    "pageLoad": [
+      {
+        "test": "TC-PERF-001",
+        "name": "Listening Practice Page Load",
+        "duration": 24,
+        "statusCode": 404,
+        "benchmark": 3000,
+        "passed": true
+      },
+      {
+        "test": "TC-PERF-002",
+        "name": "Exercise Component Data Fetch",
+        "duration": 14,
+        "statusCode": 404,
+        "benchmark": 100,
+        "passed": true
+      },
+      {
+        "test": "TC-PERF-003",
+        "name": "Dashboard Page Load",
+        "duration": 30,
+        "statusCode": 404,
+        "benchmark": 3000,
+        "passed": true
+      }
+    ],
+    "apiResponse": [
+      {
+        "test": "TC-PERF-004",
+        "name": "GET /api/listening/exercises (100 requests)",
+        "avg": 15.78,
+        "min": 10,
+        "max": 37,
+        "p95": 35,
+        "benchmark": {
+          "avg": 100,
+          "p95": 200
+        },
+        "passed": true
+      },
+      {
+        "test": "TC-PERF-005",
+        "name": "POST /api/listening/submit (100 requests)",
+        "avg": 14.89,
+        "min": 9,
+        "max": 35,
+        "p95": 30,
+        "benchmark": {
+          "avg": 50
+        },
+        "passed": true
+      },
+      {
+        "test": "TC-PERF-006",
+        "name": "GET /api/listening/stats (100 requests)",
+        "avg": 12.3,
+        "min": 10,
+        "max": 35,
+        "p95": 16,
+        "benchmark": {
+          "avg": 200
+        },
+        "passed": true
+      },
+      {
+        "test": "TC-PERF-007",
+        "name": "Concurrent Users (50 parallel)",
+        "totalDuration": 772,
+        "avg": 494.9,
+        "min": 24,
+        "max": 770,
+        "p95": 764,
+        "failedRequests": 50,
+        "benchmark": {
+          "avg": 500,
+          "p95": 1000,
+          "failedRequests": 0
+        },
+        "passed": false
+      }
+    ],
+    "audioLoading": [
+      {
+        "test": "TC-PERF-008",
+        "name": "Audio Load Time",
+        "skipped": true,
+        "reason": "No audio URLs available"
+      },
+      {
+        "test": "TC-PERF-009",
+        "skipped": true,
+        "reason": "No audio URL available"
+      },
+      {
+        "test": "TC-PERF-010",
+        "name": "Memory Leak Detection (Response Stability)",
+        "avgSize": "22052",
+        "minSize": 22037,
+        "maxSize": 22058,
+        "variance": 21,
+        "variancePercent": "0.10",
+        "benchmark": "Variance <10%",
+        "passed": true
+      }
+    ],
+    "timestamp": "2026-02-06T12:35:31.899Z"
+  },
+  "timestamp": "2026-02-06T12:35:37.667Z"
+}

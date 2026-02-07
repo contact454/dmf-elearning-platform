@@ -68,5 +68,551 @@
     "meaning_vi": "Feelings",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:23:17.488Z"
+  },
+  {
+    "word": "Fremdscham",
+    "pos": "noun",
+    "meaning_vi": "Shame",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:17:37.785Z"
+  },
+  {
+    "word": "leidenschaftliche",
+    "pos": "adj",
+    "meaning_vi": "Passion",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:04:51.282Z"
+  },
+  {
+    "word": "leidenschaftlichster",
+    "pos": "adj",
+    "meaning_vi": "Passion",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:05:06.290Z"
+  },
+  {
+    "word": "leidenschaftlichstem",
+    "pos": "adj",
+    "meaning_vi": "Passion",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:05:11.118Z"
+  },
+  {
+    "word": "abgespanntes",
+    "pos": "adj",
+    "meaning_vi": "Stressed, anxious",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:11:03.830Z"
+  },
+  {
+    "word": "zufriedenster",
+    "pos": "adj",
+    "meaning_vi": "Satisfied",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:12:26.941Z"
+  },
+  {
+    "word": "gehässiger",
+    "pos": "adj",
+    "meaning_vi": "Hated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:31:29.911Z"
+  },
+  {
+    "word": "gehässigere",
+    "pos": "adj",
+    "meaning_vi": "Hostile",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:31:39.833Z"
+  },
+  {
+    "word": "gehässigster",
+    "pos": "adj",
+    "meaning_vi": "Hostile",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:31:46.380Z"
+  },
+  {
+    "word": "gehässigsten",
+    "pos": "adj",
+    "meaning_vi": "hated most",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:31:51.354Z"
+  },
+  {
+    "word": "wütendste",
+    "pos": "adj",
+    "meaning_vi": "Irritated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:50:31.260Z"
+  },
+  {
+    "word": "wütendstem",
+    "pos": "adj",
+    "meaning_vi": "Irritated, angry",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:50:37.687Z"
+  },
+  {
+    "word": "unschönste",
+    "pos": "adj",
+    "meaning_vi": "ugly",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:16:52.276Z"
+  },
+  {
+    "word": "Vorfreuden",
+    "pos": "noun",
+    "meaning_vi": "Anticipation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:16:09.369Z"
+  },
+  {
+    "word": "Frustrationen",
+    "pos": "noun",
+    "meaning_vi": "Frustration",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:20:03.764Z"
+  },
+  {
+    "word": "freudiges",
+    "pos": "adj",
+    "meaning_vi": "Happy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:47:22.639Z"
+  },
+  {
+    "word": "reaktionsfreudiges",
+    "pos": "adj",
+    "meaning_vi": "enthusiastic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:48:52.712Z"
+  },
+  {
+    "word": "emotionaleres",
+    "pos": "adj",
+    "meaning_vi": "Intensive",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:27:07.428Z"
+  },
+  {
+    "word": "emotionalste",
+    "pos": "adj",
+    "meaning_vi": "strongest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:27:21.013Z"
+  },
+  {
+    "word": "emotionalstem",
+    "pos": "adj",
+    "meaning_vi": "Emotional",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:27:26.799Z"
+  },
+  {
+    "word": "sentimentalste",
+    "pos": "adj",
+    "meaning_vi": "sentimental",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:32:29.095Z"
+  },
+  {
+    "word": "sentimentalsten",
+    "pos": "adj",
+    "meaning_vi": "quyến rũ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:32:33.186Z"
+  },
+  {
+    "word": "schmerzhaften",
+    "pos": "adj",
+    "meaning_vi": "painful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:52:57.504Z"
+  },
+  {
+    "word": "Reaktionsfreudigkeit",
+    "pos": "noun",
+    "meaning_vi": "Enthusiasm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:19:43.786Z"
+  },
+  {
+    "word": "Reaktionsfreudigkeiten",
+    "pos": "noun",
+    "meaning_vi": "Enthusiasm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:20:34.450Z"
+  },
+  {
+    "word": "trinkfreudigstem",
+    "pos": "adj",
+    "meaning_vi": "Cheerful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:43:19.535Z"
+  },
+  {
+    "word": "rasenden",
+    "pos": "adj",
+    "meaning_vi": "Irritated, angry",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:47:43.315Z"
+  },
+  {
+    "word": "wehmütig",
+    "pos": "adj",
+    "meaning_vi": "Sad, melancholic",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:55:25.498Z"
+  },
+  {
+    "word": "herzigeres",
+    "pos": "adj",
+    "meaning_vi": "more emotional",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:21:53.583Z"
+  },
+  {
+    "word": "halbherziges",
+    "pos": "adj",
+    "meaning_vi": "Mixed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:16:51.244Z"
+  },
+  {
+    "word": "panikartig",
+    "pos": "adj",
+    "meaning_vi": "anxious",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:08:48.012Z"
+  },
+  {
+    "word": "tragischstem",
+    "pos": "adj",
+    "meaning_vi": "Saddest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:22:11.660Z"
+  },
+  {
+    "word": "zahmeren",
+    "pos": "adj",
+    "meaning_vi": "harsh, rough",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:29:49.016Z"
+  },
+  {
+    "word": "bedrohlichster",
+    "pos": "adj",
+    "meaning_vi": "Fearful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:36:22.767Z"
+  },
+  {
+    "word": "beklommenen",
+    "pos": "adj",
+    "meaning_vi": "Surprised",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:37:48.113Z"
+  },
+  {
+    "word": "eifersüchtigem",
+    "pos": "adj",
+    "meaning_vi": "Jealous",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:43:03.948Z"
+  },
+  {
+    "word": "freudlosesten",
+    "pos": "adj",
+    "meaning_vi": "most unemotional",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:49:10.102Z"
+  },
+  {
+    "word": "neidischstem",
+    "pos": "adj",
+    "meaning_vi": "jealousy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:09:28.203Z"
+  },
+  {
+    "word": "verdrießet",
+    "pos": "verb",
+    "meaning_vi": "Disappointed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:17:12.918Z"
+  },
+  {
+    "word": "aufregendstes",
+    "pos": "adj",
+    "meaning_vi": "exciting",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:07:34.624Z"
+  },
+  {
+    "word": "bittersüßer",
+    "pos": "adj",
+    "meaning_vi": "Sad-sweet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:34:56.956Z"
+  },
+  {
+    "word": "bittersüßere",
+    "pos": "adj",
+    "meaning_vi": "mixed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:35:00.028Z"
+  },
+  {
+    "word": "bittersüßeres",
+    "pos": "adj",
+    "meaning_vi": "bitter-sweet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:35:01.670Z"
+  },
+  {
+    "word": "bittersüßesten",
+    "pos": "adj",
+    "meaning_vi": "Sad-sweetest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:35:12.609Z"
+  },
+  {
+    "word": "bittersüßestem",
+    "pos": "adj",
+    "meaning_vi": "Sour-sweetest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:35:14.225Z"
+  },
+  {
+    "word": "deprimiertes",
+    "pos": "adj",
+    "meaning_vi": "Sad, depressed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:50:18.469Z"
+  },
+  {
+    "word": "entsetzlichsten",
+    "pos": "adj",
+    "meaning_vi": " Shocking",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:13:37.031Z"
+  },
+  {
+    "word": "erbärmlichstes",
+    "pos": "adj",
+    "meaning_vi": "extremely unpleasant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:15:15.558Z"
+  },
+  {
+    "word": "erfreulichste",
+    "pos": "adj",
+    "meaning_vi": "happiest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:17:51.457Z"
+  },
+  {
+    "word": "gefühllosestes",
+    "pos": "adj",
+    "meaning_vi": "nóng rợn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:53:36.424Z"
+  },
+  {
+    "word": "grauenvoller",
+    "pos": "adj",
+    "meaning_vi": "Horrible, frightening",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:11:31.536Z"
+  },
+  {
+    "word": "hasserfüllter",
+    "pos": "adj",
+    "meaning_vi": "full of hatred",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:19:34.777Z"
+  },
+  {
+    "word": "hasserfüllter",
+    "pos": "adj",
+    "meaning_vi": "Filled with hatred",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:19:36.176Z"
+  },
+  {
+    "word": "hasserfüllteres",
+    "pos": "adj",
+    "meaning_vi": "full of hatred",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:19:40.970Z"
+  },
+  {
+    "word": "hasserfülltes",
+    "pos": "adj",
+    "meaning_vi": "Filled with hatred",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:19:56.485Z"
+  },
+  {
+    "word": "hasserfüllten",
+    "pos": "adj",
+    "meaning_vi": "hat voller Hass",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:19:58.080Z"
+  },
+  {
+    "word": "hemmungslosere",
+    "pos": "adj",
+    "meaning_vi": "Without restraint",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:24:41.472Z"
+  },
+  {
+    "word": "kitzeligere",
+    "pos": "adj",
+    "meaning_vi": "Euphoric",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:55:06.958Z"
+  },
+  {
+    "word": "kitzeligsten",
+    "pos": "adj",
+    "meaning_vi": "Exciting",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:55:19.789Z"
+  },
+  {
+    "word": "neidvolle",
+    "pos": "adj",
+    "meaning_vi": "Jealousy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:49:44.165Z"
+  },
+  {
+    "word": "sanftmütigere",
+    "pos": "adj",
+    "meaning_vi": " Gentle, reserved",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:41:58.440Z"
+  },
+  {
+    "word": "sanftmütiges",
+    "pos": "adj",
+    "meaning_vi": " Gentle, mild",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:42:15.538Z"
+  },
+  {
+    "word": "schwermütiger",
+    "pos": "adj",
+    "meaning_vi": "sad, gloomy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:55:36.736Z"
+  },
+  {
+    "word": "schwermütigeres",
+    "pos": "adj",
+    "meaning_vi": "sad",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:55:42.653Z"
+  },
+  {
+    "word": "schwermütigerem",
+    "pos": "adj",
+    "meaning_vi": "sad",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:55:46.328Z"
+  },
+  {
+    "word": "schändlichstem",
+    "pos": "adj",
+    "meaning_vi": "very shameful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:58:00.917Z"
+  },
+  {
+    "word": "süssestes",
+    "pos": "adj",
+    "meaning_vi": "sweetest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:37:14.113Z"
+  },
+  {
+    "word": "unbehaglichere",
+    "pos": "adj",
+    "meaning_vi": "Uncomfortable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:56:59.203Z"
+  },
+  {
+    "word": "unbehaglichstes",
+    "pos": "adj",
+    "meaning_vi": "unhappy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:57:08.542Z"
+  },
+  {
+    "word": "unbehaglichen",
+    "pos": "adj",
+    "meaning_vi": "Uncomfortable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:57:18.337Z"
+  },
+  {
+    "word": "zaghafte",
+    "pos": "adj",
+    "meaning_vi": "ngạc nhiên",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:26:03.189Z"
+  },
+  {
+    "word": "zornigerer",
+    "pos": "adj",
+    "meaning_vi": "anger",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:29:13.340Z"
+  },
+  {
+    "word": "zornigstem",
+    "pos": "adj",
+    "meaning_vi": "angry",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:29:27.790Z"
+  },
+  {
+    "word": "überglücklicher",
+    "pos": "adj",
+    "meaning_vi": "Happiness",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:35:57.707Z"
+  },
+  {
+    "word": "Furcht erregenderer",
+    "pos": "adj",
+    "meaning_vi": "Fear-inspiring",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:25:25.499Z"
+  },
+  {
+    "word": "Furcht erregenderes",
+    "pos": "adj",
+    "meaning_vi": "Fear-inducing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:25:28.662Z"
+  },
+  {
+    "word": "Furcht erregenderen",
+    "pos": "adj",
+    "meaning_vi": "Fear-inducing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:25:30.342Z"
+  },
+  {
+    "word": "Furcht erregenden",
+    "pos": "adj",
+    "meaning_vi": "Fear-inducing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:25:36.835Z"
   }
 ]

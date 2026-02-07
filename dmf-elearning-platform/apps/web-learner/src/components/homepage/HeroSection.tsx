@@ -1,17 +1,20 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 import NumberTicker from '@/components/ui/number-ticker';
-import { Sparkles, BookOpen, Bot } from 'lucide-react';
-
-const stats = [
-  { value: 15000, label: 'Từ vựng', suffix: '+' },
-  { value: 500, label: 'Bài học', suffix: '+' },
-  { value: 24, label: 'AI Hỗ trợ', suffix: '/7' },
-];
+import { Sparkles, BookOpen } from 'lucide-react';
 
 export function HeroSection() {
+  const t = useTranslations('hero');
+  
+  const stats = [
+    { value: 15000, label: t('stats.vocabulary'), suffix: '+' },
+    { value: 500, label: t('stats.lessons'), suffix: '+' },
+    { value: 24, label: t('stats.aiSupport'), suffix: '/7' },
+  ];
+
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden">
       {/* Background */}
@@ -38,7 +41,7 @@ export function HeroSection() {
             className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-8"
           >
             <Sparkles className="w-4 h-4" />
-            Chuẩn Goethe A1-C2
+            {t('badge')}
           </motion.div>
 
           {/* Main Headline */}
@@ -48,13 +51,13 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-indigo-950 font-[family-name:var(--font-outfit)] leading-tight"
           >
-            Làm Chủ{' '}
+            {t('title')}{' '}
             <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-              Tiếng Đức
+              {t('titleHighlight')}
             </span>
             <br />
             <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-              Từ A1 đến C2
+              {t('subtitle')}
             </span>
           </motion.h1>
 
@@ -65,8 +68,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 text-lg sm:text-xl text-indigo-700/80 max-w-2xl mx-auto font-[family-name:var(--font-inter)]"
           >
-            Học thông minh với AI Sensei, Flashcards thông minh và Quiz thích ứng.
-            Chinh phục tiếng Đức theo chuẩn Goethe.
+            {t('description')}
           </motion.p>
 
           {/* Stats */}
@@ -99,7 +101,7 @@ export function HeroSection() {
               className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-2xl shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-green-500/40 transition-all duration-300 hover:scale-105"
             >
               <Sparkles className="w-5 h-5" />
-              Học Thử Miễn Phí
+              {t('cta.tryFree')}
               <motion.div
                 className="absolute inset-0 rounded-2xl bg-gradient-to-r from-white/0 via-white/20 to-white/0"
                 animate={{ x: ['-100%', '200%'] }}
@@ -111,7 +113,7 @@ export function HeroSection() {
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-indigo-700 font-semibold rounded-2xl border-2 border-indigo-200 hover:border-indigo-300 hover:bg-indigo-50 transition-all duration-300"
             >
               <BookOpen className="w-5 h-5" />
-              Xem Khoá Học
+              {t('cta.viewCourses')}
             </Link>
           </motion.div>
 
@@ -140,10 +142,10 @@ export function HeroSection() {
                     <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
                   </svg>
                 ))}
-                <span className="text-indigo-900 font-semibold ml-2">4.9/5</span>
+                <span className="text-indigo-900 font-semibold ml-2">{t('socialProof.rating')}</span>
               </div>
               <p className="text-indigo-600 text-sm">
-                Được <span className="font-semibold">2,500+</span> học viên tin tưởng
+                {t('socialProof.trustedBy')} <span className="font-semibold">2,500+</span> {t('socialProof.students')}
               </p>
             </div>
           </motion.div>

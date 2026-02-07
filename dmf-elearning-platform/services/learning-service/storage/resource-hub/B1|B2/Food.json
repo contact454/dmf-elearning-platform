@@ -299,5 +299,621 @@
     "meaning_vi": "Eat",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:45:39.038Z"
+  },
+  {
+    "word": "renommieren",
+    "pos": "verb",
+    "meaning_vi": "to eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:14:07.234Z"
+  },
+  {
+    "word": "Possens",
+    "pos": "noun",
+    "meaning_vi": "Possessive",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:18:28.025Z"
+  },
+  {
+    "word": "gereinigt",
+    "pos": "verb",
+    "meaning_vi": "Cleaned",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:47:56.220Z"
+  },
+  {
+    "word": "seifen ein",
+    "pos": "verb",
+    "meaning_vi": "to wash into",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:52:39.396Z"
+  },
+  {
+    "word": "abgehakt",
+    "pos": "verb",
+    "meaning_vi": "Eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:05:41.673Z"
+  },
+  {
+    "word": "abwürben",
+    "pos": "verb",
+    "meaning_vi": "to eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:26:12.604Z"
+  },
+  {
+    "word": "anprangret",
+    "pos": "verb",
+    "meaning_vi": "to prepare",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:31:56.494Z"
+  },
+  {
+    "word": "anhöbet",
+    "pos": "verb",
+    "meaning_vi": "eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:50:52.660Z"
+  },
+  {
+    "word": "bombardiert",
+    "pos": "verb",
+    "meaning_vi": "Eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:15:32.866Z"
+  },
+  {
+    "word": "amenagierst",
+    "pos": "verb",
+    "meaning_vi": "to prepare",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:16:11.545Z"
+  },
+  {
+    "word": "ausprobierst",
+    "pos": "verb",
+    "meaning_vi": "Try",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:24:33.618Z"
+  },
+  {
+    "word": "ausprobiert",
+    "pos": "verb",
+    "meaning_vi": "Try",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:24:38.446Z"
+  },
+  {
+    "word": "destabilisiert",
+    "pos": "verb",
+    "meaning_vi": "Eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:31:09.425Z"
+  },
+  {
+    "word": "kondensierst",
+    "pos": "verb",
+    "meaning_vi": "to condense",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:47:06.335Z"
+  },
+  {
+    "word": "kontaminierte",
+    "pos": "verb",
+    "meaning_vi": "Contaminate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:49:47.297Z"
+  },
+  {
+    "word": "kremierten",
+    "pos": "verb",
+    "meaning_vi": "to freeze",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:51:21.208Z"
+  },
+  {
+    "word": "pressierte",
+    "pos": "verb",
+    "meaning_vi": "Press",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:06:52.262Z"
+  },
+  {
+    "word": "ramponierst",
+    "pos": "verb",
+    "meaning_vi": "to prepare",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:08:08.403Z"
+  },
+  {
+    "word": "regeneriert",
+    "pos": "verb",
+    "meaning_vi": "to restore, to renew",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:09:09.478Z"
+  },
+  {
+    "word": "soufflierte",
+    "pos": "verb",
+    "meaning_vi": "to cook",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:13:39.198Z"
+  },
+  {
+    "word": "gesprenkelt",
+    "pos": "verb",
+    "meaning_vi": "Sprinkle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:36:43.937Z"
+  },
+  {
+    "word": "geworfelt",
+    "pos": "verb",
+    "meaning_vi": "to beat, to pound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:39:26.378Z"
+  },
+  {
+    "word": "belagernd",
+    "pos": "verb",
+    "meaning_vi": "to besiege",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:52:23.638Z"
+  },
+  {
+    "word": "geschimmert",
+    "pos": "verb",
+    "meaning_vi": "to make moldy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:03:08.178Z"
+  },
+  {
+    "word": "verwässert",
+    "pos": "adj",
+    "meaning_vi": "to make something less strong or intense",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:15:22.687Z"
+  },
+  {
+    "word": "verarbeitet",
+    "pos": "verb",
+    "meaning_vi": "Processed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:21:55.342Z"
+  },
+  {
+    "word": "gedieh",
+    "pos": "verb",
+    "meaning_vi": "to eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:31:52.431Z"
+  },
+  {
+    "word": "abflachend",
+    "pos": "verb",
+    "meaning_vi": "to become flat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:33:36.380Z"
+  },
+  {
+    "word": "abkühlend",
+    "pos": "verb",
+    "meaning_vi": "Cooling down",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:36:24.126Z"
+  },
+  {
+    "word": "spartet",
+    "pos": "verb",
+    "meaning_vi": "Eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:56:06.940Z"
+  },
+  {
+    "word": "kiesen",
+    "pos": "verb",
+    "meaning_vi": "to eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T15:41:52.657Z"
+  },
+  {
+    "word": "ungesündesten",
+    "pos": "adj",
+    "meaning_vi": "Unhealthiest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T18:09:57.057Z"
+  },
+  {
+    "word": "ungesundesten",
+    "pos": "adj",
+    "meaning_vi": "Unhealthiest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T18:09:58.601Z"
+  },
+  {
+    "word": "jähe",
+    "pos": "adj",
+    "meaning_vi": "Cold",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:55:20.694Z"
+  },
+  {
+    "word": "satten",
+    "pos": "adj",
+    "meaning_vi": "Satiated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T03:58:20.948Z"
+  },
+  {
+    "word": "lausigstes",
+    "pos": "adj",
+    "meaning_vi": "weakest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:07:34.045Z"
+  },
+  {
+    "word": "dekadenten",
+    "pos": "adj",
+    "meaning_vi": "Rich, luxurious",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:07:44.998Z"
+  },
+  {
+    "word": "dekadenterer",
+    "pos": "adj",
+    "meaning_vi": "more decadent",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:07:48.244Z"
+  },
+  {
+    "word": "unnötigeres",
+    "pos": "adj",
+    "meaning_vi": "more unnecessary",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:40:37.314Z"
+  },
+  {
+    "word": "verknöcherter",
+    "pos": "adj",
+    "meaning_vi": "Old, stale",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:57:59.821Z"
+  },
+  {
+    "word": "behutsame",
+    "pos": "adj",
+    "meaning_vi": "Careful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:15:45.338Z"
+  },
+  {
+    "word": "Knalls",
+    "pos": "noun",
+    "meaning_vi": "Noise, loud sound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:11:00.265Z"
+  },
+  {
+    "word": "Bienenkorbes",
+    "pos": "noun",
+    "meaning_vi": "Honeycomb",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:25:53.777Z"
+  },
+  {
+    "word": "Palatschinkens",
+    "pos": "noun",
+    "meaning_vi": "Fritters",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:56:52.847Z"
+  },
+  {
+    "word": "absättigen",
+    "pos": "verb",
+    "meaning_vi": "to stop eating",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:46:25.097Z"
+  },
+  {
+    "word": "dekadisch",
+    "pos": "adj",
+    "meaning_vi": "Rich, luxurious",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:49:48.130Z"
+  },
+  {
+    "word": "erhitzte",
+    "pos": "adj",
+    "meaning_vi": "Hot",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:04:23.420Z"
+  },
+  {
+    "word": "flacherer",
+    "pos": "adj",
+    "meaning_vi": "Flatter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:07:44.342Z"
+  },
+  {
+    "word": "schärfsten",
+    "pos": "adj",
+    "meaning_vi": "hottest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:51:23.190Z"
+  },
+  {
+    "word": "schmelzendem",
+    "pos": "adj",
+    "meaning_vi": "Melted",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:54:40.973Z"
+  },
+  {
+    "word": "vermehrt",
+    "pos": "adj",
+    "meaning_vi": "increased",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:49:55.974Z"
+  },
+  {
+    "word": "aromatischen",
+    "pos": "adj",
+    "meaning_vi": "Smelling",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:46:58.088Z"
+  },
+  {
+    "word": "retiniert",
+    "pos": "verb",
+    "meaning_vi": "To season or flavor",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:19:49.967Z"
+  },
+  {
+    "word": "überschüssigen",
+    "pos": "adj",
+    "meaning_vi": "excess",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:53:40.179Z"
+  },
+  {
+    "word": "aluminieren",
+    "pos": "verb",
+    "meaning_vi": "to decorate with aluminum",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:55:17.267Z"
+  },
+  {
+    "word": "Aschenbrots",
+    "pos": "noun",
+    "meaning_vi": "Burnt bread",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:03:08.311Z"
+  },
+  {
+    "word": "überhitztes",
+    "pos": "adj",
+    "meaning_vi": "Overcooked",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:30:01.550Z"
+  },
+  {
+    "word": "schichten",
+    "pos": "verb",
+    "meaning_vi": "to layer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:40:14.242Z"
+  },
+  {
+    "word": "verkrustet",
+    "pos": "adj",
+    "meaning_vi": "Burnt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:08:00.719Z"
+  },
+  {
+    "word": "verchromte",
+    "pos": "adj",
+    "meaning_vi": "Chromed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:04:24.569Z"
+  },
+  {
+    "word": "Genießer",
+    "pos": "noun",
+    "meaning_vi": "Person who enjoys something",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:04:24.570Z"
+  },
+  {
+    "word": "bauest aus",
+    "pos": "verb",
+    "meaning_vi": "Eat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:04:48.151Z"
+  },
+  {
+    "word": "vergiftet",
+    "pos": "verb",
+    "meaning_vi": "Poisoned",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:07:29.647Z"
+  },
+  {
+    "word": "vergiftete",
+    "pos": "adj",
+    "meaning_vi": "poisoned",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:12:02.790Z"
+  },
+  {
+    "word": "vergifteten",
+    "pos": "adj",
+    "meaning_vi": "Poisoned",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:12:06.003Z"
+  },
+  {
+    "word": "Zwergpudeln",
+    "pos": "noun",
+    "meaning_vi": "Dumplings",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:22:20.865Z"
+  },
+  {
+    "word": "legierbarer",
+    "pos": "adj",
+    "meaning_vi": "edible",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:18:14.069Z"
+  },
+  {
+    "word": "übler",
+    "pos": "adj",
+    "meaning_vi": "bad, unpleasant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:30:09.624Z"
+  },
+  {
+    "word": "präsentiert",
+    "pos": "verb",
+    "meaning_vi": "to serve",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:47:39.231Z"
+  },
+  {
+    "word": "beschaffte",
+    "pos": "verb",
+    "meaning_vi": "to acquire, to obtain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:01:03.691Z"
+  },
+  {
+    "word": "weckte ein",
+    "pos": "verb",
+    "meaning_vi": "to wake up",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:07:53.342Z"
+  },
+  {
+    "word": "entsafteten",
+    "pos": "verb",
+    "meaning_vi": "to infuse with liquid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:09:16.047Z"
+  },
+  {
+    "word": "fritiert",
+    "pos": "verb",
+    "meaning_vi": "cook",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:14:11.980Z"
+  },
+  {
+    "word": "bumsten",
+    "pos": "verb",
+    "meaning_vi": "to crush, to pound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:51:28.375Z"
+  },
+  {
+    "word": "abfälliger",
+    "pos": "adj",
+    "meaning_vi": "Waste",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:24:15.290Z"
+  },
+  {
+    "word": "absaugte",
+    "pos": "verb",
+    "meaning_vi": "to suck out",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:32:26.510Z"
+  },
+  {
+    "word": "knauserigen",
+    "pos": "adj",
+    "meaning_vi": "peckish",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:03:31.157Z"
+  },
+  {
+    "word": "kandierend",
+    "pos": "verb",
+    "meaning_vi": "Sweet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:57:59.087Z"
+  },
+  {
+    "word": "kandierten",
+    "pos": "verb",
+    "meaning_vi": "boil",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:58:11.419Z"
+  },
+  {
+    "word": "gekrischen",
+    "pos": "verb",
+    "meaning_vi": "to decorate, to garnish",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:46:19.184Z"
+  },
+  {
+    "word": "zerflösset",
+    "pos": "verb",
+    "meaning_vi": "to dissolve",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:22:43.581Z"
+  },
+  {
+    "word": "fauligster",
+    "pos": "adj",
+    "meaning_vi": "Lazyest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:33:06.190Z"
+  },
+  {
+    "word": "gefräßiges",
+    "pos": "adj",
+    "meaning_vi": "Hungry, voracious",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:52:56.751Z"
+  },
+  {
+    "word": "konserviertere",
+    "pos": "adj",
+    "meaning_vi": "Preserve",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:02:47.377Z"
+  },
+  {
+    "word": "köstlicher",
+    "pos": "adj",
+    "meaning_vi": "Savory",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:10:10.195Z"
+  },
+  {
+    "word": "köstlichere",
+    "pos": "adj",
+    "meaning_vi": "Richer, more luxurious",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:10:13.525Z"
+  },
+  {
+    "word": "lammfrommes",
+    "pos": "adj",
+    "meaning_vi": "Lamb broth",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:12:14.842Z"
+  },
+  {
+    "word": "weinerlicher",
+    "pos": "adj",
+    "meaning_vi": "sausage-like",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:09:44.163Z"
   }
 ]

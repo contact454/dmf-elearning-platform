@@ -110,5 +110,103 @@
     "meaning_vi": "Goods transport",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T03:31:03.420Z"
+  },
+  {
+    "word": "geschifft",
+    "pos": "verb",
+    "meaning_vi": "transport, carry",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:49:05.735Z"
+  },
+  {
+    "word": "Spaßbremsen",
+    "pos": "noun",
+    "meaning_vi": "Brakes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:15:57.149Z"
+  },
+  {
+    "word": "Bremsbelags",
+    "pos": "noun",
+    "meaning_vi": "Einschlag",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:15:26.409Z"
+  },
+  {
+    "word": "Abtransporte",
+    "pos": "noun",
+    "meaning_vi": "Removal",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:34:42.791Z"
+  },
+  {
+    "word": "verfrachteter",
+    "pos": "adj",
+    "meaning_vi": "transported",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:43:31.242Z"
+  },
+  {
+    "word": "geförderter",
+    "pos": "adj",
+    "meaning_vi": "transported",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:28:56.554Z"
+  },
+  {
+    "word": "zweiachsiger",
+    "pos": "adj",
+    "meaning_vi": "Zweiräderfahrzeug",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:34:12.991Z"
+  },
+  {
+    "word": "zweiachsigen",
+    "pos": "adj",
+    "meaning_vi": "zweiachsiger",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:34:27.344Z"
+  },
+  {
+    "word": "transportierbarer",
+    "pos": "adj",
+    "meaning_vi": "transportable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:39:03.264Z"
+  },
+  {
+    "word": "fuhren über",
+    "pos": "verb",
+    "meaning_vi": "đi xe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:26:05.764Z"
+  },
+  {
+    "word": "transportablerer",
+    "pos": "adj",
+    "meaning_vi": "möglich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:44:58.515Z"
+  },
+  {
+    "word": "transportabelste",
+    "pos": "adj",
+    "meaning_vi": "transportabel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:45:07.689Z"
+  },
+  {
+    "word": "verkehrtestes",
+    "pos": "adj",
+    "meaning_vi": "transport",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:52:03.490Z"
+  },
+  {
+    "word": "zulegierten",
+    "pos": "adj",
+    "meaning_vi": "arrived",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:14:42.226Z"
   }
 ]

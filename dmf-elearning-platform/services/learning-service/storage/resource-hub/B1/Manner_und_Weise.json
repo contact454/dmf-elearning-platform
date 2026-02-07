@@ -152,5 +152,362 @@
     "meaning_vi": "manner, way",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:58:01.831Z"
+  },
+  {
+    "word": "angebracht",
+    "pos": "verb",
+    "meaning_vi": "angemessen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:27:09.528Z"
+  },
+  {
+    "word": "weisen aus",
+    "pos": "verb",
+    "meaning_vi": "manner, way",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:37:46.334Z"
+  },
+  {
+    "word": "wies ein",
+    "pos": "verb",
+    "meaning_vi": "Weise, Art",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:38:41.229Z"
+  },
+  {
+    "word": "manövriert aus",
+    "pos": "verb",
+    "meaning_vi": "auf eine bestimmte Weise",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:24:02.163Z"
+  },
+  {
+    "word": "demoralisiert",
+    "pos": "verb",
+    "meaning_vi": "mất tinh thần",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:29:25.254Z"
+  },
+  {
+    "word": "extemporierend",
+    "pos": "verb",
+    "meaning_vi": "sprechen, reden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:37:58.696Z"
+  },
+  {
+    "word": "übermäßigen",
+    "pos": "adj",
+    "meaning_vi": "excessive",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:11:29.448Z"
+  },
+  {
+    "word": "zweckmäßigen",
+    "pos": "adj",
+    "meaning_vi": "nützlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:17:04.771Z"
+  },
+  {
+    "word": "zweckmäßigeres",
+    "pos": "adj",
+    "meaning_vi": "mehr sinnvoll",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:17:11.725Z"
+  },
+  {
+    "word": "zweckmäßigster",
+    "pos": "adj",
+    "meaning_vi": "am besten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:17:17.861Z"
+  },
+  {
+    "word": "flüchtigste",
+    "pos": "adj",
+    "meaning_vi": "schnell, fließend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:40:16.701Z"
+  },
+  {
+    "word": "schweigsamerem",
+    "pos": "adj",
+    "meaning_vi": "mehr zurückhaltend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:53:43.887Z"
+  },
+  {
+    "word": "untauglicherer",
+    "pos": "adj",
+    "meaning_vi": "unmöglich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:25:00.637Z"
+  },
+  {
+    "word": "ausgiebigere",
+    "pos": "adj",
+    "meaning_vi": "ausgiebig, -er",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:46:10.252Z"
+  },
+  {
+    "word": "abgünstigsten",
+    "pos": "adj",
+    "meaning_vi": "mäßig, günstig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:02:22.135Z"
+  },
+  {
+    "word": "eleganteren",
+    "pos": "adj",
+    "meaning_vi": "mehr elegante",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:03:09.313Z"
+  },
+  {
+    "word": "langgestreckt",
+    "pos": "adj",
+    "meaning_vi": "langsam, gestreckt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:07:32.913Z"
+  },
+  {
+    "word": "kümmerlicher",
+    "pos": "adj",
+    "meaning_vi": "minderwertig, unbedeutend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:32:24.721Z"
+  },
+  {
+    "word": "ausgerichteten",
+    "pos": "adj",
+    "meaning_vi": "mannered, affected",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:49:23.195Z"
+  },
+  {
+    "word": "wahrscheinlichster",
+    "pos": "adj",
+    "meaning_vi": "manner, way",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:26:21.801Z"
+  },
+  {
+    "word": "bedenklich",
+    "pos": "adj",
+    "meaning_vi": "suspicious, questionable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:19:36.746Z"
+  },
+  {
+    "word": "zweckmäßigerweise",
+    "pos": "adv",
+    "meaning_vi": "auf eine bestimmte Weise",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:49:46.876Z"
+  },
+  {
+    "word": "angemessenem",
+    "pos": "adj",
+    "meaning_vi": "angemessen, geeignet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:35:23.287Z"
+  },
+  {
+    "word": "anfälligerer",
+    "pos": "adj",
+    "meaning_vi": "mehr empfänglich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:01:16.146Z"
+  },
+  {
+    "word": "zweckloserem",
+    "pos": "adj",
+    "meaning_vi": "nichts zum Zweck",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:04:21.763Z"
+  },
+  {
+    "word": "aufgetragen",
+    "pos": "verb",
+    "meaning_vi": "aufgebracht",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:05:23.766Z"
+  },
+  {
+    "word": "unentbehrlicher",
+    "pos": "adj",
+    "meaning_vi": "mannerless, unrefined",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:18:02.297Z"
+  },
+  {
+    "word": "vorüber",
+    "pos": "adv",
+    "meaning_vi": "Weise, Art",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:06:59.643Z"
+  },
+  {
+    "word": "ausfallend",
+    "pos": "verb",
+    "meaning_vi": "mannerly, polite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:15:03.178Z"
+  },
+  {
+    "word": "ungenauen",
+    "pos": "adj",
+    "meaning_vi": "Unsicher, unzuverlässig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:13:20.480Z"
+  },
+  {
+    "word": "setzt über",
+    "pos": "verb",
+    "meaning_vi": "über",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:36:48.387Z"
+  },
+  {
+    "word": "geherrscht",
+    "pos": "verb",
+    "meaning_vi": "sich benehmen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:18:17.773Z"
+  },
+  {
+    "word": "verdankt",
+    "pos": "verb",
+    "meaning_vi": "grateful",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:36:58.371Z"
+  },
+  {
+    "word": "führt zu",
+    "pos": "verb",
+    "meaning_vi": "way, manner",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:46:34.845Z"
+  },
+  {
+    "word": "beharrlichen",
+    "pos": "adj",
+    "meaning_vi": "strenge, fest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:37:30.076Z"
+  },
+  {
+    "word": "setzt herauf",
+    "pos": "verb",
+    "meaning_vi": "auf",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:55:05.788Z"
+  },
+  {
+    "word": "herbeiführt",
+    "pos": "verb",
+    "meaning_vi": "manner, way",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:15:38.661Z"
+  },
+  {
+    "word": "heraufsetzten",
+    "pos": "verb",
+    "meaning_vi": "auf eine bestimmte Weise tun",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:16:29.161Z"
+  },
+  {
+    "word": "bekommest mit",
+    "pos": "verb",
+    "meaning_vi": "mit etwas tun",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:47:03.346Z"
+  },
+  {
+    "word": "absichtlicherer",
+    "pos": "adj",
+    "meaning_vi": "weitere, intensiver",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:32:19.371Z"
+  },
+  {
+    "word": "biegsamer",
+    "pos": "adj",
+    "meaning_vi": "mäßig flexibel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:33:49.594Z"
+  },
+  {
+    "word": "gnädigeren",
+    "pos": "adj",
+    "meaning_vi": "milder, sanfter",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:08:55.500Z"
+  },
+  {
+    "word": "ordentlichen",
+    "pos": "adj",
+    "meaning_vi": "ordentliche Manner und Weisen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:59:35.535Z"
+  },
+  {
+    "word": "ordentlichem",
+    "pos": "adj",
+    "meaning_vi": "ordentlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:59:37.172Z"
+  },
+  {
+    "word": "pragmatischste",
+    "pos": "adj",
+    "meaning_vi": "am besten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:12:37.916Z"
+  },
+  {
+    "word": "pragmatischsten",
+    "pos": "adj",
+    "meaning_vi": "mäßig, vernünftig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:12:43.622Z"
+  },
+  {
+    "word": "selbstgerechtem",
+    "pos": "adj",
+    "meaning_vi": "Eigensinnig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:01:54.802Z"
+  },
+  {
+    "word": "stilvolle",
+    "pos": "adj",
+    "meaning_vi": "männlich, herzhaft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:23:53.517Z"
+  },
+  {
+    "word": "unruhigerem",
+    "pos": "adj",
+    "meaning_vi": "mehr unruhig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:27:58.437Z"
+  },
+  {
+    "word": "wählerischster",
+    "pos": "adj",
+    "meaning_vi": "musterhaft, sorgfältig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:23:25.967Z"
+  },
+  {
+    "word": "streckst aus",
+    "pos": "verb",
+    "meaning_vi": "auf eine bestimmte Weise, sehr",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:40:45.363Z"
   }
 ]

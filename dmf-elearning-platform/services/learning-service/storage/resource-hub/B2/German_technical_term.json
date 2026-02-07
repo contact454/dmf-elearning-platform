@@ -5,5 +5,19 @@
     "meaning_vi": "Structural constant",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T09:28:04.581Z"
+  },
+  {
+    "word": "Schnittstellentrennungsprinzip",
+    "pos": "name",
+    "meaning_vi": "Separation principle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T19:37:33.345Z"
+  },
+  {
+    "word": "Interface-Segregation-Prinzip",
+    "pos": "name",
+    "meaning_vi": "Interface Segregation Principle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T19:37:34.935Z"
   }
 ]

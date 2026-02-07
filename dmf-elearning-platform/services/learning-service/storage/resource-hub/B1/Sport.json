@@ -103,5 +103,229 @@
     "meaning_vi": "Wettbewerb",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T18:06:49.568Z"
+  },
+  {
+    "word": "Skier",
+    "pos": "noun",
+    "meaning_vi": "Thể thao",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T11:31:07.062Z"
+  },
+  {
+    "word": "Pucks",
+    "pos": "noun",
+    "meaning_vi": "Eislaufstück",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T17:19:58.333Z"
+  },
+  {
+    "word": "Seitensprungs",
+    "pos": "noun",
+    "meaning_vi": "Sprung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T18:09:27.607Z"
+  },
+  {
+    "word": "Wasserballs",
+    "pos": "noun",
+    "meaning_vi": "Swimming ball",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T20:10:03.384Z"
+  },
+  {
+    "word": "Bockspringen",
+    "pos": "noun",
+    "meaning_vi": "Springen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T01:09:12.486Z"
+  },
+  {
+    "word": "Spurts",
+    "pos": "noun",
+    "meaning_vi": "Sprint",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:50:20.944Z"
+  },
+  {
+    "word": "Fußballers",
+    "pos": "noun",
+    "meaning_vi": "Soccer player",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:16:00.397Z"
+  },
+  {
+    "word": "Kopfbälle",
+    "pos": "noun",
+    "meaning_vi": "Kugeln",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:16:34.128Z"
+  },
+  {
+    "word": "Weltmeisters",
+    "pos": "noun",
+    "meaning_vi": "Champion",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:40:48.840Z"
+  },
+  {
+    "word": "Trapezes",
+    "pos": "noun",
+    "meaning_vi": "Seilgerät",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:47:38.526Z"
+  },
+  {
+    "word": "Strafstoßes",
+    "pos": "noun",
+    "meaning_vi": "Schlag",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:18:53.728Z"
+  },
+  {
+    "word": "Elfmeterschießens",
+    "pos": "noun",
+    "meaning_vi": "Penalty kick",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:18:56.857Z"
+  },
+  {
+    "word": "Sprungwurfs",
+    "pos": "noun",
+    "meaning_vi": "Hüpfen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:48:49.775Z"
+  },
+  {
+    "word": "Zehnkämpfers",
+    "pos": "noun",
+    "meaning_vi": "Kämpfer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:54:41.768Z"
+  },
+  {
+    "word": "Mittelfeldes",
+    "pos": "noun",
+    "meaning_vi": "Mittelstrecke",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:03:14.319Z"
+  },
+  {
+    "word": "Golfschlägers",
+    "pos": "noun",
+    "meaning_vi": "Schläger",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:03:44.829Z"
+  },
+  {
+    "word": "Rücksprungs",
+    "pos": "noun",
+    "meaning_vi": "Hopsprung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:53:05.760Z"
+  },
+  {
+    "word": "Automobilsportes",
+    "pos": "noun",
+    "meaning_vi": "Automobil",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:26:21.393Z"
+  },
+  {
+    "word": "blaugrünen",
+    "pos": "adj",
+    "meaning_vi": "Fussballmannschaft",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:29:34.565Z"
+  },
+  {
+    "word": "Zugversuche",
+    "pos": "noun",
+    "meaning_vi": "Versuche",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:21:44.822Z"
+  },
+  {
+    "word": "Leistungssportes",
+    "pos": "noun",
+    "meaning_vi": "Leistungssport",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:45:17.226Z"
+  },
+  {
+    "word": "Schwimmens",
+    "pos": "noun",
+    "meaning_vi": "Sportart",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T05:35:51.313Z"
+  },
+  {
+    "word": "Eisstocksport",
+    "pos": "noun",
+    "meaning_vi": "Eisstock",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:28:31.189Z"
+  },
+  {
+    "word": "Golfschlägern",
+    "pos": "noun",
+    "meaning_vi": "Golfer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:32:23.101Z"
+  },
+  {
+    "word": "Genickschuss",
+    "pos": "noun",
+    "meaning_vi": "Schuss",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:26:08.705Z"
+  },
+  {
+    "word": "Genickschusses",
+    "pos": "noun",
+    "meaning_vi": "Schuss",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:26:15.750Z"
+  },
+  {
+    "word": "Volltreffer",
+    "pos": "noun",
+    "meaning_vi": "Tackle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:49:19.772Z"
+  },
+  {
+    "word": "Taubensport",
+    "pos": "noun",
+    "meaning_vi": "Tauchen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:05:31.089Z"
+  },
+  {
+    "word": "Taubensports",
+    "pos": "noun",
+    "meaning_vi": "Taubensport",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:06:05.314Z"
+  },
+  {
+    "word": "Taubensportes",
+    "pos": "noun",
+    "meaning_vi": "Tauchen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:06:06.854Z"
+  },
+  {
+    "word": "Mittelfeldern",
+    "pos": "noun",
+    "meaning_vi": "Mittelstrecke",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:31:15.817Z"
+  },
+  {
+    "word": "tropfe",
+    "pos": "verb",
+    "meaning_vi": "triumph",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:12:29.600Z"
   }
 ]

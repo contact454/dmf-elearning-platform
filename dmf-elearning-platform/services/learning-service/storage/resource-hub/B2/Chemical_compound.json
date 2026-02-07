@@ -5,5 +5,978 @@
     "meaning_vi": "Nucleotide",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T08:18:18.327Z"
+  },
+  {
+    "word": "Porphyrin",
+    "pos": "noun",
+    "meaning_vi": "Organic compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T17:53:53.546Z"
+  },
+  {
+    "word": "Tetroxid",
+    "pos": "noun",
+    "meaning_vi": "Tetroxid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:36:23.985Z"
+  },
+  {
+    "word": "Suboxides",
+    "pos": "noun",
+    "meaning_vi": "Substance containing oxygen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:38:39.086Z"
+  },
+  {
+    "word": "Fettmolekül",
+    "pos": "noun",
+    "meaning_vi": "fat molecule",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:07:29.398Z"
+  },
+  {
+    "word": "Kohlenmonoxids",
+    "pos": "noun",
+    "meaning_vi": "Carbon monoxide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:30:00.525Z"
+  },
+  {
+    "word": "Lithiumhexafluorophosphat",
+    "pos": "noun",
+    "meaning_vi": "Lithium hexafluorophosphate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:45:12.690Z"
+  },
+  {
+    "word": "Organolithium-Verbindung",
+    "pos": "noun",
+    "meaning_vi": "Organolithium compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:48:37.109Z"
+  },
+  {
+    "word": "Organolithium-Verbindungen",
+    "pos": "noun",
+    "meaning_vi": "Organolithium compounds",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:50:08.225Z"
+  },
+  {
+    "word": "Propylen",
+    "pos": "noun",
+    "meaning_vi": "Petroleum hydrocarbon",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:52:47.160Z"
+  },
+  {
+    "word": "Malonsäureanhydrid",
+    "pos": "noun",
+    "meaning_vi": "sulfuric acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:07:39.751Z"
+  },
+  {
+    "word": "Hyponitrit",
+    "pos": "noun",
+    "meaning_vi": "Nitrite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:31:55.582Z"
+  },
+  {
+    "word": "Pyrogallols",
+    "pos": "noun",
+    "meaning_vi": "Pyrogallol",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:38:56.361Z"
+  },
+  {
+    "word": "Disauerstoffdifluorid",
+    "pos": "noun",
+    "meaning_vi": "Disfluorid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:52:52.425Z"
+  },
+  {
+    "word": "Difluorid",
+    "pos": "noun",
+    "meaning_vi": "Difluorid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:52:54.066Z"
+  },
+  {
+    "word": "Difluoride",
+    "pos": "noun",
+    "meaning_vi": "Difluorid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:53:22.774Z"
+  },
+  {
+    "word": "Chlortrifluorid",
+    "pos": "noun",
+    "meaning_vi": "Chlorofluoride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:31:38.744Z"
+  },
+  {
+    "word": "Fluoracetamids",
+    "pos": "noun",
+    "meaning_vi": "Fluoracetamide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:39:06.116Z"
+  },
+  {
+    "word": "fluoridhaltigerem",
+    "pos": "adj",
+    "meaning_vi": "containing fluoride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:40:36.231Z"
+  },
+  {
+    "word": "Interhalogenverbindung",
+    "pos": "noun",
+    "meaning_vi": "Halogen bond",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:44:44.327Z"
+  },
+  {
+    "word": "Organofluorverbindung",
+    "pos": "noun",
+    "meaning_vi": "Organic fluorine compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:48:40.363Z"
+  },
+  {
+    "word": "perfluoriert",
+    "pos": "adj",
+    "meaning_vi": "treated with fluorine",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:48:45.150Z"
+  },
+  {
+    "word": "perfluoriertes",
+    "pos": "adj",
+    "meaning_vi": "fluorinated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:49:43.673Z"
+  },
+  {
+    "word": "perfluoriertem",
+    "pos": "adj",
+    "meaning_vi": "fluorinated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:49:46.869Z"
+  },
+  {
+    "word": "Tetrafluormethan",
+    "pos": "noun",
+    "meaning_vi": "Fluorinated methane",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:53:57.772Z"
+  },
+  {
+    "word": "Natriumthiosulfats",
+    "pos": "noun",
+    "meaning_vi": "Sodium thiosulfate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:18:08.952Z"
+  },
+  {
+    "word": "schwermetallfreien",
+    "pos": "adj",
+    "meaning_vi": "heavy metal-free",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:51:52.748Z"
+  },
+  {
+    "word": "Aluminiumoxynitrid",
+    "pos": "noun",
+    "meaning_vi": "Aluminium oxide nitride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:55:39.546Z"
+  },
+  {
+    "word": "Orthosilicat",
+    "pos": "noun",
+    "meaning_vi": "silicate mineral",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:41:03.377Z"
+  },
+  {
+    "word": "Silane",
+    "pos": "noun",
+    "meaning_vi": "Organic compound with silicon-hydrogen bonds",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:42:14.418Z"
+  },
+  {
+    "word": "Tetrachlorsilan",
+    "pos": "noun",
+    "meaning_vi": "Silicon tetrachloride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:47:46.611Z"
+  },
+  {
+    "word": "Tetrachlorsilans",
+    "pos": "noun",
+    "meaning_vi": "Tetrachlorosilane",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:48:32.430Z"
+  },
+  {
+    "word": "Ammoniummolybdophosphat",
+    "pos": "noun",
+    "meaning_vi": "Ammonium molybdate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:03:23.971Z"
+  },
+  {
+    "word": "Molybdophosphat",
+    "pos": "noun",
+    "meaning_vi": "Molybdenum phosphate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:03:25.648Z"
+  },
+  {
+    "word": "Diphosphonate",
+    "pos": "noun",
+    "meaning_vi": "Diphosphonat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:05:29.837Z"
+  },
+  {
+    "word": "Hydroxychinolins",
+    "pos": "noun",
+    "meaning_vi": "Hydroxychinolins",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:06:33.077Z"
+  },
+  {
+    "word": "Mitscherlichit",
+    "pos": "noun",
+    "meaning_vi": "Mitscherlichit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:08:36.671Z"
+  },
+  {
+    "word": "Natriummolybdophosphat",
+    "pos": "noun",
+    "meaning_vi": "Sodium molybdate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:08:47.460Z"
+  },
+  {
+    "word": "Oxidhalogenid",
+    "pos": "noun",
+    "meaning_vi": "Halogenide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:08:52.716Z"
+  },
+  {
+    "word": "Peroxodiphosphat",
+    "pos": "noun",
+    "meaning_vi": "Hydrogen peroxide diphosphate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:26:17.901Z"
+  },
+  {
+    "word": "Peroxophosphat",
+    "pos": "noun",
+    "meaning_vi": "Peroxidic acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:26:21.279Z"
+  },
+  {
+    "word": "Peroxophosphorsäure",
+    "pos": "noun",
+    "meaning_vi": "peroxide acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:26:22.946Z"
+  },
+  {
+    "word": "Phosphonsäure",
+    "pos": "noun",
+    "meaning_vi": "Phosphoric acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:32:06.414Z"
+  },
+  {
+    "word": "Phosphorpentasulfid",
+    "pos": "noun",
+    "meaning_vi": "Phosphorus pentasulfide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:32:22.773Z"
+  },
+  {
+    "word": "Peroxodiphosphats",
+    "pos": "noun",
+    "meaning_vi": "Peroxodiphosphat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:32:40.729Z"
+  },
+  {
+    "word": "Phosphatgesteines",
+    "pos": "noun",
+    "meaning_vi": "Phosphate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:32:56.412Z"
+  },
+  {
+    "word": "Phosphorpentachlorids",
+    "pos": "noun",
+    "meaning_vi": "Phosphorus pentachloride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:34:11.539Z"
+  },
+  {
+    "word": "Phosphorpentoxids",
+    "pos": "noun",
+    "meaning_vi": "Phosphorus oxide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:36:52.213Z"
+  },
+  {
+    "word": "Ribose",
+    "pos": "noun",
+    "meaning_vi": "Ribose",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:53:10.039Z"
+  },
+  {
+    "word": "Thiophosphat",
+    "pos": "noun",
+    "meaning_vi": "Phosphorus acid thiophosphate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T02:20:52.286Z"
+  },
+  {
+    "word": "Triphenylphosphin",
+    "pos": "noun",
+    "meaning_vi": "Phosphine tris(phenyl) ester",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T02:36:11.954Z"
+  },
+  {
+    "word": "Thiophosphate",
+    "pos": "noun",
+    "meaning_vi": "Phosphat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T02:38:42.963Z"
+  },
+  {
+    "word": "phosphathaltiges",
+    "pos": "adj",
+    "meaning_vi": "phosphat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:53:08.485Z"
+  },
+  {
+    "word": "Alkylhalogeniden",
+    "pos": "noun",
+    "meaning_vi": "Alkyl halides",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:39:15.019Z"
+  },
+  {
+    "word": "Alkylreste",
+    "pos": "noun",
+    "meaning_vi": "Alkyl group",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:41:43.937Z"
+  },
+  {
+    "word": "Antimonpentafluorids",
+    "pos": "noun",
+    "meaning_vi": "Antimonpentafluorid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:42:39.588Z"
+  },
+  {
+    "word": "Aromastoffe",
+    "pos": "noun",
+    "meaning_vi": "smell substance",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:43:19.658Z"
+  },
+  {
+    "word": "Bleisulfids",
+    "pos": "noun",
+    "meaning_vi": "Lead sulfide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:50:24.806Z"
+  },
+  {
+    "word": "Disulfidbrücke",
+    "pos": "noun",
+    "meaning_vi": "Sulfide bridge",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T05:11:24.421Z"
+  },
+  {
+    "word": "Dithiolane",
+    "pos": "noun",
+    "meaning_vi": "Organic compound with two sulfur atoms",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T05:12:45.741Z"
+  },
+  {
+    "word": "Dodecylbenzols",
+    "pos": "noun",
+    "meaning_vi": "alkylbenzene",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T05:13:01.053Z"
+  },
+  {
+    "word": "Pyrosulfite",
+    "pos": "noun",
+    "meaning_vi": "Pyrosulfite",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:07:24.958Z"
+  },
+  {
+    "word": "Polysulfid",
+    "pos": "noun",
+    "meaning_vi": "Organic compound consisting of sulfur and carbon atoms",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:15:09.312Z"
+  },
+  {
+    "word": "Schwefeldifluorid",
+    "pos": "noun",
+    "meaning_vi": "Sulfur difluoride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:20:34.591Z"
+  },
+  {
+    "word": "Schwefelkreislauf",
+    "pos": "noun",
+    "meaning_vi": "Sulfur cycle",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:20:39.394Z"
+  },
+  {
+    "word": "Schwefeloxid",
+    "pos": "noun",
+    "meaning_vi": "Sulfur dioxide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:20:49.180Z"
+  },
+  {
+    "word": "Sulfurylhalogenid",
+    "pos": "noun",
+    "meaning_vi": "Sulfur compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:22:41.073Z"
+  },
+  {
+    "word": "Schwefelhalogenide",
+    "pos": "noun",
+    "meaning_vi": "Sulfur halogenide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:23:02.292Z"
+  },
+  {
+    "word": "schwefelorganischen",
+    "pos": "adj",
+    "meaning_vi": "sulfur-based",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:24:14.573Z"
+  },
+  {
+    "word": "schwefelorganischem",
+    "pos": "adj",
+    "meaning_vi": "sulfur compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:24:17.872Z"
+  },
+  {
+    "word": "Dischwefeldichlorid",
+    "pos": "noun",
+    "meaning_vi": "Chloride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:39:25.034Z"
+  },
+  {
+    "word": "Dischwefeldichlorids",
+    "pos": "noun",
+    "meaning_vi": "Dischwefeldichlorid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:39:31.454Z"
+  },
+  {
+    "word": "Epichlorhydrins",
+    "pos": "noun",
+    "meaning_vi": "Organic compounds with a chlorine atom attached to an epoxide ring",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:40:38.667Z"
+  },
+  {
+    "word": "Iodtrichlorid",
+    "pos": "noun",
+    "meaning_vi": "Iodine trichloride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:42:30.333Z"
+  },
+  {
+    "word": "Nitrosylschwefelsäure",
+    "pos": "noun",
+    "meaning_vi": "Nitrosyl sulfurous acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:43:40.770Z"
+  },
+  {
+    "word": "polychloriertes",
+    "pos": "adj",
+    "meaning_vi": "Polychlorated",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:47:24.681Z"
+  },
+  {
+    "word": "Argonfluorohydrid",
+    "pos": "noun",
+    "meaning_vi": "Argonfluorohydrid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:50:18.437Z"
+  },
+  {
+    "word": "Hexachloroplatinat",
+    "pos": "noun",
+    "meaning_vi": " Platinum hexachloride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:59:25.967Z"
+  },
+  {
+    "word": "Hexachloroplatinate",
+    "pos": "noun",
+    "meaning_vi": "Hexachlorplatinate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:00:58.956Z"
+  },
+  {
+    "word": "Hexachloroplatinats",
+    "pos": "noun",
+    "meaning_vi": "Hexachloroplatinate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:01:00.568Z"
+  },
+  {
+    "word": "Kaliumhydrogencarbonats",
+    "pos": "noun",
+    "meaning_vi": "Calcium hydrogen carbonate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:01:08.077Z"
+  },
+  {
+    "word": "Thiocyanate",
+    "pos": "noun",
+    "meaning_vi": "Thiocyanate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:01:46.224Z"
+  },
+  {
+    "word": "Scandiumbromids",
+    "pos": "noun",
+    "meaning_vi": "Scandium bromide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:25:00.026Z"
+  },
+  {
+    "word": "Titantrichlorid",
+    "pos": "noun",
+    "meaning_vi": "Titanium trichloride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:37:46.586Z"
+  },
+  {
+    "word": "Polyvanadate",
+    "pos": "noun",
+    "meaning_vi": "vanadate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:41:50.935Z"
+  },
+  {
+    "word": "Diglycerid",
+    "pos": "noun",
+    "meaning_vi": "Fettsäuremolekül",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:49:25.054Z"
+  },
+  {
+    "word": "Ammoniumdichromat",
+    "pos": "noun",
+    "meaning_vi": "Ammonium dichromat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:51:49.309Z"
+  },
+  {
+    "word": "Bipyridine",
+    "pos": "noun",
+    "meaning_vi": "Organische Verbindung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:53:29.881Z"
+  },
+  {
+    "word": "Mangancarbonat",
+    "pos": "noun",
+    "meaning_vi": "Carbonate of manganese",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:09:24.068Z"
+  },
+  {
+    "word": "Hypobromite",
+    "pos": "noun",
+    "meaning_vi": "Lowest bromine compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:10:06.310Z"
+  },
+  {
+    "word": "Manganhalogenide",
+    "pos": "noun",
+    "meaning_vi": "Mangan halogenide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:26:38.264Z"
+  },
+  {
+    "word": "Mangansilikate",
+    "pos": "noun",
+    "meaning_vi": "Manganese sulfate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:27:01.020Z"
+  },
+  {
+    "word": "Brenztraubensäure",
+    "pos": "noun",
+    "meaning_vi": "Acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:49:38.160Z"
+  },
+  {
+    "word": "Eisencarbonyl",
+    "pos": "noun",
+    "meaning_vi": "Iron carbonyl",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:07:40.764Z"
+  },
+  {
+    "word": "Thiocyanaten",
+    "pos": "noun",
+    "meaning_vi": "Thiocyanate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:37:51.632Z"
+  },
+  {
+    "word": "silikonisiertes",
+    "pos": "adj",
+    "meaning_vi": "siliconized",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:45:31.844Z"
+  },
+  {
+    "word": "Kupferhydroxide",
+    "pos": "noun",
+    "meaning_vi": "Copper hydroxide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:55:55.481Z"
+  },
+  {
+    "word": "Kupferhydroxids",
+    "pos": "noun",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:55:56.970Z"
+  },
+  {
+    "word": "Kupfervitriols",
+    "pos": "noun",
+    "meaning_vi": "Copper(II) oxide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:56:23.949Z"
+  },
+  {
+    "word": "Arylamins",
+    "pos": "noun",
+    "meaning_vi": "Organic compounds containing an amine group",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:06:30.479Z"
+  },
+  {
+    "word": "Ethylendiamintetraessigsäure",
+    "pos": "noun",
+    "meaning_vi": "Ethylendiamintetraessigsäure",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:24:23.936Z"
+  },
+  {
+    "word": "Arsentrisulfid",
+    "pos": "noun",
+    "meaning_vi": "Arsenic sulfide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:09:58.758Z"
+  },
+  {
+    "word": "Arsenpentachlorids",
+    "pos": "noun",
+    "meaning_vi": "Arsenpentachlorid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:11:16.518Z"
+  },
+  {
+    "word": "Arsensulfids",
+    "pos": "noun",
+    "meaning_vi": "Arsenic sulfide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:11:19.869Z"
+  },
+  {
+    "word": "Kupferlegierungen",
+    "pos": "noun",
+    "meaning_vi": "Alloy of copper",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:24:51.418Z"
+  },
+  {
+    "word": "Hydroxyketonen",
+    "pos": "noun",
+    "meaning_vi": "Hydroxyketone",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:36:32.430Z"
+  },
+  {
+    "word": "Phenanthrolinen",
+    "pos": "noun",
+    "meaning_vi": "Phenanthrolin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:36:52.615Z"
+  },
+  {
+    "word": "Alkalihydroxiden",
+    "pos": "noun",
+    "meaning_vi": "alkali hydroxide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:39:18.949Z"
+  },
+  {
+    "word": "Pyrophosphaten",
+    "pos": "noun",
+    "meaning_vi": "Phosphorus acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:40:46.290Z"
+  },
+  {
+    "word": "Manganhalogeniden",
+    "pos": "noun",
+    "meaning_vi": "Manganese halides",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:43:10.505Z"
+  },
+  {
+    "word": "Organophosphinen",
+    "pos": "noun",
+    "meaning_vi": "Organophosphine",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:43:36.341Z"
+  },
+  {
+    "word": "Arylaminen",
+    "pos": "noun",
+    "meaning_vi": "Arylamine",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:44:05.446Z"
+  },
+  {
+    "word": "Arsenocholinen",
+    "pos": "noun",
+    "meaning_vi": "Arsenic-based choline compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:45:15.665Z"
+  },
+  {
+    "word": "Arsenpentachloriden",
+    "pos": "noun",
+    "meaning_vi": "Arsenic pentachloride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:45:24.218Z"
+  },
+  {
+    "word": "Cadmiumselenid",
+    "pos": "noun",
+    "meaning_vi": "Cadmium selenide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:34:48.238Z"
+  },
+  {
+    "word": "Dimethylselenid",
+    "pos": "noun",
+    "meaning_vi": "Organoselenium compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:35:02.516Z"
+  },
+  {
+    "word": "Homotaurocholsäure",
+    "pos": "noun",
+    "meaning_vi": "Homotauric acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:36:30.315Z"
+  },
+  {
+    "word": "Diselane",
+    "pos": "noun",
+    "meaning_vi": "Dieselane",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:37:30.476Z"
+  },
+  {
+    "word": "Cadmiumselenids",
+    "pos": "noun",
+    "meaning_vi": "Cadmium selenide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:38:16.860Z"
+  },
+  {
+    "word": "Natriumselenid",
+    "pos": "noun",
+    "meaning_vi": "sodium selenide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:41:28.389Z"
+  },
+  {
+    "word": "Organoselenverbindung",
+    "pos": "noun",
+    "meaning_vi": "Organoselenium compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:41:45.158Z"
+  },
+  {
+    "word": "Selenophosphatase",
+    "pos": "noun",
+    "meaning_vi": "Moon phosphate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:43:46.495Z"
+  },
+  {
+    "word": "Selenoxide",
+    "pos": "noun",
+    "meaning_vi": "oxide of selenium",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:46:41.145Z"
+  },
+  {
+    "word": "Selensulfids",
+    "pos": "noun",
+    "meaning_vi": "Selenide of silver",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:46:52.730Z"
+  },
+  {
+    "word": "Alkylbromid",
+    "pos": "noun",
+    "meaning_vi": "alkyl bromide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:57:32.325Z"
+  },
+  {
+    "word": "Brompentafluorid",
+    "pos": "noun",
+    "meaning_vi": "Fluoride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:57:49.961Z"
+  },
+  {
+    "word": "Bromidion",
+    "pos": "noun",
+    "meaning_vi": "Bromid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:57:55.070Z"
+  },
+  {
+    "word": "Bromdampfs",
+    "pos": "noun",
+    "meaning_vi": "Volatile organic compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:58:27.629Z"
+  },
+  {
+    "word": "Dibenzodioxin",
+    "pos": "noun",
+    "meaning_vi": "Dioxin",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:58:49.118Z"
+  },
+  {
+    "word": "Tribromid",
+    "pos": "noun",
+    "meaning_vi": "Tribromide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:59:06.019Z"
+  },
+  {
+    "word": "Organobromverbindungen",
+    "pos": "noun",
+    "meaning_vi": "Organic bromide compounds",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:00:19.944Z"
+  },
+  {
+    "word": "Xenonhexafluorid",
+    "pos": "noun",
+    "meaning_vi": "Xenon hexafluoride",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:07:47.838Z"
+  },
+  {
+    "word": "Pentamethylcyclopentadiens",
+    "pos": "noun",
+    "meaning_vi": "Organic compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:36:08.590Z"
+  },
+  {
+    "word": "Zirconiumcarbonats",
+    "pos": "noun",
+    "meaning_vi": "Zirconium carbonate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:46:41.341Z"
+  },
+  {
+    "word": "Zirconiumkomplexes",
+    "pos": "noun",
+    "meaning_vi": "Zirconium compounds",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:47:32.558Z"
+  },
+  {
+    "word": "Heptafluoroniobat",
+    "pos": "noun",
+    "meaning_vi": "Fluorinated organic compound",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:08:30.851Z"
+  },
+  {
+    "word": "Methylisobutylketon",
+    "pos": "noun",
+    "meaning_vi": "Ethyl ketone",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:08:51.326Z"
+  },
+  {
+    "word": "Niobpentoxid",
+    "pos": "noun",
+    "meaning_vi": "Niob pentoxide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:09:03.449Z"
+  },
+  {
+    "word": "Heteropolysäure",
+    "pos": "noun",
+    "meaning_vi": "Heteropoly acid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:19:08.680Z"
+  },
+  {
+    "word": "Molybdändisulfid",
+    "pos": "noun",
+    "meaning_vi": "Lead sulfide",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:26:27.761Z"
   }
 ]

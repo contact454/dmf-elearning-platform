@@ -1,4 +1,4 @@
-export type SkillType = 'grammar' | 'vocabulary' | 'reading' | 'listening';
+export type SkillType = 'grammar' | 'vocabulary' | 'reading' | 'listening' | 'speaking' | 'writing';
 
 export interface Question {
     id: string;

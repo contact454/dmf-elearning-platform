@@ -1,0 +1,319 @@
+{
+  "prompts": [
+    {
+      "title": "Mein Tagesablauf",
+      "description": "Beschreibe deinen typischen Tagesablauf von morgens bis abends. Was machst du normalerweise? Wann stehst du auf? Was isst du zum Frühstück?",
+      "cefr_level": "A1",
+      "category": "daily_life",
+      "target_word_count": 100,
+      "tips": {
+        "tips": [
+          "Use present tense (Präsens): ich gehe, ich esse, ich schlafe",
+          "Include time expressions: um 7 Uhr, dann, danach, später",
+          "Mention at least 5 daily activities",
+          "Use simple sentences (Subject + Verb + Object)"
+        ]
+      }
+    },
+    {
+      "title": "Mein Lieblingsessen",
+      "description": "Schreibe über dein Lieblingsessen. Was ist es? Warum magst du es? Wie schmeckt es?",
+      "cefr_level": "A1",
+      "category": "daily_life",
+      "target_word_count": 80,
+      "tips": {
+        "tips": [
+          "Use adjectives: lecker, gut, süß, salzig",
+          "Describe taste and appearance",
+          "Explain why you like it (weil...)",
+          "Use simple present tense"
+        ]
+      }
+    },
+    {
+      "title": "Meine Familie",
+      "description": "Stelle deine Familie vor. Wie viele Personen sind in deiner Familie? Was machen sie?",
+      "cefr_level": "A1",
+      "category": "daily_life",
+      "target_word_count": 90,
+      "tips": {
+        "tips": [
+          "Use family vocabulary: Mutter, Vater, Bruder, Schwester",
+          "Describe ages and occupations",
+          "Use possessive pronouns: mein, meine",
+          "Simple present tense for descriptions"
+        ]
+      }
+    },
+    {
+      "title": "Mein Hobby",
+      "description": "Was machst du gerne in deiner Freizeit? Beschreibe dein Lieblingshobby.",
+      "cefr_level": "A1",
+      "category": "daily_life",
+      "target_word_count": 85,
+      "tips": {
+        "tips": [
+          "Use verbs like: spielen, lesen, schwimmen, kochen",
+          "Explain how often you do it: jeden Tag, manchmal, oft",
+          "Say why you enjoy it: es macht Spaß, es ist interessant",
+          "Keep sentences simple and short"
+        ]
+      }
+    },
+    {
+      "title": "Mein Zimmer",
+      "description": "Beschreibe dein Zimmer. Was gibt es in deinem Zimmer? Welche Möbel hast du?",
+      "cefr_level": "A1",
+      "category": "description",
+      "target_word_count": 95,
+      "tips": {
+        "tips": [
+          "Use 'es gibt' and 'ich habe' for describing items",
+          "Furniture vocabulary: Bett, Schreibtisch, Stuhl, Schrank",
+          "Use position words: neben, auf, unter, in",
+          "Describe colors and sizes: groß, klein, blau, weiß"
+        ]
+      }
+    },
+    {
+      "title": "Eine Reise nach Berlin",
+      "description": "Du hast Berlin besucht. Schreibe über deine Erfahrungen. Was hast du gesehen? Wo bist du gewesen?",
+      "cefr_level": "A2",
+      "category": "travel",
+      "target_word_count": 150,
+      "tips": {
+        "tips": [
+          "Use past tense (Perfekt): ich bin gegangen, ich habe gesehen",
+          "Mention 3+ places you visited",
+          "Include your feelings: es war interessant, schön, toll",
+          "Use time connectors: zuerst, dann, danach, schließlich"
+        ]
+      }
+    },
+    {
+      "title": "Mein letztes Wochenende",
+      "description": "Was hast du am letzten Wochenende gemacht? Schreibe über deine Aktivitäten.",
+      "cefr_level": "A2",
+      "category": "daily_life",
+      "target_word_count": 130,
+      "tips": {
+        "tips": [
+          "Use past tense consistently",
+          "Describe activities for both Saturday and Sunday",
+          "Include who you were with: mit meiner Familie, mit Freunden",
+          "Use time expressions: am Samstag, am Sonntagmorgen"
+        ]
+      }
+    },
+    {
+      "title": "Ein besonderer Tag",
+      "description": "Beschreibe einen besonderen Tag in deinem Leben. Was ist passiert? Warum war dieser Tag wichtig?",
+      "cefr_level": "A2",
+      "category": "daily_life",
+      "target_word_count": 140,
+      "tips": {
+        "tips": [
+          "Start with when it happened: vor einem Jahr, letzten Monat",
+          "Use past tense to narrate events",
+          "Express emotions: glücklich, überrascht, aufgeregt",
+          "End with why it was special"
+        ]
+      }
+    },
+    {
+      "title": "Meine Schulzeit",
+      "description": "Wie war deine Schulzeit? Erzähle über deine Lieblingslehrer, Fächer und Erlebnisse.",
+      "cefr_level": "A2",
+      "category": "daily_life",
+      "target_word_count": 145,
+      "tips": {
+        "tips": [
+          "Use past tense (war, hatte, mochte)",
+          "Describe favorite subjects and why",
+          "Talk about friends and teachers",
+          "Use comparisons: besser als, interessanter als"
+        ]
+      }
+    },
+    {
+      "title": "Ein Fest in meinem Land",
+      "description": "Beschreibe ein traditionelles Fest oder Feiertag in deinem Land. Wie wird es gefeiert?",
+      "cefr_level": "A2",
+      "category": "daily_life",
+      "target_word_count": 135,
+      "tips": {
+        "tips": [
+          "Name the festival and when it happens",
+          "Describe traditions: wir essen, wir tanzen, wir singen",
+          "Use present tense for general descriptions",
+          "Include cultural details and special foods"
+        ]
+      }
+    },
+    {
+      "title": "Meine Meinung zu sozialen Medien",
+      "description": "Was denkst du über soziale Medien? Sind sie gut oder schlecht? Erkläre deine Meinung mit Beispielen.",
+      "cefr_level": "B1",
+      "category": "opinion",
+      "target_word_count": 200,
+      "tips": {
+        "tips": [
+          "State your opinion clearly: Meiner Meinung nach..., Ich denke, dass...",
+          "Give 2-3 arguments (pros or cons)",
+          "Use connectors: einerseits...andererseits, außerdem, jedoch",
+          "Provide examples from your experience",
+          "Conclude with a summary (Zusammenfassend...)"
+        ]
+      }
+    },
+    {
+      "title": "Sollte man vegetarisch essen?",
+      "description": "Diskutiere die Vor- und Nachteile von vegetarischer Ernährung. Was ist deine persönliche Meinung?",
+      "cefr_level": "B1",
+      "category": "opinion",
+      "target_word_count": 190,
+      "tips": {
+        "tips": [
+          "Present both sides: advantages and disadvantages",
+          "Use vocabulary: Gesundheit, Umwelt, Tierschutz",
+          "Connect arguments: deshalb, deswegen, darum",
+          "Express your own view at the end",
+          "Use modal verbs: sollte, könnte, müsste"
+        ]
+      }
+    },
+    {
+      "title": "Die Vor- und Nachteile von Hausarbeit",
+      "description": "Sollten Studenten von zu Hause aus arbeiten oder im Büro? Diskutiere beide Seiten.",
+      "cefr_level": "B1",
+      "category": "opinion",
+      "target_word_count": 195,
+      "tips": {
+        "tips": [
+          "Structure: Introduction → Advantages → Disadvantages → Conclusion",
+          "Use comparative structures: mehr/weniger, besser/schlechter",
+          "Give concrete examples from work situations",
+          "Use conjunctions: obwohl, während, trotzdem",
+          "Balance your argument"
+        ]
+      }
+    },
+    {
+      "title": "Mein Traumberuf",
+      "description": "Beschreibe deinen Traumberuf. Was möchtest du in der Zukunft arbeiten? Warum?",
+      "cefr_level": "B1",
+      "category": "opinion",
+      "target_word_count": 185,
+      "tips": {
+        "tips": [
+          "Use future tense: ich werde, ich möchte",
+          "Explain reasons: weil, da, denn",
+          "Describe required skills and qualifications",
+          "Talk about challenges and opportunities",
+          "Show passion and motivation"
+        ]
+      }
+    },
+    {
+      "title": "Lernen online vs. im Klassenzimmer",
+      "description": "Vergleiche Online-Lernen mit traditionellem Unterricht im Klassenzimmer. Was sind die Unterschiede?",
+      "cefr_level": "B1",
+      "category": "opinion",
+      "target_word_count": 200,
+      "tips": {
+        "tips": [
+          "Compare both methods systematically",
+          "Use comparative language: während, im Gegensatz zu, hingegen",
+          "Discuss flexibility, interaction, effectiveness",
+          "Give personal experience if possible",
+          "End with balanced conclusion"
+        ]
+      }
+    },
+    {
+      "title": "Bewerbungsschreiben für ein Praktikum",
+      "description": "Schreibe ein formelles Bewerbungsschreiben für ein Praktikum in einer deutschen Firma. Erkläre, warum du geeignet bist.",
+      "cefr_level": "B2",
+      "category": "formal_letter",
+      "target_word_count": 250,
+      "tips": {
+        "tips": [
+          "Use formal greeting: Sehr geehrte Damen und Herren",
+          "State the position you're applying for",
+          "Highlight your skills and experience",
+          "Use formal language (no contractions, no slang)",
+          "End with: Mit freundlichen Grüßen",
+          "Use subjunctive for polite requests: Ich würde mich freuen..."
+        ]
+      }
+    },
+    {
+      "title": "Leserbrief: Umweltschutz in der Stadt",
+      "description": "Schreibe einen Leserbrief an eine Zeitung über Umweltprobleme in deiner Stadt. Schlage Lösungen vor.",
+      "cefr_level": "B2",
+      "category": "formal_letter",
+      "target_word_count": 240,
+      "tips": {
+        "tips": [
+          "Start with: Sehr geehrte Redaktion",
+          "Identify specific environmental problems",
+          "Propose realistic solutions",
+          "Use formal argumentation style",
+          "Use passive voice for objectivity: es sollte gemacht werden",
+          "End with call to action"
+        ]
+      }
+    },
+    {
+      "title": "Ein formeller Beschwerdebrief",
+      "description": "Du hast ein defektes Produkt gekauft. Schreibe einen formellen Beschwerdebrief an die Firma.",
+      "cefr_level": "B2",
+      "category": "formal_letter",
+      "target_word_count": 230,
+      "tips": {
+        "tips": [
+          "Use formal structure and tone",
+          "Describe the problem clearly and objectively",
+          "State what you expect (refund, replacement, apology)",
+          "Include relevant details: order number, date, etc.",
+          "Use polite but firm language",
+          "Reference consumer rights if appropriate"
+        ]
+      }
+    },
+    {
+      "title": "Die Bedeutung von Bildung",
+      "description": "Diskutiere die Rolle von Bildung in der modernen Gesellschaft. Warum ist Bildung wichtig?",
+      "cefr_level": "B2",
+      "category": "opinion",
+      "target_word_count": 245,
+      "tips": {
+        "tips": [
+          "Use abstract vocabulary: Entwicklung, Chancengleichheit, Wissen",
+          "Discuss social, economic, and personal aspects",
+          "Use complex sentence structures with subordinate clauses",
+          "Reference broader societal issues",
+          "Show critical thinking",
+          "Use nominalization: die Bildung, die Entwicklung"
+        ]
+      }
+    },
+    {
+      "title": "Digitalisierung in der Arbeitswelt",
+      "description": "Wie verändert die Digitalisierung unsere Arbeitswelt? Welche Chancen und Risiken gibt es?",
+      "cefr_level": "B2",
+      "category": "opinion",
+      "target_word_count": 255,
+      "tips": {
+        "tips": [
+          "Analyze both opportunities and risks",
+          "Use technical and business vocabulary",
+          "Discuss automation, remote work, new job types",
+          "Use subjunctive II for hypothetical situations: würde, könnte, sollte",
+          "Support arguments with logical reasoning",
+          "Show awareness of current trends and future implications"
+        ]
+      }
+    }
+  ]
+}

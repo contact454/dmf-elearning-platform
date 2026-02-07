@@ -12,5 +12,68 @@
     "meaning_vi": "Nhiệt độ",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T01:00:00.999Z"
+  },
+  {
+    "word": "kühle ab",
+    "pos": "verb",
+    "meaning_vi": "Nhiệt độ thấp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:36:10.804Z"
+  },
+  {
+    "word": "heisser",
+    "pos": "adj",
+    "meaning_vi": "Nhiệt độ cao",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:07:32.782Z"
+  },
+  {
+    "word": "wärmere",
+    "pos": "adj",
+    "meaning_vi": "Nhiệt độ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:31:11.030Z"
+  },
+  {
+    "word": "Normaltemperaturen",
+    "pos": "noun",
+    "meaning_vi": "Nhiệt độ",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:50:54.519Z"
+  },
+  {
+    "word": "erstarrt",
+    "pos": "adj",
+    "meaning_vi": "Đông lạnh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:25:42.596Z"
+  },
+  {
+    "word": "vorgewärmt",
+    "pos": "adj",
+    "meaning_vi": "Nóng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:41:59.360Z"
+  },
+  {
+    "word": "kühleres",
+    "pos": "adj",
+    "meaning_vi": "Nhiệt độ thấp hơn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:35:34.381Z"
+  },
+  {
+    "word": "wärmst",
+    "pos": "verb",
+    "meaning_vi": "Nóng nhất",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:45:21.810Z"
+  },
+  {
+    "word": "goldener",
+    "pos": "adj",
+    "meaning_vi": "mưa rào",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:09:14.303Z"
   }
 ]

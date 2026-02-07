@@ -108,5 +108,12 @@
     "meaning_en": "police",
     "level": "A1",
     "source": "CodingFriends + Claude Translation"
+  },
+  {
+    "word": "einkaufst",
+    "pos": "verb",
+    "meaning_vi": "Buy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T10:15:47.703Z"
   }
 ]

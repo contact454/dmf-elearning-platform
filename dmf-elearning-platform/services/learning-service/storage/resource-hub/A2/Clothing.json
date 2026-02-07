@@ -124,5 +124,180 @@
     "meaning_vi": "Dressed",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T05:12:02.706Z"
+  },
+  {
+    "word": "Jackett",
+    "pos": "noun",
+    "meaning_vi": "Jacket",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:29:52.086Z"
+  },
+  {
+    "word": "Damastgewebes",
+    "pos": "noun",
+    "meaning_vi": "Velvet fabric",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:42:36.731Z"
+  },
+  {
+    "word": "Vesten",
+    "pos": "noun",
+    "meaning_vi": "Coat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T19:53:52.830Z"
+  },
+  {
+    "word": "Topfhandschuhs",
+    "pos": "noun",
+    "meaning_vi": "Hand gloves",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T20:10:16.820Z"
+  },
+  {
+    "word": "waschbar",
+    "pos": "adj",
+    "meaning_vi": "Washable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T22:41:26.008Z"
+  },
+  {
+    "word": "Leinens",
+    "pos": "noun",
+    "meaning_vi": "Linens",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T01:57:02.443Z"
+  },
+  {
+    "word": "bedeckt",
+    "pos": "adj",
+    "meaning_vi": "Covered",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:52:40.464Z"
+  },
+  {
+    "word": "Schöße",
+    "pos": "noun",
+    "meaning_vi": "Sleeves",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:04:04.221Z"
+  },
+  {
+    "word": "Schuhanziehers",
+    "pos": "noun",
+    "meaning_vi": "Socks",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:45:26.787Z"
+  },
+  {
+    "word": "Schosen",
+    "pos": "noun",
+    "meaning_vi": "Pants",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:51:33.430Z"
+  },
+  {
+    "word": "Gewebes",
+    "pos": "noun",
+    "meaning_vi": "Fabric",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:25:47.424Z"
+  },
+  {
+    "word": "Badeanzuges",
+    "pos": "noun",
+    "meaning_vi": "Bath clothes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:52:26.360Z"
+  },
+  {
+    "word": "Schlafrocks",
+    "pos": "noun",
+    "meaning_vi": "Sleepwear",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:33:33.829Z"
+  },
+  {
+    "word": "gelster",
+    "pos": "adj",
+    "meaning_vi": "soiled",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:50:09.663Z"
+  },
+  {
+    "word": "gefärbter",
+    "pos": "adj",
+    "meaning_vi": "dyeed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:29:02.727Z"
+  },
+  {
+    "word": "falschester",
+    "pos": "adj",
+    "meaning_vi": "false uniform",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:34:30.071Z"
+  },
+  {
+    "word": "entfärbtes",
+    "pos": "adj",
+    "meaning_vi": "dyeless",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:07:14.144Z"
+  },
+  {
+    "word": "Robe",
+    "pos": "noun",
+    "meaning_vi": "Robe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:28:11.944Z"
+  },
+  {
+    "word": "fadennackt",
+    "pos": "adj",
+    "meaning_vi": "Exposed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:40:44.668Z"
+  },
+  {
+    "word": "gekleidet",
+    "pos": "verb",
+    "meaning_vi": "Dressed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:42:10.353Z"
+  },
+  {
+    "word": "kleidest",
+    "pos": "verb",
+    "meaning_vi": "to dress",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:09:41.154Z"
+  },
+  {
+    "word": "ärmelloses",
+    "pos": "adj",
+    "meaning_vi": "armless",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:31:43.781Z"
+  },
+  {
+    "word": "faltbare",
+    "pos": "adj",
+    "meaning_vi": "foldable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:30:20.606Z"
+  },
+  {
+    "word": "getarntes",
+    "pos": "adj",
+    "meaning_vi": "dressed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:03:48.183Z"
+  },
+  {
+    "word": "getarnten",
+    "pos": "adj",
+    "meaning_vi": "Dressed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:03:49.720Z"
   }
 ]

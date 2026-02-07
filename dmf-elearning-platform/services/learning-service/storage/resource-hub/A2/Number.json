@@ -54,5 +54,40 @@
     "meaning_vi": "Sixty",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:32:06.411Z"
+  },
+  {
+    "word": "eineinhalb",
+    "pos": "num",
+    "meaning_vi": "Half",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T12:19:17.098Z"
+  },
+  {
+    "word": "hundertste",
+    "pos": "adj",
+    "meaning_vi": "hundredth",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:46:23.643Z"
+  },
+  {
+    "word": "mehreren",
+    "pos": "pron",
+    "meaning_vi": "more than two",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:35:55.902Z"
+  },
+  {
+    "word": "dreifache",
+    "pos": "adj",
+    "meaning_vi": "Three times",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:43:49.869Z"
+  },
+  {
+    "word": "elfter",
+    "pos": "num",
+    "meaning_vi": "other",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:06:17.707Z"
   }
 ]

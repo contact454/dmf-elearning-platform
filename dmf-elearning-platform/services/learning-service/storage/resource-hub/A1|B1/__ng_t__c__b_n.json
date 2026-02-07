@@ -103,5 +103,145 @@
     "meaning_vi": "Wake up",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:54:54.854Z"
+  },
+  {
+    "word": "wirken mit",
+    "pos": "verb",
+    "meaning_vi": "làm việc",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:05:00.179Z"
+  },
+  {
+    "word": "sehen voraus",
+    "pos": "verb",
+    "meaning_vi": "và, trước",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:16:56.035Z"
+  },
+  {
+    "word": "muntertet auf",
+    "pos": "verb",
+    "meaning_vi": "mới",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:28:10.588Z"
+  },
+  {
+    "word": "isolierend",
+    "pos": "verb",
+    "meaning_vi": "separate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:18:13.756Z"
+  },
+  {
+    "word": "kommuniziertet",
+    "pos": "verb",
+    "meaning_vi": "",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:46:47.581Z"
+  },
+  {
+    "word": "sorget",
+    "pos": "verb",
+    "meaning_vi": "sợget",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:19:06.998Z"
+  },
+  {
+    "word": "zanken",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T19:11:19.091Z"
+  },
+  {
+    "word": "Spin",
+    "pos": "noun",
+    "meaning_vi": "chuyển động",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:56:59.256Z"
+  },
+  {
+    "word": "lustigen",
+    "pos": "adj",
+    "meaning_vi": "mang",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:14:29.541Z"
+  },
+  {
+    "word": "bemerkbarer",
+    "pos": "adj",
+    "meaning_vi": "biến đổi",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:06:29.532Z"
+  },
+  {
+    "word": "schwirren",
+    "pos": "verb",
+    "meaning_vi": "làm tròn, xoáy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:21:46.113Z"
+  },
+  {
+    "word": "frecher",
+    "pos": "adj",
+    "meaning_vi": "có phần",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:45:24.943Z"
+  },
+  {
+    "word": "bannet",
+    "pos": "verb",
+    "meaning_vi": "bắt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:02:24.177Z"
+  },
+  {
+    "word": "windige",
+    "pos": "adj",
+    "meaning_vi": "có, có thể",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:41:34.766Z"
+  },
+  {
+    "word": "schlagest an",
+    "pos": "verb",
+    "meaning_vi": "đánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:26:14.417Z"
+  },
+  {
+    "word": "fuhrt über",
+    "pos": "verb",
+    "meaning_vi": "đi, đi qua",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:26:07.633Z"
+  },
+  {
+    "word": "monogamem",
+    "pos": "adj",
+    "meaning_vi": "cùng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:42:15.526Z"
+  },
+  {
+    "word": "neugierigem",
+    "pos": "adj",
+    "meaning_vi": "thích",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T00:50:11.441Z"
+  },
+  {
+    "word": "tollkühne",
+    "pos": "adj",
+    "meaning_vi": "courageous",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:43:11.373Z"
+  },
+  {
+    "word": "wachsame",
+    "pos": "adj",
+    "meaning_vi": "có",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:06:01.858Z"
   }
 ]

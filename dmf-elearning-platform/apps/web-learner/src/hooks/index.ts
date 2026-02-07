@@ -63,3 +63,49 @@ export {
   useDailyGoals,
   useRecommendation,
 } from './useApiQueries';
+
+// Challenge hooks
+export {
+  useDailyChallenge,
+  useChallengeHistory,
+  useStreakInfo,
+  useLeaderboard,
+  useSubmitChallenge,
+  useStartChallenge,
+} from './useChallengeQueries';
+
+// Challenge types
+export type {
+  DailyChallenge,
+  ChallengeQuestion,
+  ChallengeHistory,
+  StreakInfo,
+  LeaderboardEntry,
+  ChallengeSubmission,
+  ChallengeResult,
+} from './useChallengeQueries';
+
+// Writing Module hooks (Phase 1)
+export {
+  usePrompts,
+  usePrompt,
+  useEssays,
+  useEssay,
+  useCreateEssay,
+  useUpdateEssay,
+  useDeleteEssay,
+  useGrammarCheck,
+  useWritingAnalytics,
+} from './useWriting';
+
+export { useDebouncedGrammarCheck } from './useDebouncedGrammarCheck';
+export { useAutoSave } from './useAutoSave';
+
+// Writing Module types
+export type {
+  Prompt,
+  Essay,
+  GrammarError,
+  GrammarCheckResponse,
+  WritingStats,
+} from './useWriting';

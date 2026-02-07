@@ -1,0 +1,3828 @@
+{
+  "source": "CodingFriends/basic-vocabulary-word-lists",
+  "license": "CC BY-NC 4.0",
+  "language": "German",
+  "level": "A1",
+  "harvestedAt": "2026-01-31T14:31:11.437Z",
+  "totalWords": 500,
+  "categoryCounts": {
+    "verbs": 25,
+    "adjectives": 20,
+    "food": 22,
+    "numbers": 14,
+    "personal": 11,
+    "time": 20,
+    "transport": 10,
+    "health": 14,
+    "colors": 8,
+    "surrounding": 16,
+    "technology": 4,
+    "shopping": 10,
+    "orientation": 10,
+    "communication": 11,
+    "sentences": 9,
+    "frequency": 296
+  },
+  "vocabulary": [
+    {
+      "word": "arbeiten",
+      "meaning_en": "to work",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "besuchen",
+      "meaning_en": "to visit",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "bleiben",
+      "meaning_en": "to stay",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "brauchen",
+      "meaning_en": "to need",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "essen",
+      "meaning_en": "to eat",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "fragen",
+      "meaning_en": "to ask",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "geben",
+      "meaning_en": "to give",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "gehen",
+      "meaning_en": "to go",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "haben",
+      "meaning_en": "to have",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "kaufen",
+      "meaning_en": "to buy",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "können",
+      "meaning_en": "(I/you/we/they) can",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "lernen",
+      "meaning_en": "to learn",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "machen",
+      "meaning_en": "to make",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "nehmen",
+      "meaning_en": "to take",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "sagen",
+      "meaning_en": "to say",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "schreiben",
+      "meaning_en": "to write",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "sehen",
+      "meaning_en": "to see",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "sein",
+      "meaning_en": "to be",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "suchen",
+      "meaning_en": "to search",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "telefonieren",
+      "meaning_en": "to call",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "trinken",
+      "meaning_en": "to drink",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "wissen",
+      "meaning_en": "to know",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "wollen",
+      "meaning_en": "to want",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "zahlen",
+      "meaning_en": "to pay",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "aufladen",
+      "meaning_en": "to recharge",
+      "gender": "none",
+      "type": "verb",
+      "category": "verbs"
+    },
+    {
+      "word": "gut",
+      "meaning_en": "good",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "schlecht",
+      "meaning_en": "bad",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "neu",
+      "meaning_en": "new",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "alt",
+      "meaning_en": "old",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "jung",
+      "meaning_en": "young",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "groß",
+      "meaning_en": "big",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "klein",
+      "meaning_en": "small",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "schön",
+      "meaning_en": "beautiful",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "billig",
+      "meaning_en": "cheap",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "teuer",
+      "meaning_en": "expensive",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "dunkel",
+      "meaning_en": "dark",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "hell",
+      "meaning_en": "bright",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "zusammen",
+      "meaning_en": "together",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "getrennt",
+      "meaning_en": "separate",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "wichtig",
+      "meaning_en": "important",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "müde",
+      "meaning_en": "tired",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "vegetarisch",
+      "meaning_en": "vegetarian",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "vegan",
+      "meaning_en": "vegan",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "glutenfrei",
+      "meaning_en": "gluten-free",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "alkoholfrei",
+      "meaning_en": "non-alcoholic",
+      "gender": "none",
+      "type": "adjective",
+      "category": "adjectives"
+    },
+    {
+      "word": "das Essen",
+      "meaning_en": "food",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "das Restaurant",
+      "meaning_en": "restaurant",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "das Café",
+      "meaning_en": "café",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "die Bar",
+      "meaning_en": "bar",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "die Speisekarte",
+      "meaning_en": "menu",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "die Vorspeise",
+      "meaning_en": "starter",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "die Hauptspeise",
+      "meaning_en": "main course",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "der Nachtisch",
+      "meaning_en": "dessert",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "die Rechnung",
+      "meaning_en": "bill",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "der Fisch",
+      "meaning_en": "fish",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "das Fleisch",
+      "meaning_en": "meat",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "der Salat",
+      "meaning_en": "salad",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "die Milch",
+      "meaning_en": "milk",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "der Käse",
+      "meaning_en": "cheese",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "das Obst",
+      "meaning_en": "fruits",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "das Gemüse",
+      "meaning_en": "vegetables",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "die Nüsse",
+      "meaning_en": "nuts",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "der Kaffee",
+      "meaning_en": "coffee",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "der Tee",
+      "meaning_en": "tea",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "das Wasser",
+      "meaning_en": "water",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "der Wein",
+      "meaning_en": "wine",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "das Bier",
+      "meaning_en": "beer",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "food"
+    },
+    {
+      "word": "eins",
+      "meaning_en": "one",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "zwei",
+      "meaning_en": "two",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "drei",
+      "meaning_en": "three",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "vier",
+      "meaning_en": "four",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "fünf",
+      "meaning_en": "five",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "sechs",
+      "meaning_en": "six",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "sieben",
+      "meaning_en": "seven",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "acht",
+      "meaning_en": "eight",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "neun",
+      "meaning_en": "nine",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "zehn",
+      "meaning_en": "ten",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "zwanzig",
+      "meaning_en": "twenty",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "fünfzig",
+      "meaning_en": "fifty",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "hundert",
+      "meaning_en": "hundred",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "tausend",
+      "meaning_en": "thousand",
+      "gender": "none",
+      "type": "number",
+      "category": "numbers"
+    },
+    {
+      "word": "der Vorname",
+      "meaning_en": "first name",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "der Nachname",
+      "meaning_en": "last name",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "die Adresse",
+      "meaning_en": "address",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "das Land",
+      "meaning_en": "country",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "der Geburtsort",
+      "meaning_en": "place of birth",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "das Geburtsdatum",
+      "meaning_en": "date of birth",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "der Beruf",
+      "meaning_en": "profession, job",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "der Mann",
+      "meaning_en": "man",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "die Frau",
+      "meaning_en": "woman",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "der Erwachsene",
+      "meaning_en": "adult",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "das Kind",
+      "meaning_en": "child",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "personal"
+    },
+    {
+      "word": "die Zeit",
+      "meaning_en": "time",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "der Tag",
+      "meaning_en": "day",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "die Woche",
+      "meaning_en": "week",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "der Monat",
+      "meaning_en": "month",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "das Jahr",
+      "meaning_en": "year",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "Montag",
+      "meaning_en": "Monday",
+      "gender": "none",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "Dienstag",
+      "meaning_en": "Tuesday",
+      "gender": "none",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "Mittwoch",
+      "meaning_en": "Wednesday",
+      "gender": "none",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "Donnerstag",
+      "meaning_en": "Thursday",
+      "gender": "none",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "Freitag",
+      "meaning_en": "Friday",
+      "gender": "none",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "Samstag",
+      "meaning_en": "Saturday",
+      "gender": "none",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "Sonntag",
+      "meaning_en": "Sunday",
+      "gender": "none",
+      "type": "noun",
+      "category": "time"
+    },
+    {
+      "word": "morgens",
+      "meaning_en": "in the morning",
+      "gender": "none",
+      "type": "adverb",
+      "category": "time"
+    },
+    {
+      "word": "nachmittags",
+      "meaning_en": "in the afternoon",
+      "gender": "none",
+      "type": "adverb",
+      "category": "time"
+    },
+    {
+      "word": "abends",
+      "meaning_en": "in the evening",
+      "gender": "none",
+      "type": "adverb",
+      "category": "time"
+    },
+    {
+      "word": "nachts",
+      "meaning_en": "at night",
+      "gender": "none",
+      "type": "adverb",
+      "category": "time"
+    },
+    {
+      "word": "früher",
+      "meaning_en": "earlier",
+      "gender": "none",
+      "type": "adverb",
+      "category": "time"
+    },
+    {
+      "word": "später",
+      "meaning_en": "later",
+      "gender": "none",
+      "type": "adverb",
+      "category": "time"
+    },
+    {
+      "word": "pünktlich",
+      "meaning_en": "on time",
+      "gender": "none",
+      "type": "adverb",
+      "category": "time"
+    },
+    {
+      "word": "verspätet",
+      "meaning_en": "delayed",
+      "gender": "none",
+      "type": "adverb",
+      "category": "time"
+    },
+    {
+      "word": "der Zug",
+      "meaning_en": "train",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "der Bus",
+      "meaning_en": "bus",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "das Auto",
+      "meaning_en": "car",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "die Straßenbahn",
+      "meaning_en": "tram",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "das Taxi",
+      "meaning_en": "taxi, cab",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "das Fahrrad",
+      "meaning_en": "bicycle",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "zu Fuß",
+      "meaning_en": "on foot",
+      "gender": "none",
+      "type": "phrase",
+      "category": "transport"
+    },
+    {
+      "word": "der Bahnhof",
+      "meaning_en": "train station",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "der Busbahnhof",
+      "meaning_en": "bus station",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "die Haltestelle",
+      "meaning_en": "stop",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "transport"
+    },
+    {
+      "word": "der Arzt",
+      "meaning_en": "doctor (male)",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "die Ärztin",
+      "meaning_en": "doctor (female)",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "das Krankenhaus",
+      "meaning_en": "hospital",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "die Apotheke",
+      "meaning_en": "pharmacy",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "die Schmerzmittel",
+      "meaning_en": "painkiller",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "das Medikament",
+      "meaning_en": "medicine",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "die Schmerzen",
+      "meaning_en": "pain",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "der Rücken",
+      "meaning_en": "back",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "der Fuß",
+      "meaning_en": "foot",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "der Bauch",
+      "meaning_en": "stomach",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "das Bein",
+      "meaning_en": "leg",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "der Kopf",
+      "meaning_en": "head",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "die Hand",
+      "meaning_en": "hand",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "der Arm",
+      "meaning_en": "arm",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "health"
+    },
+    {
+      "word": "die Farbe",
+      "meaning_en": "color",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "colors"
+    },
+    {
+      "word": "weiß",
+      "meaning_en": "white",
+      "gender": "none",
+      "type": "adjective",
+      "category": "colors"
+    },
+    {
+      "word": "schwarz",
+      "meaning_en": "black",
+      "gender": "none",
+      "type": "adjective",
+      "category": "colors"
+    },
+    {
+      "word": "rot",
+      "meaning_en": "red",
+      "gender": "none",
+      "type": "adjective",
+      "category": "colors"
+    },
+    {
+      "word": "blau",
+      "meaning_en": "blue",
+      "gender": "none",
+      "type": "adjective",
+      "category": "colors"
+    },
+    {
+      "word": "grün",
+      "meaning_en": "green",
+      "gender": "none",
+      "type": "adjective",
+      "category": "colors"
+    },
+    {
+      "word": "gelb",
+      "meaning_en": "yellow",
+      "gender": "none",
+      "type": "adjective",
+      "category": "colors"
+    },
+    {
+      "word": "bunt",
+      "meaning_en": "colorful",
+      "gender": "none",
+      "type": "adjective",
+      "category": "colors"
+    },
+    {
+      "word": "das Haus",
+      "meaning_en": "house",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "die Wohnung",
+      "meaning_en": "apartment",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "das Hotel",
+      "meaning_en": "hotel",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "das Museum",
+      "meaning_en": "museum",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "der Strand",
+      "meaning_en": "beach",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "der Wald",
+      "meaning_en": "forest",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "der Berg",
+      "meaning_en": "mountain",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "der Park",
+      "meaning_en": "park",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "der Fluss",
+      "meaning_en": "river",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "das Meer",
+      "meaning_en": "sea",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "der See",
+      "meaning_en": "lake",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "das Wetter",
+      "meaning_en": "weather",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "die Sonne",
+      "meaning_en": "sun",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "der Regen",
+      "meaning_en": "rain",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "der Schnee",
+      "meaning_en": "snow",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "das Gewitter",
+      "meaning_en": "thunderstorm",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "surrounding"
+    },
+    {
+      "word": "das Internet",
+      "meaning_en": "internet",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "technology"
+    },
+    {
+      "word": "das Passwort",
+      "meaning_en": "password",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "technology"
+    },
+    {
+      "word": "der Computer",
+      "meaning_en": "computer",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "technology"
+    },
+    {
+      "word": "die Steckdose",
+      "meaning_en": "socket",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "technology"
+    },
+    {
+      "word": "der Supermarkt",
+      "meaning_en": "supermarket",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "das Geld",
+      "meaning_en": "cash",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "die Karte",
+      "meaning_en": "bank card",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "die Tasche",
+      "meaning_en": "bag",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "der Tampon",
+      "meaning_en": "tampon",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "die Binde",
+      "meaning_en": "(sanitary) pad",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "das Kondom",
+      "meaning_en": "condom",
+      "gender": "neuter",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "die Zahnbürste",
+      "meaning_en": "toothbrush",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "die Hilfe",
+      "meaning_en": "help",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "die Polizei",
+      "meaning_en": "police",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "shopping"
+    },
+    {
+      "word": "die Richtung",
+      "meaning_en": "direction",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "orientation"
+    },
+    {
+      "word": "der Eingang",
+      "meaning_en": "entrance",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "orientation"
+    },
+    {
+      "word": "der Ausgang",
+      "meaning_en": "exit",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "orientation"
+    },
+    {
+      "word": "die Straße",
+      "meaning_en": "street",
+      "gender": "feminine",
+      "type": "noun",
+      "category": "orientation"
+    },
+    {
+      "word": "der Weg",
+      "meaning_en": "way",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "orientation"
+    },
+    {
+      "word": "der Platz",
+      "meaning_en": "square",
+      "gender": "masculine",
+      "type": "noun",
+      "category": "orientation"
+    },
+    {
+      "word": "rechts",
+      "meaning_en": "right",
+      "gender": "none",
+      "type": "adverb",
+      "category": "orientation"
+    },
+    {
+      "word": "links",
+      "meaning_en": "left",
+      "gender": "none",
+      "type": "adverb",
+      "category": "orientation"
+    },
+    {
+      "word": "geradeaus",
+      "meaning_en": "straight ahead",
+      "gender": "none",
+      "type": "adverb",
+      "category": "orientation"
+    },
+    {
+      "word": "zurück",
+      "meaning_en": "back",
+      "gender": "none",
+      "type": "adverb",
+      "category": "orientation"
+    },
+    {
+      "word": "Hallo!",
+      "meaning_en": "Hi!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "Guten Tag!",
+      "meaning_en": "Hello!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "Tschüß!",
+      "meaning_en": "Goodbye! / Bye!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "Danke!",
+      "meaning_en": "Thank you!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "Bitte!",
+      "meaning_en": "Please!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "Entschuldigung!",
+      "meaning_en": "Sorry!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "Stopp!",
+      "meaning_en": "Stop!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "Vorsicht!",
+      "meaning_en": "Caution!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "ja",
+      "meaning_en": "yes",
+      "gender": "none",
+      "type": "adverb",
+      "category": "communication"
+    },
+    {
+      "word": "nein",
+      "meaning_en": "no",
+      "gender": "none",
+      "type": "adverb",
+      "category": "communication"
+    },
+    {
+      "word": "Prost!",
+      "meaning_en": "Cheers!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "communication"
+    },
+    {
+      "word": "Was ist…?",
+      "meaning_en": "What is …?",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "Wo ist …?",
+      "meaning_en": "Where is …?",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "Wie …?",
+      "meaning_en": "How …?",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "Wie viel kostet es?",
+      "meaning_en": "How much is it?",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "Wie lange dauert es?",
+      "meaning_en": "How long does it take?",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "Gibt es …?",
+      "meaning_en": "Is there …?",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "Ich hätte gerne …",
+      "meaning_en": "I would like ...",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "Ich brauche …",
+      "meaning_en": "I need ...",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "Kein Problem!",
+      "meaning_en": "No problem!",
+      "gender": "none",
+      "type": "phrase",
+      "category": "sentences"
+    },
+    {
+      "word": "sie",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 2409949
+    },
+    {
+      "word": "das",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1952794
+    },
+    {
+      "word": "ist",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1920535
+    },
+    {
+      "word": "du",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1890181
+    },
+    {
+      "word": "nicht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1734016
+    },
+    {
+      "word": "die",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1585020
+    },
+    {
+      "word": "es",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1460530
+    },
+    {
+      "word": "und",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1441012
+    },
+    {
+      "word": "der",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1109693
+    },
+    {
+      "word": "wir",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1075801
+    },
+    {
+      "word": "was",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 1072372
+    },
+    {
+      "word": "zu",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 918548
+    },
+    {
+      "word": "er",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 851812
+    },
+    {
+      "word": "ein",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 841835
+    },
+    {
+      "word": "in",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 793011
+    },
+    {
+      "word": "mir",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 645137
+    },
+    {
+      "word": "mit",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 641744
+    },
+    {
+      "word": "den",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 588653
+    },
+    {
+      "word": "wie",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 585413
+    },
+    {
+      "word": "mich",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 570285
+    },
+    {
+      "word": "auf",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 567544
+    },
+    {
+      "word": "dass",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 555016
+    },
+    {
+      "word": "eine",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 535419
+    },
+    {
+      "word": "aber",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 523716
+    },
+    {
+      "word": "so",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 508157
+    },
+    {
+      "word": "hat",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 499226
+    },
+    {
+      "word": "hier",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 483819
+    },
+    {
+      "word": "sind",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 464876
+    },
+    {
+      "word": "für",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 461926
+    },
+    {
+      "word": "von",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 457616
+    },
+    {
+      "word": "dich",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 443610
+    },
+    {
+      "word": "war",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 441018
+    },
+    {
+      "word": "wenn",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 438665
+    },
+    {
+      "word": "ihr",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 408931
+    },
+    {
+      "word": "habe",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 406611
+    },
+    {
+      "word": "an",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 399003
+    },
+    {
+      "word": "bin",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 369586
+    },
+    {
+      "word": "noch",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 358787
+    },
+    {
+      "word": "da",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 356437
+    },
+    {
+      "word": "dir",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 354523
+    },
+    {
+      "word": "nur",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 352269
+    },
+    {
+      "word": "einen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 339025
+    },
+    {
+      "word": "sich",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 336423
+    },
+    {
+      "word": "uns",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 331921
+    },
+    {
+      "word": "hast",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 325643
+    },
+    {
+      "word": "dem",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 296995
+    },
+    {
+      "word": "kann",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 293647
+    },
+    {
+      "word": "auch",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 277547
+    },
+    {
+      "word": "ihn",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 276857
+    },
+    {
+      "word": "schon",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 276809
+    },
+    {
+      "word": "als",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 275361
+    },
+    {
+      "word": "jetzt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 274768
+    },
+    {
+      "word": "mal",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 271291
+    },
+    {
+      "word": "aus",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 269701
+    },
+    {
+      "word": "um",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 268714
+    },
+    {
+      "word": "meine",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 266017
+    },
+    {
+      "word": "dann",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 264865
+    },
+    {
+      "word": "wird",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 252030
+    },
+    {
+      "word": "im",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 251908
+    },
+    {
+      "word": "bist",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 249017
+    },
+    {
+      "word": "mein",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 247735
+    },
+    {
+      "word": "doch",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 233508
+    },
+    {
+      "word": "alles",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 230999
+    },
+    {
+      "word": "keine",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 218993
+    },
+    {
+      "word": "oder",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 214775
+    },
+    {
+      "word": "nach",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 207669
+    },
+    {
+      "word": "werden",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 194284
+    },
+    {
+      "word": "nichts",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 193569
+    },
+    {
+      "word": "man",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 188465
+    },
+    {
+      "word": "wo",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 186838
+    },
+    {
+      "word": "ihnen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 183662
+    },
+    {
+      "word": "etwas",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 181934
+    },
+    {
+      "word": "muss",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 181625
+    },
+    {
+      "word": "will",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 179801
+    },
+    {
+      "word": "geht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 178799
+    },
+    {
+      "word": "oh",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 178134
+    },
+    {
+      "word": "mehr",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 177486
+    },
+    {
+      "word": "also",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 174799
+    },
+    {
+      "word": "bei",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 170877
+    },
+    {
+      "word": "immer",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 167261
+    },
+    {
+      "word": "bitte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 166140
+    },
+    {
+      "word": "warum",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 164397
+    },
+    {
+      "word": "hab",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 159993
+    },
+    {
+      "word": "vor",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 155796
+    },
+    {
+      "word": "los",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 154848
+    },
+    {
+      "word": "wieder",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 151814
+    },
+    {
+      "word": "alle",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 142880
+    },
+    {
+      "word": "sehr",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 141979
+    },
+    {
+      "word": "okay",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 140795
+    },
+    {
+      "word": "denn",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 139250
+    },
+    {
+      "word": "zum",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 138734
+    },
+    {
+      "word": "tun",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 137036
+    },
+    {
+      "word": "ihm",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 136458
+    },
+    {
+      "word": "diese",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 136456
+    },
+    {
+      "word": "danke",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 136305
+    },
+    {
+      "word": "wer",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 135593
+    },
+    {
+      "word": "einem",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 135460
+    },
+    {
+      "word": "euch",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 133228
+    },
+    {
+      "word": "komm",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 132064
+    },
+    {
+      "word": "vielleicht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 129986
+    },
+    {
+      "word": "einer",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 129339
+    },
+    {
+      "word": "ihre",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 128225
+    },
+    {
+      "word": "werde",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 127576
+    },
+    {
+      "word": "gibt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 125366
+    },
+    {
+      "word": "über",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 124513
+    },
+    {
+      "word": "deine",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 122342
+    },
+    {
+      "word": "müssen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 120043
+    },
+    {
+      "word": "wirklich",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 118129
+    },
+    {
+      "word": "soll",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 117929
+    },
+    {
+      "word": "nie",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 116256
+    },
+    {
+      "word": "hey",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 113841
+    },
+    {
+      "word": "kein",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 112268
+    },
+    {
+      "word": "des",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 111848
+    },
+    {
+      "word": "würde",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 111071
+    },
+    {
+      "word": "einfach",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 109393
+    },
+    {
+      "word": "leben",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 108302
+    },
+    {
+      "word": "am",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 107925
+    },
+    {
+      "word": "viel",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 107734
+    },
+    {
+      "word": "tut",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 106193
+    },
+    {
+      "word": "willst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 102090
+    },
+    {
+      "word": "kommen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 101561
+    },
+    {
+      "word": "nun",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 101033
+    },
+    {
+      "word": "hatte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 100841
+    },
+    {
+      "word": "dein",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 99860
+    },
+    {
+      "word": "weil",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 99547
+    },
+    {
+      "word": "kommt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 98113
+    },
+    {
+      "word": "heute",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 96550
+    },
+    {
+      "word": "weißt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 94405
+    },
+    {
+      "word": "damit",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 93171
+    },
+    {
+      "word": "gesagt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 91482
+    },
+    {
+      "word": "wäre",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 91454
+    },
+    {
+      "word": "ganz",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 91142
+    },
+    {
+      "word": "wurde",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 90078
+    },
+    {
+      "word": "bis",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 89123
+    },
+    {
+      "word": "sicher",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 88933
+    },
+    {
+      "word": "kannst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 88763
+    },
+    {
+      "word": "dieser",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 87809
+    },
+    {
+      "word": "wollte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 87602
+    },
+    {
+      "word": "leid",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 86310
+    },
+    {
+      "word": "lassen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 85608
+    },
+    {
+      "word": "macht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 85039
+    },
+    {
+      "word": "na",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 83059
+    },
+    {
+      "word": "gott",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 82959
+    },
+    {
+      "word": "meinen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 80743
+    },
+    {
+      "word": "hallo",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 80393
+    },
+    {
+      "word": "seine",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 80287
+    },
+    {
+      "word": "lass",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 76422
+    },
+    {
+      "word": "hätte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 75941
+    },
+    {
+      "word": "zur",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 74317
+    },
+    {
+      "word": "waren",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 73648
+    },
+    {
+      "word": "genau",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 73454
+    },
+    {
+      "word": "könnte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 73436
+    },
+    {
+      "word": "vater",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 71313
+    },
+    {
+      "word": "morgen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 71059
+    },
+    {
+      "word": "leute",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 69590
+    },
+    {
+      "word": "klar",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 68997
+    },
+    {
+      "word": "ok",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 67244
+    },
+    {
+      "word": "ab",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 67201
+    },
+    {
+      "word": "gerade",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 66340
+    },
+    {
+      "word": "gesehen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 65787
+    },
+    {
+      "word": "glaube",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 65132
+    },
+    {
+      "word": "liebe",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 64284
+    },
+    {
+      "word": "durch",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 63104
+    },
+    {
+      "word": "reden",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 63011
+    },
+    {
+      "word": "unsere",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 62769
+    },
+    {
+      "word": "jemand",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 62063
+    },
+    {
+      "word": "mach",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 61553
+    },
+    {
+      "word": "raus",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 61515
+    },
+    {
+      "word": "sagte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 61265
+    },
+    {
+      "word": "keinen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 61243
+    },
+    {
+      "word": "ob",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 60877
+    },
+    {
+      "word": "sollte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 60702
+    },
+    {
+      "word": "gemacht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 60360
+    },
+    {
+      "word": "mutter",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 59618
+    },
+    {
+      "word": "dieses",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 59483
+    },
+    {
+      "word": "paar",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 59449
+    },
+    {
+      "word": "sir",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 59288
+    },
+    {
+      "word": "passiert",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 58623
+    },
+    {
+      "word": "musst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 58313
+    },
+    {
+      "word": "wohl",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 58205
+    },
+    {
+      "word": "möchte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 58060
+    },
+    {
+      "word": "besser",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 57694
+    },
+    {
+      "word": "dachte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 57154
+    },
+    {
+      "word": "selbst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 57130
+    },
+    {
+      "word": "her",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 56834
+    },
+    {
+      "word": "hör",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 56715
+    },
+    {
+      "word": "gehört",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 56700
+    },
+    {
+      "word": "wirst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 56419
+    },
+    {
+      "word": "sag",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 56175
+    },
+    {
+      "word": "ohne",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 55901
+    },
+    {
+      "word": "nacht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 55724
+    },
+    {
+      "word": "diesen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 55537
+    },
+    {
+      "word": "anderen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 55252
+    },
+    {
+      "word": "meiner",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 54323
+    },
+    {
+      "word": "wieso",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 53445
+    },
+    {
+      "word": "finden",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 52788
+    },
+    {
+      "word": "dort",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 52783
+    },
+    {
+      "word": "helfen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 52622
+    },
+    {
+      "word": "meinem",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 52557
+    },
+    {
+      "word": "lange",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 51857
+    },
+    {
+      "word": "gute",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 51542
+    },
+    {
+      "word": "ordnung",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 51411
+    },
+    {
+      "word": "weiter",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 50964
+    },
+    {
+      "word": "natürlich",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 50933
+    },
+    {
+      "word": "sei",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 50892
+    },
+    {
+      "word": "ins",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 50433
+    },
+    {
+      "word": "gar",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 49767
+    },
+    {
+      "word": "geh",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 49662
+    },
+    {
+      "word": "richtig",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 49369
+    },
+    {
+      "word": "diesem",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 49241
+    },
+    {
+      "word": "vom",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 49150
+    },
+    {
+      "word": "sagt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 48911
+    },
+    {
+      "word": "denke",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 48524
+    },
+    {
+      "word": "seit",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 48455
+    },
+    {
+      "word": "gleich",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 48447
+    },
+    {
+      "word": "hören",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 48247
+    },
+    {
+      "word": "ach",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 48226
+    },
+    {
+      "word": "mädchen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 48201
+    },
+    {
+      "word": "davon",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 47864
+    },
+    {
+      "word": "sieht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 47821
+    },
+    {
+      "word": "ihren",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 47758
+    },
+    {
+      "word": "recht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 47629
+    },
+    {
+      "word": "dafür",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 46366
+    },
+    {
+      "word": "wegen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 46246
+    },
+    {
+      "word": "hause",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 46066
+    },
+    {
+      "word": "hin",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 45955
+    },
+    {
+      "word": "warte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 45435
+    },
+    {
+      "word": "deinen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 45399
+    },
+    {
+      "word": "abend",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 44677
+    },
+    {
+      "word": "freund",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 44650
+    },
+    {
+      "word": "guten",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 44617
+    },
+    {
+      "word": "sollen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 44539
+    },
+    {
+      "word": "sollten",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 44449
+    },
+    {
+      "word": "menschen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 44405
+    },
+    {
+      "word": "viele",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 44288
+    },
+    {
+      "word": "machst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 43656
+    },
+    {
+      "word": "musik",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 43625
+    },
+    {
+      "word": "unser",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 43571
+    },
+    {
+      "word": "angst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 43498
+    },
+    {
+      "word": "schnell",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 42927
+    },
+    {
+      "word": "tot",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 42768
+    },
+    {
+      "word": "welt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 42718
+    },
+    {
+      "word": "habt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 42426
+    },
+    {
+      "word": "unter",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 42225
+    },
+    {
+      "word": "scheiße",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 42002
+    },
+    {
+      "word": "eines",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 41647
+    },
+    {
+      "word": "herr",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 41547
+    },
+    {
+      "word": "andere",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 41514
+    },
+    {
+      "word": "getan",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 41252
+    },
+    {
+      "word": "rein",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 41132
+    },
+    {
+      "word": "bringen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 41071
+    },
+    {
+      "word": "ganze",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 40821
+    },
+    {
+      "word": "kinder",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 40333
+    },
+    {
+      "word": "glauben",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 39944
+    },
+    {
+      "word": "genug",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 39653
+    },
+    {
+      "word": "darf",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 39154
+    },
+    {
+      "word": "junge",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 38692
+    },
+    {
+      "word": "stimmt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 38674
+    },
+    {
+      "word": "gegen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 38488
+    },
+    {
+      "word": "moment",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 38244
+    },
+    {
+      "word": "erst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 38239
+    },
+    {
+      "word": "seid",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 38130
+    },
+    {
+      "word": "einmal",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 37707
+    },
+    {
+      "word": "sonst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 37532
+    },
+    {
+      "word": "niemand",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 37152
+    },
+    {
+      "word": "arbeit",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 36985
+    },
+    {
+      "word": "steht",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 36838
+    },
+    {
+      "word": "warten",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 36827
+    },
+    {
+      "word": "dabei",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 36612
+    },
+    {
+      "word": "sofort",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 36240
+    },
+    {
+      "word": "jahre",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 36182
+    },
+    {
+      "word": "halt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 35953
+    },
+    {
+      "word": "verdammt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 35851
+    },
+    {
+      "word": "ihrer",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 35539
+    },
+    {
+      "word": "bevor",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 35329
+    },
+    {
+      "word": "sohn",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 34555
+    },
+    {
+      "word": "familie",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 34293
+    },
+    {
+      "word": "heißt",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 34272
+    },
+    {
+      "word": "jeder",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 34257
+    },
+    {
+      "word": "sprechen",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 34019
+    },
+    {
+      "word": "gefunden",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33922
+    },
+    {
+      "word": "sache",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33886
+    },
+    {
+      "word": "problem",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33643
+    },
+    {
+      "word": "fertig",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33601
+    },
+    {
+      "word": "allein",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33525
+    },
+    {
+      "word": "wann",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33476
+    },
+    {
+      "word": "brauche",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33451
+    },
+    {
+      "word": "bruder",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33252
+    },
+    {
+      "word": "halten",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33202
+    },
+    {
+      "word": "hatten",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33181
+    },
+    {
+      "word": "siehst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 33069
+    },
+    {
+      "word": "darüber",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 32828
+    },
+    {
+      "word": "konnte",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 32825
+    },
+    {
+      "word": "wahr",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 32792
+    },
+    {
+      "word": "warst",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 32628
+    },
+    {
+      "word": "beim",
+      "meaning_en": "[to be translated]",
+      "gender": "unknown",
+      "type": "word",
+      "category": "frequency",
+      "frequency": 32569
+    }
+  ],
+  "sources": [
+    "CodingFriends/basic-vocabulary-word-lists",
+    "hermitdave/FrequencyWords (de_50k.txt)"
+  ]
+}

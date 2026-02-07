@@ -5,5 +5,40 @@
     "meaning_vi": "Lebensmittel",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T10:41:32.223Z"
+  },
+  {
+    "word": "Komposte",
+    "pos": "noun",
+    "meaning_vi": "Kompost",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:35:15.078Z"
+  },
+  {
+    "word": "verwertbare",
+    "pos": "adj",
+    "meaning_vi": "nahrungsfähig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:13:38.758Z"
+  },
+  {
+    "word": "abbauwürdiges",
+    "pos": "adj",
+    "meaning_vi": "unwertig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:25:33.669Z"
+  },
+  {
+    "word": "Brennstäbe",
+    "pos": "noun",
+    "meaning_vi": "Stäbchen aus Brennstoff",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:07:37.509Z"
+  },
+  {
+    "word": "kompostierbarer",
+    "pos": "adj",
+    "meaning_vi": "nahrungsfähig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T23:58:55.180Z"
   }
 ]

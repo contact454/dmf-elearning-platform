@@ -61,5 +61,215 @@
     "meaning_vi": "món ăn",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T17:56:56.796Z"
+  },
+  {
+    "word": "gelb-rote Karte",
+    "pos": "noun",
+    "meaning_vi": "bánh",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T05:44:01.884Z"
+  },
+  {
+    "word": "panierend",
+    "pos": "verb",
+    "meaning_vi": "đồ ăn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:02:09.559Z"
+  },
+  {
+    "word": "Maises",
+    "pos": "noun",
+    "meaning_vi": "Mื้",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T14:41:16.478Z"
+  },
+  {
+    "word": "Einstiegsdroge",
+    "pos": "noun",
+    "meaning_vi": "Nước uống",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T23:25:32.686Z"
+  },
+  {
+    "word": "Mandarins",
+    "pos": "noun",
+    "meaning_vi": "Quả mọng",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:44:53.330Z"
+  },
+  {
+    "word": "Wieners",
+    "pos": "noun",
+    "meaning_vi": "Chả giò",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:52:00.894Z"
+  },
+  {
+    "word": "Wurstebreies",
+    "pos": "noun",
+    "meaning_vi": "Phở",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:56:25.710Z"
+  },
+  {
+    "word": "Eiersalates",
+    "pos": "noun",
+    "meaning_vi": "Salat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:23:02.832Z"
+  },
+  {
+    "word": "Auflaufes",
+    "pos": "noun",
+    "meaning_vi": "phở",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:59:13.129Z"
+  },
+  {
+    "word": "Diskonte",
+    "pos": "noun",
+    "meaning_vi": "Đồ ăn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:33:36.918Z"
+  },
+  {
+    "word": "empfohlene",
+    "pos": "adj",
+    "meaning_vi": "Thực phẩm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:55:56.128Z"
+  },
+  {
+    "word": "Bruchstücks",
+    "pos": "noun",
+    "meaning_vi": "Phần còn lại",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:08:45.984Z"
+  },
+  {
+    "word": "gediegene",
+    "pos": "adj",
+    "meaning_vi": "Thức ăn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:04:15.945Z"
+  },
+  {
+    "word": "abgepackt",
+    "pos": "adj",
+    "meaning_vi": "thức ăn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:45:56.914Z"
+  },
+  {
+    "word": "Zuckerrübensirup",
+    "pos": "noun",
+    "meaning_vi": "nước đường",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:52:53.114Z"
+  },
+  {
+    "word": "Kochbanane",
+    "pos": "noun",
+    "meaning_vi": "Chili",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:00:31.388Z"
+  },
+  {
+    "word": "Butterkäse",
+    "pos": "noun",
+    "meaning_vi": "butter cheese",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:05:42.481Z"
+  },
+  {
+    "word": "Senfs",
+    "pos": "noun",
+    "meaning_vi": "Rau",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:30:24.200Z"
+  },
+  {
+    "word": "Abfalleimern",
+    "pos": "noun",
+    "meaning_vi": "Thức ăn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:23:55.859Z"
+  },
+  {
+    "word": "lesenswerten",
+    "pos": "adj",
+    "meaning_vi": "thực phẩm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:34:07.241Z"
+  },
+  {
+    "word": "degustierst",
+    "pos": "verb",
+    "meaning_vi": "tasting, try",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:49:10.132Z"
+  },
+  {
+    "word": "spottbilligem",
+    "pos": "adj",
+    "meaning_vi": "thức ăn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:59:17.198Z"
+  },
+  {
+    "word": "dreckigere",
+    "pos": "adj",
+    "meaning_vi": "nước uống",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:56:30.548Z"
+  },
+  {
+    "word": "dreckigster",
+    "pos": "adj",
+    "meaning_vi": "nghỉ mòn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:56:36.769Z"
+  },
+  {
+    "word": "dreckigste",
+    "pos": "adj",
+    "meaning_vi": "nourishing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:56:38.414Z"
+  },
+  {
+    "word": "freigebigem",
+    "pos": "adj",
+    "meaning_vi": "mẹo nấu ăn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T22:42:04.292Z"
+  },
+  {
+    "word": "schickeres",
+    "pos": "adj",
+    "meaning_vi": "nghị thức",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:45:40.246Z"
+  },
+  {
+    "word": "schokoladigem",
+    "pos": "adj",
+    "meaning_vi": "chocolate-like",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:53:13.100Z"
+  },
+  {
+    "word": "spendabelsten",
+    "pos": "adj",
+    "meaning_vi": "nourishing",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:16:01.355Z"
+  },
+  {
+    "word": "vergnügtere",
+    "pos": "adj",
+    "meaning_vi": "Thức ăn",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:50:37.780Z"
   }
 ]

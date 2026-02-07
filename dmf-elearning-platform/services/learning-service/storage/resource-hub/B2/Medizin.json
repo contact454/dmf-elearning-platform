@@ -61,5 +61,327 @@
     "meaning_vi": "Blutgerinnsel",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T18:04:44.888Z"
+  },
+  {
+    "word": "epiliertest",
+    "pos": "verb",
+    "meaning_vi": "testen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T07:36:48.841Z"
+  },
+  {
+    "word": "Heftpflaster",
+    "pos": "noun",
+    "meaning_vi": "Heilflester",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T20:09:38.185Z"
+  },
+  {
+    "word": "dezenter",
+    "pos": "adj",
+    "meaning_vi": "Entzündung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T20:22:45.274Z"
+  },
+  {
+    "word": "Urologinnen",
+    "pos": "noun",
+    "meaning_vi": "Arzt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:30:45.690Z"
+  },
+  {
+    "word": "Weichenstörungen",
+    "pos": "noun",
+    "meaning_vi": "Veränderungen im Weichen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:46:12.579Z"
+  },
+  {
+    "word": "Unpaarzeher",
+    "pos": "noun",
+    "meaning_vi": "Arzt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:50:23.415Z"
+  },
+  {
+    "word": "Gipsverbandes",
+    "pos": "noun",
+    "meaning_vi": "Verband aus Gips",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:40:37.556Z"
+  },
+  {
+    "word": "Bluthochdrucks",
+    "pos": "noun",
+    "meaning_vi": "Hochdruck",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:02:18.199Z"
+  },
+  {
+    "word": "Geschwürs",
+    "pos": "noun",
+    "meaning_vi": "Schwur",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:20:41.814Z"
+  },
+  {
+    "word": "Brechungsindizes",
+    "pos": "noun",
+    "meaning_vi": "Indizes zur Messung von Medikamentenwirkungen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:57:32.430Z"
+  },
+  {
+    "word": "Brechungsindexes",
+    "pos": "noun",
+    "meaning_vi": "Index",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:57:33.995Z"
+  },
+  {
+    "word": "Kwashiorkors",
+    "pos": "noun",
+    "meaning_vi": "Erkrankung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:23:26.460Z"
+  },
+  {
+    "word": "Krebstherapien",
+    "pos": "noun",
+    "meaning_vi": "Behandlung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:15:25.679Z"
+  },
+  {
+    "word": "karzinogenerem",
+    "pos": "adj",
+    "meaning_vi": "krebserregend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:15:58.040Z"
+  },
+  {
+    "word": "Krankheitserregers",
+    "pos": "noun",
+    "meaning_vi": "Erkrankung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:05:49.896Z"
+  },
+  {
+    "word": "Lungenerkrankungen",
+    "pos": "noun",
+    "meaning_vi": "Lungenkrankheiten",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:06:44.050Z"
+  },
+  {
+    "word": "Hyponatriämien",
+    "pos": "noun",
+    "meaning_vi": "Niedriges Natriumgehalt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:13:03.576Z"
+  },
+  {
+    "word": "Arthritiden",
+    "pos": "noun",
+    "meaning_vi": "Arthrose",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:59:04.388Z"
+  },
+  {
+    "word": "entzündungshemmendem",
+    "pos": "adj",
+    "meaning_vi": "entzündungshemmend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T16:27:58.422Z"
+  },
+  {
+    "word": "humoraler",
+    "pos": "adj",
+    "meaning_vi": "medizinischer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T20:45:52.830Z"
+  },
+  {
+    "word": "humoralen",
+    "pos": "adj",
+    "meaning_vi": "bezüglich der Humoralien",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T20:45:54.444Z"
+  },
+  {
+    "word": "nuklearmedizinisch",
+    "pos": "adj",
+    "meaning_vi": "medizinisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:47:45.703Z"
+  },
+  {
+    "word": "nuklearmedizinischer",
+    "pos": "adj",
+    "meaning_vi": "nuklearmedizinisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:52:40.255Z"
+  },
+  {
+    "word": "Verkalkungen",
+    "pos": "noun",
+    "meaning_vi": "Härte, Verrostung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:11:38.573Z"
+  },
+  {
+    "word": "Hyperkalzämie",
+    "pos": "noun",
+    "meaning_vi": "Übermäßige Kalziumaufnahme",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:15:30.908Z"
+  },
+  {
+    "word": "kanzerogeneres",
+    "pos": "adj",
+    "meaning_vi": "Krankheit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:47:04.637Z"
+  },
+  {
+    "word": "Lungenkrebs",
+    "pos": "noun",
+    "meaning_vi": "Lungenkrebs",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:00:19.632Z"
+  },
+  {
+    "word": "Morbus",
+    "pos": "noun",
+    "meaning_vi": "Krankheit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:57:19.837Z"
+  },
+  {
+    "word": "Folgeerkrankungen",
+    "pos": "noun",
+    "meaning_vi": "Folgen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:58:53.834Z"
+  },
+  {
+    "word": "Landarztes",
+    "pos": "noun",
+    "meaning_vi": "Arzt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:24:59.877Z"
+  },
+  {
+    "word": "krankheitsbedingtem",
+    "pos": "adj",
+    "meaning_vi": "Krankheit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:03:49.124Z"
+  },
+  {
+    "word": "promyelozytäre",
+    "pos": "adj",
+    "meaning_vi": "Leukämie",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:04:41.939Z"
+  },
+  {
+    "word": "rezeptorvermitteltes",
+    "pos": "adj",
+    "meaning_vi": "medizinischer Mittelvermittler",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:08:55.547Z"
+  },
+  {
+    "word": "rezeptorvermitteltem",
+    "pos": "adj",
+    "meaning_vi": "Medikamentenempfänger",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:08:59.385Z"
+  },
+  {
+    "word": "Impfkristallen",
+    "pos": "noun",
+    "meaning_vi": "Impfstoffe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:29:01.376Z"
+  },
+  {
+    "word": "Entzündungsaktivitäten",
+    "pos": "noun",
+    "meaning_vi": "Inflammation activities",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:38:44.837Z"
+  },
+  {
+    "word": "enzootisches",
+    "pos": "adj",
+    "meaning_vi": "innerhalb eines Infektionsherdes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:52:10.248Z"
+  },
+  {
+    "word": "myopathische",
+    "pos": "adj",
+    "meaning_vi": "Muskulärschwäche",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:53:19.813Z"
+  },
+  {
+    "word": "Mammakarzinom",
+    "pos": "noun",
+    "meaning_vi": "Krebs",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:34:17.768Z"
+  },
+  {
+    "word": "intravenöser",
+    "pos": "adj",
+    "meaning_vi": "intravenös",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:57:28.218Z"
+  },
+  {
+    "word": "perniziösen",
+    "pos": "adj",
+    "meaning_vi": "medizinisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:12:40.028Z"
+  },
+  {
+    "word": "Radioimmuntherapien",
+    "pos": "noun",
+    "meaning_vi": "Therapie",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:28:51.367Z"
+  },
+  {
+    "word": "verschreibungspflichtiges",
+    "pos": "adj",
+    "meaning_vi": "Rezeptpflichtig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:55:53.357Z"
+  },
+  {
+    "word": "verschreibungspflichtigen",
+    "pos": "adj",
+    "meaning_vi": "Ärztliche Verschreibung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:55:54.990Z"
+  },
+  {
+    "word": "antipyretisches",
+    "pos": "adj",
+    "meaning_vi": "entgegenwirkendes Mittel gegen Fieber",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:51:35.064Z"
+  },
+  {
+    "word": "Krankheitsfalls",
+    "pos": "noun",
+    "meaning_vi": "Krankheit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:20:14.322Z"
   }
 ]

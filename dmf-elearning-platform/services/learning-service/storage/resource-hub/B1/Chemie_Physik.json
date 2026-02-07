@@ -40,5 +40,649 @@
     "meaning_vi": "ätherisch, äußerlich",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T17:55:30.130Z"
+  },
+  {
+    "word": "salzhaltige",
+    "pos": "adj",
+    "meaning_vi": "salzartig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:10:41.727Z"
+  },
+  {
+    "word": "salzhaltigere",
+    "pos": "adj",
+    "meaning_vi": "salzhaltig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:10:49.324Z"
+  },
+  {
+    "word": "Siliziums",
+    "pos": "noun",
+    "meaning_vi": "Silizium",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:54:20.450Z"
+  },
+  {
+    "word": "Sublimationen",
+    "pos": "noun",
+    "meaning_vi": "Prozess, bei dem eine Stoffeigenschaft auftritt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:39:00.960Z"
+  },
+  {
+    "word": "Isotops",
+    "pos": "noun",
+    "meaning_vi": "Isotop",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:48:18.358Z"
+  },
+  {
+    "word": "Diffusionsgeschwindigkeiten",
+    "pos": "noun",
+    "meaning_vi": "Durchmischungsrate",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:38:25.165Z"
+  },
+  {
+    "word": "dimerisiertem",
+    "pos": "adj",
+    "meaning_vi": "verkettet",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:53:53.011Z"
+  },
+  {
+    "word": "reaktiven",
+    "pos": "adj",
+    "meaning_vi": "aktives",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:19:50.087Z"
+  },
+  {
+    "word": "reaktivstem",
+    "pos": "adj",
+    "meaning_vi": "reaktiver Stoff",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:20:13.387Z"
+  },
+  {
+    "word": "kovalentes",
+    "pos": "adj",
+    "meaning_vi": "Kovalent",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:31:55.131Z"
+  },
+  {
+    "word": "metallischem",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:36:40.914Z"
+  },
+  {
+    "word": "ionisch",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:40:33.686Z"
+  },
+  {
+    "word": "verdünnte",
+    "pos": "adj",
+    "meaning_vi": "verdünnt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:12:18.447Z"
+  },
+  {
+    "word": "Wasserstoffkerns",
+    "pos": "noun",
+    "meaning_vi": "Wasserstoffkern",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:16:02.007Z"
+  },
+  {
+    "word": "einatomar",
+    "pos": "adj",
+    "meaning_vi": "Zellzahl",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:35:05.330Z"
+  },
+  {
+    "word": "einatomarer",
+    "pos": "adj",
+    "meaning_vi": "Einfach, nicht atomisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T10:37:20.691Z"
+  },
+  {
+    "word": "Reinheitsgrads",
+    "pos": "noun",
+    "meaning_vi": "Gradus",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:08:21.882Z"
+  },
+  {
+    "word": "Alkylierungen",
+    "pos": "noun",
+    "meaning_vi": "Prozesse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:26:24.657Z"
+  },
+  {
+    "word": "alkalischste",
+    "pos": "adj",
+    "meaning_vi": "mäßig sauer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:27:10.071Z"
+  },
+  {
+    "word": "nukleophilsten",
+    "pos": "adj",
+    "meaning_vi": "nukleophile",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:52:05.581Z"
+  },
+  {
+    "word": "beryllhaltig",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:04:55.834Z"
+  },
+  {
+    "word": "Elektrolyts",
+    "pos": "noun",
+    "meaning_vi": "Elektrolyt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:36:50.997Z"
+  },
+  {
+    "word": "reaktionsträgen",
+    "pos": "adj",
+    "meaning_vi": "Reaktionswege",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:48:39.516Z"
+  },
+  {
+    "word": "reaktionsträgem",
+    "pos": "adj",
+    "meaning_vi": "chemischer Reaktionstyp",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T12:48:41.247Z"
+  },
+  {
+    "word": "biochemisches",
+    "pos": "adj",
+    "meaning_vi": "chemisches",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:21:53.877Z"
+  },
+  {
+    "word": "chlorotische",
+    "pos": "adj",
+    "meaning_vi": "chlorotisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:23:29.249Z"
+  },
+  {
+    "word": "chlorotischen",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:23:32.412Z"
+  },
+  {
+    "word": "enzymatischen",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:27:57.247Z"
+  },
+  {
+    "word": "basisches",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:51:29.029Z"
+  },
+  {
+    "word": "Sauerstoffgehalts",
+    "pos": "noun",
+    "meaning_vi": "Sauerstoffgehalt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:15:39.662Z"
+  },
+  {
+    "word": "sauerstoffangereicherten",
+    "pos": "adj",
+    "meaning_vi": "Sauerstoffreicher",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:16:14.300Z"
+  },
+  {
+    "word": "Tetrasauerstoff",
+    "pos": "noun",
+    "meaning_vi": "Sauerstoff",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:19:01.537Z"
+  },
+  {
+    "word": "metabolisiert",
+    "pos": "adj",
+    "meaning_vi": "Verändern",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:48:27.796Z"
+  },
+  {
+    "word": "metabolisierter",
+    "pos": "adj",
+    "meaning_vi": "Veränderter Stoff",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:49:26.602Z"
+  },
+  {
+    "word": "Hypernatriämien",
+    "pos": "noun",
+    "meaning_vi": "Übermäßige Natriumkonzentration",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:13:00.226Z"
+  },
+  {
+    "word": "Natriämien",
+    "pos": "noun",
+    "meaning_vi": "Salze",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:13:01.846Z"
+  },
+  {
+    "word": "Ionenkanales",
+    "pos": "noun",
+    "meaning_vi": "Ionengang",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:13:09.266Z"
+  },
+  {
+    "word": "katalysierter",
+    "pos": "adj",
+    "meaning_vi": "katalysator",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:15:16.916Z"
+  },
+  {
+    "word": "natriumhaltigen",
+    "pos": "adj",
+    "meaning_vi": "salzhaltig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:17:53.390Z"
+  },
+  {
+    "word": "unreaktiveres",
+    "pos": "adj",
+    "meaning_vi": "unreaktiver",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:25:26.202Z"
+  },
+  {
+    "word": "Molvolumen",
+    "pos": "noun",
+    "meaning_vi": "Volumen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:45:06.189Z"
+  },
+  {
+    "word": "Oxiden",
+    "pos": "noun",
+    "meaning_vi": "Oxidationsmittel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:47:35.900Z"
+  },
+  {
+    "word": "Oxidationsschutzes",
+    "pos": "noun",
+    "meaning_vi": "Schutz vor chemischer Oxidation",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T15:48:21.051Z"
+  },
+  {
+    "word": "silicathaltig",
+    "pos": "adj",
+    "meaning_vi": "silicat-haltig bedeutet chemisch: Silikat, physikalisch: Halbzeit",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:44:34.716Z"
+  },
+  {
+    "word": "silicathaltige",
+    "pos": "adj",
+    "meaning_vi": "silicat-haltig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:45:59.081Z"
+  },
+  {
+    "word": "silicathaltigem",
+    "pos": "adj",
+    "meaning_vi": "silicat-haltig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:46:04.089Z"
+  },
+  {
+    "word": "silicatischen",
+    "pos": "adj",
+    "meaning_vi": "silicatisch bedeutet chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:46:10.879Z"
+  },
+  {
+    "word": "Molybdänblau",
+    "pos": "noun",
+    "meaning_vi": "Farbstoff",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T01:08:38.346Z"
+  },
+  {
+    "word": "Sorptionen",
+    "pos": "noun",
+    "meaning_vi": "Eigenschaft einer Stoffe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T02:04:43.197Z"
+  },
+  {
+    "word": "synthetischer",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:51:34.926Z"
+  },
+  {
+    "word": "synthetischer",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:51:36.885Z"
+  },
+  {
+    "word": "synthetischeres",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:51:43.619Z"
+  },
+  {
+    "word": "synthetischster",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:51:50.732Z"
+  },
+  {
+    "word": "synthetischsten",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:52:03.441Z"
+  },
+  {
+    "word": "synthetischem",
+    "pos": "adj",
+    "meaning_vi": "chemische Verbindung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T03:52:13.123Z"
+  },
+  {
+    "word": "Alkylrests",
+    "pos": "noun",
+    "meaning_vi": "Reste eines Alkyls",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:41:48.656Z"
+  },
+  {
+    "word": "anaerobem",
+    "pos": "adj",
+    "meaning_vi": "keuchend, sauer",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T04:45:37.877Z"
+  },
+  {
+    "word": "intermolekular",
+    "pos": "adj",
+    "meaning_vi": "Molekular",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T06:46:07.896Z"
+  },
+  {
+    "word": "metabolischer",
+    "pos": "adj",
+    "meaning_vi": "Bezugsverwandtes zur Stoffwechsel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:11:29.538Z"
+  },
+  {
+    "word": "metabolisches",
+    "pos": "adj",
+    "meaning_vi": "Stoffwechsel",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:11:32.694Z"
+  },
+  {
+    "word": "plastischem",
+    "pos": "adj",
+    "meaning_vi": "chemisches",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:14:58.753Z"
+  },
+  {
+    "word": "vulkanisierbaren",
+    "pos": "adj",
+    "meaning_vi": "für die Herstellung von Kunststoffen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:32:51.684Z"
+  },
+  {
+    "word": "Kristallisierung",
+    "pos": "noun",
+    "meaning_vi": "Prozess, bei dem sich ein Gas aus einer Lösung trennt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T07:51:43.726Z"
+  },
+  {
+    "word": "intermetallischer",
+    "pos": "adj",
+    "meaning_vi": "Zusammenbau aus verschiedenen Metallen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:33:29.397Z"
+  },
+  {
+    "word": "galvanisch",
+    "pos": "adj",
+    "meaning_vi": "elektrisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:55:26.996Z"
+  },
+  {
+    "word": "galvanischer",
+    "pos": "adj",
+    "meaning_vi": "Elektrochemie",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:57:52.371Z"
+  },
+  {
+    "word": "galvanische",
+    "pos": "adj",
+    "meaning_vi": "Elektrizität",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:57:54.009Z"
+  },
+  {
+    "word": "mikrokristallinem",
+    "pos": "adj",
+    "meaning_vi": "Kristallform",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:02:00.596Z"
+  },
+  {
+    "word": "manganhaltigen",
+    "pos": "adj",
+    "meaning_vi": "chemisch stabil",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T09:27:34.301Z"
+  },
+  {
+    "word": "molekulardynamischen",
+    "pos": "adj",
+    "meaning_vi": "chemische Dynamik",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:30:20.416Z"
+  },
+  {
+    "word": "nichtenzymatischer",
+    "pos": "adj",
+    "meaning_vi": "nicht chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:31:46.786Z"
+  },
+  {
+    "word": "Ribonukleotid",
+    "pos": "noun",
+    "meaning_vi": "Ribonukleotid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:33:48.093Z"
+  },
+  {
+    "word": "oligodynamisch",
+    "pos": "adj",
+    "meaning_vi": "keimfähig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:57:32.085Z"
+  },
+  {
+    "word": "Zellspannungen",
+    "pos": "noun",
+    "meaning_vi": "Elektromagnetische Spannungen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:20:17.850Z"
+  },
+  {
+    "word": "zinkhaltigem",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:23:15.262Z"
+  },
+  {
+    "word": "toxikologisch",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:28:41.103Z"
+  },
+  {
+    "word": "toxikologische",
+    "pos": "adj",
+    "meaning_vi": "chemische Wirkung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:30:51.166Z"
+  },
+  {
+    "word": "Polymerisat",
+    "pos": "noun",
+    "meaning_vi": "Prozess",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:24:00.560Z"
+  },
+  {
+    "word": "halbmetallischer",
+    "pos": "adj",
+    "meaning_vi": "Halbmetallisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:52:15.647Z"
+  },
+  {
+    "word": "niedermolekularer",
+    "pos": "adj",
+    "meaning_vi": "Molekular",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T14:53:46.939Z"
+  },
+  {
+    "word": "chlorähnlich",
+    "pos": "adj",
+    "meaning_vi": "ähnlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:00:41.990Z"
+  },
+  {
+    "word": "chlorähnliche",
+    "pos": "adj",
+    "meaning_vi": "ähnlich",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:03:06.452Z"
+  },
+  {
+    "word": "Xenonverbindung",
+    "pos": "noun",
+    "meaning_vi": "Gas",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:07:49.430Z"
+  },
+  {
+    "word": "radiometrischem",
+    "pos": "adj",
+    "meaning_vi": "relating to measurement",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:18:37.655Z"
+  },
+  {
+    "word": "strontiumhaltigen",
+    "pos": "adj",
+    "meaning_vi": "Strontiumhaltig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T15:43:31.872Z"
+  },
+  {
+    "word": "hydrolysierst",
+    "pos": "verb",
+    "meaning_vi": "Zerfall von Verbindungen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:19:52.116Z"
+  },
+  {
+    "word": "galvanisier",
+    "pos": "verb",
+    "meaning_vi": "Elektrolyse",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:08:17.961Z"
+  },
+  {
+    "word": "oxidieret",
+    "pos": "verb",
+    "meaning_vi": "sauerstoffisolen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T19:00:39.409Z"
+  },
+  {
+    "word": "ionenabsorbierender",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:35:27.341Z"
+  },
+  {
+    "word": "silikatischster",
+    "pos": "adj",
+    "meaning_vi": "silikatischster",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T03:14:22.703Z"
+  },
+  {
+    "word": "molybdathaltigste",
+    "pos": "adj",
+    "meaning_vi": "chemisch",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:21:20.030Z"
+  },
+  {
+    "word": "molybdänreichen",
+    "pos": "adj",
+    "meaning_vi": "reich an Molybdän",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T05:22:27.679Z"
   }
 ]

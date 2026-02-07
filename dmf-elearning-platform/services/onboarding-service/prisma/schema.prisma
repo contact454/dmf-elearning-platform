@@ -20,6 +20,12 @@ model User {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  // Streak tracking (Task 2.1)
+  currentStreak    Int       @default(0) @map("current_streak")
+  longestStreak    Int       @default(0) @map("longest_streak")
+  lastActivityDate DateTime? @map("last_activity_date")
+  timezone         String    @default("UTC") // IANA timezone
+
   profile   Profile?
   sessions  Session[]
 
@@ -75,4 +81,62 @@ model LessonProgress {
   user        UserMastery @relation(fields: [userId], references: [userId])
 
   @@index([userId])
+}
+
+// === Language Learning Models ===
+
+model Language {
+  id        String   @id @default(uuid())
+  code      String   @unique // 'de', 'en', 'vi'
+  name      String   // 'German', 'English', 'Vietnamese'
+  level     String?  // 'A1', 'A2', 'B1', etc.
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  units     Unit[]
+
+  @@map("Languages")
+}
+
+model Unit {
+  id                  String   @id @default(uuid())
+  languageId          String
+  unitNumber          Int
+  title               String
+  description         String?
+  grammarTopic        String?
+  grammarExplanation  String?
+  grammarExamples     Json?    // Array of {de, en, vi} examples
+  orderIndex          Int
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  language            Language @relation(fields: [languageId], references: [id], onDelete: Cascade)
+  vocabulary          Vocabulary[]
+
+  @@unique([languageId, unitNumber])
+  @@index([languageId])
+  @@map("Units")
+}
+
+model Vocabulary {
+  id          String   @id @default(uuid())
+  unitId      String
+  word        String
+  meaningEn   String
+  meaningVi   String
+  gender      String?  // 'masculine', 'feminine', 'neuter', 'none'
+  wordType    String?  // 'noun', 'verb', 'adjective', 'adverb', 'phrase'
+  category    String?  // 'verbs', 'food', 'numbers', etc.
+  examples    Json?    // Array of {de, en, vi} example sentences
+  orderIndex  Int
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  unit        Unit @relation(fields: [unitId], references: [id], onDelete: Cascade)
+
+  @@unique([unitId, word])
+  @@index([unitId])
+  @@index([word])
+  @@map("Vocabulary")
 }

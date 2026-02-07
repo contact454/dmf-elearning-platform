@@ -33,5 +33,33 @@
     "meaning_vi": "drum test",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T11:00:32.658Z"
+  },
+  {
+    "word": "Plektra",
+    "pos": "noun",
+    "meaning_vi": "stringed instrument",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T01:09:30.713Z"
+  },
+  {
+    "word": "Akkordeonspielers",
+    "pos": "noun",
+    "meaning_vi": "Player",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:30:54.524Z"
+  },
+  {
+    "word": "Dudelsäcke",
+    "pos": "noun",
+    "meaning_vi": "Bagpipes",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:27:07.559Z"
+  },
+  {
+    "word": "Dudelsacks",
+    "pos": "noun",
+    "meaning_vi": "bagpipe",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:27:09.082Z"
   }
 ]

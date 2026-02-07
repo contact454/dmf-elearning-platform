@@ -54,5 +54,68 @@
     "meaning_vi": "Anreise",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:48:59.553Z"
+  },
+  {
+    "word": "Schiffahrten",
+    "pos": "noun",
+    "meaning_vi": "Reise",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T02:53:22.146Z"
+  },
+  {
+    "word": "Durchreisevisums",
+    "pos": "noun",
+    "meaning_vi": "Reise",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:02:13.273Z"
+  },
+  {
+    "word": "Auffahrten",
+    "pos": "noun",
+    "meaning_vi": "Fahrt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:19:49.461Z"
+  },
+  {
+    "word": "mehrstündige",
+    "pos": "adj",
+    "meaning_vi": "reisend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T14:08:30.101Z"
+  },
+  {
+    "word": "Reizleitungen",
+    "pos": "noun",
+    "meaning_vi": "Leitfaden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:05:41.113Z"
+  },
+  {
+    "word": "Sandwichverbindungen",
+    "pos": "noun",
+    "meaning_vi": "Verbindungen",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T10:37:08.811Z"
+  },
+  {
+    "word": "Texterkennung",
+    "pos": "noun",
+    "meaning_vi": " Erkennung",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:24:00.449Z"
+  },
+  {
+    "word": "Rückweg",
+    "pos": "noun",
+    "meaning_vi": "Rückfahrt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:31:49.760Z"
+  },
+  {
+    "word": "umfahre",
+    "pos": "verb",
+    "meaning_vi": "fahren",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T20:25:07.073Z"
   }
 ]

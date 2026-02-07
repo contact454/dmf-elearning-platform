@@ -33,5 +33,33 @@
     "meaning_vi": "Paid",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:35:23.516Z"
+  },
+  {
+    "word": "abwerbt",
+    "pos": "verb",
+    "meaning_vi": "attracts",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:26:25.876Z"
+  },
+  {
+    "word": "abwerbet",
+    "pos": "verb",
+    "meaning_vi": "to dismiss",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T06:26:33.543Z"
+  },
+  {
+    "word": "ausgemerzt",
+    "pos": "verb",
+    "meaning_vi": "to have worked",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:01:44.498Z"
+  },
+  {
+    "word": "beigeben",
+    "pos": "verb",
+    "meaning_vi": "to work, to do",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:42:39.271Z"
   }
 ]

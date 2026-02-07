@@ -1,0 +1,137 @@
+=========================================
+DMF Vocabulary API Performance Tests
+=========================================
+Test Date: 2026-02-06 15:41:31
+API Base: http://localhost:3003
+Number of Requests: 15
+
+=========================================
+TC-PERF-004: GET /api/review/queue
+Target: <100ms average, <200ms p95
+=========================================
+Request 1: 29.800000ms
+Request 2: 3.352000ms
+Request 3: 3.184000ms
+Request 4: 2.631000ms
+Request 5: 3.049000ms
+Request 6: 2.841000ms
+Request 7: 2.773000ms
+Request 8: 3.116000ms
+Request 9: 3.959000ms
+Request 10: 3.009000ms
+Request 11: 2.853000ms
+Request 12: 3.192000ms
+Request 13: 2.657000ms
+Request 14: 2.317000ms
+Request 15: 2.877000ms
+
+Statistics:
+Count:       15
+Average: 4.77ms
+Min: 2.317000ms
+Max: 29.800000ms
+P95: 3.959000ms
+
+=========================================
+TC-PERF-005: POST /api/review/submit
+Target: <50ms average
+=========================================
+Using word ID: cmlakjbn70001rzl1isoeej9i
+
+Request 1: 15.624000ms
+Request 2: 12.789000ms
+Request 3: 5.333000ms
+Request 4: 5.440000ms
+Request 5: 4.799000ms
+Request 6: 4.845000ms
+Request 7: 4.777000ms
+Request 8: 5.217000ms
+Request 9: 5.760000ms
+Request 10: 4.446000ms
+Request 11: 5.555000ms
+Request 12: 5.541000ms
+Request 13: 5.581000ms
+Request 14: 4.875000ms
+Request 15: 5.874000ms
+
+Statistics:
+Count:       15
+Average: 6.43ms
+Min: 4.446000ms
+Max: 15.624000ms
+P95: 12.789000ms
+
+=========================================
+TC-PERF-006: GET /api/user/streak
+Target: <100ms average
+=========================================
+Request 1: 1.850000ms
+Request 2: 2.166000ms
+Request 3: 2.180000ms
+Request 4: 1.635000ms
+Request 5: 2.015000ms
+Request 6: 1.797000ms
+Request 7: 1.821000ms
+Request 8: 1.750000ms
+Request 9: 1.997000ms
+Request 10: 1.587000ms
+Request 11: 1.628000ms
+Request 12: 1.613000ms
+Request 13: 1.514000ms
+Request 14: 1.524000ms
+Request 15: 2.180000ms
+
+Statistics:
+Count:       15
+Average: 1.81ms
+Min: 1.514000ms
+Max: 2.180000ms
+P95: 2.180000ms
+
+=========================================
+TC-PERF-007: Load Test - Concurrent Review Submissions
+Target: 0 failures, avg latency <500ms
+=========================================
+Running 30 sequential requests to simulate load...
+Request 1: 3.437000ms [OK]
+Request 2: 2.868000ms [OK]
+Request 3: 2.983000ms [OK]
+Request 4: 2.475000ms [OK]
+Request 5: 2.884000ms [OK]
+Request 6: 2.619000ms [OK]
+Request 7: 2.521000ms [OK]
+Request 8: 2.744000ms [OK]
+Request 9: 3.131000ms [OK]
+Request 10: 2.806000ms [OK]
+Request 11: 2.601000ms [OK]
+Request 12: 2.207000ms [OK]
+Request 13: 2.605000ms [OK]
+Request 14: 3.099000ms [OK]
+Request 15: 2.813000ms [OK]
+Request 16: 3.053000ms [OK]
+Request 17: 2.188000ms [OK]
+Request 18: 2.488000ms [OK]
+Request 19: 3.047000ms [OK]
+Request 20: 2.732000ms [OK]
+Request 21: 2.581000ms [OK]
+Request 22: 2.608000ms [OK]
+Request 23: 3.007000ms [OK]
+Request 24: 2.618000ms [OK]
+Request 25: 2.971000ms [OK]
+Request 26: 2.510000ms [OK]
+Request 27: 2.174000ms [OK]
+Request 28: 2.194000ms [OK]
+Request 29: 2.391000ms [OK]
+Request 30: 2.356000ms [OK]
+
+Statistics:
+Count:       30
+Average: 2.69ms
+Min: 2.174000ms
+Max: 3.437000ms
+P95: 3.099000ms
+Failures: 0 / 30
+
+=========================================
+Performance Testing Complete
+=========================================

@@ -82,5 +82,180 @@
     "meaning_vi": "Clouds",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T04:25:01.256Z"
+  },
+  {
+    "word": "himmelest an",
+    "pos": "verb",
+    "meaning_vi": "rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:40:38.312Z"
+  },
+  {
+    "word": "wittert",
+    "pos": "verb",
+    "meaning_vi": "to weather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:16:05.811Z"
+  },
+  {
+    "word": "wittertest",
+    "pos": "verb",
+    "meaning_vi": "Test weather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:16:19.377Z"
+  },
+  {
+    "word": "Donnerwetters",
+    "pos": "noun",
+    "meaning_vi": "Thunderstorm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T11:22:11.488Z"
+  },
+  {
+    "word": "Sturmes",
+    "pos": "noun",
+    "meaning_vi": "Storm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:04:52.102Z"
+  },
+  {
+    "word": "Rückenwindes",
+    "pos": "noun",
+    "meaning_vi": "Backwind",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:24:41.378Z"
+  },
+  {
+    "word": "Wirbelsturmes",
+    "pos": "noun",
+    "meaning_vi": "Typhoon",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:25:24.028Z"
+  },
+  {
+    "word": "Kaiserwetters",
+    "pos": "noun",
+    "meaning_vi": "Storm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:42:42.160Z"
+  },
+  {
+    "word": "Nieselregens",
+    "pos": "noun",
+    "meaning_vi": "Misty rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T07:02:49.808Z"
+  },
+  {
+    "word": "Mesologien",
+    "pos": "noun",
+    "meaning_vi": "Period of weather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:33:12.992Z"
+  },
+  {
+    "word": "Gaswolken",
+    "pos": "noun",
+    "meaning_vi": "Clouds",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:16:29.463Z"
+  },
+  {
+    "word": "Siedetemperaturen",
+    "pos": "noun",
+    "meaning_vi": "Temperatures",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:11:29.217Z"
+  },
+  {
+    "word": "Blitzeises",
+    "pos": "noun",
+    "meaning_vi": "Heat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:54:22.503Z"
+  },
+  {
+    "word": "Zonenschmelzen",
+    "pos": "noun",
+    "meaning_vi": "Melting of snow",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:49:42.195Z"
+  },
+  {
+    "word": "Zonenschmelzens",
+    "pos": "noun",
+    "meaning_vi": "Heat",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:50:02.188Z"
+  },
+  {
+    "word": "witterungsbeständigen",
+    "pos": "adj",
+    "meaning_vi": "weather-resistant",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:21:27.790Z"
+  },
+  {
+    "word": "Bleierzen",
+    "pos": "noun",
+    "meaning_vi": "Snow",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:42:26.237Z"
+  },
+  {
+    "word": "sturmfreie",
+    "pos": "adj",
+    "meaning_vi": "Storm-free",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:28:32.555Z"
+  },
+  {
+    "word": "übereifriges",
+    "pos": "adj",
+    "meaning_vi": "Cold",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:39:25.886Z"
+  },
+  {
+    "word": "barbusige",
+    "pos": "adj",
+    "meaning_vi": "windy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T21:16:18.461Z"
+  },
+  {
+    "word": "sommerlichste",
+    "pos": "adj",
+    "meaning_vi": "most summer-like",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:10:11.805Z"
+  },
+  {
+    "word": "wolkenverhangene",
+    "pos": "adj",
+    "meaning_vi": "Cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:20:50.955Z"
+  },
+  {
+    "word": "wolkigste",
+    "pos": "adj",
+    "meaning_vi": "Cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:21:07.211Z"
+  },
+  {
+    "word": "wolkigstes",
+    "pos": "adj",
+    "meaning_vi": "Cloudiest",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:21:08.775Z"
+  },
+  {
+    "word": "wolkigem",
+    "pos": "adj",
+    "meaning_vi": "Cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:21:16.390Z"
   }
 ]

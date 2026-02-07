@@ -26,5 +26,159 @@
     "meaning_vi": "raged",
     "source": "kaikki.org",
     "addedAt": "2026-02-02T02:48:58.149Z"
+  },
+  {
+    "word": "himmeltest an",
+    "pos": "verb",
+    "meaning_vi": "Rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:40:27.381Z"
+  },
+  {
+    "word": "himmele an",
+    "pos": "verb",
+    "meaning_vi": "rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T08:40:42.635Z"
+  },
+  {
+    "word": "witterte",
+    "pos": "verb",
+    "meaning_vi": "to weather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:16:00.057Z"
+  },
+  {
+    "word": "witterst",
+    "pos": "verb",
+    "meaning_vi": "to weather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:16:01.515Z"
+  },
+  {
+    "word": "witterten",
+    "pos": "verb",
+    "meaning_vi": "to weather",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-02T09:16:17.829Z"
+  },
+  {
+    "word": "nebliger",
+    "pos": "adj",
+    "meaning_vi": "cloudy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:31:01.722Z"
+  },
+  {
+    "word": "neblige",
+    "pos": "adj",
+    "meaning_vi": "Foggy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T04:31:03.345Z"
+  },
+  {
+    "word": "Nebels",
+    "pos": "noun",
+    "meaning_vi": "Fog",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T05:35:51.641Z"
+  },
+  {
+    "word": "Wetters",
+    "pos": "noun",
+    "meaning_vi": "Rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:04:35.974Z"
+  },
+  {
+    "word": "Gewitters",
+    "pos": "noun",
+    "meaning_vi": "storm",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T06:44:09.588Z"
+  },
+  {
+    "word": "Wolkenbruches",
+    "pos": "noun",
+    "meaning_vi": "Rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T08:31:35.125Z"
+  },
+  {
+    "word": "strömenden",
+    "pos": "adj",
+    "meaning_vi": "Rainy",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T09:59:28.357Z"
+  },
+  {
+    "word": "Lufthüllen",
+    "pos": "noun",
+    "meaning_vi": "Clouds",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T13:36:39.927Z"
+  },
+  {
+    "word": "schwülere",
+    "pos": "adj",
+    "meaning_vi": "Humid",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T08:26:27.438Z"
+  },
+  {
+    "word": "Witterungen",
+    "pos": "noun",
+    "meaning_vi": "Forecasts",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T11:20:09.701Z"
+  },
+  {
+    "word": "gewitterte",
+    "pos": "verb",
+    "meaning_vi": "stormed",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:20:26.663Z"
+  },
+  {
+    "word": "Fahrtwind",
+    "pos": "noun",
+    "meaning_vi": "Wind",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:53:54.272Z"
+  },
+  {
+    "word": "Wettern",
+    "pos": "noun",
+    "meaning_vi": "Rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T13:28:57.857Z"
+  },
+  {
+    "word": "föhnt",
+    "pos": "verb",
+    "meaning_vi": "rain",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:14:52.153Z"
+  },
+  {
+    "word": "föhnst",
+    "pos": "verb",
+    "meaning_vi": "Wind",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T16:14:55.370Z"
+  },
+  {
+    "word": "widrigeres",
+    "pos": "adj",
+    "meaning_vi": "Unfavorable",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T18:40:53.201Z"
+  },
+  {
+    "word": "sonnige",
+    "pos": "adj",
+    "meaning_vi": "Sunny",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T02:11:47.886Z"
   }
 ]

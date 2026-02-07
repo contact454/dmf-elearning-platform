@@ -1,5 +1,6 @@
 import express from 'express';
 import { ReadingController } from '../controllers/ReadingController';
+import { ReadingPassageController } from '../controllers/ReadingPassageController';
 
 const router = express.Router();
 
@@ -7,6 +8,25 @@ const router = express.Router();
  * Reading API Routes
  * Smart Library - i+1 Reading Content
  */
+
+// ═══════════════════════════════════════════════════════════════
+// PHASE 1: Reading Passages & Exercises
+// ═══════════════════════════════════════════════════════════════
+
+// Get passages with filters
+router.get('/passages', ReadingPassageController.getPassages);
+
+// Get single passage with exercises
+router.get('/passages/:id', ReadingPassageController.getPassageById);
+
+// Submit exercise answer
+router.post('/submit', ReadingPassageController.submitAnswer);
+
+// Get user progress
+router.get('/progress', ReadingPassageController.getProgress);
+
+// Save vocabulary word for SRS
+router.post('/vocabulary/save', ReadingPassageController.saveVocabulary);
 
 // ═══════════════════════════════════════════════════════════════
 // Content Discovery

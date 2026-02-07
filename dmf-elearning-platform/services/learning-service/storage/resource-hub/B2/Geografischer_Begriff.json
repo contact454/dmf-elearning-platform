@@ -5,5 +5,75 @@
     "meaning_vi": "aus dem Persischen stammend",
     "source": "kaikki.org",
     "addedAt": "2026-02-01T07:59:59.364Z"
+  },
+  {
+    "word": "australischen",
+    "pos": "adj",
+    "meaning_vi": "bezogen auf Australien",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T11:26:10.117Z"
+  },
+  {
+    "word": "ostweserischem",
+    "pos": "adj",
+    "meaning_vi": "östlich des Wesers",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-03T18:11:05.847Z"
+  },
+  {
+    "word": "kurdischem",
+    "pos": "adj",
+    "meaning_vi": "geographischer Bezug zu Kurden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T00:58:48.086Z"
+  },
+  {
+    "word": "Wiel",
+    "pos": "noun",
+    "meaning_vi": "Wasser",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T12:32:02.477Z"
+  },
+  {
+    "word": "belizisches",
+    "pos": "adj",
+    "meaning_vi": "belizisches Land",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:38:47.846Z"
+  },
+  {
+    "word": "belizischem",
+    "pos": "adj",
+    "meaning_vi": "bezirksfremden",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-04T17:38:51.968Z"
+  },
+  {
+    "word": "salvadorianischer",
+    "pos": "adj",
+    "meaning_vi": "Salvadorianischer Bezugspunkt",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:40:58.315Z"
+  },
+  {
+    "word": "samoanischer",
+    "pos": "adj",
+    "meaning_vi": "von Samoa stammend",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:41:07.379Z"
+  },
+  {
+    "word": "samoanische",
+    "pos": "adj",
+    "meaning_vi": "inselartig",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T01:41:09.091Z"
+  },
+  {
+    "word": "antiguanischer",
+    "pos": "adj",
+    "meaning_vi": "bezüglich Antigua",
+    "source": "kaikki.org",
+    "addedAt": "2026-02-05T04:50:36.961Z"
   }
 ]

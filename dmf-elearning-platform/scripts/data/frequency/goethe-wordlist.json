@@ -1,0 +1,3050 @@
+{
+  "hallo": {
+    "level": "A1",
+    "priority": 100
+  },
+  "guten tag": {
+    "level": "A1",
+    "priority": 100
+  },
+  "guten morgen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "guten abend": {
+    "level": "A1",
+    "priority": 100
+  },
+  "auf wiedersehen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "tschüss": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ja": {
+    "level": "A1",
+    "priority": 100
+  },
+  "nein": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bitte": {
+    "level": "A1",
+    "priority": 100
+  },
+  "danke": {
+    "level": "A1",
+    "priority": 100
+  },
+  "entschuldigung": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ich": {
+    "level": "A1",
+    "priority": 100
+  },
+  "du": {
+    "level": "A1",
+    "priority": 100
+  },
+  "er": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sie": {
+    "level": "A1",
+    "priority": 100
+  },
+  "es": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wir": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ihr": {
+    "level": "A1",
+    "priority": 100
+  },
+  "der": {
+    "level": "A1",
+    "priority": 100
+  },
+  "die": {
+    "level": "A1",
+    "priority": 100
+  },
+  "das": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ein": {
+    "level": "A1",
+    "priority": 100
+  },
+  "eine": {
+    "level": "A1",
+    "priority": 100
+  },
+  "null": {
+    "level": "A1",
+    "priority": 100
+  },
+  "eins": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zwei": {
+    "level": "A1",
+    "priority": 100
+  },
+  "drei": {
+    "level": "A1",
+    "priority": 100
+  },
+  "vier": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fünf": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sechs": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sieben": {
+    "level": "A1",
+    "priority": 100
+  },
+  "acht": {
+    "level": "A1",
+    "priority": 100
+  },
+  "neun": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zehn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "elf": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zwölf": {
+    "level": "A1",
+    "priority": 100
+  },
+  "dreizehn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "vierzehn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fünfzehn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sechzehn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "siebzehn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "achtzehn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "neunzehn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zwanzig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "dreißig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "vierzig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fünfzig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sechzig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "siebzig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "achtzig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "neunzig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hundert": {
+    "level": "A1",
+    "priority": 100
+  },
+  "montag": {
+    "level": "A1",
+    "priority": 100
+  },
+  "dienstag": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mittwoch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "donnerstag": {
+    "level": "A1",
+    "priority": 100
+  },
+  "freitag": {
+    "level": "A1",
+    "priority": 100
+  },
+  "samstag": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sonntag": {
+    "level": "A1",
+    "priority": 100
+  },
+  "januar": {
+    "level": "A1",
+    "priority": 100
+  },
+  "februar": {
+    "level": "A1",
+    "priority": 100
+  },
+  "märz": {
+    "level": "A1",
+    "priority": 100
+  },
+  "april": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mai": {
+    "level": "A1",
+    "priority": 100
+  },
+  "juni": {
+    "level": "A1",
+    "priority": 100
+  },
+  "juli": {
+    "level": "A1",
+    "priority": 100
+  },
+  "august": {
+    "level": "A1",
+    "priority": 100
+  },
+  "september": {
+    "level": "A1",
+    "priority": 100
+  },
+  "oktober": {
+    "level": "A1",
+    "priority": 100
+  },
+  "november": {
+    "level": "A1",
+    "priority": 100
+  },
+  "dezember": {
+    "level": "A1",
+    "priority": 100
+  },
+  "uhr": {
+    "level": "A1",
+    "priority": 100
+  },
+  "minute": {
+    "level": "A1",
+    "priority": 100
+  },
+  "stunde": {
+    "level": "A1",
+    "priority": 100
+  },
+  "tag": {
+    "level": "A1",
+    "priority": 100
+  },
+  "woche": {
+    "level": "A1",
+    "priority": 100
+  },
+  "monat": {
+    "level": "A1",
+    "priority": 100
+  },
+  "jahr": {
+    "level": "A1",
+    "priority": 100
+  },
+  "heute": {
+    "level": "A1",
+    "priority": 100
+  },
+  "morgen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "gestern": {
+    "level": "A1",
+    "priority": 100
+  },
+  "jetzt": {
+    "level": "A1",
+    "priority": 100
+  },
+  "später": {
+    "level": "A1",
+    "priority": 100
+  },
+  "früh": {
+    "level": "A1",
+    "priority": 100
+  },
+  "spät": {
+    "level": "A1",
+    "priority": 100
+  },
+  "familie": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mutter": {
+    "level": "A1",
+    "priority": 100
+  },
+  "vater": {
+    "level": "A1",
+    "priority": 100
+  },
+  "eltern": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kind": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kinder": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sohn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "tochter": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bruder": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schwester": {
+    "level": "A1",
+    "priority": 100
+  },
+  "großmutter": {
+    "level": "A1",
+    "priority": 100
+  },
+  "großvater": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mann": {
+    "level": "A1",
+    "priority": 100
+  },
+  "frau": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kopf": {
+    "level": "A1",
+    "priority": 100
+  },
+  "auge": {
+    "level": "A1",
+    "priority": 100
+  },
+  "augen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "nase": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mund": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ohr": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ohren": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hand": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hände": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fuß": {
+    "level": "A1",
+    "priority": 100
+  },
+  "füße": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bein": {
+    "level": "A1",
+    "priority": 100
+  },
+  "arm": {
+    "level": "A1",
+    "priority": 100
+  },
+  "rot": {
+    "level": "A1",
+    "priority": 100
+  },
+  "blau": {
+    "level": "A1",
+    "priority": 100
+  },
+  "grün": {
+    "level": "A1",
+    "priority": 100
+  },
+  "gelb": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schwarz": {
+    "level": "A1",
+    "priority": 100
+  },
+  "weiß": {
+    "level": "A1",
+    "priority": 100
+  },
+  "braun": {
+    "level": "A1",
+    "priority": 100
+  },
+  "grau": {
+    "level": "A1",
+    "priority": 100
+  },
+  "orange": {
+    "level": "A1",
+    "priority": 100
+  },
+  "rosa": {
+    "level": "A1",
+    "priority": 100
+  },
+  "essen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "trinken": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wasser": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kaffee": {
+    "level": "A1",
+    "priority": 100
+  },
+  "tee": {
+    "level": "A1",
+    "priority": 100
+  },
+  "milch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "saft": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bier": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wein": {
+    "level": "A1",
+    "priority": 100
+  },
+  "brot": {
+    "level": "A1",
+    "priority": 100
+  },
+  "butter": {
+    "level": "A1",
+    "priority": 100
+  },
+  "käse": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ei": {
+    "level": "A1",
+    "priority": 100
+  },
+  "eier": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fleisch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fisch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "gemüse": {
+    "level": "A1",
+    "priority": 100
+  },
+  "obst": {
+    "level": "A1",
+    "priority": 100
+  },
+  "apfel": {
+    "level": "A1",
+    "priority": 100
+  },
+  "banane": {
+    "level": "A1",
+    "priority": 100
+  },
+  "frühstück": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mittagessen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "abendessen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "restaurant": {
+    "level": "A1",
+    "priority": 100
+  },
+  "supermarkt": {
+    "level": "A1",
+    "priority": 100
+  },
+  "haus": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wohnung": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zimmer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "küche": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bad": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schlafzimmer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wohnzimmer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "stadt": {
+    "level": "A1",
+    "priority": 100
+  },
+  "straße": {
+    "level": "A1",
+    "priority": 100
+  },
+  "platz": {
+    "level": "A1",
+    "priority": 100
+  },
+  "park": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schule": {
+    "level": "A1",
+    "priority": 100
+  },
+  "universität": {
+    "level": "A1",
+    "priority": 100
+  },
+  "arbeit": {
+    "level": "A1",
+    "priority": 100
+  },
+  "büro": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bahnhof": {
+    "level": "A1",
+    "priority": 100
+  },
+  "flughafen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hotel": {
+    "level": "A1",
+    "priority": 100
+  },
+  "krankenhaus": {
+    "level": "A1",
+    "priority": 100
+  },
+  "apotheke": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bank": {
+    "level": "A1",
+    "priority": 100
+  },
+  "post": {
+    "level": "A1",
+    "priority": 100
+  },
+  "auto": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bus": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bahn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zug": {
+    "level": "A1",
+    "priority": 100
+  },
+  "u-bahn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fahrrad": {
+    "level": "A1",
+    "priority": 100
+  },
+  "taxi": {
+    "level": "A1",
+    "priority": 100
+  },
+  "flugzeug": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fahren": {
+    "level": "A1",
+    "priority": 100
+  },
+  "gehen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kommen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fliegen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sein": {
+    "level": "A1",
+    "priority": 100
+  },
+  "haben": {
+    "level": "A1",
+    "priority": 100
+  },
+  "werden": {
+    "level": "A1",
+    "priority": 100
+  },
+  "können": {
+    "level": "A1",
+    "priority": 100
+  },
+  "müssen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wollen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sollen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "dürfen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mögen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "machen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "arbeiten": {
+    "level": "A1",
+    "priority": 100
+  },
+  "lernen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "studieren": {
+    "level": "A1",
+    "priority": 100
+  },
+  "lesen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schreiben": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sprechen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hören": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sehen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kaufen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bezahlen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kosten": {
+    "level": "A1",
+    "priority": 100
+  },
+  "brauchen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "suchen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "finden": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kochen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schlafen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "aufstehen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wohnen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "leben": {
+    "level": "A1",
+    "priority": 100
+  },
+  "spielen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schwimmen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "tanzen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "singen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "reisen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "besuchen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "verstehen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wissen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kennen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "glauben": {
+    "level": "A1",
+    "priority": 100
+  },
+  "denken": {
+    "level": "A1",
+    "priority": 100
+  },
+  "meinen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "helfen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "fragen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "antworten": {
+    "level": "A1",
+    "priority": 100
+  },
+  "lieben": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hassen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "freuen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ärgern": {
+    "level": "A1",
+    "priority": 100
+  },
+  "gut": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schlecht": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schön": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hässlich": {
+    "level": "A1",
+    "priority": 100
+  },
+  "groß": {
+    "level": "A1",
+    "priority": 100
+  },
+  "klein": {
+    "level": "A1",
+    "priority": 100
+  },
+  "alt": {
+    "level": "A1",
+    "priority": 100
+  },
+  "neu": {
+    "level": "A1",
+    "priority": 100
+  },
+  "jung": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schnell": {
+    "level": "A1",
+    "priority": 100
+  },
+  "langsam": {
+    "level": "A1",
+    "priority": 100
+  },
+  "teuer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "billig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "leicht": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schwer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "einfach": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schwierig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kalt": {
+    "level": "A1",
+    "priority": 100
+  },
+  "warm": {
+    "level": "A1",
+    "priority": 100
+  },
+  "heiß": {
+    "level": "A1",
+    "priority": 100
+  },
+  "kühl": {
+    "level": "A1",
+    "priority": 100
+  },
+  "nass": {
+    "level": "A1",
+    "priority": 100
+  },
+  "trocken": {
+    "level": "A1",
+    "priority": 100
+  },
+  "richtig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "falsch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wichtig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "interessant": {
+    "level": "A1",
+    "priority": 100
+  },
+  "langweilig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "glücklich": {
+    "level": "A1",
+    "priority": 100
+  },
+  "traurig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "müde": {
+    "level": "A1",
+    "priority": 100
+  },
+  "krank": {
+    "level": "A1",
+    "priority": 100
+  },
+  "gesund": {
+    "level": "A1",
+    "priority": 100
+  },
+  "name": {
+    "level": "A1",
+    "priority": 100
+  },
+  "adresse": {
+    "level": "A1",
+    "priority": 100
+  },
+  "telefon": {
+    "level": "A1",
+    "priority": 100
+  },
+  "e-mail": {
+    "level": "A1",
+    "priority": 100
+  },
+  "nummer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "passwort": {
+    "level": "A1",
+    "priority": 100
+  },
+  "freund": {
+    "level": "A1",
+    "priority": 100
+  },
+  "freundin": {
+    "level": "A1",
+    "priority": 100
+  },
+  "leute": {
+    "level": "A1",
+    "priority": 100
+  },
+  "person": {
+    "level": "A1",
+    "priority": 100
+  },
+  "menschen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sprache": {
+    "level": "A1",
+    "priority": 100
+  },
+  "deutsch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "englisch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wort": {
+    "level": "A1",
+    "priority": 100
+  },
+  "satz": {
+    "level": "A1",
+    "priority": 100
+  },
+  "text": {
+    "level": "A1",
+    "priority": 100
+  },
+  "buch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zeitung": {
+    "level": "A1",
+    "priority": 100
+  },
+  "geld": {
+    "level": "A1",
+    "priority": 100
+  },
+  "euro": {
+    "level": "A1",
+    "priority": 100
+  },
+  "cent": {
+    "level": "A1",
+    "priority": 100
+  },
+  "preis": {
+    "level": "A1",
+    "priority": 100
+  },
+  "konto": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ticket": {
+    "level": "A1",
+    "priority": 100
+  },
+  "karte": {
+    "level": "A1",
+    "priority": 100
+  },
+  "pass": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ausweis": {
+    "level": "A1",
+    "priority": 100
+  },
+  "problem": {
+    "level": "A1",
+    "priority": 100
+  },
+  "frage": {
+    "level": "A1",
+    "priority": 100
+  },
+  "antwort": {
+    "level": "A1",
+    "priority": 100
+  },
+  "beispiel": {
+    "level": "A1",
+    "priority": 100
+  },
+  "idee": {
+    "level": "A1",
+    "priority": 100
+  },
+  "musik": {
+    "level": "A1",
+    "priority": 100
+  },
+  "film": {
+    "level": "A1",
+    "priority": 100
+  },
+  "foto": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bild": {
+    "level": "A1",
+    "priority": 100
+  },
+  "computer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "handy": {
+    "level": "A1",
+    "priority": 100
+  },
+  "internet": {
+    "level": "A1",
+    "priority": 100
+  },
+  "was": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wo": {
+    "level": "A1",
+    "priority": 100
+  },
+  "woher": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wohin": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wann": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wie": {
+    "level": "A1",
+    "priority": 100
+  },
+  "warum": {
+    "level": "A1",
+    "priority": 100
+  },
+  "welche": {
+    "level": "A1",
+    "priority": 100
+  },
+  "welcher": {
+    "level": "A1",
+    "priority": 100
+  },
+  "welches": {
+    "level": "A1",
+    "priority": 100
+  },
+  "in": {
+    "level": "A1",
+    "priority": 100
+  },
+  "an": {
+    "level": "A1",
+    "priority": 100
+  },
+  "auf": {
+    "level": "A1",
+    "priority": 100
+  },
+  "über": {
+    "level": "A1",
+    "priority": 100
+  },
+  "unter": {
+    "level": "A1",
+    "priority": 100
+  },
+  "neben": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zwischen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "vor": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hinter": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mit": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ohne": {
+    "level": "A1",
+    "priority": 100
+  },
+  "für": {
+    "level": "A1",
+    "priority": 100
+  },
+  "gegen": {
+    "level": "A1",
+    "priority": 100
+  },
+  "um": {
+    "level": "A1",
+    "priority": 100
+  },
+  "durch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "aus": {
+    "level": "A1",
+    "priority": 100
+  },
+  "von": {
+    "level": "A1",
+    "priority": 100
+  },
+  "zu": {
+    "level": "A1",
+    "priority": 100
+  },
+  "nach": {
+    "level": "A1",
+    "priority": 100
+  },
+  "bei": {
+    "level": "A1",
+    "priority": 100
+  },
+  "und": {
+    "level": "A1",
+    "priority": 100
+  },
+  "oder": {
+    "level": "A1",
+    "priority": 100
+  },
+  "aber": {
+    "level": "A1",
+    "priority": 100
+  },
+  "denn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "weil": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wenn": {
+    "level": "A1",
+    "priority": 100
+  },
+  "dass": {
+    "level": "A1",
+    "priority": 100
+  },
+  "ob": {
+    "level": "A1",
+    "priority": 100
+  },
+  "hier": {
+    "level": "A1",
+    "priority": 100
+  },
+  "dort": {
+    "level": "A1",
+    "priority": 100
+  },
+  "da": {
+    "level": "A1",
+    "priority": 100
+  },
+  "oben": {
+    "level": "A1",
+    "priority": 100
+  },
+  "unten": {
+    "level": "A1",
+    "priority": 100
+  },
+  "links": {
+    "level": "A1",
+    "priority": 100
+  },
+  "rechts": {
+    "level": "A1",
+    "priority": 100
+  },
+  "geradeaus": {
+    "level": "A1",
+    "priority": 100
+  },
+  "sehr": {
+    "level": "A1",
+    "priority": 100
+  },
+  "viel": {
+    "level": "A1",
+    "priority": 100
+  },
+  "wenig": {
+    "level": "A1",
+    "priority": 100
+  },
+  "mehr": {
+    "level": "A1",
+    "priority": 100
+  },
+  "weniger": {
+    "level": "A1",
+    "priority": 100
+  },
+  "nur": {
+    "level": "A1",
+    "priority": 100
+  },
+  "auch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "noch": {
+    "level": "A1",
+    "priority": 100
+  },
+  "schon": {
+    "level": "A1",
+    "priority": 100
+  },
+  "immer": {
+    "level": "A1",
+    "priority": 100
+  },
+  "nie": {
+    "level": "A1",
+    "priority": 100
+  },
+  "oft": {
+    "level": "A1",
+    "priority": 100
+  },
+  "manchmal": {
+    "level": "A1",
+    "priority": 100
+  },
+  "gern": {
+    "level": "A1",
+    "priority": 100
+  },
+  "lieber": {
+    "level": "A1",
+    "priority": 100
+  },
+  "am liebsten": {
+    "level": "A1",
+    "priority": 100
+  },
+  "onkel": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tante": {
+    "level": "A2",
+    "priority": 90
+  },
+  "cousin": {
+    "level": "A2",
+    "priority": 90
+  },
+  "cousine": {
+    "level": "A2",
+    "priority": 90
+  },
+  "neffe": {
+    "level": "A2",
+    "priority": 90
+  },
+  "nichte": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schwiegermutter": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schwiegervater": {
+    "level": "A2",
+    "priority": 90
+  },
+  "nachbar": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kollege": {
+    "level": "A2",
+    "priority": 90
+  },
+  "chef": {
+    "level": "A2",
+    "priority": 90
+  },
+  "partner": {
+    "level": "A2",
+    "priority": 90
+  },
+  "partnerin": {
+    "level": "A2",
+    "priority": 90
+  },
+  "hochzeit": {
+    "level": "A2",
+    "priority": 90
+  },
+  "scheidung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "arzt": {
+    "level": "A2",
+    "priority": 90
+  },
+  "ärztin": {
+    "level": "A2",
+    "priority": 90
+  },
+  "lehrer": {
+    "level": "A2",
+    "priority": 90
+  },
+  "lehrerin": {
+    "level": "A2",
+    "priority": 90
+  },
+  "polizist": {
+    "level": "A2",
+    "priority": 90
+  },
+  "verkäufer": {
+    "level": "A2",
+    "priority": 90
+  },
+  "ingenieur": {
+    "level": "A2",
+    "priority": 90
+  },
+  "programmierer": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kellner": {
+    "level": "A2",
+    "priority": 90
+  },
+  "koch": {
+    "level": "A2",
+    "priority": 90
+  },
+  "friseur": {
+    "level": "A2",
+    "priority": 90
+  },
+  "mechaniker": {
+    "level": "A2",
+    "priority": 90
+  },
+  "elektriker": {
+    "level": "A2",
+    "priority": 90
+  },
+  "architekt": {
+    "level": "A2",
+    "priority": 90
+  },
+  "rechtsanwalt": {
+    "level": "A2",
+    "priority": 90
+  },
+  "journalist": {
+    "level": "A2",
+    "priority": 90
+  },
+  "künstler": {
+    "level": "A2",
+    "priority": 90
+  },
+  "musiker": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schauspieler": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sportler": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schüler": {
+    "level": "A2",
+    "priority": 90
+  },
+  "student": {
+    "level": "A2",
+    "priority": 90
+  },
+  "professor": {
+    "level": "A2",
+    "priority": 90
+  },
+  "unterricht": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kurs": {
+    "level": "A2",
+    "priority": 90
+  },
+  "prüfung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "test": {
+    "level": "A2",
+    "priority": 90
+  },
+  "note": {
+    "level": "A2",
+    "priority": 90
+  },
+  "hausaufgabe": {
+    "level": "A2",
+    "priority": 90
+  },
+  "übung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "fehler": {
+    "level": "A2",
+    "priority": 90
+  },
+  "regel": {
+    "level": "A2",
+    "priority": 90
+  },
+  "grammatik": {
+    "level": "A2",
+    "priority": 90
+  },
+  "vokabel": {
+    "level": "A2",
+    "priority": 90
+  },
+  "zeugnis": {
+    "level": "A2",
+    "priority": 90
+  },
+  "diplom": {
+    "level": "A2",
+    "priority": 90
+  },
+  "abschluss": {
+    "level": "A2",
+    "priority": 90
+  },
+  "ausbildung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "studium": {
+    "level": "A2",
+    "priority": 90
+  },
+  "gesundheit": {
+    "level": "A2",
+    "priority": 90
+  },
+  "krankheit": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schmerz": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kopfschmerzen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "fieber": {
+    "level": "A2",
+    "priority": 90
+  },
+  "erkältung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "grippe": {
+    "level": "A2",
+    "priority": 90
+  },
+  "medikament": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tablette": {
+    "level": "A2",
+    "priority": 90
+  },
+  "rezept": {
+    "level": "A2",
+    "priority": 90
+  },
+  "termin": {
+    "level": "A2",
+    "priority": 90
+  },
+  "untersuchung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "operation": {
+    "level": "A2",
+    "priority": 90
+  },
+  "versicherung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "krankenkasse": {
+    "level": "A2",
+    "priority": 90
+  },
+  "laden": {
+    "level": "A2",
+    "priority": 90
+  },
+  "geschäft": {
+    "level": "A2",
+    "priority": 90
+  },
+  "markt": {
+    "level": "A2",
+    "priority": 90
+  },
+  "einkaufszentrum": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kasse": {
+    "level": "A2",
+    "priority": 90
+  },
+  "rechnung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "quittung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "größe": {
+    "level": "A2",
+    "priority": 90
+  },
+  "farbe": {
+    "level": "A2",
+    "priority": 90
+  },
+  "qualität": {
+    "level": "A2",
+    "priority": 90
+  },
+  "angebot": {
+    "level": "A2",
+    "priority": 90
+  },
+  "rabatt": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sonderangebot": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kleidung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "hose": {
+    "level": "A2",
+    "priority": 90
+  },
+  "hemd": {
+    "level": "A2",
+    "priority": 90
+  },
+  "jacke": {
+    "level": "A2",
+    "priority": 90
+  },
+  "mantel": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kleid": {
+    "level": "A2",
+    "priority": 90
+  },
+  "rock": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schuhe": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tasche": {
+    "level": "A2",
+    "priority": 90
+  },
+  "miete": {
+    "level": "A2",
+    "priority": 90
+  },
+  "vermieter": {
+    "level": "A2",
+    "priority": 90
+  },
+  "mieter": {
+    "level": "A2",
+    "priority": 90
+  },
+  "vertrag": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kaution": {
+    "level": "A2",
+    "priority": 90
+  },
+  "nebenkosten": {
+    "level": "A2",
+    "priority": 90
+  },
+  "möbel": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tisch": {
+    "level": "A2",
+    "priority": 90
+  },
+  "stuhl": {
+    "level": "A2",
+    "priority": 90
+  },
+  "bett": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schrank": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sofa": {
+    "level": "A2",
+    "priority": 90
+  },
+  "lampe": {
+    "level": "A2",
+    "priority": 90
+  },
+  "teppich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "fenster": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tür": {
+    "level": "A2",
+    "priority": 90
+  },
+  "treppe": {
+    "level": "A2",
+    "priority": 90
+  },
+  "aufzug": {
+    "level": "A2",
+    "priority": 90
+  },
+  "balkon": {
+    "level": "A2",
+    "priority": 90
+  },
+  "garten": {
+    "level": "A2",
+    "priority": 90
+  },
+  "garage": {
+    "level": "A2",
+    "priority": 90
+  },
+  "laptop": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tablet": {
+    "level": "A2",
+    "priority": 90
+  },
+  "bildschirm": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tastatur": {
+    "level": "A2",
+    "priority": 90
+  },
+  "maus": {
+    "level": "A2",
+    "priority": 90
+  },
+  "drucker": {
+    "level": "A2",
+    "priority": 90
+  },
+  "programm": {
+    "level": "A2",
+    "priority": 90
+  },
+  "software": {
+    "level": "A2",
+    "priority": 90
+  },
+  "app": {
+    "level": "A2",
+    "priority": 90
+  },
+  "download": {
+    "level": "A2",
+    "priority": 90
+  },
+  "update": {
+    "level": "A2",
+    "priority": 90
+  },
+  "datei": {
+    "level": "A2",
+    "priority": 90
+  },
+  "ordner": {
+    "level": "A2",
+    "priority": 90
+  },
+  "website": {
+    "level": "A2",
+    "priority": 90
+  },
+  "link": {
+    "level": "A2",
+    "priority": 90
+  },
+  "wetter": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sonne": {
+    "level": "A2",
+    "priority": 90
+  },
+  "regen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schnee": {
+    "level": "A2",
+    "priority": 90
+  },
+  "wind": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sturm": {
+    "level": "A2",
+    "priority": 90
+  },
+  "gewitter": {
+    "level": "A2",
+    "priority": 90
+  },
+  "nebel": {
+    "level": "A2",
+    "priority": 90
+  },
+  "temperatur": {
+    "level": "A2",
+    "priority": 90
+  },
+  "grad": {
+    "level": "A2",
+    "priority": 90
+  },
+  "himmel": {
+    "level": "A2",
+    "priority": 90
+  },
+  "wolke": {
+    "level": "A2",
+    "priority": 90
+  },
+  "natur": {
+    "level": "A2",
+    "priority": 90
+  },
+  "baum": {
+    "level": "A2",
+    "priority": 90
+  },
+  "blume": {
+    "level": "A2",
+    "priority": 90
+  },
+  "pflanze": {
+    "level": "A2",
+    "priority": 90
+  },
+  "wald": {
+    "level": "A2",
+    "priority": 90
+  },
+  "berg": {
+    "level": "A2",
+    "priority": 90
+  },
+  "see": {
+    "level": "A2",
+    "priority": 90
+  },
+  "fluss": {
+    "level": "A2",
+    "priority": 90
+  },
+  "meer": {
+    "level": "A2",
+    "priority": 90
+  },
+  "strand": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tier": {
+    "level": "A2",
+    "priority": 90
+  },
+  "hund": {
+    "level": "A2",
+    "priority": 90
+  },
+  "katze": {
+    "level": "A2",
+    "priority": 90
+  },
+  "vogel": {
+    "level": "A2",
+    "priority": 90
+  },
+  "pferd": {
+    "level": "A2",
+    "priority": 90
+  },
+  "gefühl": {
+    "level": "A2",
+    "priority": 90
+  },
+  "freude": {
+    "level": "A2",
+    "priority": 90
+  },
+  "angst": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sorge": {
+    "level": "A2",
+    "priority": 90
+  },
+  "stress": {
+    "level": "A2",
+    "priority": 90
+  },
+  "hoffnung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "überraschung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "meinung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "vorschlag": {
+    "level": "A2",
+    "priority": 90
+  },
+  "entscheidung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "grund": {
+    "level": "A2",
+    "priority": 90
+  },
+  "erfahrung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "anfangen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "aufhören": {
+    "level": "A2",
+    "priority": 90
+  },
+  "beginnen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "beenden": {
+    "level": "A2",
+    "priority": 90
+  },
+  "fortsetzen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "erklären": {
+    "level": "A2",
+    "priority": 90
+  },
+  "beschreiben": {
+    "level": "A2",
+    "priority": 90
+  },
+  "erzählen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "diskutieren": {
+    "level": "A2",
+    "priority": 90
+  },
+  "streiten": {
+    "level": "A2",
+    "priority": 90
+  },
+  "empfehlen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "vorschlagen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "entscheiden": {
+    "level": "A2",
+    "priority": 90
+  },
+  "planen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "organisieren": {
+    "level": "A2",
+    "priority": 90
+  },
+  "reparieren": {
+    "level": "A2",
+    "priority": 90
+  },
+  "wechseln": {
+    "level": "A2",
+    "priority": 90
+  },
+  "tauschen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "leihen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "zurückgeben": {
+    "level": "A2",
+    "priority": 90
+  },
+  "anmelden": {
+    "level": "A2",
+    "priority": 90
+  },
+  "abmelden": {
+    "level": "A2",
+    "priority": 90
+  },
+  "registrieren": {
+    "level": "A2",
+    "priority": 90
+  },
+  "reservieren": {
+    "level": "A2",
+    "priority": 90
+  },
+  "bestellen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "liefern": {
+    "level": "A2",
+    "priority": 90
+  },
+  "vergleichen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "unterscheiden": {
+    "level": "A2",
+    "priority": 90
+  },
+  "wählen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "bevorzugen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "praktisch": {
+    "level": "A2",
+    "priority": 90
+  },
+  "bequem": {
+    "level": "A2",
+    "priority": 90
+  },
+  "gemütlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "modern": {
+    "level": "A2",
+    "priority": 90
+  },
+  "traditionell": {
+    "level": "A2",
+    "priority": 90
+  },
+  "freundlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "höflich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "nett": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sympathisch": {
+    "level": "A2",
+    "priority": 90
+  },
+  "lustig": {
+    "level": "A2",
+    "priority": 90
+  },
+  "ernst": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sicher": {
+    "level": "A2",
+    "priority": 90
+  },
+  "gefährlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "ruhig": {
+    "level": "A2",
+    "priority": 90
+  },
+  "laut": {
+    "level": "A2",
+    "priority": 90
+  },
+  "sauber": {
+    "level": "A2",
+    "priority": 90
+  },
+  "schmutzig": {
+    "level": "A2",
+    "priority": 90
+  },
+  "möglich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "unmöglich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "notwendig": {
+    "level": "A2",
+    "priority": 90
+  },
+  "dringend": {
+    "level": "A2",
+    "priority": 90
+  },
+  "pünktlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "wochenende": {
+    "level": "A2",
+    "priority": 90
+  },
+  "feiertag": {
+    "level": "A2",
+    "priority": 90
+  },
+  "urlaub": {
+    "level": "A2",
+    "priority": 90
+  },
+  "ferien": {
+    "level": "A2",
+    "priority": 90
+  },
+  "verabredung": {
+    "level": "A2",
+    "priority": 90
+  },
+  "vorgestern": {
+    "level": "A2",
+    "priority": 90
+  },
+  "übermorgen": {
+    "level": "A2",
+    "priority": 90
+  },
+  "neulich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "kürzlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "bald": {
+    "level": "A2",
+    "priority": 90
+  },
+  "endlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "täglich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "wöchentlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "monatlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "jährlich": {
+    "level": "A2",
+    "priority": 90
+  },
+  "gesellschaft": {
+    "level": "B1",
+    "priority": 80
+  },
+  "politik": {
+    "level": "B1",
+    "priority": 80
+  },
+  "wirtschaft": {
+    "level": "B1",
+    "priority": 80
+  },
+  "kultur": {
+    "level": "B1",
+    "priority": 80
+  },
+  "bildung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "wissenschaft": {
+    "level": "B1",
+    "priority": 80
+  },
+  "freiheit": {
+    "level": "B1",
+    "priority": 80
+  },
+  "demokratie": {
+    "level": "B1",
+    "priority": 80
+  },
+  "recht": {
+    "level": "B1",
+    "priority": 80
+  },
+  "gesetz": {
+    "level": "B1",
+    "priority": 80
+  },
+  "pflicht": {
+    "level": "B1",
+    "priority": 80
+  },
+  "verantwortung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "entwicklung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "fortschritt": {
+    "level": "B1",
+    "priority": 80
+  },
+  "veränderung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "zukunft": {
+    "level": "B1",
+    "priority": 80
+  },
+  "vergangenheit": {
+    "level": "B1",
+    "priority": 80
+  },
+  "erfolg": {
+    "level": "B1",
+    "priority": 80
+  },
+  "misserfolg": {
+    "level": "B1",
+    "priority": 80
+  },
+  "chance": {
+    "level": "B1",
+    "priority": 80
+  },
+  "risiko": {
+    "level": "B1",
+    "priority": 80
+  },
+  "vorteil": {
+    "level": "B1",
+    "priority": 80
+  },
+  "nachteil": {
+    "level": "B1",
+    "priority": 80
+  },
+  "beruf": {
+    "level": "B1",
+    "priority": 80
+  },
+  "karriere": {
+    "level": "B1",
+    "priority": 80
+  },
+  "stelle": {
+    "level": "B1",
+    "priority": 80
+  },
+  "position": {
+    "level": "B1",
+    "priority": 80
+  },
+  "abteilung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "firma": {
+    "level": "B1",
+    "priority": 80
+  },
+  "unternehmen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "bewerbung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "lebenslauf": {
+    "level": "B1",
+    "priority": 80
+  },
+  "vorstellungsgespräch": {
+    "level": "B1",
+    "priority": 80
+  },
+  "gehalt": {
+    "level": "B1",
+    "priority": 80
+  },
+  "lohn": {
+    "level": "B1",
+    "priority": 80
+  },
+  "arbeitszeit": {
+    "level": "B1",
+    "priority": 80
+  },
+  "überstunde": {
+    "level": "B1",
+    "priority": 80
+  },
+  "kündigung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "rente": {
+    "level": "B1",
+    "priority": 80
+  },
+  "projekt": {
+    "level": "B1",
+    "priority": 80
+  },
+  "aufgabe": {
+    "level": "B1",
+    "priority": 80
+  },
+  "ziel": {
+    "level": "B1",
+    "priority": 80
+  },
+  "ergebnis": {
+    "level": "B1",
+    "priority": 80
+  },
+  "bericht": {
+    "level": "B1",
+    "priority": 80
+  },
+  "präsentation": {
+    "level": "B1",
+    "priority": 80
+  },
+  "nachricht": {
+    "level": "B1",
+    "priority": 80
+  },
+  "information": {
+    "level": "B1",
+    "priority": 80
+  },
+  "artikel": {
+    "level": "B1",
+    "priority": 80
+  },
+  "interview": {
+    "level": "B1",
+    "priority": 80
+  },
+  "kommentar": {
+    "level": "B1",
+    "priority": 80
+  },
+  "zeitschrift": {
+    "level": "B1",
+    "priority": 80
+  },
+  "radio": {
+    "level": "B1",
+    "priority": 80
+  },
+  "fernsehen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "sender": {
+    "level": "B1",
+    "priority": 80
+  },
+  "werbung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "anzeige": {
+    "level": "B1",
+    "priority": 80
+  },
+  "plakat": {
+    "level": "B1",
+    "priority": 80
+  },
+  "broschüre": {
+    "level": "B1",
+    "priority": 80
+  },
+  "umwelt": {
+    "level": "B1",
+    "priority": 80
+  },
+  "klima": {
+    "level": "B1",
+    "priority": 80
+  },
+  "klimawandel": {
+    "level": "B1",
+    "priority": 80
+  },
+  "energie": {
+    "level": "B1",
+    "priority": 80
+  },
+  "strom": {
+    "level": "B1",
+    "priority": 80
+  },
+  "gas": {
+    "level": "B1",
+    "priority": 80
+  },
+  "müll": {
+    "level": "B1",
+    "priority": 80
+  },
+  "recycling": {
+    "level": "B1",
+    "priority": 80
+  },
+  "verschmutzung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "schutz": {
+    "level": "B1",
+    "priority": 80
+  },
+  "erneuerbar": {
+    "level": "B1",
+    "priority": 80
+  },
+  "nachhaltig": {
+    "level": "B1",
+    "priority": 80
+  },
+  "umweltfreundlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "lösung": {
+    "level": "B1",
+    "priority": 80
+  },
+  "diskussion": {
+    "level": "B1",
+    "priority": 80
+  },
+  "debatte": {
+    "level": "B1",
+    "priority": 80
+  },
+  "argument": {
+    "level": "B1",
+    "priority": 80
+  },
+  "armut": {
+    "level": "B1",
+    "priority": 80
+  },
+  "reichtum": {
+    "level": "B1",
+    "priority": 80
+  },
+  "gleichheit": {
+    "level": "B1",
+    "priority": 80
+  },
+  "gerechtigkeit": {
+    "level": "B1",
+    "priority": 80
+  },
+  "integration": {
+    "level": "B1",
+    "priority": 80
+  },
+  "migration": {
+    "level": "B1",
+    "priority": 80
+  },
+  "flüchtling": {
+    "level": "B1",
+    "priority": 80
+  },
+  "asyl": {
+    "level": "B1",
+    "priority": 80
+  },
+  "analysieren": {
+    "level": "B1",
+    "priority": 80
+  },
+  "bewerten": {
+    "level": "B1",
+    "priority": 80
+  },
+  "beurteilen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "kritisieren": {
+    "level": "B1",
+    "priority": 80
+  },
+  "argumentieren": {
+    "level": "B1",
+    "priority": 80
+  },
+  "überzeugen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "widersprechen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "zustimmen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "entwickeln": {
+    "level": "B1",
+    "priority": 80
+  },
+  "verbessern": {
+    "level": "B1",
+    "priority": 80
+  },
+  "verschlechtern": {
+    "level": "B1",
+    "priority": 80
+  },
+  "verändern": {
+    "level": "B1",
+    "priority": 80
+  },
+  "beeinflussen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "kontrollieren": {
+    "level": "B1",
+    "priority": 80
+  },
+  "regeln": {
+    "level": "B1",
+    "priority": 80
+  },
+  "verwalten": {
+    "level": "B1",
+    "priority": 80
+  },
+  "fordern": {
+    "level": "B1",
+    "priority": 80
+  },
+  "verlangen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "ablehnen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "akzeptieren": {
+    "level": "B1",
+    "priority": 80
+  },
+  "annehmen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "vermeiden": {
+    "level": "B1",
+    "priority": 80
+  },
+  "verhindern": {
+    "level": "B1",
+    "priority": 80
+  },
+  "lösen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "behandeln": {
+    "level": "B1",
+    "priority": 80
+  },
+  "unterstützen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "fördern": {
+    "level": "B1",
+    "priority": 80
+  },
+  "finanzieren": {
+    "level": "B1",
+    "priority": 80
+  },
+  "investieren": {
+    "level": "B1",
+    "priority": 80
+  },
+  "wirtschaftlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "politisch": {
+    "level": "B1",
+    "priority": 80
+  },
+  "sozial": {
+    "level": "B1",
+    "priority": 80
+  },
+  "kulturell": {
+    "level": "B1",
+    "priority": 80
+  },
+  "wissenschaftlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "international": {
+    "level": "B1",
+    "priority": 80
+  },
+  "national": {
+    "level": "B1",
+    "priority": 80
+  },
+  "regional": {
+    "level": "B1",
+    "priority": 80
+  },
+  "lokal": {
+    "level": "B1",
+    "priority": 80
+  },
+  "global": {
+    "level": "B1",
+    "priority": 80
+  },
+  "aktuell": {
+    "level": "B1",
+    "priority": 80
+  },
+  "künftig": {
+    "level": "B1",
+    "priority": 80
+  },
+  "ehemalig": {
+    "level": "B1",
+    "priority": 80
+  },
+  "bisherig": {
+    "level": "B1",
+    "priority": 80
+  },
+  "durchschnittlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "üblich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "normal": {
+    "level": "B1",
+    "priority": 80
+  },
+  "typisch": {
+    "level": "B1",
+    "priority": 80
+  },
+  "besonders": {
+    "level": "B1",
+    "priority": 80
+  },
+  "grundsätzlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "prinzipiell": {
+    "level": "B1",
+    "priority": 80
+  },
+  "theoretisch": {
+    "level": "B1",
+    "priority": 80
+  },
+  "offiziell": {
+    "level": "B1",
+    "priority": 80
+  },
+  "privat": {
+    "level": "B1",
+    "priority": 80
+  },
+  "öffentlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "staatlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "allerdings": {
+    "level": "B1",
+    "priority": 80
+  },
+  "jedoch": {
+    "level": "B1",
+    "priority": 80
+  },
+  "dennoch": {
+    "level": "B1",
+    "priority": 80
+  },
+  "trotzdem": {
+    "level": "B1",
+    "priority": 80
+  },
+  "obwohl": {
+    "level": "B1",
+    "priority": 80
+  },
+  "deshalb": {
+    "level": "B1",
+    "priority": 80
+  },
+  "daher": {
+    "level": "B1",
+    "priority": 80
+  },
+  "deswegen": {
+    "level": "B1",
+    "priority": 80
+  },
+  "folglich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "somit": {
+    "level": "B1",
+    "priority": 80
+  },
+  "außerdem": {
+    "level": "B1",
+    "priority": 80
+  },
+  "zusätzlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "darüber hinaus": {
+    "level": "B1",
+    "priority": 80
+  },
+  "schließlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "einerseits": {
+    "level": "B1",
+    "priority": 80
+  },
+  "andererseits": {
+    "level": "B1",
+    "priority": 80
+  },
+  "im gegensatz": {
+    "level": "B1",
+    "priority": 80
+  },
+  "im vergleich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "zum beispiel": {
+    "level": "B1",
+    "priority": 80
+  },
+  "insbesondere": {
+    "level": "B1",
+    "priority": 80
+  },
+  "vor allem": {
+    "level": "B1",
+    "priority": 80
+  },
+  "hauptsächlich": {
+    "level": "B1",
+    "priority": 80
+  },
+  "meiner meinung nach": {
+    "level": "B1",
+    "priority": 80
+  },
+  "ich finde": {
+    "level": "B1",
+    "priority": 80
+  },
+  "ich glaube": {
+    "level": "B1",
+    "priority": 80
+  },
+  "ich denke": {
+    "level": "B1",
+    "priority": 80
+  }
+}
