@@ -36,8 +36,8 @@ import {
   GermanApiError,
 } from '@/services/german-api';
 import { LexicalEditor, GrammarError } from '@/components/writing/LexicalEditor';
-import { FeedbackPanel, MobileFeedbackDrawer } from '@/components/writing/FeedbackPanel';
-import { useAutoSave, useWritingTimer } from '@/hooks/useAutoSave';
+import { FeedbackPanel } from '@/components/writing/FeedbackPanel';
+import { useAutoSave } from '@/hooks/useAutoSave';
 
 const TEMP_USER_ID = 'demo-user-001';
 
@@ -355,8 +355,8 @@ export default function WritingEditorPage() {
         </div>
       </main>
 
-      {/* Mobile Feedback Drawer */}
-      <MobileFeedbackDrawer
+      {/* Mobile Feedback Drawer - TODO: Implement MobileFeedbackDrawer component */}
+      {/* <MobileFeedbackDrawer
         isOpen={isMobileDrawerOpen}
         onToggle={() => setIsMobileDrawerOpen(!isMobileDrawerOpen)}
       >
@@ -366,7 +366,7 @@ export default function WritingEditorPage() {
           onApply={handleApplyError}
           onIgnore={handleIgnoreError}
         />
-      </MobileFeedbackDrawer>
+      </MobileFeedbackDrawer> */}
     </div>
   );
 }

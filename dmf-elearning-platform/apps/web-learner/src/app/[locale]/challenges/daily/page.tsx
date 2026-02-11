@@ -1,384 +1,240 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import Link from 'next/link';
-import {
-  ArrowLeft,
-  Trophy,
-  Timer,
-  Flame,
-  Award,
-  Calendar,
-  Target,
-  Zap,
-  TrendingUp,
-  Star,
-  Clock,
-  RefreshCw,
-} from 'lucide-react';
-import {
-  useDailyChallenge,
-  useChallengeHistory,
-  useStreakInfo,
-  useLeaderboard,
-} from '@/hooks/useChallengeQueries';
-import { SkeletonCard, SkeletonStats, CountUp, ThemeToggle } from '@/components/ui';
-import {
-  ChallengeCard,
-  ChallengeTimer,
-  StreakTracker,
-  LeaderboardPreview,
-  ChallengeHistory,
-  RewardsPanel,
-} from '@/components/challenges';
+import { useState } from 'react';
+import { motion } from 'framer-motion';
 
-export default function DailyChallengesPage() {
-  const [showHistory, setShowHistory] = useState(false);
-  const [showLeaderboard, setShowLeaderboard] = useState(false);
-
-  // React Query hooks
-  const {
-    data: challenge,
-    isLoading: challengeLoading,
-    error: challengeError,
-    refetch: refetchChallenge,
-  } = useDailyChallenge();
-
-  const {
-    data: history = [],
-    isLoading: historyLoading,
-  } = useChallengeHistory({ limit: 10 });
-
-  const {
-    data: streakInfo,
-    isLoading: streakLoading,
-  } = useStreakInfo();
-
-  const {
-    data: leaderboard = [],
-    isLoading: leaderboardLoading,
-  } = useLeaderboard({ limit: 10 });
-
-  const isLoading = challengeLoading;
-  const error = challengeError;
-
-  if (isLoading) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-orange-50">
-        {/* Header */}
-        <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-40">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex items-center gap-4">
-              <Link href="/dashboard" className="p-2 hover:bg-gray-100 rounded-lg transition cursor-pointer">
-                <ArrowLeft className="w-5 h-5 text-gray-600" />
-              </Link>
-              <div>
-                <h1 className="text-xl font-bold text-gray-900 flex items-center gap-2">
-                  <Trophy className="w-6 h-6 text-amber-500" />
-                  Daily Challenges
-                </h1>
-                <p className="text-sm text-gray-600">Test your German skills daily</p>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <SkeletonStats className="mb-8" />
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="lg:col-span-2">
-              <SkeletonCard className="h-96" />
-            </div>
-            <div className="space-y-4">
-              <SkeletonCard className="h-48" />
-              <SkeletonCard className="h-48" />
-            </div>
-          </div>
-        </main>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-orange-50 flex items-center justify-center p-4">
-        <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8 max-w-md text-center">
-          <h2 className="text-xl font-bold text-red-800 mb-2">Connection Error</h2>
-          <p className="text-red-600 mb-4">Failed to load challenge. Please try again.</p>
-          <div className="flex gap-3 justify-center">
-            <button
-              onClick={() => refetchChallenge()}
-              className="px-6 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition cursor-pointer"
-            >
-              Try Again
-            </button>
-            <Link
-              href="/dashboard"
-              className="inline-block px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition"
-            >
-              Back to Dashboard
-            </Link>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-orange-50">
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Link href="/dashboard" className="p-2 hover:bg-gray-100 rounded-lg transition cursor-pointer">
-                <ArrowLeft className="w-5 h-5 text-gray-600" />
-              </Link>
-              <div>
-                <h1 className="text-xl font-bold text-gray-900 flex items-center gap-2">
-                  <Trophy className="w-6 h-6 text-amber-500" />
-                  Daily Challenges
-                </h1>
-                <p className="text-sm text-gray-600">Test your German skills daily</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => refetchChallenge()}
-                className="p-2 hover:bg-gray-100 rounded-lg transition cursor-pointer"
-              >
-                <RefreshCw className="w-5 h-5 text-gray-600" />
-              </button>
-              <ThemeToggle />
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Stats Overview */}
-        {streakInfo && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"
-          >
-            <StatCard
-              icon={<Flame className="w-5 h-5" />}
-              label="Current Streak"
-              value={streakInfo.currentStreak}
-              suffix="days"
-              color="orange"
-              highlight={streakInfo.currentStreak > 0}
-            />
-            <StatCard
-              icon={<Trophy className="w-5 h-5" />}
-              label="Best Streak"
-              value={streakInfo.longestStreak}
-              suffix="days"
-              color="amber"
-            />
-            <StatCard
-              icon={<Star className="w-5 h-5" />}
-              label="Total Completed"
-              value={streakInfo.totalCompleted}
-              color="yellow"
-            />
-            <StatCard
-              icon={<Award className="w-5 h-5" />}
-              label="Total Points"
-              value={streakInfo.totalPoints}
-              color="purple"
-            />
-          </motion.div>
-        )}
-
-        {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Challenge Card - Main Section */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.1 }}
-            className="lg:col-span-2 space-y-6"
-          >
-            {challenge && (
-              <>
-                <ChallengeCard challenge={challenge} />
-                
-                {/* Quick Actions */}
-                <div className="grid grid-cols-2 gap-4">
-                  <button
-                    onClick={() => setShowHistory(!showHistory)}
-                    className="p-4 bg-white border-2 border-gray-200 rounded-xl hover:border-amber-300 transition cursor-pointer flex items-center justify-center gap-2"
-                  >
-                    <Calendar className="w-5 h-5 text-gray-700" />
-                    <span className="font-medium text-gray-900">History</span>
-                  </button>
-                  <button
-                    onClick={() => setShowLeaderboard(!showLeaderboard)}
-                    className="p-4 bg-white border-2 border-gray-200 rounded-xl hover:border-amber-300 transition cursor-pointer flex items-center justify-center gap-2"
-                  >
-                    <TrendingUp className="w-5 h-5 text-gray-700" />
-                    <span className="font-medium text-gray-900">Leaderboard</span>
-                  </button>
-                </div>
-              </>
-            )}
-
-            {/* Challenge History Modal */}
-            <AnimatePresence>
-              {showHistory && (
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -20 }}
-                >
-                  <ChallengeHistory
-                    history={history}
-                    isLoading={historyLoading}
-                    onClose={() => setShowHistory(false)}
-                  />
-                </motion.div>
-              )}
-            </AnimatePresence>
-
-            {/* Leaderboard Modal */}
-            <AnimatePresence>
-              {showLeaderboard && (
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -20 }}
-                >
-                  <LeaderboardPreview
-                    leaderboard={leaderboard}
-                    isLoading={leaderboardLoading}
-                    onClose={() => setShowLeaderboard(false)}
-                  />
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </motion.div>
-
-          {/* Sidebar */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2 }}
-            className="space-y-6"
-          >
-            {/* Timer */}
-            {challenge && <ChallengeTimer expiresAt={challenge.expiresAt} />}
-
-            {/* Streak Tracker */}
-            {streakInfo && <StreakTracker streakInfo={streakInfo} />}
-
-            {/* Rewards Panel */}
-            {challenge && <RewardsPanel challenge={challenge} />}
-
-            {/* Mini Leaderboard */}
-            <div className="bg-white rounded-xl border-2 border-gray-200 p-4">
-              <h3 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
-                <TrendingUp className="w-4 h-4 text-amber-500" />
-                Top Players Today
-              </h3>
-              {leaderboardLoading ? (
-                <div className="space-y-2">
-                  {[1, 2, 3].map((i) => (
-                    <div key={i} className="h-12 bg-gray-100 rounded-lg animate-pulse" />
-                  ))}
-                </div>
-              ) : leaderboard.length > 0 ? (
-                <div className="space-y-2">
-                  {leaderboard.slice(0, 3).map((entry, idx) => (
-                    <div
-                      key={entry.userId}
-                      className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg"
-                    >
-                      <div
-                        className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${
-                          idx === 0
-                            ? 'bg-yellow-400 text-yellow-900'
-                            : idx === 1
-                            ? 'bg-gray-300 text-gray-700'
-                            : 'bg-orange-300 text-orange-900'
-                        }`}
-                      >
-                        {idx + 1}
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium text-gray-900 truncate">
-                          {entry.userName}
-                        </p>
-                      </div>
-                      <span className="text-sm font-bold text-amber-600">
-                        {entry.score}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <p className="text-sm text-gray-500 text-center py-4">
-                  No entries yet
-                </p>
-              )}
-              <button
-                onClick={() => setShowLeaderboard(true)}
-                className="w-full mt-3 py-2 text-sm font-medium text-amber-600 hover:text-amber-700 transition cursor-pointer"
-              >
-                View Full Leaderboard
-              </button>
-            </div>
-          </motion.div>
-        </div>
-      </main>
-    </div>
-  );
+interface Challenge {
+  id: string;
+  type: 'vocabulary' | 'translation' | 'listening' | 'speaking';
+  title: string;
+  description: string;
+  xp: number;
+  difficulty: 'easy' | 'medium' | 'hard';
+  completed: boolean;
+  icon: string;
 }
 
-// ═══════════════════════════════════════════════════════════════
-// Components
-// ═══════════════════════════════════════════════════════════════
+const DAILY_CHALLENGES: Challenge[] = [
+  {
+    id: '1',
+    type: 'vocabulary',
+    title: 'Learn 5 New Words',
+    description: 'Master 5 new German words today',
+    xp: 50,
+    difficulty: 'easy',
+    completed: false,
+    icon: '📚',
+  },
+  {
+    id: '2',
+    type: 'translation',
+    title: 'Translate 10 Sentences',
+    description: 'Practice German to Vietnamese translation',
+    xp: 75,
+    difficulty: 'medium',
+    completed: false,
+    icon: '🔄',
+  },
+  {
+    id: '3',
+    type: 'listening',
+    title: 'Listen & Repeat',
+    description: 'Complete 3 listening exercises',
+    xp: 100,
+    difficulty: 'medium',
+    completed: false,
+    icon: '🎧',
+  },
+  {
+    id: '4',
+    type: 'speaking',
+    title: 'Practice Speaking',
+    description: 'Record yourself speaking 2 prompts',
+    xp: 125,
+    difficulty: 'hard',
+    completed: false,
+    icon: '🎤',
+  },
+  {
+    id: '5',
+    type: 'vocabulary',
+    title: 'Perfect Review',
+    description: 'Get 100% on 10 vocabulary reviews',
+    xp: 150,
+    difficulty: 'hard',
+    completed: false,
+    icon: '⭐',
+  },
+];
 
-function StatCard({
-  icon,
-  label,
-  value,
-  suffix,
-  color,
-  highlight = false,
-}: {
-  icon: React.ReactNode;
-  label: string;
-  value: number;
-  suffix?: string;
-  color: string;
-  highlight?: boolean;
-}) {
-  const colorClasses: Record<string, string> = {
-    orange: 'bg-orange-50 text-orange-700 border-orange-200',
-    amber: 'bg-amber-50 text-amber-700 border-amber-200',
-    yellow: 'bg-yellow-50 text-yellow-700 border-yellow-200',
-    purple: 'bg-purple-50 text-purple-700 border-purple-200',
+export default function DailyChallengesPage() {
+  const [challenges, setChallenges] = useState(DAILY_CHALLENGES);
+  const [totalXP, setTotalXP] = useState(0);
+
+  const completedCount = challenges.filter((c) => c.completed).length;
+  const totalCount = challenges.length;
+  const progress = (completedCount / totalCount) * 100;
+
+  const handleComplete = (challengeId: string) => {
+    setChallenges((prev) =>
+      prev.map((c) => {
+        if (c.id === challengeId && !c.completed) {
+          setTotalXP((xp) => xp + c.xp);
+          return { ...c, completed: true };
+        }
+        return c;
+      })
+    );
+  };
+
+  const difficultyColors = {
+    easy: 'bg-green-100 text-green-700 border-green-300',
+    medium: 'bg-orange-100 text-orange-700 border-orange-300',
+    hard: 'bg-red-100 text-red-700 border-red-300',
+  };
+
+  const difficultyIcons = {
+    easy: '🟢',
+    medium: '🟠',
+    hard: '🔴',
   };
 
   return (
-    <motion.div
-      whileHover={{ scale: 1.02 }}
-      className={`p-4 rounded-xl ${colorClasses[color]} ${
-        highlight ? 'border-2 ring-2 ring-offset-2 ring-orange-300' : 'border'
-      }`}
-    >
-      <div className="flex items-center gap-2 mb-1">
-        {icon}
-        <span className="text-xs font-medium opacity-80">{label}</span>
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 p-8">
+      <div className="max-w-4xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">
+            🎯 Daily Challenges
+          </h1>
+          <p className="text-gray-600">
+            Complete challenges to earn XP and keep your streak!
+          </p>
+        </div>
+
+        {/* Stats Bar */}
+        <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
+          <div className="grid grid-cols-3 gap-6 mb-4">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-blue-600">{completedCount}/{totalCount}</div>
+              <div className="text-sm text-gray-600">Completed</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-purple-600">{totalXP} XP</div>
+              <div className="text-sm text-gray-600">Earned Today</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-orange-600">7 🔥</div>
+              <div className="text-sm text-gray-600">Day Streak</div>
+            </div>
+          </div>
+
+          {/* Progress Bar */}
+          <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: `${progress}%` }}
+              transition={{ duration: 0.5 }}
+              className="bg-gradient-to-r from-blue-500 to-purple-600 h-full"
+            />
+          </div>
+          <div className="text-center text-sm text-gray-600 mt-2">
+            {Math.round(progress)}% Complete
+          </div>
+        </div>
+
+        {/* Challenge List */}
+        <div className="space-y-4">
+          {challenges.map((challenge) => (
+            <motion.div
+              key={challenge.id}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className={`bg-white rounded-2xl shadow-lg p-6 transition-all ${
+                challenge.completed ? 'opacity-60' : 'hover:shadow-xl'
+              }`}
+            >
+              <div className="flex items-start gap-4">
+                {/* Icon */}
+                <div className="text-5xl">{challenge.icon}</div>
+
+                {/* Content */}
+                <div className="flex-1">
+                  <div className="flex items-start justify-between mb-2">
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-1">
+                        {challenge.title}
+                      </h3>
+                      <p className="text-gray-600 text-sm">
+                        {challenge.description}
+                      </p>
+                    </div>
+                    {challenge.completed && (
+                      <div className="text-4xl">✅</div>
+                    )}
+                  </div>
+
+                  <div className="flex items-center gap-3 mt-4">
+                    {/* Difficulty Badge */}
+                    <span
+                      className={`px-3 py-1 rounded-full text-xs font-bold border ${
+                        difficultyColors[challenge.difficulty]
+                      }`}
+                    >
+                      {difficultyIcons[challenge.difficulty]}{' '}
+                      {challenge.difficulty.toUpperCase()}
+                    </span>
+
+                    {/* XP Badge */}
+                    <span className="px-3 py-1 rounded-full text-xs font-bold bg-purple-100 text-purple-700 border border-purple-300">
+                      +{challenge.xp} XP
+                    </span>
+
+                    {/* Action Button */}
+                    {!challenge.completed && (
+                      <button
+                        onClick={() => handleComplete(challenge.id)}
+                        className="ml-auto px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl font-bold hover:scale-105 transition-all shadow-lg"
+                      >
+                        Start Challenge
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* All Complete Message */}
+        {completedCount === totalCount && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            className="mt-8 bg-gradient-to-r from-green-400 to-blue-500 rounded-2xl shadow-2xl p-8 text-center text-white"
+          >
+            <div className="text-6xl mb-4">🎉</div>
+            <h2 className="text-3xl font-bold mb-2">
+              All Challenges Complete!
+            </h2>
+            <p className="text-lg mb-4">
+              You earned {totalXP} XP today. Come back tomorrow for new challenges!
+            </p>
+            <div className="text-5xl">🔥 Streak: 8 Days!</div>
+          </motion.div>
+        )}
+
+        {/* Tips */}
+        <div className="mt-8 bg-blue-50 border border-blue-200 rounded-xl p-4">
+          <h3 className="font-bold text-blue-900 mb-2">💡 Pro Tips:</h3>
+          <ul className="text-sm text-blue-800 space-y-1">
+            <li>• Complete all challenges to maximize your daily XP</li>
+            <li>• Harder challenges give more XP rewards</li>
+            <li>• Keep your streak alive by completing at least 1 challenge daily</li>
+            <li>• New challenges unlock every day at midnight</li>
+          </ul>
+        </div>
       </div>
-      <p className="text-2xl font-bold">
-        <CountUp end={value} />
-        {suffix && <span className="text-sm ml-1">{suffix}</span>}
-      </p>
-    </motion.div>
+    </div>
   );
 }
