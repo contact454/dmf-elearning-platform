@@ -18,6 +18,7 @@
     "seed:content:phase2": "tsx prisma/seed-phase2-content.ts",
     "smoke:phase3": "tsx scripts/phase3-core-loop-smoke.ts",
     "smoke:phase3:feedback": "tsx scripts/phase3-feedback-hub-smoke.ts",
+    "smoke:phase3:all": "pnpm run smoke:phase3 && pnpm run smoke:phase3:feedback",
     "seed:vocabulary": "tsx prisma/seed-vocabulary.ts",
     "repair-vocab": "tsx scripts/repair-vocab.ts",
     "data:mine": "node scripts/mining-drill.mjs",

@@ -15,6 +15,7 @@
     "s1:auth-smoke": "node scripts/s1-auth-smoke.mjs",
     "phase3:smoke": "pnpm --filter learning-service run smoke:phase3",
     "phase3:smoke:feedback": "pnpm --filter learning-service run smoke:phase3:feedback",
+    "phase3:smoke:all": "pnpm phase3:smoke && pnpm phase3:smoke:feedback",
     "dev:onboarding": "pnpm --filter @dmf/onboarding-service dev",
     "dev:curriculum": "pnpm --filter @dmf/curriculum-service dev",
     "dev:practice": "pnpm --filter @dmf/practice-service dev",
