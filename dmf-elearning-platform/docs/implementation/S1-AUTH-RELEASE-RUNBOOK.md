@@ -110,14 +110,15 @@ Checklist target:
 Current CLI run status (2026-02-20):
 
 ```bash
-pnpm s1:auth-smoke
+S1_SMOKE_USE_ADMIN=true S1_SMOKE_EMAIL_DOMAIN=gmail.com pnpm s1:auth-smoke
 ```
 
-- Result: FAIL
-- Reason: Supabase project requires email confirmation before password sign-in (`email_not_confirmed`)
+- Result: PASS
+- Protected endpoint check: `GET /api/review/queue` returned `200` with Supabase token
 - Notes:
-  - Required env vars are now configured in local `.env` files.
-  - Smoke run reaches sign-up and then fails at sign-in due auth policy.
+  - Smoke script now supports admin provisioning for confirmed users.
+  - Required env vars: `SUPABASE_SERVICE_ROLE_KEY` (or `SUPABASE_ANON_KEY` secret), `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+  - Backend auth middleware now falls back to `GET /auth/v1/user` validation when token format is not parseable as local HS256 JWT.
 - Script location: `scripts/s1-auth-smoke.mjs`
 
 ## 6) Local Execution Steps

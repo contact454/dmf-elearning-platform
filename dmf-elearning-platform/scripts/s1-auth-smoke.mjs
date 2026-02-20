@@ -53,6 +53,10 @@ if (missing.length > 0) {
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+const supabaseAdminKey =
+  process.env.SUPABASE_SERVICE_ROLE_KEY ||
+  process.env.SUPABASE_ANON_KEY ||
+  null;
 const learningServiceUrl =
   process.env.LEARNING_SERVICE_URL ||
   process.env.NEXT_PUBLIC_LEARNING_API_URL?.replace(/\/api$/, '') ||
@@ -61,7 +65,9 @@ const learningServiceUrl =
 const randomSuffix = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 const smokeEmailDomain = process.env.S1_SMOKE_EMAIL_DOMAIN || 'gmail.com';
 const email = process.env.S1_SMOKE_EMAIL || `s1.smoke.${randomSuffix}@${smokeEmailDomain}`;
-const password = `S1Smoke!${Math.random().toString(36).slice(2, 8)}A1`;
+const password = process.env.S1_SMOKE_PASSWORD || `S1Smoke!${Math.random().toString(36).slice(2, 8)}A1`;
+const shouldUseAdminProvision =
+  process.env.S1_SMOKE_USE_ADMIN !== 'false' && !!supabaseAdminKey && !process.env.S1_SMOKE_EMAIL;
 
 async function jsonFetch(url, options = {}) {
   const response = await fetch(url, options);
@@ -76,25 +82,61 @@ async function jsonFetch(url, options = {}) {
   return { ok: response.ok, status: response.status, body };
 }
 
-async function run() {
-  console.log('[S1 smoke] Registering test user...');
-  const signup = await jsonFetch(`${supabaseUrl}/auth/v1/signup`, {
+function isAlreadyExistsError(body) {
+  const marker = `${body?.error_code || ''} ${body?.msg || ''}`.toLowerCase();
+  return marker.includes('already') || marker.includes('exists');
+}
+
+async function provisionUserWithAdmin(emailToProvision, passwordToProvision) {
+  console.log('[S1 smoke] Provisioning confirmed user via Supabase Admin API...');
+  return jsonFetch(`${supabaseUrl}/auth/v1/admin/users`, {
     method: 'POST',
     headers: {
-      apikey: supabaseAnonKey,
-      Authorization: `Bearer ${supabaseAnonKey}`,
+      apikey: supabaseAdminKey,
+      Authorization: `Bearer ${supabaseAdminKey}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      email,
-      password,
-      data: { source: 's1-smoke' },
+      email: emailToProvision,
+      password: passwordToProvision,
+      email_confirm: true,
+      user_metadata: { source: 's1-smoke' },
     }),
   });
+}
 
-  if (!signup.ok) {
-    console.error('[S1 smoke] Sign-up failed:', signup.status, signup.body);
-    process.exit(1);
+async function run() {
+  if (shouldUseAdminProvision) {
+    const provision = await provisionUserWithAdmin(email, password);
+    if (!provision.ok && !isAlreadyExistsError(provision.body)) {
+      console.warn(
+        '[S1 smoke] Admin provisioning failed, fallback to public sign-up:',
+        provision.status,
+        provision.body
+      );
+    }
+  }
+
+  if (!shouldUseAdminProvision) {
+    console.log('[S1 smoke] Registering test user...');
+    const signup = await jsonFetch(`${supabaseUrl}/auth/v1/signup`, {
+      method: 'POST',
+      headers: {
+        apikey: supabaseAnonKey,
+        Authorization: `Bearer ${supabaseAnonKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+        password,
+        data: { source: 's1-smoke' },
+      }),
+    });
+
+    if (!signup.ok && !isAlreadyExistsError(signup.body)) {
+      console.error('[S1 smoke] Sign-up failed:', signup.status, signup.body);
+      process.exit(1);
+    }
   }
 
   console.log('[S1 smoke] Logging in test user...');
@@ -112,6 +154,11 @@ async function run() {
   });
 
   if (!signin.ok || !signin.body?.access_token) {
+    if (signin.body?.error_code === 'email_not_confirmed') {
+      console.error(
+        '[S1 smoke] Sign-in blocked: email_not_confirmed. Set S1_SMOKE_USE_ADMIN=true and provide SUPABASE_SERVICE_ROLE_KEY or SUPABASE_ANON_KEY (secret) to auto-provision confirmed users.'
+      );
+    }
     console.error('[S1 smoke] Sign-in failed:', signin.status, signin.body);
     process.exit(1);
   }
