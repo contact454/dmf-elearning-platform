@@ -168,6 +168,12 @@ RATE_LIMIT_REVIEW_WINDOW_MS=60000
 RATE_LIMIT_REVIEW_MAX_REQUESTS=120
 RATE_LIMIT_AUDIO_WINDOW_MS=60000
 RATE_LIMIT_AUDIO_MAX_REQUESTS=60
+MONITORING_ALERTS_ENABLED=true
+MONITORING_WINDOW_MS=60000
+MONITORING_5XX_ALERT_THRESHOLD=5
+MONITORING_429_ALERT_THRESHOLD=10
+MONITORING_SLOW_REQUEST_MS=1500
+MONITORING_LOG_ALL_REQUESTS=false
 ```
 
 Production template: `.env.production.example`
@@ -219,15 +225,18 @@ curl -H "Authorization: Bearer <access-token>" \
 
 ## 🐛 Error Handling
 
-- **400 Bad Request:** Invalid level format
-- **404 Not Found:** Level or topic doesn't exist
-- **429 Too Many Requests:** Rate limit exceeded (retry after `Retry-After`)
-- **500 Internal Server Error:** File read errors or server issues
+- **400 Bad Request:** Validation errors (`VALIDATION_ERROR`)
+- **404 Not Found:** Missing resources (`RESOURCE_NOT_FOUND`)
+- **429 Too Many Requests:** Rate limit exceeded (includes `Retry-After`)
+- **500 Internal Server Error:** Server/runtime failures (`INTERNAL_ERROR`)
 
-All errors return:
+Error responses use a structured shape:
 ```json
 {
   "success": false,
-  "error": "Error message"
+  "error": {
+    "code": "INTERNAL_ERROR",
+    "message": "Failed to fetch data"
+  }
 }
 ```

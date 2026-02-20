@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import routes from './routes';
 import { createRateLimit, getRateLimitConfigFromEnv } from './middlewares/rateLimit';
+import { createRequestMonitoring, getMonitoringConfigFromEnv } from './middlewares/requestMonitoring';
 
 // Load environment variables
 dotenv.config();
@@ -10,17 +11,13 @@ dotenv.config();
 const app: Application = express();
 const PORT = process.env.PORT || 3003;
 const rateLimitConfig = getRateLimitConfigFromEnv();
+const monitoringConfig = getMonitoringConfigFromEnv();
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-// Request logging middleware
-app.use((req: Request, res: Response, next: NextFunction) => {
-  console.log(`[${new Date().toISOString()}] ${req.method} ${req.path}`);
-  next();
-});
+app.use(createRequestMonitoring(monitoringConfig));
 
 // API Routes
 app.use(
