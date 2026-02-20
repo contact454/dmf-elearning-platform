@@ -1,4 +1,4 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, ReviewStatus } from '@prisma/client';
 import { validateAnswer, ValidationResult } from '../utils/answer-validation';
 
 const prisma = new PrismaClient();
@@ -247,21 +247,80 @@ export class ReadingPassageService {
    * Save vocabulary word for SRS
    */
   async saveVocabulary(data: SaveVocabularyData) {
-    const { userId, passageId, word, translation } = data;
+    const { userId, passageId, word, translation, context, sentence } = data;
+    const normalizedWord = word.trim().toLowerCase();
+    const normalizedTranslation = translation.trim();
 
-    // For Phase 1, we'll create a simple placeholder implementation
-    // TODO: Integrate with actual SRS vocabulary system in Phase 2
-    
-    const vocabularyId = crypto.randomUUID();
-    
-    // Note: Actual vocabulary saving requires integration with SRS system
-    // This is a placeholder for Phase 1
-    
+    if (!normalizedWord || !normalizedTranslation) {
+      throw new Error('word and translation are required');
+    }
+
+    const now = new Date();
+    const vocabularyItem = await prisma.vocabularyItem.upsert({
+      where: {
+        word: normalizedWord,
+      },
+      update: {},
+      create: {
+        word: normalizedWord,
+        meaning_vi: normalizedTranslation,
+        level: 'A1',
+        topic: 'reading',
+        example_de: sentence?.trim() || context?.trim() || null,
+        example_vi: null,
+        source: 'reading/popup-dictionary',
+        familyWords: [],
+        grammarTags: [],
+        addedAt: now,
+      },
+      select: {
+        id: true,
+        word: true,
+      },
+    });
+
+    const progress = await prisma.userWordProgress.upsert({
+      where: {
+        user_word_unique: {
+          userId,
+          wordId: vocabularyItem.id,
+        },
+      },
+      update: {
+        easeFactor: 2.5,
+        intervalDays: 1,
+        repetitions: 0,
+        nextReview: now,
+        status: ReviewStatus.NEW,
+        lastResult: null,
+        totalReviews: 0,
+        correctReviews: 0,
+      },
+      create: {
+        userId,
+        wordId: vocabularyItem.id,
+        easeFactor: 2.5,
+        intervalDays: 1,
+        repetitions: 0,
+        nextReview: now,
+        status: ReviewStatus.NEW,
+        lastResult: null,
+        totalReviews: 0,
+        correctReviews: 0,
+      },
+      select: {
+        nextReview: true,
+        status: true,
+      },
+    });
+
     return {
-      vocabularyId,
-      word,
+      vocabularyId: vocabularyItem.id,
+      word: vocabularyItem.word,
+      passageId,
       addedToSRS: true,
-      nextReviewAt: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours from now
+      nextReviewAt: progress.nextReview,
+      status: progress.status,
       message: 'Word added to your vocabulary review queue',
     };
   }

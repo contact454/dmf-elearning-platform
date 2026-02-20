@@ -10,7 +10,7 @@ interface PopupDictionaryProps {
   word: string;
   position: { x: number; y: number };
   onClose: () => void;
-  onAddToReview?: (word: DbVocabularyItem) => void;
+  onAddToReview?: (word: DbVocabularyItem) => Promise<void> | void;
   userId?: string;
 }
 
@@ -23,6 +23,8 @@ export function PopupDictionary({
   const [vocabData, setVocabData] = useState<DbVocabularyItem | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveMessage, setSaveMessage] = useState<string | null>(null);
   const { speak, isSpeaking, isSupported } = useSpeaking({ rate: 0.85 });
   const popupRef = useRef<HTMLDivElement>(null);
 
@@ -69,11 +71,23 @@ export function PopupDictionary({
     speak(word);
   }, [speak, word]);
 
-  const handleAddToReview = useCallback(() => {
-    if (vocabData && onAddToReview) {
-      onAddToReview(vocabData);
+  const handleAddToReview = useCallback(async () => {
+    if (!vocabData || !onAddToReview || isSaving) {
+      return;
     }
-  }, [vocabData, onAddToReview]);
+
+    try {
+      setIsSaving(true);
+      setSaveMessage(null);
+      await onAddToReview(vocabData);
+      setSaveMessage('Added to review queue');
+    } catch (saveError) {
+      console.error('Failed to save word from popup dictionary:', saveError);
+      setSaveMessage('Failed to add word. Please try again.');
+    } finally {
+      setIsSaving(false);
+    }
+  }, [vocabData, onAddToReview, isSaving]);
 
   // Calculate position to keep popup in viewport
   const adjustedPosition = {
@@ -193,11 +207,16 @@ export function PopupDictionary({
               {onAddToReview && (
                 <button
                   onClick={handleAddToReview}
+                  disabled={isSaving}
                   className="w-full flex items-center justify-center gap-2 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg font-medium transition"
                 >
                   <Plus className="w-4 h-4" />
-                  Add to Review Queue
+                  {isSaving ? 'Saving...' : 'Add to Review Queue'}
                 </button>
+              )}
+
+              {saveMessage && (
+                <p className="text-xs text-center text-gray-600">{saveMessage}</p>
               )}
             </div>
           ) : null}

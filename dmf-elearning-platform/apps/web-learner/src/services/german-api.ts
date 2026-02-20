@@ -86,6 +86,30 @@ async function handleResponse<T>(response: Response): Promise<T> {
   return json.data;
 }
 
+async function getAuthHeaders(): Promise<Record<string, string>> {
+  if (typeof window === 'undefined') {
+    return {};
+  }
+
+  try {
+    const { createClient } = await import('@/lib/supabase/client');
+    const supabase = createClient();
+    const {
+      data: { session },
+    } = await supabase.auth.getSession();
+
+    if (session?.access_token) {
+      return {
+        Authorization: `Bearer ${session.access_token}`,
+      };
+    }
+  } catch (error) {
+    console.warn('Unable to read Supabase session for API auth:', error);
+  }
+
+  return {};
+}
+
 async function fetchWithRetry<T>(
   url: string,
   options: RequestInit = {},
@@ -95,10 +119,12 @@ async function fetchWithRetry<T>(
 
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
+      const authHeaders = await getAuthHeaders();
       const response = await fetch(url, {
         ...options,
         headers: {
           'Content-Type': 'application/json',
+          ...authHeaders,
           ...options.headers,
         },
       });
@@ -561,6 +587,16 @@ export interface UserReadingStats {
   wordsLearned: number;
 }
 
+export interface ReadingVocabularySaveResult {
+  vocabularyId: string;
+  word: string;
+  passageId: string;
+  addedToSRS: boolean;
+  nextReviewAt: string;
+  status: 'NEW' | 'LEARNING' | 'REVIEW' | 'MASTERED';
+  message: string;
+}
+
 export interface ReadingFilters {
   level?: string;
   topic?: string;
@@ -696,6 +732,28 @@ export async function completeReading(
     {
       method: 'POST',
       body: JSON.stringify({ userId, rating }),
+    }
+  );
+}
+
+/**
+ * Save clicked vocabulary from reading passage into SRS queue
+ */
+export async function saveReadingVocabulary(
+  userId: string,
+  data: {
+    passageId: string;
+    word: string;
+    translation: string;
+    context?: string;
+    sentence?: string;
+  }
+): Promise<ReadingVocabularySaveResult> {
+  return await fetchWithRetry<ReadingVocabularySaveResult>(
+    `${BASE_URL}/reading/vocabulary/save`,
+    {
+      method: 'POST',
+      body: JSON.stringify({ userId, ...data }),
     }
   );
 }
@@ -1250,7 +1308,7 @@ export interface WritingPrompt {
   instructions: string | null;
   instructionsVi: string | null;
   templateText: string | null;
-  correctAnswers: any | null;
+  correctAnswers: Record<string, unknown> | null;
   hints: string[];
   keywords: string[];
   wordLimit: number | null;
@@ -1274,7 +1332,7 @@ export interface WritingSubmission {
   userId: string;
   content: string;
   wordCount: number;
-  answers: any | null;
+  answers: Record<string, unknown> | null;
   overallScore: number;
   grammarScore: number;
   vocabularyScore: number;
@@ -1287,7 +1345,7 @@ export interface WritingSubmission {
   grammarErrors: GrammarError[] | null;
   keywordsUsed: string[];
   keywordsMissing: string[];
-  requirementsMet: any | null;
+  requirementsMet: Record<string, unknown> | null;
   timeSpent: number;
   submissionNum: number;
   status: string;
@@ -1469,7 +1527,7 @@ export async function submitWriting(
   userId: string,
   data: {
     content: string;
-    answers?: any;
+    answers?: Record<string, unknown>;
     timeSpent?: number;
   }
 ): Promise<WritingSubmission> {
@@ -1741,4 +1799,3 @@ export async function getLeaderboardStats(
     `${BASE_URL}/leaderboard/stats?timeframe=${timeframe}`
   );
 }
-

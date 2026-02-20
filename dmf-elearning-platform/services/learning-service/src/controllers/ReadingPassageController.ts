@@ -3,6 +3,12 @@ import { ReadingPassageService } from '../services/ReadingPassageService';
 
 const readingPassageService = new ReadingPassageService();
 
+function asString(value: unknown): string | undefined {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
+  return undefined;
+}
+
 export class ReadingPassageController {
   // ═══════════════════════════════════════════════════════════════
   // 1. GET /api/reading/passages
@@ -47,12 +53,20 @@ export class ReadingPassageController {
   
   static async getPassageById(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.query;
+      const id = asString(req.params.id);
+      const userId = asString(req.query.userId);
+
+      if (!id) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing passage id',
+          code: 'MISSING_PASSAGE_ID',
+        });
+      }
 
       const passage = await readingPassageService.getPassageById(
         id,
-        typeof userId === 'string' ? userId : undefined
+        userId
       );
 
       if (!passage) {
@@ -173,7 +187,8 @@ export class ReadingPassageController {
   
   static async saveVocabulary(req: Request, res: Response) {
     try {
-      const { userId, passageId, word, translation, context, sentence } = req.body;
+      const { passageId, word, translation, context, sentence } = req.body;
+      const userId = req.user?.id;
 
       // Validate required fields
       if (!userId || !passageId || !word || !translation) {
