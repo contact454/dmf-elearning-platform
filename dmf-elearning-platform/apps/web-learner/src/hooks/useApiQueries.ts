@@ -334,7 +334,7 @@ export function useStartReading() {
   const { userId } = useUser();
 
   return useMutation({
-    mutationFn: (contentId: string) => startReading(contentId, userId),
+    mutationFn: (contentId: string) => startReading(userId, contentId),
     onSuccess: (_, contentId) => {
       queryClient.invalidateQueries({ queryKey: queryKeys.reading.detail(contentId) });
       queryClient.invalidateQueries({ queryKey: queryKeys.reading.history(userId) });
@@ -361,7 +361,7 @@ export function useCompleteReading() {
 
   return useMutation({
     mutationFn: ({ contentId, rating }: { contentId: string; rating?: number }) =>
-      completeReading(contentId, userId, rating),
+      completeReading(userId, contentId, rating),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: queryKeys.reading.all });
       queryClient.invalidateQueries({ queryKey: queryKeys.hub.all });
@@ -437,7 +437,7 @@ export function useStartListening() {
   const { userId } = useUser();
 
   return useMutation({
-    mutationFn: (contentId: string) => startListening(contentId, userId),
+    mutationFn: (contentId: string) => startListening(userId, contentId),
     onSuccess: (_, contentId) => {
       queryClient.invalidateQueries({ queryKey: queryKeys.listening.detail(contentId) });
     },

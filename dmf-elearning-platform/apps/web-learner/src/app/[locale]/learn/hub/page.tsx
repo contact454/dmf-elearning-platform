@@ -297,7 +297,7 @@ export default function LearningHubPage() {
               const config = skillConfig[goal.type];
               const Icon = config.icon;
               const percent = Math.min(100, Math.round((goal.completed / goal.target) * 100));
-              const isComplete = goal.completed >= goal.target;
+              const isComplete = goal.isCompleted || goal.completed >= goal.target;
 
               return (
                 <Link

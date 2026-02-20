@@ -1640,10 +1640,21 @@ export interface SkillProgress {
 }
 
 export interface DailyGoal {
-  type: 'vocabulary' | 'reading' | 'listening' | 'speaking' | 'writing';
+  type: 'vocabulary' | 'reading' | 'listening';
   target: number;
   completed: number;
+  isCompleted: boolean;
   unit: string;
+}
+
+export interface HubSummary {
+  totalWordsLearned: number;
+  wordsInReview: number;
+  currentStreak: number;
+  readingCompleted: number;
+  listeningCompleted: number;
+  speakingCompleted: number;
+  writingCompleted: number;
 }
 
 export interface Achievement {
@@ -1667,6 +1678,7 @@ export interface HubData {
   totalXP: number;
   currentStreak: number;
   longestStreak: number;
+  summary: HubSummary;
   skillProgress: SkillProgress[];
   dailyGoals: DailyGoal[];
   recentAchievements: Achievement[];
