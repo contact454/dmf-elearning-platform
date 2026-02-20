@@ -1,0 +1,86 @@
+name: Backend Learning-Service Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_smoke:
+        description: "Run post-deploy smoke checks"
+        type: boolean
+        required: false
+        default: true
+  push:
+    branches: [main]
+    paths:
+      - "dmf-elearning-platform/services/learning-service/**"
+      - "dmf-elearning-platform/scripts/deploy/**"
+      - "dmf-elearning-platform/scripts/s1-auth-smoke.mjs"
+      - "dmf-elearning-platform/.github/workflows/backend-learning-service-deploy.yml"
+
+jobs:
+  deploy-learning-service:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: dmf-elearning-platform
+    env:
+      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      RAILWAY_PROJECT_ID: ${{ secrets.RAILWAY_PROJECT_ID }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      SUPABASE_JWT_SECRET: ${{ secrets.SUPABASE_JWT_SECRET }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+      DATABASE_URL_REFERENCE: ${{ secrets.RAILWAY_DATABASE_URL_REFERENCE }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8.15.1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Railway CLI
+        run: npm install -g @railway/cli
+
+      - name: Build learning-service
+        run: pnpm --filter learning-service build
+
+      - name: Run targeted middleware tests
+        run: pnpm --filter learning-service test -- src/middlewares/__tests__/requestMonitoring.test.ts src/middlewares/__tests__/requestLogging.test.ts
+
+      - name: Deploy learning-service to Railway
+        run: bash scripts/deploy/learning-service-release.sh
+
+      - name: Run post-deploy smoke checks
+        if: ${{ github.event_name == 'push' || inputs.run_smoke == true }}
+        run: |
+          source services/learning-service/.deploy-learning-service-meta.env
+          BACKEND_URL="$BACKEND_URL" bash scripts/deploy/learning-service-smoke.sh
+
+      - name: Capture deploy metadata
+        run: |
+          source services/learning-service/.deploy-learning-service-meta.env
+          {
+            echo "COMMIT_SHA=${COMMIT_SHA}"
+            echo "DEPLOYED_AT_UTC=${DEPLOYED_AT_UTC}"
+            echo "BACKEND_URL=${BACKEND_URL}"
+          } > deploy-metadata.txt
+          cat deploy-metadata.txt
+
+      - name: Upload deploy metadata
+        uses: actions/upload-artifact@v4
+        with:
+          name: learning-service-deploy-metadata
+          path: dmf-elearning-platform/deploy-metadata.txt

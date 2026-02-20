@@ -317,6 +317,30 @@
     - `pnpm --filter learning-service test -- src/middlewares/__tests__/requestLogging.test.ts src/middlewares/__tests__/requestMonitoring.test.ts` PASS (9 tests)
     - `pnpm --filter learning-service build` PASS
 
+- `2026-02-20` Post-S6 production lockdown sequence (4-item execution) completed:
+  - Item 1: auth hardening flags enforced in Railway runtime for `learning-service`:
+    - `AUTH_ALLOW_UNVERIFIED_JWT=false`
+    - `AUTH_ENFORCE_SUBJECT_MATCH=true`
+    - `SUPABASE_URL`, `SUPABASE_ANON_KEY` present
+    - `SUPABASE_JWT_SECRET` remains pending (fallback verification still active)
+  - Item 2: backend deploy pipeline lock-in added:
+    - `.github/workflows/backend-learning-service-deploy.yml`
+    - `scripts/deploy/learning-service-release.sh`
+    - `scripts/deploy/learning-service-smoke.sh`
+    - `package.json` scripts: `deploy:learning-service`, `smoke:learning-service`
+  - Item 3: production auth UX pass re-verified:
+    - `vercel curl .../en/auth/login` -> `200`
+    - `vercel curl .../en/auth/register` -> `200`
+    - `vercel curl .../en/learn/hub` -> `307` (expected protected redirect)
+    - `pnpm --filter web-learner test -- src/__tests__/auth-provider.test.tsx src/__tests__/auth-login-page.test.tsx src/__tests__/auth-middleware.test.ts` PASS
+  - Item 4: provider-side alert routing baseline added:
+    - `.github/workflows/backend-learning-service-monitor.yml`
+    - scheduled log scan + webhook route on monitoring spike signals (`5xx`, `429`, auth anomaly)
+  - Verification:
+    - `CODEX_SANDBOX_NETWORK_DISABLED=0 pnpm s1:auth-smoke` against Railway URL PASS (`protectedStatus=200`)
+    - `curl https://learning-service-production.up.railway.app/api/health` PASS (`200`)
+    - `curl https://learning-service-production.up.railway.app/api/route-protection` PASS (`200`)
+
 ---
 
 ## COMPLETED
