@@ -13,11 +13,13 @@
     "prisma:generate": "prisma generate --schema=./prisma/schema.prisma",
     "prisma:migrate": "prisma migrate dev --schema=./prisma/schema.prisma",
     "prisma:studio": "prisma studio --schema=./prisma/schema.prisma",
-    "seed": "tsx prisma/seed-vocab.ts",
+    "seed": "tsx prisma/seed-vocabulary-a1b1.ts",
+    "seed:vocabulary:a1b1": "tsx prisma/seed-vocabulary-a1b1.ts",
+    "seed:content:phase2": "tsx prisma/seed-phase2-content.ts",
     "seed:vocabulary": "tsx prisma/seed-vocabulary.ts",
     "repair-vocab": "tsx scripts/repair-vocab.ts",
     "data:mine": "node scripts/mining-drill.mjs",
-    "data:seed": "npx tsx prisma/seed-vocab.ts",
+    "data:seed": "npx tsx prisma/seed-vocabulary-a1b1.ts",
     "data:repair": "npx tsx scripts/repair-vocab.ts",
     "data:pipeline": "npm run data:mine && npm run data:seed && npm run data:repair"
   },
@@ -25,7 +27,7 @@
   "author": "",
   "license": "ISC",
   "prisma": {
-    "seed": "npx tsx prisma/seed-vocab.ts"
+    "seed": "npx tsx prisma/seed-vocabulary-a1b1.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.72.1",
