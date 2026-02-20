@@ -1,7 +1,45 @@
 import { Request, Response } from 'express';
+import { z } from 'zod';
 import { ReadingService } from '../services/ReadingService';
 
 const readingService = new ReadingService();
+
+const recommendedQuerySchema = z.object({
+  limit: z.coerce.number().int().min(1).max(50).optional().default(10),
+});
+
+const updateProgressSchema = z.object({
+  progressPercent: z.number().min(0).max(100).optional(),
+  lastPosition: z.number().min(0).optional(),
+  wordsRead: z.number().int().min(0).optional(),
+  totalReadTime: z.number().int().min(0).optional(),
+  wordsLookedUp: z.array(z.string().trim().min(1)).optional(),
+});
+
+const completeReadingSchema = z.object({
+  rating: z.number().min(0).max(5).optional(),
+});
+
+function asString(value: unknown): string | undefined {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
+  return undefined;
+}
+
+function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
+  const userId = req.user?.id;
+  if (!userId) {
+    res.status(401).json({
+      success: false,
+      error: {
+        code: 'AUTH_MISSING_CONTEXT',
+        message: 'Missing authenticated user context',
+      },
+    });
+    return undefined;
+  }
+  return userId;
+}
 
 export class ReadingController {
   // ═══════════════════════════════════════════════════════════════
@@ -49,18 +87,15 @@ export class ReadingController {
    */
   static async recommended(req: Request, res: Response) {
     try {
-      const { userId, limit } = req.query;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing userId parameter',
-        });
+        return;
       }
+      const query = recommendedQuerySchema.parse({ limit: req.query.limit });
 
       const items = await readingService.getRecommended(
-        userId as string,
-        limit ? parseInt(limit as string, 10) : 10
+        userId,
+        query.limit
       );
 
       return res.status(200).json({
@@ -69,11 +104,23 @@ export class ReadingController {
         count: items.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid recommended query payload',
+            details: error.issues,
+          },
+        });
+      }
       console.error('Error fetching recommended content:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch recommended content',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch recommended content',
+        },
       });
     }
   }
@@ -176,12 +223,19 @@ export class ReadingController {
    */
   static async getById(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.query;
+      const id = asString(req.params.id);
+      const userId = asString(req.query.userId);
+
+      if (!id) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing content id',
+        });
+      }
 
       let content;
       if (userId) {
-        content = await readingService.getWithAnalysis(id, userId as string);
+        content = await readingService.getWithAnalysis(id, userId);
       } else {
         content = await readingService.getById(id);
       }
@@ -217,14 +271,20 @@ export class ReadingController {
    */
   static async startReading(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.body;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing userId',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing content id',
+          },
         });
+      }
+      if (!userId) {
+        return;
       }
 
       const progress = await readingService.startReading(userId, id);
@@ -236,8 +296,10 @@ export class ReadingController {
       console.error('Error starting reading:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to start reading',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to start reading',
+        },
       });
     }
   }
@@ -248,22 +310,30 @@ export class ReadingController {
    */
   static async updateProgress(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId, progressPercent, lastPosition, wordsRead, totalReadTime, wordsLookedUp } = req.body;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing userId',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing content id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
+
+      const payload = updateProgressSchema.parse(req.body);
 
       const progress = await readingService.updateProgress(userId, id, {
-        progressPercent,
-        lastPosition,
-        wordsRead,
-        totalReadTime,
-        wordsLookedUp,
+        progressPercent: payload.progressPercent,
+        lastPosition: payload.lastPosition,
+        wordsRead: payload.wordsRead,
+        totalReadTime: payload.totalReadTime,
+        wordsLookedUp: payload.wordsLookedUp,
       });
 
       return res.status(200).json({
@@ -271,11 +341,23 @@ export class ReadingController {
         data: progress,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid reading progress payload',
+            details: error.issues,
+          },
+        });
+      }
       console.error('Error updating progress:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to update progress',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to update progress',
+        },
       });
     }
   }
@@ -286,27 +368,47 @@ export class ReadingController {
    */
   static async completeReading(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId, rating } = req.body;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing userId',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing content id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
 
-      const progress = await readingService.completeReading(userId, id, rating);
+      const payload = completeReadingSchema.parse(req.body);
+
+      const progress = await readingService.completeReading(userId, id, payload.rating);
       return res.status(200).json({
         success: true,
         data: progress,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid reading completion payload',
+            details: error.issues,
+          },
+        });
+      }
       console.error('Error completing reading:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to complete reading',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to complete reading',
+        },
       });
     }
   }
@@ -317,8 +419,23 @@ export class ReadingController {
    */
   static async getUserHistory(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
-      const { status } = req.query;
+      const userId = getAuthenticatedUserId(req, res);
+      const status = asString(req.query.status);
+
+      if (!userId) {
+        return;
+      }
+
+      const allowedStatuses = ['not_started', 'in_progress', 'completed'] as const;
+      if (status && !allowedStatuses.includes(status as (typeof allowedStatuses)[number])) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid reading history status filter',
+          },
+        });
+      }
 
       const history = await readingService.getUserHistory(
         userId,
@@ -334,8 +451,10 @@ export class ReadingController {
       console.error('Error fetching user history:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch user history',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch user history',
+        },
       });
     }
   }
@@ -346,7 +465,10 @@ export class ReadingController {
    */
   static async getUserStats(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
+      const userId = getAuthenticatedUserId(req, res);
+      if (!userId) {
+        return;
+      }
       const stats = await readingService.getUserStats(userId);
 
       return res.status(200).json({
@@ -357,8 +479,10 @@ export class ReadingController {
       console.error('Error fetching user stats:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch user stats',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch user stats',
+        },
       });
     }
   }
@@ -451,7 +575,13 @@ export class ReadingController {
    */
   static async deleteContent(req: Request, res: Response) {
     try {
-      const { id } = req.params;
+      const id = asString(req.params.id);
+      if (!id) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing content id',
+        });
+      }
       const success = await readingService.deleteContent(id);
 
       if (!success) {

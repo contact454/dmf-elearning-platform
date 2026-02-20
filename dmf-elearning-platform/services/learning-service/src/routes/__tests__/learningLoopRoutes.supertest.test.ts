@@ -16,9 +16,21 @@ vi.mock('../../middlewares/auth', () => ({
   },
   attachAuthenticatedUserId: (req: any, _res: any, next: any) => {
     const userId = req.user?.id ?? 'jwt-user-001';
-    req.params = { ...(req.params || {}), userId };
-    req.query = { ...(req.query || {}), userId };
-    req.body = { ...(req.body || {}), userId };
+    if (!req.params || typeof req.params !== 'object') {
+      req.params = {};
+    }
+    req.params.userId = userId;
+
+    if (!req.query || typeof req.query !== 'object') {
+      req.query = {};
+    }
+    req.query.userId = userId;
+
+    if (!req.body || typeof req.body !== 'object') {
+      req.body = {};
+    }
+    req.body.userId = userId;
+
     next();
   },
   ensureAuthenticatedUserProfile: (_req: any, _res: any, next: any) => next(),
@@ -129,6 +141,7 @@ describeSupertest('Learning loop routes (supertest)', () => {
 
     expect(response.status).toBe(400);
     expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
     expect(mocks.mockReadingSaveVocabulary).not.toHaveBeenCalled();
   });
 
@@ -177,6 +190,7 @@ describeSupertest('Learning loop routes (supertest)', () => {
 
     expect(response.status).toBe(400);
     expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
     expect(mocks.mockListeningSubmitAttempt).not.toHaveBeenCalled();
   });
 });

@@ -1,7 +1,39 @@
 import { Request, Response } from 'express';
+import { z } from 'zod';
 import { WritingService } from '../services/WritingService';
 
 const writingService = new WritingService();
+
+const submitWritingSchema = z.object({
+  content: z.string().trim().min(1),
+  answers: z.unknown().optional(),
+  timeSpent: z.number().int().min(0).optional(),
+});
+
+const saveDraftSchema = z.object({
+  content: z.string(),
+});
+
+function asString(value: unknown): string | undefined {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
+  return undefined;
+}
+
+function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
+  const userId = req.user?.id;
+  if (!userId) {
+    res.status(401).json({
+      success: false,
+      error: {
+        code: 'AUTH_MISSING_CONTEXT',
+        message: 'Missing authenticated user context',
+      },
+    });
+    return undefined;
+  }
+  return userId;
+}
 
 export class WritingController {
   // ═══════════════════════════════════════════════════════════════
@@ -132,12 +164,19 @@ export class WritingController {
    */
   static async getById(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.query;
+      const id = asString(req.params.id);
+      const userId = asString(req.query.userId);
+
+      if (!id) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing prompt id',
+        });
+      }
 
       let prompt;
       if (userId) {
-        prompt = await writingService.getWithProgress(id, userId as string);
+        prompt = await writingService.getWithProgress(id, userId);
       } else {
         prompt = await writingService.getById(id);
       }
@@ -171,20 +210,27 @@ export class WritingController {
    */
   static async submitWriting(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId, content, answers, timeSpent } = req.body;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId || !content) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing required fields: userId, content',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing prompt id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
+      const payload = submitWritingSchema.parse(req.body);
 
       const submission = await writingService.submitWriting(id, userId, {
-        content,
-        answers,
-        timeSpent,
+        content: payload.content,
+        answers: payload.answers,
+        timeSpent: payload.timeSpent,
       });
 
       return res.status(201).json({
@@ -192,11 +238,23 @@ export class WritingController {
         data: submission,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid writing submission payload',
+            details: error.issues,
+          },
+        });
+      }
       console.error('Error submitting writing:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to submit writing',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to submit writing',
+        },
       });
     }
   }
@@ -206,17 +264,23 @@ export class WritingController {
    */
   static async getSubmissions(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.query;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing userId query parameter',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing prompt id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
 
-      const submissions = await writingService.getUserSubmissions(userId as string, id);
+      const submissions = await writingService.getUserSubmissions(userId, id);
 
       return res.status(200).json({
         success: true,
@@ -227,7 +291,10 @@ export class WritingController {
       console.error('Error fetching submissions:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch submissions',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch submissions',
+        },
       });
     }
   }
@@ -242,17 +309,25 @@ export class WritingController {
    */
   static async saveDraft(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId, content } = req.body;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId || content === undefined) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing required fields: userId, content',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing prompt id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
 
-      const progress = await writingService.saveDraft(userId, id, content);
+      const payload = saveDraftSchema.parse(req.body);
+
+      const progress = await writingService.saveDraft(userId, id, payload.content);
 
       return res.status(200).json({
         success: true,
@@ -260,10 +335,23 @@ export class WritingController {
         message: 'Draft saved',
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid writing draft payload',
+            details: error.issues,
+          },
+        });
+      }
       console.error('Error saving draft:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to save draft',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to save draft',
+        },
       });
     }
   }
@@ -274,17 +362,23 @@ export class WritingController {
    */
   static async getDraft(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.query;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing userId query parameter',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing prompt id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
 
-      const draft = await writingService.getDraft(userId as string, id);
+      const draft = await writingService.getDraft(userId, id);
 
       return res.status(200).json({
         success: true,
@@ -294,7 +388,10 @@ export class WritingController {
       console.error('Error fetching draft:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch draft',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch draft',
+        },
       });
     }
   }
@@ -308,10 +405,14 @@ export class WritingController {
    */
   static async getUserHistory(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
-      const { status } = req.query;
+      const userId = getAuthenticatedUserId(req, res);
+      const status = asString(req.query.status);
 
-      const history = await writingService.getUserHistory(userId, status as string);
+      if (!userId) {
+        return;
+      }
+
+      const history = await writingService.getUserHistory(userId, status);
 
       return res.status(200).json({
         success: true,
@@ -322,7 +423,10 @@ export class WritingController {
       console.error('Error fetching history:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch history',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch history',
+        },
       });
     }
   }
@@ -332,7 +436,10 @@ export class WritingController {
    */
   static async getUserStats(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
+      const userId = getAuthenticatedUserId(req, res);
+      if (!userId) {
+        return;
+      }
       const stats = await writingService.getUserStats(userId);
 
       return res.status(200).json({
@@ -343,7 +450,10 @@ export class WritingController {
       console.error('Error fetching user stats:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch user stats',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch user stats',
+        },
       });
     }
   }
