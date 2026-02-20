@@ -29,8 +29,12 @@ import {
   useReadingStats,
 } from '@/hooks/useApiQueries';
 import { useUser } from '@/providers/user-provider';
-import { PopupDictionary, InteractiveText } from '@/components/reading/PopupDictionary';
-import { DbVocabularyItem, saveReadingVocabulary } from '@/services/german-api';
+import {
+  PopupDictionary,
+  InteractiveText,
+  type DictionarySavePayload,
+} from '@/components/reading/PopupDictionary';
+import { saveReadingVocabulary } from '@/services/german-api';
 import {
   PageTransition,
   AnimateOnScroll,
@@ -129,7 +133,7 @@ export default function ReadingPracticePage({ params }: ReadingPageProps) {
   const updateProgressMutation = useUpdateReadingProgress();
   const completeReadingMutation = useCompleteReading();
   const saveReadingVocabularyMutation = useMutation({
-    mutationFn: (vocab: DbVocabularyItem) =>
+    mutationFn: (vocab: DictionarySavePayload) =>
       saveReadingVocabulary(userId, {
         passageId: id,
         word: vocab.word,
@@ -198,7 +202,7 @@ export default function ReadingPracticePage({ params }: ReadingPageProps) {
   }, []);
 
   const handleAddWordToReview = useCallback(
-    async (vocab: DbVocabularyItem) => {
+    async (vocab: DictionarySavePayload) => {
       await saveReadingVocabularyMutation.mutateAsync(vocab);
     },
     [saveReadingVocabularyMutation]

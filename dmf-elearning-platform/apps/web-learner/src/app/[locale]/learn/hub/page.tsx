@@ -106,7 +106,7 @@ const skillConfig = {
 export default function LearningHubPage() {
   const { data, isLoading, error, refetch, isFetching } = useHubData();
 
-  if (isLoading || !data) {
+  if (isLoading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50/30">
         {/* Header Skeleton */}
@@ -158,6 +158,29 @@ export default function LearningHubPage() {
             ))}
           </div>
         </main>
+      </div>
+    );
+  }
+
+  if (!data) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50/30 flex items-center justify-center p-6">
+        <div className="w-full max-w-md rounded-2xl border border-red-200 bg-white p-6 text-center">
+          <h1 className="text-xl font-semibold text-red-700 mb-2">Hub unavailable</h1>
+          <p className="text-sm text-slate-600 mb-4">
+            {error instanceof Error
+              ? error.message
+              : 'Could not load learning hub data from backend.'}
+          </p>
+          <button
+            onClick={() => refetch()}
+            disabled={isFetching}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-red-600 text-white hover:bg-red-700 disabled:opacity-60"
+          >
+            <RefreshCw className={`w-4 h-4 ${isFetching ? 'animate-spin' : ''}`} />
+            Retry
+          </button>
+        </div>
       </div>
     );
   }
