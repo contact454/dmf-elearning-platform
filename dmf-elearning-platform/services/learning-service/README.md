@@ -153,11 +153,32 @@ src/
 
 ## 🌐 Environment Variables
 
-Create `.env` file:
+Create `.env` file (see `.env.example`):
 ```
 PORT=3003
 NODE_ENV=development
+DATABASE_URL=...
+SUPABASE_JWT_SECRET=...
+AUTH_ENFORCE_SUBJECT_MATCH=true
+AUTH_ALLOW_UNVERIFIED_JWT=false
+RATE_LIMIT_ENABLED=true
+RATE_LIMIT_WINDOW_MS=60000
+RATE_LIMIT_MAX_REQUESTS=240
+RATE_LIMIT_REVIEW_WINDOW_MS=60000
+RATE_LIMIT_REVIEW_MAX_REQUESTS=120
+RATE_LIMIT_AUDIO_WINDOW_MS=60000
+RATE_LIMIT_AUDIO_MAX_REQUESTS=60
 ```
+
+Production template: `.env.production.example`
+
+Auth verification order:
+1. `SUPABASE_JWT_SECRET` (preferred, local signature verification)
+2. `SUPABASE_URL` + `SUPABASE_ANON_KEY` (fallback via Supabase Auth API)
+
+Route protection matrix:
+- Runtime endpoint: `GET /api/route-protection`
+- Source: `src/routes/routeProtectionMatrix.ts`
 
 ## 📊 Data Source
 
@@ -179,6 +200,9 @@ storage/resource-hub/
 # Test health endpoint
 curl http://localhost:3003/api/health
 
+# Test route protection matrix
+curl http://localhost:3003/api/route-protection
+
 # Get all levels
 curl http://localhost:3003/api/resources/levels
 
@@ -187,12 +211,17 @@ curl http://localhost:3003/api/resources/A1/topics
 
 # Get vocabulary
 curl http://localhost:3003/api/resources/A1/Conjunctions
+
+# Protected route (requires Bearer token)
+curl -H "Authorization: Bearer <access-token>" \
+  http://localhost:3003/api/review/queue
 ```
 
 ## 🐛 Error Handling
 
 - **400 Bad Request:** Invalid level format
 - **404 Not Found:** Level or topic doesn't exist
+- **429 Too Many Requests:** Rate limit exceeded (retry after `Retry-After`)
 - **500 Internal Server Error:** File read errors or server issues
 
 All errors return:

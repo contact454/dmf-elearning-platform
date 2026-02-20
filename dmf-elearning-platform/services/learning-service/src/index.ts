@@ -2,12 +2,14 @@ import express, { Application, Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import routes from './routes';
+import { createRateLimit, getRateLimitConfigFromEnv } from './middlewares/rateLimit';
 
 // Load environment variables
 dotenv.config();
 
 const app: Application = express();
 const PORT = process.env.PORT || 3003;
+const rateLimitConfig = getRateLimitConfigFromEnv();
 
 // Middleware
 app.use(cors());
@@ -21,6 +23,28 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 });
 
 // API Routes
+app.use(
+  '/api',
+  createRateLimit('api-global', {
+    windowMs: rateLimitConfig.globalWindowMs,
+    max: rateLimitConfig.globalMax,
+  })
+);
+app.use(
+  '/api/review',
+  createRateLimit('api-review', {
+    windowMs: rateLimitConfig.reviewWindowMs,
+    max: rateLimitConfig.reviewMax,
+  })
+);
+app.use(
+  '/api/audio',
+  createRateLimit('api-audio', {
+    windowMs: rateLimitConfig.audioWindowMs,
+    max: rateLimitConfig.audioMax,
+  })
+);
+
 app.use('/api', routes);
 
 // Root endpoint
