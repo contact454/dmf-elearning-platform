@@ -340,6 +340,7 @@
   - Repo integration note:
     - workflow files are also mirrored at repository root `.github/workflows/*` so GitHub Actions can discover and execute them.
     - workflows now guard Railway auth (`railway_auth` step) and skip deploy/log-pull steps with warning when CI token is invalid/missing.
+    - CI auth now uses `RAILWAY_API_TOKEN` secret (instead of `RAILWAY_TOKEN`) for Railway CLI compatibility.
   - Verification:
     - `CODEX_SANDBOX_NETWORK_DISABLED=0 pnpm s1:auth-smoke` against Railway URL PASS (`protectedStatus=200`)
     - `curl https://learning-service-production.up.railway.app/api/health` PASS (`200`)

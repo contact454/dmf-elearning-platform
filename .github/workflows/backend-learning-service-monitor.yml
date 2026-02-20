@@ -12,7 +12,7 @@ jobs:
       run:
         working-directory: dmf-elearning-platform/services/learning-service
     env:
-      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      RAILWAY_API_TOKEN: ${{ secrets.RAILWAY_API_TOKEN }}
       RAILWAY_PROJECT_ID: ${{ secrets.RAILWAY_PROJECT_ID }}
       ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
 
@@ -31,7 +31,7 @@ jobs:
       - name: Warn when Railway auth is unavailable
         if: ${{ steps.railway_auth.outcome != 'success' }}
         run: |
-          echo "::warning::Railway authentication failed. Monitoring log pull is skipped until RAILWAY_TOKEN is updated."
+          echo "::warning::Railway authentication failed. Monitoring log pull is skipped until RAILWAY_API_TOKEN is updated."
 
       - name: Link Railway project
         if: ${{ steps.railway_auth.outcome == 'success' }}
