@@ -23,11 +23,23 @@ jobs:
       - name: Install Railway CLI
         run: npm install -g @railway/cli
 
+      - name: Validate Railway auth
+        id: railway_auth
+        continue-on-error: true
+        run: railway whoami --json >/tmp/railway-whoami.json
+
+      - name: Warn when Railway auth is unavailable
+        if: ${{ steps.railway_auth.outcome != 'success' }}
+        run: |
+          echo "::warning::Railway authentication failed. Monitoring log pull is skipped until RAILWAY_TOKEN is updated."
+
       - name: Link Railway project
-        run: railway link "${RAILWAY_PROJECT_ID}"
+        if: ${{ steps.railway_auth.outcome == 'success' }}
+        run: railway link -p "${RAILWAY_PROJECT_ID}"
 
       - name: Fetch recent logs
         id: logs
+        if: ${{ steps.railway_auth.outcome == 'success' }}
         run: |
           railway logs -s learning-service --lines 300 > /tmp/learning-service.logs || true
           five_xx_count=$(grep -c "\[monitoring\] 5xx spike detected" /tmp/learning-service.logs || true)
@@ -41,7 +53,7 @@ jobs:
           echo "auth_spike_count=$auth_spike_count"
 
       - name: Route alert to webhook
-        if: ${{ steps.logs.outputs.five_xx_count != '0' || steps.logs.outputs.four_two_nine_count != '0' || steps.logs.outputs.auth_spike_count != '0' }}
+        if: ${{ steps.railway_auth.outcome == 'success' && (steps.logs.outputs.five_xx_count != '0' || steps.logs.outputs.four_two_nine_count != '0' || steps.logs.outputs.auth_spike_count != '0') }}
         run: |
           if [ -z "${ALERT_WEBHOOK_URL}" ]; then
             echo "ALERT_WEBHOOK_URL is not configured"
@@ -70,6 +82,7 @@ jobs:
         run: |
           {
             echo "### Learning-Service Monitoring Snapshot"
+            echo "- Railway auth: ${{ steps.railway_auth.outcome }}"
             echo "- 5xx spikes: ${{ steps.logs.outputs.five_xx_count }}"
             echo "- 429 spikes: ${{ steps.logs.outputs.four_two_nine_count }}"
             echo "- Auth spikes: ${{ steps.logs.outputs.auth_spike_count }}"

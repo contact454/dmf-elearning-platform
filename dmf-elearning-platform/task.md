@@ -339,6 +339,7 @@
     - scheduled log scan + webhook route on monitoring spike signals (`5xx`, `429`, auth anomaly)
   - Repo integration note:
     - workflow files are also mirrored at repository root `.github/workflows/*` so GitHub Actions can discover and execute them.
+    - workflows now guard Railway auth (`railway_auth` step) and skip deploy/log-pull steps with warning when CI token is invalid/missing.
   - Verification:
     - `CODEX_SANDBOX_NETWORK_DISABLED=0 pnpm s1:auth-smoke` against Railway URL PASS (`protectedStatus=200`)
     - `curl https://learning-service-production.up.railway.app/api/health` PASS (`200`)

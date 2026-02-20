@@ -55,6 +55,16 @@ jobs:
       - name: Install Railway CLI
         run: npm install -g @railway/cli
 
+      - name: Validate Railway auth
+        id: railway_auth
+        continue-on-error: true
+        run: railway whoami --json >/tmp/railway-whoami.json
+
+      - name: Warn when Railway auth is unavailable
+        if: ${{ steps.railway_auth.outcome != 'success' }}
+        run: |
+          echo "::warning::Railway authentication failed. Deploy/smoke steps are skipped until RAILWAY_TOKEN is updated."
+
       - name: Build learning-service
         continue-on-error: true
         run: pnpm --filter learning-service build
@@ -63,22 +73,33 @@ jobs:
         run: pnpm --filter learning-service test -- src/middlewares/__tests__/requestMonitoring.test.ts src/middlewares/__tests__/requestLogging.test.ts
 
       - name: Deploy learning-service to Railway
+        if: ${{ steps.railway_auth.outcome == 'success' }}
         run: bash scripts/deploy/learning-service-release.sh
 
       - name: Run post-deploy smoke checks
-        if: ${{ github.event_name == 'push' || inputs.run_smoke == true }}
+        if: ${{ steps.railway_auth.outcome == 'success' && (github.event_name == 'push' || inputs.run_smoke == true) }}
         run: |
           source services/learning-service/.deploy-learning-service-meta.env
           BACKEND_URL="$BACKEND_URL" bash scripts/deploy/learning-service-smoke.sh
 
       - name: Capture deploy metadata
         run: |
-          source services/learning-service/.deploy-learning-service-meta.env
-          {
-            echo "COMMIT_SHA=${COMMIT_SHA}"
-            echo "DEPLOYED_AT_UTC=${DEPLOYED_AT_UTC}"
-            echo "BACKEND_URL=${BACKEND_URL}"
-          } > deploy-metadata.txt
+          if [[ "${{ steps.railway_auth.outcome }}" == "success" ]] && [[ -f services/learning-service/.deploy-learning-service-meta.env ]]; then
+            source services/learning-service/.deploy-learning-service-meta.env
+            {
+              echo "COMMIT_SHA=${COMMIT_SHA}"
+              echo "DEPLOYED_AT_UTC=${DEPLOYED_AT_UTC}"
+              echo "BACKEND_URL=${BACKEND_URL}"
+              echo "DEPLOY_STATUS=executed"
+            } > deploy-metadata.txt
+          else
+            {
+              echo "COMMIT_SHA=${GITHUB_SHA}"
+              echo "DEPLOYED_AT_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              echo "BACKEND_URL=unknown"
+              echo "DEPLOY_STATUS=skipped_missing_railway_auth"
+            } > deploy-metadata.txt
+          fi
           cat deploy-metadata.txt
 
       - name: Upload deploy metadata
