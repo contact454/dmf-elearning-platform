@@ -345,6 +345,8 @@
     - `CODEX_SANDBOX_NETWORK_DISABLED=0 pnpm s1:auth-smoke` against Railway URL PASS (`protectedStatus=200`)
     - `curl https://learning-service-production.up.railway.app/api/health` PASS (`200`)
     - `curl https://learning-service-production.up.railway.app/api/route-protection` PASS (`200`)
+    - GitHub Actions deploy workflow run `#22231846660` PASS (`Deploy learning-service to Railway` and `Run post-deploy smoke checks` both executed).
+    - GitHub Actions monitoring workflow run `#22231881533` PASS (`Link Railway project` + `Fetch recent logs` executed).
 
 ---
 
