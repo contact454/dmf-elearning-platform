@@ -1,12 +1,47 @@
 import { Request, Response } from 'express';
+import { z } from 'zod';
 import { ReadingPassageService } from '../services/ReadingPassageService';
 
 const readingPassageService = new ReadingPassageService();
+
+const saveVocabularySchema = z.object({
+  passageId: z.string().trim().min(1),
+  word: z.string().trim().min(1),
+  translation: z.string().trim().min(1),
+  context: z.string().trim().min(1).optional(),
+  sentence: z.string().trim().min(1).optional(),
+});
+
+const submitAnswerSchema = z.object({
+  passageId: z.string().trim().min(1),
+  exerciseId: z.string().trim().min(1),
+  userAnswer: z.unknown(),
+  timeSpentSeconds: z.number().int().min(0).optional().default(0),
+});
+
+const progressQuerySchema = z.object({
+  passageId: z.string().trim().min(1).optional(),
+});
 
 function asString(value: unknown): string | undefined {
   if (typeof value === 'string') return value;
   if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
   return undefined;
+}
+
+function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
+  const userId = req.user?.id;
+  if (!userId) {
+    res.status(401).json({
+      success: false,
+      error: {
+        code: 'AUTH_MISSING_CONTEXT',
+        message: 'Missing authenticated user context',
+      },
+    });
+    return undefined;
+  }
+  return userId;
 }
 
 export class ReadingPassageController {
@@ -98,24 +133,18 @@ export class ReadingPassageController {
   
   static async submitAnswer(req: Request, res: Response) {
     try {
-      const { userId, passageId, exerciseId, userAnswer, timeSpentSeconds } = req.body;
-
-      // Validate required fields
-      if (!userId || !passageId || !exerciseId || userAnswer === undefined) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required fields',
-          message: 'userId, passageId, exerciseId, and userAnswer are required',
-          code: 'MISSING_FIELDS',
-        });
+      const userId = getAuthenticatedUserId(req, res);
+      if (!userId) {
+        return;
       }
+      const payload = submitAnswerSchema.parse(req.body);
 
       const result = await readingPassageService.submitAnswer({
         userId,
-        passageId,
-        exerciseId,
-        userAnswer,
-        timeSpentSeconds: timeSpentSeconds || 0,
+        passageId: payload.passageId,
+        exerciseId: payload.exerciseId,
+        userAnswer: payload.userAnswer,
+        timeSpentSeconds: payload.timeSpentSeconds,
       });
 
       return res.status(201).json({
@@ -123,22 +152,37 @@ export class ReadingPassageController {
         data: result,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid reading submit payload',
+            details: error.issues,
+          },
+        });
+      }
+
       console.error('Error submitting answer:', error);
       
       // Handle specific errors
       if (error instanceof Error && error.message.includes('not found')) {
         return res.status(404).json({
           success: false,
-          error: 'Exercise not found',
-          message: error.message,
-          code: 'EXERCISE_NOT_FOUND',
+          error: {
+            code: 'EXERCISE_NOT_FOUND',
+            message: 'Exercise not found',
+            details: error.message,
+          },
         });
       }
 
       return res.status(500).json({
         success: false,
-        error: 'Failed to submit answer',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to submit answer',
+        },
       });
     }
   }
@@ -150,20 +194,17 @@ export class ReadingPassageController {
   
   static async getProgress(req: Request, res: Response) {
     try {
-      const { userId, passageId } = req.query;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required parameter',
-          message: 'userId is required',
-          code: 'MISSING_USER_ID',
-        });
+        return;
       }
+      const query = progressQuerySchema.parse({
+        passageId: asString(req.query.passageId),
+      });
 
       const progress = await readingPassageService.getUserProgress(
-        userId as string,
-        passageId as string | undefined
+        userId,
+        query.passageId
       );
 
       return res.status(200).json({
@@ -171,11 +212,24 @@ export class ReadingPassageController {
         data: progress,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid reading progress query',
+            details: error.issues,
+          },
+        });
+      }
+
       console.error('Error fetching progress:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch progress',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch progress',
+        },
       });
     }
   }
@@ -187,26 +241,20 @@ export class ReadingPassageController {
   
   static async saveVocabulary(req: Request, res: Response) {
     try {
-      const { passageId, word, translation, context, sentence } = req.body;
-      const userId = req.user?.id;
+      const parsed = saveVocabularySchema.parse(req.body);
+      const userId = getAuthenticatedUserId(req, res);
 
-      // Validate required fields
-      if (!userId || !passageId || !word || !translation) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required fields',
-          message: 'userId, passageId, word, and translation are required',
-          code: 'MISSING_FIELDS',
-        });
+      if (!userId) {
+        return;
       }
 
       const result = await readingPassageService.saveVocabulary({
         userId,
-        passageId,
-        word,
-        translation,
-        context,
-        sentence,
+        passageId: parsed.passageId,
+        word: parsed.word,
+        translation: parsed.translation,
+        context: parsed.context,
+        sentence: parsed.sentence,
       });
 
       return res.status(201).json({
@@ -214,11 +262,24 @@ export class ReadingPassageController {
         data: result,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid vocabulary save payload',
+            details: error.issues,
+          },
+        });
+      }
+
       console.error('Error saving vocabulary:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to save vocabulary',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to save vocabulary',
+        },
       });
     }
   }

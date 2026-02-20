@@ -1,7 +1,11 @@
 import express from 'express'
 import { z } from 'zod'
 import * as reviewService from '../services/reviewService'
-import { authMiddleware } from '../middlewares/auth'
+import {
+  attachAuthenticatedUserId,
+  authMiddleware,
+  ensureAuthenticatedUserProfile,
+} from '../middlewares/auth'
 import { updateStreakOnActivity } from '../middlewares/streak'
 
 const router = express.Router()
@@ -10,7 +14,7 @@ const router = express.Router()
  * GET /api/review/queue
  * Get review queue for authenticated user
  */
-router.get('/queue', authMiddleware, async (req, res) => {
+router.get('/queue', authMiddleware, attachAuthenticatedUserId, ensureAuthenticatedUserProfile, async (req, res) => {
   try {
     const userId = req.user!.id
     const result = await reviewService.getReviewQueue(userId)
@@ -38,7 +42,13 @@ router.get('/queue', authMiddleware, async (req, res) => {
  * 
  * Note: Streak middleware auto-updates user streak after successful submission
  */
-router.post('/submit', authMiddleware, updateStreakOnActivity, async (req, res) => {
+router.post(
+  '/submit',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  updateStreakOnActivity,
+  async (req, res) => {
   try {
     const schema = z.object({
       wordId: z.string().cuid(),
@@ -61,7 +71,7 @@ router.post('/submit', authMiddleware, updateStreakOnActivity, async (req, res) 
         error: {
           code: 'VALIDATION_ERROR',
           message: 'Invalid input data',
-          details: error.errors
+          details: error.issues
         }
       })
     }
@@ -81,7 +91,7 @@ router.post('/submit', authMiddleware, updateStreakOnActivity, async (req, res) 
  * GET /api/review/stats
  * Get progress statistics for authenticated user
  */
-router.get('/stats', authMiddleware, async (req, res) => {
+router.get('/stats', authMiddleware, attachAuthenticatedUserId, ensureAuthenticatedUserProfile, async (req, res) => {
   try {
     const userId = req.user!.id
     const result = await reviewService.getProgressStats(userId)

@@ -11,6 +11,14 @@ import * as ttsService from '../services/ttsService';
 const router = express.Router();
 const prisma = new PrismaClient();
 
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
+}
+
+function errorStack(error: unknown): string | undefined {
+  return error instanceof Error ? error.stack : undefined;
+}
+
 /**
  * GET /api/audio/:wordId
  * Get audio URL for a specific word
@@ -69,15 +77,15 @@ router.get('/:wordId', async (req: Request, res: Response) => {
         error: {
           code: 'VALIDATION_ERROR',
           message: 'Invalid word ID format',
-          details: error.errors
+          details: error.issues
         }
       });
     }
 
     console.error('[API] /audio/:wordId failed:', {
       wordId: req.params.wordId,
-      error: error.message,
-      stack: error.stack
+      error: errorMessage(error),
+      stack: errorStack(error)
     });
 
     res.status(500).json({
@@ -113,7 +121,7 @@ router.post('/batch', async (req: Request, res: Response) => {
         try {
           await ttsService.clearAudioCache(wordId);
         } catch (error) {
-          console.warn(`[API] Failed to clear cache for ${wordId}:`, error.message);
+          console.warn(`[API] Failed to clear cache for ${wordId}:`, errorMessage(error));
         }
       }
     }
@@ -138,14 +146,14 @@ router.post('/batch', async (req: Request, res: Response) => {
         error: {
           code: 'VALIDATION_ERROR',
           message: 'Invalid request body',
-          details: error.errors
+          details: error.issues
         }
       });
     }
 
     console.error('[API] /audio/batch failed:', {
-      error: error.message,
-      stack: error.stack
+      error: errorMessage(error),
+      stack: errorStack(error)
     });
 
     res.status(500).json({
@@ -189,15 +197,15 @@ router.delete('/:wordId', async (req: Request, res: Response) => {
         error: {
           code: 'VALIDATION_ERROR',
           message: 'Invalid word ID format',
-          details: error.errors
+          details: error.issues
         }
       });
     }
 
     console.error('[API] DELETE /audio/:wordId failed:', {
       wordId: req.params.wordId,
-      error: error.message,
-      stack: error.stack
+      error: errorMessage(error),
+      stack: errorStack(error)
     });
 
     res.status(500).json({
