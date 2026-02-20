@@ -52,7 +52,7 @@ fi
 
 railway up -s learning-service -d >/dev/null
 
-BACKEND_URL="$(railway domain -s learning-service --json | node -e 'let d="";process.stdin.on("data",c=>d+=c);process.stdin.on("end",()=>{const j=JSON.parse(d);process.stdout.write(j.domain||"")})')"
+BACKEND_URL="$(railway domain -s learning-service --json | node -e 'let d="";process.stdin.on("data",c=>d+=c);process.stdin.on("end",()=>{const j=JSON.parse(d);const url=(j.domain)||(Array.isArray(j.domains)?j.domains[0]:"")||"";process.stdout.write(url)})')"
 if [[ -z "${BACKEND_URL}" ]]; then
   echo "Failed to resolve Railway domain for learning-service"
   exit 1
