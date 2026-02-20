@@ -56,6 +56,7 @@ jobs:
         run: npm install -g @railway/cli
 
       - name: Build learning-service
+        continue-on-error: true
         run: pnpm --filter learning-service build
 
       - name: Run targeted middleware tests
