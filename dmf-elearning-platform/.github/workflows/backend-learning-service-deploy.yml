@@ -23,7 +23,7 @@ jobs:
       run:
         working-directory: dmf-elearning-platform
     env:
-      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      RAILWAY_API_TOKEN: ${{ secrets.RAILWAY_API_TOKEN }}
       RAILWAY_PROJECT_ID: ${{ secrets.RAILWAY_PROJECT_ID }}
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
@@ -63,7 +63,7 @@ jobs:
       - name: Warn when Railway auth is unavailable
         if: ${{ steps.railway_auth.outcome != 'success' }}
         run: |
-          echo "::warning::Railway authentication failed. Deploy/smoke steps are skipped until RAILWAY_TOKEN is updated."
+          echo "::warning::Railway authentication failed. Deploy/smoke steps are skipped until RAILWAY_API_TOKEN is updated."
 
       - name: Build learning-service
         continue-on-error: true

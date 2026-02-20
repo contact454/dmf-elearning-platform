@@ -9,8 +9,8 @@ fi
 : "${SUPABASE_URL:?SUPABASE_URL is required}"
 : "${SUPABASE_ANON_KEY:?SUPABASE_ANON_KEY is required}"
 
-if [[ -z "${RAILWAY_TOKEN:-}" ]]; then
-  echo "RAILWAY_TOKEN not set; using existing Railway CLI login context"
+if [[ -z "${RAILWAY_API_TOKEN:-}" && -z "${RAILWAY_TOKEN:-}" ]]; then
+  echo "RAILWAY_API_TOKEN/RAILWAY_TOKEN not set; using existing Railway CLI login context"
 fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
