@@ -276,16 +276,16 @@ Frontend (`apps/web-learner/`):
 
 ### Phase 6: Deploy & Monitor (Ship)
 
-**Status: BOOTSTRAPPED**
+**Status: REHEARSED + HARDENED**
 
 | Task | Details |
 |------|---------|
 | Vercel deployment | Frontend deploy with environment variables |
 | Backend hosting | Railway/Render for Express server |
 | Hosted PostgreSQL | Supabase DB or Neon |
-| Monitoring | Basic error tracking (Sentry) |
+| Monitoring | Runtime hooks for `5xx`/`429`/auth anomaly + request logging baseline |
 | Analytics | Simple usage tracking |
-| Deploy checklist | `docs/implementation/PHASE6-DEPLOY-BOOTSTRAP-CHECKLIST.md` created |
+| Deploy checklist | `docs/implementation/PHASE6-DEPLOY-BOOTSTRAP-CHECKLIST.md` + rehearsal report + rollback runbook |
 
 ---
 
@@ -299,7 +299,7 @@ Phase 1 (Auth)          Phase 2 (Content)        Phase 3 (Learning Loop)
                                 |
                                 v
                    Phase 6 (Deploy) <── Phase 4 (Testing)
-                    [BOOTSTRAPPED]       [65% DONE]
+                 [REHEARSED + HARDENED]  [65% DONE]
                                               |
                                               v
                                      Phase 5 (Gamification)
@@ -311,7 +311,7 @@ Phase 1 (Auth)          Phase 2 (Content)        Phase 3 (Learning Loop)
 1. **Run manual auth UX pass**: new-user signup with email confirmation + refresh/auto-logout behavior in browser
 2. **Finish remaining Phase 4 alignment**: apply unified error schema + Zod validation to non-core/admin endpoints
 3. **Manual deploy rehearsal**: run the new Phase 6 checklist end-to-end on staging
-4. **Add lightweight monitoring hooks**: provider log alerts for 5xx/429 spikes
+4. **Enable provider-side alert routing**: wire external alerts using existing `5xx`/`429`/auth anomaly hooks
 
 ---
 
@@ -331,13 +331,13 @@ Phase 1 (Auth)          Phase 2 (Content)        Phase 3 (Learning Loop)
 | Debt | Priority | When | Status |
 |------|----------|------|--------|
 | ~~Backend schema mismatch with Prisma~~ | ~~High~~ | ~~Phase 1~~ | **RESOLVED by Codex** |
-| Split `useApiQueries.ts` (25KB) into module-specific hooks | Medium | Phase 3 | TODO |
+| Split `useApiQueries.ts` (25KB) into module-specific hooks | Medium | Phase 3 | DONE (2026-02-20) |
 | Add Zod validation to all API endpoints | High | Phase 4 | PARTIAL |
 | Standardize error response format across all controllers | High | Phase 4 | PARTIAL (auth done) |
-| Add request logging middleware | Medium | Phase 6 | TODO |
+| Add request logging middleware | Medium | Phase 6 | DONE (2026-02-20) |
 | Optimize Prisma queries (add proper indexes, avoid N+1) | Medium | Phase 4 | TODO |
 | Remove unused microservice scaffolding | Low | After MVP | TODO |
-| Consolidate duplicate API client files (lib/ vs services/) | Medium | Phase 3 | TODO |
+| Consolidate duplicate API client files (lib/ vs services/) | Medium | Phase 3 | DONE (2026-02-20) |
 
 ---
 
@@ -356,11 +356,13 @@ Phase 1 (Auth)          Phase 2 (Content)        Phase 3 (Learning Loop)
 | 2026-02-20 | Codex CLI | Auth smoke verified on Supabase (`pnpm s1:auth-smoke`) | PASS |
 | 2026-02-20 | Codex CLI | Phase 4 controller hardening (JWT user binding + Zod + error codes) | Verified (`learning-service` build/test pass) |
 | 2026-02-20 | Codex CLI | Baseline API rate limiting + Phase 6 deploy bootstrap checklist | Verified (`rateLimit` tests + build pass) |
+| 2026-02-20 | Codex CLI | Phase 6 deploy rehearsal + rollback runbook/drill evidence | Verified (`PHASE6-DEPLOY-REHEARSAL-2026-02-20.md`) |
+| 2026-02-20 | Codex CLI | Monitoring hooks baseline (`5xx`/`429`/auth anomaly) + request logging middleware | Verified (`learning-service` middleware tests + build pass) |
 | 2026-02-20 | Claude Code | Initial project assessment | - |
 | 2026-02-20 | Claude Code | Codex work verification & roadmap update | - |
 
 ---
 
-**Last Updated:** 2026-02-20 (post-rate-limit bootstrap + controller hardening)
-**Next Review:** After manual auth UX pass + staging deploy rehearsal
+**Last Updated:** 2026-02-20 (post-S6 rehearsal/rollback + request logging baseline)
+**Next Review:** After manual auth UX pass + provider-side alert routing validation
 **Maintainer:** DMF Team

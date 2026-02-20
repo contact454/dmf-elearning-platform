@@ -3,6 +3,8 @@
 **Date:** 2026-02-20  
 **Scope:** MVP-ready deploy baseline for `learning-service` + `web-learner`
 
+**Latest rehearsal report:** `docs/implementation/PHASE6-DEPLOY-REHEARSAL-2026-02-20.md`
+
 ## 1) Preflight (Local CI Gate)
 
 - [ ] `pnpm --filter learning-service build`
@@ -46,6 +48,16 @@
 ## 5) Basic Ops Observability
 
 - [ ] Centralize backend logs (provider logs or external sink)
+- [ ] Set monitoring env baseline:
+  - [ ] `REQUEST_LOGGING_ENABLED=true`
+  - [ ] `REQUEST_LOG_INCLUDE_QUERY=false`
+  - [ ] `REQUEST_LOG_SERVICE_NAME=learning-service`
+  - [ ] `MONITORING_ALERTS_ENABLED=true`
+  - [ ] `MONITORING_WINDOW_MS=60000`
+  - [ ] `MONITORING_5XX_ALERT_THRESHOLD=5`
+  - [ ] `MONITORING_429_ALERT_THRESHOLD=10`
+  - [ ] `MONITORING_AUTH_ALERT_THRESHOLD=25`
+  - [ ] `MONITORING_SLOW_REQUEST_MS=1500`
 - [ ] Alert on:
   - [ ] sustained `5xx` rate
   - [ ] frequent `429` spikes
@@ -54,7 +66,8 @@
 
 ## 6) Rollback Readiness
 
+- [ ] Rollback runbook updated and accessible:
+  - [ ] `docs/implementation/PHASE6-ROLLBACK-RUNBOOK.md`
 - [ ] Keep previous deployment artifact/version available
 - [ ] DB migration compatibility verified (forward/backward safety)
 - [ ] Rollback command documented for hosting platform
-

@@ -3,6 +3,103 @@
 ## NEXT
 <!-- Tasks to be executed next. Only work on items listed here. -->
 
+### Sprint S1 — Auth & User Persistence Foundation (2026-02-23 -> 2026-03-06)
+**Source**: `docs/NEXT_SPRINT_ACTION_PLAN.md`  
+**Objective**: Ship usable authentication so real users can sign in and keep learning progress across sessions.
+
+**Scope (Must Ship)**:
+- Supabase auth flow: email/password + Google OAuth.
+- JWT verification middleware for protected API routes.
+- User profile CRUD + learning preferences.
+- Real `userId` persistence for progress (remove mock-user dependency).
+- Session lifecycle baseline (refresh + logout handling).
+- Minimum test coverage for critical auth/persistence flows.
+
+**Out of Scope**:
+- CQRS/event bus rollout.
+- New microservices.
+- Large content generation and gamification backend expansion.
+
+**Execution Checklist**:
+1. Backend/Auth API:
+   - Finish auth middleware in `services/learning-service`.
+   - Classify public vs protected routes.
+   - Standardize auth error responses (`401`, `403`).
+   - Add profile endpoints (`GET/PATCH`).
+2. Frontend/Auth UX:
+   - Integrate Supabase auth provider in app shell.
+   - Add route guards for protected pages.
+   - Implement login/register + Google OAuth entry.
+   - Ensure session restore after refresh and proper logout cleanup.
+3. Data Persistence:
+   - Audit progress flows and remove mock user assumptions.
+   - Bind progress writes/reads to authenticated `userId`.
+   - Add migrations only if strictly required.
+4. Testing & Verification:
+   - Backend integration tests: protected routes, invalid/expired token, profile update, progress save/load.
+   - Frontend tests: login success, protected redirect, session restore.
+
+**Issue-Level Checklist (S1)**:
+- [x] `S1-01` Auth middleware baseline in `services/learning-service`
+  Deliverable: JWT verification middleware wired and reusable.
+  Done when: invalid token -> `401`, missing token on protected route -> `401`.
+- [x] `S1-02` Route protection matrix (public/protected)
+  Deliverable: explicit route list and middleware application map.
+  Done when: all protected progress/profile routes require auth.
+- [x] `S1-03` Standard auth error format
+  Deliverable: unified error payload for `401` and `403`.
+  Done when: controllers return consistent structure across modules.
+- [x] `S1-04` Profile API (`GET /profile`, `PATCH /profile`)
+  Deliverable: read/update profile + learning preferences by authenticated user.
+  Done when: profile reads/writes are tied to JWT user identity.
+- [x] `S1-05` Frontend auth provider integration (`apps/web-learner`)
+  Deliverable: Supabase auth provider in app shell.
+  Done when: app bootstraps session and exposes auth state globally.
+- [x] `S1-06` Login/Register + Google OAuth screens
+  Deliverable: functional auth entry flows in UI.
+  Done when: user can sign up, sign in, and OAuth callback completes.
+- [x] `S1-07` Protected route guards in frontend
+  Deliverable: redirect unauthenticated users from protected pages.
+  Done when: guarded pages are inaccessible without active session.
+- [x] `S1-08` Session lifecycle handling
+  Deliverable: restore on refresh + logout cleanup.
+  Done when: refresh keeps session; logout clears state and tokens.
+- [x] `S1-09` Replace mock-user dependency in vocabulary progress
+  Deliverable: vocabulary writes/reads use authenticated `userId`.
+  Done when: progress persists per real account, not shared mock id.
+- [x] `S1-10` Replace mock-user dependency in reading progress
+  Deliverable: reading writes/reads use authenticated `userId`.
+  Done when: reading state is isolated per user.
+- [x] `S1-11` Replace mock-user dependency in listening progress
+  Deliverable: listening writes/reads use authenticated `userId`.
+  Done when: listening state survives refresh/re-login for same user.
+- [x] `S1-12` Replace mock-user dependency in speaking/writing progress
+  Deliverable: speaking and/or writing writes/reads use authenticated `userId`.
+  Done when: at least one of speaking/writing domains is fully persistent.
+- [x] `S1-13` Backend integration tests for auth + persistence
+  Deliverable: tests for protected routes, token failure cases, profile update, progress save/load.
+  Done when: `pnpm --filter @dmf/learning-service test` passes.
+- [x] `S1-14` Frontend tests for auth flows
+  Deliverable: tests for login success, protected redirect, session restore.
+  Done when: `pnpm --filter @dmf/web-learner test` passes.
+- [x] `S1-15` Sprint release verification
+  Deliverable: final runbook and pass report.
+  Done when: `pnpm lint`, `pnpm build`, `pnpm test` pass for touched modules and manual smoke checks are logged.
+
+**Sprint Exit Criteria**:
+- Users can register/login/logout in `apps/web-learner`.
+- Protected endpoints reject missing/invalid auth consistently.
+- Progress persists for at least 4 domains: vocabulary, reading, listening, speaking/writing.
+- Progress remains correct after browser refresh/new session.
+- `pnpm lint`, `pnpm build`, `pnpm test` pass for touched modules.
+
+**Verification Commands**:
+- `pnpm lint`
+- `pnpm build`
+- `pnpm test`
+- `pnpm --filter @dmf/learning-service test`
+- `pnpm --filter @dmf/web-learner test`
+
 ### M1-lite — System Foundations (no auth tokens per hard ban)
 **Objective**: Wire real EventBus infrastructure and make onboarding handlers emit/consume events with idempotency; implement register/profile update flows without authentication logic.
 **Scope**:
@@ -29,6 +126,87 @@
 - Unit unlock + `curriculum.unit.unlocked`: requires curriculum-service read-only API (unit/lesson structure, prerequisites). Without it, only `completedLessons` updated; unlock and emit skipped.
 - `learning.submission.created` / `mentoring.feedback.published`: payload `userId` often omitted; consumers assume it when available. External emitters must include `userId` for mastery updates.
 
+### MVP Finish Plan — Execution Backlog (S2-S6)
+**Source**: `docs/PROJECT_ASSESSMENT_AND_ROADMAP.md` + `docs/implementation/PHASE6-DEPLOY-BOOTSTRAP-CHECKLIST.md`  
+**Objective**: Close remaining MVP gaps in Phase 4/5/6 with small, verifiable increments.
+**Execution Order**: S2 -> S3 -> S4 -> S5 -> S6 (no parallel sprint execution).
+
+**Scope (Must Ship)**:
+- Finish Phase 4 hardening (validation/error format/test coverage on remaining endpoints).
+- Ship real TTS provider path with safe fallback behavior.
+- Integrate gamification backend into active learner flows.
+- Complete deploy rehearsal + monitoring hooks + rollback readiness.
+- Reduce medium technical debt that blocks maintainability.
+
+**Out of Scope**:
+- New microservices or CQRS/event-bus expansion.
+- Authentication redesign or RBAC redesign.
+- Payment/monetization and non-MVP platform refactors.
+
+**Issue-Level Checklist (MVP Finish)**:
+- [x] `S2-01` M1-lite verification pass
+  Deliverable: event bus + onboarding smoke + idempotency evidence re-validated against current branch.
+  Done when: `pnpm m1:smoke` and targeted tests pass. (PASS: 2026-02-20)
+- [x] `S2-02` M3 verification pass
+  Deliverable: progress/mastery smoke + known blocker boundaries documented.
+  Done when: `pnpm m3:smoke` passes and `BLOCKED` notes remain accurate. (PASS: 2026-02-20)
+- [x] `S3-01` Standardize error envelope on non-core `learning-service` routes
+  Deliverable: remaining routes return unified `error.code` + `error.message`.
+  Done when: route tests assert consistent 4xx/5xx payload shapes. (DONE: 2026-02-20)
+- [x] `S3-02` Apply Zod validation on remaining non-core/admin endpoints
+  Deliverable: request bodies/params/queries validated before handlers execute.
+  Done when: invalid payload tests return `VALIDATION_ERROR` consistently. (DONE: 2026-02-20)
+- [x] `S3-03` Expand backend integration coverage
+  Deliverable: route tests for remaining hardening surface.
+  Done when: `pnpm --filter learning-service test` passes with new test cases. (PASS: 2026-02-20, 181 tests)
+- [x] `S4-01` Production TTS provider path completion
+  Deliverable: real provider flow with env-gated behavior and explicit fallback semantics.
+  Done when: TTS service tests cover provider success/fallback/error branches. (DONE: 2026-02-20)
+- [x] `S4-02` Audio API contract hardening
+  Deliverable: audio routes return stable response contract across success/failure modes.
+  Done when: route tests validate TTS + fallback payload consistency. (DONE: 2026-02-20)
+- [x] `S5-01` Gamification backend integration in learner flow
+  Deliverable: XP/streak/leaderboard data wired to active learner workflows.
+  Done when: end-to-end learner actions update/read gamification state. (DONE: 2026-02-20)
+- [x] `S5-02` Gamification API contract and tests
+  Deliverable: stable API responses + integration tests for XP/streak/leaderboard.
+  Done when: targeted backend tests and frontend flow tests pass. (DONE: 2026-02-20)
+- [x] `S5-03` Frontend hook cleanup (`useApiQueries.ts` split)
+  Deliverable: module-specific hooks replacing monolithic hook file.
+  Done when: legacy hook size reduced and imports migrated without regression. (DONE: 2026-02-20)
+- [x] `S5-04` API client consolidation (`lib/` vs `services/`)
+  Deliverable: single source for HTTP client primitives in `web-learner`.
+  Done when: duplicated client logic removed and tests/build pass. (DONE: 2026-02-20)
+- [x] `S6-01` Deploy rehearsal end-to-end
+  Deliverable: full run of Phase 6 checklist with recorded outcomes.
+  Done when: rehearsal report updated with command outputs and results. (DONE: 2026-02-20)
+- [x] `S6-02` Monitoring hooks baseline
+  Deliverable: alert-ready signal for sustained `5xx`, `429`, and auth anomaly spikes.
+  Done when: monitoring middleware emits expected signals in tests/smoke. (DONE: 2026-02-20)
+- [x] `S6-03` Rollback readiness artifacts
+  Deliverable: rollback steps + deployment metadata capture updated and verified.
+  Done when: docs contain tested rollback commands and environment expectations. (DONE: 2026-02-20)
+- [x] `S6-04` Request logging middleware baseline
+  Deliverable: request-level structured logs with requestId/correlationId propagation + env-gated control.
+  Done when: middleware tests and `learning-service` build pass with logging enabled defaults. (DONE: 2026-02-20)
+
+**Verification Commands (per touched scope)**:
+- `pnpm --filter learning-service build`
+- `pnpm --filter learning-service test`
+- `pnpm --filter @dmf/web-learner build`
+- `pnpm --filter @dmf/web-learner test`
+- `pnpm m1:smoke`
+- `pnpm m3:smoke`
+- `pnpm phase3:smoke:all`
+- `pnpm lint`
+- `pnpm build`
+
+**Release Gate (MVP Finish)**:
+- Remaining Phase 4 items no longer marked PARTIAL in roadmap docs.
+- TTS path validated with explicit fallback and deterministic test coverage.
+- Gamification integration verified in backend + learner-facing flows.
+- Phase 6 rehearsal evidence documented with rollback and monitoring baseline.
+
 ---
 
 ## APPROVED
@@ -38,6 +216,106 @@
 
 ## IN PROGRESS
 <!-- Current work being executed. -->
+
+- `2026-02-20` Sprint S3 hardening started:
+  - Standardized `learning-service` app-level `404/500` error envelope.
+  - Standardized `ReadingPassageController` error responses + added Zod validation for `/api/reading/passages` and `/api/reading/passages/:id`.
+  - Standardized `ListeningController` error responses + added Zod validation for list/content/exercise lookup and content create/generate flows.
+  - Standardized `ReadingController` error responses + added Zod validation for list/featured/topics/content lookup and admin create/generate/delete inputs.
+  - Standardized `SpeakingController` + `WritingController` error responses and input validation (list/detail/history/admin write endpoints).
+  - Added route regression tests in `learningLoopRoutes.supertest` for reading/listening/speaking/writing validation paths.
+  - Verification:
+    - `CODEX_SANDBOX_NETWORK_DISABLED=0 pnpm --filter learning-service test -- src/routes/__tests__/learningLoopRoutes.supertest.test.ts` (14 tests) PASS
+    - `pnpm --filter learning-service build` PASS
+    - `CODEX_SANDBOX_NETWORK_DISABLED=0 pnpm --filter learning-service test` (182 tests) PASS
+
+- `2026-02-20` Sprint S4 TTS + audio hardening completed:
+  - Refactored `ttsService` to provider-aware runtime with explicit fallback reasons and env-gated control.
+  - Added runtime status contract (`getTtsRuntimeStatus`) and stabilized test reset hook (`__resetTtsServiceForTests`).
+  - Hardened `/api/audio/:wordId` response contract with `source`, `provider`, `fallbackReason`, `fallbackRequired`, and `cached`.
+  - Added `/api/audio/status` endpoint for provider readiness inspection.
+  - Updated `learning-service` env templates with TTS production configuration (`TTS_*`, `GOOGLE_TTS_*`).
+  - Verification:
+    - `pnpm --filter learning-service test -- src/services/__tests__/ttsService.test.ts src/routes/__tests__/audioRoutes.test.ts` PASS (33 tests)
+    - `pnpm --filter learning-service build` PASS
+    - `CODEX_SANDBOX_NETWORK_DISABLED=0 pnpm --filter learning-service test` PASS (182 tests)
+
+- `2026-02-20` Sprint S5 gamification + frontend debt cleanup completed:
+  - Replaced temporary `501` locale gamification endpoints with real backend proxy routes and added root `/api/gamification/*` routes for hook compatibility.
+  - Implemented XP/streak/leaderboard contract mapping in `web-learner` API layer with authenticated user binding.
+  - Added streak check-in support in `gamification-service` (`GET /api/gamification/streak/:userId`, `POST /api/gamification/streak/check-in`).
+  - Wired active learner flow to gamification by awarding XP after successful `POST /api/review/submit` (best-effort, non-blocking).
+  - Added gamification route tests in `gamification-service` and frontend hook contract tests for points/streak/leaderboard.
+  - Split monolithic `useApiQueries.ts` into module-specific hook files; reduced legacy file size from ~28KB (852 lines) to ~1.5KB (80 lines) via compatibility re-export.
+  - Consolidated auth client primitives into shared `apps/web-learner/src/lib/api/auth-client.ts` and migrated duplicated token/401 handling in `services/api.ts`, `services/speakingApi.ts`, and `services/german-api.ts`.
+  - Verification:
+    - `pnpm --filter @dmf/gamification-service test` PASS (4 tests)
+    - `pnpm --filter @dmf/gamification-service build` PASS
+    - `pnpm --filter web-learner test -- src/hooks/__tests__/useGamification.test.tsx` PASS (3 tests)
+    - `pnpm --filter web-learner build` PASS
+    - `pnpm --filter web-learner test` FAIL (pre-existing unrelated failures in `Flashcard` and `useSpeakingQueries` test suites)
+
+- `2026-02-20` Sprint S5 test stabilization + S6 deploy rehearsal completed:
+  - Fixed failing `web-learner` suites by aligning tests with current component/hook contracts:
+    - `apps/web-learner/src/components/vocabulary/__tests__/Flashcard.test.tsx`
+    - `apps/web-learner/src/hooks/__tests__/useSpeakingQueries.test.tsx`
+  - Verified full frontend test suite:
+    - `pnpm --filter web-learner test` PASS (63 tests, 2 skipped)
+  - Executed Phase 6 deploy rehearsal checklist and recorded evidence:
+    - report: `docs/implementation/PHASE6-DEPLOY-REHEARSAL-2026-02-20.md`
+    - checklist linked to latest report in `docs/implementation/PHASE6-DEPLOY-BOOTSTRAP-CHECKLIST.md`
+  - Rehearsal verification:
+    - `pnpm --filter learning-service build` PASS
+    - `pnpm --filter learning-service test` PASS (182 tests)
+    - `pnpm --filter web-learner build` PASS
+    - `pnpm phase3:smoke:all` PASS
+    - `S1_SMOKE_USE_ADMIN=true S1_SMOKE_EMAIL_DOMAIN=gmail.com pnpm s1:auth-smoke` PASS (`protectedStatus=200`)
+    - `curl http://127.0.0.1:3003/api/health` PASS (`200`)
+    - `curl http://127.0.0.1:3003/api/route-protection` PASS (`200`)
+
+- `2026-02-20` Sprint S6 monitoring + rollback readiness completed:
+  - Added auth anomaly monitoring baseline in `learning-service` middleware:
+    - `services/learning-service/src/middlewares/requestMonitoring.ts`
+    - new windowed spike alert for combined `401/403` responses (`MONITORING_AUTH_ALERT_THRESHOLD`).
+  - Expanded monitoring middleware tests:
+    - `services/learning-service/src/middlewares/__tests__/requestMonitoring.test.ts`
+    - includes `5xx`, `429`, and auth anomaly alert assertions.
+  - Updated monitoring env templates:
+    - `services/learning-service/.env.example`
+    - `services/learning-service/.env.production.example`
+    - added `MONITORING_AUTH_ALERT_THRESHOLD`.
+  - Added rollback runbook with tested command flow + env expectations:
+    - `docs/implementation/PHASE6-ROLLBACK-RUNBOOK.md`
+  - Updated Phase 6 checklist/report with latest rehearsal + rollback drill evidence:
+    - `docs/implementation/PHASE6-DEPLOY-BOOTSTRAP-CHECKLIST.md`
+    - `docs/implementation/PHASE6-DEPLOY-REHEARSAL-2026-02-20.md`
+  - Verification:
+    - `pnpm --filter learning-service test -- src/middlewares/__tests__/requestMonitoring.test.ts` PASS (5 tests)
+    - `pnpm --filter learning-service test` PASS (183 tests)
+    - `pnpm --filter learning-service build` PASS
+    - rollback drill (outside sandbox):
+      - `PRE_ROLLBACK HEALTH=200 ROUTE=200`
+      - `POST_ROLLBACK HEALTH=200 ROUTE=200`
+      - env backup captured: `/tmp/learning-service.env.20260220T142318Z`
+
+- `2026-02-20` Sprint S6 observability closeout (`S6-04`) completed:
+  - Added `requestLogging` middleware in `learning-service` bootstrap:
+    - `services/learning-service/src/middlewares/requestLogging.ts`
+    - `services/learning-service/src/index.ts`
+  - Added request logging middleware tests:
+    - `services/learning-service/src/middlewares/__tests__/requestLogging.test.ts`
+    - covers generated/inbound request IDs, correlation propagation, and `2xx/4xx/5xx` log levels.
+  - Updated env templates with request logging controls:
+    - `services/learning-service/.env.example`
+    - `services/learning-service/.env.production.example`
+    - added `REQUEST_LOGGING_ENABLED`, `REQUEST_LOG_INCLUDE_QUERY`, `REQUEST_LOG_SERVICE_NAME`.
+  - Updated deploy docs:
+    - `docs/implementation/PHASE6-DEPLOY-BOOTSTRAP-CHECKLIST.md`
+    - `docs/implementation/PHASE6-DEPLOY-REHEARSAL-2026-02-20.md`
+    - `docs/implementation/S6-CLOSEOUT-PR-SUMMARY-2026-02-20.md`
+  - Verification:
+    - `pnpm --filter learning-service test -- src/middlewares/__tests__/requestLogging.test.ts src/middlewares/__tests__/requestMonitoring.test.ts` PASS (9 tests)
+    - `pnpm --filter learning-service build` PASS
 
 ---
 

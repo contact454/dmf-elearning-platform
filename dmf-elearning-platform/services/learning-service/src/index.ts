@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import routes from './routes';
 import { createRateLimit, getRateLimitConfigFromEnv } from './middlewares/rateLimit';
+import { createRequestLogging, getRequestLoggingConfigFromEnv } from './middlewares/requestLogging';
 import { createRequestMonitoring, getMonitoringConfigFromEnv } from './middlewares/requestMonitoring';
 
 // Load environment variables
@@ -11,12 +12,14 @@ dotenv.config();
 const app: Application = express();
 const PORT = process.env.PORT || 3003;
 const rateLimitConfig = getRateLimitConfigFromEnv();
+const requestLoggingConfig = getRequestLoggingConfigFromEnv();
 const monitoringConfig = getMonitoringConfigFromEnv();
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(createRequestLogging(requestLoggingConfig));
 app.use(createRequestMonitoring(monitoringConfig));
 
 // API Routes
@@ -75,8 +78,13 @@ app.get('/', (req: Request, res: Response) => {
 app.use((req: Request, res: Response) => {
   res.status(404).json({
     success: false,
-    error: 'Endpoint not found',
-    path: req.path
+    error: {
+      code: 'NOT_FOUND',
+      message: 'Endpoint not found',
+      details: {
+        path: req.path,
+      },
+    },
   });
 });
 
@@ -85,8 +93,11 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   console.error('Unhandled error:', err);
   res.status(500).json({
     success: false,
-    error: 'Internal server error',
-    message: process.env.NODE_ENV === 'development' ? err.message : undefined
+    error: {
+      code: 'INTERNAL_ERROR',
+      message: 'Internal server error',
+      details: process.env.NODE_ENV === 'development' ? { message: err.message } : undefined,
+    },
   });
 });
 
