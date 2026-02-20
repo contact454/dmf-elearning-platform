@@ -2,11 +2,15 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { mockPrisma } = vi.hoisted(() => ({
   mockPrisma: {
+    $transaction: vi.fn(),
     userWordProgress: {
       findMany: vi.fn(),
       findUnique: vi.fn(),
       update: vi.fn(),
       count: vi.fn(),
+    },
+    vocabularyReviewAttempt: {
+      create: vi.fn(),
     },
   },
 }));
@@ -23,6 +27,7 @@ const TEST_WORD_ID = 'ckv1234567890abcdef123456';
 describe('reviewService', () => {
   beforeEach(() => {
     vi.clearAllMocks();
+    mockPrisma.$transaction.mockImplementation(async (operations: unknown[]) => Promise.all(operations as Promise<unknown>[]));
   });
 
   describe('getReviewQueue', () => {
@@ -93,6 +98,9 @@ describe('reviewService', () => {
           meaning_vi: 'nhà',
         },
       } as any);
+      mockPrisma.vocabularyReviewAttempt.create.mockResolvedValueOnce({
+        id: 'attempt-1',
+      } as any);
 
       const result = await submitReview(TEST_USER_ID, TEST_WORD_ID, 5);
 
@@ -105,6 +113,14 @@ describe('reviewService', () => {
         },
       });
       expect(mockPrisma.userWordProgress.update).toHaveBeenCalledTimes(1);
+      expect(mockPrisma.vocabularyReviewAttempt.create).toHaveBeenCalledWith({
+        data: {
+          userId: TEST_USER_ID,
+          wordId: TEST_WORD_ID,
+          quality: 5,
+          source: 'review',
+        },
+      });
       const updatePayload = mockPrisma.userWordProgress.update.mock.calls[0][0];
       expect(updatePayload.where.user_word_unique).toEqual({
         userId: TEST_USER_ID,

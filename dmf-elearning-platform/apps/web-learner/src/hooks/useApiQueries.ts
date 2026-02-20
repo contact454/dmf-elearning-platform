@@ -11,8 +11,6 @@ import {
   getVocabularyStats,
   VocabularyFilters,
   // SRS
-  getDueCards,
-  submitReview,
   getUserProgress,
   getVocabularyWithProgress,
   SRSRating,
@@ -161,6 +159,53 @@ export const queryKeys = {
   },
 };
 
+type ReviewQueueApiItem = {
+  id: string;
+  status: 'NEW' | 'LEARNING' | 'REVIEW' | 'MASTERED';
+  easeFactor: number;
+  intervalDays: number;
+  repetitions: number;
+  nextReview: string;
+  word: {
+    id: string;
+    word: string;
+    meaning_vi: string;
+    level: string;
+    topic?: string | null;
+    example_de?: string | null;
+    example_vi?: string | null;
+    pos?: string | null;
+    artikel?: string | null;
+    plural?: string | null;
+    gender?: string | null;
+    audioUrl?: string | null;
+    phoneticIpa?: string | null;
+    familyWords?: string[];
+    grammarTags?: string[];
+    source?: string | null;
+    addedAt?: string | null;
+    createdAt?: string;
+    updatedAt?: string;
+  };
+};
+
+type ReviewQueueResponse = {
+  success?: boolean;
+  data?: {
+    words?: ReviewQueueApiItem[];
+  };
+};
+
+function mapSrsRatingToQuality(rating: SRSRating): 1 | 3 | 4 | 5 {
+  const qualityMap: Record<SRSRating, 1 | 3 | 4 | 5> = {
+    0: 1,
+    1: 3,
+    2: 4,
+    3: 5,
+  };
+  return qualityMap[rating];
+}
+
 // ═══════════════════════════════════════════════════════════════
 // Vocabulary Hooks
 // ═══════════════════════════════════════════════════════════════
@@ -222,7 +267,50 @@ export function useDueCards(limit: number = 20, level?: string) {
 
   return useQuery({
     queryKey: queryKeys.srs.due(userId, level),
-    queryFn: () => getDueCards(userId, limit, level),
+    queryFn: async () => {
+      const response = await fetch('/api/review/queue');
+      if (!response.ok) {
+        throw new Error('Failed to fetch review queue');
+      }
+
+      const json = (await response.json()) as ReviewQueueResponse;
+      const words = json.data?.words ?? [];
+
+      return words
+        .slice(0, limit)
+        .filter((item) => !level || item.word.level?.toUpperCase() === level.toUpperCase())
+        .map((item) => ({
+          id: item.word.id,
+          word: item.word.word,
+          meaning_vi: item.word.meaning_vi,
+          level: item.word.level,
+          topic: item.word.topic ?? null,
+          example_de: item.word.example_de ?? null,
+          example_vi: item.word.example_vi ?? null,
+          pos: item.word.pos ?? null,
+          artikel: item.word.artikel ?? null,
+          plural: item.word.plural ?? null,
+          gender: item.word.gender ?? null,
+          audioUrl: item.word.audioUrl ?? null,
+          phoneticIpa: item.word.phoneticIpa ?? null,
+          familyWords: item.word.familyWords ?? [],
+          grammarTags: item.word.grammarTags ?? [],
+          source: item.word.source ?? null,
+          addedAt: item.word.addedAt ?? null,
+          createdAt: item.word.createdAt ?? new Date().toISOString(),
+          updatedAt: item.word.updatedAt ?? new Date().toISOString(),
+          progress: {
+            id: item.id,
+            userId,
+            wordId: item.word.id,
+            status: item.status,
+            easeFactor: item.easeFactor,
+            intervalDays: item.intervalDays,
+            repetitions: item.repetitions,
+            nextReview: item.nextReview,
+          },
+        }));
+    },
     enabled: !!userId,
   });
 }
@@ -249,11 +337,25 @@ export function useVocabularyWithProgress(filters: VocabularyFilters = {}) {
 
 export function useSubmitReview() {
   const queryClient = useQueryClient();
-  const { userId } = useUser();
 
   return useMutation({
-    mutationFn: ({ vocabId, rating }: { vocabId: string; rating: SRSRating }) =>
-      submitReview(userId, vocabId, rating),
+    mutationFn: async ({ vocabId, rating }: { vocabId: string; rating: SRSRating }) => {
+      const quality = mapSrsRatingToQuality(rating);
+      const response = await fetch('/api/review/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ wordId: vocabId, quality }),
+      });
+
+      if (!response.ok) {
+        const errorPayload = await response.json().catch(() => ({}));
+        throw new Error(errorPayload?.error || 'Failed to submit review');
+      }
+
+      return response.json();
+    },
     onSuccess: () => {
       // Invalidate due cards and progress after review
       queryClient.invalidateQueries({ queryKey: queryKeys.srs.all });

@@ -6,6 +6,9 @@ const { mockPrisma } = vi.hoisted(() => ({
       findMany: vi.fn(),
       count: vi.fn(),
     },
+    vocabularyReviewAttempt: {
+      count: vi.fn(),
+    },
     vocabularyItem: {
       count: vi.fn(),
     },
@@ -122,9 +125,9 @@ describe('HubService.getHubData', () => {
     mockPrisma.userWordProgress.count.mockImplementation(async (args: any) => {
       if (args?.where?.status === 'MASTERED') return 7;
       if (args?.where?.status === 'REVIEW') return 4;
-      if (args?.where?.updatedAt?.gte) return 9;
       return 0;
     });
+    mockPrisma.vocabularyReviewAttempt.count.mockResolvedValue(9);
     mockPrisma.userReadingProgress.count.mockImplementation(async (args: any) => {
       if (args?.where?.completedAt?.gte) return 1;
       return 3;
@@ -141,6 +144,9 @@ describe('HubService.getHubData', () => {
     mockPrisma.user.findUnique.mockResolvedValue({
       currentStreak: 8,
       longestStreak: 21,
+      dailyGoalVocabulary: 10,
+      dailyGoalReading: 1,
+      dailyGoalListening: 1,
     });
   });
 

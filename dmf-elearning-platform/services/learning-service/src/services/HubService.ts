@@ -67,9 +67,6 @@ export class HubService {
     listening: 1,
   };
 
-  // In-memory user goal config store (defaulted per user).
-  private static readonly dailyGoalConfigByUser = new Map<string, DailyGoalConfig>();
-
   static async getHubData(userId: string): Promise<HubData> {
     const [
       vocabProgress,
@@ -78,6 +75,7 @@ export class HubService {
       speakingProgress,
       writingProgress,
       dailyActivity,
+      dailyGoalConfig,
       totalXP,
       streaks,
       summaryStats,
@@ -88,6 +86,7 @@ export class HubService {
       this.getSpeakingProgress(userId),
       this.getWritingProgress(userId),
       this.getDailyActivity(userId),
+      this.getDailyGoalConfig(userId),
       this.calculateTotalXP(userId),
       this.calculateStreaks(userId),
       this.getHubSummary(userId),
@@ -101,7 +100,7 @@ export class HubService {
       writingProgress,
     ];
 
-    const dailyGoals = this.calculateDailyGoals(userId, dailyActivity);
+    const dailyGoals = this.calculateDailyGoals(dailyActivity, dailyGoalConfig);
     const recommendedActivity = this.getRecommendedActivity(skillProgress, dailyGoals);
 
     return {
@@ -317,11 +316,10 @@ export class HubService {
 
     try {
       const [vocabulary, reading, listening] = await Promise.all([
-        prisma.userWordProgress.count({
+        prisma.vocabularyReviewAttempt.count({
           where: {
             userId,
-            updatedAt: { gte: today },
-            totalReviews: { gt: 0 },
+            createdAt: { gte: today },
           },
         }),
         prisma.userReadingProgress.count({
@@ -347,8 +345,10 @@ export class HubService {
     }
   }
 
-  private static calculateDailyGoals(userId: string, dailyActivity: DailyActivity): DailyGoal[] {
-    const config = this.getDailyGoalConfig(userId);
+  private static calculateDailyGoals(
+    dailyActivity: DailyActivity,
+    config: DailyGoalConfig
+  ): DailyGoal[] {
     return [
       {
         type: 'vocabulary',
@@ -374,15 +374,32 @@ export class HubService {
     ];
   }
 
-  private static getDailyGoalConfig(userId: string): DailyGoalConfig {
-    const existing = this.dailyGoalConfigByUser.get(userId);
-    if (existing) {
-      return existing;
+  private static async getDailyGoalConfig(userId: string): Promise<DailyGoalConfig> {
+    const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: {
+        dailyGoalVocabulary: true,
+        dailyGoalReading: true,
+        dailyGoalListening: true,
+      },
+    });
+
+    if (!user) {
+      return { ...this.defaultDailyGoalConfig };
     }
 
-    const config = { ...this.defaultDailyGoalConfig };
-    this.dailyGoalConfigByUser.set(userId, config);
-    return config;
+    return {
+      vocabulary:
+        user.dailyGoalVocabulary > 0
+          ? user.dailyGoalVocabulary
+          : this.defaultDailyGoalConfig.vocabulary,
+      reading:
+        user.dailyGoalReading > 0 ? user.dailyGoalReading : this.defaultDailyGoalConfig.reading,
+      listening:
+        user.dailyGoalListening > 0
+          ? user.dailyGoalListening
+          : this.defaultDailyGoalConfig.listening,
+    };
   }
 
   private static async calculateSkillStreak(_userId: string, _skill: string): Promise<number> {
