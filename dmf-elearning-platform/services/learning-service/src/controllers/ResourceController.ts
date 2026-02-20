@@ -1,7 +1,52 @@
 import { Request, Response } from 'express';
+import { z } from 'zod';
 import { ResourceService } from '../services/ResourceService';
 
 const resourceService = new ResourceService();
+
+const levelParamSchema = z.object({
+  level: z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']),
+});
+
+const topicParamSchema = z.object({
+  level: z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']),
+  topic: z.string().trim().min(1),
+});
+
+const clearCacheSchema = z.object({
+  key: z.string().trim().min(1).optional(),
+});
+
+function validationError(res: Response, message: string, details?: unknown) {
+  return res.status(400).json({
+    success: false,
+    error: {
+      code: 'VALIDATION_ERROR',
+      message,
+      details,
+    },
+  });
+}
+
+function notFoundError(res: Response, message: string) {
+  return res.status(404).json({
+    success: false,
+    error: {
+      code: 'RESOURCE_NOT_FOUND',
+      message,
+    },
+  });
+}
+
+function internalError(res: Response, message: string) {
+  return res.status(500).json({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  });
+}
 
 export class ResourceController {
   /**
@@ -21,11 +66,7 @@ export class ResourceController {
       });
     } catch (error) {
       console.error('Error fetching levels:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch levels',
-        message: error instanceof Error ? error.message : 'Unknown error'
-      });
+      return internalError(res, 'Failed to fetch levels');
     }
   }
 
@@ -35,15 +76,7 @@ export class ResourceController {
    */
   static async getTopics(req: Request, res: Response) {
     try {
-      const level = Array.isArray(req.params.level) ? req.params.level[0] : req.params.level;
-
-      // Validate level format
-      if (!/^[ABC][12]$/.test(level)) {
-        return res.status(400).json({
-          success: false,
-          error: 'Invalid level format. Must be A1, A2, B1, B2, C1, or C2'
-        });
-      }
+      const { level } = levelParamSchema.parse(req.params);
 
       const topics = await resourceService.getTopics(level);
 
@@ -55,20 +88,16 @@ export class ResourceController {
           count: topics.length
         }
       });
-    } catch (error) {
+    } catch (error: unknown) {
+      if (error instanceof z.ZodError) {
+        return validationError(res, 'Invalid level parameter', error.issues);
+      }
       if (error instanceof Error && error.message.includes('not found')) {
-        return res.status(404).json({
-          success: false,
-          error: error.message
-        });
+        return notFoundError(res, error.message);
       }
 
       console.error('Error fetching topics:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch topics',
-        message: error instanceof Error ? error.message : 'Unknown error'
-      });
+      return internalError(res, 'Failed to fetch topics');
     }
   }
 
@@ -78,16 +107,7 @@ export class ResourceController {
    */
   static async getTopicData(req: Request, res: Response) {
     try {
-      const level = Array.isArray(req.params.level) ? req.params.level[0] : req.params.level;
-      const topic = Array.isArray(req.params.topic) ? req.params.topic[0] : req.params.topic;
-
-      // Validate level format
-      if (!/^[ABC][12]$/.test(level)) {
-        return res.status(400).json({
-          success: false,
-          error: 'Invalid level format. Must be A1, A2, B1, B2, C1, or C2'
-        });
-      }
+      const { level, topic } = topicParamSchema.parse(req.params);
 
       const topicData = await resourceService.getTopicData(level, topic);
 
@@ -95,20 +115,16 @@ export class ResourceController {
         success: true,
         data: topicData
       });
-    } catch (error) {
+    } catch (error: unknown) {
+      if (error instanceof z.ZodError) {
+        return validationError(res, 'Invalid level/topic parameters', error.issues);
+      }
       if (error instanceof Error && error.message.includes('not found')) {
-        return res.status(404).json({
-          success: false,
-          error: error.message
-        });
+        return notFoundError(res, error.message);
       }
 
       console.error('Error fetching topic data:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch topic data',
-        message: error instanceof Error ? error.message : 'Unknown error'
-      });
+      return internalError(res, 'Failed to fetch topic data');
     }
   }
 
@@ -118,15 +134,7 @@ export class ResourceController {
    */
   static async getLevelSummary(req: Request, res: Response) {
     try {
-      const level = Array.isArray(req.params.level) ? req.params.level[0] : req.params.level;
-
-      // Validate level format
-      if (!/^[ABC][12]$/.test(level)) {
-        return res.status(400).json({
-          success: false,
-          error: 'Invalid level format. Must be A1, A2, B1, B2, C1, or C2'
-        });
-      }
+      const { level } = levelParamSchema.parse(req.params);
 
       const summary = await resourceService.getLevelSummary(level);
 
@@ -134,20 +142,16 @@ export class ResourceController {
         success: true,
         data: summary
       });
-    } catch (error) {
+    } catch (error: unknown) {
+      if (error instanceof z.ZodError) {
+        return validationError(res, 'Invalid level parameter', error.issues);
+      }
       if (error instanceof Error && error.message.includes('not found')) {
-        return res.status(404).json({
-          success: false,
-          error: error.message
-        });
+        return notFoundError(res, error.message);
       }
 
       console.error('Error fetching level summary:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch level summary',
-        message: error instanceof Error ? error.message : 'Unknown error'
-      });
+      return internalError(res, 'Failed to fetch level summary');
     }
   }
 
@@ -157,20 +161,20 @@ export class ResourceController {
    */
   static async clearCache(req: Request, res: Response) {
     try {
-      const { key } = req.body;
+      const payload = clearCacheSchema.parse(req.body ?? {});
+      const key = payload.key;
       resourceService.clearCache(key);
 
       return res.status(200).json({
         success: true,
         message: key ? `Cache cleared for key: ${key}` : 'All cache cleared'
       });
-    } catch (error) {
+    } catch (error: unknown) {
+      if (error instanceof z.ZodError) {
+        return validationError(res, 'Invalid clear-cache payload', error.issues);
+      }
       console.error('Error clearing cache:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to clear cache',
-        message: error instanceof Error ? error.message : 'Unknown error'
-      });
+      return internalError(res, 'Failed to clear cache');
     }
   }
 }

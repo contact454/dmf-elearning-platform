@@ -287,6 +287,12 @@ describe('Core loop protected routes', () => {
     );
 
     expect(res.statusCode).toBe(400);
+    expect(res.body).toMatchObject({
+      success: false,
+      error: {
+        code: 'VALIDATION_ERROR',
+      },
+    });
     expect(HubService.updateDailyGoals).not.toHaveBeenCalled();
   });
 });
