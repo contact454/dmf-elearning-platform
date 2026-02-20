@@ -328,6 +328,7 @@
     - `scripts/deploy/learning-service-release.sh`
     - `scripts/deploy/learning-service-smoke.sh`
     - `package.json` scripts: `deploy:learning-service`, `smoke:learning-service`
+    - `learning-service` TypeScript build step is currently advisory (`continue-on-error`) until legacy type debt on `main` is cleared.
   - Item 3: production auth UX pass re-verified:
     - `vercel curl .../en/auth/login` -> `200`
     - `vercel curl .../en/auth/register` -> `200`
