@@ -1,0 +1,76 @@
+name: Backend Learning-Service Monitoring Router
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  monitor-learning-service:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: dmf-elearning-platform/services/learning-service
+    env:
+      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      RAILWAY_PROJECT_ID: ${{ secrets.RAILWAY_PROJECT_ID }}
+      ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Railway CLI
+        run: npm install -g @railway/cli
+
+      - name: Link Railway project
+        run: railway link "${RAILWAY_PROJECT_ID}"
+
+      - name: Fetch recent logs
+        id: logs
+        run: |
+          railway logs -s learning-service --lines 300 > /tmp/learning-service.logs || true
+          five_xx_count=$(grep -c "\[monitoring\] 5xx spike detected" /tmp/learning-service.logs || true)
+          four_two_nine_count=$(grep -c "\[monitoring\] 429 spike detected" /tmp/learning-service.logs || true)
+          auth_spike_count=$(grep -c "\[monitoring\] auth anomaly detected" /tmp/learning-service.logs || true)
+          echo "five_xx_count=$five_xx_count" >> "$GITHUB_OUTPUT"
+          echo "four_two_nine_count=$four_two_nine_count" >> "$GITHUB_OUTPUT"
+          echo "auth_spike_count=$auth_spike_count" >> "$GITHUB_OUTPUT"
+          echo "five_xx_count=$five_xx_count"
+          echo "four_two_nine_count=$four_two_nine_count"
+          echo "auth_spike_count=$auth_spike_count"
+
+      - name: Route alert to webhook
+        if: ${{ steps.logs.outputs.five_xx_count != '0' || steps.logs.outputs.four_two_nine_count != '0' || steps.logs.outputs.auth_spike_count != '0' }}
+        run: |
+          if [ -z "${ALERT_WEBHOOK_URL}" ]; then
+            echo "ALERT_WEBHOOK_URL is not configured"
+            exit 1
+          fi
+          payload=$(cat <<'JSON'
+          {
+            "text": "DMF learning-service monitoring spikes detected",
+            "details": {
+              "service": "learning-service",
+              "five_xx_count": "__FIVE_XX__",
+              "four_two_nine_count": "__FOUR_TWO_NINE__",
+              "auth_spike_count": "__AUTH_SPIKE__",
+              "timestamp_utc": "__TIMESTAMP__"
+            }
+          }
+          JSON
+          )
+          payload="${payload/__FIVE_XX__/${{ steps.logs.outputs.five_xx_count }}}"
+          payload="${payload/__FOUR_TWO_NINE__/${{ steps.logs.outputs.four_two_nine_count }}}"
+          payload="${payload/__AUTH_SPIKE__/${{ steps.logs.outputs.auth_spike_count }}}"
+          payload="${payload/__TIMESTAMP__/$(date -u +%Y-%m-%dT%H:%M:%SZ)}"
+          curl -sS -X POST "$ALERT_WEBHOOK_URL" -H "Content-Type: application/json" -d "$payload"
+
+      - name: Publish summary
+        run: |
+          {
+            echo "### Learning-Service Monitoring Snapshot"
+            echo "- 5xx spikes: ${{ steps.logs.outputs.five_xx_count }}"
+            echo "- 429 spikes: ${{ steps.logs.outputs.four_two_nine_count }}"
+            echo "- Auth spikes: ${{ steps.logs.outputs.auth_spike_count }}"
+          } >> "$GITHUB_STEP_SUMMARY"
