@@ -20,7 +20,7 @@ SERVICE_DIR="${REPO_ROOT}/services/learning-service"
 cd "${SERVICE_DIR}"
 
 if [[ -n "${RAILWAY_PROJECT_ID:-}" ]]; then
-  railway link "${RAILWAY_PROJECT_ID}" >/dev/null
+  railway link -p "${RAILWAY_PROJECT_ID}" >/dev/null
 fi
 
 railway variable set -s learning-service \
