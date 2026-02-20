@@ -1,7 +1,91 @@
 import { Request, Response } from 'express';
+import { z } from 'zod';
 import { VocabularyService } from '../services/VocabularyService';
 
 const vocabularyService = new VocabularyService();
+
+const listQuerySchema = z.object({
+  level: z.string().trim().optional(),
+  topic: z.string().trim().optional(),
+  pos: z.string().trim().optional(),
+  search: z.string().trim().optional(),
+  limit: z.coerce.number().int().min(1).max(200).optional().default(50),
+  offset: z.coerce.number().int().min(0).optional().default(0),
+});
+
+const randomQuerySchema = z.object({
+  count: z.coerce.number().int().min(1).max(100).optional().default(10),
+  level: z.string().trim().optional(),
+});
+
+const topicsQuerySchema = z.object({
+  level: z.string().trim().optional(),
+});
+
+const deleteManySchema = z.object({
+  ids: z.array(z.string().trim().min(1)).min(1).max(500),
+});
+
+const dueCardsQuerySchema = z.object({
+  limit: z.coerce.number().int().min(1).max(100).optional().default(20),
+  level: z.string().trim().optional(),
+});
+
+const submitReviewSchema = z.object({
+  vocabId: z.string().trim().min(1),
+  rating: z.number().int().min(0).max(3),
+});
+
+const withProgressQuerySchema = z.object({
+  level: z.string().trim().optional(),
+  topic: z.string().trim().optional(),
+  pos: z.string().trim().optional(),
+  search: z.string().trim().optional(),
+  limit: z.coerce.number().int().min(1).max(200).optional().default(50),
+  offset: z.coerce.number().int().min(0).optional().default(0),
+});
+
+function asString(value: unknown): string | undefined {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
+  return undefined;
+}
+
+function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
+  const userId = req.user?.id;
+  if (!userId) {
+    res.status(401).json({
+      success: false,
+      error: {
+        code: 'AUTH_MISSING_CONTEXT',
+        message: 'Missing authenticated user context',
+      },
+    });
+    return undefined;
+  }
+  return userId;
+}
+
+function sendValidationError(res: Response, message: string, details?: unknown) {
+  return res.status(400).json({
+    success: false,
+    error: {
+      code: 'VALIDATION_ERROR',
+      message,
+      ...(details ? { details } : {}),
+    },
+  });
+}
+
+function sendInternalError(res: Response, message: string) {
+  return res.status(500).json({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  });
+}
 
 export class VocabularyController {
   /**
@@ -10,15 +94,14 @@ export class VocabularyController {
    */
   static async list(req: Request, res: Response) {
     try {
-      const { level, topic, pos, search, limit, offset } = req.query;
-
+      const query = listQuerySchema.parse(req.query);
       const result = await vocabularyService.getVocabulary({
-        level: level as string,
-        topic: topic as string,
-        pos: pos as string,
-        search: search as string,
-        limit: limit ? parseInt(limit as string, 10) : 50,
-        offset: offset ? parseInt(offset as string, 10) : 0,
+        level: query.level,
+        topic: query.topic,
+        pos: query.pos,
+        search: query.search,
+        limit: query.limit,
+        offset: query.offset,
       });
 
       return res.status(200).json({
@@ -26,17 +109,16 @@ export class VocabularyController {
         data: result.items,
         pagination: {
           total: result.total,
-          limit: limit ? parseInt(limit as string, 10) : 50,
-          offset: offset ? parseInt(offset as string, 10) : 0,
+          limit: query.limit,
+          offset: query.offset,
         },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid vocabulary list query', error.issues);
+      }
       console.error('Error listing vocabulary:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch vocabulary',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch vocabulary');
     }
   }
 
@@ -46,11 +128,8 @@ export class VocabularyController {
    */
   static async random(req: Request, res: Response) {
     try {
-      const { count, level } = req.query;
-      const items = await vocabularyService.getRandom(
-        count ? parseInt(count as string, 10) : 10,
-        level as string
-      );
+      const query = randomQuerySchema.parse(req.query);
+      const items = await vocabularyService.getRandom(query.count, query.level);
 
       return res.status(200).json({
         success: true,
@@ -58,12 +137,11 @@ export class VocabularyController {
         count: items.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid random vocabulary query', error.issues);
+      }
       console.error('Error fetching random vocabulary:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch random vocabulary',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch random vocabulary');
     }
   }
 
@@ -81,11 +159,7 @@ export class VocabularyController {
       });
     } catch (error) {
       console.error('Error fetching stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch statistics',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch statistics');
     }
   }
 
@@ -104,11 +178,7 @@ export class VocabularyController {
       });
     } catch (error) {
       console.error('Error fetching levels:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch levels',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch levels');
     }
   }
 
@@ -118,8 +188,8 @@ export class VocabularyController {
    */
   static async topics(req: Request, res: Response) {
     try {
-      const { level } = req.query;
-      const topics = await vocabularyService.getTopics(level as string);
+      const query = topicsQuerySchema.parse(req.query);
+      const topics = await vocabularyService.getTopics(query.level);
 
       return res.status(200).json({
         success: true,
@@ -127,12 +197,11 @@ export class VocabularyController {
         count: topics.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid topics query', error.issues);
+      }
       console.error('Error fetching topics:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch topics',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch topics');
     }
   }
 
@@ -142,13 +211,20 @@ export class VocabularyController {
    */
   static async getById(req: Request, res: Response) {
     try {
-      const id = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
+      const id = asString(req.params.id);
+      if (!id) {
+        return sendValidationError(res, 'Missing vocabulary id');
+      }
+
       const item = await vocabularyService.getById(id);
 
       if (!item) {
         return res.status(404).json({
           success: false,
-          error: 'Vocabulary not found',
+          error: {
+            code: 'NOT_FOUND',
+            message: 'Vocabulary not found',
+          },
         });
       }
 
@@ -158,11 +234,7 @@ export class VocabularyController {
       });
     } catch (error) {
       console.error('Error fetching vocabulary:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch vocabulary',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch vocabulary');
     }
   }
 
@@ -172,13 +244,20 @@ export class VocabularyController {
    */
   static async getByWord(req: Request, res: Response) {
     try {
-      const word = Array.isArray(req.params.word) ? req.params.word[0] : req.params.word;
+      const word = asString(req.params.word);
+      if (!word) {
+        return sendValidationError(res, 'Missing word parameter');
+      }
+
       const item = await vocabularyService.getByWord(word);
 
       if (!item) {
         return res.status(404).json({
           success: false,
-          error: `Word "${word}" not found`,
+          error: {
+            code: 'NOT_FOUND',
+            message: `Word "${word}" not found`,
+          },
         });
       }
 
@@ -188,11 +267,7 @@ export class VocabularyController {
       });
     } catch (error) {
       console.error('Error fetching vocabulary:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch vocabulary',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch vocabulary');
     }
   }
 
@@ -202,13 +277,20 @@ export class VocabularyController {
    */
   static async deleteById(req: Request, res: Response) {
     try {
-      const id = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
+      const id = asString(req.params.id);
+      if (!id) {
+        return sendValidationError(res, 'Missing vocabulary id');
+      }
+
       const success = await vocabularyService.deleteById(id);
 
       if (!success) {
         return res.status(404).json({
           success: false,
-          error: 'Vocabulary not found',
+          error: {
+            code: 'NOT_FOUND',
+            message: 'Vocabulary not found',
+          },
         });
       }
 
@@ -218,11 +300,7 @@ export class VocabularyController {
       });
     } catch (error) {
       console.error('Error deleting vocabulary:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to delete vocabulary',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to delete vocabulary');
     }
   }
 
@@ -232,16 +310,8 @@ export class VocabularyController {
    */
   static async deleteMany(req: Request, res: Response) {
     try {
-      const { ids } = req.body;
-
-      if (!ids || !Array.isArray(ids) || ids.length === 0) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing or invalid ids array',
-        });
-      }
-
-      const deletedCount = await vocabularyService.deleteMany(ids);
+      const payload = deleteManySchema.parse(req.body);
+      const deletedCount = await vocabularyService.deleteMany(payload.ids);
 
       return res.status(200).json({
         success: true,
@@ -249,12 +319,11 @@ export class VocabularyController {
         message: `Deleted ${deletedCount} vocabulary items`,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid delete-many payload', error.issues);
+      }
       console.error('Error deleting vocabulary:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to delete vocabulary',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to delete vocabulary');
     }
   }
 
@@ -268,19 +337,16 @@ export class VocabularyController {
    */
   static async getDueCards(req: Request, res: Response) {
     try {
-      const { userId, limit, level } = req.query;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing userId parameter',
-        });
+        return;
       }
+      const query = dueCardsQuerySchema.parse(req.query);
 
       const items = await vocabularyService.getDueCards(
-        userId as string,
-        limit ? parseInt(limit as string, 10) : 20,
-        level as string
+        userId,
+        query.limit,
+        query.level
       );
 
       return res.status(200).json({
@@ -289,12 +355,11 @@ export class VocabularyController {
         count: items.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid due-cards query', error.issues);
+      }
       console.error('Error fetching due cards:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch due cards',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch due cards');
     }
   }
 
@@ -304,23 +369,13 @@ export class VocabularyController {
    */
   static async submitReview(req: Request, res: Response) {
     try {
-      const { userId, vocabId, rating } = req.body;
-
-      if (!userId || !vocabId || rating === undefined) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required fields: userId, vocabId, rating',
-        });
+      const userId = getAuthenticatedUserId(req, res);
+      if (!userId) {
+        return;
       }
+      const payload = submitReviewSchema.parse(req.body);
 
-      if (rating < 0 || rating > 3) {
-        return res.status(400).json({
-          success: false,
-          error: 'Rating must be between 0 and 3 (0=Again, 1=Hard, 2=Good, 3=Easy)',
-        });
-      }
-
-      const progress = await vocabularyService.submitReview(userId, vocabId, rating);
+      const progress = await vocabularyService.submitReview(userId, payload.vocabId, payload.rating);
 
       return res.status(200).json({
         success: true,
@@ -328,12 +383,11 @@ export class VocabularyController {
         message: 'Review submitted successfully',
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid review payload', error.issues);
+      }
       console.error('Error submitting review:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to submit review',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to submit review');
     }
   }
 
@@ -343,13 +397,9 @@ export class VocabularyController {
    */
   static async getUserProgress(req: Request, res: Response) {
     try {
-      const userId = req.params.userId;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing userId parameter',
-        });
+        return;
       }
 
       const stats = await vocabularyService.getUserProgress(userId);
@@ -360,11 +410,7 @@ export class VocabularyController {
       });
     } catch (error) {
       console.error('Error fetching user progress:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch user progress',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch user progress');
     }
   }
 
@@ -374,24 +420,21 @@ export class VocabularyController {
    */
   static async listWithProgress(req: Request, res: Response) {
     try {
-      const { userId, level, topic, pos, search, limit, offset } = req.query;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing userId parameter',
-        });
+        return;
       }
+      const query = withProgressQuerySchema.parse(req.query);
 
       const result = await vocabularyService.getVocabularyWithProgress(
-        userId as string,
+        userId,
         {
-          level: level as string,
-          topic: topic as string,
-          pos: pos as string,
-          search: search as string,
-          limit: limit ? parseInt(limit as string, 10) : 50,
-          offset: offset ? parseInt(offset as string, 10) : 0,
+          level: query.level,
+          topic: query.topic,
+          pos: query.pos,
+          search: query.search,
+          limit: query.limit,
+          offset: query.offset,
         }
       );
 
@@ -400,17 +443,17 @@ export class VocabularyController {
         data: result.items,
         pagination: {
           total: result.total,
-          limit: limit ? parseInt(limit as string, 10) : 50,
-          offset: offset ? parseInt(offset as string, 10) : 0,
+          limit: query.limit,
+          offset: query.offset,
         },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid vocabulary-with-progress query', error.issues);
+      }
       console.error('Error listing vocabulary with progress:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch vocabulary with progress',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch vocabulary with progress');
     }
   }
 }
+

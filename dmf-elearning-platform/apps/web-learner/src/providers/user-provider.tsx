@@ -1,6 +1,7 @@
 'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { useAuth } from './auth-provider';
 
 // ═══════════════════════════════════════════════════════════════
 // Types
@@ -30,17 +31,6 @@ interface UserContextType {
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
 
-// Demo user for development
-const DEMO_USER: User = {
-  id: 'demo-user-001',
-  name: 'Demo Learner',
-  email: 'demo@dmf-learning.com',
-  level: 'A1',
-  avatar: undefined,
-};
-
-const USER_STORAGE_KEY = 'dmf-user';
-
 // ═══════════════════════════════════════════════════════════════
 // Provider
 // ═══════════════════════════════════════════════════════════════
@@ -50,40 +40,26 @@ interface UserProviderProps {
 }
 
 export function UserProvider({ children }: UserProviderProps) {
+  const { user: authUser, isLoading: isAuthLoading, isAuthenticated } = useAuth();
   const [user, setUserState] = useState<User | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
 
-  // Load user from localStorage on mount
   useEffect(() => {
-    const loadUser = () => {
-      try {
-        const stored = localStorage.getItem(USER_STORAGE_KEY);
-        if (stored) {
-          const parsed = JSON.parse(stored);
-          setUserState(parsed);
-        } else {
-          // Default to demo user for now
-          setUserState(DEMO_USER);
-          localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(DEMO_USER));
-        }
-      } catch (error) {
-        console.warn('Failed to load user from storage:', error);
-        setUserState(DEMO_USER);
-      } finally {
-        setIsLoading(false);
-      }
-    };
+    if (!authUser) {
+      setUserState(null);
+      return;
+    }
 
-    loadUser();
-  }, []);
+    setUserState({
+      id: authUser.id,
+      email: authUser.email,
+      name: authUser.name || authUser.email,
+      level: authUser.level || 'A1',
+      avatar: authUser.avatar,
+    });
+  }, [authUser]);
 
   const setUser = (newUser: User | null) => {
     setUserState(newUser);
-    if (newUser) {
-      localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(newUser));
-    } else {
-      localStorage.removeItem(USER_STORAGE_KEY);
-    }
   };
 
   const login = (userId: string) => {
@@ -100,16 +76,13 @@ export function UserProvider({ children }: UserProviderProps) {
 
   const logout = () => {
     setUser(null);
-    // Reset to demo user
-    setUserState(DEMO_USER);
-    localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(DEMO_USER));
   };
 
   const value: UserContextType = {
     user,
-    userId: user?.id || DEMO_USER.id,
-    isLoading,
-    isAuthenticated: !!user && user.id !== DEMO_USER.id,
+    userId: user?.id || '',
+    isLoading: isAuthLoading,
+    isAuthenticated: isAuthenticated && !!user?.id,
     setUser,
     login,
     logout,
@@ -131,4 +104,4 @@ export function useUser() {
 }
 
 // Export the demo user ID for backwards compatibility
-export const DEMO_USER_ID = DEMO_USER.id;
+export const DEMO_USER_ID = '';

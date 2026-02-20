@@ -1,4 +1,4 @@
-import { PrismaClient, Vocabulary, UserVocabularyProgress } from '@prisma/client';
+import { PrismaClient, VocabularyItem, UserWordProgress, ReviewStatus } from '@prisma/client';
 import {
   calculateNextReview,
   mapRatingToQuality,
@@ -24,8 +24,8 @@ export interface VocabularyStats {
   byTopic: { topic: string; count: number }[];
 }
 
-export interface VocabularyWithProgress extends Vocabulary {
-  progress?: UserVocabularyProgress | null;
+export interface VocabularyWithProgress extends VocabularyItem {
+  progress?: UserWordProgress | null;
 }
 
 export interface UserProgressStats extends LearningStats {
@@ -34,10 +34,38 @@ export interface UserProgressStats extends LearningStats {
 }
 
 export class VocabularyService {
+  private mapStatusToLearningStatus(status: ReviewStatus): 'new' | 'learning' | 'review' | 'mastered' {
+    switch (status) {
+      case 'NEW':
+        return 'new';
+      case 'LEARNING':
+        return 'learning';
+      case 'MASTERED':
+        return 'mastered';
+      case 'REVIEW':
+      default:
+        return 'review';
+    }
+  }
+
+  private mapLearningStatusToReviewStatus(status: 'new' | 'learning' | 'review' | 'mastered'): ReviewStatus {
+    switch (status) {
+      case 'new':
+        return 'NEW';
+      case 'learning':
+        return 'LEARNING';
+      case 'mastered':
+        return 'MASTERED';
+      case 'review':
+      default:
+        return 'REVIEW';
+    }
+  }
+
   /**
    * Get vocabulary with optional filters and pagination
    */
-  async getVocabulary(filters: VocabularyFilters): Promise<{ items: Vocabulary[]; total: number }> {
+  async getVocabulary(filters: VocabularyFilters): Promise<{ items: VocabularyItem[]; total: number }> {
     const where: any = {};
 
     if (filters.level) {
@@ -57,13 +85,13 @@ export class VocabularyService {
     }
 
     const [items, total] = await Promise.all([
-      prisma.vocabulary.findMany({
+      prisma.vocabularyItem.findMany({
         where,
         take: filters.limit || 50,
         skip: filters.offset || 0,
         orderBy: { word: 'asc' },
       }),
-      prisma.vocabulary.count({ where }),
+      prisma.vocabularyItem.count({ where }),
     ]);
 
     return { items, total };
@@ -72,28 +100,28 @@ export class VocabularyService {
   /**
    * Get single vocabulary by ID
    */
-  async getById(id: string): Promise<Vocabulary | null> {
-    return prisma.vocabulary.findUnique({ where: { id } });
+  async getById(id: string): Promise<VocabularyItem | null> {
+    return prisma.vocabularyItem.findUnique({ where: { id } });
   }
 
   /**
    * Get single vocabulary by word
    */
-  async getByWord(word: string): Promise<Vocabulary | null> {
-    return prisma.vocabulary.findUnique({ where: { word } });
+  async getByWord(word: string): Promise<VocabularyItem | null> {
+    return prisma.vocabularyItem.findUnique({ where: { word } });
   }
 
   /**
    * Get random vocabulary for flashcard practice
    */
-  async getRandom(count: number = 10, level?: string): Promise<Vocabulary[]> {
+  async getRandom(count: number = 10, level?: string): Promise<VocabularyItem[]> {
     const where: any = {};
     if (level) {
       where.level = level.toUpperCase();
     }
 
     // Get total count for random selection
-    const total = await prisma.vocabulary.count({ where });
+    const total = await prisma.vocabularyItem.count({ where });
     if (total === 0) return [];
 
     // Generate random offsets
@@ -106,11 +134,11 @@ export class VocabularyService {
     // Fetch items at random offsets
     const items = await Promise.all(
       Array.from(randomOffsets).map(offset =>
-        prisma.vocabulary.findFirst({ where, skip: offset })
+        prisma.vocabularyItem.findFirst({ where, skip: offset })
       )
     );
 
-    return items.filter((item): item is Vocabulary => item !== null);
+    return items.filter((item): item is VocabularyItem => item !== null);
   }
 
   /**
@@ -118,20 +146,20 @@ export class VocabularyService {
    */
   async getStats(): Promise<VocabularyStats> {
     const [total, byLevel, byPos, byTopic] = await Promise.all([
-      prisma.vocabulary.count(),
-      prisma.vocabulary.groupBy({
+      prisma.vocabularyItem.count(),
+      prisma.vocabularyItem.groupBy({
         by: ['level'],
-        _count: true,
+        _count: { level: true },
         orderBy: { level: 'asc' },
       }),
-      prisma.vocabulary.groupBy({
+      prisma.vocabularyItem.groupBy({
         by: ['pos'],
-        _count: true,
+        _count: { pos: true },
         orderBy: { _count: { pos: 'desc' } },
       }),
-      prisma.vocabulary.groupBy({
+      prisma.vocabularyItem.groupBy({
         by: ['topic'],
-        _count: true,
+        _count: { topic: true },
         orderBy: { _count: { topic: 'desc' } },
         take: 20,
       }),
@@ -139,13 +167,13 @@ export class VocabularyService {
 
     return {
       total,
-      byLevel: byLevel.map(l => ({ level: l.level, count: l._count })),
+      byLevel: byLevel.map(l => ({ level: l.level, count: l._count.level })),
       byPos: byPos
         .filter(p => p.pos !== null)
-        .map(p => ({ pos: p.pos!, count: p._count })),
+        .map(p => ({ pos: p.pos!, count: p._count.pos })),
       byTopic: byTopic
         .filter(t => t.topic !== null)
-        .map(t => ({ topic: t.topic!, count: t._count })),
+        .map(t => ({ topic: t.topic!, count: t._count.topic })),
     };
   }
 
@@ -153,7 +181,7 @@ export class VocabularyService {
    * Get all unique levels
    */
   async getLevels(): Promise<string[]> {
-    const result = await prisma.vocabulary.findMany({
+    const result = await prisma.vocabularyItem.findMany({
       distinct: ['level'],
       select: { level: true },
       orderBy: { level: 'asc' },
@@ -170,7 +198,7 @@ export class VocabularyService {
       where.level = level.toUpperCase();
     }
 
-    const result = await prisma.vocabulary.findMany({
+    const result = await prisma.vocabularyItem.findMany({
       where,
       distinct: ['topic'],
       select: { topic: true },
@@ -185,7 +213,7 @@ export class VocabularyService {
    */
   async deleteById(id: string): Promise<boolean> {
     try {
-      await prisma.vocabulary.delete({ where: { id } });
+      await prisma.vocabularyItem.delete({ where: { id } });
       return true;
     } catch {
       return false;
@@ -196,7 +224,7 @@ export class VocabularyService {
    * Delete multiple vocabulary by IDs
    */
   async deleteMany(ids: string[]): Promise<number> {
-    const result = await prisma.vocabulary.deleteMany({
+    const result = await prisma.vocabularyItem.deleteMany({
       where: { id: { in: ids } },
     });
     return result.count;
@@ -218,28 +246,25 @@ export class VocabularyService {
     now.setHours(0, 0, 0, 0);
 
     // Get existing progress records that are due
-    const dueProgress = await prisma.userVocabularyProgress.findMany({
+    const dueProgress = await prisma.userWordProgress.findMany({
       where: {
         userId,
-        OR: [
-          { nextReviewAt: null },
-          { nextReviewAt: { lte: now } },
-        ],
+        nextReview: { lte: now },
       },
-      include: { vocabulary: true },
-      orderBy: { nextReviewAt: 'asc' },
+      include: { word: true },
+      orderBy: { nextReview: 'asc' },
       take: limit,
     });
 
     // Map to VocabularyWithProgress format
     const dueCards: VocabularyWithProgress[] = dueProgress.map(p => ({
-      ...p.vocabulary,
+      ...p.word,
       progress: p,
     }));
 
     // If we need more cards, get new vocabulary (no progress yet)
     if (dueCards.length < limit) {
-      const existingVocabIds = dueProgress.map(p => p.vocabId);
+      const existingVocabIds = dueProgress.map(p => p.wordId);
       const whereClause: any = {
         id: { notIn: existingVocabIds },
       };
@@ -247,7 +272,7 @@ export class VocabularyService {
         whereClause.level = level.toUpperCase();
       }
 
-      const newVocab = await prisma.vocabulary.findMany({
+      const newVocab = await prisma.vocabularyItem.findMany({
         where: whereClause,
         take: limit - dueCards.length,
         orderBy: { word: 'asc' },
@@ -268,26 +293,28 @@ export class VocabularyService {
     userId: string,
     vocabId: string,
     rating: number // 0=Again, 1=Hard, 2=Good, 3=Easy
-  ): Promise<UserVocabularyProgress> {
+  ): Promise<UserWordProgress> {
     const quality = mapRatingToQuality(rating);
 
     // Get or create progress record
-    let progress = await prisma.userVocabularyProgress.findUnique({
+    let progress = await prisma.userWordProgress.findUnique({
       where: {
-        userId_vocabId: { userId, vocabId },
+        user_word_unique: { userId, wordId: vocabId },
       },
     });
 
     if (!progress) {
       // Create new progress record
-      progress = await prisma.userVocabularyProgress.create({
+      progress = await prisma.userWordProgress.create({
         data: {
           userId,
-          vocabId,
-          status: 'new',
+          wordId: vocabId,
+          status: 'NEW',
           easeFactor: 2.5,
-          interval: 0,
+          intervalDays: 1,
           repetitions: 0,
+          nextReview: new Date(),
+          lastResult: null,
         },
       });
     }
@@ -295,26 +322,35 @@ export class VocabularyService {
     // Calculate next review using SM-2 algorithm
     const srsUpdate = calculateNextReview(quality, {
       easeFactor: progress.easeFactor,
-      interval: progress.interval,
+      interval: progress.intervalDays,
       repetitions: progress.repetitions,
     });
 
     // Update progress
     const isCorrect = quality >= 3;
-    const updatedProgress = await prisma.userVocabularyProgress.update({
-      where: { id: progress.id },
-      data: {
-        easeFactor: srsUpdate.easeFactor,
-        interval: srsUpdate.interval,
-        repetitions: srsUpdate.repetitions,
-        nextReviewAt: srsUpdate.nextReviewAt,
-        status: srsUpdate.status,
-        lastReviewedAt: new Date(),
-        totalReviews: { increment: 1 },
-        correctReviews: isCorrect ? { increment: 1 } : undefined,
-        lapseCount: rating === 0 ? { increment: 1 } : undefined,
-      },
-    });
+    const [updatedProgress] = await prisma.$transaction([
+      prisma.userWordProgress.update({
+        where: { id: progress.id },
+        data: {
+          easeFactor: srsUpdate.easeFactor,
+          intervalDays: srsUpdate.interval,
+          repetitions: srsUpdate.repetitions,
+          nextReview: srsUpdate.nextReviewAt,
+          status: this.mapLearningStatusToReviewStatus(srsUpdate.status),
+          lastResult: isCorrect,
+          totalReviews: { increment: 1 },
+          correctReviews: isCorrect ? { increment: 1 } : undefined,
+        },
+      }),
+      prisma.vocabularyReviewAttempt.create({
+        data: {
+          userId,
+          wordId: vocabId,
+          quality,
+          source: 'vocabulary-srs',
+        },
+      }),
+    ]);
 
     return updatedProgress;
   }
@@ -323,20 +359,26 @@ export class VocabularyService {
    * Get user's learning progress statistics
    */
   async getUserProgress(userId: string): Promise<UserProgressStats> {
-    const progressRecords = await prisma.userVocabularyProgress.findMany({
+    const progressRecords = await prisma.userWordProgress.findMany({
       where: { userId },
       select: {
         status: true,
-        nextReviewAt: true,
+        nextReview: true,
         easeFactor: true,
         correctReviews: true,
         totalReviews: true,
-        lastReviewedAt: true,
+        updatedAt: true,
       },
     });
 
     // Calculate learning stats
-    const stats = calculateLearningStats(progressRecords);
+    const stats = calculateLearningStats(progressRecords.map(record => ({
+      status: this.mapStatusToLearningStatus(record.status),
+      nextReviewAt: record.nextReview,
+      easeFactor: record.easeFactor,
+      correctReviews: record.correctReviews,
+      totalReviews: record.totalReviews,
+    })));
 
     // Calculate streak (consecutive days with reviews)
     let streak = 0;
@@ -344,8 +386,7 @@ export class VocabularyService {
 
     if (progressRecords.length > 0) {
       const reviewDates = progressRecords
-        .filter(p => p.lastReviewedAt)
-        .map(p => p.lastReviewedAt!)
+        .map(p => p.updatedAt)
         .sort((a, b) => b.getTime() - a.getTime());
 
       if (reviewDates.length > 0) {
@@ -401,7 +442,7 @@ export class VocabularyService {
     }
 
     const [items, total] = await Promise.all([
-      prisma.vocabulary.findMany({
+      prisma.vocabularyItem.findMany({
         where,
         take: filters.limit || 50,
         skip: filters.offset || 0,
@@ -413,7 +454,7 @@ export class VocabularyService {
           },
         },
       }),
-      prisma.vocabulary.count({ where }),
+      prisma.vocabularyItem.count({ where }),
     ]);
 
     // Transform to VocabularyWithProgress format

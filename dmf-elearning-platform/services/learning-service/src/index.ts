@@ -2,25 +2,49 @@ import express, { Application, Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import routes from './routes';
+import { createRateLimit, getRateLimitConfigFromEnv } from './middlewares/rateLimit';
+import { createRequestLogging, getRequestLoggingConfigFromEnv } from './middlewares/requestLogging';
+import { createRequestMonitoring, getMonitoringConfigFromEnv } from './middlewares/requestMonitoring';
 
 // Load environment variables
 dotenv.config();
 
 const app: Application = express();
 const PORT = process.env.PORT || 3003;
+const rateLimitConfig = getRateLimitConfigFromEnv();
+const requestLoggingConfig = getRequestLoggingConfigFromEnv();
+const monitoringConfig = getMonitoringConfigFromEnv();
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-// Request logging middleware
-app.use((req: Request, res: Response, next: NextFunction) => {
-  console.log(`[${new Date().toISOString()}] ${req.method} ${req.path}`);
-  next();
-});
+app.use(createRequestLogging(requestLoggingConfig));
+app.use(createRequestMonitoring(monitoringConfig));
 
 // API Routes
+app.use(
+  '/api',
+  createRateLimit('api-global', {
+    windowMs: rateLimitConfig.globalWindowMs,
+    max: rateLimitConfig.globalMax,
+  })
+);
+app.use(
+  '/api/review',
+  createRateLimit('api-review', {
+    windowMs: rateLimitConfig.reviewWindowMs,
+    max: rateLimitConfig.reviewMax,
+  })
+);
+app.use(
+  '/api/audio',
+  createRateLimit('api-audio', {
+    windowMs: rateLimitConfig.audioWindowMs,
+    max: rateLimitConfig.audioMax,
+  })
+);
+
 app.use('/api', routes);
 
 // Root endpoint
@@ -54,8 +78,13 @@ app.get('/', (req: Request, res: Response) => {
 app.use((req: Request, res: Response) => {
   res.status(404).json({
     success: false,
-    error: 'Endpoint not found',
-    path: req.path
+    error: {
+      code: 'NOT_FOUND',
+      message: 'Endpoint not found',
+      details: {
+        path: req.path,
+      },
+    },
   });
 });
 
@@ -64,8 +93,11 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   console.error('Unhandled error:', err);
   res.status(500).json({
     success: false,
-    error: 'Internal server error',
-    message: process.env.NODE_ENV === 'development' ? err.message : undefined
+    error: {
+      code: 'INTERNAL_ERROR',
+      message: 'Internal server error',
+      details: process.env.NODE_ENV === 'development' ? { message: err.message } : undefined,
+    },
   });
 });
 

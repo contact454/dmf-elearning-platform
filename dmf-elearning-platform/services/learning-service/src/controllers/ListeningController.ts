@@ -1,9 +1,54 @@
 import { Request, Response } from 'express';
+import { z } from 'zod';
 import { ListeningService } from '../services/ListeningService';
 import { updateProgress as updateSRSProgress } from '../lib/listening-srs';
 import { updateStreak } from '../services/streakService';
 
 const listeningService = new ListeningService();
+
+const dictationMistakeSchema = z.object({
+  expected: z.string().trim().optional().default(''),
+  actual: z.string().trim().optional().default(''),
+  position: z.number().int().min(0),
+  type: z.enum(['missing', 'extra', 'wrong']),
+});
+
+const submitAttemptSchema = z.object({
+  userText: z.string().trim().min(1),
+  accuracy: z.number().min(0).max(100).optional().default(0),
+  wordsCorrect: z.number().int().min(0).optional().default(0),
+  wordsTotal: z.number().int().min(0).optional().default(0),
+  mistakes: z.array(dictationMistakeSchema).optional().default([]),
+  listenCount: z.number().int().min(1).optional().default(1),
+  timeSpent: z.number().int().min(0).optional().default(0),
+});
+
+const updateProgressSchema = z.object({
+  totalListenTime: z.number().min(0).optional(),
+  lastPosition: z.number().min(0).optional(),
+  playCount: z.number().int().min(0).optional(),
+});
+
+function asString(value: unknown): string | undefined {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
+  return undefined;
+}
+
+function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
+  const userId = req.user?.id;
+  if (!userId) {
+    res.status(401).json({
+      success: false,
+      error: {
+        code: 'AUTH_MISSING_CONTEXT',
+        message: 'Missing authenticated user context',
+      },
+    });
+    return undefined;
+  }
+  return userId;
+}
 
 export class ListeningController {
   // ═══════════════════════════════════════════════════════════════
@@ -113,12 +158,19 @@ export class ListeningController {
    */
   static async getById(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.query;
+      const id = asString(req.params.id);
+      const userId = asString(req.query.userId);
+
+      if (!id) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing content id',
+        });
+      }
 
       let content;
       if (userId) {
-        content = await listeningService.getWithProgress(id, userId as string);
+        content = await listeningService.getWithProgress(id, userId);
       } else {
         content = await listeningService.getById(id);
       }
@@ -152,7 +204,13 @@ export class ListeningController {
    */
   static async getExercises(req: Request, res: Response) {
     try {
-      const { id } = req.params;
+      const id = asString(req.params.id);
+      if (!id) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing content id',
+        });
+      }
       const exercises = await listeningService.getExercises(id);
 
       return res.status(200).json({
@@ -174,7 +232,13 @@ export class ListeningController {
    */
   static async getExercise(req: Request, res: Response) {
     try {
-      const { exerciseId } = req.params;
+      const exerciseId = asString(req.params.exerciseId);
+      if (!exerciseId) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing exercise id',
+        });
+      }
       const exercise = await listeningService.getExerciseById(exerciseId);
 
       if (!exercise) {
@@ -202,36 +266,44 @@ export class ListeningController {
    */
   static async submitAttempt(req: Request, res: Response) {
     try {
-      const { exerciseId } = req.params;
-      const { userId, userText, accuracy, wordsCorrect, wordsTotal, mistakes, listenCount, timeSpent } = req.body;
+      const exerciseId = asString(req.params.exerciseId);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId || !userText) {
+      if (!exerciseId) {
         return res.status(400).json({
           success: false,
-          error: 'Missing required fields: userId, userText',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing required field: exerciseId',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
+
+      const payload = submitAttemptSchema.parse(req.body);
 
       // Submit attempt to database
       const attempt = await listeningService.submitAttempt(exerciseId, userId, {
-        userText,
-        accuracy: accuracy || 0,
-        wordsCorrect: wordsCorrect || 0,
-        wordsTotal: wordsTotal || 0,
-        mistakes: mistakes || [],
-        listenCount: listenCount || 1,
-        timeSpent: timeSpent || 0,
+        userText: payload.userText,
+        accuracy: payload.accuracy,
+        wordsCorrect: payload.wordsCorrect,
+        wordsTotal: payload.wordsTotal,
+        mistakes: payload.mistakes,
+        listenCount: payload.listenCount,
+        timeSpent: payload.timeSpent,
       });
 
       // Update SRS progress
       const srsResult = await updateSRSProgress(userId, exerciseId, {
-        correct: (accuracy || 0) >= 70, // 70%+ considered correct
-        accuracy_score: accuracy || 0,
-        time_spent_seconds: timeSpent || 0,
+        correct: payload.accuracy >= 70, // 70%+ considered correct
+        accuracy_score: payload.accuracy,
+        time_spent_seconds: payload.timeSpent,
       });
 
       // Update streak if correct
-      if ((accuracy || 0) >= 70) {
+      if (payload.accuracy >= 70) {
         await updateStreak(userId);
       }
 
@@ -249,10 +321,24 @@ export class ListeningController {
         },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid listening attempt payload',
+            details: error.issues,
+          },
+        });
+      }
+
       console.error('Error submitting attempt:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to submit attempt',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to submit attempt',
+        },
       });
     }
   }
@@ -266,14 +352,20 @@ export class ListeningController {
    */
   static async startListening(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.body;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing userId',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing content id',
+          },
         });
+      }
+      if (!userId) {
+        return;
       }
 
       const progress = await listeningService.startListening(userId, id);
@@ -285,7 +377,10 @@ export class ListeningController {
       console.error('Error starting listening:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to start listening',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to start listening',
+        },
       });
     }
   }
@@ -295,20 +390,27 @@ export class ListeningController {
    */
   static async updateProgress(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId, totalListenTime, lastPosition, playCount } = req.body;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing userId',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing content id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
+      const payload = updateProgressSchema.parse(req.body);
 
       const progress = await listeningService.updateProgress(userId, id, {
-        totalListenTime,
-        lastPosition,
-        playCount,
+        totalListenTime: payload.totalListenTime,
+        lastPosition: payload.lastPosition,
+        playCount: payload.playCount,
       });
 
       return res.status(200).json({
@@ -316,10 +418,23 @@ export class ListeningController {
         data: progress,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid listening progress payload',
+            details: error.issues,
+          },
+        });
+      }
       console.error('Error updating progress:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to update progress',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to update progress',
+        },
       });
     }
   }
@@ -329,10 +444,24 @@ export class ListeningController {
    */
   static async getUserHistory(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
-      const { status } = req.query;
+      const userId = getAuthenticatedUserId(req, res);
+      const status = asString(req.query.status);
 
-      const history = await listeningService.getUserHistory(userId, status as string);
+      if (!userId) {
+        return;
+      }
+      const allowedStatuses = ['not_started', 'in_progress', 'completed'] as const;
+      if (status && !allowedStatuses.includes(status as (typeof allowedStatuses)[number])) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid listening history status filter',
+          },
+        });
+      }
+
+      const history = await listeningService.getUserHistory(userId, status);
 
       return res.status(200).json({
         success: true,
@@ -343,7 +472,10 @@ export class ListeningController {
       console.error('Error fetching history:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch history',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch history',
+        },
       });
     }
   }
@@ -353,7 +485,10 @@ export class ListeningController {
    */
   static async getUserStats(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
+      const userId = getAuthenticatedUserId(req, res);
+      if (!userId) {
+        return;
+      }
       const stats = await listeningService.getUserStats(userId);
 
       return res.status(200).json({
@@ -364,7 +499,10 @@ export class ListeningController {
       console.error('Error fetching user stats:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch user stats',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch user stats',
+        },
       });
     }
   }
@@ -419,7 +557,13 @@ export class ListeningController {
    */
   static async generateExercises(req: Request, res: Response) {
     try {
-      const { id } = req.params;
+      const id = asString(req.params.id);
+      if (!id) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing content id',
+        });
+      }
       const exercises = await listeningService.generateExercisesFromSegments(id);
 
       return res.status(201).json({

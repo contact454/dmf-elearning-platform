@@ -4,6 +4,7 @@ import {
   UserListeningProgress,
   DictationExercise,
   DictationAttempt,
+  ReviewStatus,
 } from '@prisma/client';
 
 const prisma = new PrismaClient();
@@ -199,6 +200,8 @@ export class ListeningService {
       timeSpent: number;
     }
   ): Promise<DictationAttempt> {
+    const attemptTime = new Date();
+
     const attempt = await prisma.dictationAttempt.create({
       data: {
         exerciseId,
@@ -210,8 +213,13 @@ export class ListeningService {
         mistakes: data.mistakes as any,
         listenCount: data.listenCount,
         timeSpent: data.timeSpent,
+        createdAt: attemptTime,
       },
     });
+
+    if (this.isIncorrectAttempt(data.accuracy, data.mistakes)) {
+      await this.pushDictationMistakesToVocabularyQueue(userId, data.mistakes);
+    }
 
     // Update user progress
     const exercise = await prisma.dictationExercise.findUnique({
@@ -224,6 +232,97 @@ export class ListeningService {
     }
 
     return attempt;
+  }
+
+  private isIncorrectAttempt(accuracy: number, mistakes: DictationMistake[]): boolean {
+    return accuracy < 70 || mistakes.length > 0;
+  }
+
+  private normalizeToken(value: string | undefined): string | null {
+    if (!value) return null;
+    const normalized = value
+      .normalize('NFKC')
+      .trim()
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}-]/gu, '');
+    if (!normalized || normalized.length < 2) {
+      return null;
+    }
+    return normalized;
+  }
+
+  private async pushDictationMistakesToVocabularyQueue(
+    userId: string,
+    mistakes: DictationMistake[]
+  ): Promise<void> {
+    try {
+      const candidateWords = Array.from(
+        new Set(
+          mistakes
+            .map((mistake) => this.normalizeToken(mistake.expected))
+            .filter((word): word is string => !!word)
+        )
+      );
+
+      if (candidateWords.length === 0) {
+        return;
+      }
+
+      const vocabularyItems = await prisma.vocabularyItem.findMany({
+        where: {
+          OR: candidateWords.map((word) => ({
+            word: {
+              equals: word,
+              mode: 'insensitive',
+            },
+          })),
+        },
+        select: {
+          id: true,
+        },
+      });
+
+      if (vocabularyItems.length === 0) {
+        return;
+      }
+
+      const nextReview = new Date();
+      nextReview.setDate(nextReview.getDate() + 1);
+      nextReview.setHours(0, 0, 0, 0);
+
+      await prisma.$transaction(
+        vocabularyItems.map((item) =>
+          prisma.userWordProgress.upsert({
+            where: {
+              user_word_unique: {
+                userId,
+                wordId: item.id,
+              },
+            },
+            update: {
+              status: ReviewStatus.LEARNING,
+              easeFactor: 2.3,
+              intervalDays: 1,
+              repetitions: 0,
+              nextReview,
+              lastResult: false,
+            },
+            create: {
+              userId,
+              wordId: item.id,
+              status: ReviewStatus.LEARNING,
+              easeFactor: 2.3,
+              intervalDays: 1,
+              repetitions: 0,
+              nextReview,
+              lastResult: false,
+            },
+          })
+        )
+      );
+    } catch (error) {
+      console.error('[ListeningService] Failed to queue dictation mistakes:', error);
+    }
   }
 
   /**
@@ -499,7 +598,7 @@ export class ListeningService {
       const exercise = await this.createExercise(contentId, {
         exerciseType: 'full',
         correctText: content.transcript,
-        difficultyScore: 3,
+        difficulty: 3,
       });
       exercises.push(exercise);
     }

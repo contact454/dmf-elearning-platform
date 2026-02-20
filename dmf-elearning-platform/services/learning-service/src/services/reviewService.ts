@@ -6,6 +6,8 @@ const prisma = new PrismaClient({
   log: ['error', 'warn'],
 })
 
+const userIdSchema = z.string().min(6).max(128).regex(/^[A-Za-z0-9:_-]+$/)
+
 /**
  * Get words due for review for a user
  * Returns max 20 words sorted by next_review ASC (oldest first)
@@ -13,7 +15,6 @@ const prisma = new PrismaClient({
 export async function getReviewQueue(userId: string) {
   try {
     // Validate userId
-    const userIdSchema = z.string().cuid()
     userIdSchema.parse(userId)
     
     const now = new Date()
@@ -78,7 +79,7 @@ export async function submitReview(
   try {
     // Validate inputs
     const schema = z.object({
-      userId: z.string().cuid(),
+      userId: userIdSchema,
       wordId: z.string().cuid(),
       quality: z.number().int().min(0).max(5)
     })
@@ -110,37 +111,47 @@ export async function submitReview(
       quality
     )
     
-    // Update progress in database
-    const updated = await prisma.userWordProgress.update({
-      where: {
-        user_word_unique: {
-          userId,
-          wordId
-        }
-      },
-      data: {
-        easeFactor: nextReview.easeFactor,
-        intervalDays: nextReview.intervalDays,
-        repetitions: nextReview.repetitions,
-        nextReview: nextReview.nextReviewDate,
-        status: nextReview.status,
-        lastResult: quality >= 3, // true if correct
-        totalReviews: {
-          increment: 1
+    // Update progress and persist attempt in a single transaction
+    const [updated] = await prisma.$transaction([
+      prisma.userWordProgress.update({
+        where: {
+          user_word_unique: {
+            userId,
+            wordId
+          }
         },
-        correctReviews: quality >= 3 ? {
-          increment: 1
-        } : undefined
-      },
-      include: {
-        word: {
-          select: {
-            word: true,
-            meaning_vi: true
+        data: {
+          easeFactor: nextReview.easeFactor,
+          intervalDays: nextReview.intervalDays,
+          repetitions: nextReview.repetitions,
+          nextReview: nextReview.nextReviewDate,
+          status: nextReview.status,
+          lastResult: quality >= 3, // true if correct
+          totalReviews: {
+            increment: 1
+          },
+          correctReviews: quality >= 3 ? {
+            increment: 1
+          } : undefined
+        },
+        include: {
+          word: {
+            select: {
+              word: true,
+              meaning_vi: true
+            }
           }
         }
-      }
-    })
+      }),
+      prisma.vocabularyReviewAttempt.create({
+        data: {
+          userId,
+          wordId,
+          quality,
+          source: 'review'
+        }
+      })
+    ])
     
     return {
       success: true,
@@ -170,7 +181,6 @@ export async function submitReview(
 export async function getProgressStats(userId: string) {
   try {
     // Validate userId
-    const userIdSchema = z.string().cuid()
     userIdSchema.parse(userId)
     
     // Get all progress records

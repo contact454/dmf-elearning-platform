@@ -6,11 +6,17 @@ import { Volume2, Plus, X, BookOpen, Loader2 } from 'lucide-react';
 import { getVocabularyByWord, DbVocabularyItem } from '@/services/german-api';
 import { useSpeaking } from '@/hooks/useSpeaking';
 
+export interface DictionarySavePayload {
+  word: string;
+  meaning_vi: string;
+  example_de?: string | null;
+}
+
 interface PopupDictionaryProps {
   word: string;
   position: { x: number; y: number };
   onClose: () => void;
-  onAddToReview?: (word: DbVocabularyItem) => void;
+  onAddToReview?: (word: DictionarySavePayload) => Promise<void> | void;
   userId?: string;
 }
 
@@ -23,6 +29,9 @@ export function PopupDictionary({
   const [vocabData, setVocabData] = useState<DbVocabularyItem | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveMessage, setSaveMessage] = useState<string | null>(null);
+  const [manualTranslation, setManualTranslation] = useState('');
   const { speak, isSpeaking, isSupported } = useSpeaking({ rate: 0.85 });
   const popupRef = useRef<HTMLDivElement>(null);
 
@@ -31,10 +40,13 @@ export function PopupDictionary({
     async function fetchWord() {
       setLoading(true);
       setError(null);
+      setSaveMessage(null);
+      setManualTranslation('');
       try {
         const data = await getVocabularyByWord(word);
         setVocabData(data);
       } catch (err) {
+        setVocabData(null);
         setError('Word not found in vocabulary');
       } finally {
         setLoading(false);
@@ -69,11 +81,40 @@ export function PopupDictionary({
     speak(word);
   }, [speak, word]);
 
-  const handleAddToReview = useCallback(() => {
-    if (vocabData && onAddToReview) {
-      onAddToReview(vocabData);
+  const handleAddToReview = useCallback(async () => {
+    if (!onAddToReview || isSaving) {
+      return;
     }
-  }, [vocabData, onAddToReview]);
+
+    const payload: DictionarySavePayload =
+      vocabData !== null
+        ? {
+            word: vocabData.word,
+            meaning_vi: vocabData.meaning_vi,
+            example_de: vocabData.example_de,
+          }
+        : {
+            word,
+            meaning_vi: manualTranslation.trim(),
+          };
+
+    if (!payload.meaning_vi) {
+      setSaveMessage('Please enter Vietnamese meaning first.');
+      return;
+    }
+
+    try {
+      setIsSaving(true);
+      setSaveMessage(null);
+      await onAddToReview(payload);
+      setSaveMessage('Added to review queue');
+    } catch (saveError) {
+      console.error('Failed to save word from popup dictionary:', saveError);
+      setSaveMessage('Failed to add word. Please try again.');
+    } finally {
+      setIsSaving(false);
+    }
+  }, [isSaving, manualTranslation, onAddToReview, vocabData, word]);
 
   // Calculate position to keep popup in viewport
   const adjustedPosition = {
@@ -131,6 +172,28 @@ export function PopupDictionary({
                 >
                   <Volume2 className={`w-5 h-5 ${isSpeaking ? 'text-indigo-500' : 'text-gray-600'}`} />
                 </button>
+              )}
+              {onAddToReview && (
+                <div className="mt-4 space-y-2 text-left">
+                  <label className="text-xs text-gray-500 block">Vietnamese meaning</label>
+                  <input
+                    value={manualTranslation}
+                    onChange={(event) => setManualTranslation(event.target.value)}
+                    placeholder="Nhập nghĩa tiếng Việt..."
+                    className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                  />
+                  <button
+                    onClick={handleAddToReview}
+                    disabled={isSaving}
+                    className="w-full flex items-center justify-center gap-2 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg font-medium transition disabled:opacity-60"
+                  >
+                    <Plus className="w-4 h-4" />
+                    {isSaving ? 'Saving...' : 'Add to Review Queue'}
+                  </button>
+                </div>
+              )}
+              {saveMessage && (
+                <p className="text-xs text-center text-gray-600 mt-3">{saveMessage}</p>
               )}
             </div>
           ) : vocabData ? (
@@ -193,11 +256,16 @@ export function PopupDictionary({
               {onAddToReview && (
                 <button
                   onClick={handleAddToReview}
+                  disabled={isSaving}
                   className="w-full flex items-center justify-center gap-2 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg font-medium transition"
                 >
                   <Plus className="w-4 h-4" />
-                  Add to Review Queue
+                  {isSaving ? 'Saving...' : 'Add to Review Queue'}
                 </button>
+              )}
+
+              {saveMessage && (
+                <p className="text-xs text-center text-gray-600">{saveMessage}</p>
               )}
             </div>
           ) : null}

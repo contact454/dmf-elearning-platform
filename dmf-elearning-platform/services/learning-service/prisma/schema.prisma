@@ -29,7 +29,8 @@ model VocabularyItem {
   updatedAt   DateTime  @updatedAt @map("updated_at")
 
   // Relations
-  progress UserWordProgress[]
+  progress       UserWordProgress[]
+  reviewAttempts VocabularyReviewAttempt[]
 
   // Indexes for performance
   @@index([level])
@@ -93,11 +94,34 @@ model User {
   longestStreak    Int       @default(0) @map("longest_streak")
   lastActivityDate DateTime? @map("last_activity_date")
   timezone         String    @default("UTC") // IANA timezone
+  dailyGoalVocabulary Int    @default(10) @map("daily_goal_vocabulary")
+  dailyGoalReading    Int    @default(1)  @map("daily_goal_reading")
+  dailyGoalListening  Int    @default(1)  @map("daily_goal_listening")
 
   // Relations
-  wordProgress UserWordProgress[]
+  wordProgress    UserWordProgress[]
+  reviewAttempts  VocabularyReviewAttempt[]
 
   @@map("users")
+}
+
+model VocabularyReviewAttempt {
+  id      String @id @default(cuid())
+  userId  String @map("user_id")
+  wordId  String @map("word_id")
+  quality Int
+  source  String? // review | vocabulary-srs
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word VocabularyItem @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt], name: "idx_vocab_review_attempts_user_created")
+  @@index([userId, wordId], name: "idx_vocab_review_attempts_user_word")
+  @@index([wordId], name: "idx_vocab_review_attempts_word")
+  @@map("vocabulary_review_attempts")
 }
 
 // ═══════════════════════════════════════════════════════════════

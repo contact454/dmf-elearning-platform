@@ -1,10 +1,6 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, ReviewStatus } from '@prisma/client';
 
 const prisma = new PrismaClient();
-
-// ═══════════════════════════════════════════════════════════════
-// Types
-// ═══════════════════════════════════════════════════════════════
 
 export interface SkillProgress {
   skill: string;
@@ -17,10 +13,21 @@ export interface SkillProgress {
 }
 
 export interface DailyGoal {
-  type: 'vocabulary' | 'reading' | 'listening' | 'speaking' | 'writing';
+  type: 'vocabulary' | 'reading' | 'listening';
   target: number;
   completed: number;
+  isCompleted: boolean;
   unit: string;
+}
+
+export interface HubSummary {
+  totalWordsLearned: number;
+  wordsInReview: number;
+  currentStreak: number;
+  readingCompleted: number;
+  listeningCompleted: number;
+  speakingCompleted: number;
+  writingCompleted: number;
 }
 
 export interface HubData {
@@ -29,9 +36,10 @@ export interface HubData {
   totalXP: number;
   currentStreak: number;
   longestStreak: number;
+  summary: HubSummary;
   skillProgress: SkillProgress[];
   dailyGoals: DailyGoal[];
-  recentAchievements: any[];
+  recentAchievements: unknown[];
   recommendedActivity: {
     type: string;
     title: string;
@@ -40,16 +48,28 @@ export interface HubData {
   };
 }
 
-// ═══════════════════════════════════════════════════════════════
-// Hub Service
-// ═══════════════════════════════════════════════════════════════
+type DailyActivity = {
+  vocabulary: number;
+  reading: number;
+  listening: number;
+};
+
+type DailyGoalConfig = {
+  vocabulary: number;
+  reading: number;
+  listening: number;
+};
+
+export type DailyGoalConfigUpdate = Partial<DailyGoalConfig>;
 
 export class HubService {
-  /**
-   * Get comprehensive hub data for a user
-   */
+  private static readonly defaultDailyGoalConfig: DailyGoalConfig = {
+    vocabulary: 10,
+    reading: 1,
+    listening: 1,
+  };
+
   static async getHubData(userId: string): Promise<HubData> {
-    // Fetch all skill progress in parallel
     const [
       vocabProgress,
       readingProgress,
@@ -57,6 +77,10 @@ export class HubService {
       speakingProgress,
       writingProgress,
       dailyActivity,
+      dailyGoalConfig,
+      totalXP,
+      streaks,
+      summaryStats,
     ] = await Promise.all([
       this.getVocabularyProgress(userId),
       this.getReadingProgress(userId),
@@ -64,6 +88,10 @@ export class HubService {
       this.getSpeakingProgress(userId),
       this.getWritingProgress(userId),
       this.getDailyActivity(userId),
+      this.getDailyGoalConfig(userId),
+      this.calculateTotalXP(userId),
+      this.calculateStreaks(userId),
+      this.getHubSummary(userId),
     ]);
 
     const skillProgress: SkillProgress[] = [
@@ -74,63 +102,92 @@ export class HubService {
       writingProgress,
     ];
 
-    // Calculate overall stats
-    const overallLevel = this.calculateOverallLevel(skillProgress);
-    const totalXP = await this.calculateTotalXP(userId);
-    const { currentStreak, longestStreak } = await this.calculateStreaks(userId);
-
-    // Get daily goals with progress
-    const dailyGoals = this.calculateDailyGoals(dailyActivity);
-
-    // Get recommended activity
+    const dailyGoals = this.calculateDailyGoals(dailyActivity, dailyGoalConfig);
     const recommendedActivity = this.getRecommendedActivity(skillProgress, dailyGoals);
 
     return {
       userId,
-      overallLevel,
+      overallLevel: this.calculateOverallLevel(skillProgress),
       totalXP,
-      currentStreak,
-      longestStreak,
+      currentStreak: streaks.currentStreak,
+      longestStreak: streaks.longestStreak,
+      summary: {
+        ...summaryStats,
+        currentStreak: streaks.currentStreak,
+      },
       skillProgress,
       dailyGoals,
-      recentAchievements: [], // TODO: Implement achievements
+      recentAchievements: [],
       recommendedActivity,
     };
   }
 
-  /**
-   * Get vocabulary progress
-   */
+  static async updateDailyGoals(
+    userId: string,
+    updates: DailyGoalConfigUpdate
+  ): Promise<DailyGoal[]> {
+    const updateData: {
+      dailyGoalVocabulary?: number;
+      dailyGoalReading?: number;
+      dailyGoalListening?: number;
+    } = {};
+
+    if (typeof updates.vocabulary === 'number') {
+      updateData.dailyGoalVocabulary = updates.vocabulary;
+    }
+    if (typeof updates.reading === 'number') {
+      updateData.dailyGoalReading = updates.reading;
+    }
+    if (typeof updates.listening === 'number') {
+      updateData.dailyGoalListening = updates.listening;
+    }
+
+    if (Object.keys(updateData).length > 0) {
+      await prisma.user.update({
+        where: { id: userId },
+        data: updateData,
+      });
+    }
+
+    const [dailyActivity, config] = await Promise.all([
+      this.getDailyActivity(userId),
+      this.getDailyGoalConfig(userId),
+    ]);
+
+    return this.calculateDailyGoals(dailyActivity, config);
+  }
+
   private static async getVocabularyProgress(userId: string): Promise<SkillProgress> {
     try {
-      const progress = await prisma.userVocabularyProgress.findMany({
-        where: { userId },
-        include: { vocabulary: true },
-      });
+      const [progress, totalVocab] = await Promise.all([
+        prisma.userWordProgress.findMany({
+          where: { userId },
+          include: {
+            word: {
+              select: { level: true },
+            },
+          },
+        }),
+        prisma.vocabularyItem.count(),
+      ]);
 
-      const totalVocab = await prisma.vocabulary.count({
-        where: { isActive: true },
-      });
-
-      const learned = progress.filter(p => p.status === 'learned' || p.status === 'mastered').length;
-      const mastered = progress.filter(p => p.status === 'mastered').length;
-      const lastPracticed = progress.length > 0
-        ? progress.reduce((latest, p) =>
-            p.lastReviewedAt && (!latest || p.lastReviewedAt > latest) ? p.lastReviewedAt : latest,
-          null as Date | null)
-        : null;
-
-      // Calculate streak from consecutive days
-      const streak = await this.calculateSkillStreak(userId, 'vocabulary');
+      const learned = progress.filter((p) => p.status === ReviewStatus.MASTERED).length;
+      const lastPracticed =
+        progress.length > 0
+          ? progress.reduce<Date | null>(
+              (latest, p) => (!latest || p.updatedAt > latest ? p.updatedAt : latest),
+              null
+            )
+          : null;
 
       return {
         skill: 'vocabulary',
-        level: this.inferLevel(progress.map(p => p.vocabulary?.level || 'A1')),
+        level: this.inferLevel(progress.map((p) => p.word.level)),
         progress: totalVocab > 0 ? Math.round((learned / totalVocab) * 100) : 0,
         itemsLearned: learned,
         itemsTotal: totalVocab,
-        lastPracticed: lastPracticed?.toISOString() || null,
-        streak,
+        lastPracticed: lastPracticed?.toISOString() ?? null,
+        streak: await this.calculateSkillStreak(userId, 'vocabulary'),
       };
     } catch (error) {
       console.error('Error getting vocabulary progress:', error);
@@ -138,37 +195,37 @@ export class HubService {
     }
   }
 
-  /**
-   * Get reading progress
-   */
   private static async getReadingProgress(userId: string): Promise<SkillProgress> {
     try {
-      const progress = await prisma.userReadingProgress.findMany({
-        where: { userId },
-        include: { content: true },
-      });
+      const [progress, totalContent] = await Promise.all([
+        prisma.userReadingProgress.findMany({
+          where: { userId },
+          include: {
+            content: {
+              select: { level: true },
+            },
+          },
+        }),
+        prisma.readingContent.count({ where: { isPublished: true } }),
+      ]);
 
-      const totalContent = await prisma.readingContent.count({
-        where: { isPublished: true },
-      });
-
-      const completed = progress.filter(p => p.status === 'completed' || p.status === 'mastered').length;
-      const lastPracticed = progress.length > 0
-        ? progress.reduce((latest, p) =>
-            p.lastAccessedAt && (!latest || p.lastAccessedAt > latest) ? p.lastAccessedAt : latest,
-          null as Date | null)
-        : null;
-
-      const streak = await this.calculateSkillStreak(userId, 'reading');
+      const completed = progress.filter((p) => ['completed', 'mastered'].includes(p.status)).length;
+      const lastPracticed =
+        progress.length > 0
+          ? progress.reduce<Date | null>((latest, p) => {
+              const candidate = p.completedAt ?? p.updatedAt;
+              return !latest || candidate > latest ? candidate : latest;
+            }, null)
+          : null;
 
       return {
         skill: 'reading',
-        level: this.inferLevel(progress.map(p => p.content?.level || 'A1')),
+        level: this.inferLevel(progress.map((p) => p.content.level)),
         progress: totalContent > 0 ? Math.round((completed / totalContent) * 100) : 0,
         itemsLearned: completed,
         itemsTotal: totalContent,
-        lastPracticed: lastPracticed?.toISOString() || null,
-        streak,
+        lastPracticed: lastPracticed?.toISOString() ?? null,
+        streak: await this.calculateSkillStreak(userId, 'reading'),
       };
     } catch (error) {
       console.error('Error getting reading progress:', error);
@@ -176,37 +233,37 @@ export class HubService {
     }
   }
 
-  /**
-   * Get listening progress
-   */
   private static async getListeningProgress(userId: string): Promise<SkillProgress> {
     try {
-      const progress = await prisma.userListeningProgress.findMany({
-        where: { userId },
-        include: { content: true },
-      });
+      const [progress, totalContent] = await Promise.all([
+        prisma.userListeningProgress.findMany({
+          where: { userId },
+          include: {
+            content: {
+              select: { level: true },
+            },
+          },
+        }),
+        prisma.listeningContent.count({ where: { isPublished: true } }),
+      ]);
 
-      const totalContent = await prisma.listeningContent.count({
-        where: { isPublished: true },
-      });
-
-      const completed = progress.filter(p => p.status === 'completed' || p.status === 'mastered').length;
-      const lastPracticed = progress.length > 0
-        ? progress.reduce((latest, p) =>
-            p.lastAccessedAt && (!latest || p.lastAccessedAt > latest) ? p.lastAccessedAt : latest,
-          null as Date | null)
-        : null;
-
-      const streak = await this.calculateSkillStreak(userId, 'listening');
+      const completed = progress.filter((p) => ['completed', 'mastered'].includes(p.status)).length;
+      const lastPracticed =
+        progress.length > 0
+          ? progress.reduce<Date | null>((latest, p) => {
+              const candidate = p.completedAt ?? p.updatedAt;
+              return !latest || candidate > latest ? candidate : latest;
+            }, null)
+          : null;
 
       return {
         skill: 'listening',
-        level: this.inferLevel(progress.map(p => p.content?.level || 'A1')),
+        level: this.inferLevel(progress.map((p) => p.content.level)),
         progress: totalContent > 0 ? Math.round((completed / totalContent) * 100) : 0,
         itemsLearned: completed,
         itemsTotal: totalContent,
-        lastPracticed: lastPracticed?.toISOString() || null,
-        streak,
+        lastPracticed: lastPracticed?.toISOString() ?? null,
+        streak: await this.calculateSkillStreak(userId, 'listening'),
       };
     } catch (error) {
       console.error('Error getting listening progress:', error);
@@ -214,37 +271,37 @@ export class HubService {
     }
   }
 
-  /**
-   * Get speaking progress
-   */
   private static async getSpeakingProgress(userId: string): Promise<SkillProgress> {
     try {
-      const progress = await prisma.userSpeakingProgress.findMany({
-        where: { userId },
-        include: { content: true },
-      });
+      const [progress, totalPrompts] = await Promise.all([
+        prisma.userSpeakingProgress.findMany({
+          where: { userId },
+          include: {
+            prompt: {
+              select: { level: true },
+            },
+          },
+        }),
+        prisma.speakingPrompt.count({ where: { isPublished: true } }),
+      ]);
 
-      const totalContent = await prisma.speakingContent.count({
-        where: { isPublished: true },
-      });
-
-      const completed = progress.filter(p => p.status === 'completed' || p.status === 'mastered').length;
-      const lastPracticed = progress.length > 0
-        ? progress.reduce((latest, p) =>
-            p.lastAccessedAt && (!latest || p.lastAccessedAt > latest) ? p.lastAccessedAt : latest,
-          null as Date | null)
-        : null;
-
-      const streak = await this.calculateSkillStreak(userId, 'speaking');
+      const completed = progress.filter((p) => ['attempted', 'completed', 'mastered'].includes(p.status)).length;
+      const lastPracticed =
+        progress.length > 0
+          ? progress.reduce<Date | null>((latest, p) => {
+              const candidate = p.lastAttemptAt ?? p.updatedAt;
+              return !latest || candidate > latest ? candidate : latest;
+            }, null)
+          : null;
 
       return {
         skill: 'speaking',
-        level: this.inferLevel(progress.map(p => p.content?.level || 'A1')),
-        progress: totalContent > 0 ? Math.round((completed / totalContent) * 100) : 0,
+        level: this.inferLevel(progress.map((p) => p.prompt.level)),
+        progress: totalPrompts > 0 ? Math.round((completed / totalPrompts) * 100) : 0,
         itemsLearned: completed,
-        itemsTotal: totalContent,
-        lastPracticed: lastPracticed?.toISOString() || null,
-        streak,
+        itemsTotal: totalPrompts,
+        lastPracticed: lastPracticed?.toISOString() ?? null,
+        streak: await this.calculateSkillStreak(userId, 'speaking'),
       };
     } catch (error) {
       console.error('Error getting speaking progress:', error);
@@ -252,37 +309,37 @@ export class HubService {
     }
   }
 
-  /**
-   * Get writing progress
-   */
   private static async getWritingProgress(userId: string): Promise<SkillProgress> {
     try {
-      const progress = await prisma.userWritingProgress.findMany({
-        where: { userId },
-        include: { prompt: true },
-      });
+      const [progress, totalPrompts] = await Promise.all([
+        prisma.userWritingProgress.findMany({
+          where: { userId },
+          include: {
+            prompt: {
+              select: { level: true },
+            },
+          },
+        }),
+        prisma.writingPrompt.count({ where: { isPublished: true } }),
+      ]);
 
-      const totalPrompts = await prisma.writingPrompt.count({
-        where: { isPublished: true },
-      });
-
-      const completed = progress.filter(p => p.status === 'completed' || p.status === 'mastered').length;
-      const lastPracticed = progress.length > 0
-        ? progress.reduce((latest, p) =>
-            p.lastAttemptAt && (!latest || p.lastAttemptAt > latest) ? p.lastAttemptAt : latest,
-          null as Date | null)
-        : null;
-
-      const streak = await this.calculateSkillStreak(userId, 'writing');
+      const completed = progress.filter((p) => ['completed', 'mastered'].includes(p.status)).length;
+      const lastPracticed =
+        progress.length > 0
+          ? progress.reduce<Date | null>((latest, p) => {
+              const candidate = p.lastSubmissionAt ?? p.updatedAt;
+              return !latest || candidate > latest ? candidate : latest;
+            }, null)
+          : null;
 
       return {
         skill: 'writing',
-        level: this.inferLevel(progress.map(p => p.prompt?.level || 'A1')),
+        level: this.inferLevel(progress.map((p) => p.prompt.level)),
         progress: totalPrompts > 0 ? Math.round((completed / totalPrompts) * 100) : 0,
         itemsLearned: completed,
         itemsTotal: totalPrompts,
-        lastPracticed: lastPracticed?.toISOString() || null,
-        streak,
+        lastPracticed: lastPracticed?.toISOString() ?? null,
+        streak: await this.calculateSkillStreak(userId, 'writing'),
       };
     } catch (error) {
       console.error('Error getting writing progress:', error);
@@ -290,126 +347,201 @@ export class HubService {
     }
   }
 
-  /**
-   * Get daily activity for calculating goals
-   */
-  private static async getDailyActivity(userId: string): Promise<Record<string, number>> {
+  private static async getDailyActivity(userId: string): Promise<DailyActivity> {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
     try {
-      // Count today's vocabulary reviews
-      const vocabReviews = await prisma.userVocabularyProgress.count({
-        where: {
-          userId,
-          lastReviewedAt: { gte: today },
-        },
-      });
+      const [vocabulary, reading, listening] = await Promise.all([
+        prisma.vocabularyReviewAttempt.count({
+          where: {
+            userId,
+            createdAt: { gte: today },
+          },
+        }),
+        prisma.userReadingProgress.count({
+          where: {
+            userId,
+            completedAt: { gte: today },
+            status: { in: ['completed', 'mastered'] },
+          },
+        }),
+        prisma.userListeningProgress.count({
+          where: {
+            userId,
+            completedAt: { gte: today },
+            status: { in: ['completed', 'mastered'] },
+          },
+        }),
+      ]);
 
-      // Count today's reading completions
-      const readingCompletions = await prisma.userReadingProgress.count({
-        where: {
-          userId,
-          lastAccessedAt: { gte: today },
-          status: { in: ['completed', 'mastered'] },
-        },
-      });
-
-      // Count today's listening completions
-      const listeningCompletions = await prisma.userListeningProgress.count({
-        where: {
-          userId,
-          lastAccessedAt: { gte: today },
-          status: { in: ['completed', 'mastered'] },
-        },
-      });
-
-      // Count today's speaking attempts
-      const speakingAttempts = await prisma.speakingAttempt.count({
-        where: {
-          userId,
-          createdAt: { gte: today },
-        },
-      });
-
-      // Count today's writing submissions
-      const writingSubmissions = await prisma.writingSubmission.count({
-        where: {
-          userId,
-          submittedAt: { gte: today },
-        },
-      });
-
-      return {
-        vocabulary: vocabReviews,
-        reading: readingCompletions,
-        listening: listeningCompletions,
-        speaking: speakingAttempts,
-        writing: writingSubmissions,
-      };
+      return { vocabulary, reading, listening };
     } catch (error) {
       console.error('Error getting daily activity:', error);
-      return {
-        vocabulary: 0,
-        reading: 0,
-        listening: 0,
-        speaking: 0,
-        writing: 0,
-      };
+      return { vocabulary: 0, reading: 0, listening: 0 };
     }
   }
 
-  /**
-   * Calculate daily goals with progress
-   */
-  private static calculateDailyGoals(dailyActivity: Record<string, number>): DailyGoal[] {
+  private static calculateDailyGoals(
+    dailyActivity: DailyActivity,
+    config: DailyGoalConfig
+  ): DailyGoal[] {
     return [
-      { type: 'vocabulary', target: 20, completed: dailyActivity.vocabulary || 0, unit: 'words' },
-      { type: 'reading', target: 1, completed: dailyActivity.reading || 0, unit: 'articles' },
-      { type: 'listening', target: 10, completed: dailyActivity.listening || 0, unit: 'minutes' },
-      { type: 'speaking', target: 5, completed: dailyActivity.speaking || 0, unit: 'minutes' },
-      { type: 'writing', target: 1, completed: dailyActivity.writing || 0, unit: 'exercises' },
+      {
+        type: 'vocabulary',
+        target: config.vocabulary,
+        completed: dailyActivity.vocabulary,
+        isCompleted: dailyActivity.vocabulary >= config.vocabulary,
+        unit: 'reviews',
+      },
+      {
+        type: 'reading',
+        target: config.reading,
+        completed: dailyActivity.reading,
+        isCompleted: dailyActivity.reading >= config.reading,
+        unit: 'passages',
+      },
+      {
+        type: 'listening',
+        target: config.listening,
+        completed: dailyActivity.listening,
+        isCompleted: dailyActivity.listening >= config.listening,
+        unit: 'sessions',
+      },
     ];
   }
 
-  /**
-   * Calculate skill-specific streak
-   */
-  private static async calculateSkillStreak(userId: string, skill: string): Promise<number> {
-    // Simplified streak calculation - count consecutive days with activity
-    // In production, this should query actual activity logs
-    return 0; // TODO: Implement proper streak tracking
+  private static async getDailyGoalConfig(userId: string): Promise<DailyGoalConfig> {
+    const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: {
+        dailyGoalVocabulary: true,
+        dailyGoalReading: true,
+        dailyGoalListening: true,
+      },
+    });
+
+    if (!user) {
+      return { ...this.defaultDailyGoalConfig };
+    }
+
+    return {
+      vocabulary:
+        user.dailyGoalVocabulary > 0
+          ? user.dailyGoalVocabulary
+          : this.defaultDailyGoalConfig.vocabulary,
+      reading:
+        user.dailyGoalReading > 0 ? user.dailyGoalReading : this.defaultDailyGoalConfig.reading,
+      listening:
+        user.dailyGoalListening > 0
+          ? user.dailyGoalListening
+          : this.defaultDailyGoalConfig.listening,
+    };
   }
 
-  /**
-   * Calculate overall streaks
-   */
-  private static async calculateStreaks(userId: string): Promise<{ currentStreak: number; longestStreak: number }> {
-    // TODO: Implement proper streak tracking with activity logs
-    return { currentStreak: 0, longestStreak: 0 };
-  }
-
-  /**
-   * Calculate total XP
-   */
-  private static async calculateTotalXP(userId: string): Promise<number> {
-    // XP calculation based on completed items
-    // TODO: Implement XP tracking system
+  private static async calculateSkillStreak(_userId: string, _skill: string): Promise<number> {
     return 0;
   }
 
-  /**
-   * Infer overall level from skill levels
-   */
-  private static calculateOverallLevel(skillProgress: SkillProgress[]): string {
-    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-    const skillLevels = skillProgress.map(s => s.level);
-
-    // Find the most common level
-    const levelCounts: Record<string, number> = {};
-    skillLevels.forEach(level => {
-      levelCounts[level] = (levelCounts[level] || 0) + 1;
+  private static async calculateStreaks(userId: string): Promise<{ currentStreak: number; longestStreak: number }> {
+    const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: { currentStreak: true, longestStreak: true },
     });
+
+    if (!user) return { currentStreak: 0, longestStreak: 0 };
+    return { currentStreak: user.currentStreak, longestStreak: user.longestStreak };
+  }
+
+  private static async calculateTotalXP(userId: string): Promise<number> {
+    const [vocabMastered, readingCompleted, listeningCompleted, speakingAttempts, writingSubmissions] =
+      await Promise.all([
+        prisma.userWordProgress.count({
+          where: { userId, status: ReviewStatus.MASTERED },
+        }),
+        prisma.userReadingProgress.count({
+          where: { userId, status: { in: ['completed', 'mastered'] } },
+        }),
+        prisma.userListeningProgress.count({
+          where: { userId, status: { in: ['completed', 'mastered'] } },
+        }),
+        prisma.speakingAttempt.count({ where: { userId } }),
+        prisma.writingSubmission.count({ where: { userId } }),
+      ]);
+
+    return (
+      vocabMastered * 5 +
+      readingCompleted * 20 +
+      listeningCompleted * 20 +
+      speakingAttempts * 10 +
+      writingSubmissions * 15
+    );
+  }
+
+  private static async getHubSummary(userId: string): Promise<
+    Omit<HubSummary, 'currentStreak'>
+  > {
+    const [
+      totalWordsLearned,
+      wordsInReview,
+      readingCompleted,
+      listeningCompleted,
+      speakingCompleted,
+      writingCompleted,
+    ] = await Promise.all([
+      prisma.userWordProgress.count({
+        where: {
+          userId,
+          status: ReviewStatus.MASTERED,
+        },
+      }),
+      prisma.userWordProgress.count({
+        where: {
+          userId,
+          status: ReviewStatus.REVIEW,
+        },
+      }),
+      prisma.userReadingProgress.count({
+        where: {
+          userId,
+          status: { in: ['completed', 'mastered'] },
+        },
+      }),
+      prisma.userListeningProgress.count({
+        where: {
+          userId,
+          status: { in: ['completed', 'mastered'] },
+        },
+      }),
+      prisma.userSpeakingProgress.count({
+        where: {
+          userId,
+          status: { in: ['attempted', 'completed', 'mastered'] },
+        },
+      }),
+      prisma.userWritingProgress.count({
+        where: {
+          userId,
+          status: { in: ['completed', 'mastered'] },
+        },
+      }),
+    ]);
+
+    return {
+      totalWordsLearned,
+      wordsInReview,
+      readingCompleted,
+      listeningCompleted,
+      speakingCompleted,
+      writingCompleted,
+    };
+  }
+
+  private static calculateOverallLevel(skillProgress: SkillProgress[]): string {
+    const levelCounts: Record<string, number> = {};
+    for (const skill of skillProgress) {
+      levelCounts[skill.level] = (levelCounts[skill.level] || 0) + 1;
+    }
 
     let maxCount = 0;
     let mostCommonLevel = 'A1';
@@ -419,13 +551,9 @@ export class HubService {
         mostCommonLevel = level;
       }
     }
-
     return mostCommonLevel;
   }
 
-  /**
-   * Infer level from a list of content levels
-   */
   private static inferLevel(levels: string[]): string {
     if (levels.length === 0) return 'A1';
 
@@ -435,12 +563,9 @@ export class HubService {
       return idx > maxIdx ? idx : maxIdx;
     }, 0);
 
-    return levelOrder[highestIndex];
+    return levelOrder[highestIndex] ?? 'A1';
   }
 
-  /**
-   * Get recommended activity based on progress
-   */
   private static getRecommendedActivity(
     skillProgress: SkillProgress[],
     dailyGoals: DailyGoal[]
@@ -461,8 +586,7 @@ export class HubService {
       writing: 'Writing Exercise',
     };
 
-    // Priority 1: Incomplete daily goals
-    const incompleteGoals = dailyGoals.filter(g => g.completed < g.target);
+    const incompleteGoals = dailyGoals.filter((g) => g.completed < g.target);
     if (incompleteGoals.length > 0) {
       const goal = incompleteGoals[0];
       return {
@@ -473,9 +597,8 @@ export class HubService {
       };
     }
 
-    // Priority 2: Skills not practiced recently
     const staleSkills = skillProgress
-      .filter(s => !s.lastPracticed || this.daysSince(s.lastPracticed) > 2)
+      .filter((s) => !s.lastPracticed || this.daysSince(s.lastPracticed) > 2)
       .sort((a, b) => {
         if (!a.lastPracticed) return -1;
         if (!b.lastPracticed) return 1;
@@ -494,7 +617,6 @@ export class HubService {
       };
     }
 
-    // Default: Continue with lowest progress skill
     const lowestProgress = [...skillProgress].sort((a, b) => a.progress - b.progress)[0];
     return {
       type: lowestProgress.skill,
@@ -504,9 +626,6 @@ export class HubService {
     };
   }
 
-  /**
-   * Calculate days since a date
-   */
   private static daysSince(dateString: string): number {
     const date = new Date(dateString);
     const now = new Date();
@@ -514,9 +633,6 @@ export class HubService {
     return Math.floor(diffMs / 86400000);
   }
 
-  /**
-   * Get default progress for error cases
-   */
   private static getDefaultProgress(skill: string): SkillProgress {
     return {
       skill,

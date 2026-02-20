@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
@@ -23,7 +24,7 @@ import {
   RefreshCw,
 } from 'lucide-react';
 import { HubData } from '@/services/german-api';
-import { useHubData } from '@/hooks/useApiQueries';
+import { useHubData, useUpdateDailyGoals } from '@/hooks/useApiQueries';
 import {
   SkeletonCard,
   SkeletonStats,
@@ -99,14 +100,64 @@ const skillConfig = {
   },
 };
 
+type GoalType = 'vocabulary' | 'reading' | 'listening';
+
+const DEFAULT_GOAL_DRAFT: Record<GoalType, number> = {
+  vocabulary: 10,
+  reading: 1,
+  listening: 1,
+};
+
 // ═══════════════════════════════════════════════════════════════
 // Main Component
 // ═══════════════════════════════════════════════════════════════
 
 export default function LearningHubPage() {
   const { data, isLoading, error, refetch, isFetching } = useHubData();
+  const updateDailyGoalsMutation = useUpdateDailyGoals();
+  const [isEditingGoals, setIsEditingGoals] = useState(false);
+  const [goalDraft, setGoalDraft] = useState<Record<GoalType, number>>(DEFAULT_GOAL_DRAFT);
 
-  if (isLoading || !data) {
+  useEffect(() => {
+    if (!data) {
+      return;
+    }
+
+    const nextDraft = { ...DEFAULT_GOAL_DRAFT };
+    for (const goal of data.dailyGoals) {
+      nextDraft[goal.type] = goal.target;
+    }
+    setGoalDraft(nextDraft);
+  }, [data]);
+
+  const handleGoalTargetChange = (type: GoalType, value: string) => {
+    const parsed = Number.parseInt(value, 10);
+    if (Number.isNaN(parsed)) {
+      return;
+    }
+    setGoalDraft((prev) => ({
+      ...prev,
+      [type]: Math.max(1, Math.min(200, parsed)),
+    }));
+  };
+
+  const handleCancelGoalsEdit = () => {
+    if (data) {
+      const resetDraft = { ...DEFAULT_GOAL_DRAFT };
+      for (const goal of data.dailyGoals) {
+        resetDraft[goal.type] = goal.target;
+      }
+      setGoalDraft(resetDraft);
+    }
+    setIsEditingGoals(false);
+  };
+
+  const handleSaveGoals = async () => {
+    await updateDailyGoalsMutation.mutateAsync(goalDraft);
+    setIsEditingGoals(false);
+  };
+
+  if (isLoading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50/30">
         {/* Header Skeleton */}
@@ -162,8 +213,34 @@ export default function LearningHubPage() {
     );
   }
 
+  if (!data) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50/30 flex items-center justify-center p-6">
+        <div className="w-full max-w-md rounded-2xl border border-red-200 bg-white p-6 text-center">
+          <h1 className="text-xl font-semibold text-red-700 mb-2">Hub unavailable</h1>
+          <p className="text-sm text-slate-600 mb-4">
+            {error instanceof Error
+              ? error.message
+              : 'Could not load learning hub data from backend.'}
+          </p>
+          <button
+            onClick={() => refetch()}
+            disabled={isFetching}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-red-600 text-white hover:bg-red-700 disabled:opacity-60"
+          >
+            <RefreshCw className={`w-4 h-4 ${isFetching ? 'animate-spin' : ''}`} />
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   const totalDailyProgress = data.dailyGoals.reduce((acc, goal) => acc + goal.completed, 0);
-  const totalDailyTarget = data.dailyGoals.reduce((acc, goal) => acc + goal.target, 0);
+  const totalDailyTarget = data.dailyGoals.reduce(
+    (acc, goal) => acc + (isEditingGoals ? goalDraft[goal.type] : goal.target),
+    0
+  );
   const dailyProgressPercent = Math.round((totalDailyProgress / totalDailyTarget) * 100);
 
   return (
@@ -277,8 +354,33 @@ export default function LearningHubPage() {
               <Calendar className="w-5 h-5 text-indigo-500" />
               <h2 className="text-lg font-semibold text-gray-900">Today's Goals</h2>
             </div>
-            <div className="text-sm font-medium text-gray-600">
-              {dailyProgressPercent}% Complete
+            <div className="flex items-center gap-2">
+              {isEditingGoals ? (
+                <>
+                  <button
+                    onClick={handleCancelGoalsEdit}
+                    disabled={updateDailyGoalsMutation.isPending}
+                    className="px-3 py-1 text-xs rounded border border-gray-200 hover:bg-gray-100 disabled:opacity-60"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    onClick={handleSaveGoals}
+                    disabled={updateDailyGoalsMutation.isPending}
+                    className="px-3 py-1 text-xs rounded bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-60"
+                  >
+                    {updateDailyGoalsMutation.isPending ? 'Saving...' : 'Save goals'}
+                  </button>
+                </>
+              ) : (
+                <button
+                  onClick={() => setIsEditingGoals(true)}
+                  className="px-3 py-1 text-xs rounded border border-gray-200 hover:bg-gray-100"
+                >
+                  Edit goals
+                </button>
+              )}
+              <div className="text-sm font-medium text-gray-600">{dailyProgressPercent}% Complete</div>
             </div>
           </div>
 
@@ -296,37 +398,66 @@ export default function LearningHubPage() {
             {data.dailyGoals.map((goal) => {
               const config = skillConfig[goal.type];
               const Icon = config.icon;
-              const percent = Math.min(100, Math.round((goal.completed / goal.target) * 100));
-              const isComplete = goal.completed >= goal.target;
-
-              return (
-                <Link
-                  key={goal.type}
-                  href={config.link}
-                  className={`p-4 rounded-xl border-2 transition-all hover:scale-105 ${
-                    isComplete
-                      ? 'bg-green-50 border-green-200'
-                      : `${config.bgLight} border-transparent`
-                  }`}
-                >
+              const target = isEditingGoals ? goalDraft[goal.type] : goal.target;
+              const percent = Math.min(100, Math.round((goal.completed / Math.max(target, 1)) * 100));
+              const isComplete = goal.isCompleted || goal.completed >= target;
+              const cardClassName = `p-4 rounded-xl border-2 transition-all hover:scale-105 ${
+                isComplete
+                  ? 'bg-green-50 border-green-200'
+                  : `${config.bgLight} border-transparent`
+              }`;
+              const cardContent = (
+                <>
                   <div className="flex items-center gap-2 mb-2">
                     <Icon className={`w-4 h-4 ${isComplete ? 'text-green-600' : config.textColor}`} />
                     <span className="text-xs font-medium text-gray-600 capitalize">{goal.type}</span>
                   </div>
                   <div className="text-lg font-bold text-gray-900">
-                    {goal.completed}/{goal.target}
+                    {goal.completed}/{target}
                   </div>
                   <div className="text-xs text-gray-500">{goal.unit}</div>
+                  {isEditingGoals && (
+                    <div className="mt-2">
+                      <label className="text-[11px] text-gray-500 block mb-1">Target</label>
+                      <input
+                        type="number"
+                        min={1}
+                        max={200}
+                        value={goalDraft[goal.type]}
+                        onChange={(event) => handleGoalTargetChange(goal.type, event.target.value)}
+                        className="w-full rounded border border-gray-200 px-2 py-1 text-sm"
+                      />
+                    </div>
+                  )}
                   <div className="mt-2 h-1.5 bg-gray-200 rounded-full overflow-hidden">
                     <div
                       className={`h-full rounded-full ${isComplete ? 'bg-green-500' : 'bg-' + config.color + '-500'}`}
                       style={{ width: `${percent}%` }}
                     />
                   </div>
+                </>
+              );
+
+              if (isEditingGoals) {
+                return (
+                  <div key={goal.type} className={cardClassName}>
+                    {cardContent}
+                  </div>
+                );
+              }
+
+              return (
+                <Link key={goal.type} href={config.link} className={cardClassName}>
+                  {cardContent}
                 </Link>
               );
             })}
           </div>
+          {updateDailyGoalsMutation.isError && (
+            <p className="text-sm text-red-600 mt-3">
+              Failed to update daily goals. Please try again.
+            </p>
+          )}
         </motion.section>
 
         {/* Recommended Activity */}

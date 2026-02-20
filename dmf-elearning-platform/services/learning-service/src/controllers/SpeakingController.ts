@@ -1,7 +1,36 @@
 import { Request, Response } from 'express';
+import { z } from 'zod';
 import { SpeakingService } from '../services/SpeakingService';
 
 const speakingService = new SpeakingService();
+
+const submitAttemptSchema = z.object({
+  transcript: z.string().trim().min(1),
+  audioUrl: z.string().trim().min(1).optional(),
+  audioDuration: z.number().min(0).optional(),
+  recordingTime: z.number().min(0).optional(),
+});
+
+function asString(value: unknown): string | undefined {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
+  return undefined;
+}
+
+function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
+  const userId = req.user?.id;
+  if (!userId) {
+    res.status(401).json({
+      success: false,
+      error: {
+        code: 'AUTH_MISSING_CONTEXT',
+        message: 'Missing authenticated user context',
+      },
+    });
+    return undefined;
+  }
+  return userId;
+}
 
 export class SpeakingController {
   // ═══════════════════════════════════════════════════════════════
@@ -132,12 +161,19 @@ export class SpeakingController {
    */
   static async getById(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.query;
+      const id = asString(req.params.id);
+      const userId = asString(req.query.userId);
+
+      if (!id) {
+        return res.status(400).json({
+          success: false,
+          error: 'Missing prompt id',
+        });
+      }
 
       let prompt;
       if (userId) {
-        prompt = await speakingService.getWithProgress(id, userId as string);
+        prompt = await speakingService.getWithProgress(id, userId);
       } else {
         prompt = await speakingService.getById(id);
       }
@@ -171,21 +207,29 @@ export class SpeakingController {
    */
   static async submitAttempt(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId, transcript, audioUrl, audioDuration, recordingTime } = req.body;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId || !transcript) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing required fields: userId, transcript',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing prompt id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
+
+      const payload = submitAttemptSchema.parse(req.body);
 
       const attempt = await speakingService.submitAttempt(id, userId, {
-        transcript,
-        audioUrl,
-        audioDuration,
-        recordingTime,
+        transcript: payload.transcript,
+        audioUrl: payload.audioUrl,
+        audioDuration: payload.audioDuration,
+        recordingTime: payload.recordingTime,
       });
 
       return res.status(201).json({
@@ -193,11 +237,23 @@ export class SpeakingController {
         data: attempt,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Invalid speaking attempt payload',
+            details: error.issues,
+          },
+        });
+      }
       console.error('Error submitting attempt:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to submit attempt',
-        message: error instanceof Error ? error.message : 'Unknown error',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to submit attempt',
+        },
       });
     }
   }
@@ -207,17 +263,23 @@ export class SpeakingController {
    */
   static async getAttempts(req: Request, res: Response) {
     try {
-      const { id } = req.params;
-      const { userId } = req.query;
+      const id = asString(req.params.id);
+      const userId = getAuthenticatedUserId(req, res);
 
-      if (!userId) {
+      if (!id) {
         return res.status(400).json({
           success: false,
-          error: 'Missing userId query parameter',
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'Missing prompt id',
+          },
         });
       }
+      if (!userId) {
+        return;
+      }
 
-      const attempts = await speakingService.getUserAttempts(userId as string, id);
+      const attempts = await speakingService.getUserAttempts(userId, id);
 
       return res.status(200).json({
         success: true,
@@ -228,7 +290,10 @@ export class SpeakingController {
       console.error('Error fetching attempts:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch attempts',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch attempts',
+        },
       });
     }
   }
@@ -242,10 +307,14 @@ export class SpeakingController {
    */
   static async getUserHistory(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
-      const { status } = req.query;
+      const userId = getAuthenticatedUserId(req, res);
+      const status = asString(req.query.status);
 
-      const history = await speakingService.getUserHistory(userId, status as string);
+      if (!userId) {
+        return;
+      }
+
+      const history = await speakingService.getUserHistory(userId, status);
 
       return res.status(200).json({
         success: true,
@@ -256,7 +325,10 @@ export class SpeakingController {
       console.error('Error fetching history:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch history',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch history',
+        },
       });
     }
   }
@@ -266,7 +338,10 @@ export class SpeakingController {
    */
   static async getUserStats(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
+      const userId = getAuthenticatedUserId(req, res);
+      if (!userId) {
+        return;
+      }
       const stats = await speakingService.getUserStats(userId);
 
       return res.status(200).json({
@@ -277,7 +352,10 @@ export class SpeakingController {
       console.error('Error fetching user stats:', error);
       return res.status(500).json({
         success: false,
-        error: 'Failed to fetch user stats',
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch user stats',
+        },
       });
     }
   }

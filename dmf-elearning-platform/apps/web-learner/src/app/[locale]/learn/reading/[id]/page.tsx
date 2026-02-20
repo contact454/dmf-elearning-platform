@@ -1,6 +1,7 @@
 'use client';
 
 import { use, useState, useEffect, useCallback, useRef } from 'react';
+import { useMutation } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowLeft,
@@ -28,7 +29,12 @@ import {
   useReadingStats,
 } from '@/hooks/useApiQueries';
 import { useUser } from '@/providers/user-provider';
-import { PopupDictionary, InteractiveText } from '@/components/reading/PopupDictionary';
+import {
+  PopupDictionary,
+  InteractiveText,
+  type DictionarySavePayload,
+} from '@/components/reading/PopupDictionary';
+import { saveReadingVocabulary } from '@/services/german-api';
 import {
   PageTransition,
   AnimateOnScroll,
@@ -126,6 +132,16 @@ export default function ReadingPracticePage({ params }: ReadingPageProps) {
   const startReadingMutation = useStartReading();
   const updateProgressMutation = useUpdateReadingProgress();
   const completeReadingMutation = useCompleteReading();
+  const saveReadingVocabularyMutation = useMutation({
+    mutationFn: (vocab: DictionarySavePayload) =>
+      saveReadingVocabulary(userId, {
+        passageId: id,
+        word: vocab.word,
+        translation: vocab.meaning_vi,
+        context: content?.title || undefined,
+        sentence: vocab.example_de || undefined,
+      }),
+  });
 
   // Initialize from existing progress
   useEffect(() => {
@@ -184,6 +200,13 @@ export default function ReadingPracticePage({ params }: ReadingPageProps) {
     setSelectedWord({ word, position });
     setWordsLookedUp((prev) => new Set(prev).add(word.toLowerCase()));
   }, []);
+
+  const handleAddWordToReview = useCallback(
+    async (vocab: DictionarySavePayload) => {
+      await saveReadingVocabularyMutation.mutateAsync(vocab);
+    },
+    [saveReadingVocabularyMutation]
+  );
 
   const handleAnswerSelect = useCallback((answerIndex: number) => {
     setSelectedAnswer(answerIndex);
@@ -358,6 +381,7 @@ export default function ReadingPracticePage({ params }: ReadingPageProps) {
             word={selectedWord.word}
             position={selectedWord.position}
             onClose={() => setSelectedWord(null)}
+            onAddToReview={handleAddWordToReview}
           />
         )}
       </div>

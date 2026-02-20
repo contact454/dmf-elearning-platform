@@ -1,5 +1,54 @@
 import { Request, Response } from 'express';
+import { z } from 'zod';
 import { HubService } from '../services/HubService';
+
+const updateDailyGoalsSchema = z
+  .object({
+    vocabulary: z.number().int().min(1).max(200).optional(),
+    reading: z.number().int().min(1).max(200).optional(),
+    listening: z.number().int().min(1).max(200).optional(),
+  })
+  .refine(
+    (value) =>
+      value.vocabulary !== undefined || value.reading !== undefined || value.listening !== undefined,
+    { message: 'At least one goal field is required' }
+  );
+
+function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
+  const userId = req.user?.id;
+  if (!userId) {
+    res.status(401).json({
+      success: false,
+      error: {
+        code: 'AUTH_MISSING_CONTEXT',
+        message: 'Missing authenticated user context',
+      },
+    });
+    return undefined;
+  }
+  return userId;
+}
+
+function validationError(res: Response, message: string, details?: unknown) {
+  return res.status(400).json({
+    success: false,
+    error: {
+      code: 'VALIDATION_ERROR',
+      message,
+      details,
+    },
+  });
+}
+
+function internalError(res: Response, message: string) {
+  return res.status(500).json({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  });
+}
 
 export class HubController {
   /**
@@ -8,13 +57,9 @@ export class HubController {
    */
   static async getHubData(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'User ID is required',
-        });
+        return;
       }
 
       const data = await HubService.getHubData(userId);
@@ -25,10 +70,7 @@ export class HubController {
       });
     } catch (error) {
       console.error('Error getting hub data:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to get hub data',
-      });
+      return internalError(res, 'Failed to get hub data');
     }
   }
 
@@ -38,13 +80,9 @@ export class HubController {
    */
   static async getSkillProgress(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'User ID is required',
-        });
+        return;
       }
 
       const data = await HubService.getHubData(userId);
@@ -55,10 +93,7 @@ export class HubController {
       });
     } catch (error) {
       console.error('Error getting skill progress:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to get skill progress',
-      });
+      return internalError(res, 'Failed to get skill progress');
     }
   }
 
@@ -68,13 +103,9 @@ export class HubController {
    */
   static async getDailyGoals(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'User ID is required',
-        });
+        return;
       }
 
       const data = await HubService.getHubData(userId);
@@ -85,10 +116,35 @@ export class HubController {
       });
     } catch (error) {
       console.error('Error getting daily goals:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to get daily goals',
+      return internalError(res, 'Failed to get daily goals');
+    }
+  }
+
+  /**
+   * PATCH /api/hub/:userId/daily-goals
+   * Update daily goal targets for a user
+   */
+  static async updateDailyGoals(req: Request, res: Response) {
+    try {
+      const userId = getAuthenticatedUserId(req, res);
+      if (!userId) {
+        return;
+      }
+
+      const updates = updateDailyGoalsSchema.parse(req.body);
+
+      const dailyGoals = await HubService.updateDailyGoals(userId, updates);
+
+      return res.json({
+        success: true,
+        data: dailyGoals,
       });
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        return validationError(res, 'Invalid daily goals payload', error.issues);
+      }
+      console.error('Error updating daily goals:', error);
+      return internalError(res, 'Failed to update daily goals');
     }
   }
 
@@ -98,13 +154,9 @@ export class HubController {
    */
   static async getRecommendation(req: Request, res: Response) {
     try {
-      const { userId } = req.params;
-
+      const userId = getAuthenticatedUserId(req, res);
       if (!userId) {
-        return res.status(400).json({
-          success: false,
-          error: 'User ID is required',
-        });
+        return;
       }
 
       const data = await HubService.getHubData(userId);
@@ -115,10 +167,7 @@ export class HubController {
       });
     } catch (error) {
       console.error('Error getting recommendation:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to get recommendation',
-      });
+      return internalError(res, 'Failed to get recommendation');
     }
   }
 }
