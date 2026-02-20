@@ -60,6 +60,8 @@ type DailyGoalConfig = {
   listening: number;
 };
 
+export type DailyGoalConfigUpdate = Partial<DailyGoalConfig>;
+
 export class HubService {
   private static readonly defaultDailyGoalConfig: DailyGoalConfig = {
     vocabulary: 10,
@@ -118,6 +120,41 @@ export class HubService {
       recentAchievements: [],
       recommendedActivity,
     };
+  }
+
+  static async updateDailyGoals(
+    userId: string,
+    updates: DailyGoalConfigUpdate
+  ): Promise<DailyGoal[]> {
+    const updateData: {
+      dailyGoalVocabulary?: number;
+      dailyGoalReading?: number;
+      dailyGoalListening?: number;
+    } = {};
+
+    if (typeof updates.vocabulary === 'number') {
+      updateData.dailyGoalVocabulary = updates.vocabulary;
+    }
+    if (typeof updates.reading === 'number') {
+      updateData.dailyGoalReading = updates.reading;
+    }
+    if (typeof updates.listening === 'number') {
+      updateData.dailyGoalListening = updates.listening;
+    }
+
+    if (Object.keys(updateData).length > 0) {
+      await prisma.user.update({
+        where: { id: userId },
+        data: updateData,
+      });
+    }
+
+    const [dailyActivity, config] = await Promise.all([
+      this.getDailyActivity(userId),
+      this.getDailyGoalConfig(userId),
+    ]);
+
+    return this.calculateDailyGoals(dailyActivity, config);
   }
 
   private static async getVocabularyProgress(userId: string): Promise<SkillProgress> {

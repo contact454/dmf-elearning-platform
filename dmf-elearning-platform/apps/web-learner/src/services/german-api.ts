@@ -1647,6 +1647,12 @@ export interface DailyGoal {
   unit: string;
 }
 
+export interface DailyGoalUpdateInput {
+  vocabulary?: number;
+  reading?: number;
+  listening?: number;
+}
+
 export interface HubSummary {
   totalWordsLearned: number;
   wordsInReview: number;
@@ -1708,6 +1714,22 @@ export async function getSkillProgress(userId: string): Promise<SkillProgress[]>
  */
 export async function getDailyGoals(userId: string): Promise<DailyGoal[]> {
   return await fetchWithRetry<DailyGoal[]>(`${BASE_URL}/hub/${userId}/daily-goals`);
+}
+
+/**
+ * Update daily goal targets
+ */
+export async function updateDailyGoals(
+  userId: string,
+  updates: DailyGoalUpdateInput
+): Promise<DailyGoal[]> {
+  return await fetchWithRetry<DailyGoal[]>(
+    `${BASE_URL}/hub/${userId}/daily-goals`,
+    {
+      method: 'PATCH',
+      body: JSON.stringify(updates),
+    }
+  );
 }
 
 /**

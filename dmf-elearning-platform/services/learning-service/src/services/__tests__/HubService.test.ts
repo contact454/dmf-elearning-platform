@@ -48,6 +48,7 @@ const { mockPrisma } = vi.hoisted(() => ({
     },
     user: {
       findUnique: vi.fn(),
+      update: vi.fn(),
     },
   },
 }));
@@ -170,5 +171,50 @@ describe('HubService.getHubData', () => {
     expect(vocabGoal).toMatchObject({ target: 10, completed: 9, isCompleted: false });
     expect(readingGoal).toMatchObject({ target: 1, completed: 1, isCompleted: true });
     expect(listeningGoal).toMatchObject({ target: 1, completed: 1, isCompleted: true });
+  });
+
+  it('updates daily goal config in user profile and returns refreshed goals', async () => {
+    mockPrisma.user.update.mockResolvedValue({
+      id: 'user_123456',
+      dailyGoalVocabulary: 12,
+      dailyGoalReading: 2,
+      dailyGoalListening: 1,
+    });
+    mockPrisma.user.findUnique.mockResolvedValue({
+      currentStreak: 8,
+      longestStreak: 21,
+      dailyGoalVocabulary: 12,
+      dailyGoalReading: 2,
+      dailyGoalListening: 1,
+    });
+    mockPrisma.vocabularyReviewAttempt.count.mockResolvedValue(6);
+    mockPrisma.userReadingProgress.count.mockImplementation(async (args: any) => {
+      if (args?.where?.completedAt?.gte) return 1;
+      return 3;
+    });
+    mockPrisma.userListeningProgress.count.mockImplementation(async (args: any) => {
+      if (args?.where?.completedAt?.gte) return 1;
+      return 2;
+    });
+
+    const goals = await HubService.updateDailyGoals('user_123456', {
+      vocabulary: 12,
+      reading: 2,
+    });
+
+    expect(mockPrisma.user.update).toHaveBeenCalledWith({
+      where: { id: 'user_123456' },
+      data: {
+        dailyGoalVocabulary: 12,
+        dailyGoalReading: 2,
+      },
+    });
+
+    expect(goals).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ type: 'vocabulary', target: 12, completed: 6 }),
+        expect.objectContaining({ type: 'reading', target: 2, completed: 1 }),
+      ])
+    );
   });
 });

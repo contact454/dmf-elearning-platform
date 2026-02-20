@@ -65,6 +65,7 @@ import {
   getHubData,
   getSkillProgress,
   getDailyGoals,
+  updateDailyGoals as updateDailyGoalsRequest,
   getRecommendation,
   // Leaderboard
   getLeaderboard,
@@ -789,6 +790,19 @@ export function useDailyGoals() {
     queryFn: () => getDailyGoals(userId),
     enabled: !!userId,
     staleTime: 60 * 1000, // 1 minute - goals change frequently
+  });
+}
+
+export function useUpdateDailyGoals() {
+  const queryClient = useQueryClient();
+  const { userId } = useUser();
+
+  return useMutation({
+    mutationFn: (updates: { vocabulary?: number; reading?: number; listening?: number }) =>
+      updateDailyGoalsRequest(userId, updates),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: queryKeys.hub.all });
+    },
   });
 }
 
