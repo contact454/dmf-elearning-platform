@@ -85,7 +85,9 @@ pnpm --filter web-learner test -- \
   src/__tests__/auth-login-page.test.tsx \
   src/__tests__/auth-middleware.test.ts
 ```
-- Result: PASS (3 tests)
+- Result: PASS (4 tests)
+- Notes:
+  - `auth-provider.test.tsx` now covers both session restore and `TOKEN_REFRESHED` lifecycle.
 
 ```bash
 pnpm --filter web-learner exec eslint <touched S1 files>
@@ -95,7 +97,7 @@ pnpm --filter web-learner exec eslint <touched S1 files>
 ```bash
 pnpm --filter web-learner build
 ```
-- Result: BLOCKED in sandbox (cannot fetch Google Fonts due network restrictions)
+- Result: PASS (outside sandbox network)
 
 ## 5) Manual Smoke Log (S1)
 
@@ -111,11 +113,11 @@ Current CLI run status (2026-02-20):
 pnpm s1:auth-smoke
 ```
 
-- Result: BLOCKED
-- Reason: sandbox cannot resolve external DNS (`ENOTFOUND fddwxqtkqxcsmchmzokz.supabase.co`)
+- Result: FAIL
+- Reason: Supabase project requires email confirmation before password sign-in (`email_not_confirmed`)
 - Notes:
   - Required env vars are now configured in local `.env` files.
-  - Smoke run reaches sign-up step and fails at outbound network resolution in this CLI environment.
+  - Smoke run reaches sign-up and then fails at sign-in due auth policy.
 - Script location: `scripts/s1-auth-smoke.mjs`
 
 ## 6) Local Execution Steps
