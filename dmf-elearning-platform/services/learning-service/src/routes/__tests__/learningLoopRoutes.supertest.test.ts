@@ -58,6 +58,8 @@ vi.mock('../../services/streakService', () => ({
 
 import readingRoutes from '../reading';
 import listeningRoutes from '../listening';
+import speakingRoutes from '../speaking';
+import writingRoutes from '../writing';
 
 const describeSupertest =
   process.env.CODEX_SANDBOX_NETWORK_DISABLED === '1' ? describe.skip : describe;
@@ -67,6 +69,8 @@ function createApp() {
   app.use(express.json());
   app.use('/api/reading', readingRoutes);
   app.use('/api/listening', listeningRoutes);
+  app.use('/api/speaking', speakingRoutes);
+  app.use('/api/writing', writingRoutes);
   return app;
 }
 
@@ -145,6 +149,46 @@ describeSupertest('Learning loop routes (supertest)', () => {
     expect(mocks.mockReadingSaveVocabulary).not.toHaveBeenCalled();
   });
 
+  it('GET /api/reading/passages returns 400 when query is invalid', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/reading/passages?limit=invalid');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
+  it('GET /api/reading/passages/:id returns 400 for invalid passage id input', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/reading/passages/%20');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
+  it('GET /api/reading returns 400 when list query is invalid', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/reading?limit=invalid');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
+  it('GET /api/reading/:id returns 400 for invalid content id input', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/reading/%20');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
   it('POST /api/listening/exercise/:exerciseId/attempt uses authenticated userId and updates SRS', async () => {
     const app = createApp();
 
@@ -192,5 +236,65 @@ describeSupertest('Learning loop routes (supertest)', () => {
     expect(response.body.success).toBe(false);
     expect(response.body.error.code).toBe('VALIDATION_ERROR');
     expect(mocks.mockListeningSubmitAttempt).not.toHaveBeenCalled();
+  });
+
+  it('GET /api/listening returns 400 when query is invalid', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/listening?limit=invalid');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
+  it('GET /api/listening/exercise/:exerciseId returns 400 for invalid exercise id input', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/listening/exercise/%20');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
+  it('GET /api/speaking returns 400 when list query is invalid', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/speaking?limit=invalid');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
+  it('GET /api/speaking/:id returns 400 for invalid prompt id input', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/speaking/%20');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
+  it('GET /api/writing returns 400 when list query is invalid', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/writing?limit=invalid');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
+  });
+
+  it('GET /api/writing/:id returns 400 for invalid prompt id input', async () => {
+    const app = createApp();
+
+    const response = await request(app).get('/api/writing/%20');
+
+    expect(response.status).toBe(400);
+    expect(response.body.success).toBe(false);
+    expect(response.body.error.code).toBe('VALIDATION_ERROR');
   });
 });

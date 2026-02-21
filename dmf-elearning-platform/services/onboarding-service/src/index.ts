@@ -14,6 +14,7 @@ import { InMemoryOutbox } from '@dmf/infra/adapters';
 import { registerSystemUserRegisterRoute } from './http/commands/system.user.register.route';
 import { registerSystemUserLoginRoute } from './http/commands/system.user.login.route';
 import { registerSystemProfileModifyRoute } from './http/commands/system.profile.modify.route';
+import { registerOnboardingPlacementRoute } from './http/commands/onboarding.placement.route';
 import { registerHealthRoute } from './http/health.route';
 import { registerMetricsRoute, httpMetricsMiddleware, registerHttpMetricsResponseHook, setupEventMetricsConsumers } from '@dmf/ops-metrics';
 import { requestContextMiddleware } from '@dmf/shared';
@@ -65,7 +66,8 @@ registerMetricsRoute(app);
 // Register routes (Đăng ký tuyến)
 registerSystemUserRegisterRoute(app, { eventBus, database, logger, auditLogger, idempotencyStore, outbox });
 registerSystemUserLoginRoute(app, { eventBus, database, logger, auditLogger, outbox });
-registerSystemProfileModifyRoute(app, { eventBus, database, logger, auditLogger, outbox });
+registerSystemProfileModifyRoute(app, { eventBus, database, logger, auditLogger, idempotencyStore, outbox });
+registerOnboardingPlacementRoute(app, { eventBus, database, logger, auditLogger, idempotencyStore, outbox });
 registerSocialRoutes(app, { friendshipRepo });
 
 const start = async () => {

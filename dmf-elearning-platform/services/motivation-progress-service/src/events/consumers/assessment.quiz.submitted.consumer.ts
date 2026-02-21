@@ -26,11 +26,15 @@ export async function handleAssessmentQuizSubmitted(
   deps: QuizSubmittedDeps
 ): Promise<void> {
   const eventId = (event.payload as { eventId?: string }).eventId ?? '';
-  if (hasProcessedEvent(eventId)) {
+  if (eventId && hasProcessedEvent(eventId)) {
     deps.logger.info('Duplicate event skipped (assessment.quiz.submitted)', { eventId });
     return;
   }
-  markProcessedEvent(eventId);
+  if (eventId) {
+    markProcessedEvent(eventId);
+  } else {
+    deps.logger.warn('assessment.quiz.submitted missing eventId; processing without dedupe', {});
+  }
 
   const userId = (event.payload as { userId?: string }).userId as UserId;
   let rawScore = (event.payload as { score?: number }).score;

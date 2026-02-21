@@ -1,0 +1,193 @@
+# DMF eLearning Platform — API Documentation
+# M8 S25-04
+
+openapi: 3.0.3
+info:
+  title: DMF German Learning API
+  version: 1.0.0
+  description: |
+    API for the DMF German eLearning Platform.
+    Supports vocabulary, reading, listening, speaking, writing, gamification,
+    education (CEFR), AI grading, and role-based admin/teacher/mentor access.
+  contact:
+    name: DMF Team
+    url: https://dmf-elearning.com
+
+servers:
+  - url: https://api.dmf-elearning.com/api
+    description: Production
+  - url: https://staging-api.dmf-elearning.com/api
+    description: Staging
+  - url: http://localhost:3001/api
+    description: Local development
+
+tags:
+  - name: Health
+  - name: Vocabulary
+  - name: Reading
+  - name: Listening
+  - name: Speaking
+  - name: Writing
+  - name: Gamification
+  - name: Education
+  - name: AI
+  - name: Teacher
+  - name: Admin
+  - name: Mentor
+
+paths:
+  /health:
+    get:
+      tags: [Health]
+      summary: Health check
+      responses:
+        '200':
+          description: Service healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success: { type: boolean }
+                  message: { type: string }
+
+  /vocabulary:
+    get:
+      tags: [Vocabulary]
+      summary: Get vocabulary words
+      parameters:
+        - name: level
+          in: query
+          schema: { type: string, enum: [A1, A2, B1, B2, C1, C2] }
+      responses:
+        '200':
+          description: List of words
+
+  /gamification/xp:
+    get:
+      tags: [Gamification]
+      summary: Get user XP and level
+      parameters:
+        - name: userId
+          in: query
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: XP data
+
+  /gamification/xp/award:
+    post:
+      tags: [Gamification]
+      summary: Award XP to user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [userId, amount, source]
+              properties:
+                userId: { type: string }
+                amount: { type: integer }
+                source: { type: string }
+      responses:
+        '200':
+          description: XP awarded
+
+  /gamification/leaderboard:
+    get:
+      tags: [Gamification]
+      summary: Get top users by XP
+      responses:
+        '200':
+          description: Leaderboard data
+
+  /education/cefr/assess:
+    post:
+      tags: [Education]
+      summary: Assess CEFR level from mastery scores
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                mastery:
+                  type: object
+                  properties:
+                    vocabulary: { type: number }
+                    reading: { type: number }
+                    listening: { type: number }
+                    speaking: { type: number }
+                    writing: { type: number }
+      responses:
+        '200':
+          description: CEFR level assessment
+
+  /ai/grade-writing:
+    post:
+      tags: [AI]
+      summary: AI-grade a writing submission
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [submission, promptText, level]
+              properties:
+                submission: { type: string }
+                promptText: { type: string }
+                level: { type: string, enum: [A1, A2, B1, B2] }
+      responses:
+        '200':
+          description: AI feedback with rubric scores
+
+  /admin/users:
+    get:
+      tags: [Admin]
+      summary: List all users (admin only)
+      security:
+        - rbac: [admin]
+      parameters:
+        - name: page
+          in: query
+          schema: { type: integer, default: 1 }
+        - name: role
+          in: query
+          schema: { type: string, enum: [learner, teacher, mentor, admin] }
+      responses:
+        '200':
+          description: Paginated user list
+        '403':
+          description: Insufficient permissions
+
+  /teacher/students:
+    get:
+      tags: [Teacher]
+      summary: List students (teacher/admin only)
+      security:
+        - rbac: [teacher, admin]
+      responses:
+        '200':
+          description: Student list with progress
+
+  /mentor/queue:
+    get:
+      tags: [Mentor]
+      summary: Get pending feedback queue
+      security:
+        - rbac: [mentor, teacher, admin]
+      responses:
+        '200':
+          description: Writing and speaking feedback queue
+
+components:
+  securitySchemes:
+    rbac:
+      type: apiKey
+      in: query
+      name: userId
+      description: User ID for role-based access control

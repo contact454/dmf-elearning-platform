@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/providers';
 import Link from 'next/link';
+import { useLocale } from 'next-intl';
 
 interface RegisterFormData {
   name: string;
@@ -23,8 +24,9 @@ export default function RegisterPage() {
   } = useForm<RegisterFormData>();
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<boolean>(false);
-  const { signUp } = useAuth();
+  const { signUp, signInWithGoogle } = useAuth();
   const router = useRouter();
+  const locale = useLocale();
 
   const password = watch('password');
 
@@ -44,11 +46,13 @@ export default function RegisterPage() {
 
       // Wait 2 seconds then redirect to login
       setTimeout(() => {
-        router.push('/auth/login');
+        router.push(`/${locale}/auth/login`);
       }, 2000);
-    } catch (err: any) {
+    } catch (err: unknown) {
       const errorMessage =
-        err.message || 'Đăng ký thất bại. Vui lòng thử lại.';
+        err instanceof Error
+          ? err.message
+          : 'Đăng ký thất bại. Vui lòng thử lại.';
       setError(errorMessage);
     }
   };
@@ -294,14 +298,14 @@ export default function RegisterPage() {
               >
                 Tôi đồng ý với{' '}
                 <Link
-                  href="/terms"
+                  href={`/${locale}/terms`}
                   className="text-purple-600 hover:text-purple-900 underline"
                 >
                   Điều khoản dịch vụ
                 </Link>{' '}
                 và{' '}
                 <Link
-                  href="/privacy"
+                  href={`/${locale}/privacy`}
                   className="text-purple-600 hover:text-purple-900 underline"
                 >
                   Chính sách bảo mật
@@ -362,12 +366,35 @@ export default function RegisterPage() {
             </button>
           </form>
 
+          <div className="my-6 flex items-center gap-3">
+            <div className="h-px flex-1 bg-purple-200" />
+            <span className="text-xs uppercase tracking-wide text-purple-700">Hoặc</span>
+            <div className="h-px flex-1 bg-purple-200" />
+          </div>
+
+          <button
+            type="button"
+            onClick={() => signInWithGoogle(locale)}
+            className="
+              w-full h-11 px-4 rounded-lg
+              bg-white border border-purple-200
+              text-purple-900 font-medium text-sm
+              hover:bg-purple-50
+              focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2
+              transition-all duration-200
+              cursor-pointer
+              font-inter
+            "
+          >
+            Đăng ký với Google
+          </button>
+
           {/* Login Link */}
           <div className="mt-6 text-center">
             <p className="text-sm text-purple-700 font-inter">
               Đã có tài khoản?{' '}
               <Link
-                href="/auth/login"
+                href={`/${locale}/auth/login`}
                 className="font-medium text-purple-600 hover:text-purple-800 transition-colors duration-200"
               >
                 Đăng nhập ngay

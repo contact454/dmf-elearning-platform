@@ -16,6 +16,14 @@ interface AddXPBody {
   amount: number;
 }
 
+interface StreakParams {
+  userId: string;
+}
+
+interface StreakCheckInBody {
+  userId: string;
+}
+
 export function registerGamificationRoutes(
   app: FastifyInstance,
   deps: {
@@ -39,7 +47,6 @@ export function registerGamificationRoutes(
       }
 
       // Calculate XP needed for next level
-      const currentLevelMinXP = Math.pow(stats.level - 1, 2) * 100;
       const nextLevelMinXP = Math.pow(stats.level, 2) * 100;
       const xpForNextLevel = nextLevelMinXP - stats.xp;
 
@@ -87,7 +94,7 @@ export function registerGamificationRoutes(
 
     try {
       const oldStats = await deps.statsRepo.findByUserId(userId);
-      const oldLevel = oldStats?.level || 0;
+      const oldLevel = oldStats?.level ?? 1;
 
       const newStats = await deps.statsRepo.addXP(userId, amount);
 
@@ -111,6 +118,85 @@ export function registerGamificationRoutes(
     }
   });
 
+  // GET /api/gamification/streak/:userId
+  app.get<{ Params: StreakParams }>('/api/gamification/streak/:userId', async (request, reply) => {
+    const { userId } = request.params;
+
+    try {
+      const stats = await deps.statsRepo.findByUserId(userId);
+
+      if (!stats) {
+        return reply.code(404).send({
+          error: {
+            code: 'NOT_FOUND',
+            message: 'User stats not found',
+          },
+        });
+      }
+
+      const now = new Date();
+      const canCheckIn =
+        !stats.lastCheckInAt ||
+        !isSameUtcDay(stats.lastCheckInAt, now);
+
+      return reply.code(200).send({
+        userId: stats.userId,
+        streak: stats.streak,
+        lastCheckInAt: stats.lastCheckInAt,
+        canCheckIn,
+        lastUpdated: stats.updatedAt,
+      });
+    } catch (error) {
+      console.error('Error fetching streak:', error);
+      return reply.code(500).send({
+        error: {
+          code: 'INTERNAL_ERROR',
+          message: 'Failed to fetch streak',
+        },
+      });
+    }
+  });
+
+  // POST /api/gamification/streak/check-in
+  app.post<{ Body: StreakCheckInBody }>(
+    '/api/gamification/streak/check-in',
+    async (request, reply) => {
+      const { userId } = request.body;
+
+      if (!userId) {
+        return reply.code(400).send({
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: 'userId is required',
+          },
+        });
+      }
+
+      try {
+        const result = await deps.statsRepo.checkIn(userId);
+
+        return reply.code(200).send({
+          userId: result.stats.userId,
+          streak: result.stats.streak,
+          lastCheckInAt: result.stats.lastCheckInAt,
+          streakIncreased: result.streakIncreased,
+          alreadyCheckedIn: result.alreadyCheckedIn,
+          message: result.alreadyCheckedIn
+            ? 'Already checked in today'
+            : 'Streak updated successfully',
+        });
+      } catch (error) {
+        console.error('Error updating streak:', error);
+        return reply.code(500).send({
+          error: {
+            code: 'INTERNAL_ERROR',
+            message: 'Failed to update streak',
+          },
+        });
+      }
+    }
+  );
+
   // Debug: Seed stats
   app.post<{ Body: { userId: string; xp: number; streak: number } }>(
     '/api/debug/seed-stats',
@@ -123,6 +209,7 @@ export function registerGamificationRoutes(
         xp,
         level: Math.floor(Math.sqrt(xp / 100)) + 1,
         streak: streak || 0,
+        lastCheckInAt: null,
         createdAt: new Date(),
         updatedAt: new Date(),
       };
@@ -166,6 +253,14 @@ export function registerGamificationRoutes(
         });
       }
     }
+  );
+}
+
+function isSameUtcDay(left: Date, right: Date): boolean {
+  return (
+    left.getUTCFullYear() === right.getUTCFullYear() &&
+    left.getUTCMonth() === right.getUTCMonth() &&
+    left.getUTCDate() === right.getUTCDate()
   );
 }
 

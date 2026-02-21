@@ -1,5 +1,7 @@
 # Phase 6 Deploy Rehearsal Report
 
+> Superseded by: `docs/implementation/PHASE6-DEPLOY-REHEARSAL-2026-02-20.md`
+
 **Date:** 2026-02-20  
 **Scope:** Local rehearsal against `docs/implementation/PHASE6-DEPLOY-BOOTSTRAP-CHECKLIST.md`  
 **Commit context:** post Phase 4 non-core alignment + Phase 6 monitoring hooks

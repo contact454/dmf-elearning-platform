@@ -1,32 +1,60 @@
 import { test, expect } from '@playwright/test';
-import { createOnboardingBootstrap } from '../../../../services/onboarding/bootstrap';
+import {
+  InMemoryDatabase,
+  InMemoryEventBus,
+  InMemoryIdempotencyStore,
+  InMemoryOutbox,
+  sharedEventBus,
+} from '../../../../packages/infra/src/adapters/index.js';
+import { UserRepository } from '../../../../services/onboarding-service/src/state/user.repository.js';
+import { handleSystemUserRegister } from '../../../../services/onboarding-service/src/application/system.user.register.handler.js';
+import { handleSystemProfileModify } from '../../../../services/onboarding-service/src/application/system.profile.modify.handler.js';
 
-test('onboarding register -> profile update emits events (in-memory bus)', async () => {
-  const { bus, registerUser, updateProfile } = createOnboardingBootstrap();
+test('onboarding register -> profile update emits events (active onboarding-service path)', async () => {
+  const bus = sharedEventBus;
+  if (bus instanceof InMemoryEventBus) {
+    bus.clearProcessedEvents();
+  }
+
+  const db = new InMemoryDatabase();
+  await db.connect({ host: 'localhost', port: 5432, database: 'e2e-onboarding-smoke' });
+  const userRepository = new UserRepository(db);
+  const idempotencyStore = new InMemoryIdempotencyStore();
+  const outbox = new InMemoryOutbox();
 
   const events: string[] = [];
-  await bus.subscribe('*', (event) => {
-    events.push(event.event_name);
+  await bus.subscribe('*', async (event) => {
+    events.push(event.eventName);
   });
 
-  const res = await registerUser.execute({
-    email: 'alice@example.com',
-    role: 'learner',
-    firstName: 'Alice',
-    lastName: 'Liddell',
-    targetLanguage: 'en',
-  });
+  const registerRes = await handleSystemUserRegister(
+    {
+      email: `onboarding-smoke-${Date.now()}@example.com`,
+      password: 'Password123',
+      firstName: 'Alice',
+      lastName: 'Liddell',
+      targetLanguage: 'en',
+      correlationId: `corr-reg-${Date.now()}`,
+    },
+    {},
+    { userRepository, eventBus: bus, idempotencyStore, outbox }
+  );
 
-  expect(res.userId).toBeTruthy();
+  expect(registerRes.userId).toBeTruthy();
 
-  await updateProfile.execute({
-    userId: res.userId,
-    firstName: 'Alice',
-    lastName: 'Wonder',
-    targetLanguage: 'en',
-  });
+  const profileRes = await handleSystemProfileModify(
+    {
+      userId: registerRes.userId,
+      firstName: 'Alice',
+      lastName: 'Wonder',
+      targetLanguage: 'de',
+      correlationId: `corr-prof-${Date.now()}`,
+    },
+    { userId: '' },
+    { userRepository, eventBus: bus, idempotencyStore, outbox }
+  );
 
+  expect(profileRes.userId).toBe(registerRes.userId);
   expect(events).toContain('system.user.registered');
   expect(events).toContain('system.profile.updated');
 });
-

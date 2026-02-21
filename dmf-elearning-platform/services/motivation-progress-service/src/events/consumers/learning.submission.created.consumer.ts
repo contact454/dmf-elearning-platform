@@ -28,11 +28,15 @@ export async function handleLearningSubmissionCreated(
   deps: SubmissionCreatedDeps
 ): Promise<void> {
   const eventId = (event.payload as { eventId?: string }).eventId ?? '';
-  if (hasProcessedEvent(eventId)) {
+  if (eventId && hasProcessedEvent(eventId)) {
     deps.logger.info('Duplicate event skipped (learning.submission.created)', { eventId });
     return;
   }
-  markProcessedEvent(eventId);
+  if (eventId) {
+    markProcessedEvent(eventId);
+  } else {
+    deps.logger.warn('learning.submission.created missing eventId; processing without dedupe', {});
+  }
 
   const userId = (event.payload as { userId?: string }).userId as UserId | undefined;
   const lessonId = (event.payload as { lessonId?: string }).lessonId as LessonId;

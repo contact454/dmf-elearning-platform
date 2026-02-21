@@ -1,69 +1,82 @@
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen, fireEvent, act } from '@testing-library/react'
 import { Flashcard } from '../Flashcard'
-import { describe, it, expect, vi } from 'vitest'
+import { describe, it, expect, vi, afterEach } from 'vitest'
+
+afterEach(() => {
+  vi.useRealTimers()
+})
 
 describe('Flashcard', () => {
-  const mockWord = {
-    id: '1',
+  const mockCard = {
     word: 'Hallo',
-    translation: 'Xin chào',
-    level: 'A1' as const,
-    wordType: 'Interjection',
-    exampleSentence: 'Hallo, wie geht es dir?',
-    exampleTranslation: 'Xin chào, bạn khỏe không?'
+    meaning: 'Xin chào',
+    level: 'A1',
+    example: 'Hallo, wie geht es dir?',
   }
   
   it('should render front side initially', () => {
-    render(<Flashcard word={mockWord} />)
+    render(<Flashcard {...mockCard} onRate={vi.fn()} />)
     expect(screen.getByText('Hallo')).toBeInTheDocument()
-    expect(screen.getByText('Phát âm')).toBeInTheDocument()
+    expect(screen.getByText('Tap to reveal')).toBeInTheDocument()
   })
   
-  it('should show level and word type badges', () => {
-    render(<Flashcard word={mockWord} />)
+  it('should show level badge', () => {
+    render(<Flashcard {...mockCard} onRate={vi.fn()} />)
     expect(screen.getByText('A1')).toBeInTheDocument()
-    expect(screen.getByText('Interjection')).toBeInTheDocument()
   })
   
-  it('should flip on click', async () => {
-    render(<Flashcard word={mockWord} />)
-    
-    const card = screen.getByRole('button', { name: /Flashcard/ })
-    fireEvent.click(card)
-    
-    // After animation, translation should be visible
-    // Note: In real test, we'd wait for animation to complete
-    expect(card).toHaveAttribute('aria-label', `Flashcard: ${mockWord.word}. Press space to flip.`)
+  it('should flip on click and eventually show rating controls', () => {
+    vi.useFakeTimers()
+    render(<Flashcard {...mockCard} onRate={vi.fn()} />)
+
+    const container = document.querySelector('.perspective-1000')
+    expect(container).toBeTruthy()
+    fireEvent.click(container!)
+
+    act(() => {
+      vi.advanceTimersByTime(300)
+    })
+    expect(screen.getByText('😵 Again')).toBeInTheDocument()
   })
   
-  it('should flip on Space key', () => {
-    render(<Flashcard word={mockWord} />)
-    
-    const card = screen.getByRole('button', { name: /Flashcard/ })
-    fireEvent.keyDown(card, { key: ' ' })
-    
-    // Keyboard interaction should trigger flip
-    expect(card).toBeInTheDocument()
+  it('should show rating buttons after flip delay', () => {
+    vi.useFakeTimers()
+    render(<Flashcard {...mockCard} onRate={vi.fn()} />)
+
+    fireEvent.click(screen.getByText('Hallo'))
+
+    expect(screen.queryByText('😊 Good')).not.toBeInTheDocument()
+    act(() => {
+      vi.advanceTimersByTime(300)
+    })
+    expect(screen.getByText('😊 Good')).toBeInTheDocument()
   })
-  
-  it('should call onFlip callback when flipped', () => {
-    const onFlip = vi.fn()
-    render(<Flashcard word={mockWord} onFlip={onFlip} />)
-    
-    const card = screen.getByRole('button', { name: /Flashcard/ })
-    fireEvent.click(card)
-    
-    expect(onFlip).toHaveBeenCalledTimes(1)
+
+  it('should call onRate and reset when user rates', () => {
+    vi.useFakeTimers()
+    const onRate = vi.fn()
+    render(<Flashcard {...mockCard} onRate={onRate} />)
+
+    const container = document.querySelector('.perspective-1000')
+    expect(container).toBeTruthy()
+    fireEvent.click(container!)
+    act(() => {
+      vi.advanceTimersByTime(300)
+    })
+
+    fireEvent.click(screen.getByText('🎉 Easy'))
+    expect(onRate).toHaveBeenCalledWith(3)
+    expect(screen.getByText('Hallo')).toBeInTheDocument()
   })
-  
-  it('should stop audio click propagation', () => {
-    const onFlip = vi.fn()
-    render(<Flashcard word={mockWord} onFlip={onFlip} />)
-    
-    const audioButton = screen.getByLabelText(`Play pronunciation of ${mockWord.word}`)
-    fireEvent.click(audioButton)
-    
-    // Audio button click should not trigger card flip
-    expect(onFlip).not.toHaveBeenCalled()
+
+  it('should not call onRate until a rating is selected', () => {
+    const onRate = vi.fn()
+    render(<Flashcard {...mockCard} onRate={onRate} />)
+
+    const container = document.querySelector('.perspective-1000')
+    expect(container).toBeTruthy()
+    fireEvent.click(container!)
+    fireEvent.click(container!)
+    expect(onRate).not.toHaveBeenCalled()
   })
 })

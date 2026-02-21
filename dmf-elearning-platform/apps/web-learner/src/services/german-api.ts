@@ -3,6 +3,8 @@
  * Connects to Learning Service (Port 3003) for vocabulary data
  */
 
+import { getBrowserAuthHeaders } from '@/lib/api/auth-client';
+
 const BASE_URL = process.env.NEXT_PUBLIC_LEARNING_API_URL || 'http://localhost:3003/api';
 
 // ============================================================================
@@ -86,30 +88,6 @@ async function handleResponse<T>(response: Response): Promise<T> {
   return json.data;
 }
 
-async function getAuthHeaders(): Promise<Record<string, string>> {
-  if (typeof window === 'undefined') {
-    return {};
-  }
-
-  try {
-    const { createClient } = await import('@/lib/supabase/client');
-    const supabase = createClient();
-    const {
-      data: { session },
-    } = await supabase.auth.getSession();
-
-    if (session?.access_token) {
-      return {
-        Authorization: `Bearer ${session.access_token}`,
-      };
-    }
-  } catch (error) {
-    console.warn('Unable to read Supabase session for API auth:', error);
-  }
-
-  return {};
-}
-
 async function fetchWithRetry<T>(
   url: string,
   options: RequestInit = {},
@@ -119,7 +97,7 @@ async function fetchWithRetry<T>(
 
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
-      const authHeaders = await getAuthHeaders();
+      const authHeaders = await getBrowserAuthHeaders();
       const response = await fetch(url, {
         ...options,
         headers: {

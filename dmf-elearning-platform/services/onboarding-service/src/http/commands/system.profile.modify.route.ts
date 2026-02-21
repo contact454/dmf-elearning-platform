@@ -6,7 +6,7 @@ import type { FastifyInstance } from 'fastify';
 import { commandRegistry } from '@dmf/contracts';
 import { handleSystemProfileModify } from '../../application/system.profile.modify.handler';
 import { UserRepository } from '../../state/user.repository';
-import type { EventBus, Logger, AuditLogger, Database, Outbox } from '@dmf/infra';
+import type { EventBus, Logger, AuditLogger, Database, IdempotencyStore, Outbox } from '@dmf/infra';
 import { failOwnership } from '@dmf/shared';
 
 export function registerSystemProfileModifyRoute(
@@ -16,6 +16,7 @@ export function registerSystemProfileModifyRoute(
     database: Database;
     logger: Logger;
     auditLogger: AuditLogger;
+    idempotencyStore: IdempotencyStore;
     outbox: Outbox;
   }
 ) {
@@ -27,8 +28,8 @@ export function registerSystemProfileModifyRoute(
       const schema = commandRegistry['system.profile.modify'];
       const command = schema.parse(request.body);
 
-      // Ownership check (Kiểm tra sở hữu)
-      if (command.userId !== userId) {
+      // M1-lite: allow no-auth flow (userId absent), enforce ownership only if auth exists.
+      if (userId && command.userId !== userId) {
         failOwnership('User', command.userId);
       }
 
@@ -36,10 +37,20 @@ export function registerSystemProfileModifyRoute(
       const result = await handleSystemProfileModify(
         command,
         { userId },
-        { userRepository, eventBus: deps.eventBus, outbox: deps.outbox }
+        {
+          userRepository,
+          eventBus: deps.eventBus,
+          idempotencyStore: deps.idempotencyStore,
+          outbox: deps.outbox,
+        }
       );
 
-      deps.auditLogger.logCommandReceived('system.profile.modify', userId, requestId, command.correlationId);
+      deps.auditLogger.logCommandReceived(
+        'system.profile.modify',
+        command.userId,
+        requestId,
+        command.correlationId
+      );
 
       return reply.code(200).send(result);
     } catch (error: any) {

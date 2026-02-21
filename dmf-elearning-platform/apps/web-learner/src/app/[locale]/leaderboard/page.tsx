@@ -8,8 +8,8 @@ import {
   useLeaderboard,
   useUserRankings,
   useLeaderboardStats,
-  useLevels,
-} from '@/hooks/useApiQueries';
+} from '@/hooks/useLeaderboardQueries';
+import { useLevels } from '@/hooks/useVocabularySrsQueries';
 import { LeaderboardTimeframe, LeaderboardScope } from '@/services/german-api';
 import { SkeletonCard, SkeletonStats, ThemeToggle } from '@/components/ui';
 import {

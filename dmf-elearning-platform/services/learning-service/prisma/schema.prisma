@@ -86,6 +86,7 @@ model User {
   id        String   @id @default(cuid())
   email     String   @unique
   name      String?
+  role      String   @default("learner") // learner, teacher, mentor, admin
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
@@ -97,11 +98,14 @@ model User {
   dailyGoalVocabulary Int    @default(10) @map("daily_goal_vocabulary")
   dailyGoalReading    Int    @default(1)  @map("daily_goal_reading")
   dailyGoalListening  Int    @default(1)  @map("daily_goal_listening")
+  cefrLevel           String @default("A1") @map("cefr_level") // A1, A2, B1, B2, C1, C2
 
   // Relations
   wordProgress    UserWordProgress[]
   reviewAttempts  VocabularyReviewAttempt[]
 
+  @@index([createdAt])
+  @@index([lastActivityDate])
   @@map("users")
 }
 
@@ -774,4 +778,100 @@ model ReadingAttempt {
   @@index([createdAt], name: "idx_reading_attempts_created_at")
   @@index([userId, createdAt], name: "idx_reading_attempts_user_created")
   @@map("reading_attempts")
+}
+
+// ═══════════════════════════════════════════════════════════════
+// GAMIFICATION — XP, Achievements, Leaderboard (M3 Sprint S11)
+// ═══════════════════════════════════════════════════════════════
+
+model UserXP {
+  id     String @id @default(uuid())
+  userId String @unique @map("user_id")
+
+  // XP & Level
+  totalXP    Int @default(0) @map("total_xp")
+  currentLvl Int @default(1) @map("current_level")
+
+  // Breakdown by source
+  vocabXP    Int @default(0) @map("vocab_xp")
+  readingXP  Int @default(0) @map("reading_xp")
+  listeningXP Int @default(0) @map("listening_xp")
+  speakingXP Int @default(0) @map("speaking_xp")
+  writingXP  Int @default(0) @map("writing_xp")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([totalXP])
+  @@index([currentLvl])
+  @@map("user_xp")
+}
+
+model Achievement {
+  id          String @id @default(uuid())
+  code        String @unique // e.g. "vocab_100", "streak_7"
+  title       String
+  titleVi     String? @map("title_vi")
+  description String
+  descriptionVi String? @map("description_vi")
+  icon        String  @default("🏆")
+  category    String  @default("general") // vocab, reading, listening, speaking, writing, streak, general
+  xpReward    Int     @default(50) @map("xp_reward")
+
+  // Trigger rule
+  triggerType  String @map("trigger_type") // count, streak, score, custom
+  triggerField String @map("trigger_field") // e.g. "totalReviews", "currentStreak"
+  triggerValue Int    @map("trigger_value") // threshold to unlock
+
+  // Rarity
+  rarity String @default("common") // common, rare, epic, legendary
+
+  isActive  Boolean  @default(true) @map("is_active")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  userAchievements UserAchievement[]
+
+  @@index([category])
+  @@index([rarity])
+  @@map("achievements")
+}
+
+model UserAchievement {
+  id            String @id @default(uuid())
+  userId        String @map("user_id")
+  achievementId String @map("achievement_id")
+
+  unlockedAt DateTime @default(now()) @map("unlocked_at")
+  notified   Boolean  @default(false)
+
+  achievement Achievement @relation(fields: [achievementId], references: [id])
+
+  @@unique([userId, achievementId])
+  @@index([userId])
+  @@index([unlockedAt])
+  @@map("user_achievements")
+}
+
+model DailyChallenge {
+  id     String @id @default(uuid())
+  userId String @map("user_id")
+  date   String // YYYY-MM-DD
+
+  // Challenge spec
+  challengeType String @map("challenge_type") // vocab_review, reading, listening, writing, speaking
+  targetCount   Int    @default(5) @map("target_count")
+  currentCount  Int    @default(0) @map("current_count")
+
+  // Status
+  completed   Boolean   @default(false)
+  completedAt DateTime? @map("completed_at")
+  xpAwarded   Int       @default(0) @map("xp_awarded")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@unique([userId, date])
+  @@index([userId, completed])
+  @@index([date])
+  @@map("daily_challenges")
 }

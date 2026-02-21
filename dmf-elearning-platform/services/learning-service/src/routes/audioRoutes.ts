@@ -20,6 +20,18 @@ function errorStack(error: unknown): string | undefined {
 }
 
 /**
+ * GET /api/audio/status
+ * Returns current TTS runtime/provider readiness.
+ */
+router.get('/status', async (_req: Request, res: Response) => {
+  const status = ttsService.getTtsRuntimeStatus();
+  return res.status(200).json({
+    success: true,
+    data: status,
+  });
+});
+
+/**
  * GET /api/audio/:wordId
  * Get audio URL for a specific word
  * Generates and caches if not exists
@@ -53,7 +65,7 @@ router.get('/:wordId', async (req: Request, res: Response) => {
     }
 
     // Generate/fetch audio URL
-    const audioUrl = await ttsService.generateAudioUrl(
+    const audioResult = await ttsService.generateAudio(
       word.id,
       word.word,
       'de-DE'
@@ -64,9 +76,12 @@ router.get('/:wordId', async (req: Request, res: Response) => {
       data: {
         wordId: word.id,
         word: word.word,
-        audioUrl,
-        cached: word.audioUrl !== null,
-        fallbackRequired: audioUrl === null
+        audioUrl: audioResult.audioUrl,
+        cached: audioResult.cached,
+        source: audioResult.source,
+        provider: audioResult.provider,
+        fallbackRequired: audioResult.source === 'fallback',
+        fallbackReason: audioResult.fallbackReason ?? null,
       }
     });
 

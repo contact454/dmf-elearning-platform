@@ -31,7 +31,7 @@ import {
   useStartListening,
   useUpdateListeningProgress,
   useListeningStats,
-} from '@/hooks/useApiQueries';
+} from '@/hooks/useListeningLearningQueries';
 import { useUser } from '@/providers/user-provider';
 import {
   PageTransition,

@@ -8,7 +8,7 @@
  * to determine suitability and difficulty score.
  */
 
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, ReviewStatus } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
@@ -126,20 +126,20 @@ export async function analyzeContentForUser(
   const textStats = analyzeText(text);
 
   // Get user's known words (status = 'learning', 'review', or 'mastered')
-  const userProgress = await prisma.userVocabularyProgress.findMany({
+  const userProgress = await prisma.userWordProgress.findMany({
     where: {
       userId,
-      status: { in: ['learning', 'review', 'mastered'] },
+      status: { in: [ReviewStatus.LEARNING, ReviewStatus.REVIEW, ReviewStatus.MASTERED] },
     },
     include: {
-      vocabulary: {
+      word: {
         select: { word: true, level: true },
       },
     },
   });
 
   const knownWordsSet = new Set(
-    userProgress.map(p => p.vocabulary.word.toLowerCase())
+    userProgress.map((p) => p.word.word.toLowerCase())
   );
 
   // Categorize content words
@@ -251,7 +251,7 @@ async function getLevelDistribution(
 ): Promise<Record<string, number>> {
   if (words.length === 0) return {};
 
-  const vocabItems = await prisma.vocabulary.findMany({
+  const vocabItems = await prisma.vocabularyItem.findMany({
     where: {
       word: { in: words },
     },

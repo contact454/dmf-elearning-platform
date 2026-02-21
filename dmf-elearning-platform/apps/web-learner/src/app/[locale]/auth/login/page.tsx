@@ -2,9 +2,10 @@
 
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/providers';
 import Link from 'next/link';
+import { useLocale } from 'next-intl';
 
 interface LoginFormData {
   email: string;
@@ -19,8 +20,10 @@ export default function LoginPage() {
     formState: { errors, isSubmitting },
   } = useForm<LoginFormData>();
   const [error, setError] = useState<string | null>(null);
-  const { signIn } = useAuth();
+  const { signIn, signInWithGoogle } = useAuth();
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const locale = useLocale();
 
   const onSubmit = async (data: LoginFormData) => {
     setError(null);
@@ -28,10 +31,18 @@ export default function LoginPage() {
       await signIn(data.email, data.password);
 
       // Redirect to dashboard on successful login
-      router.push('/dashboard');
-    } catch (err: any) {
+      const redirectPath = searchParams.get('redirect');
+      const safeRedirect =
+        redirectPath && redirectPath.startsWith('/') && !redirectPath.startsWith('//')
+          ? redirectPath
+          : `/${locale}/dashboard`;
+      router.push(safeRedirect);
+    } catch (err: unknown) {
       // Handle Supabase error messages
-      const errorMessage = err.message || 'Đăng nhập thất bại. Vui lòng kiểm tra email và mật khẩu.';
+      const errorMessage =
+        err instanceof Error
+          ? err.message
+          : 'Đăng nhập thất bại. Vui lòng kiểm tra email và mật khẩu.';
       setError(errorMessage);
     }
   };
@@ -182,7 +193,7 @@ export default function LoginPage() {
                 </label>
               </div>
               <Link
-                href="/auth/forgot-password"
+                href={`/${locale}/auth/forgot-password`}
                 className="text-sm text-cyan-700 hover:text-cyan-900 transition-colors duration-200 font-inter"
               >
                 Quên mật khẩu?
@@ -237,12 +248,35 @@ export default function LoginPage() {
             </button>
           </form>
 
+          <div className="my-6 flex items-center gap-3">
+            <div className="h-px flex-1 bg-cyan-200" />
+            <span className="text-xs uppercase tracking-wide text-cyan-700">Hoặc</span>
+            <div className="h-px flex-1 bg-cyan-200" />
+          </div>
+
+          <button
+            type="button"
+            onClick={() => signInWithGoogle(locale)}
+            className="
+              w-full h-11 px-4 rounded-lg
+              bg-white border border-cyan-200
+              text-cyan-900 font-medium text-sm
+              hover:bg-cyan-50
+              focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2
+              transition-all duration-200
+              cursor-pointer
+              font-inter
+            "
+          >
+            Tiếp tục với Google
+          </button>
+
           {/* Register Link */}
           <div className="mt-6 text-center">
             <p className="text-sm text-cyan-700 font-inter">
               Chưa có tài khoản?{' '}
               <Link
-                href="/auth/register"
+                href={`/${locale}/auth/register`}
                 className="font-medium text-cyan-600 hover:text-cyan-800 transition-colors duration-200"
               >
                 Đăng ký ngay
@@ -254,11 +288,11 @@ export default function LoginPage() {
         {/* Footer text */}
         <p className="mt-6 text-center text-xs text-cyan-700/60 font-inter">
           Bằng cách đăng nhập, bạn đồng ý với{' '}
-          <Link href="/terms" className="underline hover:text-cyan-900">
+          <Link href={`/${locale}/terms`} className="underline hover:text-cyan-900">
             Điều khoản dịch vụ
           </Link>{' '}
           và{' '}
-          <Link href="/privacy" className="underline hover:text-cyan-900">
+          <Link href={`/${locale}/privacy`} className="underline hover:text-cyan-900">
             Chính sách bảo mật
           </Link>
         </p>

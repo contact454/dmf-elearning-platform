@@ -1,331 +1,151 @@
 /**
  * TTS Service Unit Tests
- * Tests for Text-to-Speech audio generation service
+ * Tests for URL-based Text-to-Speech service
  */
 
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import * as ttsService from '../ttsService';
-import { PrismaClient } from '@prisma/client';
-
-// Mock Prisma
-vi.mock('@prisma/client', () => {
-  const mockPrisma = {
-    vocabularyItem: {
-      findUnique: vi.fn(),
-      update: vi.fn(),
-    },
-  };
-  return {
-    PrismaClient: vi.fn(() => mockPrisma),
-  };
-});
-
-// Mock Google TTS
-vi.mock('@google-cloud/text-to-speech', () => {
-  return {
-    TextToSpeechClient: vi.fn(() => ({
-      synthesizeSpeech: vi.fn().mockResolvedValue([
-        {
-          audioContent: Buffer.from('fake-audio-data'),
-        },
-      ]),
-    })),
-  };
-});
 
 describe('TTS Service', () => {
-  let prisma: any;
-
   beforeEach(() => {
-    prisma = new PrismaClient();
     vi.clearAllMocks();
-    
-    // Reset environment
-    delete process.env.GOOGLE_TTS_API_KEY;
   });
 
   afterEach(() => {
     vi.restoreAllMocks();
   });
 
-  describe('generateAudioUrl', () => {
-    it('should return cached audio URL if exists', async () => {
-      const mockWordId = 'word123';
-      const mockCachedUrl = 'data:audio/mp3;base64,cached-audio';
-
-      // Mock database response with cached audio
-      prisma.vocabularyItem.findUnique.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: mockCachedUrl,
-      });
-
-      const result = await ttsService.generateAudioUrl(mockWordId, 'Hallo');
-
-      expect(result).toBe(mockCachedUrl);
-      expect(prisma.vocabularyItem.findUnique).toHaveBeenCalledWith({
-        where: { id: mockWordId },
-        select: { audioUrl: true },
-      });
-      expect(prisma.vocabularyItem.update).not.toHaveBeenCalled();
+  describe('getGoogleTTSUrl', () => {
+    it('should generate URL with default German language', () => {
+      const url = ttsService.getGoogleTTSUrl({ text: 'Hallo' });
+      expect(url).toContain('tl=de');
+      expect(url).toContain('q=Hallo');
+      expect(url).toContain('translate.google.com');
     });
 
-    it('should return null if TTS client not configured', async () => {
-      const mockWordId = 'word123';
-
-      // Mock database response without cached audio
-      prisma.vocabularyItem.findUnique.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: null,
-      });
-
-      // No API key set
-      delete process.env.GOOGLE_TTS_API_KEY;
-
-      const result = await ttsService.generateAudioUrl(mockWordId, 'Hallo');
-
-      expect(result).toBeNull();
-      expect(prisma.vocabularyItem.update).not.toHaveBeenCalled();
+    it('should support custom language', () => {
+      const url = ttsService.getGoogleTTSUrl({ text: 'Hello', language: 'en' });
+      expect(url).toContain('tl=en');
     });
 
-    it('should generate and cache new audio if TTS available', async () => {
-      const mockWordId = 'word123';
-      const mockText = 'Hallo';
+    it('should support slow speed', () => {
+      const urlSlow = ttsService.getGoogleTTSUrl({ text: 'Test', slow: true });
+      expect(urlSlow).toContain('ttsspeed=0.3');
 
-      // Set API key
-      process.env.GOOGLE_TTS_API_KEY = 'test-api-key';
+      const urlNormal = ttsService.getGoogleTTSUrl({ text: 'Test', slow: false });
+      expect(urlNormal).toContain('ttsspeed=1.0');
+    });
 
-      // Mock database responses
-      prisma.vocabularyItem.findUnique.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: null, // No cached audio
-      });
+    it('should encode special German characters', () => {
+      const url = ttsService.getGoogleTTSUrl({ text: 'Äpfel Übung Straße' });
+      expect(url).not.toContain(' '); // Spaces encoded
+      expect(url).toContain('q='); // Contains query
+    });
+  });
 
-      prisma.vocabularyItem.update.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: 'data:audio/mp3;base64,fake-audio',
-      });
+  describe('getWordPronunciationUrl', () => {
+    it('should generate URL for German word', () => {
+      const url = ttsService.getWordPronunciationUrl('Hund');
+      expect(url).toContain('q=Hund');
+      expect(url).toContain('tl=de');
+    });
 
-      const result = await ttsService.generateAudioUrl(mockWordId, mockText);
+    it('should generate slow URL', () => {
+      const url = ttsService.getWordPronunciationUrl('Hund', true);
+      expect(url).toContain('ttsspeed=0.3');
+    });
+  });
 
-      // Note: TTS client initialization might fail in test environment
-      // This test verifies the behavior when API key is set
-      expect(result).toBeDefined();
-      
-      // If TTS client fails to initialize, result will be null (fallback)
-      if (result === null) {
-        // Expected: TTS client failed to initialize (missing package)
-        expect(result).toBeNull();
-      } else {
-        // Expected: TTS successfully generated audio
-        expect(typeof result).toBe('string');
+  describe('getPronunciationPack', () => {
+    it('should return word pronunciation (normal + slow)', () => {
+      const pack = ttsService.getPronunciationPack('Hallo');
+      expect(pack.word.normal).toContain('q=Hallo');
+      expect(pack.word.slow).toContain('ttsspeed=0.3');
+      expect(pack.sentence).toBeNull();
+    });
+
+    it('should include sentence pronunciation if provided', () => {
+      const pack = ttsService.getPronunciationPack('Hallo', 'Hallo, wie geht es?');
+      expect(pack.word.normal).toBeDefined();
+      expect(pack.sentence).not.toBeNull();
+      expect(pack.sentence!.normal).toContain('Hallo');
+    });
+  });
+
+  describe('LISTENING_SPEED_PRESETS', () => {
+    it('should have presets for all CEFR levels', () => {
+      expect(ttsService.LISTENING_SPEED_PRESETS.A1).toBe(0.75);
+      expect(ttsService.LISTENING_SPEED_PRESETS.A2).toBe(0.85);
+      expect(ttsService.LISTENING_SPEED_PRESETS.B1).toBe(1.0);
+      expect(ttsService.LISTENING_SPEED_PRESETS.B2).toBe(1.15);
+    });
+
+    it('should increase speed with higher levels', () => {
+      const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+      for (let i = 1; i < levels.length; i++) {
+        expect(ttsService.LISTENING_SPEED_PRESETS[levels[i]]).toBeGreaterThanOrEqual(
+          ttsService.LISTENING_SPEED_PRESETS[levels[i - 1]]
+        );
       }
     });
+  });
 
-    it('should handle errors gracefully and return null', async () => {
-      const mockWordId = 'word123';
-
-      // Mock database error
-      prisma.vocabularyItem.findUnique.mockRejectedValueOnce(
-        new Error('Database error')
-      );
-
-      const result = await ttsService.generateAudioUrl(mockWordId, 'Hallo');
-
-      expect(result).toBeNull();
+  describe('SPEED_OPTIONS', () => {
+    it('should have 5 speed options', () => {
+      expect(ttsService.SPEED_OPTIONS).toHaveLength(5);
     });
 
-    it('should use correct language code', async () => {
-      const mockWordId = 'word123';
-      const mockText = 'Hello';
-      const mockLanguage = 'en-US';
+    it('should have labels and values', () => {
+      for (const option of ttsService.SPEED_OPTIONS) {
+        expect(option.label).toBeDefined();
+        expect(option.value).toBeGreaterThan(0);
+      }
+    });
+  });
 
-      process.env.GOOGLE_TTS_API_KEY = 'test-api-key';
+  describe('getTtsRuntimeStatus', () => {
+    it('should return status object', () => {
+      const status = ttsService.getTtsRuntimeStatus();
+      expect(status.provider).toBeDefined();
+      expect(status.status).toBe('active');
+      expect(status.enabled).toBe(true);
+      expect(status.ready).toBe(true);
+    });
+  });
 
-      prisma.vocabularyItem.findUnique.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: null,
-      });
+  describe('generateAudio', () => {
+    it('should generate audio URL for a word', async () => {
+      const result = await ttsService.generateAudio('word1', 'Hallo', 'de-DE');
+      expect(result.audioUrl).toContain('q=Hallo');
+      expect(result.audioUrl).toContain('tl=de');
+      expect(result.source).toBe('google_tts');
+      expect(result.provider).toBe('google_translate');
+    });
 
-      prisma.vocabularyItem.update.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: 'data:audio/mp3;base64,test',
-      });
-
-      const result = await ttsService.generateAudioUrl(mockWordId, mockText, mockLanguage);
-
-      // Verify function was called with language parameter
-      expect(prisma.vocabularyItem.findUnique).toHaveBeenCalled();
-      expect(result).toBeDefined();
+    it('should handle different locales', async () => {
+      const resultDe = await ttsService.generateAudio('w1', 'Hello', 'en-US');
+      expect(resultDe.audioUrl).toContain('tl=en');
     });
   });
 
   describe('batchGenerateAudio', () => {
-    it('should process multiple words successfully', async () => {
-      const wordIds = ['word1', 'word2', 'word3'];
-      
-      process.env.GOOGLE_TTS_API_KEY = 'test-api-key';
-
-      // Mock database responses for each word
-      prisma.vocabularyItem.findUnique
-        .mockResolvedValueOnce({ id: 'word1', word: 'Hallo', audioUrl: null })
-        .mockResolvedValueOnce({ id: 'word2', word: 'Welt', audioUrl: null })
-        .mockResolvedValueOnce({ id: 'word3', word: 'Deutsch', audioUrl: null });
-
-      prisma.vocabularyItem.update.mockResolvedValue({});
-
-      const result = await ttsService.batchGenerateAudio(wordIds);
-
-      // Since TTS client may not initialize in test env, check total processed
-      expect(result.success + result.failed).toBe(3);
-      expect(wordIds.length).toBe(3);
+    it('should process batch of words', async () => {
+      const result = await ttsService.batchGenerateAudio(['w1', 'w2', 'w3']);
+      expect(result.success).toBe(3);
+      expect(result.failed).toBe(0);
+      expect(result.errors).toHaveLength(0);
     });
 
-    it('should skip words with existing audio', async () => {
-      const wordIds = ['word1', 'word2'];
-
-      prisma.vocabularyItem.findUnique
-        .mockResolvedValueOnce({
-          id: 'word1',
-          word: 'Hallo',
-          audioUrl: 'existing-url',
-        })
-        .mockResolvedValueOnce({
-          id: 'word2',
-          word: 'Welt',
-          audioUrl: null,
-        });
-
-      const result = await ttsService.batchGenerateAudio(wordIds);
-
-      expect(result.success).toBeGreaterThan(0);
-    });
-
-    it('should handle word not found errors', async () => {
-      const wordIds = ['invalid-word-id'];
-
-      prisma.vocabularyItem.findUnique.mockResolvedValueOnce(null);
-
-      const result = await ttsService.batchGenerateAudio(wordIds);
-
-      expect(result.failed).toBe(1);
-      expect(result.errors).toContain('Word invalid-word-id not found');
-    });
-
-    it('should handle individual generation failures', async () => {
-      const wordIds = ['word1', 'word2'];
-
-      prisma.vocabularyItem.findUnique
-        .mockResolvedValueOnce({ id: 'word1', word: 'Hallo', audioUrl: null })
-        .mockRejectedValueOnce(new Error('Database error'));
-
-      const result = await ttsService.batchGenerateAudio(wordIds);
-
-      expect(result.failed).toBeGreaterThan(0);
-      expect(result.errors.length).toBeGreaterThan(0);
-    });
-
-    it('should respect rate limiting delays', async () => {
-      const wordIds = ['word1', 'word2'];
-      const startTime = Date.now();
-
-      prisma.vocabularyItem.findUnique.mockResolvedValue({
-        id: 'word1',
-        word: 'Test',
-        audioUrl: null,
-      });
-
-      process.env.GOOGLE_TTS_API_KEY = 'test-api-key';
-      prisma.vocabularyItem.update.mockResolvedValue({});
-
-      await ttsService.batchGenerateAudio(wordIds);
-
-      const duration = Date.now() - startTime;
-      
-      // Should take at least 100ms due to rate limiting (2 words * 100ms delay)
-      // Using 150ms as minimum to account for processing time
-      expect(duration).toBeGreaterThanOrEqual(150);
+    it('should handle empty array', async () => {
+      const result = await ttsService.batchGenerateAudio([]);
+      expect(result.success).toBe(0);
+      expect(result.failed).toBe(0);
     });
   });
 
   describe('clearAudioCache', () => {
-    it('should clear audio cache successfully', async () => {
-      const mockWordId = 'word123';
-
-      prisma.vocabularyItem.update.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: null,
-      });
-
-      await ttsService.clearAudioCache(mockWordId);
-
-      expect(prisma.vocabularyItem.update).toHaveBeenCalledWith({
-        where: { id: mockWordId },
-        data: { audioUrl: null },
-      });
-    });
-
-    it('should throw error if database update fails', async () => {
-      const mockWordId = 'word123';
-
-      prisma.vocabularyItem.update.mockRejectedValueOnce(
-        new Error('Database error')
-      );
-
-      await expect(ttsService.clearAudioCache(mockWordId)).rejects.toThrow(
-        'Database error'
-      );
-    });
-  });
-
-  describe('Edge Cases', () => {
-    it('should handle empty text gracefully', async () => {
-      const mockWordId = 'word123';
-
-      prisma.vocabularyItem.findUnique.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: null,
-      });
-
-      process.env.GOOGLE_TTS_API_KEY = 'test-api-key';
-
-      const result = await ttsService.generateAudioUrl(mockWordId, '');
-
-      // Should still attempt to generate (TTS API handles empty text)
-      expect(result).toBeDefined();
-    });
-
-    it('should handle special characters in text', async () => {
-      const mockWordId = 'word123';
-      const specialText = 'Äpfel, Übung, ß-Straße';
-
-      prisma.vocabularyItem.findUnique.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: null,
-      });
-
-      process.env.GOOGLE_TTS_API_KEY = 'test-api-key';
-      prisma.vocabularyItem.update.mockResolvedValue({});
-
-      const result = await ttsService.generateAudioUrl(mockWordId, specialText);
-
-      expect(result).toBeDefined();
-    });
-
-    it('should handle very long text (sentence)', async () => {
-      const mockWordId = 'word123';
-      const longText = 'Das ist ein sehr langer deutscher Satz mit vielen Wörtern.';
-
-      prisma.vocabularyItem.findUnique.mockResolvedValueOnce({
-        id: mockWordId,
-        audioUrl: null,
-      });
-
-      process.env.GOOGLE_TTS_API_KEY = 'test-api-key';
-      prisma.vocabularyItem.update.mockResolvedValue({});
-
-      const result = await ttsService.generateAudioUrl(mockWordId, longText);
-
-      expect(result).toBeDefined();
+    it('should not throw', async () => {
+      await expect(ttsService.clearAudioCache('word1')).resolves.not.toThrow();
     });
   });
 });

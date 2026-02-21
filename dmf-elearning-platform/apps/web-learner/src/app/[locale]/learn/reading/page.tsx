@@ -19,8 +19,8 @@ import {
   useReadingContent,
   useRecommendedReading,
   useReadingContentStats,
-  useLevels,
-} from '@/hooks/useApiQueries';
+} from '@/hooks/useReadingLearningQueries';
+import { useLevels } from '@/hooks/useVocabularySrsQueries';
 import { SkeletonCard, SkeletonStats, CountUp, ThemeToggle } from '@/components/ui';
 
 export default function SmartLibraryPage() {

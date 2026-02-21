@@ -1,6 +1,11 @@
 import express from 'express';
 import { ReadingController } from '../controllers/ReadingController';
 import { ReadingPassageController } from '../controllers/ReadingPassageController';
+import {
+  attachAuthenticatedUserId,
+  authMiddleware,
+  ensureAuthenticatedUserProfile,
+} from '../middlewares/auth';
 
 const router = express.Router();
 
@@ -20,20 +25,44 @@ router.get('/passages', ReadingPassageController.getPassages);
 router.get('/passages/:id', ReadingPassageController.getPassageById);
 
 // Submit exercise answer
-router.post('/submit', ReadingPassageController.submitAnswer);
+router.post(
+  '/submit',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingPassageController.submitAnswer
+);
 
 // Get user progress
-router.get('/progress', ReadingPassageController.getProgress);
+router.get(
+  '/progress',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingPassageController.getProgress
+);
 
 // Save vocabulary word for SRS
-router.post('/vocabulary/save', ReadingPassageController.saveVocabulary);
+router.post(
+  '/vocabulary/save',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingPassageController.saveVocabulary
+);
 
 // ═══════════════════════════════════════════════════════════════
 // Content Discovery
 // ═══════════════════════════════════════════════════════════════
 
 // Get recommended content for user (i+1 filtered)
-router.get('/recommended', ReadingController.recommended);
+router.get(
+  '/recommended',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingController.recommended
+);
 
 // Get featured content
 router.get('/featured', ReadingController.featured);
@@ -52,10 +81,22 @@ router.get('/topics', ReadingController.topics);
 // ═══════════════════════════════════════════════════════════════
 
 // Get user's reading history
-router.get('/user/:userId/history', ReadingController.getUserHistory);
+router.get(
+  '/user/:userId/history',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingController.getUserHistory
+);
 
 // Get user's reading statistics
-router.get('/user/:userId/stats', ReadingController.getUserStats);
+router.get(
+  '/user/:userId/stats',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingController.getUserStats
+);
 
 // ═══════════════════════════════════════════════════════════════
 // Content Management
@@ -78,13 +119,31 @@ router.post('/', ReadingController.createContent);
 router.get('/:id', ReadingController.getById);
 
 // Start reading content
-router.post('/:id/start', ReadingController.startReading);
+router.post(
+  '/:id/start',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingController.startReading
+);
 
 // Update reading progress
-router.put('/:id/progress', ReadingController.updateProgress);
+router.put(
+  '/:id/progress',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingController.updateProgress
+);
 
 // Mark reading as completed
-router.post('/:id/complete', ReadingController.completeReading);
+router.post(
+  '/:id/complete',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ReadingController.completeReading
+);
 
 // Delete content
 router.delete('/:id', ReadingController.deleteContent);

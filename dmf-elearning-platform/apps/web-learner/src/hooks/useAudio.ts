@@ -18,11 +18,7 @@ export function useAudio(wordId: string, word: string): UseAudioReturn {
 
     try {
       // Try to fetch audio from backend API
-      const response = await fetch(`/api/audio/${wordId}`, {
-        headers: {
-          'Authorization': `Bearer ${localStorage.getItem('token')}`
-        }
-      })
+      const response = await fetch(`/api/audio/${wordId}`)
 
       if (response.ok) {
         // Backend audio available

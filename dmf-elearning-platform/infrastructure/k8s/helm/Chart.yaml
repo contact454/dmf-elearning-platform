@@ -1,0 +1,19 @@
+# DMF eLearning Platform — Kubernetes Helm Chart
+# M8 S23-03
+
+apiVersion: v2
+name: dmf-elearning
+description: DMF German eLearning Platform
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+
+dependencies:
+  - name: postgresql
+    version: "15.x"
+    repository: "https://charts.bitnami.com/bitnami"
+    condition: postgresql.enabled
+  - name: redis
+    version: "19.x"
+    repository: "https://charts.bitnami.com/bitnami"
+    condition: redis.enabled

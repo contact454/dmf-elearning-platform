@@ -5,6 +5,8 @@ import routes from './routes';
 import { createRateLimit, getRateLimitConfigFromEnv } from './middlewares/rateLimit';
 import { createRequestLogging, getRequestLoggingConfigFromEnv } from './middlewares/requestLogging';
 import { createRequestMonitoring, getMonitoringConfigFromEnv } from './middlewares/requestMonitoring';
+import { createSecurityHeaders, getSecurityHeadersConfigFromEnv } from './middlewares/securityHeaders';
+import { metricsMiddleware, metricsEndpoint } from './middlewares/metrics';
 
 // Load environment variables
 dotenv.config();
@@ -14,13 +16,19 @@ const PORT = process.env.PORT || 3003;
 const rateLimitConfig = getRateLimitConfigFromEnv();
 const requestLoggingConfig = getRequestLoggingConfigFromEnv();
 const monitoringConfig = getMonitoringConfigFromEnv();
+const securityHeadersConfig = getSecurityHeadersConfigFromEnv();
 
-// Middleware
+// Middleware — security headers first
+app.use(createSecurityHeaders(securityHeadersConfig));
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(createRequestLogging(requestLoggingConfig));
 app.use(createRequestMonitoring(monitoringConfig));
+app.use(metricsMiddleware);
+
+// Prometheus metrics endpoint
+app.get('/metrics', metricsEndpoint);
 
 // API Routes
 app.use(

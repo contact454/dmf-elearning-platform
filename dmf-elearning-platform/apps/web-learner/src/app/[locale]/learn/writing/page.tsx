@@ -24,8 +24,8 @@ import {
   useWritingPrompts,
   useFeaturedWriting,
   useWritingContentStats,
-  useLevels,
-} from '@/hooks/useApiQueries';
+} from '@/hooks/useWritingLearningQueries';
+import { useLevels } from '@/hooks/useVocabularySrsQueries';
 import { SkeletonCard, SkeletonStats, CountUp, ThemeToggle } from '@/components/ui';
 
 export default function WritingWorkshopPage() {

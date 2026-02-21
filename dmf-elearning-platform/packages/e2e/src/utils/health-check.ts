@@ -14,6 +14,7 @@ export interface HealthCheckOptions {
   timeoutMs?: number;
   intervalMs?: number;
   verbose?: boolean;
+  perServiceTimeoutMs?: Record<string, number>;
 }
 
 const DEFAULT_TIMEOUT_MS = 30000; // 30 seconds
@@ -40,7 +41,8 @@ export async function checkServiceHealth(
 
       if (response.ok) {
         const data = await response.json().catch(() => ({}));
-        if (data.ok === true || data.status === 'ok') {
+        const statusValue = typeof data.status === 'string' ? data.status.toLowerCase() : '';
+        if (data.ok === true || statusValue === 'ok') {
           return {
             service: serviceName,
             url: baseUrl,
@@ -78,17 +80,23 @@ export async function waitForAllServices(
   services: Array<{ name: string; url: string }>,
   options: HealthCheckOptions = {}
 ): Promise<void> {
-  const { timeoutMs = DEFAULT_TIMEOUT_MS, verbose = true } = options;
+  const { timeoutMs = DEFAULT_TIMEOUT_MS, verbose = true, perServiceTimeoutMs } = options;
   const startTime = Date.now();
 
   if (verbose) {
     console.log(`\n[HealthCheck] Waiting for ${services.length} services to be ready...`);
   }
 
-  const checks = services.map((svc) => checkServiceHealth(svc.name, svc.url, { ...options, verbose: false }));
-
   while (Date.now() - startTime < timeoutMs) {
-    const results = await Promise.all(checks);
+    const results = await Promise.all(
+      services.map((svc) =>
+        checkServiceHealth(svc.name, svc.url, {
+          ...options,
+          timeoutMs: perServiceTimeoutMs?.[svc.name] ?? timeoutMs,
+          verbose: false,
+        })
+      )
+    );
     const healthy = results.filter((r) => r.healthy);
     const unhealthy = results.filter((r) => !r.healthy);
 
@@ -112,7 +120,15 @@ export async function waitForAllServices(
   }
 
   // Final check
-  const finalResults = await Promise.all(checks);
+  const finalResults = await Promise.all(
+    services.map((svc) =>
+      checkServiceHealth(svc.name, svc.url, {
+        ...options,
+        timeoutMs: perServiceTimeoutMs?.[svc.name] ?? timeoutMs,
+        verbose: false,
+      })
+    )
+  );
   const unhealthy = finalResults.filter((r) => !r.healthy);
 
   if (unhealthy.length > 0) {

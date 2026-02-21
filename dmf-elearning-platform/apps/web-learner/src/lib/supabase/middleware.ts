@@ -4,13 +4,11 @@ import { NextRequest, NextResponse } from 'next/server';
 /**
  * Creates a Supabase client for use in middleware
  */
-export async function updateSession(request: NextRequest) {
+export async function updateSession(request: NextRequest, response: NextResponse) {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co';
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholder-anon-key';
-  
-  let supabaseResponse = NextResponse.next({
-    request,
-  });
+
+  let supabaseResponse = response;
 
   const supabase = createServerClient(
     supabaseUrl,
@@ -41,30 +39,45 @@ export async function updateSession(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (
-    !user &&
-    !request.nextUrl.pathname.startsWith('/auth') &&
-    !request.nextUrl.pathname.startsWith('/_next') &&
-    request.nextUrl.pathname !== '/'
-  ) {
-    // No user, redirect to login
+  const pathname = request.nextUrl.pathname;
+  const [, maybeLocale, ...rest] = pathname.split('/');
+  const locale = maybeLocale === 'en' || maybeLocale === 'de' ? maybeLocale : 'en';
+  const normalizedPath = maybeLocale === 'en' || maybeLocale === 'de' ? `/${rest.join('/')}` || '/' : pathname;
+
+  const isAuthPage = normalizedPath.startsWith('/auth');
+  const isPublicPath =
+    normalizedPath === '/' ||
+    normalizedPath.startsWith('/auth') ||
+    normalizedPath.startsWith('/_next') ||
+    normalizedPath.startsWith('/api') ||
+    normalizedPath.startsWith('/favicon') ||
+    normalizedPath.startsWith('/terms') ||
+    normalizedPath.startsWith('/privacy');
+
+  const isProtectedPath =
+    normalizedPath.startsWith('/dashboard') ||
+    normalizedPath.startsWith('/profile') ||
+    normalizedPath.startsWith('/learn') ||
+    normalizedPath.startsWith('/vocabulary') ||
+    normalizedPath.startsWith('/reading') ||
+    normalizedPath.startsWith('/listening') ||
+    normalizedPath.startsWith('/speaking') ||
+    normalizedPath.startsWith('/writing') ||
+    normalizedPath.startsWith('/practice') ||
+    normalizedPath.startsWith('/quiz');
+
+  if (!user && isProtectedPath && !isPublicPath) {
     const url = request.nextUrl.clone();
-    url.pathname = '/auth/login';
+    url.pathname = `/${locale}/auth/login`;
+    url.searchParams.set('redirect', normalizedPath);
     return NextResponse.redirect(url);
   }
 
-  // IMPORTANT: You *must* return the supabaseResponse object as it is. If you're
-  // creating a new response object with NextResponse.next() make sure to:
-  // 1. Pass the request in it, like so:
-  //    const myNewResponse = NextResponse.next({ request })
-  // 2. Copy over the cookies, like so:
-  //    myNewResponse.cookies.setAll(supabaseResponse.cookies.getAll())
-  // 3. Change the myNewResponse object to fit your needs, but avoid changing
-  //    the cookies!
-  // 4. Finally:
-  //    return myNewResponse
-  // If this is not done, you may be causing the browser and server to go out
-  // of sync and terminate the user's session prematurely.
+  if (user && isAuthPage) {
+    const url = request.nextUrl.clone();
+    url.pathname = `/${locale}/dashboard`;
+    return NextResponse.redirect(url);
+  }
 
   return supabaseResponse;
 }

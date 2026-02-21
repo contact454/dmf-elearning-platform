@@ -1,5 +1,10 @@
 import express from 'express';
 import { SpeakingController } from '../controllers/SpeakingController';
+import {
+  attachAuthenticatedUserId,
+  authMiddleware,
+  ensureAuthenticatedUserProfile,
+} from '../middlewares/auth';
 
 const router = express.Router();
 
@@ -29,10 +34,22 @@ router.get('/categories', SpeakingController.categories);
 // ═══════════════════════════════════════════════════════════════
 
 // Get user's speaking history
-router.get('/user/:userId/history', SpeakingController.getUserHistory);
+router.get(
+  '/user/:userId/history',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  SpeakingController.getUserHistory
+);
 
 // Get user's speaking statistics
-router.get('/user/:userId/stats', SpeakingController.getUserStats);
+router.get(
+  '/user/:userId/stats',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  SpeakingController.getUserStats
+);
 
 // ═══════════════════════════════════════════════════════════════
 // Content Management
@@ -49,10 +66,22 @@ router.post('/', SpeakingController.createPrompt);
 // ═══════════════════════════════════════════════════════════════
 
 // Get attempts for a prompt
-router.get('/:id/attempts', SpeakingController.getAttempts);
+router.get(
+  '/:id/attempts',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  SpeakingController.getAttempts
+);
 
 // Submit speaking attempt
-router.post('/:id/attempt', SpeakingController.submitAttempt);
+router.post(
+  '/:id/attempt',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  SpeakingController.submitAttempt
+);
 
 // Get single prompt by ID
 router.get('/:id', SpeakingController.getById);

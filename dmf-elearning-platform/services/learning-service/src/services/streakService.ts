@@ -5,6 +5,8 @@ const prisma = new PrismaClient({
   log: ['error', 'warn'],
 })
 
+const userIdSchema = z.string().min(6).max(128).regex(/^[A-Za-z0-9:_-]+$/)
+
 /**
  * Check if two dates are the same day in a given timezone
  */
@@ -72,7 +74,6 @@ function isNextDay(date1: Date, date2: Date, timezone: string = 'UTC'): boolean 
 export async function updateStreak(userId: string) {
   try {
     // Validate userId
-    const userIdSchema = z.string().cuid()
     userIdSchema.parse(userId)
     
     const now = new Date()
@@ -189,7 +190,6 @@ export function checkStreakMilestone(streak: number): number | null {
 export async function getStreakData(userId: string) {
   try {
     // Validate userId
-    const userIdSchema = z.string().cuid()
     userIdSchema.parse(userId)
     
     const user = await prisma.user.findUnique({

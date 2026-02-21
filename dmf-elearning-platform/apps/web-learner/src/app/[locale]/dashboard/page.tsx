@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useHubData } from '@/hooks/useApiQueries';
+import { useHubData } from '@/hooks/useHubQueries';
 import {
   BookOpen,
   Brain,

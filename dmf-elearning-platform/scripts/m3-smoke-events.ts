@@ -1,13 +1,12 @@
 /**
- * M3 smoke: emit minimal event chain (user.registered → course.enrolled → lesson.completed
- * → submission.created → quiz.submitted), then assert progress + mastery state.
- *
- * In-process only: sharedEventBus + progress & motivation consumers + stores.
- * Run: pnpm exec tsx scripts/m3-smoke-events.ts
+ * M3 smoke: in-process event chain + assertions for progress/mastery consumers.
  */
 
-import { sharedEventBus } from '@dmf/infra/adapters';
-import { InMemoryLogger } from '@dmf/infra/adapters';
+import {
+  sharedEventBus,
+  InMemoryEventBus,
+  InMemoryLogger,
+} from '../packages/infra/src/adapters/index.js';
 import { createInMemoryProgressRepository } from '../services/progress-service/src/state/in-memory-progress.repository.js';
 import { clearProgressStore } from '../services/progress-service/src/state/progress-state.store.js';
 import { clearProcessedEvents as clearProgressProcessed } from '../services/progress-service/src/state/processed-events.store.js';
@@ -30,21 +29,27 @@ function uuid(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
 }
 
-async function emit(name: string, payload: Record<string, unknown>): Promise<void> {
-  const event = {
-    eventName: name,
+async function emit(
+  eventName: string,
+  payload: Record<string, unknown>,
+  eventId: string = uuid()
+): Promise<void> {
+  await sharedEventBus.emit({
+    eventName: eventName as any,
     payload: {
-      eventId: uuid(),
+      eventId,
       occurredAt: new Date().toISOString(),
       ...payload,
     },
-  };
-  await sharedEventBus.emit(event as import('@dmf/infra').Event);
+  });
 }
 
 async function main(): Promise<void> {
-  console.log('M3 smoke: clearing stores and setting up consumers...');
+  console.log('M3 smoke: clearing stores and wiring consumers...');
 
+  if (sharedEventBus instanceof InMemoryEventBus) {
+    sharedEventBus.clearProcessedEvents();
+  }
   clearProgressStore();
   clearProgressProcessed();
   clearMasteryStore();
@@ -59,11 +64,14 @@ async function main(): Promise<void> {
   setupProgressConsumers(sharedEventBus, { progressRepo, logger });
   setupMotivationConsumers(sharedEventBus, { masteryRepo, skillScoreRepo, logger });
 
-  console.log('Emitting event chain...');
-
+  console.log('M3 smoke: emitting event chain...');
   await emit('system.user.registered', { userId });
   await emit('curriculum.course.enrolled', { userId, courseId });
-  await emit('learning.lesson.completed', { userId, lessonId, attemptId, score: 0.85 });
+
+  const lessonCompletedEventId = uuid();
+  await emit('learning.lesson.completed', { userId, lessonId, attemptId, score: 0.85 }, lessonCompletedEventId);
+  await emit('learning.lesson.completed', { userId, lessonId, attemptId, score: 0.85 }, lessonCompletedEventId);
+
   await emit('learning.submission.created', {
     userId,
     lessonId,
@@ -73,42 +81,79 @@ async function main(): Promise<void> {
   });
   await emit('assessment.quiz.submitted', { userId, assessmentId, score: 0.78 });
 
-  await new Promise((r) => setTimeout(r, 100));
+  await new Promise((r) => setTimeout(r, 50));
 
   const progress = await progressRepo.findByUserId(userId as import('@dmf/shared').UserId);
-  const mastery = await masteryRepo.findByUserId(userId as import('@dmf/shared').UserId);
+  const masteryBeforeProfile = await masteryRepo.findByUserId(userId as import('@dmf/shared').UserId);
 
   if (!progress) {
     console.error('FAIL: progress state missing');
     process.exit(1);
   }
-  if (!mastery) {
+  if (!masteryBeforeProfile) {
     console.error('FAIL: mastery state missing');
     process.exit(1);
   }
-
-  if (!progress.completedLessons.includes(lessonId)) {
-    console.error('FAIL: progress.completedLessons should include', lessonId, progress.completedLessons);
+  if (!progress.completedLessons.includes(lessonId as import('@dmf/shared').LessonId)) {
+    console.error('FAIL: progress.completedLessons should include lessonId', progress.completedLessons);
     process.exit(1);
   }
-  if (progress.currentCourseId !== courseId) {
-    console.error('FAIL: progress.currentCourseId expected', courseId, 'got', progress.currentCourseId);
+  if (progress.completedLessons.length !== 1) {
+    console.error('FAIL: duplicate lesson.completed should be deduped by eventId', progress.completedLessons);
     process.exit(1);
   }
-
-  const lessonM = mastery.lessonMastery[lessonId];
-  if (!lessonM || lessonM.overallScore < 0.7) {
-    console.error('FAIL: mastery.lessonMastery[lessonId] expected overallScore >= 0.7', lessonM);
+  if (progress.currentCourseId !== (courseId as import('@dmf/shared').CourseId)) {
+    console.error('FAIL: progress.currentCourseId mismatch', progress.currentCourseId);
     process.exit(1);
   }
 
-  console.log('PASS: progress + mastery updated correctly');
-  console.log('  progress.completedLessons:', progress.completedLessons.length);
-  console.log('  mastery.overallScore:', mastery.overallScore);
+  const lessonMasteryBefore = masteryBeforeProfile.lessonMastery[lessonId as import('@dmf/shared').LessonId];
+  if (!lessonMasteryBefore || lessonMasteryBefore.overallScore < 0.7) {
+    console.error('FAIL: lesson mastery should be >= 0.7 after lesson completion', lessonMasteryBefore);
+    process.exit(1);
+  }
+
+  await emit('system.profile.updated', {
+    userId,
+    learningLanguageChanged: false,
+    previousLearningLanguage: 'en',
+    learningLanguage: 'en',
+  });
+  await new Promise((r) => setTimeout(r, 25));
+
+  const masteryAfterNoLanguageChange = await masteryRepo.findByUserId(userId as import('@dmf/shared').UserId);
+  if (!masteryAfterNoLanguageChange) {
+    console.error('FAIL: mastery state missing after no-op profile update');
+    process.exit(1);
+  }
+  if (!masteryAfterNoLanguageChange.lessonMastery[lessonId as import('@dmf/shared').LessonId]) {
+    console.error('FAIL: mastery should not reset when learningLanguage unchanged');
+    process.exit(1);
+  }
+
+  await emit('system.profile.updated', {
+    userId,
+    learningLanguageChanged: true,
+    previousLearningLanguage: 'en',
+    learningLanguage: 'de',
+  });
+  await new Promise((r) => setTimeout(r, 25));
+
+  const masteryAfterLanguageChange = await masteryRepo.findByUserId(userId as import('@dmf/shared').UserId);
+  if (!masteryAfterLanguageChange) {
+    console.error('FAIL: mastery state missing after language-change profile update');
+    process.exit(1);
+  }
+  if (Object.keys(masteryAfterLanguageChange.lessonMastery).length !== 0) {
+    console.error('FAIL: mastery should reset when learningLanguage changes', masteryAfterLanguageChange.lessonMastery);
+    process.exit(1);
+  }
+
+  console.log('PASS: progress + mastery consumers/read-state behavior verified');
   process.exit(0);
 }
 
-main().catch((e) => {
-  console.error('M3 smoke error:', e);
+main().catch((error) => {
+  console.error('M3 smoke error:', error);
   process.exit(1);
 });

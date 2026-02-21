@@ -29,11 +29,15 @@ export async function handleMentoringFeedbackPublished(
   deps: FeedbackPublishedDeps
 ): Promise<void> {
   const eventId = (event.payload as { eventId?: string }).eventId ?? '';
-  if (hasProcessedEvent(eventId)) {
+  if (eventId && hasProcessedEvent(eventId)) {
     deps.logger.info('Duplicate event skipped (mentoring.feedback.published)', { eventId });
     return;
   }
-  markProcessedEvent(eventId);
+  if (eventId) {
+    markProcessedEvent(eventId);
+  } else {
+    deps.logger.warn('mentoring.feedback.published missing eventId; processing without dedupe', {});
+  }
 
   const userId = (event.payload as { userId?: string }).userId as UserId | undefined;
   const author = (event.payload as { author?: string }).author as string | undefined;

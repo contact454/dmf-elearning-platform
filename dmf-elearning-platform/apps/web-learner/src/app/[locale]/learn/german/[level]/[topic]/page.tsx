@@ -18,7 +18,7 @@ import {
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { SRSFlashcardDeck } from '@/components/flashcard/SRSFlashcardDeck';
-import { useVocabulary, useUserProgress, useSubmitReview } from '@/hooks/useApiQueries';
+import { useVocabulary, useUserProgress, useSubmitReview } from '@/hooks/useVocabularySrsQueries';
 import { useUser } from '@/providers/user-provider';
 import { PageTransition, AnimateOnScroll, LiftCard, AnimatedCounter, SkeletonTransition } from '@/components/ui/animations';
 import { formatTopicName, getLevelDisplayName, type UserProgressStats } from '@/services/german-api';

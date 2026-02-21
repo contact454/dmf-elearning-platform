@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '@/providers';
 import { useRouter } from 'next/navigation';
@@ -27,6 +27,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import Link from 'next/link';
+import { useLocale } from 'next-intl';
 
 // ═══════════════════════════════════════════════════════════════
 // Types
@@ -62,8 +63,9 @@ interface NotificationSettings {
 // ═══════════════════════════════════════════════════════════════
 
 export default function ProfilePage() {
-  const { user, supabaseUser, signOut, updateProfile } = useAuth();
+  const { user, supabaseUser, signOut, updateProfile, isLoading } = useAuth();
   const router = useRouter();
+  const locale = useLocale();
   const [activeTab, setActiveTab] = useState<Tab>('account');
   const [isEditing, setIsEditing] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
@@ -93,10 +95,13 @@ export default function ProfilePage() {
     achievements: true,
   });
 
-  if (!user) {
-    router.push('/auth/login');
-    return null;
-  }
+  useEffect(() => {
+    if (!isLoading && !user) {
+      router.replace(`/${locale}/auth/login`);
+    }
+  }, [isLoading, locale, router, user]);
+
+  if (!user) return null;
 
   const handleSaveProfile = async () => {
     setIsSaving(true);
@@ -114,7 +119,7 @@ export default function ProfilePage() {
 
   const handleSignOut = async () => {
     await signOut();
-    router.push('/');
+    router.push(`/${locale}`);
   };
 
   const tabs = [
@@ -142,7 +147,7 @@ export default function ProfilePage() {
               </div>
             </div>
             <Link
-              href="/learn/hub"
+              href={`/${locale}/learn/hub`}
               className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition text-sm font-medium cursor-pointer"
             >
               Back to Learning
@@ -227,7 +232,7 @@ export default function ProfilePage() {
               {/* Quick Links */}
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                 <Link
-                  href="/profile/achievements"
+                  href={`/${locale}/profile/achievements`}
                   className="w-full flex items-center gap-3 px-4 py-3 rounded-lg bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 border-2 border-amber-200 dark:border-amber-800 text-amber-700 dark:text-amber-300 hover:shadow-lg transition cursor-pointer group"
                 >
                   <Trophy className="w-5 h-5 group-hover:scale-110 transition-transform" />

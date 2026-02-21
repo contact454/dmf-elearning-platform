@@ -23,8 +23,10 @@ interface AuthContextType {
   isAuthenticated: boolean;
   signUp: (email: string, password: string, metadata?: { name?: string }) => Promise<void>;
   signIn: (email: string, password: string) => Promise<void>;
+  signInWithGoogle: (locale?: string) => Promise<void>;
   signOut: () => Promise<void>;
   updateProfile: (updates: Partial<User>) => Promise<void>;
+  getAccessToken: () => Promise<string | null>;
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -127,11 +129,31 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
   };
 
+  const signInWithGoogle = async (locale = 'en') => {
+    const redirectTo = `${window.location.origin}/${locale}/auth/callback`;
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: {
+        redirectTo,
+      },
+    });
+
+    if (error) {
+      throw error;
+    }
+  };
+
   const signOut = async () => {
     const { error } = await supabase.auth.signOut();
 
     if (error) {
       throw error;
+    }
+
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem('auth_token');
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
     }
   };
 
@@ -156,6 +178,14 @@ export function AuthProvider({ children }: AuthProviderProps) {
     setUser((prev) => (prev ? { ...prev, ...updates } : null));
   };
 
+  const getAccessToken = async () => {
+    const {
+      data: { session },
+    } = await supabase.auth.getSession();
+
+    return session?.access_token ?? null;
+  };
+
   const value: AuthContextType = {
     user,
     supabaseUser,
@@ -163,8 +193,10 @@ export function AuthProvider({ children }: AuthProviderProps) {
     isAuthenticated: !!user,
     signUp,
     signIn,
+    signInWithGoogle,
     signOut,
     updateProfile,
+    getAccessToken,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

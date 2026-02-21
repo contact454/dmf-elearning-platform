@@ -29,10 +29,66 @@ const updateProgressSchema = z.object({
   playCount: z.number().int().min(0).optional(),
 });
 
+const listContentQuerySchema = z.object({
+  level: z.string().trim().min(1).optional(),
+  topic: z.string().trim().min(1).optional(),
+  search: z.string().trim().min(1).optional(),
+  limit: z.coerce.number().int().min(1).max(100).optional().default(20),
+  offset: z.coerce.number().int().min(0).optional().default(0),
+});
+
+const featuredQuerySchema = z.object({
+  limit: z.coerce.number().int().min(1).max(50).optional().default(5),
+});
+
+const contentLookupSchema = z.object({
+  id: z.string().trim().min(1),
+  userId: z.string().trim().min(1).optional(),
+});
+
+const exerciseLookupSchema = z.object({
+  exerciseId: z.string().trim().min(1),
+});
+
+const createContentSchema = z.object({
+  title: z.string().trim().min(1),
+  description: z.string().trim().optional(),
+  level: z.string().trim().min(1),
+  topic: z.string().trim().optional(),
+  audioUrl: z.string().trim().optional(),
+  duration: z.coerce.number().int().min(0).optional(),
+  transcript: z.string().trim().min(1),
+  transcriptVi: z.string().trim().optional(),
+  segments: z.unknown().optional(),
+  source: z.string().trim().optional(),
+  speaker: z.string().trim().optional(),
+});
+
 function asString(value: unknown): string | undefined {
   if (typeof value === 'string') return value;
   if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
   return undefined;
+}
+
+function sendValidationError(res: Response, message: string, details: unknown) {
+  return res.status(400).json({
+    success: false,
+    error: {
+      code: 'VALIDATION_ERROR',
+      message,
+      details,
+    },
+  });
+}
+
+function sendInternalError(res: Response, message: string) {
+  return res.status(500).json({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  });
 }
 
 function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
@@ -61,14 +117,20 @@ export class ListeningController {
    */
   static async list(req: Request, res: Response) {
     try {
-      const { level, topic, search, limit, offset } = req.query;
+      const query = listContentQuerySchema.parse({
+        level: asString(req.query.level),
+        topic: asString(req.query.topic),
+        search: asString(req.query.search),
+        limit: asString(req.query.limit),
+        offset: asString(req.query.offset),
+      });
 
       const result = await listeningService.getContent({
-        level: level as string,
-        topic: topic as string,
-        search: search as string,
-        limit: limit ? parseInt(limit as string, 10) : 20,
-        offset: offset ? parseInt(offset as string, 10) : 0,
+        level: query.level,
+        topic: query.topic,
+        search: query.search,
+        limit: query.limit,
+        offset: query.offset,
       });
 
       return res.status(200).json({
@@ -76,17 +138,17 @@ export class ListeningController {
         data: result.items,
         pagination: {
           total: result.total,
-          limit: limit ? parseInt(limit as string, 10) : 20,
-          offset: offset ? parseInt(offset as string, 10) : 0,
+          limit: query.limit,
+          offset: query.offset,
         },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid listening list query', error.issues);
+      }
+
       console.error('Error listing listening content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch listening content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch listening content');
     }
   }
 
@@ -95,10 +157,10 @@ export class ListeningController {
    */
   static async featured(req: Request, res: Response) {
     try {
-      const { limit } = req.query;
-      const items = await listeningService.getFeatured(
-        limit ? parseInt(limit as string, 10) : 5
-      );
+      const query = featuredQuerySchema.parse({
+        limit: asString(req.query.limit),
+      });
+      const items = await listeningService.getFeatured(query.limit);
 
       return res.status(200).json({
         success: true,
@@ -106,11 +168,12 @@ export class ListeningController {
         count: items.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid featured query', error.issues);
+      }
+
       console.error('Error fetching featured content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch featured content',
-      });
+      return sendInternalError(res, 'Failed to fetch featured content');
     }
   }
 
@@ -126,10 +189,7 @@ export class ListeningController {
       });
     } catch (error) {
       console.error('Error fetching stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch statistics',
-      });
+      return sendInternalError(res, 'Failed to fetch statistics');
     }
   }
 
@@ -146,10 +206,7 @@ export class ListeningController {
       });
     } catch (error) {
       console.error('Error fetching levels:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch levels',
-      });
+      return sendInternalError(res, 'Failed to fetch levels');
     }
   }
 
@@ -158,27 +215,25 @@ export class ListeningController {
    */
   static async getById(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
-      const userId = asString(req.query.userId);
-
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing content id',
-        });
-      }
+      const params = contentLookupSchema.parse({
+        id: asString(req.params.id),
+        userId: asString(req.query.userId),
+      });
 
       let content;
-      if (userId) {
-        content = await listeningService.getWithProgress(id, userId);
+      if (params.userId) {
+        content = await listeningService.getWithProgress(params.id, params.userId);
       } else {
-        content = await listeningService.getById(id);
+        content = await listeningService.getById(params.id);
       }
 
       if (!content) {
         return res.status(404).json({
           success: false,
-          error: 'Content not found',
+          error: {
+            code: 'CONTENT_NOT_FOUND',
+            message: 'Content not found',
+          },
         });
       }
 
@@ -187,11 +242,12 @@ export class ListeningController {
         data: content,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid content lookup input', error.issues);
+      }
+
       console.error('Error fetching content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch content',
-      });
+      return sendInternalError(res, 'Failed to fetch content');
     }
   }
 
@@ -204,14 +260,10 @@ export class ListeningController {
    */
   static async getExercises(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing content id',
-        });
-      }
-      const exercises = await listeningService.getExercises(id);
+      const params = z.object({ id: z.string().trim().min(1) }).parse({
+        id: asString(req.params.id),
+      });
+      const exercises = await listeningService.getExercises(params.id);
 
       return res.status(200).json({
         success: true,
@@ -219,11 +271,12 @@ export class ListeningController {
         count: exercises.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid exercises lookup input', error.issues);
+      }
+
       console.error('Error fetching exercises:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch exercises',
-      });
+      return sendInternalError(res, 'Failed to fetch exercises');
     }
   }
 
@@ -232,19 +285,18 @@ export class ListeningController {
    */
   static async getExercise(req: Request, res: Response) {
     try {
-      const exerciseId = asString(req.params.exerciseId);
-      if (!exerciseId) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing exercise id',
-        });
-      }
-      const exercise = await listeningService.getExerciseById(exerciseId);
+      const params = exerciseLookupSchema.parse({
+        exerciseId: asString(req.params.exerciseId),
+      });
+      const exercise = await listeningService.getExerciseById(params.exerciseId);
 
       if (!exercise) {
         return res.status(404).json({
           success: false,
-          error: 'Exercise not found',
+          error: {
+            code: 'EXERCISE_NOT_FOUND',
+            message: 'Exercise not found',
+          },
         });
       }
 
@@ -253,11 +305,12 @@ export class ListeningController {
         data: exercise,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid exercise lookup input', error.issues);
+      }
+
       console.error('Error fetching exercise:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch exercise',
-      });
+      return sendInternalError(res, 'Failed to fetch exercise');
     }
   }
 
@@ -322,24 +375,11 @@ export class ListeningController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid listening attempt payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid listening attempt payload', error.issues);
       }
 
       console.error('Error submitting attempt:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to submit attempt',
-        },
-      });
+      return sendInternalError(res, 'Failed to submit attempt');
     }
   }
 
@@ -419,23 +459,10 @@ export class ListeningController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid listening progress payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid listening progress payload', error.issues);
       }
       console.error('Error updating progress:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to update progress',
-        },
-      });
+      return sendInternalError(res, 'Failed to update progress');
     }
   }
 
@@ -470,13 +497,7 @@ export class ListeningController {
       });
     } catch (error) {
       console.error('Error fetching history:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch history',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch history');
     }
   }
 
@@ -497,13 +518,7 @@ export class ListeningController {
       });
     } catch (error) {
       console.error('Error fetching user stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch user stats',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch user stats');
     }
   }
 
@@ -516,27 +531,20 @@ export class ListeningController {
    */
   static async createContent(req: Request, res: Response) {
     try {
-      const { title, description, level, topic, audioUrl, duration, transcript, transcriptVi, segments, source, speaker } = req.body;
-
-      if (!title || !level || !transcript) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required fields: title, level, transcript',
-        });
-      }
+      const payload = createContentSchema.parse(req.body);
 
       const content = await listeningService.createContent({
-        title,
-        description,
-        level,
-        topic,
-        audioUrl,
-        duration,
-        transcript,
-        transcriptVi,
-        segments,
-        source,
-        speaker,
+        title: payload.title,
+        description: payload.description,
+        level: payload.level,
+        topic: payload.topic,
+        audioUrl: payload.audioUrl,
+        duration: payload.duration,
+        transcript: payload.transcript,
+        transcriptVi: payload.transcriptVi,
+        segments: payload.segments,
+        source: payload.source,
+        speaker: payload.speaker,
       });
 
       return res.status(201).json({
@@ -544,11 +552,12 @@ export class ListeningController {
         data: content,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid listening content payload', error.issues);
+      }
+
       console.error('Error creating content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to create content',
-      });
+      return sendInternalError(res, 'Failed to create content');
     }
   }
 
@@ -557,14 +566,10 @@ export class ListeningController {
    */
   static async generateExercises(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing content id',
-        });
-      }
-      const exercises = await listeningService.generateExercisesFromSegments(id);
+      const params = z.object({ id: z.string().trim().min(1) }).parse({
+        id: asString(req.params.id),
+      });
+      const exercises = await listeningService.generateExercisesFromSegments(params.id);
 
       return res.status(201).json({
         success: true,
@@ -572,11 +577,12 @@ export class ListeningController {
         count: exercises.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid exercise generation input', error.issues);
+      }
+
       console.error('Error generating exercises:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to generate exercises',
-      });
+      return sendInternalError(res, 'Failed to generate exercises');
     }
   }
 
@@ -595,11 +601,7 @@ export class ListeningController {
       });
     } catch (error) {
       console.error('Error seeding content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to seed content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to seed content');
     }
   }
 }

@@ -20,10 +20,71 @@ const completeReadingSchema = z.object({
   rating: z.number().min(0).max(5).optional(),
 });
 
+const readingListQuerySchema = z.object({
+  level: z.string().trim().min(1).optional(),
+  topic: z.string().trim().min(1).optional(),
+  search: z.string().trim().min(1).optional(),
+  limit: z.coerce.number().int().min(1).max(100).optional().default(20),
+  offset: z.coerce.number().int().min(0).optional().default(0),
+});
+
+const featuredQuerySchema = z.object({
+  limit: z.coerce.number().int().min(1).max(50).optional().default(5),
+});
+
+const topicsQuerySchema = z.object({
+  level: z.string().trim().min(1).optional(),
+});
+
+const readingLookupSchema = z.object({
+  id: z.string().trim().min(1),
+  userId: z.string().trim().min(1).optional(),
+});
+
+const generateContentSchema = z.object({
+  level: z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']),
+  topic: z.string().trim().min(1),
+  targetWordCount: z.coerce.number().int().min(50).max(5000).optional().default(200),
+  style: z.enum(['story', 'article', 'dialogue', 'description']).optional(),
+  includeVocabulary: z.array(z.string().trim().min(1)).optional(),
+});
+
+const createContentSchema = z.object({
+  title: z.string().trim().min(1),
+  content: z.string().trim().min(1),
+  summary: z.string().trim().optional(),
+  level: z.string().trim().min(1),
+  topic: z.string().trim().optional(),
+  source: z.string().trim().optional(),
+  author: z.string().trim().optional(),
+  imageUrl: z.string().trim().optional(),
+});
+
 function asString(value: unknown): string | undefined {
   if (typeof value === 'string') return value;
   if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
   return undefined;
+}
+
+function sendValidationError(res: Response, message: string, details: unknown) {
+  return res.status(400).json({
+    success: false,
+    error: {
+      code: 'VALIDATION_ERROR',
+      message,
+      details,
+    },
+  });
+}
+
+function sendInternalError(res: Response, message: string) {
+  return res.status(500).json({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  });
 }
 
 function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
@@ -52,14 +113,20 @@ export class ReadingController {
    */
   static async list(req: Request, res: Response) {
     try {
-      const { level, topic, search, limit, offset } = req.query;
+      const query = readingListQuerySchema.parse({
+        level: asString(req.query.level),
+        topic: asString(req.query.topic),
+        search: asString(req.query.search),
+        limit: asString(req.query.limit),
+        offset: asString(req.query.offset),
+      });
 
       const result = await readingService.getContent({
-        level: level as string,
-        topic: topic as string,
-        search: search as string,
-        limit: limit ? parseInt(limit as string, 10) : 20,
-        offset: offset ? parseInt(offset as string, 10) : 0,
+        level: query.level,
+        topic: query.topic,
+        search: query.search,
+        limit: query.limit,
+        offset: query.offset,
       });
 
       return res.status(200).json({
@@ -67,17 +134,17 @@ export class ReadingController {
         data: result.items,
         pagination: {
           total: result.total,
-          limit: limit ? parseInt(limit as string, 10) : 20,
-          offset: offset ? parseInt(offset as string, 10) : 0,
+          limit: query.limit,
+          offset: query.offset,
         },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid reading list query', error.issues);
+      }
+
       console.error('Error listing reading content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch reading content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch reading content');
     }
   }
 
@@ -105,23 +172,10 @@ export class ReadingController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid recommended query payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid recommended query payload', error.issues);
       }
       console.error('Error fetching recommended content:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch recommended content',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch recommended content');
     }
   }
 
@@ -131,10 +185,10 @@ export class ReadingController {
    */
   static async featured(req: Request, res: Response) {
     try {
-      const { limit } = req.query;
-      const items = await readingService.getFeatured(
-        limit ? parseInt(limit as string, 10) : 5
-      );
+      const query = featuredQuerySchema.parse({
+        limit: asString(req.query.limit),
+      });
+      const items = await readingService.getFeatured(query.limit);
 
       return res.status(200).json({
         success: true,
@@ -142,12 +196,12 @@ export class ReadingController {
         count: items.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid featured query', error.issues);
+      }
+
       console.error('Error fetching featured content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch featured content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch featured content');
     }
   }
 
@@ -164,11 +218,7 @@ export class ReadingController {
       });
     } catch (error) {
       console.error('Error fetching reading stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch statistics',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch statistics');
     }
   }
 
@@ -186,11 +236,7 @@ export class ReadingController {
       });
     } catch (error) {
       console.error('Error fetching levels:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch levels',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch levels');
     }
   }
 
@@ -200,20 +246,22 @@ export class ReadingController {
    */
   static async topics(req: Request, res: Response) {
     try {
-      const { level } = req.query;
-      const topics = await readingService.getTopics(level as string);
+      const query = topicsQuerySchema.parse({
+        level: asString(req.query.level),
+      });
+      const topics = await readingService.getTopics(query.level);
       return res.status(200).json({
         success: true,
         data: topics,
         count: topics.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid topics query', error.issues);
+      }
+
       console.error('Error fetching topics:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch topics',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch topics');
     }
   }
 
@@ -223,27 +271,25 @@ export class ReadingController {
    */
   static async getById(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
-      const userId = asString(req.query.userId);
-
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing content id',
-        });
-      }
+      const params = readingLookupSchema.parse({
+        id: asString(req.params.id),
+        userId: asString(req.query.userId),
+      });
 
       let content;
-      if (userId) {
-        content = await readingService.getWithAnalysis(id, userId);
+      if (params.userId) {
+        content = await readingService.getWithAnalysis(params.id, params.userId);
       } else {
-        content = await readingService.getById(id);
+        content = await readingService.getById(params.id);
       }
 
       if (!content) {
         return res.status(404).json({
           success: false,
-          error: 'Content not found',
+          error: {
+            code: 'CONTENT_NOT_FOUND',
+            message: 'Content not found',
+          },
         });
       }
 
@@ -252,12 +298,12 @@ export class ReadingController {
         data: content,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid reading content lookup', error.issues);
+      }
+
       console.error('Error fetching content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch content');
     }
   }
 
@@ -342,23 +388,10 @@ export class ReadingController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid reading progress payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid reading progress payload', error.issues);
       }
       console.error('Error updating progress:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to update progress',
-        },
-      });
+      return sendInternalError(res, 'Failed to update progress');
     }
   }
 
@@ -393,23 +426,10 @@ export class ReadingController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid reading completion payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid reading completion payload', error.issues);
       }
       console.error('Error completing reading:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to complete reading',
-        },
-      });
+      return sendInternalError(res, 'Failed to complete reading');
     }
   }
 
@@ -449,13 +469,7 @@ export class ReadingController {
       });
     } catch (error) {
       console.error('Error fetching user history:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch user history',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch user history');
     }
   }
 
@@ -477,13 +491,7 @@ export class ReadingController {
       });
     } catch (error) {
       console.error('Error fetching user stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch user stats',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch user stats');
     }
   }
 
@@ -497,21 +505,14 @@ export class ReadingController {
    */
   static async generateContent(req: Request, res: Response) {
     try {
-      const { level, topic, targetWordCount, style, includeVocabulary } = req.body;
-
-      if (!level || !topic) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required fields: level, topic',
-        });
-      }
+      const payload = generateContentSchema.parse(req.body);
 
       const contentId = await readingService.generateContent({
-        level,
-        topic,
-        targetWordCount: targetWordCount || 200,
-        style,
-        includeVocabulary,
+        level: payload.level,
+        topic: payload.topic,
+        targetWordCount: payload.targetWordCount,
+        style: payload.style,
+        includeVocabulary: payload.includeVocabulary,
       });
 
       return res.status(201).json({
@@ -520,12 +521,12 @@ export class ReadingController {
         message: 'Content generated successfully',
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid reading content generation payload', error.issues);
+      }
+
       console.error('Error generating content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to generate content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to generate content');
     }
   }
 
@@ -535,24 +536,17 @@ export class ReadingController {
    */
   static async createContent(req: Request, res: Response) {
     try {
-      const { title, content, summary, level, topic, source, author, imageUrl } = req.body;
-
-      if (!title || !content || !level) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required fields: title, content, level',
-        });
-      }
+      const payload = createContentSchema.parse(req.body);
 
       const created = await readingService.createContent({
-        title,
-        content,
-        summary,
-        level,
-        topic,
-        source,
-        author,
-        imageUrl,
+        title: payload.title,
+        content: payload.content,
+        summary: payload.summary,
+        level: payload.level,
+        topic: payload.topic,
+        source: payload.source,
+        author: payload.author,
+        imageUrl: payload.imageUrl,
       });
 
       return res.status(201).json({
@@ -560,12 +554,12 @@ export class ReadingController {
         data: created,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid reading content payload', error.issues);
+      }
+
       console.error('Error creating content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to create content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to create content');
     }
   }
 
@@ -575,19 +569,18 @@ export class ReadingController {
    */
   static async deleteContent(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing content id',
-        });
-      }
-      const success = await readingService.deleteContent(id);
+      const params = z.object({ id: z.string().trim().min(1) }).parse({
+        id: asString(req.params.id),
+      });
+      const success = await readingService.deleteContent(params.id);
 
       if (!success) {
         return res.status(404).json({
           success: false,
-          error: 'Content not found',
+          error: {
+            code: 'CONTENT_NOT_FOUND',
+            message: 'Content not found',
+          },
         });
       }
 
@@ -596,12 +589,12 @@ export class ReadingController {
         message: 'Content deleted',
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid reading content id', error.issues);
+      }
+
       console.error('Error deleting content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to delete content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to delete content');
     }
   }
 
@@ -620,11 +613,7 @@ export class ReadingController {
       });
     } catch (error) {
       console.error('Error seeding content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to seed content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to seed content');
     }
   }
 }

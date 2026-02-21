@@ -1,5 +1,10 @@
 import express from 'express';
 import { WritingController } from '../controllers/WritingController';
+import {
+  attachAuthenticatedUserId,
+  authMiddleware,
+  ensureAuthenticatedUserProfile,
+} from '../middlewares/auth';
 
 const router = express.Router();
 
@@ -29,10 +34,22 @@ router.get('/categories', WritingController.categories);
 // ═══════════════════════════════════════════════════════════════
 
 // Get user's writing history
-router.get('/user/:userId/history', WritingController.getUserHistory);
+router.get(
+  '/user/:userId/history',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  WritingController.getUserHistory
+);
 
 // Get user's writing statistics
-router.get('/user/:userId/stats', WritingController.getUserStats);
+router.get(
+  '/user/:userId/stats',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  WritingController.getUserStats
+);
 
 // ═══════════════════════════════════════════════════════════════
 // Content Management
@@ -49,16 +66,40 @@ router.post('/seed', WritingController.seedPrompts);
 // ═══════════════════════════════════════════════════════════════
 
 // Get submissions for a prompt
-router.get('/:id/submissions', WritingController.getSubmissions);
+router.get(
+  '/:id/submissions',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  WritingController.getSubmissions
+);
 
 // Submit writing
-router.post('/:id/submit', WritingController.submitWriting);
+router.post(
+  '/:id/submit',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  WritingController.submitWriting
+);
 
 // Get draft
-router.get('/:id/draft', WritingController.getDraft);
+router.get(
+  '/:id/draft',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  WritingController.getDraft
+);
 
 // Save draft
-router.post('/:id/draft', WritingController.saveDraft);
+router.post(
+  '/:id/draft',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  WritingController.saveDraft
+);
 
 // Get single prompt by ID
 router.get('/:id', WritingController.getById);

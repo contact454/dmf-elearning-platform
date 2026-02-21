@@ -1,0 +1,171 @@
+# M8 S23-04 — Full CI/CD Pipeline
+# Build → Test → Deploy per environment (dev/staging/prod)
+
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, develop, staging]
+  pull_request:
+    branches: [main, develop]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: contact454/dmf-learning-service
+
+jobs:
+  # ─────────────────── LINT & TYPE CHECK ───────────────────
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: cd services/learning-service && npx tsc --noEmit
+        name: TypeScript Check
+
+  # ─────────────────── TEST ───────────────────
+  test:
+    runs-on: ubuntu-latest
+    needs: lint
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: dmf_test
+          POSTGRES_USER: test
+          POSTGRES_PASSWORD: test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+      redis:
+        image: redis:7-alpine
+        ports: ['6379:6379']
+        options: --health-cmd "redis-cli ping" --health-interval 10s
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: cd services/learning-service && npx prisma db push
+        env:
+          DATABASE_URL: postgresql://test:test@localhost:5432/dmf_test
+      - run: cd services/learning-service && pnpm test -- --reporter=junit --outputFile=test-results.xml
+        env:
+          DATABASE_URL: postgresql://test:test@localhost:5432/dmf_test
+          REDIS_URL: redis://localhost:6379
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-results
+          path: services/learning-service/test-results.xml
+
+  # ─────────────────── BUILD & PUSH IMAGE ───────────────────
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push'
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      image-tag: ${{ steps.meta.outputs.tags }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,prefix=
+            type=ref,event=branch
+            type=semver,pattern={{version}}
+      - uses: docker/build-push-action@v5
+        with:
+          context: ./services/learning-service
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  # ─────────────────── DEPLOY DEV ───────────────────
+  deploy-dev:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/develop'
+    environment: development
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to dev
+        run: |
+          helm upgrade --install dmf-dev infrastructure/k8s/helm \
+            --namespace dmf-dev --create-namespace \
+            --set image.tag=${{ github.sha }} \
+            --values infrastructure/k8s/helm/values-dev.yaml \
+            --wait --timeout 300s
+
+  # ─────────────────── DEPLOY STAGING ───────────────────
+  deploy-staging:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/staging'
+    environment: staging
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to staging
+        run: |
+          helm upgrade --install dmf-staging infrastructure/k8s/helm \
+            --namespace dmf-staging --create-namespace \
+            --set image.tag=${{ github.sha }} \
+            --values infrastructure/k8s/helm/values-staging.yaml \
+            --wait --timeout 300s
+      - name: Smoke test
+        run: |
+          sleep 10
+          curl -f https://staging-api.dmf-elearning.com/api/health || exit 1
+
+  # ─────────────────── DEPLOY PRODUCTION ───────────────────
+  deploy-prod:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to production
+        run: |
+          helm upgrade --install dmf-prod infrastructure/k8s/helm \
+            --namespace dmf-prod --create-namespace \
+            --set image.tag=${{ github.sha }} \
+            --values infrastructure/k8s/helm/values.yaml \
+            --wait --timeout 300s
+      - name: Production smoke test
+        run: |
+          sleep 15
+          curl -f https://api.dmf-elearning.com/api/health || exit 1
+      - name: Notify on success
+        if: success()
+        run: echo "✅ Production deployed successfully — ${{ github.sha }}"

@@ -1,6 +1,6 @@
 /**
  * Consumer: system.profile.updated.
- * Resets MasteryState/SkillScore (version bump). Only if learningLanguage changed (MVP: always reset).
+ * Resets MasteryState/SkillScore only when learningLanguage changes.
  * Dedupe by eventId.
  */
 
@@ -23,15 +23,35 @@ export async function handleSystemProfileUpdated(
   deps: ProfileUpdatedDeps
 ): Promise<void> {
   const eventId = (event.payload as { eventId?: string }).eventId ?? '';
-  if (hasProcessedEvent(eventId)) {
+  if (eventId && hasProcessedEvent(eventId)) {
     deps.logger.info('Duplicate event skipped (system.profile.updated)', { eventId });
     return;
   }
-  markProcessedEvent(eventId);
+  if (eventId) {
+    markProcessedEvent(eventId);
+  } else {
+    deps.logger.warn('system.profile.updated missing eventId; processing without dedupe', {});
+  }
 
-  const userId = (event.payload as { userId?: string }).userId as UserId;
+  const payload = event.payload as {
+    userId?: string;
+    learningLanguageChanged?: boolean;
+    previousLearningLanguage?: string;
+    learningLanguage?: string;
+  };
+  const userId = payload.userId as UserId;
   if (!userId) {
     deps.logger.warn('system.profile.updated missing userId', { eventId });
+    return;
+  }
+
+  const inferredChange =
+    payload.previousLearningLanguage !== undefined &&
+    payload.learningLanguage !== undefined &&
+    payload.previousLearningLanguage !== payload.learningLanguage;
+  const learningLanguageChanged = payload.learningLanguageChanged ?? inferredChange;
+  if (!learningLanguageChanged) {
+    deps.logger.info('Mastery reset skipped: learningLanguage unchanged', { userId, eventId });
     return;
   }
 

@@ -66,7 +66,6 @@ jobs:
           echo "::warning::Railway authentication failed. Deploy/smoke steps are skipped until RAILWAY_API_TOKEN is updated."
 
       - name: Build learning-service
-        continue-on-error: true
         run: pnpm --filter learning-service build
 
       - name: Run targeted middleware tests

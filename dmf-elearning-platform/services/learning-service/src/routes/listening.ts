@@ -1,5 +1,10 @@
 import express from 'express';
 import { ListeningController } from '../controllers/ListeningController';
+import {
+  attachAuthenticatedUserId,
+  authMiddleware,
+  ensureAuthenticatedUserProfile,
+} from '../middlewares/auth';
 
 const router = express.Router();
 
@@ -26,10 +31,22 @@ router.get('/levels', ListeningController.levels);
 // ═══════════════════════════════════════════════════════════════
 
 // Get user's listening history
-router.get('/user/:userId/history', ListeningController.getUserHistory);
+router.get(
+  '/user/:userId/history',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ListeningController.getUserHistory
+);
 
 // Get user's listening statistics
-router.get('/user/:userId/stats', ListeningController.getUserStats);
+router.get(
+  '/user/:userId/stats',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ListeningController.getUserStats
+);
 
 // ═══════════════════════════════════════════════════════════════
 // Exercise Endpoints
@@ -39,7 +56,13 @@ router.get('/user/:userId/stats', ListeningController.getUserStats);
 router.get('/exercise/:exerciseId', ListeningController.getExercise);
 
 // Submit dictation attempt
-router.post('/exercise/:exerciseId/attempt', ListeningController.submitAttempt);
+router.post(
+  '/exercise/:exerciseId/attempt',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ListeningController.submitAttempt
+);
 
 // ═══════════════════════════════════════════════════════════════
 // Content Management
@@ -62,10 +85,22 @@ router.get('/:id/exercises', ListeningController.getExercises);
 router.post('/:id/exercises/generate', ListeningController.generateExercises);
 
 // Start listening
-router.post('/:id/start', ListeningController.startListening);
+router.post(
+  '/:id/start',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ListeningController.startListening
+);
 
 // Update progress
-router.put('/:id/progress', ListeningController.updateProgress);
+router.put(
+  '/:id/progress',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  ListeningController.updateProgress
+);
 
 // Get single content by ID
 router.get('/:id', ListeningController.getById);

@@ -4,7 +4,11 @@
  */
 
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
-import { api as baseApi } from './api';
+import {
+  clearBrowserAuthState,
+  getBrowserAuthToken,
+  redirectToLoginIfBrowser,
+} from '@/lib/api/auth-client';
 import type {
   SpeakingPrompt,
   PromptsResponse,
@@ -39,10 +43,10 @@ export const speakingApi = axios.create({
 // ============================================
 
 speakingApi.interceptors.request.use(
-  (config: InternalAxiosRequestConfig) => {
-    if (typeof window !== 'undefined') {
-      const token = localStorage.getItem('auth_token');
-      if (token && config.headers) {
+  async (config: InternalAxiosRequestConfig) => {
+    if (typeof window !== 'undefined' && config.headers) {
+      const token = await getBrowserAuthToken();
+      if (token) {
         config.headers.Authorization = `Bearer ${token}`;
       }
     }
@@ -62,11 +66,8 @@ speakingApi.interceptors.response.use(
   (error: AxiosError<ApiError>) => {
     // Handle 401 Unauthorized
     if (error.response?.status === 401) {
-      if (typeof window !== 'undefined') {
-        localStorage.removeItem('auth_token');
-        localStorage.removeItem('user');
-        window.location.href = '/login';
-      }
+      clearBrowserAuthState();
+      redirectToLoginIfBrowser();
     }
 
     // Handle 429 Rate Limit

@@ -36,7 +36,10 @@ async function main(): Promise<void> {
     // Step 2: Wait for services to be ready
     console.log('\nStep 2: Waiting for services to be ready...');
     await waitForAllServices(SERVICES, {
-      timeoutMs: 30000,
+      timeoutMs: 120000,
+      perServiceTimeoutMs: {
+        'motivation-progress': 120000,
+      },
       intervalMs: 500,
       verbose: true,
     });

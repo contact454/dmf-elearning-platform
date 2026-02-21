@@ -87,3 +87,73 @@ export interface AudioVisualizationData {
   timeDomainData: Uint8Array;
   volume: number; // 0-100
 }
+
+// API Query/Response Types
+export interface PromptsQueryParams {
+  cefr?: CEFRLevel;
+  topic?: string;
+  limit?: number;
+  offset?: number;
+  search?: string;
+}
+
+export interface PromptsResponse {
+  items: SpeakingPrompt[];
+  total: number;
+  hasMore: boolean;
+}
+
+export interface SubmissionsQueryParams {
+  promptId?: string;
+  status?: 'pending' | 'analyzing' | 'completed' | 'failed';
+  limit?: number;
+  offset?: number;
+}
+
+export interface SubmissionsResponse {
+  items: SpeakingSubmission[];
+  total: number;
+  hasMore: boolean;
+}
+
+export interface CreateSubmissionRequest {
+  promptId: string;
+  audioUrl: string;
+  durationSeconds: number;
+}
+
+export interface TranscriptionResponse {
+  text: string;
+  confidence: number;
+  language: string;
+  durationSeconds: number;
+}
+
+export interface AnalyzeSpeechRequest {
+  submissionId: string;
+}
+
+export interface ProgressStats {
+  totalSubmissions: number;
+  averageScore: number;
+  completedToday: number;
+  currentStreak: number;
+  levelDistribution: Record<CEFRLevel, number>;
+  recentScores: number[];
+}
+
+export interface WeaknessesResponse {
+  items: {
+    word: string;
+    count: number;
+    averageScore: number;
+    category: 'pronunciation' | 'grammar' | 'vocabulary';
+  }[];
+  total: number;
+}
+
+export interface ApiError {
+  message: string;
+  code?: string;
+  details?: unknown;
+}

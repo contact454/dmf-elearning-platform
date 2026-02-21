@@ -21,8 +21,8 @@ import {
   useListeningContent,
   useFeaturedListening,
   useListeningContentStats,
-  useLevels,
-} from '@/hooks/useApiQueries';
+} from '@/hooks/useListeningLearningQueries';
+import { useLevels } from '@/hooks/useVocabularySrsQueries';
 import { SkeletonCard, SkeletonStats, CountUp, ThemeToggle } from '@/components/ui';
 
 export default function ListeningLabPage() {

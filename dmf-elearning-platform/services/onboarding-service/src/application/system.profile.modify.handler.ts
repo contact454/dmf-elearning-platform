@@ -4,7 +4,9 @@
 
 import type { SystemProfileModifyCommand } from '@dmf/contracts';
 import type { UserRepository } from '../state/user.repository';
-import type { EventBus, Outbox } from '@dmf/infra';
+import type { EventBus, IdempotencyStore, Outbox } from '@dmf/infra';
+import { makeIdempotencyKey } from '@dmf/infra';
+import { makeNotFound } from '@dmf/shared';
 import { emitViaOutbox } from '@dmf/infra/adapters';
 
 export interface SystemProfileModifyContext {
@@ -17,17 +19,41 @@ export async function handleSystemProfileModify(
   deps: {
     userRepository: UserRepository;
     eventBus: EventBus;
+    idempotencyStore: IdempotencyStore;
     outbox: Outbox;
   }
 ) {
-  // 1. Update User entity (Cập nhật thực thể User)
+  if (command.correlationId) {
+    const idempotencyKey = makeIdempotencyKey('system.profile.modify', command.correlationId);
+    const existingResult = await deps.idempotencyStore.get(idempotencyKey);
+    if (existingResult) {
+      return {
+        userId: existingResult.resultIds.userId,
+        replayed: true,
+      };
+    }
+  }
+
+  const existingUser = await deps.userRepository.findById(command.userId);
+  if (!existingUser) {
+    const notFound = makeNotFound('User', command.userId);
+    const error = new Error(notFound.message);
+    (error as { standardError?: unknown }).standardError = notFound;
+    throw error;
+  }
+
+  const previousLearningLanguage = existingUser.targetLanguage;
+  const learningLanguage = command.targetLanguage ?? existingUser.targetLanguage;
+  const learningLanguageChanged =
+    command.targetLanguage !== undefined &&
+    command.targetLanguage !== previousLearningLanguage;
+
   const user = await deps.userRepository.update(command.userId, {
     firstName: command.firstName,
     lastName: command.lastName,
     targetLanguage: command.targetLanguage,
   });
 
-  // 2. Emit event via outbox (write-then-emit safety) (Phát sự kiện qua outbox - an toàn ghi rồi mới phát)
   const eventId = generateEventId();
   const commandKey = command.correlationId || `profile:${user.id}`;
   await emitViaOutbox(
@@ -38,6 +64,9 @@ export async function handleSystemProfileModify(
         occurredAt: new Date().toISOString(),
         correlationId: command.correlationId,
         userId: user.id,
+        learningLanguageChanged,
+        previousLearningLanguage,
+        learningLanguage,
       },
     },
     deps.eventBus,
@@ -45,7 +74,16 @@ export async function handleSystemProfileModify(
     commandKey
   );
 
-  return { userId: user.id };
+  if (command.correlationId) {
+    const idempotencyKey = makeIdempotencyKey('system.profile.modify', command.correlationId);
+    await deps.idempotencyStore.set(idempotencyKey, {
+      resultIds: { userId: user.id },
+      emittedEventIds: [eventId],
+      timestamp: new Date().toISOString(),
+    });
+  }
+
+  return { userId: user.id, replayed: false };
 }
 
 function generateEventId(): string {

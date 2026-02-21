@@ -27,7 +27,7 @@ import {
   useUpdateReadingProgress,
   useCompleteReading,
   useReadingStats,
-} from '@/hooks/useApiQueries';
+} from '@/hooks/useReadingLearningQueries';
 import { useUser } from '@/providers/user-provider';
 import {
   PopupDictionary,

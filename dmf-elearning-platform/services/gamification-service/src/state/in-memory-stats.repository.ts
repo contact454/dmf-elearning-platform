@@ -8,14 +8,22 @@ export interface UserStats {
   xp: number;
   level: number;
   streak: number;
+  lastCheckInAt: Date | null;
   createdAt: Date;
   updatedAt: Date;
+}
+
+export interface StreakCheckInResult {
+  stats: UserStats;
+  streakIncreased: boolean;
+  alreadyCheckedIn: boolean;
 }
 
 export interface UserStatsRepository {
   findByUserId(userId: string): Promise<UserStats | null>;
   save(stats: UserStats): Promise<UserStats>;
   addXP(userId: string, amount: number): Promise<UserStats>;
+  checkIn(userId: string, at?: Date): Promise<StreakCheckInResult>;
   getLeaderboard(limit: number): Promise<UserStats[]>;
 }
 
@@ -50,6 +58,7 @@ class InMemoryUserStatsRepository implements UserStatsRepository {
         xp,
         level,
         streak,
+        lastCheckInAt: null,
         createdAt: new Date(),
         updatedAt: new Date(),
       };
@@ -65,8 +74,9 @@ class InMemoryUserStatsRepository implements UserStatsRepository {
   }
 
   async save(stats: UserStats): Promise<UserStats> {
-    this.store.set(stats.id, { ...stats, updatedAt: new Date() });
-    return stats;
+    const stored = { ...stats, updatedAt: new Date() };
+    this.store.set(stored.id, stored);
+    return stored;
   }
 
   async addXP(userId: string, amount: number): Promise<UserStats> {
@@ -80,6 +90,7 @@ class InMemoryUserStatsRepository implements UserStatsRepository {
         xp: 0,
         level: 1,
         streak: 0,
+        lastCheckInAt: null,
         createdAt: new Date(),
         updatedAt: new Date(),
       };
@@ -94,11 +105,71 @@ class InMemoryUserStatsRepository implements UserStatsRepository {
     return this.save(stats);
   }
 
+  async checkIn(userId: string, at: Date = new Date()): Promise<StreakCheckInResult> {
+    let stats = await this.findByUserId(userId);
+
+    if (!stats) {
+      stats = {
+        id: `stats-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+        userId,
+        xp: 0,
+        level: 1,
+        streak: 0,
+        lastCheckInAt: null,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      };
+    }
+
+    if (stats.lastCheckInAt && this.isSameUtcDay(stats.lastCheckInAt, at)) {
+      return {
+        stats,
+        streakIncreased: false,
+        alreadyCheckedIn: true,
+      };
+    }
+
+    if (!stats.lastCheckInAt) {
+      stats.streak = stats.streak > 0 ? stats.streak + 1 : 1;
+    } else {
+      const dayDiff = this.dayDiffUtc(stats.lastCheckInAt, at);
+
+      if (dayDiff === 1) {
+        stats.streak += 1;
+      } else if (dayDiff > 1) {
+        stats.streak = 1;
+      }
+    }
+
+    stats.lastCheckInAt = at;
+
+    const saved = await this.save(stats);
+    return {
+      stats: saved,
+      streakIncreased: true,
+      alreadyCheckedIn: false,
+    };
+  }
+
   async getLeaderboard(limit: number = 10): Promise<UserStats[]> {
     const allStats = Array.from(this.store.values());
     return allStats
       .sort((a, b) => b.xp - a.xp) // Sort by XP descending
       .slice(0, limit);
+  }
+
+  private isSameUtcDay(left: Date, right: Date): boolean {
+    return (
+      left.getUTCFullYear() === right.getUTCFullYear() &&
+      left.getUTCMonth() === right.getUTCMonth() &&
+      left.getUTCDate() === right.getUTCDate()
+    );
+  }
+
+  private dayDiffUtc(start: Date, end: Date): number {
+    const startDate = Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate());
+    const endDate = Date.UTC(end.getUTCFullYear(), end.getUTCMonth(), end.getUTCDate());
+    return Math.floor((endDate - startDate) / (24 * 60 * 60 * 1000));
   }
 }
 

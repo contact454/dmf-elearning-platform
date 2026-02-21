@@ -84,6 +84,20 @@ function createWrapper() {
   );
 }
 
+function createDeferred<T>() {
+  let resolve!: (value: T) => void;
+  let reject!: (error?: unknown) => void;
+  const promise = new Promise<T>((res, rej) => {
+    resolve = res;
+    reject = rej;
+  });
+  return { promise, resolve, reject };
+}
+
+beforeEach(() => {
+  vi.restoreAllMocks();
+});
+
 // ============================================
 // PROMPTS HOOKS TESTS
 // ============================================
@@ -157,14 +171,14 @@ describe('usePrompt', () => {
   });
 
   it('should not fetch when ID is empty', async () => {
-    vi.spyOn(promptsApi, 'getById');
+    const getByIdSpy = vi.spyOn(promptsApi, 'getById');
 
     const { result } = renderHook(() => usePrompt(''), {
       wrapper: createWrapper(),
     });
 
-    expect(result.current.fetchStatus).toBe('idle');
-    expect(promptsApi.getById).not.toHaveBeenCalled();
+    await waitFor(() => expect(result.current.fetchStatus).toBe('idle'));
+    expect(getByIdSpy).not.toHaveBeenCalled();
   });
 });
 
@@ -222,8 +236,7 @@ describe('useCreateSubmission', () => {
       durationSeconds: 0,
     };
 
-    result.current.mutate(createData);
-
+    await expect(result.current.mutateAsync(createData)).rejects.toThrow('Validation error');
     await waitFor(() => expect(result.current.isError).toBe(true));
   });
 });
@@ -319,7 +332,8 @@ describe('useAnalyzeSpeech', () => {
     const pendingSubmission = { ...mockSubmission, status: 'pending' as const };
     queryClient.setQueryData(['speaking', 'submissions', 'detail', 'sub-1'], pendingSubmission);
 
-    vi.spyOn(analysisApi, 'analyzeSpeech').mockResolvedValue(mockSubmission);
+    const deferred = createDeferred<SpeakingSubmission>();
+    vi.spyOn(analysisApi, 'analyzeSpeech').mockImplementation(() => deferred.promise);
 
     const wrapper = ({ children }: { children: React.ReactNode }) => (
       <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
@@ -334,6 +348,8 @@ describe('useAnalyzeSpeech', () => {
       const cached = queryClient.getQueryData(['speaking', 'submissions', 'detail', 'sub-1']);
       expect((cached as any)?.status).toBe('analyzing');
     });
+
+    deferred.resolve(mockSubmission);
 
     // After success, should have final data
     await waitFor(() => expect(result.current.isSuccess).toBe(true));

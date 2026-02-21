@@ -14,10 +14,75 @@ const saveDraftSchema = z.object({
   content: z.string(),
 });
 
+const listPromptsQuerySchema = z.object({
+  level: z.string().trim().min(1).optional(),
+  category: z.string().trim().min(1).optional(),
+  topic: z.string().trim().min(1).optional(),
+  search: z.string().trim().min(1).optional(),
+  limit: z.coerce.number().int().min(1).max(100).optional().default(20),
+  offset: z.coerce.number().int().min(0).optional().default(0),
+});
+
+const featuredQuerySchema = z.object({
+  limit: z.coerce.number().int().min(1).max(50).optional().default(5),
+});
+
+const promptLookupSchema = z.object({
+  id: z.string().trim().min(1),
+  userId: z.string().trim().min(1).optional(),
+});
+
+const idLookupSchema = z.object({
+  id: z.string().trim().min(1),
+});
+
+const historyQuerySchema = z.object({
+  status: z.enum(['attempted', 'mastered']).optional(),
+});
+
+const createPromptSchema = z.object({
+  title: z.string().trim().min(1),
+  level: z.string().trim().min(1),
+  category: z.string().trim().optional(),
+  topic: z.string().trim().optional(),
+  promptText: z.string().trim().min(1),
+  promptTextVi: z.string().trim().optional(),
+  instructions: z.string().trim().optional(),
+  instructionsVi: z.string().trim().optional(),
+  sampleResponse: z.string().trim().optional(),
+  sampleResponseVi: z.string().trim().optional(),
+  keywords: z.array(z.string().trim().min(1)).optional(),
+  grammarPoints: z.array(z.string().trim().min(1)).optional(),
+  minWords: z.coerce.number().int().min(0).optional(),
+  wordLimit: z.coerce.number().int().min(1).optional(),
+  difficulty: z.coerce.number().int().min(1).max(5).optional(),
+});
+
 function asString(value: unknown): string | undefined {
   if (typeof value === 'string') return value;
   if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
   return undefined;
+}
+
+function sendValidationError(res: Response, message: string, details: unknown) {
+  return res.status(400).json({
+    success: false,
+    error: {
+      code: 'VALIDATION_ERROR',
+      message,
+      details,
+    },
+  });
+}
+
+function sendInternalError(res: Response, message: string) {
+  return res.status(500).json({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  });
 }
 
 function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
@@ -36,25 +101,24 @@ function getAuthenticatedUserId(req: Request, res: Response): string | undefined
 }
 
 export class WritingController {
-  // ═══════════════════════════════════════════════════════════════
-  // Prompt Endpoints
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * GET /api/writing
-   * List writing prompts
-   */
   static async list(req: Request, res: Response) {
     try {
-      const { level, category, topic, search, limit, offset } = req.query;
+      const query = listPromptsQuerySchema.parse({
+        level: asString(req.query.level),
+        category: asString(req.query.category),
+        topic: asString(req.query.topic),
+        search: asString(req.query.search),
+        limit: asString(req.query.limit),
+        offset: asString(req.query.offset),
+      });
 
       const result = await writingService.getPrompts({
-        level: level as string,
-        category: category as string,
-        topic: topic as string,
-        search: search as string,
-        limit: limit ? parseInt(limit as string, 10) : 20,
-        offset: offset ? parseInt(offset as string, 10) : 0,
+        level: query.level,
+        category: query.category,
+        topic: query.topic,
+        search: query.search,
+        limit: query.limit,
+        offset: query.offset,
       });
 
       return res.status(200).json({
@@ -62,29 +126,23 @@ export class WritingController {
         data: result.items,
         pagination: {
           total: result.total,
-          limit: limit ? parseInt(limit as string, 10) : 20,
-          offset: offset ? parseInt(offset as string, 10) : 0,
+          limit: query.limit,
+          offset: query.offset,
         },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid writing list query', error.issues);
+      }
       console.error('Error listing writing prompts:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch writing prompts',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch writing prompts');
     }
   }
 
-  /**
-   * GET /api/writing/featured
-   */
   static async featured(req: Request, res: Response) {
     try {
-      const { limit } = req.query;
-      const items = await writingService.getFeatured(
-        limit ? parseInt(limit as string, 10) : 5
-      );
+      const query = featuredQuerySchema.parse({ limit: asString(req.query.limit) });
+      const items = await writingService.getFeatured(query.limit);
 
       return res.status(200).json({
         success: true,
@@ -92,17 +150,14 @@ export class WritingController {
         count: items.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid writing featured query', error.issues);
+      }
       console.error('Error fetching featured prompts:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch featured prompts',
-      });
+      return sendInternalError(res, 'Failed to fetch featured prompts');
     }
   }
 
-  /**
-   * GET /api/writing/stats
-   */
   static async stats(req: Request, res: Response) {
     try {
       const stats = await writingService.getStats();
@@ -112,16 +167,10 @@ export class WritingController {
       });
     } catch (error) {
       console.error('Error fetching stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch statistics',
-      });
+      return sendInternalError(res, 'Failed to fetch statistics');
     }
   }
 
-  /**
-   * GET /api/writing/levels
-   */
   static async levels(req: Request, res: Response) {
     try {
       const levels = await writingService.getLevels();
@@ -132,16 +181,10 @@ export class WritingController {
       });
     } catch (error) {
       console.error('Error fetching levels:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch levels',
-      });
+      return sendInternalError(res, 'Failed to fetch levels');
     }
   }
 
-  /**
-   * GET /api/writing/categories
-   */
   static async categories(req: Request, res: Response) {
     try {
       const categories = await writingService.getCategories();
@@ -152,39 +195,28 @@ export class WritingController {
       });
     } catch (error) {
       console.error('Error fetching categories:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch categories',
-      });
+      return sendInternalError(res, 'Failed to fetch categories');
     }
   }
 
-  /**
-   * GET /api/writing/:id
-   */
   static async getById(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
-      const userId = asString(req.query.userId);
+      const params = promptLookupSchema.parse({
+        id: asString(req.params.id),
+        userId: asString(req.query.userId),
+      });
 
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing prompt id',
-        });
-      }
-
-      let prompt;
-      if (userId) {
-        prompt = await writingService.getWithProgress(id, userId);
-      } else {
-        prompt = await writingService.getById(id);
-      }
+      const prompt = params.userId
+        ? await writingService.getWithProgress(params.id, params.userId)
+        : await writingService.getById(params.id);
 
       if (!prompt) {
         return res.status(404).json({
           success: false,
-          error: 'Prompt not found',
+          error: {
+            code: 'PROMPT_NOT_FOUND',
+            message: 'Prompt not found',
+          },
         });
       }
 
@@ -193,21 +225,14 @@ export class WritingController {
         data: prompt,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid writing prompt lookup input', error.issues);
+      }
       console.error('Error fetching prompt:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch prompt',
-      });
+      return sendInternalError(res, 'Failed to fetch prompt');
     }
   }
 
-  // ═══════════════════════════════════════════════════════════════
-  // Submission Endpoints
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * POST /api/writing/:id/submit
-   */
   static async submitWriting(req: Request, res: Response) {
     try {
       const id = asString(req.params.id);
@@ -239,48 +264,25 @@ export class WritingController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid writing submission payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid writing submission payload', error.issues);
       }
       console.error('Error submitting writing:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to submit writing',
-        },
-      });
+      return sendInternalError(res, 'Failed to submit writing');
     }
   }
 
-  /**
-   * GET /api/writing/:id/submissions
-   */
   static async getSubmissions(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
+      const params = idLookupSchema.parse({
+        id: asString(req.params.id),
+      });
       const userId = getAuthenticatedUserId(req, res);
 
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Missing prompt id',
-          },
-        });
-      }
       if (!userId) {
         return;
       }
 
-      const submissions = await writingService.getUserSubmissions(userId, id);
+      const submissions = await writingService.getUserSubmissions(userId, params.id);
 
       return res.status(200).json({
         success: true,
@@ -288,46 +290,27 @@ export class WritingController {
         count: submissions.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid writing submissions lookup input', error.issues);
+      }
       console.error('Error fetching submissions:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch submissions',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch submissions');
     }
   }
 
-  // ═══════════════════════════════════════════════════════════════
-  // Draft Endpoints
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * POST /api/writing/:id/draft
-   * Save draft
-   */
   static async saveDraft(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
+      const params = idLookupSchema.parse({
+        id: asString(req.params.id),
+      });
       const userId = getAuthenticatedUserId(req, res);
 
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Missing prompt id',
-          },
-        });
-      }
       if (!userId) {
         return;
       }
 
       const payload = saveDraftSchema.parse(req.body);
-
-      const progress = await writingService.saveDraft(userId, id, payload.content);
+      const progress = await writingService.saveDraft(userId, params.id, payload.content);
 
       return res.status(200).json({
         success: true,
@@ -336,83 +319,51 @@ export class WritingController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid writing draft payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid writing draft payload', error.issues);
       }
       console.error('Error saving draft:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to save draft',
-        },
-      });
+      return sendInternalError(res, 'Failed to save draft');
     }
   }
 
-  /**
-   * GET /api/writing/:id/draft
-   * Get draft
-   */
   static async getDraft(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
+      const params = idLookupSchema.parse({
+        id: asString(req.params.id),
+      });
       const userId = getAuthenticatedUserId(req, res);
 
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Missing prompt id',
-          },
-        });
-      }
       if (!userId) {
         return;
       }
 
-      const draft = await writingService.getDraft(userId, id);
+      const draft = await writingService.getDraft(userId, params.id);
 
       return res.status(200).json({
         success: true,
         data: { content: draft },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid writing draft lookup input', error.issues);
+      }
       console.error('Error fetching draft:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch draft',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch draft');
     }
   }
 
-  // ═══════════════════════════════════════════════════════════════
-  // User Progress Endpoints
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * GET /api/writing/user/:userId/history
-   */
   static async getUserHistory(req: Request, res: Response) {
     try {
       const userId = getAuthenticatedUserId(req, res);
-      const status = asString(req.query.status);
+      const query = historyQuerySchema.parse({
+        status: asString(req.query.status),
+      });
 
       if (!userId) {
         return;
       }
 
-      const history = await writingService.getUserHistory(userId, status);
+      const history = await writingService.getUserHistory(userId, query.status);
 
       return res.status(200).json({
         success: true,
@@ -420,20 +371,14 @@ export class WritingController {
         count: history.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid writing history query', error.issues);
+      }
       console.error('Error fetching history:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch history',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch history');
     }
   }
 
-  /**
-   * GET /api/writing/user/:userId/stats
-   */
   static async getUserStats(req: Request, res: Response) {
     try {
       const userId = getAuthenticatedUserId(req, res);
@@ -448,66 +393,30 @@ export class WritingController {
       });
     } catch (error) {
       console.error('Error fetching user stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch user stats',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch user stats');
     }
   }
 
-  // ═══════════════════════════════════════════════════════════════
-  // Content Management
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * POST /api/writing
-   */
   static async createPrompt(req: Request, res: Response) {
     try {
-      const {
-        title,
-        level,
-        category,
-        topic,
-        promptText,
-        promptTextVi,
-        instructions,
-        instructionsVi,
-        sampleResponse,
-        sampleResponseVi,
-        keywords,
-        grammarPoints,
-        minWords,
-        wordLimit,
-        difficulty,
-      } = req.body;
-
-      if (!title || !level || !promptText) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required fields: title, level, promptText',
-        });
-      }
+      const payload = createPromptSchema.parse(req.body);
 
       const prompt = await writingService.createPrompt({
-        title,
-        level,
-        category,
-        topic,
-        promptText,
-        promptTextVi,
-        instructions,
-        instructionsVi,
-        sampleResponse,
-        sampleResponseVi,
-        keywords,
-        grammarPoints,
-        minWords,
-        wordLimit,
-        difficulty,
+        title: payload.title,
+        level: payload.level,
+        category: payload.category,
+        topic: payload.topic,
+        promptText: payload.promptText,
+        promptTextVi: payload.promptTextVi,
+        instructions: payload.instructions,
+        instructionsVi: payload.instructionsVi,
+        sampleResponse: payload.sampleResponse,
+        sampleResponseVi: payload.sampleResponseVi,
+        keywords: payload.keywords,
+        grammarPoints: payload.grammarPoints,
+        minWords: payload.minWords,
+        wordLimit: payload.wordLimit,
+        difficulty: payload.difficulty,
       });
 
       return res.status(201).json({
@@ -515,18 +424,14 @@ export class WritingController {
         data: prompt,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid writing prompt payload', error.issues);
+      }
       console.error('Error creating prompt:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to create prompt',
-      });
+      return sendInternalError(res, 'Failed to create prompt');
     }
   }
 
-  /**
-   * POST /api/writing/seed
-   * Seed sample prompts
-   */
   static async seedPrompts(req: Request, res: Response) {
     try {
       const created = await writingService.seedPrompts();
@@ -538,10 +443,7 @@ export class WritingController {
       });
     } catch (error) {
       console.error('Error seeding prompts:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to seed prompts',
-      });
+      return sendInternalError(res, 'Failed to seed prompts');
     }
   }
 }

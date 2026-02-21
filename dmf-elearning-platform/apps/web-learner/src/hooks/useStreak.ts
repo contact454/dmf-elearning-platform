@@ -12,11 +12,7 @@ export function useStreak() {
   return useQuery({
     queryKey: ['streak'],
     queryFn: async (): Promise<StreakData> => {
-      const response = await fetch('/api/user/streak', {
-        headers: {
-          'Authorization': `Bearer ${localStorage.getItem('token')}`
-        }
-      })
+      const response = await fetch('/api/user/streak')
       
       if (!response.ok) throw new Error('Failed to fetch streak')
       

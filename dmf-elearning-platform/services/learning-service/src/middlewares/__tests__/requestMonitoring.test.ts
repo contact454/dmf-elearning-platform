@@ -59,6 +59,7 @@ describe('requestMonitoring middleware', () => {
       windowMs: 60_000,
       alert5xxThreshold: 2,
       alert429Threshold: 99,
+      alertAuthThreshold: 99,
       slowRequestMs: 10_000,
       logAllRequests: false,
     });
@@ -84,6 +85,7 @@ describe('requestMonitoring middleware', () => {
       windowMs: 60_000,
       alert5xxThreshold: 99,
       alert429Threshold: 2,
+      alertAuthThreshold: 99,
       slowRequestMs: 10_000,
       logAllRequests: false,
     });
@@ -101,6 +103,32 @@ describe('requestMonitoring middleware', () => {
     expect(errorSpy).not.toHaveBeenCalledWith(expect.stringContaining('5xx spike detected'));
   });
 
+  it('emits an auth anomaly alert when 401/403 threshold is reached', () => {
+    const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
+    const errorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+    const middleware = createRequestMonitoring({
+      enabled: true,
+      windowMs: 60_000,
+      alert5xxThreshold: 99,
+      alert429Threshold: 99,
+      alertAuthThreshold: 3,
+      slowRequestMs: 10_000,
+      logAllRequests: false,
+    });
+
+    for (const statusCode of [401, 403, 401]) {
+      const req = createMockRequest('GET', '/api/review/queue');
+      const res = createMockResponse(statusCode);
+      middleware(req, res, createNext());
+      res.triggerFinish();
+    }
+
+    expect(warnSpy).toHaveBeenCalledWith(expect.stringContaining('auth anomaly detected'));
+    expect(warnSpy).toHaveBeenCalledWith(expect.stringContaining('status401=2'));
+    expect(warnSpy).toHaveBeenCalledWith(expect.stringContaining('status403=1'));
+    expect(errorSpy).not.toHaveBeenCalledWith(expect.stringContaining('5xx spike detected'));
+  });
+
   it('logs slow requests above configured duration', () => {
     const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
     const middleware = createRequestMonitoring({
@@ -108,6 +136,7 @@ describe('requestMonitoring middleware', () => {
       windowMs: 60_000,
       alert5xxThreshold: 10,
       alert429Threshold: 10,
+      alertAuthThreshold: 10,
       slowRequestMs: 500,
       logAllRequests: false,
     });
@@ -127,6 +156,7 @@ describe('requestMonitoring middleware', () => {
     process.env.MONITORING_WINDOW_MS = '45000';
     process.env.MONITORING_5XX_ALERT_THRESHOLD = '7';
     process.env.MONITORING_429_ALERT_THRESHOLD = '11';
+    process.env.MONITORING_AUTH_ALERT_THRESHOLD = '13';
     process.env.MONITORING_SLOW_REQUEST_MS = '900';
     process.env.MONITORING_LOG_ALL_REQUESTS = 'true';
 
@@ -137,6 +167,7 @@ describe('requestMonitoring middleware', () => {
       windowMs: 45000,
       alert5xxThreshold: 7,
       alert429Threshold: 11,
+      alertAuthThreshold: 13,
       slowRequestMs: 900,
       logAllRequests: true,
     });

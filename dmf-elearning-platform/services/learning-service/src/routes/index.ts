@@ -10,6 +10,16 @@ import audioRoutes from './audioRoutes';
 import reviewRoutes from './review';
 import userRoutes from './user';
 import analyticsListeningRoutes from './analytics-listening';
+import profileRoutes from './profile';
+import gamificationRoutes from './gamificationRoutes';
+import educationRoutes from './educationRoutes';
+import teacherRoutes from './teacherRoutes';
+import adminRoutes from './adminRoutes';
+import mentorRoutes from './mentorRoutes';
+import onboardingRoutes from './onboardingRoutes';
+import grammarRoutes from './grammarRoutes';
+import socialRoutes from './socialRoutes';
+import { routeProtectionMatrix } from './routeProtectionMatrix';
 
 const router = express.Router();
 
@@ -19,6 +29,13 @@ router.get('/health', (req, res) => {
     success: true,
     message: 'Learning Service is running',
     timestamp: new Date().toISOString()
+  });
+});
+
+router.get('/route-protection', (req, res) => {
+  res.status(200).json({
+    success: true,
+    data: routeProtectionMatrix,
   });
 });
 
@@ -52,7 +69,33 @@ router.use('/review', reviewRoutes);
 // Mount user routes (User data & streaks)
 router.use('/user', userRoutes);
 
+// Mount profile routes (authenticated profile CRUD)
+router.use('/profile', profileRoutes);
+
 // Mount analytics routes (Analytics & Statistics)
 router.use('/analytics/listening', analyticsListeningRoutes);
+
+// Mount gamification routes (XP, Achievements, Leaderboard)
+router.use('/gamification', gamificationRoutes);
+
+// Mount education routes (CEFR, Readiness, Rubric)
+router.use('/education', educationRoutes);
+
+// Mount AI routes (AI grading)
+router.use('/ai', educationRoutes);
+
+// Mount RBAC-protected role routes (M6)
+router.use('/teacher', teacherRoutes);
+router.use('/admin', adminRoutes);
+router.use('/mentor', mentorRoutes);
+
+// Mount onboarding routes (Placement test, Learning path)
+router.use('/onboarding', onboardingRoutes);
+
+// Mount grammar routes (Interactive exercises, TTS)
+router.use('/grammar', grammarRoutes);
+
+// Mount social routes (Study groups, Speech recognition)
+router.use('/social', socialRoutes);
 
 export default router;

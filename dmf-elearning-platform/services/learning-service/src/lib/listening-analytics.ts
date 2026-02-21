@@ -5,7 +5,7 @@
  * Provides statistics for dashboards and progress tracking
  */
 
-import { PrismaClient } from '@prisma/client';
+import { Prisma, PrismaClient } from '@prisma/client';
 import { getStreakData } from '../services/streakService';
 
 const prisma = new PrismaClient({
@@ -299,6 +299,10 @@ export async function getLeaderboard(
       dateFilter.setDate(dateFilter.getDate() - 30);
     }
     
+    const dateFilterClause = dateFilter
+      ? Prisma.sql`AND da."createdAt" >= ${dateFilter}`
+      : Prisma.empty;
+
     const leaderboard = await prisma.$queryRaw<Array<{
       user_id: string;
       user_name: string | null;
@@ -315,7 +319,7 @@ export async function getLeaderboard(
       FROM "DictationAttempt" da
       JOIN "User" u ON da."userId" = u.id
       WHERE da.accuracy >= 70
-        ${dateFilter ? prisma.$queryRawUnsafe`AND da."createdAt" >= ${dateFilter}` : prisma.$queryRawUnsafe``}
+        ${dateFilterClause}
       GROUP BY da."userId", u.name
       ORDER BY exercises_completed DESC, avg_accuracy DESC
       LIMIT ${limit}

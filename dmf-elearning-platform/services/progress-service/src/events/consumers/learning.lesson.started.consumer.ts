@@ -15,11 +15,15 @@ export async function handleLearningLessonStarted(
 ): Promise<void> {
   const eventId = (event.payload as { eventId?: string }).eventId ?? '';
 
-  if (hasProcessedEvent(eventId)) {
+  if (eventId && hasProcessedEvent(eventId)) {
     deps.logger.info('Duplicate event skipped (learning.lesson.started)', { eventId });
     return;
   }
-  markProcessedEvent(eventId);
+  if (eventId) {
+    markProcessedEvent(eventId);
+  } else {
+    deps.logger.warn('learning.lesson.started missing eventId; processing without dedupe', {});
+  }
 
   const userId = (event.payload as { userId?: string }).userId as UserId;
   const lessonId = (event.payload as { lessonId?: string }).lessonId as LessonId;

@@ -1,5 +1,10 @@
 import express from 'express';
 import { VocabularyController } from '../controllers/VocabularyController';
+import {
+  attachAuthenticatedUserId,
+  authMiddleware,
+  ensureAuthenticatedUserProfile,
+} from '../middlewares/auth';
 
 const router = express.Router();
 
@@ -13,16 +18,40 @@ const router = express.Router();
 // ═══════════════════════════════════════════════════════════════
 
 // Get vocabulary cards due for review
-router.get('/srs/due', VocabularyController.getDueCards);
+router.get(
+  '/srs/due',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  VocabularyController.getDueCards
+);
 
 // Submit a review and update SRS parameters
-router.post('/srs/review', VocabularyController.submitReview);
+router.post(
+  '/srs/review',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  VocabularyController.submitReview
+);
 
 // Get user's learning progress statistics
-router.get('/srs/progress/:userId', VocabularyController.getUserProgress);
+router.get(
+  '/srs/progress/:userId',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  VocabularyController.getUserProgress
+);
 
 // Get vocabulary with user progress
-router.get('/with-progress', VocabularyController.listWithProgress);
+router.get(
+  '/with-progress',
+  authMiddleware,
+  attachAuthenticatedUserId,
+  ensureAuthenticatedUserProfile,
+  VocabularyController.listWithProgress
+);
 
 // ═══════════════════════════════════════════════════════════════
 // Standard Vocabulary Routes

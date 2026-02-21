@@ -23,10 +23,44 @@ const progressQuerySchema = z.object({
   passageId: z.string().trim().min(1).optional(),
 });
 
+const listPassagesQuerySchema = z.object({
+  level: z.string().trim().min(1).optional(),
+  topic: z.string().trim().min(1).optional(),
+  search: z.string().trim().min(1).optional(),
+  limit: z.coerce.number().int().min(1).max(100).optional().default(20),
+  offset: z.coerce.number().int().min(0).optional().default(0),
+});
+
+const passageByIdSchema = z.object({
+  id: z.string().trim().min(1),
+  userId: z.string().trim().min(1).optional(),
+});
+
 function asString(value: unknown): string | undefined {
   if (typeof value === 'string') return value;
   if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
   return undefined;
+}
+
+function sendValidationError(res: Response, message: string, details: unknown) {
+  return res.status(400).json({
+    success: false,
+    error: {
+      code: 'VALIDATION_ERROR',
+      message,
+      details,
+    },
+  });
+}
+
+function sendInternalError(res: Response, message: string) {
+  return res.status(500).json({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  });
 }
 
 function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
@@ -52,14 +86,20 @@ export class ReadingPassageController {
   
   static async getPassages(req: Request, res: Response) {
     try {
-      const { level, topic, search, limit, offset } = req.query;
+      const query = listPassagesQuerySchema.parse({
+        level: asString(req.query.level),
+        topic: asString(req.query.topic),
+        search: asString(req.query.search),
+        limit: asString(req.query.limit),
+        offset: asString(req.query.offset),
+      });
 
       const result = await readingPassageService.getPassages({
-        level: level as string,
-        topic: topic as string,
-        search: search as string,
-        limit: limit ? parseInt(limit as string, 10) : 20,
-        offset: offset ? parseInt(offset as string, 10) : 0,
+        level: query.level,
+        topic: query.topic,
+        search: query.search,
+        limit: query.limit,
+        offset: query.offset,
       });
 
       return res.status(200).json({
@@ -67,17 +107,17 @@ export class ReadingPassageController {
         data: result.items,
         pagination: {
           total: result.total,
-          limit: limit ? parseInt(limit as string, 10) : 20,
-          offset: offset ? parseInt(offset as string, 10) : 0,
+          limit: query.limit,
+          offset: query.offset,
         },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid reading passages query', error.issues);
+      }
+
       console.error('Error fetching passages:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch passages',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch passages');
     }
   }
 
@@ -88,27 +128,23 @@ export class ReadingPassageController {
   
   static async getPassageById(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
-      const userId = asString(req.query.userId);
-
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing passage id',
-          code: 'MISSING_PASSAGE_ID',
-        });
-      }
+      const params = passageByIdSchema.parse({
+        id: asString(req.params.id),
+        userId: asString(req.query.userId),
+      });
 
       const passage = await readingPassageService.getPassageById(
-        id,
-        userId
+        params.id,
+        params.userId
       );
 
       if (!passage) {
         return res.status(404).json({
           success: false,
-          error: 'Passage not found',
-          code: 'PASSAGE_NOT_FOUND',
+          error: {
+            code: 'PASSAGE_NOT_FOUND',
+            message: 'Passage not found',
+          },
         });
       }
 
@@ -117,12 +153,12 @@ export class ReadingPassageController {
         data: passage,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid passage lookup input', error.issues);
+      }
+
       console.error('Error fetching passage:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch passage',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch passage');
     }
   }
 
@@ -153,14 +189,7 @@ export class ReadingPassageController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid reading submit payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid reading submit payload', error.issues);
       }
 
       console.error('Error submitting answer:', error);
@@ -177,13 +206,7 @@ export class ReadingPassageController {
         });
       }
 
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to submit answer',
-        },
-      });
+      return sendInternalError(res, 'Failed to submit answer');
     }
   }
 
@@ -213,24 +236,11 @@ export class ReadingPassageController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid reading progress query',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid reading progress query', error.issues);
       }
 
       console.error('Error fetching progress:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch progress',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch progress');
     }
   }
 
@@ -263,24 +273,11 @@ export class ReadingPassageController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid vocabulary save payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid vocabulary save payload', error.issues);
       }
 
       console.error('Error saving vocabulary:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to save vocabulary',
-        },
-      });
+      return sendInternalError(res, 'Failed to save vocabulary');
     }
   }
 }

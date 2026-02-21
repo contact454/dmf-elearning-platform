@@ -149,7 +149,7 @@ export async function generateGradedContent(
   const topicDescription = TOPIC_PROMPTS[topic] || topic;
 
   // Get sample vocabulary from database for this level
-  const sampleVocab = await prisma.vocabulary.findMany({
+  const sampleVocab = await prisma.vocabularyItem.findMany({
     where: { level },
     take: 50,
     select: { word: true },

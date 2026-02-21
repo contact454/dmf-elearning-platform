@@ -31,7 +31,7 @@ import {
   useSpeakingStats,
   useSubmitSpeaking,
   useSpeakingAttempts,
-} from '@/hooks/useApiQueries';
+} from '@/hooks/useSpeakingLearningQueries';
 import { useUser } from '@/providers/user-provider';
 import {
   useSpeechRecognition,

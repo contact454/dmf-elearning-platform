@@ -4,6 +4,11 @@
  */
 
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
+import {
+  clearBrowserAuthState,
+  getBrowserAuthToken,
+  redirectToLoginIfBrowser,
+} from '@/lib/api/auth-client';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
 
@@ -19,11 +24,11 @@ export const api = axios.create({
 // ============================================
 
 api.interceptors.request.use(
-  (config: InternalAxiosRequestConfig) => {
+  async (config: InternalAxiosRequestConfig) => {
     // Only add token if not already present
-    if (typeof window !== 'undefined') {
-      const token = localStorage.getItem('auth_token');
-      if (token && config.headers) {
+    if (typeof window !== 'undefined' && config.headers) {
+      const token = await getBrowserAuthToken();
+      if (token) {
         config.headers.Authorization = `Bearer ${token}`;
       }
     }
@@ -43,11 +48,8 @@ api.interceptors.response.use(
   (error: AxiosError) => {
     // Handle 401 Unauthorized
     if (error.response?.status === 401) {
-      if (typeof window !== 'undefined') {
-        localStorage.removeItem('auth_token');
-        localStorage.removeItem('user');
-        window.location.href = '/login';
-      }
+      clearBrowserAuthState();
+      redirectToLoginIfBrowser();
     }
     
     // Handle network errors

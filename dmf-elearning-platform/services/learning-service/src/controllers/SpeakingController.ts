@@ -11,10 +11,70 @@ const submitAttemptSchema = z.object({
   recordingTime: z.number().min(0).optional(),
 });
 
+const listPromptsQuerySchema = z.object({
+  level: z.string().trim().min(1).optional(),
+  category: z.string().trim().min(1).optional(),
+  topic: z.string().trim().min(1).optional(),
+  search: z.string().trim().min(1).optional(),
+  limit: z.coerce.number().int().min(1).max(100).optional().default(20),
+  offset: z.coerce.number().int().min(0).optional().default(0),
+});
+
+const featuredQuerySchema = z.object({
+  limit: z.coerce.number().int().min(1).max(50).optional().default(5),
+});
+
+const promptLookupSchema = z.object({
+  id: z.string().trim().min(1),
+  userId: z.string().trim().min(1).optional(),
+});
+
+const attemptsLookupSchema = z.object({
+  id: z.string().trim().min(1),
+});
+
+const historyQuerySchema = z.object({
+  status: z.enum(['attempted', 'mastered']).optional(),
+});
+
+const createPromptSchema = z.object({
+  title: z.string().trim().min(1),
+  level: z.string().trim().min(1),
+  category: z.string().trim().optional(),
+  topic: z.string().trim().optional(),
+  promptText: z.string().trim().min(1),
+  promptTextVi: z.string().trim().optional(),
+  sampleResponse: z.string().trim().optional(),
+  sampleAudioUrl: z.string().trim().optional(),
+  targetWords: z.array(z.string().trim().min(1)).optional(),
+  difficulty: z.coerce.number().int().min(1).max(5).optional(),
+});
+
 function asString(value: unknown): string | undefined {
   if (typeof value === 'string') return value;
   if (Array.isArray(value) && typeof value[0] === 'string') return value[0];
   return undefined;
+}
+
+function sendValidationError(res: Response, message: string, details: unknown) {
+  return res.status(400).json({
+    success: false,
+    error: {
+      code: 'VALIDATION_ERROR',
+      message,
+      details,
+    },
+  });
+}
+
+function sendInternalError(res: Response, message: string) {
+  return res.status(500).json({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  });
 }
 
 function getAuthenticatedUserId(req: Request, res: Response): string | undefined {
@@ -33,25 +93,24 @@ function getAuthenticatedUserId(req: Request, res: Response): string | undefined
 }
 
 export class SpeakingController {
-  // ═══════════════════════════════════════════════════════════════
-  // Prompt Endpoints
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * GET /api/speaking
-   * List speaking prompts
-   */
   static async list(req: Request, res: Response) {
     try {
-      const { level, category, topic, search, limit, offset } = req.query;
+      const query = listPromptsQuerySchema.parse({
+        level: asString(req.query.level),
+        category: asString(req.query.category),
+        topic: asString(req.query.topic),
+        search: asString(req.query.search),
+        limit: asString(req.query.limit),
+        offset: asString(req.query.offset),
+      });
 
       const result = await speakingService.getPrompts({
-        level: level as string,
-        category: category as string,
-        topic: topic as string,
-        search: search as string,
-        limit: limit ? parseInt(limit as string, 10) : 20,
-        offset: offset ? parseInt(offset as string, 10) : 0,
+        level: query.level,
+        category: query.category,
+        topic: query.topic,
+        search: query.search,
+        limit: query.limit,
+        offset: query.offset,
       });
 
       return res.status(200).json({
@@ -59,29 +118,23 @@ export class SpeakingController {
         data: result.items,
         pagination: {
           total: result.total,
-          limit: limit ? parseInt(limit as string, 10) : 20,
-          offset: offset ? parseInt(offset as string, 10) : 0,
+          limit: query.limit,
+          offset: query.offset,
         },
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid speaking list query', error.issues);
+      }
       console.error('Error listing speaking prompts:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch speaking prompts',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to fetch speaking prompts');
     }
   }
 
-  /**
-   * GET /api/speaking/featured
-   */
   static async featured(req: Request, res: Response) {
     try {
-      const { limit } = req.query;
-      const items = await speakingService.getFeatured(
-        limit ? parseInt(limit as string, 10) : 5
-      );
+      const query = featuredQuerySchema.parse({ limit: asString(req.query.limit) });
+      const items = await speakingService.getFeatured(query.limit);
 
       return res.status(200).json({
         success: true,
@@ -89,17 +142,14 @@ export class SpeakingController {
         count: items.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid speaking featured query', error.issues);
+      }
       console.error('Error fetching featured prompts:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch featured prompts',
-      });
+      return sendInternalError(res, 'Failed to fetch featured prompts');
     }
   }
 
-  /**
-   * GET /api/speaking/stats
-   */
   static async stats(req: Request, res: Response) {
     try {
       const stats = await speakingService.getStats();
@@ -109,16 +159,10 @@ export class SpeakingController {
       });
     } catch (error) {
       console.error('Error fetching stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch statistics',
-      });
+      return sendInternalError(res, 'Failed to fetch statistics');
     }
   }
 
-  /**
-   * GET /api/speaking/levels
-   */
   static async levels(req: Request, res: Response) {
     try {
       const levels = await speakingService.getLevels();
@@ -129,16 +173,10 @@ export class SpeakingController {
       });
     } catch (error) {
       console.error('Error fetching levels:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch levels',
-      });
+      return sendInternalError(res, 'Failed to fetch levels');
     }
   }
 
-  /**
-   * GET /api/speaking/categories
-   */
   static async categories(req: Request, res: Response) {
     try {
       const categories = await speakingService.getCategories();
@@ -149,39 +187,28 @@ export class SpeakingController {
       });
     } catch (error) {
       console.error('Error fetching categories:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch categories',
-      });
+      return sendInternalError(res, 'Failed to fetch categories');
     }
   }
 
-  /**
-   * GET /api/speaking/:id
-   */
   static async getById(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
-      const userId = asString(req.query.userId);
+      const params = promptLookupSchema.parse({
+        id: asString(req.params.id),
+        userId: asString(req.query.userId),
+      });
 
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing prompt id',
-        });
-      }
-
-      let prompt;
-      if (userId) {
-        prompt = await speakingService.getWithProgress(id, userId);
-      } else {
-        prompt = await speakingService.getById(id);
-      }
+      const prompt = params.userId
+        ? await speakingService.getWithProgress(params.id, params.userId)
+        : await speakingService.getById(params.id);
 
       if (!prompt) {
         return res.status(404).json({
           success: false,
-          error: 'Prompt not found',
+          error: {
+            code: 'PROMPT_NOT_FOUND',
+            message: 'Prompt not found',
+          },
         });
       }
 
@@ -190,21 +217,14 @@ export class SpeakingController {
         data: prompt,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid speaking prompt lookup input', error.issues);
+      }
       console.error('Error fetching prompt:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to fetch prompt',
-      });
+      return sendInternalError(res, 'Failed to fetch prompt');
     }
   }
 
-  // ═══════════════════════════════════════════════════════════════
-  // Attempt Endpoints
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * POST /api/speaking/:id/attempt
-   */
   static async submitAttempt(req: Request, res: Response) {
     try {
       const id = asString(req.params.id);
@@ -238,48 +258,25 @@ export class SpeakingController {
       });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Invalid speaking attempt payload',
-            details: error.issues,
-          },
-        });
+        return sendValidationError(res, 'Invalid speaking attempt payload', error.issues);
       }
       console.error('Error submitting attempt:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to submit attempt',
-        },
-      });
+      return sendInternalError(res, 'Failed to submit attempt');
     }
   }
 
-  /**
-   * GET /api/speaking/:id/attempts
-   */
   static async getAttempts(req: Request, res: Response) {
     try {
-      const id = asString(req.params.id);
+      const params = attemptsLookupSchema.parse({
+        id: asString(req.params.id),
+      });
       const userId = getAuthenticatedUserId(req, res);
 
-      if (!id) {
-        return res.status(400).json({
-          success: false,
-          error: {
-            code: 'VALIDATION_ERROR',
-            message: 'Missing prompt id',
-          },
-        });
-      }
       if (!userId) {
         return;
       }
 
-      const attempts = await speakingService.getUserAttempts(userId, id);
+      const attempts = await speakingService.getUserAttempts(userId, params.id);
 
       return res.status(200).json({
         success: true,
@@ -287,34 +284,26 @@ export class SpeakingController {
         count: attempts.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid speaking attempts lookup input', error.issues);
+      }
       console.error('Error fetching attempts:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch attempts',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch attempts');
     }
   }
 
-  // ═══════════════════════════════════════════════════════════════
-  // User Progress Endpoints
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * GET /api/speaking/user/:userId/history
-   */
   static async getUserHistory(req: Request, res: Response) {
     try {
       const userId = getAuthenticatedUserId(req, res);
-      const status = asString(req.query.status);
+      const query = historyQuerySchema.parse({
+        status: asString(req.query.status),
+      });
 
       if (!userId) {
         return;
       }
 
-      const history = await speakingService.getUserHistory(userId, status);
+      const history = await speakingService.getUserHistory(userId, query.status);
 
       return res.status(200).json({
         success: true,
@@ -322,20 +311,14 @@ export class SpeakingController {
         count: history.length,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid speaking history query', error.issues);
+      }
       console.error('Error fetching history:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch history',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch history');
     }
   }
 
-  /**
-   * GET /api/speaking/user/:userId/stats
-   */
   static async getUserStats(req: Request, res: Response) {
     try {
       const userId = getAuthenticatedUserId(req, res);
@@ -350,56 +333,25 @@ export class SpeakingController {
       });
     } catch (error) {
       console.error('Error fetching user stats:', error);
-      return res.status(500).json({
-        success: false,
-        error: {
-          code: 'INTERNAL_ERROR',
-          message: 'Failed to fetch user stats',
-        },
-      });
+      return sendInternalError(res, 'Failed to fetch user stats');
     }
   }
 
-  // ═══════════════════════════════════════════════════════════════
-  // Content Management
-  // ═══════════════════════════════════════════════════════════════
-
-  /**
-   * POST /api/speaking
-   */
   static async createPrompt(req: Request, res: Response) {
     try {
-      const {
-        title,
-        level,
-        category,
-        topic,
-        promptText,
-        promptTextVi,
-        sampleResponse,
-        sampleAudioUrl,
-        targetWords,
-        difficulty,
-      } = req.body;
-
-      if (!title || !level || !promptText) {
-        return res.status(400).json({
-          success: false,
-          error: 'Missing required fields: title, level, promptText',
-        });
-      }
+      const payload = createPromptSchema.parse(req.body);
 
       const prompt = await speakingService.createPrompt({
-        title,
-        level,
-        category,
-        topic,
-        promptText,
-        promptTextVi,
-        sampleResponse,
-        sampleAudioUrl,
-        targetWords,
-        difficulty,
+        title: payload.title,
+        level: payload.level,
+        category: payload.category,
+        topic: payload.topic,
+        promptText: payload.promptText,
+        promptTextVi: payload.promptTextVi,
+        sampleResponse: payload.sampleResponse,
+        sampleAudioUrl: payload.sampleAudioUrl,
+        targetWords: payload.targetWords,
+        difficulty: payload.difficulty,
       });
 
       return res.status(201).json({
@@ -407,18 +359,14 @@ export class SpeakingController {
         data: prompt,
       });
     } catch (error) {
+      if (error instanceof z.ZodError) {
+        return sendValidationError(res, 'Invalid speaking prompt payload', error.issues);
+      }
       console.error('Error creating prompt:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to create prompt',
-      });
+      return sendInternalError(res, 'Failed to create prompt');
     }
   }
 
-  /**
-   * POST /api/speaking/seed
-   * Seed sample speaking prompts
-   */
   static async seedContent(req: Request, res: Response) {
     try {
       const count = await speakingService.seedContent();
@@ -430,11 +378,7 @@ export class SpeakingController {
       });
     } catch (error) {
       console.error('Error seeding content:', error);
-      return res.status(500).json({
-        success: false,
-        error: 'Failed to seed content',
-        message: error instanceof Error ? error.message : 'Unknown error',
-      });
+      return sendInternalError(res, 'Failed to seed content');
     }
   }
 }

@@ -1,0 +1,46 @@
+{
+    "expo": {
+        "name": "DMF German Learning",
+        "slug": "dmf-german-learning",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "automatic",
+        "scheme": "dmf-learn",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#6366f1"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.dmf.germanlearning",
+            "infoPlist": {
+                "NSMicrophoneUsageDescription": "Microphone is used for speaking exercises.",
+                "NSFaceIDUsageDescription": "FaceID is used for quick login."
+            }
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#6366f1"
+            },
+            "package": "com.dmf.germanlearning",
+            "permissions": [
+                "RECORD_AUDIO"
+            ]
+        },
+        "plugins": [
+            "expo-router",
+            "expo-secure-store",
+            "expo-local-authentication",
+            "expo-haptics"
+        ],
+        "experiments": {
+            "typedRoutes": true
+        }
+    }
+}

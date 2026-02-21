@@ -24,7 +24,7 @@ import {
   RefreshCw,
 } from 'lucide-react';
 import { HubData } from '@/services/german-api';
-import { useHubData, useUpdateDailyGoals } from '@/hooks/useApiQueries';
+import { useHubData, useUpdateDailyGoals } from '@/hooks/useHubQueries';
 import {
   SkeletonCard,
   SkeletonStats,

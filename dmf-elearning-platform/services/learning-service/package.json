@@ -20,6 +20,8 @@
     "smoke:phase3:feedback": "tsx scripts/phase3-feedback-hub-smoke.ts",
     "smoke:phase3:all": "pnpm run smoke:phase3 && pnpm run smoke:phase3:feedback",
     "seed:vocabulary": "tsx prisma/seed-vocabulary.ts",
+    "seed:content:s9": "tsx prisma/seed-content-s9.ts",
+    "seed:content:s9x": "tsx prisma/seed-content-s9-expanded.ts",
     "repair-vocab": "tsx scripts/repair-vocab.ts",
     "data:mine": "node scripts/mining-drill.mjs",
     "data:seed": "npx tsx prisma/seed-vocabulary-a1b1.ts",
@@ -39,6 +41,7 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "node-cache": "^5.1.2",
+    "redis": "^4.6.12",
     "zod": "^3.22.4"
   },
   "optionalDependencies": {
