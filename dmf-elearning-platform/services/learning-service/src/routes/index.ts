@@ -22,6 +22,7 @@ import socialRoutes from './socialRoutes';
 import analyticsRoutes from './analyticsRoutes';
 import notificationRoutes from './notificationRoutes';
 import assessmentRoutes from './assessmentRoutes';
+import adaptiveRoutes from './adaptiveRoutes';
 import { routeProtectionMatrix } from './routeProtectionMatrix';
 
 const router = express.Router();
@@ -109,5 +110,8 @@ router.use('/notifications', notificationRoutes);
 
 // Mount assessment routes (Prosody analysis, NPC conversations)
 router.use('/assessment', assessmentRoutes);
+
+// Mount adaptive routes (xAPI, CP-SIPP scheduling, student profiles)
+router.use('/adaptive', adaptiveRoutes);
 
 export default router;
