@@ -1,0 +1,822 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "standard": "CEFR / Profile Deutsch",
+        "total_lessons": 48,
+        "levels": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+        ]
+    },
+    "lessons": [
+        {
+            "id": "a1-gram-01",
+            "level": "A1",
+            "order": 1,
+            "title": "Artikel: der, die, das",
+            "title_vi": "Mạo từ: der, die, das",
+            "description": "Genus im Deutschen — Maskulin, Feminin, Neutrum",
+            "explanation_vi": "Trong tiếng Đức, mỗi danh từ có giới tính: nam (der), nữ (die), trung (das). Không có quy tắc tuyệt đối, phải học thuộc cùng danh từ.",
+            "rules": [
+                "Maskulin (der): der Mann, der Tisch, der Apfel",
+                "Feminin (die): die Frau, die Lampe, die Blume",
+                "Neutrum (das): das Kind, das Buch, das Haus",
+                "Plural: immer 'die' — die Männer, die Frauen, die Kinder",
+                "Tipp: Berufe auf -er → meist der (der Lehrer, der Fahrer)",
+                "Tipp: Wörter auf -ung, -heit, -keit → immer die (die Wohnung, die Freiheit)",
+                "Tipp: Wörter auf -chen, -lein → immer das (das Mädchen, das Brötchen)"
+            ],
+            "examples": [
+                {
+                    "de": "Der Mann trinkt Kaffee.",
+                    "vi": "Người đàn ông uống cà phê."
+                },
+                {
+                    "de": "Die Frau liest ein Buch.",
+                    "vi": "Người phụ nữ đọc sách."
+                },
+                {
+                    "de": "Das Kind spielt im Garten.",
+                    "vi": "Đứa trẻ chơi trong vườn."
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "___ Tisch ist groß.",
+                    "options": [
+                        "der",
+                        "die",
+                        "das"
+                    ],
+                    "answer": "der"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ Schule ist modern.",
+                    "options": [
+                        "der",
+                        "die",
+                        "das"
+                    ],
+                    "answer": "die"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ Auto ist neu.",
+                    "options": [
+                        "der",
+                        "die",
+                        "das"
+                    ],
+                    "answer": "das"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ Wohnung hat drei Zimmer.",
+                    "options": [
+                        "der",
+                        "die",
+                        "das"
+                    ],
+                    "answer": "die"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ Buch ist interessant.",
+                    "options": [
+                        "der",
+                        "die",
+                        "das"
+                    ],
+                    "answer": "das"
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "Welcher Artikel ist richtig? ___ Mädchen",
+                    "options": [
+                        "der",
+                        "die",
+                        "das"
+                    ],
+                    "answer": "das",
+                    "explanation": "Wörter auf -chen sind immer 'das'"
+                }
+            ]
+        },
+        {
+            "id": "a1-gram-02",
+            "level": "A1",
+            "order": 2,
+            "title": "Konjugation Präsens — regelmäßige Verben",
+            "title_vi": "Chia động từ hiện tại — động từ có quy tắc",
+            "description": "Regelmäßige Verben im Präsens konjugieren",
+            "explanation_vi": "Chia động từ ở thì hiện tại: bỏ đuôi -en, thêm đuôi mới theo chủ ngữ. ich → -e, du → -st, er/sie/es → -t, wir → -en, ihr → -t, sie/Sie → -en.",
+            "rules": [
+                "ich lerne, du lernst, er/sie/es lernt",
+                "wir lernen, ihr lernt, sie/Sie lernen",
+                "Verben auf -t/-d: du arbeitest, er arbeitet (thêm -e-)",
+                "Verben auf -s/-ß/-z: du reist (nicht reisst), du tanzt"
+            ],
+            "examples": [
+                {
+                    "de": "Ich lerne Deutsch.",
+                    "vi": "Tôi học tiếng Đức."
+                },
+                {
+                    "de": "Du arbeitest viel.",
+                    "vi": "Bạn làm việc nhiều."
+                },
+                {
+                    "de": "Sie wohnt in Berlin.",
+                    "vi": "Cô ấy sống ở Berlin."
+                },
+                {
+                    "de": "Wir spielen Fußball.",
+                    "vi": "Chúng tôi chơi bóng đá."
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "Ich ___ (wohnen) in Hamburg.",
+                    "answer": "wohne"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Du ___ (spielen) Tennis.",
+                    "answer": "spielst"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Er ___ (lernen) Deutsch.",
+                    "answer": "lernt"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Wir ___ (kochen) zusammen.",
+                    "answer": "kochen"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Sie (formal) ___ (kommen) aus Vietnam.",
+                    "answer": "kommen"
+                },
+                {
+                    "type": "conjugation_table",
+                    "verb": "machen",
+                    "answers": {
+                        "ich": "mache",
+                        "du": "machst",
+                        "er": "macht",
+                        "wir": "machen",
+                        "ihr": "macht",
+                        "sie": "machen"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "a1-gram-03",
+            "level": "A1",
+            "order": 3,
+            "title": "sein und haben",
+            "title_vi": "Động từ sein (là/ở) và haben (có)",
+            "description": "Die wichtigsten unregelmäßigen Verben",
+            "explanation_vi": "'sein' và 'haben' là hai động từ quan trọng nhất trong tiếng Đức. Chúng bất quy tắc và phải học thuộc lòng.",
+            "rules": [
+                "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind",
+                "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben",
+                "sein → dùng cho: quốc tịch, nghề nghiệp, trạng thái, vị trí",
+                "haben → dùng cho: sở hữu, tuổi, cảm giác"
+            ],
+            "examples": [
+                {
+                    "de": "Ich bin Studentin.",
+                    "vi": "Tôi là sinh viên."
+                },
+                {
+                    "de": "Er ist müde.",
+                    "vi": "Anh ấy mệt."
+                },
+                {
+                    "de": "Wir haben zwei Kinder.",
+                    "vi": "Chúng tôi có hai con."
+                },
+                {
+                    "de": "Ich habe Hunger.",
+                    "vi": "Tôi đói."
+                },
+                {
+                    "de": "Bist du krank?",
+                    "vi": "Bạn bị ốm à?"
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "Ich ___ 25 Jahre alt.",
+                    "options": [
+                        "bin",
+                        "habe"
+                    ],
+                    "answer": "bin"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Wir ___ drei Kinder.",
+                    "options": [
+                        "sind",
+                        "haben"
+                    ],
+                    "answer": "haben"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Er ___ Lehrer.",
+                    "options": [
+                        "ist",
+                        "hat"
+                    ],
+                    "answer": "ist"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Du ___ ein neues Handy.",
+                    "options": [
+                        "bist",
+                        "hast"
+                    ],
+                    "answer": "hast"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ ihr aus Deutschland?",
+                    "options": [
+                        "Seid",
+                        "Habt"
+                    ],
+                    "answer": "Seid"
+                }
+            ]
+        },
+        {
+            "id": "a1-gram-04",
+            "level": "A1",
+            "order": 4,
+            "title": "Nominativ und Akkusativ",
+            "title_vi": "Cách chủ ngữ và cách đối tượng (trực tiếp)",
+            "description": "Die ersten zwei Kasus im Deutschen",
+            "explanation_vi": "Nominativ = chủ ngữ (ai làm gì?). Akkusativ = tân ngữ trực tiếp (làm cái gì?). Akkusativ CHỈ thay đổi mạo từ nam giới: der → den, ein → einen.",
+            "rules": [
+                "Nominativ: Der Mann kauft ein Buch. (Der Mann = chủ ngữ)",
+                "Akkusativ: Ich sehe den Mann. (den Mann = tân ngữ)",
+                "Maskulin: der/ein → den/einen (CHỈ THAY ĐỔI Ở ĐÂY)",
+                "Feminin: die/eine → die/eine (không đổi)",
+                "Neutrum: das/ein → das/ein (không đổi)",
+                "Plural: die → die (không đổi)"
+            ],
+            "examples": [
+                {
+                    "de": "Ich kaufe einen Apfel.",
+                    "vi": "Tôi mua một quả táo. (einen vì Apfel là maskulin)"
+                },
+                {
+                    "de": "Er trinkt den Kaffee.",
+                    "vi": "Anh ấy uống cà phê. (den vì Kaffee là maskulin)"
+                },
+                {
+                    "de": "Ich lese eine Zeitung.",
+                    "vi": "Tôi đọc một tờ báo. (eine không đổi vì Zeitung là feminin)"
+                },
+                {
+                    "de": "Wir sehen das Kind.",
+                    "vi": "Chúng tôi thấy đứa trẻ. (das không đổi)"
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "Ich kaufe ___ Buch. (das)",
+                    "answer": "das"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Sie sieht ___ Mann. (der)",
+                    "answer": "den"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Wir trinken ___ Tee. (der)",
+                    "answer": "den"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Er hat ___ Schwester. (eine)",
+                    "answer": "eine"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Ich brauche ___ Stift. (ein)",
+                    "answer": "einen"
+                }
+            ]
+        },
+        {
+            "id": "a1-gram-05",
+            "level": "A1",
+            "order": 5,
+            "title": "Negation: nicht und kein",
+            "title_vi": "Phủ định: nicht và kein",
+            "description": "Sätze verneinen mit 'nicht' und 'kein'",
+            "explanation_vi": "'nicht' phủ định động từ/tính từ. 'kein' phủ định danh từ (thay thế ein). kein = ein + Negation.",
+            "rules": [
+                "nicht → phủ định động từ: Ich komme nicht.",
+                "nicht → phủ định tính từ: Das ist nicht gut.",
+                "kein → thay thế 'ein/eine': Ich habe kein Auto. (nicht: Ich habe nicht ein Auto)",
+                "kein → cũng dùng với plural không mạo từ: Ich habe keine Kinder.",
+                "Vị trí 'nicht': cuối câu hoặc trước tính từ/Präposition"
+            ],
+            "examples": [
+                {
+                    "de": "Ich trinke keinen Kaffee.",
+                    "vi": "Tôi không uống cà phê."
+                },
+                {
+                    "de": "Das ist nicht richtig.",
+                    "vi": "Điều đó không đúng."
+                },
+                {
+                    "de": "Er hat keine Geschwister.",
+                    "vi": "Anh ấy không có anh chị em."
+                },
+                {
+                    "de": "Ich komme heute nicht.",
+                    "vi": "Hôm nay tôi không đến."
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "Ich habe ___ Geld.",
+                    "options": [
+                        "nicht",
+                        "kein"
+                    ],
+                    "answer": "kein"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Das ist ___ gut.",
+                    "options": [
+                        "nicht",
+                        "kein"
+                    ],
+                    "answer": "nicht"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Er trinkt ___ Bier.",
+                    "options": [
+                        "nicht",
+                        "kein"
+                    ],
+                    "answer": "kein"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Ich komme morgen ___.",
+                    "options": [
+                        "nicht",
+                        "kein"
+                    ],
+                    "answer": "nicht"
+                }
+            ]
+        },
+        {
+            "id": "a1-gram-06",
+            "level": "A1",
+            "order": 6,
+            "title": "W-Fragen",
+            "title_vi": "Câu hỏi với từ hỏi W",
+            "description": "Fragewörter: wer, was, wo, wann, wie, warum, woher, wohin",
+            "explanation_vi": "Câu hỏi W trong tiếng Đức bắt đầu bằng từ hỏi W, sau đó là động từ, rồi chủ ngữ.",
+            "rules": [
+                "Wer? = Ai? → Wer ist das?",
+                "Was? = Cái gì? → Was machst du?",
+                "Wo? = Ở đâu? → Wo wohnst du?",
+                "Woher? = Từ đâu? → Woher kommst du?",
+                "Wohin? = Đi đâu? → Wohin gehst du?",
+                "Wann? = Khi nào? → Wann kommst du?",
+                "Wie? = Như thế nào? → Wie heißt du?",
+                "Warum? = Tại sao? → Warum lernst du Deutsch?",
+                "Cấu trúc: W-Wort + Verb + Subjekt + ..."
+            ],
+            "examples": [
+                {
+                    "de": "Wie heißen Sie?",
+                    "vi": "Bạn tên gì?"
+                },
+                {
+                    "de": "Wo wohnen Sie?",
+                    "vi": "Bạn sống ở đâu?"
+                },
+                {
+                    "de": "Woher kommen Sie?",
+                    "vi": "Bạn đến từ đâu?"
+                },
+                {
+                    "de": "Was machen Sie beruflich?",
+                    "vi": "Bạn làm nghề gì?"
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "___ heißt du? — Ich heiße Anna.",
+                    "options": [
+                        "Wo",
+                        "Wie",
+                        "Was"
+                    ],
+                    "answer": "Wie"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ wohnst du? — In Berlin.",
+                    "options": [
+                        "Wo",
+                        "Wie",
+                        "Wer"
+                    ],
+                    "answer": "Wo"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ kommst du? — Aus Vietnam.",
+                    "options": [
+                        "Wohin",
+                        "Woher",
+                        "Wo"
+                    ],
+                    "answer": "Woher"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ lernst du Deutsch? — Weil ich in Deutschland arbeite.",
+                    "options": [
+                        "Wann",
+                        "Wie",
+                        "Warum"
+                    ],
+                    "answer": "Warum"
+                }
+            ]
+        },
+        {
+            "id": "a2-gram-01",
+            "level": "A2",
+            "order": 1,
+            "title": "Perfekt mit haben und sein",
+            "title_vi": "Thì hoàn thành với haben và sein",
+            "description": "Vergangenheit ausdrücken im Perfekt",
+            "explanation_vi": "Perfekt = haben/sein (chia) + Partizip II (cuối câu). Dùng 'sein' cho: động từ chuyển động (gehen, fahren, kommen) và thay đổi trạng thái (werden, sterben). Tất cả còn lại dùng 'haben'.",
+            "rules": [
+                "haben + Partizip II: Ich habe gegessen. Du hast gelernt.",
+                "sein + Partizip II: Ich bin gegangen. Er ist gefahren.",
+                "Partizip II (regelmäßig): ge- + Stamm + -t → gemacht, gelernt, gekauft",
+                "Partizip II (unregelmäßig): ge- + Stamm + -en → gegessen, getrunken, geschrieben",
+                "Trennbare Verben: eingekauft, aufgestanden, mitgebracht",
+                "Verben auf -ieren: KEIN ge-! → studiert, telefoniert"
+            ],
+            "examples": [
+                {
+                    "de": "Ich habe gestern Deutsch gelernt.",
+                    "vi": "Hôm qua tôi đã học tiếng Đức."
+                },
+                {
+                    "de": "Wir sind nach Wien gefahren.",
+                    "vi": "Chúng tôi đã đi Vienna."
+                },
+                {
+                    "de": "Sie hat eine E-Mail geschrieben.",
+                    "vi": "Cô ấy đã viết một email."
+                },
+                {
+                    "de": "Bist du schon aufgestanden?",
+                    "vi": "Bạn đã dậy chưa?"
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "Ich ___ gestern viel ___ (arbeiten).",
+                    "answer": "habe ... gearbeitet"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Wir ___ nach Berlin ___ (fahren).",
+                    "answer": "sind ... gefahren"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Er ___ ein Buch ___ (lesen).",
+                    "answer": "hat ... gelesen"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Sie ___ um 7 Uhr ___ (aufstehen).",
+                    "answer": "ist ... aufgestanden"
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "\"telefonieren\" im Perfekt:",
+                    "options": [
+                        "habe getelefoniert",
+                        "habe telefoniert",
+                        "bin telefoniert"
+                    ],
+                    "answer": "habe telefoniert"
+                }
+            ]
+        },
+        {
+            "id": "a2-gram-02",
+            "level": "A2",
+            "order": 2,
+            "title": "Dativ und Dativverben",
+            "title_vi": "Cách gián tiếp (Dativ) và động từ đi với Dativ",
+            "description": "Der dritte Kasus — Dativ",
+            "explanation_vi": "Dativ trả lời câu hỏi WEM? (cho ai?). Mạo từ thay đổi: der→dem, die→der, das→dem, die(pl)→den(+n). Một số động từ luôn đi với Dativ: helfen, danken, gefallen, gehören, schmecken.",
+            "rules": [
+                "Maskulin: der/ein → dem/einem",
+                "Feminin: die/eine → der/einer",
+                "Neutrum: das/ein → dem/einem",
+                "Plural: die → den + Dativ-n (den Kindern, den Frauen)",
+                "Dativverben: helfen, danken, gefallen, gehören, schmecken, passen",
+                "Dativpräpositionen: mit, bei, nach, zu, von, seit, aus, gegenüber"
+            ],
+            "examples": [
+                {
+                    "de": "Ich helfe dem Mann.",
+                    "vi": "Tôi giúp người đàn ông."
+                },
+                {
+                    "de": "Das Kleid gefällt der Frau.",
+                    "vi": "Cái váy làm người phụ nữ thích."
+                },
+                {
+                    "de": "Ich gebe dem Kind ein Geschenk.",
+                    "vi": "Tôi cho đứa trẻ một quà."
+                },
+                {
+                    "de": "Er fährt mit dem Bus.",
+                    "vi": "Anh ấy đi bằng xe buýt."
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "Ich helfe ___ Lehrerin. (die)",
+                    "answer": "der"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Das Buch gehört ___ Kind. (das)",
+                    "answer": "dem"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Er fährt mit ___ Zug. (der)",
+                    "answer": "dem"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Ich danke ___ Eltern. (die, Plural)",
+                    "answer": "den"
+                }
+            ]
+        },
+        {
+            "id": "b1-gram-01",
+            "level": "B1",
+            "order": 1,
+            "title": "Konjunktiv II — hätte, wäre, würde",
+            "title_vi": "Giả định cách II — ước gì, giá mà, sẽ (lịch sự)",
+            "description": "Irreale Wünsche und höfliche Bitten",
+            "explanation_vi": "Konjunktiv II dùng cho: ước muốn không thực (Wenn ich reich wäre...), lời đề nghị lịch sự (Könnten Sie...), lời khuyên (An deiner Stelle würde ich...). Dạng: würde + Infinitiv, hoặc wäre/hätte/könnte/müsste.",
+            "rules": [
+                "würde + Infinitiv: Ich würde gern in Berlin wohnen.",
+                "wäre (sein): Wenn ich reich wäre, würde ich reisen.",
+                "hätte (haben): Wenn ich Zeit hätte, würde ich lesen.",
+                "könnte (können): Könnten Sie mir helfen?",
+                "Irrealer Wunsch: Ich wünschte, ich wäre in Deutschland.",
+                "Höfliche Bitte: Würden Sie bitte das Fenster öffnen?"
+            ],
+            "examples": [
+                {
+                    "de": "Wenn ich mehr Geld hätte, würde ich nach Japan fliegen.",
+                    "vi": "Nếu tôi có nhiều tiền hơn, tôi sẽ bay đến Nhật."
+                },
+                {
+                    "de": "An deiner Stelle würde ich zum Arzt gehen.",
+                    "vi": "Ở vị trí của bạn, tôi sẽ đi bác sĩ."
+                },
+                {
+                    "de": "Könnten Sie mir bitte helfen?",
+                    "vi": "Bạn có thể giúp tôi được không?"
+                },
+                {
+                    "de": "Ich wäre gern Musiker.",
+                    "vi": "Tôi ước mình là nhạc sĩ."
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "Wenn ich reich ___, würde ich um die Welt reisen.",
+                    "answer": "wäre"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Ich ___ gern nach Deutschland fahren.",
+                    "answer": "würde"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Wenn wir mehr Zeit ___, könnten wir ins Kino gehen.",
+                    "answer": "hätten"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "___ Sie mir bitte den Weg zeigen?",
+                    "answer": "Könnten"
+                }
+            ]
+        },
+        {
+            "id": "b1-gram-02",
+            "level": "B1",
+            "order": 2,
+            "title": "Relativsätze",
+            "title_vi": "Mệnh đề quan hệ",
+            "description": "Personen und Dinge genauer beschreiben",
+            "explanation_vi": "Mệnh đề quan hệ bổ sung thông tin cho danh từ. Đại từ quan hệ (der, die, das, den, dem) phụ thuộc vào giới tính + cách của danh từ trong mệnh đề. Động từ ở CUỐI mệnh đề.",
+            "rules": [
+                "Nominativ: Der Mann, der dort steht, ist mein Chef.",
+                "Akkusativ: Das Buch, das ich lese, ist spannend.",
+                "Dativ: Die Frau, der ich helfe, ist meine Nachbarin.",
+                "Đại từ quan hệ = Mạo từ xác định (der, die, das, den, dem)",
+                "Mệnh đề quan hệ có dấu phẩy + động từ ở CUỐI"
+            ],
+            "examples": [
+                {
+                    "de": "Das ist der Film, den ich gesehen habe.",
+                    "vi": "Đó là bộ phim mà tôi đã xem."
+                },
+                {
+                    "de": "Ich kenne die Frau, die dort sitzt.",
+                    "vi": "Tôi biết người phụ nữ đang ngồi ở đó."
+                },
+                {
+                    "de": "Das ist das Restaurant, in dem wir gegessen haben.",
+                    "vi": "Đó là nhà hàng mà chúng tôi đã ăn."
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "fill_blank",
+                    "question": "Das ist der Mann, ___ Deutsch spricht.",
+                    "options": [
+                        "der",
+                        "den",
+                        "dem"
+                    ],
+                    "answer": "der"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Ich lese das Buch, ___ du mir empfohlen hast.",
+                    "options": [
+                        "der",
+                        "die",
+                        "das"
+                    ],
+                    "answer": "das"
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Die Kollegin, ___ ich geholfen habe, ist nett.",
+                    "options": [
+                        "die",
+                        "der",
+                        "dem"
+                    ],
+                    "answer": "der"
+                }
+            ]
+        },
+        {
+            "id": "b2-gram-01",
+            "level": "B2",
+            "order": 1,
+            "title": "Passiv in allen Tempora",
+            "title_vi": "Câu bị động ở tất cả các thì",
+            "description": "Vorgangspassiv und Zustandspassiv",
+            "explanation_vi": "Bị động (Passiv) = werden + Partizip II. Chủ thể hành động dùng 'von + Dativ'. Passiv dùng khi hành động quan trọng hơn người thực hiện. Có thể chia ở tất cả các thì.",
+            "rules": [
+                "Präsens: Das Haus wird gebaut. (Nhà đang được xây.)",
+                "Präteritum: Das Haus wurde gebaut. (Nhà đã được xây.)",
+                "Perfekt: Das Haus ist gebaut worden. (Nhà đã được xây xong.)",
+                "Zustandspassiv: Das Haus ist gebaut. (Nhà đã xây xong — trạng thái.)",
+                "Mit Modalverb: Das Haus muss gebaut werden.",
+                "Von + Dativ: Das Buch wird von dem Autor geschrieben."
+            ],
+            "examples": [
+                {
+                    "de": "Die E-Mail wird geschrieben.",
+                    "vi": "Email đang được viết."
+                },
+                {
+                    "de": "Das Gesetz wurde 2020 verabschiedet.",
+                    "vi": "Luật đã được thông qua năm 2020."
+                },
+                {
+                    "de": "Das Problem muss gelöst werden.",
+                    "vi": "Vấn đề phải được giải quyết."
+                },
+                {
+                    "de": "Der Brief ist von Maria geschrieben worden.",
+                    "vi": "Lá thư đã được viết bởi Maria."
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "transform",
+                    "instruction": "Schreiben Sie im Passiv:",
+                    "active": "Man baut ein neues Krankenhaus.",
+                    "answer": "Ein neues Krankenhaus wird gebaut."
+                },
+                {
+                    "type": "transform",
+                    "instruction": "Schreiben Sie im Passiv:",
+                    "active": "Der Lehrer korrigiert die Prüfungen.",
+                    "answer": "Die Prüfungen werden vom Lehrer korrigiert."
+                },
+                {
+                    "type": "fill_blank",
+                    "question": "Das Buch ___ 1985 ___ (veröffentlichen, Präteritum Passiv).",
+                    "answer": "wurde ... veröffentlicht"
+                }
+            ]
+        },
+        {
+            "id": "b2-gram-02",
+            "level": "B2",
+            "order": 2,
+            "title": "Konjunktiv I — Indirekte Rede",
+            "title_vi": "Giả định cách I — Lời nói gián tiếp",
+            "description": "Wiedergabe von Aussagen anderer Personen",
+            "explanation_vi": "Konjunktiv I dùng trong lời nói gián tiếp (báo chí, học thuật). Tạo từ gốc Infinitiv + đuôi: -e, -est, -e, -en, -et, -en. Nếu Konj. I trùng với Indikativ → dùng Konj. II thay thế.",
+            "rules": [
+                "Bildung: Infinitivstamm + Endung (-e, -est, -e, -en, -et, -en)",
+                "sein: ich sei, du sei(e)st, er sei, wir seien",
+                "haben: ich habe, er habe (nếu trùng Indikativ → er hätte)",
+                "Wenn Konj. I = Indikativ → Konjunktiv II verwenden",
+                "Direkt: Er sagt: 'Ich bin krank.'",
+                "Indirekt: Er sagt, er sei krank."
+            ],
+            "examples": [
+                {
+                    "de": "Die Kanzlerin sagte, sie sei optimistisch.",
+                    "vi": "Thủ tướng nói bà lạc quan."
+                },
+                {
+                    "de": "Der Sprecher erklärte, die Wirtschaft habe sich erholt.",
+                    "vi": "Người phát ngôn giải thích kinh tế đã phục hồi."
+                },
+                {
+                    "de": "Experten meinen, man müsse mehr investieren.",
+                    "vi": "Chuyên gia cho rằng phải đầu tư nhiều hơn."
+                }
+            ],
+            "exercises": [
+                {
+                    "type": "transform",
+                    "instruction": "Schreiben Sie in indirekter Rede:",
+                    "active": "Er sagt: 'Ich habe keine Zeit.'",
+                    "answer": "Er sagt, er habe keine Zeit."
+                },
+                {
+                    "type": "transform",
+                    "instruction": "Schreiben Sie in indirekter Rede:",
+                    "active": "Sie sagt: 'Ich bin Ärztin.'",
+                    "answer": "Sie sagt, sie sei Ärztin."
+                }
+            ]
+        }
+    ]
+}

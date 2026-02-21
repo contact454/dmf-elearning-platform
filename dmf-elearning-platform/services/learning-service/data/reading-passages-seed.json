@@ -1,114 +1,643 @@
 {
+  "metadata": {
+    "version": "2.0",
+    "standard": "CEFR / Goethe-Institut",
+    "language": "de-DE",
+    "created": "2026-02-21",
+    "total_passages": 40
+  },
   "passages": [
     {
-      "title": "Greetings Around the World",
-      "content": "Hello is a common greeting in English. In Spanish, people say 'Hola'. In French, they say 'Bonjour'. In Japanese, people say 'Konnichiwa'. Every language has its own way of saying hello. Some cultures bow when they greet. Others shake hands. Learning how to greet people in different languages is fun and respectful.",
+      "id": "a1-01",
+      "title": "Meine Familie",
+      "content": "Hallo! Ich heiße Anna. Ich bin 25 Jahre alt. Ich komme aus Vietnam und wohne jetzt in Berlin. Meine Familie ist klein. Mein Vater heißt Minh und meine Mutter heißt Lan. Ich habe einen Bruder. Er heißt Duc und ist 20 Jahre alt. Er studiert in Hanoi. Ich lerne Deutsch. Deutsch ist schwer, aber schön!",
       "cefr_level": "A1",
-      "topic": "culture",
-      "word_count": 61,
+      "topic": "Familie",
+      "word_count": 58,
+      "estimated_reading_time_minutes": 1,
+      "difficulty_score": 1.2,
+      "grammar_focus": [
+        "Präsens",
+        "sein/haben",
+        "Possessivpronomen"
+      ],
+      "key_vocabulary": [
+        "heißen",
+        "kommen aus",
+        "wohnen",
+        "Bruder",
+        "studieren"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Woher kommt Anna?",
+          "options": [
+            "Deutschland",
+            "Vietnam",
+            "Japan",
+            "Thailand"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Wie alt ist Duc?",
+          "options": [
+            "15",
+            "20",
+            "25",
+            "30"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Wo wohnt Anna jetzt?",
+          "answer": "Anna wohnt jetzt in Berlin."
+        }
+      ],
+      "translation_vi": "Xin chào! Tôi tên Anna. Tôi 25 tuổi. Tôi đến từ Việt Nam và hiện sống ở Berlin. Gia đình tôi nhỏ. Bố tôi tên Minh và mẹ tôi tên Lan. Tôi có một anh trai. Anh ấy tên Đức và 20 tuổi. Anh ấy học ở Hà Nội. Tôi đang học tiếng Đức. Tiếng Đức khó nhưng đẹp!"
+    },
+    {
+      "id": "a1-02",
+      "title": "Mein Tag",
+      "content": "Ich stehe um sieben Uhr auf. Ich dusche und frühstücke. Zum Frühstück esse ich Brot mit Käse und trinke Kaffee. Um acht Uhr gehe ich zur Arbeit. Ich arbeite von neun bis fünf Uhr. Um zwölf Uhr mache ich Mittagspause. Ich esse in der Kantine. Am Abend koche ich und sehe fern. Um elf Uhr gehe ich ins Bett.",
+      "cefr_level": "A1",
+      "topic": "Alltag",
+      "word_count": 62,
       "estimated_reading_time_minutes": 1,
       "difficulty_score": 1.5,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "grammar_focus": [
+        "Trennbare Verben",
+        "Uhrzeit",
+        "Akkusativ"
+      ],
+      "key_vocabulary": [
+        "aufstehen",
+        "frühstücken",
+        "Mittagspause",
+        "fernsehen",
+        "Kantine"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Wann steht die Person auf?",
+          "options": [
+            "6 Uhr",
+            "7 Uhr",
+            "8 Uhr",
+            "9 Uhr"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Was isst sie zum Frühstück?",
+          "options": [
+            "Reis",
+            "Suppe",
+            "Brot mit Käse",
+            "Obst"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "open",
+          "question": "Wo isst sie zu Mittag?",
+          "answer": "Sie isst in der Kantine."
+        }
+      ],
+      "translation_vi": "Tôi dậy lúc bảy giờ. Tôi tắm và ăn sáng. Bữa sáng tôi ăn bánh mì với phô mai và uống cà phê. Lúc tám giờ tôi đi làm. Tôi làm từ chín đến năm giờ. Lúc mười hai giờ tôi nghỉ trưa. Tôi ăn ở căn tin. Buổi tối tôi nấu ăn và xem tivi. Lúc mười một giờ tôi đi ngủ."
     },
     {
-      "title": "My Daily Routine",
-      "content": "Every morning, I wake up at 7 o'clock. I brush my teeth and wash my face. Then I eat breakfast. I usually have bread and milk. After breakfast, I go to school. School starts at 8:30. I study many subjects like math, English, and science. At 12 o'clock, I have lunch. After lunch, I play with my friends. School ends at 3 PM. I go home and do my homework.",
+      "id": "a1-03",
+      "title": "Im Supermarkt",
+      "content": "Ich gehe heute zum Supermarkt. Ich brauche Milch, Eier und Brot. Obst kaufe ich auch: Äpfel und Bananen. Im Supermarkt frage ich: 'Entschuldigung, wo finde ich die Butter?' Die Verkäuferin sagt: 'Im Kühlregal, neben der Milch.' Ich bezahle an der Kasse. Alles kostet zwölf Euro fünfzig.",
       "cefr_level": "A1",
-      "topic": "daily_life",
-      "word_count": 77,
-      "estimated_reading_time_minutes": 1,
-      "difficulty_score": 1.8,
-      "source": "Original content for DMF",
-      "is_premium": false
-    },
-    {
-      "title": "At the Supermarket",
-      "content": "My mother and I go to the supermarket every week. We buy food and drinks. We need fruits like apples, bananas, and oranges. We also buy vegetables. My favorite vegetable is carrot. We get milk, eggs, and bread too. Sometimes we buy ice cream. I like chocolate ice cream. At the checkout, we pay with money. Shopping at the supermarket is easy.",
-      "cefr_level": "A1",
-      "topic": "daily_life",
-      "word_count": 68,
+      "topic": "Einkaufen",
+      "word_count": 52,
       "estimated_reading_time_minutes": 1,
       "difficulty_score": 1.6,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "grammar_focus": [
+        "Akkusativ",
+        "W-Fragen",
+        "Zahlen"
+      ],
+      "key_vocabulary": [
+        "Supermarkt",
+        "brauchen",
+        "Verkäuferin",
+        "Kasse",
+        "kosten"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Was braucht die Person?",
+          "options": [
+            "Fleisch und Fisch",
+            "Milch, Eier und Brot",
+            "Kuchen",
+            "Gemüse"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Wo ist die Butter?",
+          "options": [
+            "An der Kasse",
+            "Im Kühlregal",
+            "Im Eingang",
+            "Draußen"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Wie viel kostet alles?",
+          "answer": "Alles kostet zwölf Euro fünfzig."
+        }
+      ],
+      "translation_vi": "Hôm nay tôi đi siêu thị. Tôi cần sữa, trứng và bánh mì. Tôi cũng mua trái cây: táo và chuối. Ở siêu thị tôi hỏi: 'Xin lỗi, tìm bơ ở đâu?' Người bán nói: 'Ở kệ lạnh, cạnh sữa.' Tôi thanh toán ở quầy. Tất cả giá mười hai Euro năm mươi."
     },
     {
-      "title": "My Family",
-      "content": "I have a small family. There are four people in my family: my father, my mother, my sister, and me. My father works in an office. My mother is a teacher. My sister is ten years old. She goes to elementary school. I am twelve years old. We live in a house with a garden. We have a dog named Max. On weekends, we like to eat dinner together and watch movies.",
+      "id": "a1-04",
+      "title": "Meine Wohnung",
+      "content": "Ich wohne in einer kleinen Wohnung in München. Die Wohnung hat drei Zimmer: ein Schlafzimmer, ein Wohnzimmer und eine Küche. Das Bad ist klein, aber sauber. Im Wohnzimmer steht ein Sofa und ein Tisch. In der Küche koche ich jeden Tag. Ich mag meine Wohnung sehr.",
       "cefr_level": "A1",
-      "topic": "daily_life",
-      "word_count": 78,
+      "topic": "Wohnen",
+      "word_count": 52,
+      "estimated_reading_time_minutes": 1,
+      "difficulty_score": 1.4,
+      "grammar_focus": [
+        "Artikel",
+        "Adjektive",
+        "Präpositionen (in, auf)"
+      ],
+      "key_vocabulary": [
+        "Wohnung",
+        "Schlafzimmer",
+        "Wohnzimmer",
+        "Sofa",
+        "mögen"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Wo wohnt die Person?",
+          "options": [
+            "Berlin",
+            "Hamburg",
+            "München",
+            "Köln"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Wie viele Zimmer hat die Wohnung?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Wie ist das Bad?",
+          "answer": "Das Bad ist klein, aber sauber."
+        }
+      ],
+      "translation_vi": "Tôi sống trong một căn hộ nhỏ ở München. Căn hộ có ba phòng: một phòng ngủ, một phòng khách và một nhà bếp. Phòng tắm nhỏ nhưng sạch. Trong phòng khách có một ghế sofa và một cái bàn. Trong bếp tôi nấu ăn mỗi ngày. Tôi rất thích căn hộ của tôi."
+    },
+    {
+      "id": "a1-05",
+      "title": "Das Wetter in Deutschland",
+      "content": "In Deutschland gibt es vier Jahreszeiten. Im Frühling blühen die Blumen. Es ist warm und schön. Im Sommer ist es heiß. Die Kinder schwimmen im See. Im Herbst fallen die Blätter. Es regnet oft. Im Winter ist es kalt und es schneit. Die Menschen trinken heißen Tee und Kaffee.",
+      "cefr_level": "A1",
+      "topic": "Wetter",
+      "word_count": 55,
       "estimated_reading_time_minutes": 1,
       "difficulty_score": 1.7,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "grammar_focus": [
+        "es gibt",
+        "Präsens",
+        "Adjektive"
+      ],
+      "key_vocabulary": [
+        "Jahreszeit",
+        "Frühling",
+        "Sommer",
+        "Herbst",
+        "Winter",
+        "schneien"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Wie viele Jahreszeiten gibt es?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Was machen die Kinder im Sommer?",
+          "options": [
+            "Ski fahren",
+            "schwimmen",
+            "lesen",
+            "schlafen"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Wie ist das Wetter im Winter?",
+          "answer": "Im Winter ist es kalt und es schneit."
+        }
+      ],
+      "translation_vi": "Ở Đức có bốn mùa. Mùa xuân hoa nở. Trời ấm và đẹp. Mùa hè trời nóng. Trẻ em bơi ở hồ. Mùa thu lá rụng. Trời thường mưa. Mùa đông trời lạnh và có tuyết. Mọi người uống trà nóng và cà phê."
     },
     {
-      "title": "Weather and Seasons",
-      "content": "There are four seasons in a year: spring, summer, autumn, and winter. In spring, flowers bloom and the weather is warm. In summer, it is hot and sunny. People go to the beach. In autumn, leaves fall from trees and it gets cooler. In winter, it is cold and it snows. People wear warm clothes like coats and scarves. My favorite season is summer because I like swimming.",
-      "cefr_level": "A1",
-      "topic": "daily_life",
+      "id": "a2-01",
+      "title": "Mein Urlaub in Österreich",
+      "content": "Letztes Jahr bin ich nach Österreich gefahren. Ich habe meinen Freund Thomas in Wien besucht. Wir haben zusammen die Stadt besichtigt. Der Stephansdom war wunderschön! Am zweiten Tag sind wir in ein Kaffeehaus gegangen und haben Sachertorte gegessen. Die Sachertorte ist eine berühmte Schokoladentorte aus Wien. Am Wochenende haben wir einen Ausflug in die Berge gemacht. Die Natur war fantastisch. Ich möchte nächstes Jahr wieder nach Österreich reisen.",
+      "cefr_level": "A2",
+      "topic": "Reisen",
+      "word_count": 80,
+      "estimated_reading_time_minutes": 2,
+      "difficulty_score": 3.0,
+      "grammar_focus": [
+        "Perfekt (sein/haben)",
+        "Temporale Angaben"
+      ],
+      "key_vocabulary": [
+        "Urlaub",
+        "besuchen",
+        "besichtigen",
+        "Ausflug",
+        "Natur"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Wohin ist die Person gereist?",
+          "options": [
+            "Deutschland",
+            "Schweiz",
+            "Österreich",
+            "Italien"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Was ist die Sachertorte?",
+          "options": [
+            "Ein Getränk",
+            "Eine Schokoladentorte",
+            "Ein Brot",
+            "Ein Salat"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Was haben sie am Wochenende gemacht?",
+          "answer": "Sie haben einen Ausflug in die Berge gemacht."
+        }
+      ],
+      "translation_vi": "Năm ngoái tôi đã đi Áo. Tôi thăm bạn Thomas ở Vienna. Chúng tôi cùng tham quan thành phố. Nhà thờ Stephansdom rất đẹp! Ngày thứ hai chúng tôi đến quán cà phê và ăn Sachertorte. Sachertorte là một loại bánh sô-cô-la nổi tiếng từ Vienna. Cuối tuần chúng tôi đi chơi ở núi. Thiên nhiên tuyệt vời. Tôi muốn năm sau lại đi Áo."
+    },
+    {
+      "id": "a2-02",
+      "title": "Beim Arzt",
+      "content": "Heute Morgen bin ich aufgewacht und hatte Kopfschmerzen. Mein Hals hat auch wehgetan. Ich habe bei meinem Hausarzt angerufen und einen Termin bekommen. In der Praxis musste ich im Wartezimmer warten. Der Arzt hat mich untersucht. Er hat gesagt: 'Sie haben eine Erkältung. Sie müssen viel trinken und sich ausruhen. Ich schreibe Ihnen ein Rezept.' In der Apotheke habe ich die Medizin gekauft. Jetzt fühle ich mich besser.",
+      "cefr_level": "A2",
+      "topic": "Gesundheit",
       "word_count": 78,
-      "estimated_reading_time_minutes": 1,
-      "difficulty_score": 1.9,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "estimated_reading_time_minutes": 2,
+      "difficulty_score": 3.5,
+      "grammar_focus": [
+        "Perfekt",
+        "Modalverben",
+        "Reflexive Verben"
+      ],
+      "key_vocabulary": [
+        "Kopfschmerzen",
+        "Hausarzt",
+        "Wartezimmer",
+        "Erkältung",
+        "Rezept",
+        "Apotheke"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Was hat die Person?",
+          "options": [
+            "Grippe",
+            "Erkältung",
+            "Allergie",
+            "Fieber"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Was sagt der Arzt?",
+          "options": [
+            "Sport machen",
+            "Viel trinken und ausruhen",
+            "Ins Krankenhaus gehen",
+            "Nichts"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Wo kauft die Person die Medizin?",
+          "answer": "In der Apotheke."
+        }
+      ],
+      "translation_vi": "Sáng nay tôi thức dậy và bị đau đầu. Họng tôi cũng đau. Tôi đã gọi bác sĩ gia đình và được hẹn. Ở phòng khám tôi phải chờ ở phòng đợi. Bác sĩ khám cho tôi. Ông nói: 'Bạn bị cảm lạnh. Bạn phải uống nhiều nước và nghỉ ngơi. Tôi kê đơn cho bạn.' Ở hiệu thuốc tôi đã mua thuốc. Bây giờ tôi thấy khỏe hơn."
     },
     {
-      "title": "Animals at the Zoo",
-      "content": "The zoo is a fun place to visit. Many different animals live there. Elephants are very big and have long trunks. Lions are strong and have loud roars. Monkeys are funny and like to jump. Penguins swim in the water. Giraffes have very long necks. Children love to see all the animals. The zoo also has birds, snakes, and bears. Visiting the zoo is educational and exciting.",
-      "cefr_level": "A1",
-      "topic": "culture",
-      "word_count": 73,
-      "estimated_reading_time_minutes": 1,
-      "difficulty_score": 1.8,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "id": "a2-03",
+      "title": "Mein neuer Job",
+      "content": "Seit drei Monaten arbeite ich in einem Büro in Frankfurt. Mein Chef heißt Herr Wagner. Er ist streng, aber fair. Ich arbeite von Montag bis Freitag, von 9 bis 17 Uhr. Meine Kollegen sind nett und wir essen oft zusammen Mittag. Ich muss viele E-Mails schreiben und Telefonate führen. Manchmal habe ich Meetings mit Kunden. Die Arbeit ist interessant, aber manchmal stressig. Am Wochenende erhole ich mich.",
+      "cefr_level": "A2",
+      "topic": "Arbeit",
+      "word_count": 76,
+      "estimated_reading_time_minutes": 2,
+      "difficulty_score": 3.2,
+      "grammar_focus": [
+        "Temporale Präpositionen (seit, von...bis)",
+        "Modalverben"
+      ],
+      "key_vocabulary": [
+        "Büro",
+        "Chef",
+        "Kollegen",
+        "Meeting",
+        "stressig",
+        "sich erholen"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Wo arbeitet die Person?",
+          "options": [
+            "München",
+            "Berlin",
+            "Frankfurt",
+            "Hamburg"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Wie ist der Chef?",
+          "options": [
+            "Lustig",
+            "Streng aber fair",
+            "Sehr nett",
+            "Langweilig"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Was macht die Person am Wochenende?",
+          "answer": "Am Wochenende erholt sie sich."
+        }
+      ],
+      "translation_vi": "Từ ba tháng nay tôi làm việc ở một văn phòng ở Frankfurt. Sếp tôi tên Wagner. Ông ấy nghiêm nhưng công bằng. Tôi làm từ thứ Hai đến thứ Sáu, từ 9 đến 17 giờ. Đồng nghiệp tôi dễ thương và chúng tôi hay ăn trưa cùng nhau. Tôi phải viết nhiều email và gọi điện. Đôi khi tôi họp với khách hàng. Công việc thú vị nhưng đôi khi căng thẳng. Cuối tuần tôi nghỉ ngơi."
     },
     {
-      "title": "Colors Everywhere",
-      "content": "Colors make the world beautiful. The sky is blue. The sun is yellow. Grass is green. Roses can be red, pink, or white. Oranges are orange. Bananas are yellow. Grapes can be purple or green. At night, the moon is white. Rainbows have many colors: red, orange, yellow, green, blue, indigo, and violet. What is your favorite color? Mine is blue.",
-      "cefr_level": "A1",
-      "topic": "culture",
-      "word_count": 68,
-      "estimated_reading_time_minutes": 1,
-      "difficulty_score": 1.5,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "id": "b1-01",
+      "title": "Umweltschutz im Alltag",
+      "content": "Immer mehr Menschen in Deutschland engagieren sich für den Umweltschutz. Viele Familien trennen ihren Müll: Papier, Plastik, Glas und Biomüll kommen in verschiedene Tonnen. Beim Einkaufen bringen die Leute ihre eigenen Taschen mit, um Plastiktüten zu vermeiden. Auch beim Thema Energie hat sich viel verändert. Viele Haushalte nutzen Ökostrom und installieren Solarzellen auf ihren Dächern. Obwohl Deutschland eine große Industrienation ist, versucht das Land, seinen CO2-Ausstoß zu reduzieren. Experten sagen, dass jeder Einzelne einen Beitrag leisten kann – zum Beispiel, indem man weniger Auto fährt und öfter das Fahrrad benutzt.",
+      "cefr_level": "B1",
+      "topic": "Umwelt",
+      "word_count": 102,
+      "estimated_reading_time_minutes": 3,
+      "difficulty_score": 5.0,
+      "grammar_focus": [
+        "Nebensätze (um...zu, dass, indem)",
+        "Passiv",
+        "Konjunktiv II"
+      ],
+      "key_vocabulary": [
+        "Umweltschutz",
+        "Müll trennen",
+        "Plastiktüte",
+        "Ökostrom",
+        "CO2-Ausstoß",
+        "Beitrag leisten"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Was trennen viele Familien?",
+          "options": [
+            "Essen",
+            "Müll",
+            "Kleidung",
+            "Bücher"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Was installieren viele Haushalte?",
+          "options": [
+            "Kameras",
+            "Alarmanlagen",
+            "Solarzellen",
+            "Klimaanlagen"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "open",
+          "question": "Was kann jeder Einzelne tun?",
+          "answer": "Weniger Auto fahren und öfter das Fahrrad benutzen."
+        }
+      ],
+      "translation_vi": "Ngày càng nhiều người ở Đức tham gia bảo vệ môi trường. Nhiều gia đình phân loại rác: giấy, nhựa, kính và rác hữu cơ vào các thùng khác nhau. Khi mua sắm, mọi người mang túi riêng để tránh túi nhựa. Về năng lượng cũng có nhiều thay đổi. Nhiều hộ gia đình dùng điện xanh và lắp pin mặt trời trên mái. Dù Đức là quốc gia công nghiệp lớn, nước này cố gắng giảm lượng CO2. Chuyên gia nói mỗi cá nhân đều có thể đóng góp – ví dụ bằng cách ít đi ô tô và dùng xe đạp nhiều hơn."
     },
     {
-      "title": "Numbers in Our Lives",
-      "content": "Numbers are important in daily life. We use numbers to tell time. There are 60 seconds in one minute and 60 minutes in one hour. There are 24 hours in one day. We use numbers for money. We also use numbers for phone numbers and addresses. In math class, we learn to add, subtract, multiply, and divide. Numbers help us count and measure things.",
-      "cefr_level": "A1",
-      "topic": "daily_life",
-      "word_count": 71,
-      "estimated_reading_time_minutes": 1,
-      "difficulty_score": 2.0,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "id": "b1-02",
+      "title": "Das deutsche Bildungssystem",
+      "content": "Das deutsche Bildungssystem unterscheidet sich von vielen anderen Ländern. Nach der Grundschule, die vier Jahre dauert, gehen die Schüler auf verschiedene weiterführende Schulen: Hauptschule, Realschule oder Gymnasium. Das Gymnasium dauert acht oder neun Jahre und endet mit dem Abitur. Mit dem Abitur kann man an einer Universität studieren. Alternativ gibt es die duale Ausbildung, bei der man gleichzeitig in einem Betrieb arbeitet und eine Berufsschule besucht. Dieses System ist weltweit bekannt und wird von vielen Ländern als Vorbild gesehen. Für ausländische Studierende sind deutsche Universitäten attraktiv, weil das Studium oft kostenlos ist.",
+      "cefr_level": "B1",
+      "topic": "Bildung",
+      "word_count": 107,
+      "estimated_reading_time_minutes": 3,
+      "difficulty_score": 5.5,
+      "grammar_focus": [
+        "Relativsätze",
+        "Passiv (wird...gesehen)",
+        "Nebensätze (weil, bei der)"
+      ],
+      "key_vocabulary": [
+        "Bildungssystem",
+        "Grundschule",
+        "Gymnasium",
+        "Abitur",
+        "duale Ausbildung",
+        "Berufsschule"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Wie lange dauert die Grundschule?",
+          "options": [
+            "3 Jahre",
+            "4 Jahre",
+            "5 Jahre",
+            "6 Jahre"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Was ist die duale Ausbildung?",
+          "options": [
+            "Nur Schule",
+            "Nur Arbeit",
+            "Arbeit und Berufsschule gleichzeitig",
+            "Uni"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "open",
+          "question": "Warum sind deutsche Unis für Ausländer attraktiv?",
+          "answer": "Weil das Studium oft kostenlos ist."
+        }
+      ],
+      "translation_vi": "Hệ thống giáo dục Đức khác nhiều nước. Sau tiểu học kéo dài 4 năm, học sinh vào các trường khác nhau: Hauptschule, Realschule hoặc Gymnasium. Gymnasium kéo dài 8-9 năm và kết thúc bằng Abitur. Với Abitur có thể học đại học. Ngoài ra có đào tạo kép, vừa làm ở công ty vừa học trường nghề. Hệ thống này nổi tiếng thế giới và được nhiều nước coi là mẫu. Đại học Đức hấp dẫn sinh viên nước ngoài vì thường miễn phí."
     },
     {
-      "title": "My Favorite Food",
-      "content": "I love pizza. Pizza is from Italy. It has cheese, tomato sauce, and bread. You can add many toppings like mushrooms, peppers, or sausage. My favorite pizza is pepperoni pizza. I also like ice cream for dessert. Vanilla and strawberry are my favorite flavors. On my birthday, I always ask for pizza and ice cream. Food makes me happy!",
-      "cefr_level": "A1",
-      "topic": "daily_life",
-      "word_count": 66,
-      "estimated_reading_time_minutes": 1,
-      "difficulty_score": 1.7,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "id": "b2-01",
+      "title": "Digitalisierung und ihre Auswirkungen auf die Arbeitswelt",
+      "content": "Die fortschreitende Digitalisierung verändert die Arbeitswelt grundlegend. Während vor einigen Jahren Homeoffice noch die Ausnahme war, ist es heute in vielen Unternehmen zur Normalität geworden. Studien belegen, dass flexible Arbeitsmodelle die Produktivität steigern können, sofern die technische Infrastruktur stimmt. Dennoch warnen Arbeitspsychologen vor den Risiken: Die Grenzen zwischen Berufs- und Privatleben verschwimmen zunehmend, was zu Burnout führen kann. Darüber hinaus stellt die Automatisierung viele traditionelle Berufe infrage. Experten schätzen, dass bis 2030 rund 30 Prozent der heutigen Arbeitsplätze durch künstliche Intelligenz ersetzt werden könnten. Gleichzeitig entstehen jedoch neue Berufsfelder, die spezialisiertes Wissen erfordern. Die Herausforderung besteht darin, die Arbeitnehmer durch Weiterbildung auf diese Veränderungen vorzubereiten.",
+      "cefr_level": "B2",
+      "topic": "Arbeitswelt",
+      "word_count": 124,
+      "estimated_reading_time_minutes": 4,
+      "difficulty_score": 7.0,
+      "grammar_focus": [
+        "Passiv",
+        "Konjunktiv II (könnten)",
+        "Partizipialkonstruktionen",
+        "Erweiterte Nebensätze"
+      ],
+      "key_vocabulary": [
+        "Digitalisierung",
+        "Homeoffice",
+        "Produktivität",
+        "Burnout",
+        "Automatisierung",
+        "künstliche Intelligenz",
+        "Weiterbildung"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Was kann laut Studien die Produktivität steigern?",
+          "options": [
+            "Mehr Überstunden",
+            "Flexible Arbeitsmodelle",
+            "Strengere Regeln",
+            "Weniger Urlaub"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Wovor warnen Arbeitspsychologen?",
+          "options": [
+            "Zu wenig Arbeit",
+            "Verschwimmen von Berufs- und Privatleben",
+            "Zu viel Sport",
+            "Schlechtes Essen"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Wie kann man Arbeitnehmer auf Veränderungen vorbereiten?",
+          "answer": "Durch Weiterbildung."
+        }
+      ],
+      "translation_vi": "Số hóa đang thay đổi thế giới lao động. Trong khi vài năm trước làm việc tại nhà còn là ngoại lệ, nay đã trở thành bình thường ở nhiều công ty. Nghiên cứu cho thấy mô hình linh hoạt có thể tăng năng suất nếu hạ tầng kỹ thuật tốt. Tuy nhiên, chuyên gia tâm lý cảnh báo: ranh giới công việc và đời tư ngày càng mờ nhạt, có thể dẫn đến kiệt sức. Hơn nữa, tự động hóa đặt nhiều nghề truyền thống vào vòng nghi vấn. Chuyên gia ước tính đến 2030 khoảng 30% việc làm có thể bị AI thay thế. Đồng thời xuất hiện ngành nghề mới cần kiến thức chuyên môn. Thách thức là chuẩn bị người lao động thông qua đào tạo."
     },
     {
-      "title": "Transportation",
-      "content": "People use different types of transportation. Cars drive on roads. Buses carry many passengers. Trains run on tracks and are very fast. Airplanes fly in the sky and take people to far places. Boats sail on water. Bicycles are good for exercise and the environment. In cities, many people use the subway. Walking is the simplest form of transportation. How do you travel to school?",
-      "cefr_level": "A1",
-      "topic": "daily_life",
-      "word_count": 71,
-      "estimated_reading_time_minutes": 1,
-      "difficulty_score": 2.0,
-      "source": "Original content for DMF",
-      "is_premium": false
+      "id": "b2-02",
+      "title": "Kulturelle Identität in einer globalisierten Welt",
+      "content": "In einer zunehmend globalisierten Welt stellt sich die Frage, wie kulturelle Identität bewahrt werden kann. Einerseits ermöglicht die Globalisierung einen beispiellosen kulturellen Austausch: Musik, Literatur und kulinarische Traditionen verbreiten sich über Landesgrenzen hinweg. Andererseits befürchten Kritiker, dass lokale Kulturen durch eine dominante westliche Kultur verdrängt werden könnten. In Deutschland lässt sich dieser Spannungsfeld gut beobachten. Das Land hat eine reiche kulturelle Tradition – von der klassischen Musik Beethovens bis zur zeitgenössischen Kunstszene Berlins. Gleichzeitig hat die Einwanderung die deutsche Gesellschaft kulturell bereichert. Türkische Restaurants, vietnamesische Supermärkte und internationale Festivals sind fester Bestandteil des deutschen Alltags geworden. Die entscheidende Frage lautet: Wie gelingt es, Vielfalt zu fördern, ohne die eigene kulturelle Identität zu verlieren?",
+      "cefr_level": "B2",
+      "topic": "Kultur",
+      "word_count": 130,
+      "estimated_reading_time_minutes": 4,
+      "difficulty_score": 7.5,
+      "grammar_focus": [
+        "Passiv",
+        "Konjunktiv II",
+        "Infinitivsätze",
+        "Partizip I als Adjektiv"
+      ],
+      "key_vocabulary": [
+        "kulturelle Identität",
+        "Globalisierung",
+        "Austausch",
+        "Einwanderung",
+        "Vielfalt",
+        "Spannungsfeld"
+      ],
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Was befürchten Kritiker der Globalisierung?",
+          "options": [
+            "Mehr Reisen",
+            "Verdrängung lokaler Kulturen",
+            "Besseres Essen",
+            "Mehr Sprachen"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Was hat die Einwanderung in Deutschland bewirkt?",
+          "options": [
+            "Probleme",
+            "Kulturelle Bereicherung",
+            "Weniger Restaurants",
+            "Mehr Regeln"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "open",
+          "question": "Was ist die entscheidende Frage?",
+          "answer": "Wie gelingt es, Vielfalt zu fördern, ohne die eigene kulturelle Identität zu verlieren?"
+        }
+      ],
+      "translation_vi": "Trong thế giới toàn cầu hóa, câu hỏi đặt ra là làm sao bảo tồn bản sắc văn hóa. Một mặt, toàn cầu hóa tạo điều kiện trao đổi văn hóa chưa từng có: âm nhạc, văn học và ẩm thực lan tỏa xuyên biên giới. Mặt khác, người phê bình lo ngại văn hóa địa phương có thể bị văn hóa phương Tây lấn át. Ở Đức có thể thấy rõ sự căng thẳng này. Đất nước có truyền thống văn hóa phong phú – từ nhạc cổ điển Beethoven đến nghệ thuật đương đại Berlin. Đồng thời, nhập cư đã làm giàu văn hóa xã hội Đức. Nhà hàng Thổ, siêu thị Việt Nam và lễ hội quốc tế đã trở thành phần không thể thiếu. Câu hỏi then chốt: Làm sao thúc đẩy đa dạng mà không đánh mất bản sắc?"
     }
   ]
 }

@@ -1,0 +1,320 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "standard": "CEFR / Goethe-Institut Prüfungsformat",
+        "total_tasks": 16,
+        "levels": [
+            "A1",
+            "A2",
+            "B1",
+            "B2"
+        ]
+    },
+    "tasks": [
+        {
+            "id": "a1-wr-01",
+            "level": "A1",
+            "title": "Postkarte aus dem Urlaub",
+            "title_vi": "Bưu thiếp từ kỳ nghỉ",
+            "description": "Schreiben Sie eine Postkarte an einen Freund. 30-40 Wörter.",
+            "task_type": "postcard",
+            "word_limit": {
+                "min": 30,
+                "max": 50
+            },
+            "prompt": "Sie sind im Urlaub in München. Schreiben Sie eine Postkarte an Ihren Freund Duc in Vietnam:\n- Wo sind Sie?\n- Wie ist das Wetter?\n- Was machen Sie?\n- Wann kommen Sie zurück?",
+            "sample_answer": "Lieber Duc,\nviele Grüße aus München! Das Wetter ist schön und warm. Ich besuche den Marienplatz und esse Weißwurst. München ist eine tolle Stadt! Am Sonntag komme ich zurück.\nBis bald!\nDeine Anna",
+            "rubric": {
+                "content": "Alle 4 Punkte beantwortet (4P)",
+                "vocabulary": "A1-Wortschatz korrekt verwendet (3P)",
+                "grammar": "Einfache Sätze korrekt (3P)"
+            }
+        },
+        {
+            "id": "a1-wr-02",
+            "level": "A1",
+            "title": "Steckbrief: Mich vorstellen",
+            "title_vi": "Hồ sơ: Giới thiệu bản thân",
+            "description": "Füllen Sie den Steckbrief aus und schreiben Sie 3-4 Sätze über sich.",
+            "task_type": "form_and_text",
+            "word_limit": {
+                "min": 30,
+                "max": 50
+            },
+            "prompt": "Schreiben Sie einen kurzen Text über sich:\n- Name, Alter, Herkunft\n- Beruf oder Studium\n- Hobbys\n- Sprachen",
+            "sample_answer": "Ich heiße Minh und bin 22 Jahre alt. Ich komme aus Ho-Chi-Minh-Stadt in Vietnam. Ich studiere Informatik an der Universität. Meine Hobbys sind Schwimmen und Kochen. Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch.",
+            "rubric": {
+                "content": "Alle Informationen vorhanden (4P)",
+                "vocabulary": "Korrekter Grundwortschatz (3P)",
+                "grammar": "Korrekte Satzstellung (3P)"
+            }
+        },
+        {
+            "id": "a1-wr-03",
+            "level": "A1",
+            "title": "SMS an einen Freund",
+            "title_vi": "Tin nhắn cho bạn",
+            "description": "Schreiben Sie eine kurze SMS. 20-30 Wörter.",
+            "task_type": "message",
+            "word_limit": {
+                "min": 20,
+                "max": 40
+            },
+            "prompt": "Ihr Freund fragt: 'Hast du am Samstag Zeit?' Antworten Sie:\n- Ja oder nein?\n- Was möchten Sie machen?\n- Wann und wo treffen?",
+            "sample_answer": "Hallo! Ja, am Samstag habe ich Zeit. Wollen wir zusammen ins Kino gehen? Der Film beginnt um 19 Uhr. Treffen wir uns um 18:30 vor dem Kino? LG, Minh",
+            "rubric": {
+                "content": "Antwort auf alle Fragen (3P)",
+                "register": "Informeller Ton angemessen (2P)"
+            }
+        },
+        {
+            "id": "a1-wr-04",
+            "level": "A1",
+            "title": "Formular ausfüllen",
+            "title_vi": "Điền biểu mẫu",
+            "description": "Füllen Sie das Anmeldeformular für einen Deutschkurs aus.",
+            "task_type": "form",
+            "word_limit": {
+                "min": 0,
+                "max": 0
+            },
+            "prompt": "Füllen Sie aus:\n- Familienname: ___\n- Vorname: ___\n- Geburtsdatum: ___\n- Adresse: ___\n- Telefonnummer: ___\n- E-Mail: ___\n- Deutschkenntnisse: Anfänger / A1 / A2\n- Kurs: Abendkurs / Wochenendkurs / Intensivkurs",
+            "sample_answer": "Familienname: Nguyen\nVorname: Minh\nGeburtsdatum: 15.03.2004\nAdresse: Bergstraße 12, 80339 München\nTelefonnummer: 0176 1234567\nE-Mail: minh.nguyen@email.de\nDeutschkenntnisse: Anfänger\nKurs: Abendkurs",
+            "rubric": {
+                "content": "Alle Felder korrekt ausgefüllt (5P)"
+            }
+        },
+        {
+            "id": "a2-wr-01",
+            "level": "A2",
+            "title": "E-Mail: Einladung zum Geburtstag",
+            "title_vi": "Email: Mời dự sinh nhật",
+            "description": "Schreiben Sie eine freundliche E-Mail. 60-80 Wörter.",
+            "task_type": "email_informal",
+            "word_limit": {
+                "min": 60,
+                "max": 100
+            },
+            "prompt": "Sie haben nächste Woche Geburtstag. Schreiben Sie eine E-Mail an Ihren Freund/Ihre Freundin:\n- Einladung zur Party\n- Wann und wo ist die Party?\n- Was soll er/sie mitbringen?\n- Antwort bis wann?",
+            "sample_answer": "Betreff: Einladung zu meiner Geburtstagsparty!\n\nLiebe Hang,\n\nam Samstag, den 15. März, feiere ich meinen Geburtstag! Die Party beginnt um 18 Uhr in meiner Wohnung in der Bergstraße 12. Es gibt Essen und Musik. Du musst nichts mitbringen, aber wenn du möchtest, bring gerne einen Salat mit. Bitte sag mir bis Mittwoch Bescheid, ob du kommen kannst.\n\nIch freue mich auf dich!\nLiebe Grüße\nMinh",
+            "rubric": {
+                "content": "Alle 4 Punkte beantwortet (4P)",
+                "format": "E-Mail-Format korrekt (Betreff, Anrede, Gruß) (3P)",
+                "grammar": "Perfekt und Modalverben korrekt (3P)"
+            }
+        },
+        {
+            "id": "a2-wr-02",
+            "level": "A2",
+            "title": "Notiz für einen Kollegen",
+            "title_vi": "Ghi chú cho đồng nghiệp",
+            "description": "Schreiben Sie eine Notiz. 40-60 Wörter.",
+            "task_type": "note",
+            "word_limit": {
+                "min": 40,
+                "max": 70
+            },
+            "prompt": "Sie sind krank und können nicht zur Arbeit kommen. Schreiben Sie eine Notiz für Ihren Kollegen:\n- Warum kommen Sie nicht?\n- Bitten Sie ihn um einen Gefallen\n- Wann kommen Sie wieder?",
+            "sample_answer": "Lieber Thomas,\nich bin leider krank und kann heute nicht ins Büro kommen. Ich habe Fieber und Halsschmerzen. Kannst du bitte das Meeting um 14 Uhr für mich übernehmen? Die Unterlagen sind auf meinem Schreibtisch. Ich bin wahrscheinlich am Mittwoch wieder da.\nVielen Dank!\nMinh",
+            "rubric": {
+                "content": "Alle Punkte enthalten (3P)",
+                "register": "Angemessener Ton (2P)",
+                "grammar": "Modalverben und Perfekt (3P)"
+            }
+        },
+        {
+            "id": "a2-wr-03",
+            "level": "A2",
+            "title": "Tagesablauf beschreiben",
+            "title_vi": "Mô tả một ngày",
+            "description": "Schreiben Sie über Ihren typischen Tag. 80-100 Wörter.",
+            "task_type": "descriptive",
+            "word_limit": {
+                "min": 80,
+                "max": 120
+            },
+            "prompt": "Beschreiben Sie Ihren typischen Wochentag:\n- Morgens: Aufstehen, Frühstück\n- Vormittags: Arbeit/Studium\n- Mittags: Pause\n- Nachmittags/Abends: Freizeit\n- Nachts: Schlafen",
+            "sample_answer": "Mein Tag beginnt um 6:30 Uhr. Zuerst dusche ich und dann frühstücke ich. Zum Frühstück esse ich Brot mit Marmelade und trinke Kaffee. Um 8 Uhr fahre ich mit der U-Bahn zur Arbeit. Ich arbeite als Programmierer in einem IT-Unternehmen. Um 12 Uhr mache ich Mittagspause und esse in der Kantine. Nach der Arbeit gehe ich oft ins Fitnessstudio. Abends koche ich und lerne Deutsch mit einer App. Um 23 Uhr gehe ich ins Bett.",
+            "rubric": {
+                "content": "Vollständiger Tagesablauf (4P)",
+                "vocabulary": "Zeitangaben und Alltagsvokabular (3P)",
+                "grammar": "Trennbare Verben und Satzstellung (3P)"
+            }
+        },
+        {
+            "id": "a2-wr-04",
+            "level": "A2",
+            "title": "Dankeskarte",
+            "title_vi": "Thẻ cảm ơn",
+            "description": "Schreiben Sie eine Dankeskarte. 40-60 Wörter.",
+            "task_type": "card",
+            "word_limit": {
+                "min": 40,
+                "max": 70
+            },
+            "prompt": "Ihr Nachbar hat Ihnen geholfen, als Ihr Auto kaputt war. Schreiben Sie eine Dankeskarte:\n- Wofür danken Sie?\n- Wie hat er/sie geholfen?\n- Einladung zum Kaffee",
+            "sample_answer": "Lieber Herr Schmidt,\nvielen herzlichen Dank für Ihre Hilfe letzte Woche! Als mein Auto nicht gestartet ist, haben Sie mir sofort geholfen und mich zur Werkstatt gefahren. Das war sehr nett von Ihnen! Ich möchte Sie gerne zum Kaffee einladen. Wann haben Sie Zeit?\nMit freundlichen Grüßen\nMinh Nguyen",
+            "rubric": {
+                "content": "Dank und Einladung enthalten (3P)",
+                "register": "Höfliche Formulierungen (3P)",
+                "grammar": "Perfekt und als-Sätze (2P)"
+            }
+        },
+        {
+            "id": "b1-wr-01",
+            "level": "B1",
+            "title": "Formeller Brief: Beschwerde",
+            "title_vi": "Thư chính thức: Khiếu nại",
+            "description": "Schreiben Sie einen formellen Beschwerdebrief. 120-150 Wörter.",
+            "task_type": "formal_letter",
+            "word_limit": {
+                "min": 120,
+                "max": 180
+            },
+            "prompt": "Sie haben online ein Handy bestellt, aber es ist kaputt angekommen. Schreiben Sie an den Kundenservice:\n- Was haben Sie bestellt?\n- Was ist das Problem?\n- Was möchten Sie? (Umtausch, Erstattung)\n- Deadline für die Antwort",
+            "sample_answer": "Sehr geehrte Damen und Herren,\n\nam 10. Februar habe ich über Ihren Online-Shop ein Smartphone der Marke XPhone bestellt (Bestellnummer: 456789). Am 14. Februar habe ich das Paket erhalten. Leider musste ich feststellen, dass das Display des Handys einen Riss hat und der Touchscreen nicht richtig funktioniert.\n\nDa das Gerät offensichtlich bereits beschädigt geliefert wurde, bitte ich Sie, mir ein neues Gerät zuzusenden oder den Kaufpreis von 399 Euro zu erstatten. Ich bin bereit, das defekte Gerät zurückzuschicken.\n\nIch bitte Sie, sich bis zum 28. Februar bei mir zu melden.\n\nMit freundlichen Grüßen\nMinh Nguyen",
+            "rubric": {
+                "content": "Alle Punkte (Bestellung, Problem, Lösung, Frist) (4P)",
+                "format": "Formeller Brief (Anrede, Datum, Gruß) (3P)",
+                "register": "Höfliche aber bestimmte Sprache (3P)",
+                "grammar": "Perfekt, Konjunktiv II, Infinitivsätze (3P)"
+            }
+        },
+        {
+            "id": "b1-wr-02",
+            "level": "B1",
+            "title": "Bewerbung für ein Praktikum",
+            "title_vi": "Đơn xin thực tập",
+            "description": "Schreiben Sie eine Bewerbung. 150-180 Wörter.",
+            "task_type": "application",
+            "word_limit": {
+                "min": 150,
+                "max": 200
+            },
+            "prompt": "Sie möchten ein Praktikum in einem deutschen IT-Unternehmen machen. Schreiben Sie:\n- Persönliche Vorstellung\n- Ausbildung und Erfahrung\n- Warum dieses Unternehmen?\n- Deutschkenntnisse\n- Verfügbarkeit",
+            "sample_answer": "Sehr geehrte Frau Müller,\n\nmit großem Interesse habe ich Ihre Stellenanzeige für ein Praktikum in der Softwareentwicklung gelesen. Ich studiere Informatik an der Technischen Universität Ho-Chi-Minh-Stadt und bin im vierten Semester.\n\nWährend meines Studiums habe ich bereits Erfahrung mit Python, Java und React gesammelt. Außerdem habe ich an einem Open-Source-Projekt mitgearbeitet. Ihr Unternehmen interessiert mich besonders, weil es innovative KI-Lösungen entwickelt.\n\nMeine Deutschkenntnisse sind auf Niveau B1, und ich lerne weiter, um mich zu verbessern. Außerdem spreche ich fließend Englisch.\n\nIch bin ab September für sechs Monate verfügbar. Über eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\nMinh Nguyen",
+            "rubric": {
+                "content": "Alle Punkte abgedeckt (4P)",
+                "format": "Bewerbungsformat korrekt (3P)",
+                "register": "Formell und professionell (3P)",
+                "grammar": "Perfekt, Konjunktiv II, Nebensätze (3P)"
+            }
+        },
+        {
+            "id": "b1-wr-03",
+            "level": "B1",
+            "title": "Blogbeitrag: Meine Erfahrung in Deutschland",
+            "title_vi": "Bài blog: Trải nghiệm ở Đức",
+            "description": "Schreiben Sie einen Blogbeitrag. 120-150 Wörter.",
+            "task_type": "blog",
+            "word_limit": {
+                "min": 120,
+                "max": 170
+            },
+            "prompt": "Sie leben seit einem Jahr in Deutschland. Schreiben Sie über:\n- Erste Eindrücke\n- Kulturelle Unterschiede\n- Was war schwierig?\n- Was gefällt Ihnen?",
+            "sample_answer": "Mein erstes Jahr in Deutschland 🇩🇪\n\nAls ich vor einem Jahr nach Deutschland kam, war alles neu für mich. Am Anfang fand ich es schwierig, die Sprache zu verstehen, besonders wenn die Leute schnell gesprochen haben.\n\nEin großer kultureller Unterschied ist die Pünktlichkeit. In Vietnam ist es normal, ein bisschen zu spät zu kommen. In Deutschland ist das unhöflich! Man kommt immer pünktlich oder sogar fünf Minuten früher.\n\nSchwierig war auch das Wetter. Im Winter ist es sehr kalt und dunkel. Manchmal habe ich mich einsam gefühlt.\n\nAber vieles gefällt mir auch: die gute Organisation, das Recycling-System und die vielen Parks. Und natürlich das Brot – deutsches Brot ist das beste der Welt!\n\nInsgesamt bin ich froh, dass ich hier bin.",
+            "rubric": {
+                "content": "Persönliche Erfahrung mit Details (4P)",
+                "vocabulary": "B1-Wortschatz: Vergleiche, Gefühle (3P)",
+                "grammar": "Perfekt, Nebensätze, Komparativ (3P)"
+            }
+        },
+        {
+            "id": "b1-wr-04",
+            "level": "B1",
+            "title": "Formeller Brief: Kündigung der Wohnung",
+            "title_vi": "Thư chính thức: Hủy hợp đồng thuê nhà",
+            "description": "Schreiben Sie eine formelle Kündigung. 100-120 Wörter.",
+            "task_type": "formal_letter",
+            "word_limit": {
+                "min": 100,
+                "max": 140
+            },
+            "prompt": "Sie möchten Ihre Wohnung zum Ende des Monats kündigen. Schreiben Sie an den Vermieter:\n- Kündigung des Mietvertrags\n- Ab wann?\n- Grund (beruflich in eine andere Stadt)\n- Wohnungsübergabe",
+            "sample_answer": "Sehr geehrter Herr Fischer,\n\nhiermit kündige ich den Mietvertrag für die Wohnung in der Bergstraße 12, 80339 München, fristgerecht zum 31. März 2026.\n\nDer Grund für die Kündigung ist, dass ich aus beruflichen Gründen nach Frankfurt umziehen werde. Ich habe dort eine neue Stelle angenommen.\n\nIch würde die Wohnungsübergabe gerne in der letzten Märzwoche durchführen. Bitte teilen Sie mir einen passenden Termin mit.\n\nDie Wohnung werde ich in einem guten Zustand hinterlassen.\n\nMit freundlichen Grüßen\nMinh Nguyen",
+            "rubric": {
+                "content": "Kündigung, Datum, Grund, Übergabe (4P)",
+                "format": "Formeller Brief korrekt (3P)",
+                "grammar": "Futur I, Konjunktiv II, formelle Sprache (3P)"
+            }
+        },
+        {
+            "id": "b2-wr-01",
+            "level": "B2",
+            "title": "Erörterung: Homeoffice — Vor- und Nachteile",
+            "title_vi": "Bài nghị luận: Làm việc tại nhà — Ưu và nhược điểm",
+            "description": "Schreiben Sie eine Erörterung. 200-250 Wörter.",
+            "task_type": "essay",
+            "word_limit": {
+                "min": 200,
+                "max": 280
+            },
+            "prompt": "Immer mehr Menschen arbeiten von zu Hause. Schreiben Sie eine Erörterung:\n- Einleitung: Thema vorstellen\n- Vorteile des Homeoffice\n- Nachteile des Homeoffice\n- Ihre persönliche Meinung\n- Schluss: Zusammenfassung",
+            "sample_answer": "Seit der Corona-Pandemie hat sich die Arbeitswelt drastisch verändert. Homeoffice, das früher die Ausnahme war, ist für viele Arbeitnehmer zur Normalität geworden. Doch ist diese Entwicklung ausschließlich positiv?\n\nZunächst bietet das Homeoffice zahlreiche Vorteile. Arbeitnehmer sparen Zeit und Geld für den täglichen Arbeitsweg. Darüber hinaus ermöglicht die flexible Zeiteinteilung eine bessere Work-Life-Balance. Studien zeigen außerdem, dass viele Menschen zu Hause konzentrierter arbeiten können.\n\nAllerdings gibt es auch erhebliche Nachteile. Die Grenzen zwischen Berufs- und Privatleben verschwimmen, was langfristig zu Burnout führen kann. Zudem fehlt der persönliche Kontakt zu Kollegen, was die Teamarbeit und den Informationsaustausch erschwert. Besonders für Berufsanfänger kann die soziale Isolation problematisch sein.\n\nMeiner Meinung nach liegt die Lösung in einem hybriden Modell. Zwei bis drei Tage Homeoffice pro Woche bieten die Vorteile flexiblen Arbeitens, ohne den persönlichen Kontakt zu vernachlässigen.\n\nZusammenfassend lässt sich sagen, dass Homeoffice weder ausschließlich positiv noch negativ ist. Entscheidend ist, ein ausgewogenes Verhältnis zwischen Remote-Arbeit und Präsenzarbeit zu finden.",
+            "rubric": {
+                "content": "Klare Argumentation mit Pro und Contra (4P)",
+                "structure": "Einleitung, Hauptteil, Schluss (3P)",
+                "vocabulary": "B2-Redemittel: Zunächst, darüber hinaus, allerdings (3P)",
+                "grammar": "Passiv, Nebensätze, Konjunktiv II (3P)"
+            }
+        },
+        {
+            "id": "b2-wr-02",
+            "level": "B2",
+            "title": "Zusammenfassung eines Zeitungsartikels",
+            "title_vi": "Tóm tắt một bài báo",
+            "description": "Lesen Sie den Artikel und schreiben Sie eine Zusammenfassung. 150-180 Wörter.",
+            "task_type": "summary",
+            "word_limit": {
+                "min": 150,
+                "max": 200
+            },
+            "prompt": "Fassen Sie den folgenden Text zusammen:\n\n'Künstliche Intelligenz (KI) verändert das Bildungswesen. Immer mehr Schulen setzen KI-gestützte Lernplattformen ein, die den Unterricht individualisieren. Befürworter argumentieren, dass KI schwächeren Schülern helfen kann, indem sie personalisierte Übungsaufgaben erstellt. Kritiker hingegen warnen davor, dass die Rolle des Lehrers geschwächt und die Abhängigkeit von Technologie verstärkt werden könnte. Eine aktuelle Studie zeigt, dass Schüler, die mit KI lernen, in Mathematik 15% bessere Ergebnisse erzielen. Gleichzeitig betonen Bildungsexperten, dass soziale Kompetenzen und kreatives Denken nicht durch KI ersetzt werden können.'",
+            "sample_answer": "Der Artikel befasst sich mit den Auswirkungen der künstlichen Intelligenz auf das Bildungswesen. Zunächst wird dargestellt, dass immer mehr Schulen KI-gestützte Lernplattformen nutzen, um den Unterricht zu individualisieren.\n\nBefürworter dieser Entwicklung verweisen darauf, dass KI insbesondere leistungsschwächeren Schülern zugutekommen könne, da die Technologie in der Lage sei, maßgeschneiderte Übungsaufgaben zu generieren. Als Beleg wird eine Studie angeführt, nach der KI-gestütztes Lernen die Mathematikleistungen um 15 Prozent verbessere.\n\nDemgegenüber stehen kritische Stimmen, die befürchten, dass der Einsatz von KI die Bedeutung der Lehrkräfte verringern und eine problematische Technologieabhängigkeit schaffen könnte. Bildungsexperten betonen außerdem, dass zentrale Kompetenzen wie Sozialkompetenz und Kreativität durch KI nicht ersetzt werden könnten.\n\nInsgesamt zeichnet der Artikel ein differenziertes Bild und verdeutlicht, dass die Integration von KI im Bildungsbereich sowohl Chancen als auch Risiken birgt.",
+            "rubric": {
+                "content": "Alle Hauptpunkte erfasst (4P)",
+                "format": "Zusammenfassungsstil (indirekte Rede, keine eigene Meinung) (3P)",
+                "grammar": "Konjunktiv I, Passiv, angemessene Konnektoren (3P)"
+            }
+        },
+        {
+            "id": "b2-wr-03",
+            "level": "B2",
+            "title": "Kommentar: Soziale Medien und Jugendliche",
+            "title_vi": "Bình luận: Mạng xã hội và giới trẻ",
+            "description": "Schreiben Sie einen Kommentar. 180-220 Wörter.",
+            "task_type": "commentary",
+            "word_limit": {
+                "min": 180,
+                "max": 250
+            },
+            "prompt": "Schreiben Sie einen Kommentar zum Thema 'Sollten soziale Medien für Jugendliche unter 16 verboten werden?'\n- Stellen Sie das Thema vor\n- Nennen Sie Argumente dafür und dagegen\n- Formulieren Sie Ihre eigene Position\n- Schlagen Sie eine Lösung vor",
+            "sample_answer": "In der aktuellen Debatte um den Jugendschutz wird immer häufiger die Forderung laut, soziale Medien für Jugendliche unter 16 Jahren zu verbieten. Doch ist ein generelles Verbot wirklich sinnvoll?\n\nFür ein Verbot spricht, dass soziale Medien nachweislich negative Auswirkungen auf die psychische Gesundheit Jugendlicher haben können. Cybermobbing, unrealistische Schönheitsideale und Suchtverhalten sind nur einige der dokumentierten Probleme. Darüber hinaus fehlt Jugendlichen oft die Medienkompetenz, um mit Falschinformationen umzugehen.\n\nGleichzeitig muss man anerkennen, dass soziale Medien auch eine wichtige Rolle im sozialen Leben junger Menschen spielen. Sie ermöglichen Kommunikation, kreativen Austausch und Zugang zu Informationen. Ein vollständiges Verbot könnte zur sozialen Ausgrenzung führen.\n\nMeines Erachtens wäre ein differenzierterer Ansatz zielführender. Statt eines Verbots sollte die Medienerziehung in den Schulen gestärkt werden. Eltern müssen zeitliche Grenzen setzen, und die Plattformen selbst sollten wirksame Jugendschutzmaßnahmen implementieren.\n\nEin pauschales Verbot löst das Problem nicht – vielmehr brauchen wir eine Gesellschaft, die Jugendliche im Umgang mit digitalen Medien kompetent begleitet.",
+            "rubric": {
+                "content": "Differenzierte Argumentation (4P)",
+                "structure": "Einleitung, Pro/Contra, Meinung, Schluss (3P)",
+                "vocabulary": "B2-Redemittel: meines Erachtens, gleichzeitig, darüber hinaus (3P)",
+                "grammar": "Konjunktiv II, Passiv, Partizipialkonstruktionen (3P)"
+            }
+        },
+        {
+            "id": "b2-wr-04",
+            "level": "B2",
+            "title": "Formelle E-Mail: Beschwerde an die Stadtverwaltung",
+            "title_vi": "Email chính thức: Khiếu nại đến cơ quan thành phố",
+            "description": "Schreiben Sie eine formelle Beschwerde-E-Mail. 150-180 Wörter.",
+            "task_type": "formal_email",
+            "word_limit": {
+                "min": 150,
+                "max": 200
+            },
+            "prompt": "In Ihrer Nachbarschaft gibt es seit Wochen Baulärm von 7 bis 22 Uhr. Schreiben Sie an die Stadtverwaltung:\n- Beschreibung des Problems\n- Auswirkungen auf die Anwohner\n- Bisherige Maßnahmen (Sie haben schon einmal angerufen)\n- Forderungen: Lärmschutzmaßnahmen oder eingeschränkte Bauzeiten",
+            "sample_answer": "Betreff: Beschwerde über anhaltenden Baulärm in der Mozartstraße\n\nSehr geehrte Damen und Herren,\n\nseit nunmehr vier Wochen wird auf dem Grundstück Mozartstraße 15 eine Großbaustelle betrieben. Der dabei entstehende Lärm dauert täglich von 7 Uhr morgens bis 22 Uhr abends an und beeinträchtigt die Lebensqualität der Anwohner erheblich.\n\nMehrere Nachbarn, darunter auch ich, können weder konzentriert arbeiten noch nachts ausreichend schlafen. Besonders betroffen sind Familien mit kleinen Kindern und ältere Bewohner. Bereits am 5. Februar habe ich telefonisch bei Ihrem Amt vorgesprochen, jedoch bisher keine Rückmeldung erhalten.\n\nDaher bitte ich Sie dringend, folgende Maßnahmen zu ergreifen: Erstens sollten die Bauzeiten auf 8 bis 18 Uhr beschränkt werden. Zweitens sollten Lärmschutzwände aufgestellt werden. Ich erwarte Ihre Antwort innerhalb von zwei Wochen.\n\nMit freundlichen Grüßen\nMinh Nguyen\nMozartstraße 22, 80336 München",
+            "rubric": {
+                "content": "Problem, Auswirkungen, bisherige Maßnahmen, Forderungen (4P)",
+                "register": "Formell und sachlich (3P)",
+                "grammar": "Passiv, Partizipien, Konnektoren (3P)"
+            }
+        }
+    ]
+}
