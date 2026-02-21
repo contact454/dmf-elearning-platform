@@ -19,6 +19,8 @@ import mentorRoutes from './mentorRoutes';
 import onboardingRoutes from './onboardingRoutes';
 import grammarRoutes from './grammarRoutes';
 import socialRoutes from './socialRoutes';
+import analyticsRoutes from './analyticsRoutes';
+import notificationRoutes from './notificationRoutes';
 import { routeProtectionMatrix } from './routeProtectionMatrix';
 
 const router = express.Router();
@@ -97,5 +99,11 @@ router.use('/grammar', grammarRoutes);
 
 // Mount social routes (Study groups, Speech recognition)
 router.use('/social', socialRoutes);
+
+// Mount analytics routes (Dashboard, tracking, export)
+router.use('/analytics', analyticsRoutes);
+
+// Mount notification routes (Push, nudges, preferences)
+router.use('/notifications', notificationRoutes);
 
 export default router;
