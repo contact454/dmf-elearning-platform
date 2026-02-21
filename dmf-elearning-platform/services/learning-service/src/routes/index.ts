@@ -24,6 +24,7 @@ import notificationRoutes from './notificationRoutes';
 import assessmentRoutes from './assessmentRoutes';
 import adaptiveRoutes from './adaptiveRoutes';
 import recommendRoutes from './recommendRoutes';
+import agentRoutes from './agentRoutes';
 import { routeProtectionMatrix } from './routeProtectionMatrix';
 
 const router = express.Router();
@@ -117,5 +118,8 @@ router.use('/adaptive', adaptiveRoutes);
 
 // Mount recommendation routes (Embeddings, similarity, personalized)
 router.use('/recommend', recommendRoutes);
+
+// Mount agent routes (Socratic Tutor, Early Warning, Admin Concierge)
+router.use('/agents', agentRoutes);
 
 export default router;
