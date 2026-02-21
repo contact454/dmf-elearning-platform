@@ -20,7 +20,16 @@ const securityHeadersConfig = getSecurityHeadersConfigFromEnv();
 
 // Middleware — security headers first
 app.use(createSecurityHeaders(securityHeadersConfig));
-app.use(cors());
+
+// CORS — production domains
+const ALLOWED_ORIGINS = [
+  'http://localhost:3000',
+  'http://localhost:3001',
+  'https://dmf-elearning.vercel.app',
+  'https://dmf-learning-service-217304868664.asia-southeast1.run.app',
+  ...(process.env.ALLOWED_ORIGINS?.split(',') || []),
+].filter(Boolean);
+app.use(cors({ origin: ALLOWED_ORIGINS, credentials: true }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(createRequestLogging(requestLoggingConfig));
@@ -54,6 +63,24 @@ app.use(
 );
 
 app.use('/api', routes);
+
+// ─── Health Check (for Cloud Run + Docker HEALTHCHECK) ───
+app.get('/health', (req: Request, res: Response) => {
+  const memUsage = process.memoryUsage();
+  res.status(200).json({
+    status: 'healthy',
+    service: 'DMF Learning Service',
+    version: '1.0.0',
+    uptime: Math.floor(process.uptime()),
+    environment: process.env.NODE_ENV || 'development',
+    memory: {
+      heapUsed: `${Math.round(memUsage.heapUsed / 1024 / 1024)}MB`,
+      heapTotal: `${Math.round(memUsage.heapTotal / 1024 / 1024)}MB`,
+      rss: `${Math.round(memUsage.rss / 1024 / 1024)}MB`,
+    },
+    timestamp: new Date().toISOString(),
+  });
+});
 
 // Root endpoint
 app.get('/', (req: Request, res: Response) => {
