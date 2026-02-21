@@ -25,6 +25,7 @@ import assessmentRoutes from './assessmentRoutes';
 import adaptiveRoutes from './adaptiveRoutes';
 import recommendRoutes from './recommendRoutes';
 import agentRoutes from './agentRoutes';
+import advancedRoutes from './advancedRoutes';
 import { routeProtectionMatrix } from './routeProtectionMatrix';
 
 const router = express.Router();
@@ -121,5 +122,8 @@ router.use('/recommend', recommendRoutes);
 
 // Mount agent routes (Socratic Tutor, Early Warning, Admin Concierge)
 router.use('/agents', agentRoutes);
+
+// Mount advanced routes (Edge AI, Spatial AR, Continual Learning)
+router.use('/advanced', advancedRoutes);
 
 export default router;
