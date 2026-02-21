@@ -64,10 +64,17 @@ echo "  ✅ Artifact Registry ready"
 echo ""
 echo "🔐 Step 4: Setting up Secret Manager..."
 
-# Gemini API Key
-echo -n "AIzaSyA-14e2ohxPuvM6Kgk809WD5mDX6tJ-UIQ" | \
+# Gemini API Key — read from environment variable
+if [ -z "$GEMINI_API_KEY" ]; then
+  echo "  ⚠️  GEMINI_API_KEY environment variable not set!"
+  echo "     Set it with: export GEMINI_API_KEY='your-api-key-here'"
+  echo "     Then re-run this script."
+  exit 1
+fi
+
+echo -n "$GEMINI_API_KEY" | \
   gcloud secrets create gemini-api-key --data-file=- 2>/dev/null || \
-  echo -n "AIzaSyA-14e2ohxPuvM6Kgk809WD5mDX6tJ-UIQ" | \
+  echo -n "$GEMINI_API_KEY" | \
   gcloud secrets versions add gemini-api-key --data-file=-
 
 # Database URL placeholder
