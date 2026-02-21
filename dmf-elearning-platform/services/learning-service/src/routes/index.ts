@@ -23,6 +23,7 @@ import analyticsRoutes from './analyticsRoutes';
 import notificationRoutes from './notificationRoutes';
 import assessmentRoutes from './assessmentRoutes';
 import adaptiveRoutes from './adaptiveRoutes';
+import recommendRoutes from './recommendRoutes';
 import { routeProtectionMatrix } from './routeProtectionMatrix';
 
 const router = express.Router();
@@ -113,5 +114,8 @@ router.use('/assessment', assessmentRoutes);
 
 // Mount adaptive routes (xAPI, CP-SIPP scheduling, student profiles)
 router.use('/adaptive', adaptiveRoutes);
+
+// Mount recommendation routes (Embeddings, similarity, personalized)
+router.use('/recommend', recommendRoutes);
 
 export default router;
