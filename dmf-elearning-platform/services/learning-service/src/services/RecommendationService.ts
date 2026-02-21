@@ -1,7 +1,7 @@
 /**
  * Recommendation Service — Phase 4, Sprint 4.2 + 4.3
  * OneRec-Think (CoT reasoning) + GR2 Reranker (diversity + anti-gaming)
- * Designed for Gemini 2.0 Flash via Vertex AI
+ * Designed for Gemini 2.5 Flash via Vertex AI
  */
 
 import { findSimilar, getEmbeddingStats, type SimilarityResult } from './ContentEmbeddingService';
@@ -57,7 +57,7 @@ interface StudentProfileSummary {
 
 /**
  * Generate personalized recommendations with CoT reasoning
- * Production: Gemini 2.0 Flash API call
+ * Production: Gemini 2.5 Flash API call
  * Dev: Rule-based recommendation engine
  */
 export function getRecommendations(request: RecommendationRequest): RecommendationResponse {
@@ -313,7 +313,7 @@ function buildReasoningChain(profile: StudentBehaviorProfile, recs: Recommendati
 
 /**
  * Generate Gemini prompt for personalized recommendation
- * Used when calling Gemini 2.0 Flash API in production
+ * Used when calling Gemini 2.5 Flash API in production
  */
 export function buildGeminiRecommendationPrompt(
     profile: StudentBehaviorProfile,

@@ -1,6 +1,6 @@
 /**
  * Conversation NPC Service — Phase 2, Sprint 2.2
- * AI NPC roleplay partner using Gemini 2.0 Flash
+ * AI NPC roleplay partner using Gemini 2.5 Flash
  * Dynamic difficulty, emotion-aware, CEFR-adapted
  */
 
@@ -194,7 +194,7 @@ export function startConversation(userId: string, scenarioId: string): Conversat
 
 /**
  * Submit user message and get NPC response
- * In production: calls Gemini 2.0 Flash API
+ * In production: calls Gemini 2.5 Flash API
  */
 export async function submitUserMessage(
     sessionId: string,
@@ -213,7 +213,7 @@ export async function submitUserMessage(
         feedback,
     });
 
-    // Generate NPC response (production: Gemini 2.0 Flash API call)
+    // Generate NPC response (production: Gemini 2.5 Flash API call)
     const npcResponse = generateNPCResponse(session);
     session.turns.push({
         role: 'npc',
@@ -287,7 +287,7 @@ export function getUserSessions(userId: string): ConversationSession[] {
     return [...sessions.values()].filter(s => s.userId === userId);
 }
 
-// ─── NPC Intelligence (Gemini 2.0 Flash placeholder) ───
+// ─── NPC Intelligence (Gemini 2.5 Flash placeholder) ───
 
 function generateNPCOpening(scenario: ConversationScenario): string {
     const openings: Record<string, string> = {
@@ -421,7 +421,7 @@ function analyzeUserTurn(message: string, scenario: ConversationScenario): TurnF
 
 /**
  * Generate Gemini API system prompt for a scenario
- * (Used when calling Gemini 2.0 Flash in production)
+ * (Used when calling Gemini 2.5 Flash in production)
  */
 export function buildGeminiSystemPrompt(scenario: ConversationScenario): string {
     return `You are ${scenario.npcName}, a ${scenario.npcRole}. ${scenario.npcPersonality}.

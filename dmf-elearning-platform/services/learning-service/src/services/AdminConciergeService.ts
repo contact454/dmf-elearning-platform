@@ -1,7 +1,7 @@
 /**
  * Admin Concierge Bot — Phase 5, Sprint 5.3
  * Automated FAQ, reporting, and platform management
- * Designed for Gemini 2.0 Flash with tool calling
+ * Designed for Gemini 2.5 Flash with tool calling
  */
 
 import { getDashboardMetrics, getTrendingAlerts } from './AnalyticsService';
@@ -97,7 +97,7 @@ const FAQ: Array<{
         {
             patterns: [/gemini|api\s*key|llm|ai/i],
             category: 'technical',
-            answer: 'Gemini 2.0 Flash API key đã cấu hình trong .env. Các service sử dụng: NPC Conversations, Socratic Tutor, Recommendation Engine. Chi phí ước tính: ~$5/tháng (50M tokens).',
+            answer: 'Gemini 2.5 Flash API key đã cấu hình trong .env. Các service sử dụng: NPC Conversations, Socratic Tutor, Recommendation Engine. Chi phí ước tính: ~$5/tháng (50M tokens).',
             sources: ['.env'],
             actions: [],
         },
@@ -121,7 +121,7 @@ const FAQ: Array<{
 
 /**
  * Process an admin query and return intelligent response
- * Production: Gemini 2.0 Flash with tool calling for complex queries
+ * Production: Gemini 2.5 Flash with tool calling for complex queries
  */
 export function processQuery(query: ConciergeQuery): ConciergeResponse {
     const q = query.question.toLowerCase();

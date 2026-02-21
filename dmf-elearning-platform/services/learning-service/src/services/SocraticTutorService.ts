@@ -2,7 +2,7 @@
  * Socratic Tutor Agent — Phase 5, Sprint 5.1
  * AI tutor that NEVER gives answers directly
  * Guides through questions, hints, and scaffolding
- * Designed for Gemini 2.0 Flash via Vertex AI
+ * Designed for Gemini 2.5 Flash via Vertex AI
  */
 
 import { getStudentProfile } from './LRSService';
