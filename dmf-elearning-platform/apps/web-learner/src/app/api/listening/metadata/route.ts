@@ -7,6 +7,13 @@ import { withAuth } from '@/middleware/auth';
 
 export const GET = withAuth(async (request: NextRequest, { user }) => {
   try {
+    if (!prisma) {
+      return NextResponse.json(
+        { success: false, error: 'Database not configured' },
+        { status: 503 }
+      );
+    }
+
     const { searchParams } = new URL(request.url);
     
     // Use authenticated userId from JWT token - NEVER from query parameter
@@ -37,8 +44,8 @@ export const GET = withAuth(async (request: NextRequest, { user }) => {
       distinct: ['topic'],
     });
     const topics = exercises
-      .map(e => e.topic)
-      .filter((t): t is string => t !== null);
+      .map((e: { topic: string | null }) => e.topic)
+      .filter((t: string | null): t is string => t !== null);
 
     // Total exercises
     const totalExercises = await prisma.listeningExercise.count({
@@ -82,11 +89,11 @@ export const GET = withAuth(async (request: NextRequest, { user }) => {
     // Format response
     const metadata = {
       total: totalExercises,
-      byLevel: levelCounts.reduce((acc, item) => {
+      byLevel: levelCounts.reduce((acc: Record<string, number>, item: any) => {
         acc[item.cefrLevel] = item._count.id;
         return acc;
       }, {} as Record<string, number>),
-      byType: typeCounts.reduce((acc, item) => {
+      byType: typeCounts.reduce((acc: Record<string, number>, item: any) => {
         acc[item.exerciseType] = item._count.id;
         return acc;
       }, {} as Record<string, number>),

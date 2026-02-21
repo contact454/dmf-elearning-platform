@@ -13,6 +13,10 @@
     "./http/middlewares": {
       "import": "./dist/http/middlewares.js",
       "types": "./dist/http/middlewares.d.ts"
+    },
+    "./http/validation": {
+      "import": "./dist/http/validation.js",
+      "types": "./dist/http/validation.d.ts"
     }
   },
   "scripts": {

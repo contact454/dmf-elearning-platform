@@ -1,10 +1,10 @@
-import { Router, type Router as RouterType } from 'express';
+import { Router } from 'express';
 import rateLimit from 'express-rate-limit';
 import { LanguageToolService } from '../services/languageToolService';
 import { authMiddleware, AuthRequest } from '../middleware/authMiddleware';
 import { z } from 'zod';
 
-const router: RouterType = Router();
+const router = Router();
 const languageToolService = new LanguageToolService();
 
 // Rate limiting: max 60 requests per minute per user

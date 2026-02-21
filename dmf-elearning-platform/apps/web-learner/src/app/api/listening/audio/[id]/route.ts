@@ -6,12 +6,19 @@ import prisma from '@/lib/prisma';
 import { getSignedAudioUrl, getPublicAudioUrl } from '@/lib/r2';
 import { withAuth } from '@/middleware/auth';
 
-export const GET = withAuth(async (
+export const GET = withAuth<{ params: Promise<{ id: string }> }>(async (
   request: NextRequest,
-  { params, user }: { params: { id: string }; user: { userId: string; email?: string } }
+  context
 ) => {
   try {
-    const { id } = params;
+    if (!prisma) {
+      return NextResponse.json(
+        { success: false, error: 'Database not configured' },
+        { status: 503 }
+      );
+    }
+
+    const { id } = await context.params;
     const { searchParams } = new URL(request.url);
     const signed = searchParams.get('signed') === 'true';
 

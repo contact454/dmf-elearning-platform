@@ -353,7 +353,7 @@ export const useCanSubmit = () => {
  */
 export const useHasAnalysis = () => {
   const submission = useSpeakingSessionStore(selectCurrentSubmission);
-  return submission?.status === 'analyzed' && !!submission.overallScore;
+  return submission?.status === 'completed' && !!submission.feedback?.scores.overall;
 };
 
 /**

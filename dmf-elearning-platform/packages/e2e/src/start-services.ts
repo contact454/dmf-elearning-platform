@@ -49,11 +49,11 @@ function startService(name: string, port: number): ServiceProcess {
 export function startAllServices(): ServiceProcess[] {
   const serviceConfigs = [
     { name: 'onboarding-service', port: 3002 },
-    { name: 'curriculum-service', port: 3003 },
+    { name: 'curriculum-service', port: 3013 },
     { name: 'practice-service', port: 3001 },
     { name: 'progress-service', port: 3004 },
     { name: 'motivation-progress-service', port: 3005 },
-    { name: 'assessment-service', port: 3006 },
+    { name: 'assessment-service', port: 3014 },
   ];
 
   console.log('Starting services in E2E mode...\n');

@@ -4,13 +4,15 @@
     "generators": [
       "Claude claude-sonnet-4.6",
       "Gemini 2.5 Flash",
-      "Claude Code CLI (retry)"
+      "Claude Code CLI (retry)",
+      "Claude CLI (improvement sprint)"
     ],
     "standard": "CEFR / Goethe-Institut / Profile Deutsch",
     "created": "2026-02-21T11:45:27.757Z",
     "cross_validated": true,
     "retry_date": "2026-02-21T15:50:45.262Z",
-    "final_completion": "2026-02-21T16:43:14.522Z"
+    "final_completion": "2026-02-21T16:43:14.522Z",
+    "improvement_date": "2026-02-21T17:53:17.488Z"
   },
   "lesson_plans": [
     {
@@ -15212,7 +15214,1348 @@
       "_model": "claude-cli"
     }
   ],
-  "exam_prep": [],
+  "exam_prep": [
+    {
+      "exam": "Goethe-Zertifikat A1",
+      "level": "A1",
+      "sections": [
+        {
+          "name": "Lesen",
+          "duration_minutes": 25,
+          "num_tasks": 3,
+          "task_types": [
+            "Zuordnung (Ghép nối thông tin với văn bản ngắn)",
+            "Mehrfachauswahl (Chọn đáp án đúng từ nhiều lựa chọn)",
+            "Richtig/Falsch (Đúng hay Sai)"
+          ],
+          "strategies": [
+            "Đọc lướt tiêu đề và từ khóa trước khi đọc chi tiết — tập trung vào danh từ viết hoa (đặc điểm của tiếng Đức)",
+            "Không cần hiểu từng từ: tìm thông tin cụ thể như số, ngày, giờ, địa điểm",
+            "Đọc câu hỏi TRƯỚC khi đọc bài — biết mình cần tìm gì sẽ tiết kiệm thời gian",
+            "Chú ý các từ phủ định (nicht, kein, nie) vì chúng đảo ngược nghĩa hoàn toàn",
+            "Với dạng Richtig/Falsch, so sánh từng chi tiết nhỏ giữa câu hỏi và bài đọc"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Lesen Sie die Anzeigen a–d. Welche Anzeige passt zu der Situation?",
+              "instruction_vi": "Đọc các mẩu quảng cáo a–d. Mẩu quảng cáo nào phù hợp với tình huống sau: Bạn muốn học tiếng Đức vào buổi tối.",
+              "example_question": "Sie möchten am Abend Deutsch lernen. Welche Anzeige passt?",
+              "example_options": [
+                "a) Deutschkurs am Vormittag, Mo–Fr, 9:00–12:00 Uhr, Volkshochschule Berlin",
+                "b) Abendkurs Deutsch A1, Di + Do, 18:30–20:00 Uhr, Sprachschule Müller",
+                "c) Deutsch-Intensivkurs, Mo–Fr, 8:00–13:00 Uhr, nur im Sommer",
+                "d) Deutsch am Wochenende, Sa 10:00–14:00 Uhr, Kulturzentrum"
+              ],
+              "correct_answer": "b) Abendkurs Deutsch A1, Di + Do, 18:30–20:00 Uhr, Sprachschule Müller",
+              "tip": "Từ khóa trong câu hỏi là 'am Abend' (buổi tối). Tìm mẩu quảng cáo có giờ buổi tối (18:00 trở đi). Đáp án b có 'Abendkurs' (khóa học tối) và giờ 18:30–20:00. Người Việt hay nhầm 'Vormittag' (buổi sáng) với 'Abend' (buổi tối) — hãy học thuộc các từ chỉ thời gian trong ngày."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Lesen Sie den Text und die Aufgabe. Wählen Sie die richtige Antwort a, b oder c.",
+              "instruction_vi": "Đọc đoạn văn và chọn đáp án đúng a, b hoặc c.",
+              "example_question": "E-Mail von Anna: 'Liebe Maria, am Samstag mache ich eine Party. Sie beginnt um 19 Uhr. Kannst du einen Kuchen mitbringen? Und komm bitte nicht zu spät! Liebe Grüße, Anna.' — Wann beginnt die Party?",
+              "example_options": [
+                "a) Am Freitag um 19 Uhr",
+                "b) Am Samstag um 19 Uhr",
+                "c) Am Sonntag um 19 Uhr"
+              ],
+              "correct_answer": "b) Am Samstag um 19 Uhr",
+              "tip": "Câu hỏi hỏi 'Wann' (khi nào) — cần tìm cả ngày lẫn giờ. Trong email viết rõ 'am Samstag' và 'um 19 Uhr'. Người Việt thường đọc nhanh và chỉ nhớ giờ mà quên ngày, dẫn đến chọn sai. Đọc kỹ cả hai thông tin rồi đối chiếu với từng đáp án."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Lesen Sie den Text. Ist die Aussage richtig oder falsch?",
+              "instruction_vi": "Đọc đoạn văn. Nhận định sau đây đúng hay sai?",
+              "example_question": "Aushang im Supermarkt: 'Öffnungszeiten: Mo–Fr 8:00–20:00 Uhr, Sa 8:00–18:00 Uhr. Sonntag geschlossen.' — Aussage: Der Supermarkt ist am Sonntag geöffnet.",
+              "example_options": [
+                "a) Richtig (Đúng)",
+                "b) Falsch (Sai)"
+              ],
+              "correct_answer": "b) Falsch (Sai)",
+              "tip": "Từ 'geschlossen' nghĩa là 'đóng cửa', trái nghĩa với 'geöffnet' (mở cửa). Đây là bẫy phổ biến nhất trong phần Richtig/Falsch: đề bài dùng từ trái nghĩa với văn bản gốc. Người Việt hay nhầm vì thấy 'Sonntag' xuất hiện ở cả hai chỗ và vội chọn Richtig. Luôn kiểm tra động từ/tính từ có bị đảo nghĩa không."
+            }
+          ],
+          "common_mistakes": [
+            "Nhầm lẫn các từ chỉ thời gian: 'Vormittag' (buổi sáng), 'Nachmittag' (buổi chiều), 'Abend' (buổi tối) — tiếng Việt chia thời gian trong ngày khác tiếng Đức, đặc biệt 'Nachmittag' kéo dài đến 18:00 chứ không phải 17:00 như quan niệm của người Việt",
+            "Bỏ qua từ phủ định 'nicht' và 'kein' khi đọc: tiếng Việt đặt 'không' trước động từ rất rõ ràng, nhưng trong tiếng Đức 'nicht' có thể nằm cuối câu (ví dụ: 'Ich komme heute nicht') — người Việt đọc nửa câu đầu rồi suy luận sai vì chưa thấy từ phủ định",
+            "Không nhận ra danh từ ghép (Komposita) dài: tiếng Đức ghép nhiều từ thành một danh từ dài như 'Öffnungszeiten' (giờ mở cửa) hay 'Geburtstagsparty' (tiệc sinh nhật) — người Việt quen tách từ nên hoảng khi gặp từ dài, thay vì tách ra từng phần để đoán nghĩa (Öffnung + Zeit = mở + thời gian = giờ mở cửa)"
+          ]
+        },
+        {
+          "name": "Hören",
+          "duration_minutes": 20,
+          "num_tasks": 3,
+          "task_types": [
+            "Kurze Alltagsdialoge hören und richtige Antwort wählen",
+            "Kurze Ansagen oder Durchsagen hören und Informationen zuordnen",
+            "Alltagsgespräche hören und Aussagen als richtig oder falsch bewerten"
+          ],
+          "strategies": [
+            "Đọc kỹ câu hỏi và các đáp án TRƯỚC khi nghe — tận dụng thời gian chuẩn bị để biết cần nghe gì",
+            "Tập trung vào từ khóa (Schlüsselwörter) thay vì cố hiểu từng từ — ở trình độ A1, chỉ cần nắm ý chính",
+            "Chú ý các con số, thời gian, địa điểm và tên riêng — đây là thông tin thường bị hỏi",
+            "Nghe giọng điệu và ngữ cảnh để đoán nghĩa khi gặp từ lạ — đừng hoảng khi không hiểu hết",
+            "Luyện nghe thụ động hàng ngày bằng podcast A1 hoặc Deutsche Welle Langsam gesprochene Nachrichten"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Sie hören kurze Gespräche. Zu jedem Gespräch gibt es eine Frage. Wählen Sie die richtige Antwort a, b oder c.",
+              "instruction_vi": "Bạn nghe các đoạn hội thoại ngắn. Mỗi đoạn hội thoại có một câu hỏi. Chọn đáp án đúng a, b hoặc c.",
+              "example_question": "Sie hören: 'Entschuldigung, wann fährt der nächste Zug nach München?' — 'Um 14 Uhr 30.' — 'Danke. Und von welchem Gleis?' — 'Gleis 7.' Frage: Wann fährt der Zug?",
+              "example_options": [
+                "Um 13 Uhr 30",
+                "Um 14 Uhr 30",
+                "Um 7 Uhr"
+              ],
+              "correct_answer": "Um 14 Uhr 30",
+              "tip": "Người Việt thường nhầm lẫn giữa các số có phát âm gần giống nhau trong tiếng Đức, ví dụ 'dreizehn' (13) và 'dreißig' (30). Mẹo: '-zehn' (đuôi ngắn) = hàng chục từ 13-19, '-zig' (đuôi dài) = hàng chục 20-90. Hãy luyện nghe phân biệt cặp số này thật kỹ."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Sie hören Ansagen. Zu jeder Ansage gibt es eine Aufgabe. Ordnen Sie die richtige Information zu.",
+              "instruction_vi": "Bạn nghe các thông báo. Mỗi thông báo có một bài tập. Hãy nối thông tin đúng.",
+              "example_question": "Sie hören eine Durchsage im Supermarkt: 'Liebe Kunden, heute haben wir ein Sonderangebot: Äpfel kosten nur 1 Euro 50 pro Kilo. Das Angebot gilt bis Samstag. Sie finden die Äpfel in der Obstabteilung.' Frage: Was kostet ein Kilo Äpfel im Sonderangebot?",
+              "example_options": [
+                "1 Euro 15",
+                "1 Euro 50",
+                "5 Euro 10"
+              ],
+              "correct_answer": "1 Euro 50",
+              "tip": "Khi nghe giá tiền bằng tiếng Đức, hãy nhớ cấu trúc: số Euro + số Cent. Ví dụ 'ein Euro fünfzig' = 1,50€. Người Việt hay nhầm vì tiếng Đức đọc số hàng đơn vị TRƯỚC hàng chục: 'fünfzehn' = 15 (fünf + zehn), không phải 50. Ghi nhanh số ra giấy khi nghe."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Sie hören ein Gespräch. Zu dem Gespräch gibt es Aussagen. Entscheiden Sie: Richtig oder Falsch?",
+              "instruction_vi": "Bạn nghe một đoạn hội thoại. Có các phát biểu về đoạn hội thoại. Hãy quyết định: Đúng hay Sai?",
+              "example_question": "Sie hören: 'Hallo Maria, kommst du morgen zu meiner Party?' — 'Ja, gern! Um wie viel Uhr fängt die Party an?' — 'Um 19 Uhr. Kannst du einen Kuchen mitbringen?' — 'Natürlich! Ich backe einen Schokoladenkuchen.' Aussage: Maria bringt einen Kuchen zur Party mit.",
+              "example_options": [
+                "Richtig",
+                "Falsch"
+              ],
+              "correct_answer": "Richtig",
+              "tip": "Với dạng Richtig/Falsch, hãy cẩn thận với từ phủ định (nicht, kein, nie) và từ chỉ mức độ (immer, manchmal, oft). Người Việt thường bỏ sót 'nicht' hoặc 'kein' vì chúng nằm ở cuối câu trong tiếng Đức (do cấu trúc Satzklammer). Ví dụ: 'Ich komme morgen NICHT' — từ 'nicht' ở cuối rất dễ bị bỏ lỡ."
+            }
+          ],
+          "common_mistakes": [
+            "Nhầm lẫn các cặp số phát âm gần giống: dreizehn (13) vs. dreißig (30), vierzehn (14) vs. vierzig (40), fünfzehn (15) vs. fünfzig (50). Tiếng Việt là ngôn ngữ thanh điệu nên người Việt quen phân biệt thanh nhưng lại chưa quen phân biệt trọng âm và độ dài nguyên âm trong tiếng Đức — đây là yếu tố then chốt để phân biệt các số này.",
+            "Không nghe được phụ âm cuối từ (Auslautverhärtung): tiếng Việt không có các phụ âm cuối như -t, -d, -g, -b rõ ràng, nên người Việt dễ bỏ sót sự khác biệt giữa 'Rad' và 'Rat', hoặc không nghe ra từ 'und', 'mit', 'ist' khi người Đức nói nhanh. Điều này khiến việc nắm bắt giới từ và liên từ quan trọng trong câu trở nên khó khăn.",
+            "Bị cuốn vào việc dịch từng từ sang tiếng Việt trong đầu thay vì nghe hiểu tổng thể: cấu trúc câu tiếng Đức (động từ ở vị trí thứ 2, phủ định ở cuối câu) rất khác tiếng Việt (SVO đơn giản), nên nếu cố dịch theo thứ tự từ sẽ mất thời gian và bỏ lỡ thông tin tiếp theo. Hãy luyện tập nghe cụm từ (Chunks) thay vì từng từ riêng lẻ."
+          ]
+        },
+        {
+          "name": "Schreiben",
+          "duration_minutes": 20,
+          "num_tasks": 2,
+          "task_types": [
+            "Formular ausfüllen",
+            "Kurze persönliche Mitteilung schreiben"
+          ],
+          "strategies": [
+            "Đọc kỹ đề bài và xác định thông tin cần điền trước khi viết",
+            "Học thuộc các mẫu câu mở đầu và kết thúc thư/email: Liebe/Lieber..., Viele Grüße",
+            "Viết đủ khoảng 30 từ cho phần viết tin nhắn - không quá ngắn, không quá dài",
+            "Trả lời đủ tất cả các điểm được yêu cầu trong đề bài",
+            "Kiểm tra lại chính tả và viết hoa danh từ trước khi nộp"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Sie möchten einen Deutschkurs besuchen. Füllen Sie das Anmeldeformular aus.",
+              "instruction_vi": "Bạn muốn tham gia một khóa học tiếng Đức. Hãy điền vào phiếu đăng ký.",
+              "example_question": "Welche Information gehört in das Feld 'Familienname'?",
+              "example_options": [
+                "Nguyen",
+                "Ha Noi",
+                "nguyen@email.com",
+                "Vietnamesisch"
+              ],
+              "correct_answer": "Nguyen",
+              "tip": "Trong tiếng Đức, 'Familienname' hoặc 'Nachname' là họ (ví dụ: Nguyen, Tran, Le), còn 'Vorname' là tên gọi. Thứ tự ngược lại so với tiếng Việt: người Đức viết tên trước, họ sau."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Ihre Freundin Maria hat Geburtstag. Schreiben Sie eine kurze Nachricht an Maria. Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter): - Gratulation zum Geburtstag / - Geschenk: was? / - Party: wann kommen Sie?",
+              "instruction_vi": "Bạn Maria của bạn có sinh nhật. Viết một tin nhắn ngắn cho Maria. Viết 1-2 câu cho mỗi điểm (khoảng 30 từ): - Chúc mừng sinh nhật / - Quà: quà gì? / - Tiệc: bạn đến lúc nào?",
+              "example_question": "Welche Antwort erfüllt alle drei Punkte der Aufgabe korrekt?",
+              "example_options": [
+                "Liebe Maria, herzlichen Glückwunsch zum Geburtstag! Ich bringe dir ein Buch mit. Ich komme um 18 Uhr zur Party. Viele Grüße, Linh",
+                "Hallo Maria, alles Gute! Viele Grüße, Linh",
+                "Liebe Maria, ich komme morgen. Tschüss.",
+                "Maria, Geburtstag Party gut. Ich kommen."
+              ],
+              "correct_answer": "Liebe Maria, herzlichen Glückwunsch zum Geburtstag! Ich bringe dir ein Buch mit. Ich komme um 18 Uhr zur Party. Viele Grüße, Linh",
+              "tip": "Phải trả lời đủ TẤT CẢ các điểm trong đề bài. Mỗi điểm viết 1-2 câu. Bắt đầu bằng 'Liebe/Lieber + tên' và kết thúc bằng 'Viele Grüße' + tên bạn. Đây là dạng bài dễ mất điểm nhất nếu thiếu nội dung."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Sie können am Samstag nicht zum Unterricht kommen. Schreiben Sie eine Nachricht an Ihren Lehrer Herrn Müller. Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter): - Warum können Sie nicht kommen? / - Hausaufgaben: Frage / - Nächster Unterricht: wann?",
+              "instruction_vi": "Bạn không thể đến lớp vào thứ Bảy. Viết tin nhắn cho thầy giáo Herr Müller. Viết 1-2 câu cho mỗi điểm (khoảng 30 từ): - Tại sao bạn không đến được? / - Bài tập về nhà: hỏi / - Buổi học tiếp theo: khi nào?",
+              "example_question": "Welche Anrede ist korrekt für den Lehrer Herrn Müller?",
+              "example_options": [
+                "Lieber Herr Müller",
+                "Liebe Herr Müller",
+                "Hallo Müller",
+                "Hey Herr Müller"
+              ],
+              "correct_answer": "Lieber Herr Müller",
+              "tip": "Khi viết cho thầy/cô giáo hoặc người lớn tuổi, dùng 'Sehr geehrter Herr...' (trang trọng) hoặc 'Lieber Herr...' (thân mật hơn nhưng vẫn lịch sự). Dùng 'Liebe' cho nữ (Liebe Frau Müller), 'Lieber' cho nam (Lieber Herr Müller). Người Việt hay nhầm vì tiếng Việt không phân biệt giống đực/giống cái trong cách xưng hô."
+            }
+          ],
+          "common_mistakes": [
+            "Không viết hoa danh từ: Tiếng Đức viết hoa TẤT CẢ danh từ (das Buch, die Schule, der Geburtstag). Người Việt hay quên vì tiếng Việt không có quy tắc này. Lỗi này bị trừ điểm trong phần Schreiben.",
+            "Nhầm lẫn giống của danh từ (der/die/das) dẫn đến sai mạo từ trong câu: ví dụ viết 'ein Tasche' thay vì 'eine Tasche', hoặc 'der Buch' thay vì 'das Buch'. Tiếng Việt không có khái niệm giống nên đây là lỗi rất phổ biến.",
+            "Sai trật tự từ trong câu: Tiếng Đức đặt động từ ở vị trí thứ 2 trong câu trần thuật (Ich komme um 18 Uhr), nhưng người Việt hay viết theo trật tự tiếng Việt hoặc tiếng Anh, ví dụ 'Ich um 18 Uhr komme' hoặc bỏ sót động từ."
+          ]
+        },
+        {
+          "name": "Sprechen",
+          "duration_minutes": 15,
+          "num_tasks": 3,
+          "task_types": [
+            "Sich vorstellen (Tự giới thiệu bản thân)",
+            "Fragen stellen und beantworten (Đặt câu hỏi và trả lời)",
+            "Bitten formulieren und darauf reagieren (Đưa ra yêu cầu và phản hồi)"
+          ],
+          "strategies": [
+            "Học thuộc các cụm từ giới thiệu bản thân: Name, Alter, Land, Sprachen, Beruf, Hobby",
+            "Luyện phát âm các âm khó trong tiếng Đức: ch, sch, z, ü, ö, ä",
+            "Chuẩn bị sẵn W-Fragen (câu hỏi với từ để hỏi): Wie, Was, Wo, Woher, Wann",
+            "Nói chậm, rõ ràng — giám khảo đánh giá khả năng giao tiếp, không cần nói nhanh",
+            "Luyện tập với bạn hoặc trước gương mỗi ngày 10 phút"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Stellen Sie sich bitte vor. Sagen Sie etwas über sich: Name, Alter, Land, Wohnort, Sprachen, Beruf/Schule, Hobby.",
+              "instruction_vi": "Hãy tự giới thiệu bản thân. Nói về: Tên, tuổi, quê quán, nơi ở, ngôn ngữ, nghề nghiệp/trường học, sở thích.",
+              "example_question": "Bitte stellen Sie sich vor.",
+              "example_options": [
+                "Ich heiße Lan. Ich bin 25 Jahre alt. Ich komme aus Vietnam. Ich wohne in Hanoi. Ich spreche Vietnamesisch und ein bisschen Deutsch. Ich bin Studentin. Mein Hobby ist Lesen.",
+                "Ich Lan. 25 alt. Vietnam. Hanoi wohne. Deutsch spreche.",
+                "Tôi tên Lan. Tôi 25 tuổi. Tôi đến từ Việt Nam.",
+                "Mein Name ist Lan. Ich habe 25 Jahre. Ich komme von Vietnam."
+              ],
+              "correct_answer": "Ich heiße Lan. Ich bin 25 Jahre alt. Ich komme aus Vietnam. Ich wohne in Hanoi. Ich spreche Vietnamesisch und ein bisschen Deutsch. Ich bin Studentin. Mein Hobby ist Lesen.",
+              "tip": "Dùng 'Ich bin ... Jahre alt' (KHÔNG nói 'Ich habe ... Jahre' như tiếng Pháp). Dùng 'Ich komme aus Vietnam' (KHÔNG nói 'von Vietnam'). Học thuộc 7 điểm: Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Ziehen Sie eine Karte und stellen Sie eine Frage zum Thema auf der Karte. Ihr Partner antwortet, dann tauschen Sie.",
+              "instruction_vi": "Bốc một thẻ và đặt câu hỏi theo chủ đề trên thẻ. Đối tác trả lời, sau đó đổi lượt.",
+              "example_question": "Thema: Essen und Trinken — Stellen Sie eine Frage.",
+              "example_options": [
+                "Was essen Sie gern?",
+                "Du essen was gern?",
+                "Essen gern Sie was?",
+                "Magst du Essen?"
+              ],
+              "correct_answer": "Was essen Sie gern?",
+              "tip": "Luôn dùng 'Sie' (lịch sự) trong phòng thi, KHÔNG dùng 'du'. Cấu trúc câu hỏi W: W-Wort + Verb + Sie + ...? Ví dụ: Was trinken Sie gern? Wo wohnen Sie? Lưu ý trật tự từ: động từ luôn ở vị trí thứ 2."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Formulieren Sie eine Bitte zu einer Alltagssituation. Reagieren Sie auch auf die Bitte Ihres Partners.",
+              "instruction_vi": "Đưa ra một yêu cầu/đề nghị trong tình huống hàng ngày. Đồng thời phản hồi yêu cầu của đối tác.",
+              "example_question": "Situation: Sie sind im Deutschkurs. Sie möchten einen Stift.",
+              "example_options": [
+                "Können Sie mir bitte einen Stift geben?",
+                "Gib mir Stift!",
+                "Ich will Stift haben.",
+                "Stift, bitte, ja?"
+              ],
+              "correct_answer": "Können Sie mir bitte einen Stift geben?",
+              "tip": "Dùng 'Können Sie mir bitte ...' hoặc 'Kann ich bitte ...' để lịch sự. Người Việt hay quên từ 'bitte' (xin/vui lòng) — từ này rất quan trọng trong tiếng Đức. Để phản hồi: 'Ja, natürlich!' hoặc 'Ja, gern!' hoặc 'Tut mir leid, ich habe keinen.'"
+            }
+          ],
+          "common_mistakes": [
+            "Phát âm sai các nguyên âm biến đổi (Umlaut): ü, ö, ä — người Việt thường đọc ü thành 'u', ö thành 'o'. Cần luyện tập: ü = tròn môi như 'u' nhưng lưỡi ở vị trí 'i'; ö = tròn môi như 'o' nhưng lưỡi ở vị trí 'e'.",
+            "Nhầm lẫn trật tự từ trong câu: tiếng Việt đặt động từ tự do, nhưng tiếng Đức yêu cầu động từ ở vị trí thứ 2 trong câu trần thuật và vị trí đầu trong câu hỏi Ja/Nein. Sai: 'Ich gern Kaffee trinke.' Đúng: 'Ich trinke gern Kaffee.'",
+            "Quên chia động từ theo chủ ngữ: tiếng Việt không chia động từ nên người Việt hay dùng nguyên thể. Sai: 'Ich kommen aus Vietnam. Du sprechen Deutsch.' Đúng: 'Ich komme aus Vietnam. Du sprichst Deutsch.' Cần học thuộc bảng chia động từ ở thì hiện tại."
+          ]
+        }
+      ],
+      "_model": "claude-cli",
+      "weekly_plan": [
+        {
+          "week": 1,
+          "focus": "Grundlagen festigen (Củng cố nền tảng)",
+          "activities": [
+            "Ôn tập 500 từ vựng A1 theo chủ đề: Begrüßung, Familie, Zahlen, Farben, Essen",
+            "Luyện phát âm các âm khó: ü, ö, ä, ch, sch, z, ei, eu, ie",
+            "Nghe hiểu đoạn hội thoại ngắn (Kurze Dialoge) - 30 phút/ngày",
+            "Viết câu đơn giản với cấu trúc S-V-O và các động từ cơ bản (sein, haben, machen)",
+            "Làm quen định dạng đề thi Goethe A1: 4 phần Lesen, Hören, Schreiben, Sprechen"
+          ],
+          "mock_test": "Mini-test Lesen Teil 1 + Hören Teil 1: đọc biển báo, thông báo ngắn và nghe lấy thông tin cơ bản"
+        },
+        {
+          "week": 2,
+          "focus": "Leseverstehen & Hörverstehen (Đọc hiểu & Nghe hiểu)",
+          "activities": [
+            "Luyện Lesen Teil 1-3: đọc hiểu biển báo, email ngắn, quảng cáo nhỏ",
+            "Luyện Hören Teil 1-3: nghe thông báo nhà ga/sân bay, hội thoại hàng ngày, tin nhắn điện thoại",
+            "Học 200 từ vựng bổ sung theo chủ đề: Wohnung, Einkaufen, Verkehr, Freizeit",
+            "Luyện ngữ pháp trọng tâm: Akkusativ, Trennbare Verben, Modalverben (können, müssen, möchten)",
+            "Đọc và nghe 2 đề thi mẫu Goethe hoàn chỉnh phần Lesen + Hören"
+          ],
+          "mock_test": "Thi thử Lesen (3 Teil, 45 phút) + Hören (3 Teil, 20 phút) theo đúng format Goethe"
+        },
+        {
+          "week": 3,
+          "focus": "Schreiben & Sprechen (Viết & Nói)",
+          "activities": [
+            "Luyện Schreiben Teil 1: điền form đăng ký, biểu mẫu với thông tin cá nhân",
+            "Luyện Schreiben Teil 2: viết email/tin nhắn ngắn (30-40 từ) theo 3 Inhaltspunkte",
+            "Luyện Sprechen Teil 1: tự giới thiệu bản thân (Sich vorstellen) - tên, tuổi, quê, nghề, sở thích",
+            "Luyện Sprechen Teil 2: đặt câu hỏi và trả lời với thẻ từ (Karten) về chủ đề đời thường",
+            "Luyện Sprechen Teil 3: đưa ra yêu cầu và phản hồi trong tình huống hàng ngày (Bitten formulieren)"
+          ],
+          "mock_test": "Thi thử Schreiben (20 phút) + Sprechen mô phỏng với partner hoặc tự ghi âm (15 phút)"
+        },
+        {
+          "week": 4,
+          "focus": "Tổng ôn tập & Thi thử toàn bộ",
+          "activities": [
+            "Làm 3 bộ đề thi mẫu hoàn chỉnh từ Goethe Institut (có chấm điểm)",
+            "Ôn lại các lỗi sai thường gặp từ 3 tuần trước",
+            "Rà soát từ vựng yếu bằng flashcard, tập trung từ hay nhầm",
+            "Luyện quản lý thời gian: Lesen 25 phút, Hören 20 phút, Schreiben 20 phút",
+            "Mô phỏng phòng thi: ngồi đúng giờ, không tra từ điển, làm liên tục 4 phần"
+          ],
+          "mock_test": "Thi thử toàn bộ 4 phần (Lesen + Hören + Schreiben + Sprechen) theo đúng quy trình và thời gian thi thật của Goethe Institut"
+        }
+      ],
+      "scoring": {
+        "passing_score": 60,
+        "max_score": 100,
+        "breakdown": {
+          "Lesen": 25,
+          "Hören": 25,
+          "Schreiben": 25,
+          "Sprechen": 25
+        }
+      },
+      "tips_for_vietnamese_learners": [
+        "Phát âm: Tiếng Việt không có âm ü, ö, ä - hãy luyện riêng hàng ngày bằng cách tròn môi (ü = i + tròn môi, ö = e + tròn môi). Âm 'ch' sau a/o/u đọc như 'kh' trong tiếng Việt, sau e/i đọc nhẹ hơn gần như 'h' có ma sát.",
+        "Ngữ pháp: Tiếng Việt không có giống (der/die/das) và cách (Nominativ/Akkusativ) - hãy học danh từ luôn kèm mạo từ (der Tisch, die Lampe, das Buch) thay vì học từ trơn. Đây là lỗi phổ biến nhất của người Việt thi A1.",
+        "Trật tự câu: Tiếng Đức luôn đặt động từ ở vị trí 2 (Verb an Position 2), khác với tiếng Việt linh hoạt hơn. Ví dụ: 'Morgen gehe ich ins Kino' chứ không phải 'Morgen ich gehe ins Kino'. Hãy luyện pattern này thành phản xạ.",
+        "Phần Sprechen: Người Việt thường ngại nói và hay dừng lâu - trong thi Goethe A1, giám khảo đánh giá khả năng giao tiếp cơ bản, không cần hoàn hảo. Hãy nói đơn giản, rõ ràng, đủ ý hơn là cố dùng câu phức tạp rồi sai.",
+        "Phần Hören: Tai người Việt chưa quen tốc độ nói tiếng Đức tự nhiên - hãy nghe podcast 'Slow German' hoặc audio từ Goethe Institut mỗi ngày 20-30 phút, bắt đầu từ tốc độ chậm rồi tăng dần. Tập nghe lấy từ khóa (Schlüsselwörter) thay vì cố hiểu từng từ."
+      ]
+    },
+    {
+      "exam": "Goethe-Zertifikat A2",
+      "level": "A2",
+      "sections": [
+        {
+          "name": "Lesen",
+          "duration_minutes": 30,
+          "num_tasks": 4,
+          "task_types": [
+            "Zuordnung (Ghép nối thông tin với văn bản ngắn)",
+            "Richtig/Falsch (Đúng/Sai dựa trên bài đọc)",
+            "Multiple Choice (Chọn đáp án đúng từ bài đọc dài hơn)",
+            "Lückentext (Điền từ vào chỗ trống trong văn bản)"
+          ],
+          "strategies": [
+            "Đọc lướt tiêu đề và từ khóa trước khi đọc chi tiết — tập trung vào danh từ viết hoa (đặc trưng tiếng Đức)",
+            "Gạch chân các từ nối như 'aber', 'deshalb', 'trotzdem' vì chúng thay đổi nghĩa câu hoàn toàn",
+            "Với bài Richtig/Falsch, so sánh chính xác từng từ trong câu hỏi với văn bản — đề thi thường dùng từ đồng nghĩa để đánh lừa",
+            "Quản lý thời gian: dành tối đa 7-8 phút cho mỗi Teil, đừng kẹt quá lâu ở một câu",
+            "Đọc câu hỏi TRƯỚC khi đọc văn bản để biết cần tìm thông tin gì"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Lesen Sie die Anzeigen a–d und die Aufgaben 1–2. Welche Anzeige passt?",
+              "instruction_vi": "Đọc các mẩu tin a–d và các câu hỏi 1–2. Mẩu tin nào phù hợp?",
+              "example_question": "Sie möchten am Wochenende einen Deutschkurs besuchen. Welche Anzeige passt?\n\na) Sprachschule Müller: Deutschkurs A2, Montag bis Freitag, 9:00–12:00 Uhr. Anmeldung bis 15. März.\nb) VHS Berlin: Deutsch am Samstag! A1–B1, jeden Samstag 10:00–13:00 Uhr. Einstieg jederzeit möglich.\nc) Online-Deutsch: Lernen Sie Deutsch bequem von zu Hause. Kurse starten jeden Monat.\nd) Tandem-Partner gesucht: Ich spreche Deutsch und möchte Vietnamesisch lernen. Treffen unter der Woche abends.",
+              "example_options": [
+                "a) Sprachschule Müller",
+                "b) VHS Berlin",
+                "c) Online-Deutsch",
+                "d) Tandem-Partner"
+              ],
+              "correct_answer": "b) VHS Berlin",
+              "tip": "Chú ý từ khóa 'am Wochenende' (cuối tuần) trong câu hỏi — chỉ có đáp án b đề cập 'Samstag' (thứ Bảy). Người Việt hay nhầm vì đọc nhanh và chọn đáp án đầu tiên có chứa từ 'Deutschkurs' mà không kiểm tra điều kiện thời gian."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Lesen Sie den Text und die Aufgaben. Wählen Sie: Richtig oder Falsch?",
+              "instruction_vi": "Đọc văn bản và các câu hỏi. Chọn: Đúng hay Sai?",
+              "example_question": "Text: 'Liebe Minh, ich kann morgen leider nicht zum Unterricht kommen, weil ich einen Arzttermin habe. Kannst du mir bitte die Hausaufgaben schicken? Am Mittwoch bin ich wieder da. Viele Grüße, Anna'\n\nAufgabe: Anna geht morgen nicht zur Schule, weil sie krank ist.",
+              "example_options": [
+                "Richtig (Đúng)",
+                "Falsch (Sai)"
+              ],
+              "correct_answer": "Falsch (Sai)",
+              "tip": "Bẫy thường gặp: văn bản nói 'Arzttermin' (cuộc hẹn bác sĩ), KHÔNG nói 'krank' (bị bệnh). Người Việt hay suy luận theo thói quen 'đi bác sĩ = bị bệnh', nhưng trong đề thi Goethe bạn chỉ được dựa vào thông tin có trong văn bản, không được suy diễn thêm."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Lesen Sie den Text und die Aufgaben. Wählen Sie die richtige Antwort a, b oder c.",
+              "instruction_vi": "Đọc văn bản và các câu hỏi. Chọn đáp án đúng a, b hoặc c.",
+              "example_question": "Text: 'Das neue Schwimmbad in unserer Stadt hat seit letzter Woche geöffnet. Der Eintritt kostet 5 Euro für Erwachsene und 3 Euro für Kinder unter 12 Jahren. Am Dienstag ist der Eintritt für alle frei. Das Schwimmbad ist täglich von 8 bis 20 Uhr geöffnet, am Wochenende bis 22 Uhr.'\n\nFrage: Wann kann man kostenlos schwimmen gehen?",
+              "example_options": [
+                "a) Am Wochenende",
+                "b) Am Dienstag",
+                "c) Jeden Tag vor 12 Uhr"
+              ],
+              "correct_answer": "b) Am Dienstag",
+              "tip": "Từ 'kostenlos' (miễn phí) = 'frei' (miễn phí) trong văn bản. Đề thi Goethe rất hay dùng từ đồng nghĩa giữa câu hỏi và văn bản. Người Việt cần xây dựng vốn từ đồng nghĩa: kostenlos=gratis=frei, kaufen=erwerben, beginnen=anfangen, Geschäft=Laden."
+            }
+          ],
+          "common_mistakes": [
+            "Suy diễn theo văn hóa Việt Nam thay vì dựa vào văn bản: Người Việt hay đọc 'giữa dòng' và suy luận thêm (ví dụ: 'đi bác sĩ' tự hiểu là 'bị bệnh'). Đề Goethe yêu cầu chỉ dựa vào thông tin có trong văn bản, không thêm bớt.",
+            "Nhầm lẫn các từ phủ định và từ nối đối lập: Người Việt thường bỏ qua 'nicht', 'kein', 'nur', 'aber', 'trotzdem' khi đọc nhanh, dẫn đến hiểu ngược nghĩa câu. Ví dụ: 'Das Geschäft ist nur am Vormittag geöffnet' — từ 'nur' giới hạn thời gian nhưng hay bị bỏ sót.",
+            "Không phân biệt được danh từ ghép (Komposita) trong tiếng Đức: Tiếng Việt không có danh từ ghép dài, nên người Việt hay hoảng khi gặp từ như 'Stadtbibliotheksausweis' (thẻ thư viện thành phố). Cần tách từ cuối cùng để hiểu nghĩa chính: Ausweis = thẻ, rồi đọc ngược lại các thành phần."
+          ]
+        },
+        {
+          "name": "Hören",
+          "duration_minutes": 30,
+          "num_tasks": 4,
+          "task_types": [
+            "Kurze Alltagsgespräche verstehen",
+            "Informationen aus Durchsagen erfassen",
+            "Gespräch zwischen zwei Personen verstehen",
+            "Aussagen zu einem Thema verstehen"
+          ],
+          "strategies": [
+            "Đọc kỹ câu hỏi và các đáp án TRƯỚC khi nghe - bạn có thời gian chuẩn bị trước mỗi phần",
+            "Tập trung vào từ khóa (Schlüsselwörter) thay vì cố hiểu từng từ một",
+            "Chú ý các từ phủ định (nicht, kein, nie) vì chúng thay đổi hoàn toàn nghĩa câu",
+            "Lần nghe thứ hai: kiểm tra lại đáp án đã chọn, đặc biệt những câu chưa chắc chắn",
+            "Nghe giọng điệu (Intonation) để đoán thái độ: vui, buồn, ngạc nhiên, từ chối",
+            "Ghi chú nhanh bằng ký hiệu riêng khi nghe - không viết cả câu"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text gibt es eine Aufgabe. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+              "instruction_vi": "Bạn nghe 5 đoạn văn ngắn. Mỗi đoạn được nghe 2 lần. Mỗi đoạn có 1 câu hỏi. Chọn đáp án đúng a, b hoặc c.",
+              "example_question": "Sie hören eine Nachricht auf dem Anrufbeantworter. Wann kommt Frau Müller?",
+              "example_options": [
+                "a) Um 14:00 Uhr",
+                "b) Um 15:30 Uhr",
+                "c) Um 16:00 Uhr"
+              ],
+              "correct_answer": "b) Um 15:30 Uhr",
+              "tip": "Người Việt thường nhầm lẫn giữa các số có phát âm gần giống nhau trong tiếng Đức: dreizehn (13) vs. dreißig (30), vierzehn (14) vs. vierzig (40). Khi nghe giờ giấc và số liệu, hãy tập trung vào âm cuối: '-zehn' (đuôi ngắn) là hàng chục lẻ, '-zig' (đuôi dài) là hàng chục tròn."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Sie hören ein Gespräch. Sie hören das Gespräch zweimal. Zu dem Gespräch gibt es fünf Aufgaben. Kreuzen Sie an: Richtig oder Falsch.",
+              "instruction_vi": "Bạn nghe một cuộc hội thoại. Nghe 2 lần. Có 5 câu hỏi Đúng/Sai liên quan đến cuộc hội thoại.",
+              "example_question": "Peter und Maria sprechen über das Wochenende. Maria möchte am Samstag ins Kino gehen. Richtig oder Falsch?",
+              "example_options": [
+                "a) Richtig",
+                "b) Falsch"
+              ],
+              "correct_answer": "b) Falsch",
+              "tip": "Cẩn thận với cách người Đức từ chối gián tiếp. Thay vì nói thẳng 'Nein', họ thường dùng: 'Eigentlich wollte ich...' (Thật ra tôi định...), 'Das geht leider nicht' (Tiếc là không được), hoặc 'Vielleicht ein anderes Mal' (Có lẽ lần khác). Trong tiếng Việt, cách từ chối cũng vòng vo nhưng cấu trúc khác nên dễ bỏ lỡ tín hiệu từ chối trong tiếng Đức."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Sie hören Aussagen zu einem Thema. Sie hören die Aussagen zweimal. Zu jeder Aussage gibt es eine Aufgabe. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+              "instruction_vi": "Bạn nghe các phát biểu về một chủ đề. Nghe 2 lần. Mỗi phát biểu có 1 câu hỏi, chọn đáp án đúng a, b hoặc c.",
+              "example_question": "Was sagt die Frau über ihren Deutschkurs?",
+              "example_options": [
+                "a) Der Kurs ist zu schwer.",
+                "b) Der Kurs macht ihr Spaß.",
+                "c) Der Kurs ist zu teuer."
+              ],
+              "correct_answer": "b) Der Kurs macht ihr Spaß.",
+              "tip": "Tiếng Đức dùng nhiều từ nối thể hiện quan điểm mà người Việt hay bỏ qua: 'zwar...aber' (tuy...nhưng), 'trotzdem' (mặc dù vậy), 'deshalb' (vì vậy). Những từ này quyết định ý chính của câu nói. Ví dụ: 'Der Kurs ist zwar schwer, aber er macht Spaß' — ý chính là THÍCH chứ không phải KHÓ. Hãy luôn nghe phần SAU từ 'aber'."
+            }
+          ],
+          "common_mistakes": [
+            "Nhầm lẫn các phụ âm cuối: Người Việt thường không phân biệt được âm cuối -t, -d, -s, -ß trong tiếng Đức vì tiếng Việt không có nhiều phụ âm cuối rõ ràng. Ví dụ: 'Rat' (lời khuyên) vs. 'Rad' (xe đạp), 'Eis' vs. 'eins'. Điều này dẫn đến hiểu sai từ và chọn sai đáp án.",
+            "Bỏ qua trọng âm từ và trọng âm câu: Tiếng Việt là ngôn ngữ thanh điệu, còn tiếng Đức dùng trọng âm để nhấn mạnh thông tin quan trọng. Người Việt thường nghe đều đều mà không nhận ra từ được nhấn mạnh chính là đáp án. Ví dụ: 'Ich komme NICHT am Montag, sondern am DIENSTAG' — hai từ được nhấn mạnh là chìa khóa.",
+            "Dịch từng từ trong đầu thay vì nghe hiểu tổng thể: Người Việt có thói quen dịch sang tiếng Việt khi nghe, khiến bị chậm nhịp và bỏ lỡ thông tin tiếp theo. Đặc biệt với cấu trúc câu tiếng Đức có động từ ở cuối câu phụ (Nebensatz), nếu dịch theo thứ tự tiếng Việt sẽ không kịp hiểu ý. Hãy luyện phản xạ nghe-hiểu trực tiếp bằng tiếng Đức."
+          ]
+        },
+        {
+          "name": "Schreiben",
+          "duration_minutes": 30,
+          "num_tasks": 2,
+          "task_types": [
+            "Kurze Mitteilung schreiben (SMS/E-Mail)",
+            "Persönlicher Brief/E-Mail"
+          ],
+          "strategies": [
+            "Đọc kỹ đề bài và gạch chân các điểm cần trả lời trước khi viết",
+            "Sử dụng các cụm từ mẫu (Redemittel) cho lời chào, mở đầu và kết thúc thư",
+            "Đếm số từ: Teil 1 cần khoảng 30 từ, Teil 2 cần khoảng 80 từ",
+            "Trả lời đủ tất cả các điểm trong đề bài, không bỏ sót điểm nào",
+            "Kiểm tra lại ngữ pháp: chia động từ, vị trí động từ, giống của danh từ"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Sie können am Samstag nicht zum Deutschkurs kommen. Schreiben Sie eine SMS an Ihre Kursleiterin Frau Müller. Entschuldigen Sie sich und fragen Sie nach den Hausaufgaben.",
+              "instruction_vi": "Bạn không thể đến lớp tiếng Đức vào thứ Bảy. Viết một tin nhắn SMS cho giáo viên của bạn, bà Müller. Xin lỗi và hỏi về bài tập về nhà.",
+              "example_question": "Welche Anrede ist richtig für eine SMS an die Kursleiterin?",
+              "example_options": [
+                "Liebe Frau Müller,",
+                "Hey Müller,",
+                "Sehr geehrte Damen und Herren,",
+                "Hallo du,"
+              ],
+              "correct_answer": "Liebe Frau Müller,",
+              "tip": "Người Việt hay dùng 'Cô/Thầy' nhưng trong tiếng Đức bán trang trọng (SMS cho giáo viên), dùng 'Liebe Frau + họ' là phù hợp nhất. Không dùng 'Sehr geehrte' vì quá trang trọng cho SMS."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Ihr Freund Marco hat Sie zu seiner Geburtstagsparty eingeladen. Antworten Sie Marco: Bedanken Sie sich für die Einladung, sagen Sie, dass Sie kommen, und fragen Sie, was Sie mitbringen sollen.",
+              "instruction_vi": "Bạn Marco mời bạn đến bữa tiệc sinh nhật. Trả lời Marco: cảm ơn lời mời, xác nhận bạn sẽ đến, và hỏi bạn nên mang theo gì.",
+              "example_question": "Welcher Satz drückt die Zusage korrekt aus?",
+              "example_options": [
+                "Ich komme gern zu deiner Party!",
+                "Ich komme gern zu Ihrer Party!",
+                "Ich gern komme zu deiner Party!",
+                "Ich komme gern zu deine Party!"
+              ],
+              "correct_answer": "Ich komme gern zu deiner Party!",
+              "tip": "Chú ý phân biệt 'du/dein' (bạn bè) và 'Sie/Ihr' (trang trọng). Marco là bạn nên dùng 'du'. Người Việt hay nhầm vị trí động từ: động từ chia phải ở vị trí thứ 2 ('Ich komme'), không phải cuối câu."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Sie haben eine neue Wohnung gefunden. Schreiben Sie eine E-Mail an Ihren Freund Thomas. Beschreiben Sie die Wohnung (Größe, Zimmer), erzählen Sie, was Ihnen gefällt, und laden Sie Thomas ein, Sie zu besuchen.",
+              "instruction_vi": "Bạn tìm được căn hộ mới. Viết email cho bạn Thomas. Mô tả căn hộ (kích thước, phòng), kể điều bạn thích, và mời Thomas đến thăm.",
+              "example_question": "Welche Formulierung ist grammatisch korrekt?",
+              "example_options": [
+                "Die Wohnung hat zwei Zimmer und eine große Küche.",
+                "Die Wohnung hat zwei Zimmer und ein große Küche.",
+                "Die Wohnung hat zwei Zimmers und eine große Küche.",
+                "Die Wohnung haben zwei Zimmer und eine große Küche."
+              ],
+              "correct_answer": "Die Wohnung hat zwei Zimmer und eine große Küche.",
+              "tip": "Người Việt thường quên chia giống (Artikel) của danh từ: 'Küche' là giống cái nên dùng 'eine'. Danh từ số nhiều trong tiếng Đức không thêm 's' như tiếng Anh: 'Zimmer' không phải 'Zimmers'."
+            }
+          ],
+          "common_mistakes": [
+            "Sai vị trí động từ: Người Việt hay đặt động từ sai vị trí vì tiếng Việt không có quy tắc V2 (động từ ở vị trí thứ 2). Ví dụ sai: 'Ich morgen komme' → Đúng: 'Ich komme morgen' hoặc 'Morgen komme ich'.",
+            "Thiếu hoặc sai Artikel (mạo từ): Tiếng Việt không có mạo từ nên người Việt hay quên hoặc dùng sai der/die/das, ein/eine. Ví dụ sai: 'Ich habe Katze' → Đúng: 'Ich habe eine Katze'.",
+            "Nhầm lẫn giữa 'du' và 'Sie': Người Việt quen hệ thống xưng hô phức tạp (anh/chị/em/bạn) nên hay không chắc khi nào dùng 'du' (thân mật) và 'Sie' (trang trọng), dẫn đến trộn lẫn hai hình thức trong cùng một bài viết. Ví dụ sai: 'Lieber Thomas, können Sie kommen?' → Đúng: 'Lieber Thomas, kannst du kommen?'"
+          ]
+        },
+        {
+          "name": "Sprechen",
+          "duration_minutes": 15,
+          "num_tasks": 3,
+          "task_types": [
+            "Sich vorstellen / Über sich sprechen",
+            "Über ein Alltagsthema sprechen",
+            "Gemeinsam etwas planen"
+          ],
+          "strategies": [
+            "Luyện nói thành câu hoàn chỉnh, tránh trả lời cụt lủn chỉ 1-2 từ",
+            "Sử dụng các liên từ đơn giản: und, aber, weil, deshalb để nối câu",
+            "Chuẩn bị sẵn các cụm từ mở đầu như 'Ich denke, dass...', 'Meiner Meinung nach...', 'Vielleicht können wir...'",
+            "Luyện phát âm các âm khó với người Việt: ch, sch, ü, ö, ä, z, r",
+            "Khi không hiểu câu hỏi, hãy hỏi lại: 'Können Sie das bitte wiederholen?' thay vì im lặng",
+            "Nói chậm và rõ ràng, không cần nói nhanh — giám khảo đánh giá nội dung và ngữ pháp, không đánh giá tốc độ"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Stellen Sie sich bitte vor. Erzählen Sie etwas über sich: Name, Alter, Herkunft, Wohnort, Beruf/Schule, Familie, Hobbys, Sprachen.",
+              "instruction_vi": "Hãy giới thiệu bản thân. Kể về: tên, tuổi, quê quán, nơi ở, nghề nghiệp/trường học, gia đình, sở thích, ngôn ngữ.",
+              "example_question": "Erzählen Sie bitte: Wie heißen Sie? Woher kommen Sie? Was machen Sie beruflich? Was sind Ihre Hobbys?",
+              "example_options": [
+                "Ich heiße Lan Nguyen. Ich komme aus Vietnam, aus Ho-Chi-Minh-Stadt. Ich bin 28 Jahre alt und arbeite als Lehrerin. In meiner Freizeit lese ich gern Bücher und koche ich vietnamesisches Essen. Ich lerne seit einem Jahr Deutsch, weil ich in Deutschland studieren möchte.",
+                "Ich bin Lan. Vietnam. Lehrerin. Bücher lesen.",
+                "Mein Name ist Lan Nguyen. Ich bin aus Vietnam gekommen. Ich habe 28 Jahre alt. Mein Hobby ist Bücher.",
+                "Lan. Ho-Chi-Minh-Stadt. Kochen."
+              ],
+              "correct_answer": "Ich heiße Lan Nguyen. Ich komme aus Vietnam, aus Ho-Chi-Minh-Stadt. Ich bin 28 Jahre alt und arbeite als Lehrerin. In meiner Freizeit lese ich gern Bücher und koche ich vietnamesisches Essen. Ich lerne seit einem Jahr Deutsch, weil ich in Deutschland studieren möchte.",
+              "tip": "Chuẩn bị sẵn bài tự giới thiệu khoảng 1-2 phút. Chú ý: dùng 'Ich bin 28 Jahre alt' (KHÔNG nói 'Ich habe 28 Jahre alt'). Nói thành câu đầy đủ, có chủ ngữ và động từ, tránh trả lời chỉ bằng từ rời rạc."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Sie bekommen eine Karte mit einem Thema und Stichpunkten. Sprechen Sie über das Thema. Ihr Partner / Ihre Partnerin hört zu und stellt danach ein bis zwei Fragen.",
+              "instruction_vi": "Bạn nhận một thẻ có chủ đề và các gợi ý. Hãy nói về chủ đề đó. Đối tác sẽ lắng nghe và sau đó hỏi 1-2 câu hỏi.",
+              "example_question": "Thema: Essen und Kochen. Stichpunkte: Was essen Sie gern? Kochen Sie oft? Was ist Ihr Lieblingsgericht? Essen Sie oft im Restaurant?",
+              "example_options": [
+                "Ich esse sehr gern vietnamesisches Essen, zum Beispiel Pho oder Banh Mi. Ich koche ziemlich oft, ungefähr drei- oder viermal pro Woche. Mein Lieblingsgericht ist Pho Bo, das ist eine Suppe mit Rindfleisch und Nudeln. Manchmal gehe ich auch ins Restaurant, besonders am Wochenende mit meiner Familie.",
+                "Ich esse gern Pho. Ja, ich koche. Pho ist gut. Restaurant manchmal.",
+                "Essen ist sehr wichtig für mich. In Vietnam haben wir viele leckere Gerichte. Pho ist das bekannteste Gericht weltweit und wurde sogar von CNN als eines der besten Gerichte der Welt ausgezeichnet.",
+                "Ich mag Essen. Kochen ist okay. Ich weiß nicht was mein Lieblingsgericht ist."
+              ],
+              "correct_answer": "Ich esse sehr gern vietnamesisches Essen, zum Beispiel Pho oder Banh Mi. Ich koche ziemlich oft, ungefähr drei- oder viermal pro Woche. Mein Lieblingsgericht ist Pho Bo, das ist eine Suppe mit Rindfleisch und Nudeln. Manchmal gehe ich auch ins Restaurant, besonders am Wochenende mit meiner Familie.",
+              "tip": "Nói đủ về MỖI gợi ý trên thẻ (đừng bỏ sót gợi ý nào). Dùng các từ nối: 'zum Beispiel', 'außerdem', 'manchmal', 'besonders'. Tránh lạc đề hoặc nói quá dài về 1 ý. Lưu ý phát âm chữ 'ch' trong 'ich', 'manchmal' — người Việt hay đọc thành 's' hoặc 'sh'."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Sie und Ihr Partner / Ihre Partnerin planen gemeinsam etwas. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge Ihres Partners / Ihrer Partnerin, und einigen Sie sich.",
+              "instruction_vi": "Bạn và đối tác cùng lên kế hoạch cho một việc gì đó. Hãy đưa ra đề xuất, phản hồi đề xuất của đối tác, và đi đến thống nhất.",
+              "example_question": "Situation: Ein Freund hat Geburtstag. Sie möchten zusammen eine Party organisieren. Sprechen Sie über: Wann? Wo? Essen und Trinken? Geschenk? Wen einladen?",
+              "example_options": [
+                "Wir könnten die Party am Samstag machen, was meinst du? Ich schlage vor, dass wir die Party bei mir zu Hause machen. Wir können zusammen kochen, ich kann zum Beispiel einen Kuchen backen. Und du? Was kannst du mitbringen? Als Geschenk könnten wir vielleicht zusammen ein Buch kaufen. Sollen wir auch seine Kollegen einladen, oder nur enge Freunde?",
+                "Samstag ist gut. Bei dir. Kuchen. Buch. Freunde einladen.",
+                "Ich mache die Party am Samstag bei mir. Ich kaufe alles. Ich backe den Kuchen. Ich kaufe das Geschenk. Du musst nichts machen.",
+                "Party ist am Samstag. Wir essen Kuchen. Wir kaufen Geschenk. Fertig."
+              ],
+              "correct_answer": "Wir könnten die Party am Samstag machen, was meinst du? Ich schlage vor, dass wir die Party bei mir zu Hause machen. Wir können zusammen kochen, ich kann zum Beispiel einen Kuchen backen. Und du? Was kannst du mitbringen? Als Geschenk könnten wir vielleicht zusammen ein Buch kaufen. Sollen wir auch seine Kollegen einladen, oder nur enge Freunde?",
+              "tip": "Phần này PHẢI có tương tác qua lại — hỏi ý kiến đối tác ('Was meinst du?', 'Hast du eine Idee?'), đồng ý ('Das ist eine gute Idee!', 'Ja, das finde ich gut.') hoặc không đồng ý lịch sự ('Das ist eine gute Idee, aber vielleicht...'). KHÔNG tự quyết định hết mọi thứ một mình. Dùng 'Wir könnten...' hoặc 'Sollen wir...' thay vì ra lệnh."
+            }
+          ],
+          "common_mistakes": [
+            "Phát âm sai các nguyên âm biến đổi (Umlaut): người Việt thường đọc 'ü' thành 'u', 'ö' thành 'o', 'ä' thành 'e'. Ví dụ: 'fünf' bị đọc thành 'funf', 'möchte' thành 'mochte'. Cần luyện tập vị trí môi tròn khi phát âm ü và ö.",
+            "Thiếu tương tác trong Teil 3 (Gemeinsam planen): người Việt có xu hướng nói theo kiểu độc thoại, tự quyết định mọi thứ mà không hỏi ý kiến đối tác. Cần luôn đặt câu hỏi ngược lại: 'Was denkst du?', 'Bist du einverstanden?', 'Hast du einen anderen Vorschlag?'",
+            "Lỗi cấu trúc câu — đặt động từ sai vị trí: người Việt hay đặt động từ ở cuối câu hoặc không đảo chủ ngữ-động từ khi cần. Ví dụ sai: 'Am Samstag ich kann kommen' → Đúng: 'Am Samstag kann ich kommen'. Quy tắc: động từ chia luôn ở vị trí thứ 2 trong câu chính."
+          ]
+        }
+      ],
+      "_model": "claude-cli",
+      "weekly_plan": [
+        {
+          "week": 1,
+          "focus": "Lesen & Wortschatz (Đọc hiểu & Từ vựng)",
+          "activities": [
+            "Ôn tập từ vựng A2 theo chủ đề: Einkaufen, Wohnen, Gesundheit, Arbeit (mỗi ngày 20 từ mới)",
+            "Luyện đọc hiểu Teil 1-4 từ đề thi mẫu Goethe A2 (2 bài/ngày)",
+            "Học cấu trúc câu phổ biến trong email và thông báo tiếng Đức",
+            "Làm bài tập ghép nối (Zuordnungsaufgaben) và điền từ (Lückentext)",
+            "Đọc các bài viết ngắn trên Deutsche Welle - Deutsch lernen (mục A2)"
+          ],
+          "mock_test": "Làm bài thi thử phần Lesen (30 phút) từ bộ đề Goethe-Zertifikat A2 Modellsatz 1"
+        },
+        {
+          "week": 2,
+          "focus": "Hören & Aussprache (Nghe hiểu & Phát âm)",
+          "activities": [
+            "Nghe các đoạn hội thoại A2 về đời sống hàng ngày (Alltag) - 30 phút/ngày",
+            "Luyện nghe Teil 1-4: thông báo, hội thoại, phỏng vấn ngắn",
+            "Tập phân biệt các âm khó với người Việt: ch/sch, ü/u, ö/o, z/s",
+            "Nghe và ghi chép lại (Diktat) các đoạn ngắn 1-2 phút",
+            "Sử dụng podcast Slow German hoặc Audio-Trainer của Deutsche Welle"
+          ],
+          "mock_test": "Làm bài thi thử phần Hören (30 phút) từ bộ đề Goethe-Zertifikat A2 Modellsatz 2"
+        },
+        {
+          "week": 3,
+          "focus": "Schreiben & Sprechen (Viết & Nói)",
+          "activities": [
+            "Luyện viết email/thư ngắn theo các chủ đề thường gặp: xin lỗi, mời, hỏi thông tin, đăng ký",
+            "Học các Redemittel (mẫu câu giao tiếp) cho phần Sprechen Teil 1-3",
+            "Tập nói tự giới thiệu bản thân, mô tả tranh, đề xuất và phản hồi",
+            "Viết mỗi ngày 1 bài Schreiben hoàn chỉnh (khoảng 40-50 từ) và tự chấm",
+            "Luyện nói với bạn học hoặc ghi âm lại để tự đánh giá phát âm và ngữ pháp"
+          ],
+          "mock_test": "Làm bài thi thử phần Schreiben (30 phút) và Sprechen (15 phút) với đề mẫu Goethe A2"
+        },
+        {
+          "week": 4,
+          "focus": "Tổng ôn tập & Thi thử toàn bộ (Gesamtwiederholung)",
+          "activities": [
+            "Làm 2-3 bộ đề thi thử hoàn chỉnh (cả 4 phần) trong điều kiện giống thi thật",
+            "Ôn lại các lỗi sai thường gặp từ 3 tuần trước và sửa chữa",
+            "Rà soát ngữ pháp trọng tâm A2: Perfekt, Modalverben, Nebensätze (weil, dass, wenn)",
+            "Luyện quản lý thời gian cho từng phần thi",
+            "Nghỉ ngơi hợp lý 1-2 ngày trước ngày thi chính thức"
+          ],
+          "mock_test": "Thi thử toàn bộ 4 phần (Lesen + Hören + Schreiben + Sprechen) trong đúng thời gian quy định: Lesen 30p, Hören 30p, Schreiben 30p, Sprechen 15p"
+        }
+      ],
+      "scoring": {
+        "passing_score": 60,
+        "max_score": 100,
+        "breakdown": {
+          "Lesen": 25,
+          "Hören": 25,
+          "Schreiben": 25,
+          "Sprechen": 25
+        }
+      },
+      "tips_for_vietnamese_learners": [
+        "Chú ý phát âm các âm không có trong tiếng Việt: ü (như 'u' tròn môi), ö (như 'ơ' tròn môi), ch (sau e/i đọc nhẹ như 'sh'), z (đọc như 'ts'), và phân biệt rõ giữa sch/ch/s",
+        "Tận dụng lợi thế ngữ pháp: tiếng Việt và tiếng Đức đều đặt động từ ở vị trí thứ 2 trong câu chính (V2-Regel). Tuy nhiên cần luyện kỹ trật tự từ trong mệnh đề phụ (Nebensatz) vì động từ xuống cuối câu — đây là điểm rất khác tiếng Việt",
+        "Học từ vựng theo cụm từ (Wortgruppen) thay vì từ đơn lẻ, ví dụ: học 'einen Termin vereinbaren' thay vì chỉ học 'Termin'. Kết hợp với Artikel (der/die/das) ngay từ đầu vì tiếng Việt không có giống (Genus)",
+        "Phần Schreiben: học thuộc 5-7 mẫu email phổ biến (xin lỗi, hỏi thông tin, đăng ký khóa học, mời bạn, phản hồi quảng cáo). Trong phòng thi chỉ cần thay đổi nội dung chi tiết theo đề bài",
+        "Phần Sprechen: người Việt thường ngại nói và hay dừng lại lâu. Hãy học các câu nối (Redemittel) như 'Ich finde...', 'Vielleicht können wir...', 'Wie wäre es, wenn...' để duy trì mạch nói dù chưa nghĩ ra ý tiếp theo",
+        "Lập nhóm học (Lerngruppe) với 2-3 người Việt cùng thi để luyện Sprechen Teil 3 (thảo luận và lên kế hoạch). Nếu không có bạn học, hãy ghi âm lại phần nói của mình mỗi ngày và so sánh với mẫu",
+        "Đừng bỏ qua phần nghe thông báo công cộng (Durchsagen) trong Hören Teil 1 — đây là dạng bài người Việt hay mất điểm vì không quen nghe tiếng Đức trong bối cảnh nhà ga, siêu thị, bệnh viện"
+      ]
+    },
+    {
+      "exam": "Goethe-Zertifikat B1",
+      "level": "B1",
+      "sections": [
+        {
+          "name": "Lesen",
+          "duration_minutes": 65,
+          "num_tasks": 5,
+          "task_types": [
+            "Zuordnung (Ghép nối tiêu đề với đoạn văn)",
+            "Richtig/Falsch (Đúng/Sai dựa trên văn bản)",
+            "Lückentext (Điền từ vào chỗ trống)",
+            "Mehrfachauswahl (Chọn đáp án đúng từ nhiều lựa chọn)",
+            "Meinungsäußerung (Xác định quan điểm của tác giả)"
+          ],
+          "strategies": [
+            "Đọc lướt (Skimming) tiêu đề và câu đầu mỗi đoạn trước khi đọc chi tiết",
+            "Gạch chân từ khóa trong câu hỏi rồi tìm từ đồng nghĩa trong bài đọc",
+            "Chú ý các từ nối (aber, trotzdem, deshalb, außerdem) vì chúng thay đổi hướng nghĩa câu",
+            "Không dịch từng từ sang tiếng Việt — tập trung hiểu ý chính của cả câu",
+            "Quản lý thời gian: dành tối đa 13 phút cho mỗi Teil, đừng kẹt ở 1 câu quá lâu"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Lesen Sie die Überschriften (a–f) und die Kurztexte (1–4). Welche Überschrift passt zu welchem Text? Zwei Überschriften bleiben übrig.",
+              "instruction_vi": "Đọc các tiêu đề (a–f) và các đoạn văn ngắn (1–4). Tiêu đề nào phù hợp với đoạn văn nào? Hai tiêu đề sẽ thừa.",
+              "example_question": "Text 1: \"Immer mehr junge Menschen in Deutschland entscheiden sich für ein Studium im Ausland. Besonders beliebt sind Länder wie die Niederlande, Österreich und Großbritannien. Die Gründe dafür sind vielfältig: bessere Berufschancen, neue Kulturen kennenlernen und Fremdsprachenkenntnisse verbessern.\" — Welche Überschrift passt?",
+              "example_options": [
+                "a) Auslandsstudium wird immer beliebter",
+                "b) Deutsche Universitäten verlieren Studenten",
+                "c) Sprachkurse für junge Leute",
+                "d) Neue Regeln für internationale Studenten"
+              ],
+              "correct_answer": "a) Auslandsstudium wird immer beliebter",
+              "tip": "Người Việt hay bị lừa bởi đáp án có chứa từ giống trong bài (ví dụ 'Studenten' ở đáp án b). Hãy so sánh ý CHÍNH của đoạn văn với tiêu đề, không chỉ so từ lẻ."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Lesen Sie den Text und die Aufgaben. Kreuzen Sie an: Richtig oder Falsch?",
+              "instruction_vi": "Đọc đoạn văn và các câu hỏi. Đánh dấu: Đúng hay Sai?",
+              "example_question": "Text: \"Die Stadtbibliothek Frankfurt bietet ab nächstem Monat kostenlose Deutschkurse für Anfänger an. Die Kurse finden jeden Dienstag und Donnerstag von 18 bis 20 Uhr statt. Eine Anmeldung ist nicht nötig, aber die Teilnehmerzahl ist auf 20 Personen begrenzt.\" — Aussage: Man muss sich vorher für den Kurs anmelden.",
+              "example_options": [
+                "Richtig",
+                "Falsch"
+              ],
+              "correct_answer": "Falsch",
+              "tip": "Cẩn thận với phủ định kép trong tiếng Đức (nicht nötig = không cần thiết). Người Việt thường bị nhầm vì tiếng Việt dùng 'không cần' đơn giản hơn, còn tiếng Đức có thể dùng nicht + nötig, kein + Pflicht, ohne + Anmeldung — tất cả đều mang nghĩa phủ định."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Lesen Sie den Text. Wählen Sie für die Aufgaben die richtige Lösung (a, b oder c).",
+              "instruction_vi": "Đọc đoạn văn. Chọn đáp án đúng (a, b hoặc c) cho mỗi câu hỏi.",
+              "example_question": "Text: \"Herr Müller hat lange überlegt, ob er seinen Job wechseln soll. Einerseits verdient er gut, andererseits fühlt er sich seit Jahren unterfordert. Nach einem Gespräch mit seiner Frau hat er sich schließlich entschieden, eine eigene Firma zu gründen.\" — Was hat Herr Müller am Ende gemacht?",
+              "example_options": [
+                "a) Er ist bei seiner alten Firma geblieben.",
+                "b) Er hat beschlossen, sich selbstständig zu machen.",
+                "c) Er hat eine besser bezahlte Stelle gesucht."
+              ],
+              "correct_answer": "b) Er hat beschlossen, sich selbstständig zu machen.",
+              "tip": "Từ 'eine eigene Firma gründen' (thành lập công ty riêng) được diễn đạt lại thành 'sich selbstständig machen' (tự kinh doanh). Đề thi Goethe B1 hầu như KHÔNG bao giờ dùng lại nguyên văn — đáp án đúng luôn được paraphrase (diễn đạt lại). Người Việt cần luyện nhận biết từ đồng nghĩa tiếng Đức thay vì tìm từ giống hệt."
+            }
+          ],
+          "common_mistakes": [
+            "Dịch từng từ (word-by-word translation): Người Việt có xu hướng dịch từng từ tiếng Đức sang tiếng Việt rồi mới hiểu. Điều này tốn thời gian và dễ hiểu sai nghĩa, đặc biệt với câu có cấu trúc đảo ngữ (Inversionsstruktur) hoặc mệnh đề phụ (Nebensatz) có động từ ở cuối câu — vốn không tồn tại trong tiếng Việt.",
+            "Nhầm lẫn giữa từ nối tương phản và nguyên nhân: Người Việt thường không phân biệt rõ 'trotzdem' (mặc dù vậy), 'deshalb' (vì vậy), và 'außerdem' (ngoài ra) khi đọc nhanh, dẫn đến hiểu ngược ý câu. Trong bài thi Richtig/Falsch, sai một từ nối có thể khiến đáp án đảo ngược hoàn toàn.",
+            "Bỏ qua tiền tố động từ tách (trennbare Verben): Khi đọc câu dài, người Việt hay bỏ sót tiền tố ở cuối câu (ví dụ: 'Er nahm das Angebot nicht an' — 'an|nehmen' nghĩa là chấp nhận, nhưng nếu chỉ đọc 'nahm' sẽ hiểu thành 'lấy'). Điều này đặc biệt nguy hiểm ở Teil 4 và Teil 5 khi bài đọc dài và phức tạp."
+          ]
+        },
+        {
+          "name": "Hören",
+          "duration_minutes": 40,
+          "num_tasks": 4,
+          "task_types": [
+            "Globalverstehen (Nghe hiểu tổng quát)",
+            "Detailverstehen (Nghe hiểu chi tiết)",
+            "Selektives Verstehen (Nghe hiểu chọn lọc)",
+            "Sprachnachrichten verstehen (Nghe hiểu tin nhắn thoại)"
+          ],
+          "strategies": [
+            "Đọc kỹ câu hỏi và các lựa chọn TRƯỚC khi nghe - tận dụng thời gian chuẩn bị để khoanh vùng từ khóa",
+            "Chú ý các từ nối logic: aber (nhưng), trotzdem (mặc dù vậy), deshalb (vì vậy) - đây thường là tín hiệu đáp án thay đổi hướng",
+            "Không hoảng khi không hiểu từng từ - tập trung vào ý chính và ngữ cảnh tổng thể",
+            "Lần nghe thứ hai: kiểm tra lại đáp án đã chọn và tập trung vào phần còn nghi ngờ",
+            "Ghi chú nhanh bằng ký hiệu riêng khi nghe - không viết câu dài"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text gibt es eine Aufgabe. Kreuzen Sie die richtige Lösung an.",
+              "instruction_vi": "Bạn nghe 5 đoạn văn ngắn. Mỗi đoạn được nghe 2 lần. Mỗi đoạn có một câu hỏi. Chọn đáp án đúng.",
+              "example_question": "Was sagt die Frau über das Wetter am Wochenende?",
+              "example_options": [
+                "a) Es wird das ganze Wochenende regnen.",
+                "b) Am Samstag regnet es, aber am Sonntag wird es sonnig.",
+                "c) Das Wetter wird am ganzen Wochenende schön sein."
+              ],
+              "correct_answer": "b",
+              "tip": "Người Việt hay bị bẫy bởi câu đầu tiên nghe được. Trong bài này, người nói thường đề cập một thông tin rồi SỬA LẠI bằng 'aber' hoặc 'allerdings'. Đáp án thường nằm SAU từ nối chứ không phải trước."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören das Gespräch zweimal. Zu dem Gespräch gibt es Aufgaben. Kreuzen Sie an: Richtig oder Falsch.",
+              "instruction_vi": "Bạn nghe một cuộc hội thoại giữa hai người. Nghe 2 lần. Xác định các phát biểu là Đúng (Richtig) hay Sai (Falsch).",
+              "example_question": "Der Mann hat seinen Deutschkurs schon abgeschlossen. Richtig oder Falsch?",
+              "example_options": [
+                "a) Richtig",
+                "b) Falsch"
+              ],
+              "correct_answer": "b",
+              "tip": "Cẩn thận với thì quá khứ và hiện tại trong tiếng Đức. Người Việt thường không phân biệt được 'hat gemacht' (đã làm xong) và 'macht gerade' (đang làm) khi nghe nhanh vì tiếng Việt không chia thì bằng cách biến đổi động từ. Tập trung nghe trợ động từ 'hat/ist' + Partizip II."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Zu jedem Gespräch gibt es eine Aufgabe. Ordnen Sie zu.",
+              "instruction_vi": "Bạn nghe 5 đoạn hội thoại ngắn. Mỗi đoạn CHỈ NGHE 1 LẦN. Nối mỗi đoạn với chủ đề phù hợp.",
+              "example_question": "Worum geht es in dem Gespräch?",
+              "example_options": [
+                "a) Einen Arzttermin vereinbaren",
+                "b) Eine Reise planen",
+                "c) Sich über einen Kurs informieren",
+                "d) Eine Wohnung suchen"
+              ],
+              "correct_answer": "c",
+              "tip": "Đây là phần khó nhất vì chỉ nghe MỘT lần. Người Việt hay mất tập trung ở giây đầu tiên vì cố dịch từng từ. Thay vào đó, hãy nghe từ khóa chủ đề: 'Termin/Arzt' = bác sĩ, 'Flug/Hotel' = du lịch, 'Kurs/lernen' = khóa học, 'Miete/Zimmer' = nhà ở. Chỉ cần bắt được 2-3 từ khóa là đủ chọn đáp án."
+            }
+          ],
+          "common_mistakes": [
+            "Nhầm lẫn các phụ âm cuối: Người Việt khó phân biệt '-ch' /ç/ và '-sch' /ʃ/, ví dụ 'Kirche' (nhà thờ) và 'Kirsche' (quả anh đào), hoặc 'mich' và 'Misch-'. Điều này dẫn đến hiểu sai từ và chọn sai đáp án. Cách khắc phục: luyện nghe cặp từ tối thiểu (Minimalpaar) hàng ngày.",
+            "Bỏ sót phủ định và từ hạn định: Tiếng Đức dùng 'nicht', 'kein', 'nie', 'kaum' để phủ định, và các từ như 'nur', 'fast', 'etwa' để hạn định ý nghĩa. Người Việt thường nghe được danh từ/động từ chính nhưng bỏ qua những từ nhỏ này, dẫn đến hiểu ngược ý hoàn toàn. Ví dụ: nghe 'fahren' mà bỏ qua 'nicht' phía trước.",
+            "Không quen với cách nói gián tiếp và lịch sự của người Đức: Thay vì nói thẳng 'Nein', người Đức thường dùng 'Das wäre vielleicht nicht so gut' hoặc 'Ich bin mir nicht sicher, ob das klappt' để từ chối. Người Việt quen với cách từ chối gián tiếp trong tiếng Việt nhưng lại không nhận ra dạng này trong tiếng Đức vì chưa quen với Konjunktiv II (wäre, könnte, würde). Cần luyện nhận diện các cấu trúc này như tín hiệu từ chối/không đồng ý."
+          ]
+        },
+        {
+          "name": "Schreiben",
+          "duration_minutes": 60,
+          "num_tasks": 3,
+          "task_types": [
+            "Persönliche E-Mail schreiben",
+            "Formelle Meinungsäußerung",
+            "Informelle Nachricht / Antwort"
+          ],
+          "strategies": [
+            "Đọc kỹ đề bài và gạch chân các điểm cần trả lời trước khi viết",
+            "Sử dụng các cụm từ nối (Konnektoren) như 'deshalb', 'außerdem', 'trotzdem' để tăng điểm mạch lạc",
+            "Phân bổ thời gian: 20 phút cho Aufgabe 1, 25 phút cho Aufgabe 2, 15 phút cho Aufgabe 3",
+            "Luôn viết lời chào đầu (Anrede) và lời kết (Grußformel) phù hợp với ngữ cảnh trang trọng hay thân mật",
+            "Kiểm tra lại các lỗi về giống (der/die/das), cách (Kasus) và vị trí động từ trước khi nộp bài"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Sie haben eine E-Mail von Ihrer Freundin Lisa bekommen. Lisa hat geschrieben, dass sie nächsten Monat nach Vietnam reisen möchte. Schreiben Sie eine Antwort. Schreiben Sie etwas zu allen vier Punkten: 1) Beste Reisezeit, 2) Sehenswürdigkeiten, 3) Essen, 4) Unterkunft. Schreiben Sie circa 80 Wörter.",
+              "instruction_vi": "Bạn nhận được email từ bạn Lisa. Lisa viết rằng cô ấy muốn đi du lịch Việt Nam vào tháng sau. Hãy viết thư trả lời. Viết về cả 4 điểm: 1) Thời điểm du lịch tốt nhất, 2) Địa điểm tham quan, 3) Đồ ăn, 4) Chỗ ở. Viết khoảng 80 từ.",
+              "example_question": "Welche der folgenden Anreden passt am besten für diese E-Mail?",
+              "example_options": [
+                "a) Sehr geehrte Frau Lisa,",
+                "b) Liebe Lisa,",
+                "c) Hallo Frau Lisa,",
+                "d) Guten Tag Lisa,"
+              ],
+              "correct_answer": "b) Liebe Lisa,",
+              "tip": "Với email thân mật (informell), dùng 'Liebe/Lieber + tên'. Người Việt hay nhầm dùng 'Sehr geehrte/r' cho bạn bè — đây là cách xưng hô trang trọng chỉ dùng trong thư công việc."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "In einer Online-Zeitung lesen Sie einen Artikel zum Thema 'Sollen Kinder schon in der Grundschule eine Fremdsprache lernen?'. Schreiben Sie Ihre Meinung dazu. Schreiben Sie circa 80 Wörter. Begründen Sie Ihre Meinung und nennen Sie Vor- und Nachteile.",
+              "instruction_vi": "Trên báo mạng, bạn đọc bài viết về chủ đề 'Trẻ em có nên học ngoại ngữ từ tiểu học không?'. Hãy viết ý kiến của bạn. Viết khoảng 80 từ. Giải thích lý do và nêu ưu điểm, nhược điểm.",
+              "example_question": "Welcher Satzanfang eignet sich am besten, um eine Meinung einzuleiten?",
+              "example_options": [
+                "a) Ich finde das nicht gut.",
+                "b) Meiner Meinung nach ist es sinnvoll, dass Kinder früh eine Fremdsprache lernen, weil...",
+                "c) Kinder sollen lernen.",
+                "d) Das Thema ist interessant."
+              ],
+              "correct_answer": "b) Meiner Meinung nach ist es sinnvoll, dass Kinder früh eine Fremdsprache lernen, weil...",
+              "tip": "Aufgabe 2 yêu cầu viết mang tính nửa trang trọng (halbformell). Người Việt thường viết quá ngắn gọn hoặc thiếu lập luận. Hãy dùng cấu trúc: nêu ý kiến → lý do → ví dụ → kết luận. Dùng 'Meiner Meinung nach', 'Ich bin der Meinung, dass...' để mở đầu."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Sie können am Samstag nicht zum Geburtstag von Ihrem Freund Markus kommen. Schreiben Sie eine kurze Nachricht an Markus. Entschuldigen Sie sich, nennen Sie den Grund und machen Sie einen neuen Vorschlag. Schreiben Sie circa 40 Wörter.",
+              "instruction_vi": "Bạn không thể đến dự sinh nhật bạn Markus vào thứ Bảy. Hãy viết tin nhắn ngắn cho Markus. Xin lỗi, nêu lý do và đề xuất gặp vào dịp khác. Viết khoảng 40 từ.",
+              "example_question": "Welcher Satz drückt eine Entschuldigung und einen Gegenvorschlag korrekt aus?",
+              "example_options": [
+                "a) Es tut mir leid, dass ich nicht kommen kann. Ich muss am Samstag arbeiten. Können wir uns nächste Woche treffen?",
+                "b) Ich komme nicht. Tschüss.",
+                "c) Ich habe keine Zeit für deine Party.",
+                "d) Samstag ist schlecht. Vielleicht später."
+              ],
+              "correct_answer": "a) Es tut mir leid, dass ich nicht kommen kann. Ich muss am Samstag arbeiten. Können wir uns nächste Woche treffen?",
+              "tip": "Aufgabe 3 ngắn nhưng phải đủ 3 nội dung: xin lỗi + lý do + đề xuất mới. Người Việt hay viết quá ngắn hoặc quên đề xuất thay thế. Dùng 'Es tut mir leid, dass...' và 'Können wir...?' để đạt đủ điểm."
+            }
+          ],
+          "common_mistakes": [
+            "Nhầm lẫn giống của danh từ (Genus): Người Việt không có khái niệm giống trong ngữ pháp nên hay viết sai der/die/das. Ví dụ: 'die E-Mail' (không phải 'der E-Mail'), 'der Grund' (không phải 'die Grund'). Lỗi này bị trừ điểm ở mục Korrektheit.",
+            "Sai vị trí động từ trong câu phụ (Nebensatz): Tiếng Việt có trật tự SVO cố định, nên người Việt hay quên đặt động từ ở cuối câu phụ. Ví dụ sai: 'weil ich muss arbeiten' → đúng: 'weil ich arbeiten muss'. Cần chú ý với dass, weil, obwohl, wenn.",
+            "Thiếu hoặc sai giới từ đi kèm động từ (Präpositionen): Tiếng Việt không có hệ thống giới từ phức tạp như tiếng Đức. Người Việt hay viết 'Ich freue mich für deine Party' thay vì 'Ich freue mich auf deine Party', hoặc 'Ich interessiere mich in Musik' thay vì 'Ich interessiere mich für Musik'."
+          ]
+        },
+        {
+          "name": "Sprechen",
+          "duration_minutes": 15,
+          "num_tasks": 3,
+          "task_types": [
+            "Gemeinsam etwas planen",
+            "Ein Thema präsentieren",
+            "Über ein Thema sprechen"
+          ],
+          "strategies": [
+            "Luyện nói theo cấu trúc: Einleitung → Hauptteil → Schluss để trình bày mạch lạc",
+            "Dùng các cụm liên kết như 'Einerseits... andererseits', 'Außerdem', 'Meiner Meinung nach' để tăng điểm mạch lạc",
+            "Luyện phát âm các âm khó với người Việt: ch, sch, r, ü, ö trước khi thi",
+            "Chuẩn bị sẵn các câu mẫu cho phần lập kế hoạch chung: 'Ich schlage vor, dass...', 'Wie wäre es, wenn...'",
+            "Khi không biết từ, dùng cách diễn giải (Umschreibung) thay vì im lặng"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Aufgabe 1: Gemeinsam etwas planen. Sie und Ihr Partner möchten für einen Freund eine Überraschungsparty organisieren. Besprechen Sie zusammen die folgenden Punkte: Wann und wo soll die Party stattfinden? Wen sollen Sie einladen? Was sollen Sie essen und trinken? Welche Aktivitäten planen Sie?",
+              "instruction_vi": "Bài 1: Cùng lập kế hoạch. Bạn và đối tác muốn tổ chức tiệc bất ngờ cho một người bạn. Hãy thảo luận các điểm sau: Tiệc diễn ra khi nào và ở đâu? Mời ai? Ăn uống gì? Hoạt động gì?",
+              "example_question": "Wie beginnen Sie das Gespräch mit Ihrem Partner?",
+              "example_options": [
+                "Ich schlage vor, dass wir die Party am Samstag machen. Was meinst du?",
+                "Party am Samstag.",
+                "Ich weiß nicht, was denkst du?",
+                "Samstag ist gut, oder nicht gut?"
+              ],
+              "correct_answer": "Ich schlage vor, dass wir die Party am Samstag machen. Was meinst du?",
+              "tip": "Người Việt thường trả lời quá ngắn gọn. Trong phần này cần nói câu đầy đủ với Nebensatz (mệnh đề phụ) và luôn hỏi lại ý kiến đối tác để thể hiện tính tương tác."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Aufgabe 2: Ein Thema präsentieren. Präsentieren Sie Ihren Zuhörern das Thema 'Soziale Medien'. Sprechen Sie über: Ihre persönliche Erfahrung, die Situation in Ihrem Heimatland, Vorteile und Nachteile, Ihre Meinung und Begründung.",
+              "instruction_vi": "Bài 2: Trình bày một chủ đề. Hãy trình bày chủ đề 'Mạng xã hội' cho người nghe. Nói về: Kinh nghiệm cá nhân, tình hình ở Việt Nam, ưu và nhược điểm, ý kiến và lý do của bạn.",
+              "example_question": "Wie leiten Sie Ihre Präsentation ein?",
+              "example_options": [
+                "Ich möchte heute über das Thema 'Soziale Medien' sprechen. Dieses Thema ist besonders aktuell, weil fast jeder ein Smartphone hat.",
+                "Soziale Medien. Ich benutze Facebook.",
+                "Heute spreche ich über Soziale Medien. Das ist gut und schlecht.",
+                "Mein Thema ist Soziale Medien. In Vietnam benutzen viele Leute es."
+              ],
+              "correct_answer": "Ich möchte heute über das Thema 'Soziale Medien' sprechen. Dieses Thema ist besonders aktuell, weil fast jeder ein Smartphone hat.",
+              "tip": "Mở đầu bài trình bày cần có câu giới thiệu chủ đề rõ ràng và lý do tại sao chủ đề quan trọng. Tránh thói quen nói thẳng vào nội dung mà không có phần dẫn nhập — đây là lỗi phổ biến của người Việt."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Aufgabe 3: Über ein Thema sprechen. Ihr Partner hat über das Thema 'Haustiere' gesprochen. Stellen Sie eine Rückfrage und äußern Sie Ihre eigene Meinung zum Thema.",
+              "instruction_vi": "Bài 3: Nói về một chủ đề. Đối tác vừa trình bày về chủ đề 'Thú cưng'. Hãy đặt câu hỏi phản hồi và nêu ý kiến riêng của bạn.",
+              "example_question": "Wie reagieren Sie auf die Präsentation Ihres Partners?",
+              "example_options": [
+                "Vielen Dank für Ihre Präsentation. Ich finde das Thema sehr interessant. Sie haben gesagt, dass Haustiere viel Verantwortung brauchen. Könnten Sie ein konkretes Beispiel nennen? Meiner Meinung nach sind Haustiere gut für Kinder, weil sie lernen, Verantwortung zu übernehmen.",
+                "Ja, ich mag auch Tiere. Ich habe eine Katze.",
+                "Gute Präsentation. Haustiere sind schön.",
+                "Ich stimme zu. Tiere sind gut."
+              ],
+              "correct_answer": "Vielen Dank für Ihre Präsentation. Ich finde das Thema sehr interessant. Sie haben gesagt, dass Haustiere viel Verantwortung brauchen. Könnten Sie ein konkretes Beispiel nennen? Meiner Meinung nach sind Haustiere gut für Kinder, weil sie lernen, Verantwortung zu übernehmen.",
+              "tip": "Phần này yêu cầu 3 bước: (1) cảm ơn/nhận xét bài trình bày, (2) đặt câu hỏi cụ thể liên quan đến nội dung đối tác đã nói, (3) nêu ý kiến riêng có lý do. Người Việt thường chỉ đồng ý ngắn gọn — cần mở rộng câu trả lời."
+            }
+          ],
+          "common_mistakes": [
+            "Phát âm sai các âm đặc trưng tiếng Đức: nhầm 'sch' /ʃ/ thành 's', nhầm 'ch' /ç/ thành 'sh' hoặc 'k', không phân biệt 'ü' /yː/ và 'u' /uː/, 'ö' /øː/ và 'o' /oː/. Ví dụ: 'schön' phát âm thành 'sön', 'ich' phát âm thành 'ish' hoặc 'ik'.",
+            "Trả lời quá ngắn và thiếu cấu trúc ngữ pháp phức tạp. Người Việt có xu hướng nói câu đơn giản (Hauptsatz) mà thiếu mệnh đề phụ (Nebensatz) với 'weil', 'dass', 'obwohl', 'wenn'. Điều này làm giảm điểm ở tiêu chí 'Ausdrucksfähigkeit' (khả năng diễn đạt).",
+            "Thiếu tính tương tác trong phần Gemeinsam planen: không hỏi lại ý kiến đối tác, không phản ứng với đề xuất của đối tác (đồng ý/không đồng ý/đề xuất thay thế). Văn hóa Việt Nam có xu hướng tránh phản đối trực tiếp, nhưng trong thi B1 cần thể hiện rõ ràng quan điểm bằng các cụm như 'Das ist eine gute Idee, aber...', 'Ich sehe das anders, weil...'."
+          ]
+        }
+      ],
+      "_model": "claude-cli",
+      "weekly_plan": [
+        {
+          "week": 1,
+          "focus": "Lesen & Wortschatz (Đọc hiểu & Từ vựng)",
+          "activities": [
+            "Luyện đọc 2 bài Lesen Teil 1-5 mỗi ngày theo đúng format Goethe B1",
+            "Học 30 từ vựng B1 Wortliste mỗi ngày theo chủ đề (Arbeit, Gesundheit, Reisen, Wohnen)",
+            "Luyện kỹ thuật Skimming và Scanning cho Teil 1 (Blog-Zuordnung) và Teil 2 (Zeitungsartikel)",
+            "Làm quen với dạng Richtig/Falsch ở Teil 3 và điền thông tin Teil 4-5",
+            "Ghi chép Redemittel và cụm từ cố định (feste Wendungen) thường gặp trong đề thi"
+          ],
+          "mock_test": "Mock Lesen komplett (65 phút) - 5 Teile với 30 câu hỏi, chấm điểm theo thang Goethe"
+        },
+        {
+          "week": 2,
+          "focus": "Hören & Aussprache (Nghe hiểu & Phát âm)",
+          "activities": [
+            "Luyện nghe Hören Teil 1 (Ansagen/Durchsagen) và Teil 2 (Radiointerview) mỗi ngày",
+            "Tập nghe Teil 3 (Alltagsgespräch) và Teil 4 (Diskussion) với tốc độ thực tế",
+            "Shadowing 15-20 phút/ngày với audio B1 để cải thiện phát âm Umlaute (ä, ö, ü) và ch/sch",
+            "Luyện phân biệt các âm khó cho người Việt: r/l, b/p, d/t, z/s trong ngữ cảnh nghe",
+            "Nghe Deutsche Welle Langsam gesprochene Nachrichten và podcast Slow German mỗi ngày"
+          ],
+          "mock_test": "Mock Hören komplett (40 phút) - 4 Teile, nghe 1 hoặc 2 lần tùy Teil, chấm điểm theo rubric"
+        },
+        {
+          "week": 3,
+          "focus": "Schreiben & Sprechen (Viết & Nói)",
+          "activities": [
+            "Viết 1 bài Schreiben Teil 1 (persönliche E-Mail, ~80 từ) và Teil 2 (Meinungsäußerung, ~80 từ) mỗi ngày",
+            "Học thuộc các Redemittel cho Sprechen: Teil 1 (gemeinsam planen), Teil 2 (Präsentation), Teil 3 (Feedback)",
+            "Luyện nói Teil 1 với partner hoặc tự ghi âm: lên kế hoạch chung (Wir sollten..., Ich schlage vor...)",
+            "Chuẩn bị 5 chủ đề Präsentation Teil 2: Einleitung, Vorteile/Nachteile, eigene Erfahrung, Schluss",
+            "Luyện viết với cấu trúc Anrede-Einleitung-Hauptteil-Schluss, chú ý Konjunktiv II cho lịch sự"
+          ],
+          "mock_test": "Mock Schreiben (60 phút) + Mock Sprechen (15 phút mỗi cặp) với timer và rubric chấm điểm Goethe"
+        },
+        {
+          "week": 4,
+          "focus": "Tổng ôn & Simulation thi thật (Prüfungssimulation)",
+          "activities": [
+            "Làm 2 bộ đề thi thử hoàn chỉnh (Modellsatz) từ Goethe-Institut trong điều kiện thi thật",
+            "Rà soát lỗi sai thường gặp: Artikelfehler (der/die/das), Wortstellung (V2-Position), Präpositionen",
+            "Ôn tập 200 từ vựng B1 quan trọng nhất và các Konnektoren (deshalb, trotzdem, obwohl, weil)",
+            "Luyện quản lý thời gian: Lesen 65 phút, Hören 40 phút, Schreiben 60 phút",
+            "Tập thư giãn và chiến thuật làm bài: đọc câu hỏi trước, loại trừ đáp án sai, không bỏ trống"
+          ],
+          "mock_test": "Full Simulation 2 ngày liên tiếp: Ngày 1 (Lesen + Hören + Schreiben), Ngày 2 (Sprechen) - chấm theo tiêu chí Goethe với điểm từng Modul"
+        }
+      ],
+      "scoring": {
+        "passing_score": 60,
+        "max_score": 100,
+        "breakdown": {
+          "Lesen": 25,
+          "Hören": 25,
+          "Schreiben": 25,
+          "Sprechen": 25
+        }
+      },
+      "tips_for_vietnamese_learners": [
+        "Phát âm Umlaute (ä, ö, ü): ä gần giống 'e' Việt, ö đặt môi tròn nói 'ơ', ü đặt môi tròn nói 'i' — luyện trước gương mỗi ngày vì đây là lỗi phổ biến nhất của người Việt",
+        "Hệ thống Artikel (der/die/das) không có trong tiếng Việt — học danh từ luôn kèm Artikel và số nhiều, dùng màu sắc để ghi nhớ (xanh=der, đỏ=die, xanh lá=das)",
+        "Trật tự câu tiếng Đức (V2, Nebensatz) khác hoàn toàn tiếng Việt — luyện viết câu với weil/obwohl/dass hàng ngày, động từ luôn ở cuối mệnh đề phụ",
+        "Phân biệt âm r/l, b/p, d/t, ch/sch: người Việt hay nhầm vì tiếng Việt không phân biệt rõ — nghe và lặp lại Minimalpaare (Reise/Leise, Bein/Pein) mỗi ngày",
+        "Sprechen Teil 2 (Präsentation): chuẩn bị sẵn template cố định với các Redemittel, người Việt thường mất điểm vì nói quá ngắn hoặc thiếu cấu trúc — luyện nói đủ 3-4 phút với bố cục rõ ràng",
+        "Mỗi Modul cần đạt tối thiểu 60% (15/25 điểm) để đậu — nếu 1 Modul dưới 60% thì trượt toàn bộ, tập trung ôn đều cả 4 kỹ năng thay vì chỉ giỏi 1-2 kỹ năng",
+        "Tận dụng tài liệu miễn phí từ Goethe-Institut (goethe.de/b1) gồm Modellsatz, Übungssatz và video mẫu Sprechen — đây là nguồn sát đề thi nhất"
+      ]
+    },
+    {
+      "exam": "Goethe-Zertifikat B2",
+      "level": "B2",
+      "sections": [
+        {
+          "name": "Lesen",
+          "duration_minutes": 65,
+          "num_tasks": 5,
+          "task_types": [
+            "Zuordnung (Matching headlines to texts)",
+            "Multiple-Choice mit einem längeren Text",
+            "Lückentext (Cloze/gap-fill with multiple choice)",
+            "Zuordnung (Matching statements to texts)",
+            "Korrekturfassung (Error correction/proofreading)"
+          ],
+          "strategies": [
+            "Đọc lướt tiêu đề và câu hỏi trước khi đọc bài — xác định từ khóa cần tìm",
+            "Chú ý các từ nối (jedoch, dennoch, obwohl, trotzdem) vì chúng thay đổi logic câu — tiếng Việt ít dùng liên từ phức tạp nên dễ bỏ sót",
+            "Loại trừ đáp án sai trước — thường có 1-2 đáp án dùng từ giống bài đọc nhưng sai nghĩa (Distraktoren)",
+            "Quản lý thời gian: Teil 1 (12 phút), Teil 2 (12 phút), Teil 3 (12 phút), Teil 4 (12 phút), Teil 5 (10 phút), dành 7 phút kiểm tra lại",
+            "Với Lückentext (Teil 3), đọc cả câu trước và sau chỗ trống để hiểu ngữ cảnh — đừng chỉ nhìn một câu"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Sie lesen eine Zeitung und suchen für fünf Personen einen passenden Artikel. Welcher Artikel (a–h) passt zu welcher Person (1–5)? Für jede Person gibt es nur eine richtige Lösung.",
+              "instruction_vi": "Bạn đọc một tờ báo và tìm bài viết phù hợp cho 5 người. Bài viết nào (a–h) phù hợp với người nào (1–5)? Mỗi người chỉ có một đáp án đúng.",
+              "example_question": "Person 2: Frau Nguyen interessiert sich für umweltfreundliche Technologien und möchte wissen, wie sie im Alltag Energie sparen kann. — Welcher Artikel passt?",
+              "example_options": [
+                "a) Neue Solartechnik für Privathaushalte — wie Familien von günstiger Energie profitieren",
+                "b) Die besten Reiseziele für den Sommer 2025",
+                "c) Warum Elektroautos noch nicht massentauglich sind",
+                "d) Interview mit einem Sternekoch über regionale Küche"
+              ],
+              "correct_answer": "a) Neue Solartechnik für Privathaushalte — wie Familien von günstiger Energie profitieren",
+              "tip": "Người Việt hay bị lẫn giữa các bài có từ khóa giống nhau. Ở đây, đáp án (c) cũng liên quan đến năng lượng nhưng nói về ô tô điện 'chưa phổ biến' — không khớp với mong muốn 'tiết kiệm năng lượng trong đời sống hàng ngày'. Hãy đọc kỹ nhu cầu cụ thể của từng người."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Lesen Sie den Text und die Aufgaben 7–12. Wählen Sie bei jeder Aufgabe die richtige Lösung (a, b oder c).",
+              "instruction_vi": "Đọc bài khóa và các câu hỏi 7–12. Chọn đáp án đúng (a, b hoặc c) cho mỗi câu.",
+              "example_question": "Der Autor ist der Meinung, dass Homeoffice …",
+              "example_options": [
+                "a) für alle Arbeitnehmer gleich gut geeignet ist.",
+                "b) sowohl Vorteile als auch Herausforderungen mit sich bringt.",
+                "c) langfristig die traditionelle Büroarbeit vollständig ersetzen wird."
+              ],
+              "correct_answer": "b) sowohl Vorteile als auch Herausforderungen mit sich bringt.",
+              "tip": "Người Việt thường chọn đáp án tuyệt đối (vollständig, alle, immer) vì trong tiếng Việt chúng ta hay khái quát hóa. Trong B2, đáp án đúng thường là đáp án cân bằng, có sắc thái (sowohl...als auch, einerseits...andererseits). Cẩn thận với các từ mang tính tuyệt đối — chúng thường là bẫy."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Lesen Sie den Text und schließen Sie die Lücken 13–18. Welches Wort (a, b oder c) passt in die Lücke?",
+              "instruction_vi": "Đọc bài và điền vào chỗ trống 13–18. Từ nào (a, b hoặc c) phù hợp với chỗ trống?",
+              "example_question": "Die Studie zeigt, dass Jugendliche, die regelmäßig lesen, _____ bessere Ergebnisse in der Schule erzielen.",
+              "example_options": [
+                "a) deutlich",
+                "b) deutliche",
+                "c) deutlichem"
+              ],
+              "correct_answer": "a) deutlich",
+              "tip": "Đây là lỗi rất phổ biến của người Việt vì tiếng Việt không có biến cách (Deklination). Ở đây 'deutlich' bổ nghĩa cho tính từ 'bessere' nên phải dùng dạng trạng từ (không biến đổi), không phải dạng tính từ có đuôi. Mẹo: nếu từ bổ nghĩa cho động từ hoặc tính từ khác → dùng dạng gốc không đuôi."
+            }
+          ],
+          "common_mistakes": [
+            "Nhầm lẫn giữa các từ nối đối lập: người Việt hay đọc 'trotzdem' (tuy vậy), 'dennoch' (dù vậy), 'jedoch' (tuy nhiên) như nhau, nhưng chúng có vị trí ngữ pháp khác nhau trong câu (trotzdem + Verb ở vị trí 2, jedoch có thể đứng vị trí 1 hoặc giữa câu). Hiểu sai vị trí = hiểu sai nghĩa cả đoạn.",
+            "Dịch từng từ thay vì hiểu nghĩa theo ngữ cảnh: người Việt có xu hướng dịch word-by-word, đặc biệt với từ ghép dài (Umweltschutzmaßnahmen, Arbeitnehmervertretung). Ở B2, cần tách từ ghép thành các phần (Umwelt+schutz+maßnahmen = biện pháp+bảo vệ+môi trường) và đoán nghĩa từ ngữ cảnh thay vì tra từng từ.",
+            "Bỏ qua dạng phủ định kép hoặc phủ định ngầm: câu như 'Es ist nicht ausgeschlossen, dass...' (Không loại trừ rằng... = có thể xảy ra) hay 'kaum jemand bezweifelt' (hầu như không ai nghi ngờ = hầu hết đều đồng ý) dễ khiến người Việt hiểu ngược nghĩa, vì tiếng Việt hiếm khi dùng cấu trúc phủ định kép."
+          ]
+        },
+        {
+          "name": "Hören",
+          "duration_minutes": 40,
+          "num_tasks": 4,
+          "task_types": [
+            "Selektives Verstehen (nghe chọn lọc)",
+            "Detailliertes Verstehen (nghe chi tiết)",
+            "Globalverstehen (nghe hiểu tổng quát)",
+            "Informationen zuordnen (ghép thông tin)"
+          ],
+          "strategies": [
+            "Đọc kỹ câu hỏi và các đáp án trước khi nghe để biết cần tập trung vào thông tin nào",
+            "Lần nghe đầu tiên: nắm ý chính; lần nghe thứ hai: kiểm tra và bổ sung đáp án",
+            "Chú ý các từ nối logic như 'allerdings', 'dennoch', 'deshalb', 'trotzdem' vì chúng thay đổi hướng lập luận",
+            "Không hoảng khi gặp từ lạ — tập trung vào ngữ cảnh xung quanh để suy đoán nghĩa",
+            "Ghi chú nhanh bằng ký hiệu cá nhân trong lúc nghe, đặc biệt với số liệu và tên riêng"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Sie hören ein Gespräch zwischen zwei Kollegen. Lesen Sie die Aufgabe und kreuzen Sie die richtige Antwort an. Sie hören den Text zweimal.",
+              "instruction_vi": "Bạn nghe một cuộc trò chuyện giữa hai đồng nghiệp. Đọc câu hỏi và chọn đáp án đúng. Bạn được nghe hai lần.",
+              "example_question": "Warum möchte Frau Berger die Besprechung verschieben?",
+              "example_options": [
+                "a) Weil sie einen wichtigen Kundentermin hat.",
+                "b) Weil sie krank ist und nicht kommen kann.",
+                "c) Weil der Besprechungsraum nicht verfügbar ist.",
+                "d) Weil sie die Unterlagen noch nicht fertig hat."
+              ],
+              "correct_answer": "a) Weil sie einen wichtigen Kundentermin hat.",
+              "tip": "Người Việt thường bị nhầm khi nghe từ 'verschieben' (dời lịch) với 'absagen' (hủy). Chú ý phân biệt: verschieben = đổi sang thời điểm khác, absagen = hủy hoàn toàn. Ngoài ra, hãy nghe lý do thực sự được nêu ra, không suy diễn từ giọng điệu."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Sie hören einen Radiobeitrag zum Thema Umweltschutz. Entscheiden Sie, ob die folgenden Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+              "instruction_vi": "Bạn nghe một bài phát thanh về chủ đề bảo vệ môi trường. Xác định các phát biểu sau đúng hay sai. Bạn chỉ được nghe một lần.",
+              "example_question": "Die Stadt München hat den CO2-Ausstoß in den letzten fünf Jahren um 30 Prozent gesenkt.",
+              "example_options": [
+                "a) Richtig",
+                "b) Falsch"
+              ],
+              "correct_answer": "b) Falsch",
+              "tip": "Bài nghe thường dùng số liệu gần giống nhưng không chính xác để đánh lạc hướng (ví dụ: bài nói 20% nhưng đáp án ghi 30%). Người Việt hay nghe số bằng tiếng Đức còn chậm — hãy luyện nghe số từ 1-100 và các phần trăm thật nhuần nhuyễn. Ghi số ra giấy ngay khi nghe được."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Sie hören ein Interview mit einer Psychologin über Stress am Arbeitsplatz. Wählen Sie bei jeder Aufgabe die richtige Lösung. Sie hören den Text zweimal.",
+              "instruction_vi": "Bạn nghe một cuộc phỏng vấn với một nhà tâm lý học về stress tại nơi làm việc. Chọn đáp án đúng cho mỗi câu hỏi. Bạn được nghe hai lần.",
+              "example_question": "Was empfiehlt die Psychologin als erste Maßnahme gegen Stress?",
+              "example_options": [
+                "a) Man sollte sofort den Arbeitsplatz wechseln.",
+                "b) Man sollte die eigenen Prioritäten überprüfen und Aufgaben delegieren.",
+                "c) Man sollte mehr Sport treiben und weniger arbeiten.",
+                "d) Man sollte mit dem Vorgesetzten über eine Gehaltserhöhung sprechen."
+              ],
+              "correct_answer": "b) Man sollte die eigenen Prioritäten überprüfen und Aufgaben delegieren.",
+              "tip": "Trong phỏng vấn B2, người nói thường đề cập nhiều ý kiến nhưng chỉ một ý là khuyến nghị chính. Chú ý các cụm từ tín hiệu như 'Ich würde empfehlen...', 'Am wichtigsten ist...', 'Der erste Schritt wäre...'. Người Việt hay chọn đáp án nghe hợp lý nhất theo suy nghĩ cá nhân thay vì theo đúng nội dung bài nghe — hãy chọn theo những gì thực sự được nói."
+            }
+          ],
+          "common_mistakes": [
+            "Nhầm lẫn các phụ âm cuối từ: người Việt thường không phân biệt được '-t', '-d', '-k', '-g' ở cuối từ tiếng Đức (ví dụ: 'Rat' vs 'Rad', 'Tag' phát âm thành /tak/), dẫn đến hiểu sai từ khi nghe.",
+            "Không nhận ra câu phủ định kép hoặc cấu trúc đảo ngữ: tiếng Đức B2 hay dùng 'nicht un-' (nicht unwichtig = khá quan trọng) hoặc đặt động từ ở cuối mệnh đề phụ — người Việt quen cấu trúc SVO nên dễ bỏ lỡ ý nghĩa thực sự của câu.",
+            "Bị đánh lạc hướng bởi từ đồng nghĩa trong đáp án: bài nghe nói 'erhöhen' nhưng đáp án dùng 'steigern', hoặc bài nói 'Schwierigkeiten' nhưng đáp án ghi 'Probleme' — người Việt thường chỉ nghe từ giống hệt thay vì nhận diện paraphrase, dẫn đến chọn sai đáp án có chứa từ xuất hiện trong bài nhưng không đúng ngữ cảnh."
+          ]
+        },
+        {
+          "name": "Schreiben",
+          "duration_minutes": 75,
+          "num_tasks": 2,
+          "task_types": [
+            "Argumentativer Text (Bài viết lập luận)",
+            "Formelle Nachricht (Tin nhắn/Email trang trọng)"
+          ],
+          "strategies": [
+            "Lập dàn ý trước khi viết: Einleitung (mở bài) → Argumente (luận điểm) → Schluss (kết luận)",
+            "Sử dụng các liên từ nâng cao: dennoch, infolgedessen, nichtsdestotrotz, zumal",
+            "Phân biệt rõ du/Sie - luôn dùng Sie trong Aufgabe 2 (email trang trọng)",
+            "Viết tối thiểu 150 từ cho Aufgabe 1 và 100 từ cho Aufgabe 2",
+            "Dành 5 phút cuối để kiểm tra lỗi ngữ pháp: Kasus, Verbstellung, Adjektivdeklination"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Schreiben Sie einen argumentativen Text zum Thema: 'Sollte Homeoffice zur Pflicht werden?' Nehmen Sie Stellung zu den folgenden Aussagen: 1) Homeoffice steigert die Produktivität. 2) Die Zusammenarbeit im Team leidet unter Homeoffice. Äußern Sie Ihre Meinung und begründen Sie sie.",
+              "instruction_vi": "Viết một bài văn lập luận về chủ đề: 'Làm việc tại nhà có nên trở thành bắt buộc không?' Hãy đưa ra quan điểm của bạn về hai ý kiến: 1) Làm việc tại nhà tăng năng suất. 2) Làm việc nhóm bị ảnh hưởng khi làm việc tại nhà. Trình bày ý kiến cá nhân và lý giải.",
+              "example_question": "Welche Redemittel eignen sich für die Einleitung eines argumentativen Textes auf B2-Niveau?",
+              "example_options": [
+                "In der heutigen Zeit wird häufig darüber diskutiert, ob...",
+                "Ich finde Homeoffice gut.",
+                "Homeoffice ist schlecht, weil ich nicht arbeiten kann.",
+                "Viele Leute arbeiten zu Hause."
+              ],
+              "correct_answer": "In der heutigen Zeit wird häufig darüber diskutiert, ob...",
+              "tip": "Người Việt thường viết mở bài quá ngắn hoặc đi thẳng vào ý kiến cá nhân. Ở B2, cần có câu dẫn nhập chung (Einleitungssatz) trước khi nêu quan điểm. Tránh dịch trực tiếp từ tiếng Việt sang tiếng Đức."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Sie haben eine Anzeige für einen Deutschkurs an der Volkshochschule gelesen. Schreiben Sie eine formelle E-Mail an die Volkshochschule. Fragen Sie nach: Kursbeginn, Kosten, benötigte Vorkenntnisse. Bitten Sie um Zusendung weiterer Informationen.",
+              "instruction_vi": "Bạn đã đọc một quảng cáo về khóa học tiếng Đức tại trường Volkshochschule. Viết một email trang trọng hỏi về: ngày bắt đầu khóa học, chi phí, trình độ yêu cầu. Đề nghị gửi thêm thông tin.",
+              "example_question": "Welche Anrede ist in einer formellen E-Mail auf Deutsch korrekt?",
+              "example_options": [
+                "Sehr geehrte Damen und Herren,",
+                "Hallo Leute,",
+                "Liebe Freunde,",
+                "Hi!"
+              ],
+              "correct_answer": "Sehr geehrte Damen und Herren,",
+              "tip": "Người Việt hay nhầm lẫn giữa văn phong trang trọng và thân mật. Trong email trang trọng (formell): dùng 'Sehr geehrte Damen und Herren,' và kết thúc bằng 'Mit freundlichen Grüßen'. Luôn viết 'Sie/Ihnen/Ihr' viết hoa khi xưng hô trang trọng."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Schreiben Sie einen argumentativen Text: 'Soziale Medien – Fluch oder Segen für die Gesellschaft?' Gehen Sie auf folgende Punkte ein: 1) Einfluss auf zwischenmenschliche Beziehungen. 2) Rolle bei der Informationsverbreitung. Nennen Sie Vor- und Nachteile und formulieren Sie Ihre eigene Meinung.",
+              "instruction_vi": "Viết bài lập luận: 'Mạng xã hội – Tai họa hay phúc lành cho xã hội?' Đề cập đến: 1) Ảnh hưởng đến quan hệ giữa người với người. 2) Vai trò trong việc lan truyền thông tin. Nêu ưu và nhược điểm, đưa ra ý kiến cá nhân.",
+              "example_question": "Welcher Satz zeigt eine differenzierte Argumentation auf B2-Niveau?",
+              "example_options": [
+                "Einerseits ermöglichen soziale Medien eine schnelle Vernetzung, andererseits können sie zu Isolation führen.",
+                "Soziale Medien sind sehr schlecht.",
+                "Ich benutze Instagram jeden Tag und finde es toll.",
+                "Facebook hat viele Nutzer auf der Welt."
+              ],
+              "correct_answer": "Einerseits ermöglichen soziale Medien eine schnelle Vernetzung, andererseits können sie zu Isolation führen.",
+              "tip": "Người Việt thường liệt kê ý mà thiếu liên kết logic. Ở B2, giám khảo đánh giá cao khả năng lập luận hai chiều (einerseits... andererseits, zwar... aber, obwohl). Tránh viết các câu đơn giản liên tiếp mà không có từ nối."
+            }
+          ],
+          "common_mistakes": [
+            "Sai vị trí động từ trong câu phụ (Nebensatz): Người Việt hay đặt động từ sai vị trí vì tiếng Việt không có quy tắc Verb-am-Ende. Ví dụ sai: 'Ich denke, dass Homeoffice ist gut.' → Đúng: 'Ich denke, dass Homeoffice gut ist.'",
+            "Thiếu hoặc sai Artikel và Kasus: Tiếng Việt không có giống (der/die/das) và cách (Nominativ/Akkusativ/Dativ). Người Việt thường viết 'Ich schreibe ein Brief' thay vì 'Ich schreibe einen Brief' (Akkusativ) hoặc nhầm giống của danh từ.",
+            "Lỗi cấu trúc bài viết – thiếu đoạn văn rõ ràng: Người Việt có xu hướng viết một khối văn bản dài không chia đoạn. Bài Schreiben B2 cần có cấu trúc rõ: Einleitung (1 đoạn) → Hauptteil với 2-3 luận điểm (mỗi ý 1 đoạn) → Schluss (1 đoạn). Mỗi đoạn nên có câu chủ đề (Themensatz) ở đầu."
+          ]
+        },
+        {
+          "name": "Sprechen",
+          "duration_minutes": 15,
+          "num_tasks": 2,
+          "task_types": [
+            "Vortrag (Präsentation zu einem Thema)",
+            "Diskussion (Gespräch mit Partner/in)"
+          ],
+          "strategies": [
+            "Strukturieren Sie Ihren Vortrag klar: Einleitung, Hauptteil, Schluss – Người Việt nên luyện cấu trúc bài nói rõ ràng vì tiếng Việt thường không yêu cầu cấu trúc chặt chẽ như tiếng Đức",
+            "Verwenden Sie Redemittel (mẫu câu) để chuyển ý mạch lạc: Zunächst möchte ich..., Darüber hinaus..., Abschließend lässt sich sagen...",
+            "Üben Sie die Aussprache von Umlauten (ä, ö, ü) und Konsonantenverbindungen (sch, ch, pf, ts) – đây là các âm không có trong tiếng Việt",
+            "Bereiten Sie Pro- und Contra-Argumente vor – luyện tập đưa ra ý kiến ủng hộ và phản đối vì văn hóa Việt thường tránh phản biện trực tiếp",
+            "Sprechen Sie laut und deutlich, halten Sie Blickkontakt – người Việt thường nói nhỏ và tránh giao tiếp bằng mắt, cần điều chỉnh cho phù hợp văn hóa Đức"
+          ],
+          "practice_exercises": [
+            {
+              "task_number": 1,
+              "instruction_de": "Aufgabe 1: Vortrag. Halten Sie einen Vortrag zum Thema 'Sollten Universitäten komplett auf Online-Unterricht umstellen?'. Gehen Sie auf folgende Punkte ein: Beschreiben Sie die aktuelle Situation, nennen Sie Vor- und Nachteile, berichten Sie über die Situation in Ihrem Heimatland und geben Sie Ihre persönliche Meinung.",
+              "instruction_vi": "Bài 1: Thuyết trình. Hãy trình bày về chủ đề 'Các trường đại học có nên chuyển hoàn toàn sang dạy trực tuyến không?'. Đề cập đến: Mô tả tình hình hiện tại, nêu ưu và nhược điểm, kể về tình hình ở Việt Nam, và đưa ra ý kiến cá nhân.",
+              "example_question": "Welche Redemittel passen für die Einleitung eines Vortrags zum Thema Online-Unterricht?",
+              "example_options": [
+                "Ich möchte heute über das Thema Online-Unterricht sprechen. Dieses Thema ist besonders aktuell, weil...",
+                "Online-Unterricht ist schlecht, das weiß jeder.",
+                "Ich habe keine Ahnung von diesem Thema, aber ich versuche es mal.",
+                "Also, ähm, Online-Unterricht, ja, das ist so eine Sache..."
+              ],
+              "correct_answer": "Ich möchte heute über das Thema Online-Unterricht sprechen. Dieses Thema ist besonders aktuell, weil...",
+              "tip": "Người Việt thường bắt đầu bài nói bằng cách xin lỗi hoặc khiêm tốn ('Em không giỏi lắm...'). Trong thi B2, hãy bắt đầu tự tin với Redemittel chuẩn. Luyện câu mở đầu cho đến khi thành phản xạ."
+            },
+            {
+              "task_number": 2,
+              "instruction_de": "Aufgabe 2: Diskussion. Sie und Ihr Gesprächspartner haben folgende Aussage erhalten: 'Kinder sollten erst ab 14 Jahren ein Smartphone besitzen dürfen.' Diskutieren Sie gemeinsam: Was spricht dafür, was dagegen? Versuchen Sie, am Ende zu einer gemeinsamen Lösung zu kommen.",
+              "instruction_vi": "Bài 2: Thảo luận. Bạn và đối tác nhận được phát biểu: 'Trẻ em chỉ nên được sở hữu điện thoại thông minh từ 14 tuổi.' Hãy thảo luận: Lý do ủng hộ và phản đối? Cố gắng đi đến giải pháp chung.",
+              "example_question": "Welche Reaktion ist in einer Diskussion angemessen, wenn Ihr Partner sagt: 'Ich finde, Kinder brauchen kein Smartphone.'?",
+              "example_options": [
+                "Das sehe ich etwas anders. Einerseits verstehe ich Ihren Punkt, andererseits brauchen Kinder heute digitale Kompetenz.",
+                "Ja, Sie haben recht. (dann schweigen)",
+                "Nein, das ist total falsch! Sie haben keine Ahnung!",
+                "Hmm, ja, vielleicht, ich weiß nicht..."
+              ],
+              "correct_answer": "Das sehe ich etwas anders. Einerseits verstehe ich Ihren Punkt, andererseits brauchen Kinder heute digitale Kompetenz.",
+              "tip": "Người Việt thường tránh phản biện trực tiếp vì sợ mất lòng. Trong phần Diskussion B2, bạn PHẢI đưa ra ý kiến khác biệt. Dùng cách nói lịch sự nhưng rõ ràng: 'Das sehe ich anders...', 'Da bin ich anderer Meinung, weil...' – phản biện lịch sự được đánh giá cao."
+            },
+            {
+              "task_number": 3,
+              "instruction_de": "Aufgabe 1: Vortrag. Halten Sie einen Vortrag zum Thema 'Sollte das Erlernen einer Fremdsprache in der Schule Pflicht sein?'. Gehen Sie auf folgende Punkte ein: Beschreiben Sie die aktuelle Situation, nennen Sie Vor- und Nachteile, berichten Sie über die Erfahrungen in Ihrem Heimatland und äußern Sie Ihre persönliche Meinung.",
+              "instruction_vi": "Bài 1: Thuyết trình. Hãy trình bày về chủ đề 'Việc học ngoại ngữ ở trường có nên là bắt buộc không?'. Đề cập đến: Tình hình hiện tại, ưu và nhược điểm, kinh nghiệm ở Việt Nam, và ý kiến cá nhân của bạn.",
+              "example_question": "Wie kann man im Vortrag einen Übergang vom Punkt 'Vorteile' zum Punkt 'Nachteile' machen?",
+              "example_options": [
+                "Ich habe die Vorteile genannt. Nun möchte ich auch auf die Nachteile eingehen.",
+                "Vorteile fertig. Nachteile.",
+                "Und dann gibt es auch noch was Schlechtes, nämlich...",
+                "Ja, also, die andere Seite ist halt auch da, ne?"
+              ],
+              "correct_answer": "Ich habe die Vorteile genannt. Nun möchte ich auch auf die Nachteile eingehen.",
+              "tip": "Tiếng Việt là ngôn ngữ đơn âm tiết, không biến đổi hình thái. Khi nói tiếng Đức, hãy chú ý chia động từ đúng (ich gehe, er geht) và đặt động từ đúng vị trí (V2 trong câu chính, cuối câu trong Nebensatz). Luyện nói chậm hơn để có thời gian xử lý ngữ pháp."
+            }
+          ],
+          "common_mistakes": [
+            "Thiếu trọng âm và ngữ điệu: Tiếng Việt là ngôn ngữ thanh điệu (6 thanh), còn tiếng Đức dùng trọng âm từ và ngữ điệu câu. Người Việt thường nói tiếng Đức quá đều đều (monoton) hoặc đặt trọng âm sai. Ví dụ: 'umSTELlen' (chuyển đổi) vs 'UMstellen' (bao vây) – sai trọng âm sẽ thay đổi nghĩa hoàn toàn.",
+            "Lỗi phát âm các âm không có trong tiếng Việt: Người Việt thường phát âm sai Umlaute (ö → o, ü → u, ä → e), các cụm phụ âm (schw-, str-, pfl-), và âm 'r' tiếng Đức. Đặc biệt âm cuối từ thường bị nuốt vì tiếng Việt không có phụ âm cuối mạnh. Ví dụ: 'Kind' phải nghe rõ âm 'd' cuối, 'fünf' phải phát âm rõ 'nf'.",
+            "Nói quá ngắn và thiếu liên kết: Do thói quen giao tiếp tiếng Việt ngắn gọn và ảnh hưởng văn hóa khiêm tốn, người Việt thường trả lời quá ngắn trong phần Sprechen B2. Giám khảo kỳ vọng bạn nói đủ dài (khoảng 3-4 phút cho Vortrag), sử dụng Konnektoren (từ nối: deshalb, trotzdem, außerdem, obwohl) và phát triển ý kiến có lập luận rõ ràng."
+          ]
+        }
+      ],
+      "_model": "claude-cli",
+      "weekly_plan": [
+        {
+          "week": 1,
+          "focus": "Lesen & Wortschatz (Đọc hiểu & Từ vựng)",
+          "activities": [
+            "Luyện đọc 5 bài báo tiếng Đức mỗi ngày từ Deutsche Welle B2",
+            "Học 30 từ vựng B2 mới mỗi ngày theo chủ đề (Arbeit, Umwelt, Gesellschaft, Bildung)",
+            "Luyện tập Teil 1-4 Leseverstehen theo đúng format Goethe B2",
+            "Ghi chép Redemittel (cụm từ mẫu) cho từng dạng bài đọc",
+            "Ôn lại ngữ pháp trọng tâm: Konjunktiv II, Passiv, Relativsätze"
+          ],
+          "mock_test": "Mock Lesen komplett (4 Teile, 65 Minuten) - chấm điểm và phân tích lỗi sai"
+        },
+        {
+          "week": 2,
+          "focus": "Hören & Aussprache (Nghe hiểu & Phát âm)",
+          "activities": [
+            "Nghe podcast Deutschlandfunk và ghi chú ý chính mỗi ngày 30 phút",
+            "Luyện Teil 1-2 Hörverstehen: nghe 2 lần, ghi keyword trước khi chọn đáp án",
+            "Shadowing (đọc theo) các đoạn audio B2 để cải thiện phát âm và tốc độ nghe",
+            "Phân biệt các âm khó cho người Việt: ch/sch, ü/u, ö/o, z/s, r",
+            "Luyện nghe hiểu các bài giảng dài (Vortrag) và cuộc thảo luận (Diskussion)"
+          ],
+          "mock_test": "Mock Hören komplett (4 Teile, ca. 40 Minuten) - tập trung phân tích Teil 3-4 vì độ khó cao"
+        },
+        {
+          "week": 3,
+          "focus": "Schreiben & Sprechen (Viết & Nói)",
+          "activities": [
+            "Viết 1 Forumsbeitrag (Teil 1) và 1 formeller Brief (Teil 2) mỗi ngày",
+            "Học thuộc 20 Redemittel cho mỗi dạng bài viết: Meinung äußern, Vorschläge machen, Vor-/Nachteile",
+            "Luyện Sprechen Teil 1: Vortrag 4 phút về chủ đề cho sẵn với cấu trúc Einleitung-Hauptteil-Schluss",
+            "Luyện Sprechen Teil 2: Diskussion với partner hoặc tự ghi âm phản biện 2 chiều",
+            "Tự chấm bài viết theo tiêu chí Goethe: Inhalt, Textaufbau, Ausdruck, Korrektheit"
+          ],
+          "mock_test": "Mock Schreiben (75 Minuten) + Mock Sprechen (15 Minuten ghi âm) - nhờ giáo viên hoặc peer review"
+        },
+        {
+          "week": 4,
+          "focus": "Tổng ôn & Thi thử toàn bộ (Generalprobe)",
+          "activities": [
+            "Làm 2 bộ đề thi thử hoàn chỉnh Goethe B2 trong điều kiện giống thi thật",
+            "Ôn lại tất cả lỗi sai đã ghi chép từ tuần 1-3",
+            "Rèn quản lý thời gian: Lesen 65min, Hören 40min, Schreiben 75min",
+            "Luyện Sprechen với timer nghiêm ngặt: chuẩn bị 1 phút, nói 4 phút",
+            "Nghỉ ngơi đủ giấc 2 ngày trước thi, chỉ ôn nhẹ Redemittel và từ vựng"
+          ],
+          "mock_test": "Thi thử toàn bộ 4 phần (Lesen + Hören + Schreiben + Sprechen) theo đúng thời gian và format Goethe-Institut"
+        }
+      ],
+      "scoring": {
+        "passing_score": 60,
+        "max_score": 100,
+        "breakdown": {
+          "Lesen": 25,
+          "Hören": 25,
+          "Schreiben": 25,
+          "Sprechen": 25
+        }
+      },
+      "tips_for_vietnamese_learners": [
+        "Chú ý phát âm Umlaute (ä, ö, ü) vì tiếng Việt không có âm tương đương - luyện bằng cách đặt miệng ở vị trí nguyên âm 'o' rồi phát âm 'e' để ra 'ö'",
+        "Người Việt thường yếu ở mạo từ (Artikel) và biến cách (Deklination) - tạo flashcard học danh từ luôn kèm der/die/das và số nhiều",
+        "Tận dụng lợi thế: người Việt giỏi ghi nhớ từ vựng, hãy học theo cụm (Kollokationen) thay vì từ đơn lẻ, ví dụ 'eine Entscheidung treffen' thay vì chỉ học 'Entscheidung'",
+        "Phần Schreiben: tránh dịch trực tiếp từ tiếng Việt sang Đức vì cấu trúc câu hoàn toàn khác - học thuộc các mẫu câu Redemittel và ghép lại",
+        "Phần Sprechen: người Việt hay ngại nói sai - ở B2 cần nói trôi chảy và tự nhiên hơn là nói đúng 100%, hãy luyện nói mỗi ngày dù chỉ 10 phút",
+        "Kẻ thù lớn nhất là Nebensätze (mệnh đề phụ) với động từ ở cuối câu - luyện viết 10 câu phức mỗi ngày để thành thói quen",
+        "Đăng ký thi sớm (trước 6-8 tuần) vì slot thi Goethe B2 tại Việt Nam thường hết nhanh, đặc biệt tại Hà Nội và TP.HCM"
+      ]
+    }
+  ],
   "cultural_modules": [
     {
       "title": "Hallo & Xin chào – Begrüßung & Höflichkeit in Deutschland und Vietnam",
@@ -16737,6 +18080,1078 @@
         }
       ],
       "_model": "claude-cli"
+    }
+  ],
+  "gamification": {
+    "xp_system": {
+      "activity_completion": 10,
+      "quiz_perfect": 50,
+      "streak_bonus": 15,
+      "cultural_module": 30,
+      "exam_prep": 40
+    },
+    "levels": [
+      {
+        "name": "Anfänger",
+        "min_xp": 0,
+        "badge_icon": "🌱"
+      },
+      {
+        "name": "Entdecker",
+        "min_xp": 500,
+        "badge_icon": "🧭"
+      },
+      {
+        "name": "Kenner",
+        "min_xp": 2000,
+        "badge_icon": "📖"
+      },
+      {
+        "name": "Könner",
+        "min_xp": 5000,
+        "badge_icon": "⭐"
+      },
+      {
+        "name": "Meister",
+        "min_xp": 10000,
+        "badge_icon": "🏆"
+      }
+    ],
+    "badges": [
+      {
+        "id": "erste_schritte",
+        "name": "First Steps",
+        "name_de": "Erste Schritte",
+        "description": "Complete your first lesson",
+        "icon": "👣",
+        "requirement": "Complete 1 lesson of any type"
+      },
+      {
+        "id": "wortschatz_sammler",
+        "name": "Word Collector",
+        "name_de": "Wortschatz-Sammler",
+        "description": "Learn 100 vocabulary words",
+        "icon": "📚",
+        "requirement": "Add 100 words to learned vocabulary"
+      },
+      {
+        "id": "perfektionist",
+        "name": "Perfectionist",
+        "name_de": "Perfektionist",
+        "description": "Score 100% on 5 quizzes",
+        "icon": "💯",
+        "requirement": "Achieve perfect score on 5 different quizzes"
+      },
+      {
+        "id": "leseratte",
+        "name": "Bookworm",
+        "name_de": "Leseratte",
+        "description": "Complete 10 reading passages",
+        "icon": "📖",
+        "requirement": "Finish 10 reading comprehension exercises"
+      },
+      {
+        "id": "zuhoerer",
+        "name": "Active Listener",
+        "name_de": "Zuhörer",
+        "description": "Complete 10 listening exercises",
+        "icon": "🎧",
+        "requirement": "Finish 10 listening comprehension exercises"
+      },
+      {
+        "id": "redner",
+        "name": "Speaker",
+        "name_de": "Redner",
+        "description": "Complete 10 speaking exercises",
+        "icon": "🎤",
+        "requirement": "Finish 10 pronunciation or speaking exercises"
+      },
+      {
+        "id": "schreiber",
+        "name": "Writer",
+        "name_de": "Schreiber",
+        "description": "Submit 10 writing assignments",
+        "icon": "✍️",
+        "requirement": "Submit 10 writing compositions with feedback"
+      },
+      {
+        "id": "kulturkenner",
+        "name": "Culture Expert",
+        "name_de": "Kulturkenner",
+        "description": "Complete all cultural modules for one level",
+        "icon": "🏰",
+        "requirement": "Finish all cultural modules within a single CEFR level"
+      },
+      {
+        "id": "streak_held",
+        "name": "Streak Hero",
+        "name_de": "Streak-Held",
+        "description": "Maintain a 30-day streak",
+        "icon": "🔥",
+        "requirement": "Log in and complete at least 1 activity for 30 consecutive days"
+      },
+      {
+        "id": "quiz_meister",
+        "name": "Quiz Master",
+        "name_de": "Quiz-Meister",
+        "description": "Complete 50 quizzes",
+        "icon": "🧠",
+        "requirement": "Finish 50 quizzes across all modules and levels"
+      },
+      {
+        "id": "aufsteiger",
+        "name": "Level Up",
+        "name_de": "Aufsteiger",
+        "description": "Advance from one CEFR level to the next",
+        "icon": "🚀",
+        "requirement": "Complete all required modules to advance one CEFR level"
+      },
+      {
+        "id": "vielseitig",
+        "name": "Well-Rounded",
+        "name_de": "Vielseitig",
+        "description": "Complete activities in all 5 skill areas in one week",
+        "icon": "🎯",
+        "requirement": "Do at least 1 vocabulary, reading, listening, speaking, and writing activity within 7 days"
+      }
+    ],
+    "streaks": {
+      "milestones": [
+        {
+          "days": 3,
+          "reward": "15 bonus XP and Streak Starter badge frame"
+        },
+        {
+          "days": 7,
+          "reward": "50 bonus XP and unlock 1 bonus cultural module"
+        },
+        {
+          "days": 30,
+          "reward": "200 bonus XP and Streak-Held badge"
+        },
+        {
+          "days": 100,
+          "reward": "500 bonus XP and exclusive Hundert-Tage profile title"
+        }
+      ]
+    },
+    "weekly_challenges": [
+      {
+        "level": "A1",
+        "challenge": "Learn 20 new vocabulary words from the Alltag (everyday life) theme and score at least 80% on the vocabulary quiz"
+      },
+      {
+        "level": "A2",
+        "challenge": "Complete 3 reading passages about German traditions and answer all comprehension questions correctly"
+      },
+      {
+        "level": "B1",
+        "challenge": "Write a 150-word essay on a given topic and complete 2 listening exercises with 90%+ accuracy"
+      },
+      {
+        "level": "B2",
+        "challenge": "Participate in 2 speaking exercises with pronunciation score above 75% and complete 1 exam prep mock test"
+      }
+    ],
+    "leaderboard": {
+      "categories": [
+        "XP Total",
+        "Streak",
+        "Quizzes",
+        "Weekly Challenge",
+        "Cultural Modules"
+      ]
+    }
+  },
+  "quiz_bank": [
+    {
+      "level": "A1",
+      "quizzes": [
+        {
+          "week": 1,
+          "topic": "Begrüßung & Vorstellung (Chào hỏi & Giới thiệu)",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Wie heißen Sie?",
+              "question_vi": "Câu trả lời nào đúng khi ai đó hỏi tên bạn?",
+              "options": [
+                "Ich heiße Anna.",
+                "Ich wohne in Berlin.",
+                "Ich bin gut.",
+                "Ich trinke Kaffee."
+              ],
+              "correct": 0,
+              "explanation_vi": "'Wie heißen Sie?' nghĩa là 'Bạn tên gì?' (dạng lịch sự). Câu trả lời đúng là 'Ich heiße Anna.' (Tôi tên là Anna). 'wohne' = sống ở, 'bin gut' = tốt, 'trinke' = uống — không liên quan đến tên."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Woher kommst du?",
+              "question_vi": "Chọn câu trả lời phù hợp khi được hỏi 'Bạn đến từ đâu?'",
+              "options": [
+                "Ich bin 25 Jahre alt.",
+                "Ich komme aus Vietnam.",
+                "Ich spreche Deutsch.",
+                "Ich lerne gern."
+              ],
+              "correct": 1,
+              "explanation_vi": "'Woher kommst du?' = 'Bạn đến từ đâu?'. Trả lời bằng 'Ich komme aus + tên nước'. 'aus Vietnam' = từ Việt Nam. Các đáp án khác nói về tuổi, ngôn ngữ, sở thích — không trả lời đúng câu hỏi."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Ich ___ aus Vietnam.",
+              "correct_answer": "komme",
+              "hint_vi": "Động từ 'kommen' (đến từ), chia với ngôi 'ich'",
+              "explanation_vi": "Động từ 'kommen' chia ở ngôi 'ich' thành 'komme'. Quy tắc: bỏ -en, thêm -e. kommen → ich komme, du kommst, er/sie kommt."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Guten ___, wie geht es Ihnen?",
+              "correct_answer": "Tag",
+              "hint_vi": "Lời chào buổi ngày: 'Guten ___' (Xin chào)",
+              "explanation_vi": "'Guten Tag' = 'Xin chào' (dùng ban ngày). Các lời chào khác: 'Guten Morgen' (buổi sáng), 'Guten Abend' (buổi tối). 'Tag' là danh từ giống đực (der Tag), nên dùng 'Guten' (Akkusativ)."
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "topic": "Familie & Zahlen (Gia đình & Số đếm)",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Mein Bruder ist zwanzig Jahre alt. Was bedeutet 'Bruder'?",
+              "question_vi": "Từ 'Bruder' trong câu trên có nghĩa là gì?",
+              "options": [
+                "Chị gái",
+                "Anh/em trai",
+                "Bố",
+                "Chú"
+              ],
+              "correct": 1,
+              "explanation_vi": "'Bruder' = anh/em trai. Các từ gia đình quan trọng: Schwester (chị/em gái), Mutter (mẹ), Vater (bố), Bruder (anh/em trai). 'Mein Bruder' = anh/em trai của tôi. 'mein' là đại từ sở hữu cho ngôi ich."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Welche Zahl ist 'siebzehn'?",
+              "question_vi": "Số 'siebzehn' tương ứng với số nào?",
+              "options": [
+                "7",
+                "13",
+                "17",
+                "70"
+              ],
+              "correct": 2,
+              "explanation_vi": "'siebzehn' = 17. Cấu tạo: sieb(en) + zehn = 7 + 10 = 17. Quy tắc số 13-19: đơn vị + zehn. Ví dụ: dreizehn (13), vierzehn (14), fünfzehn (15). Lưu ý: 'sieben' rút gọn thành 'sieb-' khi ghép."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Das ist ___ Mutter. Sie heißt Lan.",
+              "correct_answer": "meine",
+              "hint_vi": "Đại từ sở hữu 'mein' cho danh từ giống cái (die Mutter)",
+              "explanation_vi": "'Mutter' là danh từ giống cái (die Mutter), nên đại từ sở hữu 'mein' phải thêm đuôi -e → 'meine'. Quy tắc: mein (der/das), meine (die), meine (số nhiều). 'Meine Mutter' = mẹ của tôi."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Ich habe zwei ___.",
+              "correct_answer": "Kinder",
+              "hint_vi": "Danh từ 'Kind' (đứa trẻ) ở dạng số nhiều",
+              "explanation_vi": "'Kind' (đứa trẻ) → số nhiều là 'Kinder'. Đây là dạng số nhiều bất quy tắc cần nhớ. 'Ich habe zwei Kinder' = Tôi có hai đứa con. Trong tiếng Đức, danh từ số nhiều luôn dùng mạo từ 'die'."
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "topic": "Essen & Trinken (Ăn uống)",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Ich möchte einen Kaffee, bitte. Was bestellt die Person?",
+              "question_vi": "Người này gọi món gì?",
+              "options": [
+                "Một ly trà",
+                "Một ly cà phê",
+                "Một ly nước",
+                "Một ly bia"
+              ],
+              "correct": 1,
+              "explanation_vi": "'Kaffee' = cà phê. 'Ich möchte' = tôi muốn (dạng lịch sự để gọi món). 'einen Kaffee' dùng mạo từ Akkusativ vì 'Kaffee' là giống đực (der Kaffee → einen Kaffee). 'bitte' = xin vui lòng."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Der Apfel ist rot. Was ist der Artikel von 'Apfel'?",
+              "question_vi": "Mạo từ của danh từ 'Apfel' (quả táo) là gì?",
+              "options": [
+                "die",
+                "das",
+                "der",
+                "den"
+              ],
+              "correct": 2,
+              "explanation_vi": "'Apfel' là danh từ giống đực → mạo từ là 'der'. Ba giống trong tiếng Đức: der (đực), die (cái), das (trung). Mạo từ phải học thuộc cùng danh từ. Mẹo: nhiều loại trái cây giống đực (der Apfel, der Pfirsich) nhưng không phải tất cả."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Ich ___ gern Pizza.",
+              "correct_answer": "esse",
+              "hint_vi": "Động từ 'essen' (ăn), chia với ngôi 'ich'",
+              "explanation_vi": "Động từ 'essen' là động từ bất quy tắc. Chia: ich esse, du isst, er/sie/es isst, wir essen. Lưu ý ngôi du/er thay đổi 'e' → 'i'. 'gern' = thích — đặt sau động từ để diễn tả sở thích."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Möchten Sie ___ Tee oder einen Kaffee?",
+              "correct_answer": "einen",
+              "hint_vi": "Mạo từ không xác định cho danh từ giống đực (der Tee) ở Akkusativ",
+              "explanation_vi": "'Tee' là giống đực (der Tee). Ở Akkusativ (tân ngữ trực tiếp), mạo từ không xác định 'ein' → 'einen'. Quy tắc Akkusativ: chỉ giống đực thay đổi (ein → einen), giống cái và trung giữ nguyên (eine, ein)."
+            }
+          ]
+        },
+        {
+          "week": 12,
+          "topic": "Alltag & Uhrzeit (Sinh hoạt hàng ngày & Giờ giấc)",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Ich stehe um 7 Uhr auf. Was bedeutet 'aufstehen'?",
+              "question_vi": "Động từ 'aufstehen' có nghĩa là gì?",
+              "options": [
+                "Đi ngủ",
+                "Thức dậy",
+                "Ăn sáng",
+                "Đi làm"
+              ],
+              "correct": 1,
+              "explanation_vi": "'aufstehen' = thức dậy/đứng dậy. Đây là động từ tách (trennbares Verb): 'auf' tách ra cuối câu. Ich stehe um 7 Uhr auf. Các động từ tách thường gặp: aufstehen, aufräumen (dọn dẹp), einkaufen (mua sắm), fernsehen (xem TV)."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Es ist Viertel nach drei. Wie spät ist es?",
+              "question_vi": "'Viertel nach drei' là mấy giờ?",
+              "options": [
+                "2:45",
+                "3:15",
+                "3:45",
+                "4:15"
+              ],
+              "correct": 1,
+              "explanation_vi": "'Viertel nach drei' = 3 giờ 15 phút. 'Viertel' = 1/4 (15 phút), 'nach' = sau. Cách nói giờ: 'nach' = quá (phút), 'vor' = kém (phút). Ví dụ: Viertel vor vier = 3:45, halb vier = 3:30 (nửa của 4, tức 3:30)."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Am Morgen ___ ich Kaffee.",
+              "correct_answer": "trinke",
+              "hint_vi": "Động từ 'trinken' (uống), chia với ngôi 'ich'",
+              "explanation_vi": "'trinken' chia ở ngôi 'ich' → 'trinke'. Quy tắc chia động từ quy tắc: bỏ -en, thêm đuôi. ich -e, du -st, er/sie -t, wir -en. 'Am Morgen' = vào buổi sáng (am = an + dem)."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Ich kaufe im Supermarkt ___.",
+              "correct_answer": "ein",
+              "hint_vi": "Động từ tách 'einkaufen' (mua sắm) — phần tách đặt cuối câu",
+              "explanation_vi": "'einkaufen' là động từ tách: 'ein' tách ra đặt cuối câu. Ich kaufe im Supermarkt ein. Quy tắc: ở thì hiện tại, tiền tố tách (ein-, auf-, an-, aus-...) luôn đứng cuối câu. Đây là điểm khác biệt lớn so với tiếng Việt."
+            }
+          ]
+        },
+        {
+          "week": 16,
+          "topic": "Wohnung & Wegbeschreibung (Nhà ở & Chỉ đường)",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Die Lampe steht auf dem Tisch. Wo ist die Lampe?",
+              "question_vi": "Đèn ở đâu?",
+              "options": [
+                "Dưới bàn",
+                "Trên bàn",
+                "Cạnh bàn",
+                "Sau bàn"
+              ],
+              "correct": 1,
+              "explanation_vi": "'auf dem Tisch' = trên bàn. 'auf' + Dativ (dem) chỉ vị trí. Giới từ chỉ nơi chốn: auf (trên), unter (dưới), neben (cạnh), hinter (sau), vor (trước), in (trong). Khi chỉ vị trí (ở đâu?) dùng Dativ: der → dem, die → der, das → dem."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Gehen Sie geradeaus und dann links. Was bedeutet 'geradeaus'?",
+              "question_vi": "Từ 'geradeaus' trong chỉ đường nghĩa là gì?",
+              "options": [
+                "Rẽ phải",
+                "Rẽ trái",
+                "Đi thẳng",
+                "Quay lại"
+              ],
+              "correct": 2,
+              "explanation_vi": "'geradeaus' = đi thẳng. Từ vựng chỉ đường cơ bản: geradeaus (thẳng), links (trái), rechts (phải), die Kreuzung (ngã tư), die Ampel (đèn giao thông). 'Gehen Sie' là dạng mệnh lệnh lịch sự (Sie-Imperativ)."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Das Buch liegt ___ dem Regal.",
+              "correct_answer": "in",
+              "hint_vi": "Giới từ chỉ vị trí: sách nằm '___' kệ (bên trong kệ sách)",
+              "explanation_vi": "'in dem Regal' = trong kệ sách. 'in' + Dativ chỉ vị trí bên trong. 'dem' vì 'Regal' là giống trung (das Regal). Lưu ý: 'in dem' thường viết tắt thành 'im'. Vậy 'im Regal' = in dem Regal = trong kệ sách."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Meine Wohnung hat drei ___.",
+              "correct_answer": "Zimmer",
+              "hint_vi": "Danh từ 'Zimmer' (phòng) ở dạng số nhiều",
+              "explanation_vi": "'Zimmer' (phòng) có số nhiều giống hệt số ít: das Zimmer → die Zimmer. Đây là dạng số nhiều không thay đổi (Nullplural), thường gặp ở danh từ giống trung kết thúc bằng -er. 'Meine Wohnung hat drei Zimmer' = Căn hộ của tôi có ba phòng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "quizzes": [
+        {
+          "week": 1,
+          "topic": "Kindheit & Erinnerungen",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Welche Form ist richtig? 'Als Kind ___ ich sehr neugierig.'",
+              "question_vi": "Chọn dạng đúng của động từ 'sein' ở thì quá khứ (Präteritum)",
+              "options": [
+                "war",
+                "bin",
+                "hatte",
+                "habe"
+              ],
+              "correct": 0,
+              "explanation_vi": "Động từ 'sein' ở thì Präteritum, ngôi 'ich' là 'war'. Câu này mô tả trạng thái trong quá khứ: 'Hồi nhỏ tôi rất tò mò.'"
+            },
+            {
+              "type": "mcq",
+              "question_de": "Was bedeutet 'die Erinnerung' auf Vietnamesisch?",
+              "question_vi": "Chọn nghĩa đúng của từ 'die Erinnerung'",
+              "options": [
+                "ký ức, kỷ niệm",
+                "tuổi thơ",
+                "đồ chơi",
+                "trường học"
+              ],
+              "correct": 0,
+              "explanation_vi": "'Die Erinnerung' có nghĩa là 'ký ức' hoặc 'kỷ niệm'. Ví dụ: 'Ich habe viele schöne Erinnerungen an meine Kindheit.' (Tôi có nhiều kỷ niệm đẹp về tuổi thơ.)"
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Meine Großmutter ___ sehr nett.",
+              "correct_answer": "war",
+              "hint_vi": "Động từ 'sein' ở Präteritum, ngôi 'sie' (bà ấy)",
+              "explanation_vi": "'Sein' chia ở Präteritum ngôi 'sie' (bà ấy) là 'war'. Câu đầy đủ: 'Meine Großmutter war sehr nett.' (Bà tôi rất tốt bụng.)"
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Als Kind ___ ich einen Hund und eine Katze.",
+              "correct_answer": "hatte",
+              "hint_vi": "Động từ 'haben' ở Präteritum, ngôi 'ich'",
+              "explanation_vi": "'Haben' chia ở Präteritum ngôi 'ich' là 'hatte'. Câu đầy đủ: 'Als Kind hatte ich einen Hund und eine Katze.' (Hồi nhỏ tôi có một con chó và một con mèo.)"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "topic": "Arbeit & Bewerbung",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Welcher Satz ist grammatisch richtig?",
+              "question_vi": "Chọn câu đúng ngữ pháp với liên từ 'weil' (vì)",
+              "options": [
+                "Ich bewerbe mich, weil ich Erfahrung habe.",
+                "Ich bewerbe mich, weil ich habe Erfahrung.",
+                "Ich bewerbe mich, weil habe ich Erfahrung.",
+                "Ich bewerbe mich, weil Erfahrung ich habe."
+              ],
+              "correct": 0,
+              "explanation_vi": "Trong mệnh đề phụ với 'weil', động từ chia phải đứng ở cuối câu. 'Ich bewerbe mich, weil ich Erfahrung habe.' (Tôi nộp đơn xin việc vì tôi có kinh nghiệm.)"
+            },
+            {
+              "type": "mcq",
+              "question_de": "Was ist 'das Vorstellungsgespräch'?",
+              "question_vi": "Chọn nghĩa đúng của từ 'das Vorstellungsgespräch'",
+              "options": [
+                "buổi phỏng vấn xin việc",
+                "bản lý lịch",
+                "thông báo tuyển dụng",
+                "lương tháng"
+              ],
+              "correct": 0,
+              "explanation_vi": "'Das Vorstellungsgespräch' là buổi phỏng vấn xin việc. Đây là từ ghép: Vorstellung (giới thiệu) + Gespräch (cuộc nói chuyện). Ví dụ: 'Morgen habe ich ein Vorstellungsgespräch.' (Ngày mai tôi có buổi phỏng vấn.)"
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Ich möchte als Lehrerin ___, weil ich Kinder mag.",
+              "correct_answer": "arbeiten",
+              "hint_vi": "Động từ 'làm việc' ở dạng nguyên thể, đi sau 'möchte'",
+              "explanation_vi": "Sau động từ khuyết thiếu 'möchte' (muốn), dùng động từ nguyên thể 'arbeiten' (làm việc). Câu đầy đủ: 'Ich möchte als Lehrerin arbeiten, weil ich Kinder mag.' (Tôi muốn làm giáo viên vì tôi thích trẻ em.)"
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Er ___ sich um die Stelle als Verkäufer.",
+              "correct_answer": "bewirbt",
+              "hint_vi": "Động từ phản thân 'sich bewerben' (nộp đơn xin việc), ngôi 'er', hiện tại",
+              "explanation_vi": "'Sich bewerben' là động từ bất quy tắc. Ngôi 'er' chia thành 'bewirbt'. Câu đầy đủ: 'Er bewirbt sich um die Stelle als Verkäufer.' (Anh ấy nộp đơn xin vị trí nhân viên bán hàng.)"
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "topic": "Nachbarn & Zusammenleben",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Welcher Satz drückt eine höfliche Bitte aus?",
+              "question_vi": "Câu nào diễn đạt lời yêu cầu lịch sự nhất?",
+              "options": [
+                "Könnten Sie bitte leiser sein?",
+                "Seien Sie leise!",
+                "Du musst leise sein.",
+                "Mach die Musik aus!"
+              ],
+              "correct": 0,
+              "explanation_vi": "'Könnten Sie bitte...' là cách yêu cầu lịch sự nhất trong tiếng Đức, sử dụng Konjunktiv II. Câu này có nghĩa: 'Bạn có thể vui lòng nhỏ tiếng hơn được không?' Các câu còn lại đều là mệnh lệnh hoặc bắt buộc, kém lịch sự hơn."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Was bedeutet 'die Hausordnung'?",
+              "question_vi": "Chọn nghĩa đúng của từ 'die Hausordnung'",
+              "options": [
+                "nội quy tòa nhà",
+                "hợp đồng thuê nhà",
+                "hóa đơn điện nước",
+                "giấy phép xây dựng"
+              ],
+              "correct": 0,
+              "explanation_vi": "'Die Hausordnung' là nội quy của tòa nhà/chung cư. Ở Đức, hầu hết các tòa nhà đều có Hausordnung quy định giờ yên tĩnh (Ruhezeiten), phân loại rác, vệ sinh cầu thang chung, v.v."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Die Mieter ___ das Treppenhaus sauber halten.",
+              "correct_answer": "müssen",
+              "hint_vi": "Động từ khuyết thiếu 'phải' (Pflicht/bắt buộc), ngôi 'sie' (họ)",
+              "explanation_vi": "'Müssen' (phải) diễn tả sự bắt buộc. Ngôi 'die Mieter' (người thuê nhà, số nhiều) chia như ngôi 'sie' (họ) → 'müssen'. Câu đầy đủ: 'Die Mieter müssen das Treppenhaus sauber halten.' (Người thuê nhà phải giữ cầu thang sạch sẽ.)"
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Nach 22 Uhr ___ man keine laute Musik spielen.",
+              "correct_answer": "darf",
+              "hint_vi": "Động từ khuyết thiếu 'được phép', ngôi 'man', phủ định",
+              "explanation_vi": "'Dürfen' (được phép) dùng trong ngữ cảnh quy tắc. Ngôi 'man' chia thành 'darf'. Với 'keine', câu mang nghĩa phủ định: 'Nach 22 Uhr darf man keine laute Musik spielen.' (Sau 22 giờ người ta không được phép mở nhạc lớn.)"
+            }
+          ]
+        },
+        {
+          "week": 12,
+          "topic": "Gefühle & Beziehungen",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Welcher Satz hat die richtige Wortstellung?",
+              "question_vi": "Câu nào có trật tự từ đúng trong mệnh đề 'weil'?",
+              "options": [
+                "Ich bin traurig, weil mein Freund weggezogen ist.",
+                "Ich bin traurig, weil mein Freund ist weggezogen.",
+                "Ich bin traurig, weil ist mein Freund weggezogen.",
+                "Ich bin traurig, weil weggezogen mein Freund ist."
+              ],
+              "correct": 0,
+              "explanation_vi": "Trong mệnh đề phụ với 'weil', động từ chia đứng ở cuối câu. Với thì Perfekt trong mệnh đề 'weil': chủ ngữ + Partizip II + Hilfsverb (cuối). 'Ich bin traurig, weil mein Freund weggezogen ist.' (Tôi buồn vì bạn tôi đã chuyển đi.)"
+            },
+            {
+              "type": "mcq",
+              "question_de": "Welches Wort beschreibt ein positives Gefühl?",
+              "question_vi": "Từ nào mô tả cảm xúc tích cực?",
+              "options": [
+                "stolz",
+                "eifersüchtig",
+                "enttäuscht",
+                "einsam"
+              ],
+              "correct": 0,
+              "explanation_vi": "'Stolz' nghĩa là 'tự hào' — một cảm xúc tích cực. Các từ còn lại đều tiêu cực: 'eifersüchtig' (ghen tị), 'enttäuscht' (thất vọng), 'einsam' (cô đơn)."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Ich fühle ___ heute sehr entspannt.",
+              "correct_answer": "mich",
+              "hint_vi": "Đại từ phản thân (Reflexivpronomen) cho ngôi 'ich'",
+              "explanation_vi": "'Sich fühlen' là động từ phản thân. Ngôi 'ich' dùng đại từ phản thân 'mich'. Câu đầy đủ: 'Ich fühle mich heute sehr entspannt.' (Hôm nay tôi cảm thấy rất thư giãn.)"
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Das ist ___ beste Freundin. Sie heißt Lan.",
+              "correct_answer": "meine",
+              "hint_vi": "Đại từ sở hữu (Possessivpronomen) ngôi 'ich' cho danh từ giống cái (die Freundin)",
+              "explanation_vi": "'Die Freundin' là danh từ giống cái, nên đại từ sở hữu ngôi 'ich' phải là 'meine'. Câu đầy đủ: 'Das ist meine beste Freundin. Sie heißt Lan.' (Đây là bạn thân nhất của tôi. Cô ấy tên là Lan.)"
+            }
+          ]
+        },
+        {
+          "week": 16,
+          "topic": "Prüfungsvorbereitung Goethe A2",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Welche Antwort passt? — 'Können wir uns am Samstag treffen?' — '___'",
+              "question_vi": "Chọn câu trả lời phù hợp cho lời đề nghị gặp mặt",
+              "options": [
+                "Tut mir leid, am Samstag kann ich leider nicht. Geht es am Sonntag?",
+                "Ja, ich habe gestern Zeit.",
+                "Nein, ich muss morgen arbeiten.",
+                "Ich bin am Montag gegangen."
+              ],
+              "correct": 0,
+              "explanation_vi": "Câu trả lời đúng từ chối lịch sự và đề xuất thời gian khác: 'Tut mir leid, am Samstag kann ich leider nicht. Geht es am Sonntag?' (Xin lỗi, thứ Bảy tôi không được. Chủ Nhật được không?) Đây là kỹ năng giao tiếp quan trọng trong phần thi Sprechen Goethe A2."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Welcher Satz ist im Perfekt?",
+              "question_vi": "Câu nào ở thì Perfekt (quá khứ hoàn thành)?",
+              "options": [
+                "Ich habe gestern einen Brief geschrieben.",
+                "Ich schreibe einen Brief.",
+                "Ich war gestern müde.",
+                "Ich hatte keine Zeit."
+              ],
+              "correct": 0,
+              "explanation_vi": "Thì Perfekt gồm: haben/sein (chia) + Partizip II (cuối câu). 'Ich habe gestern einen Brief geschrieben.' (Hôm qua tôi đã viết một bức thư.) — 'habe' (Hilfsverb) + 'geschrieben' (Partizip II). Các câu còn lại dùng Präsens hoặc Präteritum."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "___ freundlichen Grüßen, Nguyen Van A",
+              "correct_answer": "Mit",
+              "hint_vi": "Giới từ dùng trong lời chào cuối thư/email trang trọng",
+              "explanation_vi": "'Mit freundlichen Grüßen' (Trân trọng) là cách kết thúc thư/email trang trọng trong tiếng Đức, tương đương 'Sincerely' trong tiếng Anh. Giới từ 'mit' đi với Dativ."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Ich kann leider nicht kommen, ___ ich arbeiten muss.",
+              "correct_answer": "weil",
+              "hint_vi": "Liên từ phụ thuộc có nghĩa 'vì' (nguyên nhân)",
+              "explanation_vi": "'Weil' (vì) là liên từ phụ thuộc nối mệnh đề chỉ nguyên nhân. Lưu ý: động từ chia 'muss' đứng cuối mệnh đề 'weil'. Câu đầy đủ: 'Ich kann leider nicht kommen, weil ich arbeiten muss.' (Tiếc là tôi không thể đến vì tôi phải làm việc.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "quizzes": [
+        {
+          "week": 1,
+          "topic": "Meinungen äußern und argumentieren",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Welches Wort passt? 'Ich bin der ___, dass Bildung der Schlüssel zum Erfolg ist.'",
+              "question_vi": "Từ nào phù hợp? (bày tỏ quan điểm)",
+              "options": [
+                "Meinung",
+                "Überzeugung",
+                "Gedanke",
+                "Vorstellung"
+              ],
+              "correct": 1,
+              "explanation_vi": "'Ich bin der Überzeugung' = Tôi tin chắc rằng. Đây là cách diễn đạt mạnh mẽ hơn 'Meinung' (ý kiến). 'Überzeugung' đi với giới từ 'der' (Genitiv nữ)."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Welcher Satz verwendet den Konjunktiv II korrekt?",
+              "question_vi": "Câu nào sử dụng Konjunktiv II đúng?",
+              "options": [
+                "Wenn ich reich bin, kaufe ich ein Haus.",
+                "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+                "Wenn ich reich war, kaufte ich ein Haus.",
+                "Wenn ich reich sei, kaufe ich ein Haus."
+              ],
+              "correct": 1,
+              "explanation_vi": "Konjunktiv II diễn tả điều kiện không có thật: 'wäre' (là - giả định) + 'würde...kaufen' (sẽ mua). Cấu trúc: Wenn + Konjunktiv II, würde + Infinitiv."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Einerseits ___ ich deinen Standpunkt, andererseits sehe ich das Problem anders.",
+              "correct_answer": "verstehe",
+              "hint_vi": "động từ 'verstehen' (hiểu), ngôi ich, thì hiện tại",
+              "explanation_vi": "'Einerseits...andererseits' = một mặt...mặt khác. Cấu trúc B2 để trình bày hai mặt của một vấn đề. 'verstehen' chia ở ngôi ich → verstehe."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Es ___ sinnvoll, wenn wir gemeinsam eine Lösung finden könnten.",
+              "correct_answer": "wäre",
+              "hint_vi": "Konjunktiv II của 'sein', ngôi es",
+              "explanation_vi": "'Es wäre sinnvoll' = Sẽ hợp lý nếu... Konjunktiv II của 'sein': ich wäre, du wärest, es wäre. Dùng để đưa ra đề xuất lịch sự ở trình độ B2."
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "topic": "Arbeitswelt und Berufsleben",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Was bedeutet 'eine Stelle kündigen'?",
+              "question_vi": "'eine Stelle kündigen' nghĩa là gì?",
+              "options": [
+                "Một công việc mới bắt đầu",
+                "Nghỉ việc / từ chức",
+                "Được thăng chức",
+                "Nộp đơn xin việc"
+              ],
+              "correct": 1,
+              "explanation_vi": "'kündigen' = nghỉ việc, chấm dứt hợp đồng. 'eine Stelle' = một vị trí công việc. Phân biệt: 'sich bewerben' (ứng tuyển), 'befördert werden' (được thăng chức)."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Welcher Satz steht im Passiv?",
+              "question_vi": "Câu nào ở thể bị động (Passiv)?",
+              "options": [
+                "Der Chef hat den Mitarbeiter gelobt.",
+                "Der Mitarbeiter wurde vom Chef gelobt.",
+                "Der Mitarbeiter lobte den Chef.",
+                "Der Chef wird den Mitarbeiter loben."
+              ],
+              "correct": 1,
+              "explanation_vi": "Passiv Präteritum: wurde + Partizip II. 'wurde gelobt' = đã được khen. Tác nhân dùng 'vom' (von + dem). Chủ động: Der Chef lobte → Bị động: Der Mitarbeiter wurde gelobt."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Die Bewerbungsunterlagen müssen bis Freitag ___ werden.",
+              "correct_answer": "eingereicht",
+              "hint_vi": "Partizip II của 'einreichen' (nộp), dùng trong câu bị động với Modalverb",
+              "explanation_vi": "Passiv với Modalverb: müssen + Partizip II + werden. 'einreichen' → 'eingereicht' (nộp). Cấu trúc: Modalverb + P.II + werden đứng cuối câu."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "In der Besprechung wurde ___ ein neues Projekt diskutiert.",
+              "correct_answer": "über",
+              "hint_vi": "giới từ đi với 'diskutieren' (thảo luận về)",
+              "explanation_vi": "'diskutieren über + Akk.' = thảo luận về. Trong câu bị động: 'Es wurde über ein Projekt diskutiert.' Giới từ 'über' không thay đổi khi chuyển sang bị động."
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "topic": "Umwelt und Nachhaltigkeit",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Welches Wort beschreibt NICHT eine Umweltmaßnahme?",
+              "question_vi": "Từ nào KHÔNG mô tả biện pháp bảo vệ môi trường?",
+              "options": [
+                "Mülltrennung",
+                "Energiewende",
+                "Verbraucherschutz",
+                "Emissionsreduzierung"
+              ],
+              "correct": 2,
+              "explanation_vi": "'Verbraucherschutz' = bảo vệ người tiêu dùng, không liên quan trực tiếp đến môi trường. 'Mülltrennung' = phân loại rác, 'Energiewende' = chuyển đổi năng lượng, 'Emissionsreduzierung' = giảm khí thải."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Welcher Relativsatz ist grammatisch korrekt? 'Das ist das Projekt, ___.'",
+              "question_vi": "Mệnh đề quan hệ nào đúng ngữ pháp?",
+              "options": [
+                "das von der Regierung finanziert wird",
+                "dass von der Regierung finanziert wird",
+                "welcher von der Regierung finanziert wird",
+                "die von der Regierung finanziert wird"
+              ],
+              "correct": 0,
+              "explanation_vi": "'das Projekt' là trung tính (das) → đại từ quan hệ là 'das' (không phải 'dass' - liên từ). Mệnh đề quan hệ: das + ... + động từ cuối câu. Phân biệt: 'das' (đại từ QH) ≠ 'dass' (liên từ)."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Der Klimawandel, ___ Auswirkungen immer deutlicher werden, betrifft alle Länder.",
+              "correct_answer": "dessen",
+              "hint_vi": "đại từ quan hệ sở hữu cho danh từ giống đực/trung (der Klimawandel), Genitiv",
+              "explanation_vi": "'dessen' = đại từ quan hệ Genitiv cho giống đực/trung. 'der Klimawandel' (giống đực) → 'dessen Auswirkungen' = những tác động của nó. Genitiv QH: dessen (m/n), deren (f/pl)."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Erneuerbare Energien tragen dazu ___, den CO2-Ausstoß zu verringern.",
+              "correct_answer": "bei",
+              "hint_vi": "động từ 'beitragen zu' (đóng góp vào), trợ từ tách rời",
+              "explanation_vi": "'beitragen zu + Dat.' = đóng góp vào. Động từ tách: 'bei|tragen'. Trong câu chính: 'tragen...bei'. Cấu trúc: dazu beitragen, ... zu + Infinitiv (cấu trúc B2 quan trọng)."
+            }
+          ]
+        },
+        {
+          "week": 12,
+          "topic": "Gesellschaft und soziale Themen",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Was bedeutet 'die Chancengleichheit'?",
+              "question_vi": "'die Chancengleichheit' nghĩa là gì?",
+              "options": [
+                "Sự cạnh tranh công bằng",
+                "Sự bình đẳng cơ hội",
+                "Quyền tự do ngôn luận",
+                "Sự phân biệt đối xử"
+              ],
+              "correct": 1,
+              "explanation_vi": "'Chancengleichheit' = Chancen (cơ hội) + Gleichheit (sự bình đẳng) = bình đẳng cơ hội. Từ ghép tiếng Đức: nghĩa nằm ở từ cuối (Gleichheit), từ đầu bổ nghĩa (Chancen)."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Welche Nominalisierung ist korrekt? 'Man muss die Armut bekämpfen.' → '___'",
+              "question_vi": "Danh từ hóa nào đúng?",
+              "options": [
+                "Die Bekämpfung der Armut ist notwendig.",
+                "Das Bekämpfen der Armut ist notwendig.",
+                "Die Kämpfung der Armut ist notwendig.",
+                "Der Bekampf der Armut ist notwendig."
+              ],
+              "correct": 0,
+              "explanation_vi": "Nominalisierung (danh từ hóa): 'bekämpfen' → 'die Bekämpfung' (sự đấu tranh chống lại). Hậu tố '-ung' tạo danh từ giống cái từ động từ. Đây là cách viết học thuật ở trình độ B2."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Die Integration von Migranten hängt von vielen Faktoren ___.",
+              "correct_answer": "ab",
+              "hint_vi": "động từ tách 'abhängen von' (phụ thuộc vào), trợ từ tách rời",
+              "explanation_vi": "'abhängen von + Dat.' = phụ thuộc vào. Động từ tách: 'ab|hängen'. Trong câu chính, 'ab' đứng cuối: 'hängt...ab'. Từ vựng B2 về xã hội: Integration, Migranten, Faktoren."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Trotz der wirtschaftlichen Entwicklung ___ die Armut in vielen Regionen.",
+              "correct_answer": "wächst",
+              "hint_vi": "động từ 'wachsen' (tăng trưởng), ngôi thứ 3 số ít, thì hiện tại",
+              "explanation_vi": "'wachsen' → 'wächst' (ngôi 3 số ít, có Umlaut a→ä). 'Trotz + Genitiv' = mặc dù. Cấu trúc: Trotz der Entwicklung (Gen.) wächst die Armut. Chú ý: 'trotz' luôn đi với Genitiv ở B2."
+            }
+          ]
+        },
+        {
+          "week": 16,
+          "topic": "Kultur, Medien und digitale Welt",
+          "questions": [
+            {
+              "type": "mcq",
+              "question_de": "Was bedeutet 'die Berichterstattung'?",
+              "question_vi": "'die Berichterstattung' nghĩa là gì?",
+              "options": [
+                "Bài báo cáo",
+                "Việc đưa tin / báo cáo",
+                "Người phóng viên",
+                "Tòa soạn báo"
+              ],
+              "correct": 1,
+              "explanation_vi": "'Berichterstattung' = Bericht (báo cáo) + Erstattung (sự thực hiện) = việc đưa tin. Từ ghép 3 phần: Bericht-er-stattung. Ngữ cảnh: 'Die Berichterstattung der Medien' = việc đưa tin của truyền thông."
+            },
+            {
+              "type": "mcq",
+              "question_de": "Welcher Satz gibt die indirekte Rede korrekt wieder? Der Journalist sagte: 'Die Regierung plant neue Gesetze.'",
+              "question_vi": "Câu nào chuyển sang lời nói gián tiếp (indirekte Rede) đúng?",
+              "options": [
+                "Der Journalist sagte, die Regierung plant neue Gesetze.",
+                "Der Journalist sagte, die Regierung plante neue Gesetze.",
+                "Der Journalist sagte, die Regierung plane neue Gesetze.",
+                "Der Journalist sagte, die Regierung würde neue Gesetze planen."
+              ],
+              "correct": 2,
+              "explanation_vi": "Indirekte Rede dùng Konjunktiv I: 'planen' → 'plane' (ngôi 3 số ít). Cấu trúc: Subjekt + sagte, + Konjunktiv I. Konjunktiv I được dùng trong báo chí và văn viết học thuật ở B2."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Der Autor behauptete, er ___ das Buch in nur drei Monaten geschrieben.",
+              "correct_answer": "habe",
+              "hint_vi": "Konjunktiv I của 'haben', ngôi er, dùng trong lời nói gián tiếp",
+              "explanation_vi": "Indirekte Rede + Perfekt: Konjunktiv I của 'haben' → 'habe' (ngôi er). Cấu trúc: habe + Partizip II. 'behaupten' = khẳng định. Lời nói gián tiếp thường gặp trong bài đọc B2."
+            },
+            {
+              "type": "fill_blank",
+              "sentence_de": "Soziale Medien haben einen großen Einfluss ___ die öffentliche Meinung.",
+              "correct_answer": "auf",
+              "hint_vi": "giới từ đi với 'Einfluss' (ảnh hưởng) + Akkusativ",
+              "explanation_vi": "'Einfluss auf + Akk.' = ảnh hưởng đến. Nomen-Verb-Verbindung quan trọng ở B2. Tương tự: 'Wert legen auf', 'Rücksicht nehmen auf'. Giới từ 'auf' + Akk. rất phổ biến trong tiếng Đức."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assessment_rubrics": [
+    {
+      "level": "A1",
+      "speaking": {
+        "criteria": [
+          {
+            "name": "Aussprache",
+            "weight": 25,
+            "descriptors": {
+              "excellent": "Klare Aussprache einzelner Wörter und einfacher Sätze; verständlich trotz Akzent",
+              "good": "Meist verständlich; gelegentliche Aussprachefehler stören nicht das Verständnis",
+              "adequate": "Häufige Aussprachefehler; Verständigung mit Nachfragen möglich",
+              "needs_work": "Aussprache erschwert Verständigung erheblich; einzelne Wörter kaum erkennbar"
+            }
+          },
+          {
+            "name": "Wortschatz",
+            "weight": 25,
+            "descriptors": {
+              "excellent": "Verwendet Grundwortschatz (Begrüßung, Zahlen, Alltag) sicher und angemessen",
+              "good": "Grundwortschatz meist korrekt; gelegentliche Lücken werden umschrieben",
+              "adequate": "Begrenzter Wortschatz; häufiges Zögern und Suchen nach Wörtern",
+              "needs_work": "Wortschatz reicht nicht für einfachste Alltagssituationen"
+            }
+          },
+          {
+            "name": "Grammatik",
+            "weight": 25,
+            "descriptors": {
+              "excellent": "Einfache Satzstrukturen (SVO) korrekt; Verbkonjugation im Präsens meist richtig",
+              "good": "Grundlegende Satzstrukturen erkennbar; systematische Fehler bei Konjugation",
+              "adequate": "Satzfragmente überwiegen; Wortstellung häufig fehlerhaft",
+              "needs_work": "Keine erkennbare Satzstruktur; nur isolierte Wörter"
+            }
+          },
+          {
+            "name": "Interaktion",
+            "weight": 25,
+            "descriptors": {
+              "excellent": "Kann sich vorstellen, einfache Fragen stellen und beantworten; reagiert auf Gesprächspartner",
+              "good": "Beantwortet einfache Fragen; stellt gelegentlich eigene Fragen mit Hilfe",
+              "adequate": "Reagiert nur auf direkte Fragen; braucht häufige Wiederholung und Vereinfachung",
+              "needs_work": "Kann kaum auf Fragen reagieren; Kommunikation bricht regelmäßig ab"
+            }
+          }
+        ]
+      },
+      "writing": {
+        "criteria": [
+          {
+            "name": "Inhalt",
+            "weight": 30,
+            "descriptors": {
+              "excellent": "Füllt Formulare korrekt aus; schreibt einfache persönliche Angaben und kurze Mitteilungen",
+              "good": "Persönliche Angaben meist vollständig; einfache Mitteilungen verständlich",
+              "adequate": "Formulare teilweise ausgefüllt; Mitteilungen nur mit Kontextwissen verständlich",
+              "needs_work": "Kann kaum schriftliche Angaben machen; Inhalte nicht nachvollziehbar"
+            }
+          },
+          {
+            "name": "Grammatik",
+            "weight": 30,
+            "descriptors": {
+              "excellent": "Einfache Sätze im Präsens meist korrekt; Artikelverwendung teilweise richtig",
+              "good": "Grundlegende Satzstruktur erkennbar; systematische Fehler bei Artikeln und Konjugation",
+              "adequate": "Häufige Grammatikfehler; Satzstruktur oft unklar",
+              "needs_work": "Keine erkennbare Grammatik; nur Wortlisten"
+            }
+          },
+          {
+            "name": "Wortschatz",
+            "weight": 20,
+            "descriptors": {
+              "excellent": "Grundwortschatz für Alltag und persönliche Informationen angemessen eingesetzt",
+              "good": "Wortschatz ausreichend für einfache Mitteilungen; einige Wiederholungen",
+              "adequate": "Sehr begrenzter Wortschatz; häufig falsche Wortwahl",
+              "needs_work": "Wortschatz reicht nicht für einfachste schriftliche Aufgaben"
+            }
+          },
+          {
+            "name": "Kohärenz",
+            "weight": 20,
+            "descriptors": {
+              "excellent": "Einfache Konnektoren (und, oder) verwendet; logische Reihenfolge erkennbar",
+              "good": "Ansätze von Textverbindung; Reihenfolge meist nachvollziehbar",
+              "adequate": "Isolierte Sätze ohne Verbindung; Reihenfolge teils unklar",
+              "needs_work": "Kein Textzusammenhang erkennbar"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "speaking": {
+        "criteria": [
+          {
+            "name": "Aussprache",
+            "weight": 25,
+            "descriptors": {
+              "excellent": "Natürlicher Sprachfluss mit korrekter Intonation; Akzent beeinträchtigt Verständnis nicht",
+              "good": "Flüssige Aussprache; gelegentliche Intonationsfehler bei komplexen Äußerungen",
+              "adequate": "Verständlich, aber merklicher Akzent; Intonation bei längeren Beiträgen monoton",
+              "needs_work": "Aussprache und Intonation erschweren das Verständnis auch bei vertrauten Themen"
+            }
+          },
+          {
+            "name": "Wortschatz",
+            "weight": 25,
+            "descriptors": {
+              "excellent": "Breiter Wortschatz zu allgemeinen und fachbezogenen Themen; differenzierte Ausdrucksweise",
+              "good": "Guter aktiver Wortschatz; gelegentlich unpräzise Wortwahl bei abstrakten Themen",
+              "adequate": "Ausreichender Wortschatz für vertraute Themen; bei komplexen Themen eingeschränkt",
+              "needs_work": "Wortschatz reicht nicht für zusammenhängende Argumentation; häufige Umschreibungen"
+            }
+          },
+          {
+            "name": "Grammatik",
+            "weight": 25,
+            "descriptors": {
+              "excellent": "Komplexe Strukturen (Nebensätze, Konjunktiv II, Passiv) meist korrekt; selbstständige Fehlerkorrektur",
+              "good": "Gute Beherrschung komplexer Strukturen; Fehler bei selteneren Formen (Konjunktiv I, Partizipialkonstruktionen)",
+              "adequate": "Einfache und einige komplexe Strukturen korrekt; systematische Fehler bei Nebensätzen und Kasus",
+              "needs_work": "Überwiegend einfache Satzstrukturen; komplexe Grammatik häufig fehlerhaft"
+            }
+          },
+          {
+            "name": "Interaktion",
+            "weight": 25,
+            "descriptors": {
+              "excellent": "Beteiligt sich aktiv an Diskussionen; argumentiert, begründet Meinungen und geht auf Gesprächspartner ein",
+              "good": "Nimmt an Diskussionen teil; kann Standpunkte vertreten, reagiert manchmal verzögert",
+              "adequate": "Kann Meinung äußern, aber Argumentation wenig differenziert; braucht gelegentlich Unterstützung",
+              "needs_work": "Kann an Diskussionen kaum aktiv teilnehmen; reagiert nur auf direkte Aufforderung"
+            }
+          }
+        ]
+      },
+      "writing": {
+        "criteria": [
+          {
+            "name": "Inhalt",
+            "weight": 30,
+            "descriptors": {
+              "excellent": "Klare Argumentation mit Beispielen; Thema umfassend und differenziert behandelt; Erörterungen und Berichte überzeugend",
+              "good": "Argumentation nachvollziehbar; Thema angemessen behandelt; einzelne Aspekte könnten vertieft werden",
+              "adequate": "Grundlegende Argumentation vorhanden; Thema nur oberflächlich behandelt; wenig Beispiele",
+              "needs_work": "Keine klare Argumentation; Thema verfehlt oder nur ansatzweise behandelt"
+            }
+          },
+          {
+            "name": "Grammatik",
+            "weight": 30,
+            "descriptors": {
+              "excellent": "Sichere Verwendung komplexer Strukturen (Relativsätze, Passiv, Konjunktiv); wenige Fehler",
+              "good": "Komplexe Strukturen überwiegend korrekt; gelegentliche Fehler bei Kasus und Nebensatzstellung",
+              "adequate": "Einfache Strukturen korrekt; bei komplexen Sätzen häufige Fehler in Wortstellung und Kongruenz",
+              "needs_work": "Grammatikfehler beeinträchtigen das Verständnis; komplexe Strukturen werden vermieden"
+            }
+          },
+          {
+            "name": "Wortschatz",
+            "weight": 20,
+            "descriptors": {
+              "excellent": "Differenzierter Wortschatz; idiomatische Wendungen; fachsprachliche Ausdrücke angemessen eingesetzt",
+              "good": "Guter Wortschatz; gelegentlich unpräzise Wortwahl; einige idiomatische Wendungen",
+              "adequate": "Ausreichender Wortschatz für Grundaussagen; Wiederholungen; kaum idiomatische Wendungen",
+              "needs_work": "Begrenzter Wortschatz; häufig falsche Wortwahl; Aussagen dadurch unklar"
+            }
+          },
+          {
+            "name": "Kohärenz",
+            "weight": 20,
+            "descriptors": {
+              "excellent": "Klare Textgliederung; vielfältige Konnektoren (dennoch, infolgedessen, einerseits); logischer Aufbau mit Einleitung und Schluss",
+              "good": "Gute Textstruktur; angemessene Konnektoren; Absatzgliederung meist sinnvoll",
+              "adequate": "Grundlegende Gliederung erkennbar; begrenzte Konnektoren (aber, weil, deshalb); Übergänge teils abrupt",
+              "needs_work": "Keine erkennbare Gliederung; fehlende Konnektoren; Text wirkt zusammenhangslos"
+            }
+          }
+        ]
+      }
     }
   ]
 }

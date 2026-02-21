@@ -8,7 +8,7 @@
 
 import { execSync } from 'child_process';
 
-const DEFAULT_PORTS = [3001, 3002, 3003, 3004, 3005, 3006];
+const DEFAULT_PORTS = [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010, 3011, 3012, 3013, 3014];
 const ports = process.argv.slice(2).map(Number).filter(Boolean).length > 0
   ? process.argv.slice(2).map(Number).filter(Boolean)
   : DEFAULT_PORTS;

@@ -60,8 +60,11 @@ export default function VocabularyDemoPage() {
           {mockWords.map((word) => (
             <div key={word.id} className="flex justify-center">
               <Flashcard 
-                word={word}
-                onFlip={() => console.log(`Flipped: ${word.word}`)}
+                word={word.word}
+                meaning={word.translation}
+                level={word.level}
+                example={word.exampleSentence}
+                onRate={(rating) => console.log(`Rated ${word.word}: ${rating}`)}
               />
             </div>
           ))}
@@ -127,7 +130,13 @@ export default function VocabularyDemoPage() {
         
         <div className="max-w-2xl mx-auto">
           <div className="mb-6">
-            <Flashcard word={mockWords[0]} />
+            <Flashcard 
+              word={mockWords[0].word}
+              meaning={mockWords[0].translation}
+              level={mockWords[0].level}
+              example={mockWords[0].exampleSentence}
+              onRate={(rating) => console.log(`Rated: \${rating}`)}
+            />
           </div>
           <WordMeter 
             status="LEARNING" 

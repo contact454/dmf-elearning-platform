@@ -27,6 +27,7 @@ model VocabularyItem {
   addedAt     DateTime? @map("added_at")
   createdAt   DateTime  @default(now()) @map("created_at")
   updatedAt   DateTime  @updatedAt @map("updated_at")
+  deletedAt   DateTime? @map("deleted_at")
 
   // Relations
   progress       UserWordProgress[]
@@ -59,8 +60,9 @@ model UserWordProgress {
   correctReviews Int @default(0) @map("correct_reviews")
 
   // Timestamps
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   // Relations
   user User           @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -83,12 +85,13 @@ enum ReviewStatus {
 
 // User model (core fields - extended in onboarding-service)
 model User {
-  id        String   @id @default(cuid())
-  email     String   @unique
+  id        String    @id @default(cuid())
+  email     String    @unique
   name      String?
-  role      String   @default("learner") // learner, teacher, mentor, admin
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  role      String    @default("learner") // learner, teacher, mentor, admin
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   // Streak tracking (Task 2.1)
   currentStreak    Int       @default(0) @map("current_streak")
@@ -116,7 +119,9 @@ model VocabularyReviewAttempt {
   quality Int
   source  String? // review | vocabulary-srs
 
-  createdAt DateTime @default(now()) @map("created_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   // Relations
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -157,8 +162,11 @@ model ReadingContent {
   isPublished Boolean @default(true)
   isFeatured  Boolean @default(false)
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+  createdBy String?
+  updatedBy String?
 
   // Relations
   progress UserReadingProgress[]
@@ -192,8 +200,9 @@ model UserReadingProgress {
   // Rating
   rating Int? // 1-5 star rating
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   @@unique([userId, contentId])
   @@index([userId, status])
@@ -235,8 +244,11 @@ model ListeningContent {
   isPublished Boolean @default(true)
   isFeatured  Boolean @default(false)
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+  createdBy String?
+  updatedBy String?
 
   // Relations
   progress  UserListeningProgress[]
@@ -267,7 +279,9 @@ model DictationExercise {
   // Difficulty
   difficulty Int @default(1) // 1-5
 
-  createdAt DateTime @default(now())
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   // Relations
   attempts DictationAttempt[]
@@ -294,7 +308,9 @@ model DictationAttempt {
   listenCount Int @default(1) // How many times played
   timeSpent   Int @default(0) // Seconds spent
 
-  createdAt DateTime @default(now())
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   @@index([userId, exerciseId])
   @@index([userId, createdAt])
@@ -324,8 +340,9 @@ model UserListeningProgress {
   startedAt   DateTime?
   completedAt DateTime?
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   @@unique([userId, contentId])
   @@index([userId, status])
@@ -362,8 +379,11 @@ model SpeakingPrompt {
   isPublished Boolean @default(true)
   isFeatured  Boolean @default(false)
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+  createdBy String?
+  updatedBy String?
 
   // Relations
   attempts SpeakingAttempt[]
@@ -400,7 +420,9 @@ model SpeakingAttempt {
   recordingTime Int @default(0) // Time spent recording (seconds)
   attemptNumber Int @default(1) // Which attempt this is
 
-  createdAt DateTime @default(now())
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   @@index([userId, promptId])
   @@index([userId, createdAt])
@@ -427,8 +449,9 @@ model UserSpeakingProgress {
   firstAttemptAt DateTime?
   lastAttemptAt  DateTime?
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   @@unique([userId, promptId])
   @@index([userId, status])
@@ -477,8 +500,11 @@ model WritingPrompt {
   isPublished Boolean @default(true)
   isFeatured  Boolean @default(false)
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+  createdBy String?
+  updatedBy String?
 
   // Relations
   submissions WritingSubmission[]
@@ -528,8 +554,9 @@ model WritingSubmission {
   // Status
   status String @default("submitted") // submitted, reviewed, revised
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   @@index([userId, promptId])
   @@index([userId, createdAt])
@@ -566,8 +593,9 @@ model UserWritingProgress {
   firstSubmissionAt DateTime?
   lastSubmissionAt  DateTime?
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   @@unique([userId, promptId])
   @@index([userId, status])
@@ -588,8 +616,11 @@ model ListeningExercise {
   exerciseType    ExerciseType @map("exercise_type")
   exerciseData    Json?        @map("exercise_data") // Type-specific data (options, images, etc.)
 
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+  createdBy String?   @map("created_by")
+  updatedBy String?   @map("updated_by")
 
   // Relations
   userProgress UserListeningExerciseProgress[]
@@ -615,8 +646,9 @@ model UserListeningExerciseProgress {
   easeFactor       Float     @default(2.5) @map("ease_factor") // SM-2 easiness
   intervalDays     Int       @default(0) @map("interval_days") // SM-2 interval
 
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   // Relations
   exercise ListeningExercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
@@ -641,7 +673,9 @@ model ListeningExerciseAttempt {
   accuracyScore    Float?  @map("accuracy_score") // 0-100 (for partial credit)
   qualityRating    Int?    @map("quality_rating") // 0-5 (SM-2 quality)
 
-  createdAt DateTime @default(now()) @map("created_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   // Relations
   exercise ListeningExercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
@@ -667,18 +701,21 @@ enum ExerciseType {
 // ═══════════════════════════════════════════════════════════════
 
 model ReadingPassage {
-  id                          String   @id @default(uuid()) @db.Uuid
-  title                       String   @db.VarChar(200)
-  content                     String   @db.Text
-  cefrLevel                   String   @map("cefr_level") @db.VarChar(2)
-  topic                       String?  @db.VarChar(100)
-  wordCount                   Int      @map("word_count")
-  estimatedReadingTimeMinutes Int      @default(0) @map("estimated_reading_time_minutes")
-  difficultyScore             Decimal? @default(0) @map("difficulty_score") @db.Decimal(3, 2)
-  source                      String?  @db.VarChar(200)
-  isPremium                   Boolean  @default(false) @map("is_premium")
-  createdAt                   DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
-  updatedAt                   DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  id                          String    @id @default(uuid()) @db.Uuid
+  title                       String    @db.VarChar(200)
+  content                     String    @db.Text
+  cefrLevel                   String    @map("cefr_level") @db.VarChar(2)
+  topic                       String?   @db.VarChar(100)
+  wordCount                   Int       @map("word_count")
+  estimatedReadingTimeMinutes Int       @default(0) @map("estimated_reading_time_minutes")
+  difficultyScore             Decimal?  @default(0) @map("difficulty_score") @db.Decimal(3, 2)
+  source                      String?   @db.VarChar(200)
+  isPremium                   Boolean   @default(false) @map("is_premium")
+  createdAt                   DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt                   DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  deletedAt                   DateTime? @map("deleted_at") @db.Timestamptz(6)
+  createdBy                   String?   @map("created_by")
+  updatedBy                   String?   @map("updated_by")
 
   // Relations
   exercises           ReadingExercise[]
@@ -694,15 +731,17 @@ model ReadingPassage {
 }
 
 model ReadingExercise {
-  id              String   @id @default(uuid()) @db.Uuid
-  passageId       String   @map("passage_id") @db.Uuid
-  exerciseType    String   @map("exercise_type") @db.VarChar(50)
-  question        String   @db.Text
-  exerciseData    Json     @map("exercise_data")
-  explanation     String?  @db.Text
-  difficultyLevel Int      @default(5) @map("difficulty_level")
-  displayOrder    Int      @default(0) @map("display_order")
-  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  id              String    @id @default(uuid()) @db.Uuid
+  passageId       String    @map("passage_id") @db.Uuid
+  exerciseType    String    @map("exercise_type") @db.VarChar(50)
+  question        String    @db.Text
+  exerciseData    Json      @map("exercise_data")
+  explanation     String?   @db.Text
+  difficultyLevel Int       @default(5) @map("difficulty_level")
+  displayOrder    Int       @default(0) @map("display_order")
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt       DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  deletedAt       DateTime? @map("deleted_at") @db.Timestamptz(6)
 
   // Relations
   passage         ReadingPassage   @relation(fields: [passageId], references: [id], onDelete: Cascade)
@@ -733,8 +772,9 @@ model UserPassageProgress {
   easeFactor   Decimal   @default(2.5) @map("ease_factor") @db.Decimal(3, 2)
   intervalDays Int       @default(0) @map("interval_days")
 
-  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
-  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  createdAt DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  deletedAt DateTime? @map("deleted_at") @db.Timestamptz(6)
 
   // Relations
   passage ReadingPassage @relation(fields: [passageId], references: [id], onDelete: Cascade)
@@ -765,7 +805,9 @@ model ReadingAttempt {
   // SRS rating (optional: user feedback on difficulty)
   qualityRating Int? @map("quality_rating")
 
-  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  createdAt DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  deletedAt DateTime? @map("deleted_at") @db.Timestamptz(6)
 
   // Relations
   passage  ReadingPassage  @relation(fields: [passageId], references: [id], onDelete: Cascade)
@@ -799,8 +841,9 @@ model UserXP {
   speakingXP Int @default(0) @map("speaking_xp")
   writingXP  Int @default(0) @map("writing_xp")
 
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   @@index([totalXP])
   @@index([currentLvl])
@@ -826,8 +869,10 @@ model Achievement {
   // Rarity
   rarity String @default("common") // common, rare, epic, legendary
 
-  isActive  Boolean  @default(true) @map("is_active")
-  createdAt DateTime @default(now()) @map("created_at")
+  isActive  Boolean   @default(true) @map("is_active")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   // Relations
   userAchievements UserAchievement[]
@@ -842,8 +887,12 @@ model UserAchievement {
   userId        String @map("user_id")
   achievementId String @map("achievement_id")
 
-  unlockedAt DateTime @default(now()) @map("unlocked_at")
-  notified   Boolean  @default(false)
+  unlockedAt DateTime  @default(now()) @map("unlocked_at")
+  notified   Boolean   @default(false)
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   achievement Achievement @relation(fields: [achievementId], references: [id])
 
@@ -868,7 +917,9 @@ model DailyChallenge {
   completedAt DateTime? @map("completed_at")
   xpAwarded   Int       @default(0) @map("xp_awarded")
 
-  createdAt DateTime @default(now()) @map("created_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
 
   @@unique([userId, date])
   @@index([userId, completed])

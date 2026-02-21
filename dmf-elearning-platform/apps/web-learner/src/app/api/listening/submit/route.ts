@@ -82,7 +82,7 @@ function calculateScore(
       const userWords = userText.split(/\s+/);
       const correctWords = correctText.split(/\s+/);
       
-      const matchingWords = userWords.filter((word, idx) => 
+      const matchingWords = userWords.filter((word: string, idx: number) => 
         word === correctWords[idx]
       ).length;
       
@@ -101,7 +101,7 @@ function calculateScore(
       const userBlanks = Array.isArray(userAnswer) ? userAnswer : [userAnswer];
       const correctBlanks = Array.isArray(correctAnswer) ? correctAnswer : [correctAnswer];
       
-      const correctCount = userBlanks.filter((answer, idx) => 
+      const correctCount = userBlanks.filter((answer: any, idx: number) => 
         answer?.toLowerCase().trim() === correctBlanks[idx]?.toLowerCase().trim()
       ).length;
       
@@ -130,6 +130,13 @@ function calculateScore(
 
 export const POST = withAuth(async (request: NextRequest, { user }) => {
   try {
+    if (!prisma) {
+      return NextResponse.json(
+        { success: false, error: 'Database not configured' },
+        { status: 503 }
+      );
+    }
+
     const body = await request.json();
     
     // Extract userId from authenticated user (JWT token) - NEVER from request body!
@@ -276,7 +283,7 @@ export const POST = withAuth(async (request: NextRequest, { user }) => {
         playCount: { increment: 1 },
         // Calculate rolling average (simplified)
       },
-    }).catch(err => console.error('Failed to update exercise stats:', err));
+    }).catch((err: Error) => console.error('Failed to update exercise stats:', err));
 
     return NextResponse.json({
       success: true,

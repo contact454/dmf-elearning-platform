@@ -1,8 +1,8 @@
-import { Router, type Router as RouterType } from 'express';
+import { Router } from 'express';
 import { prisma } from '../database/connection';
 import { z } from 'zod';
 
-const router: RouterType = Router();
+const router = Router();
 
 // Validation schemas
 const listPromptsSchema = z.object({

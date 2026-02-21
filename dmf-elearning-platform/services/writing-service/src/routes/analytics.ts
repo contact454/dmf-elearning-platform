@@ -1,9 +1,9 @@
-import { Router, type Router as RouterType } from 'express';
+import { Router } from 'express';
 import { AnalyticsService } from '../services/analyticsService';
 import { authMiddleware, AuthRequest } from '../middleware/authMiddleware';
 import { z } from 'zod';
 
-const router: RouterType = Router();
+const router = Router();
 const analyticsService = new AnalyticsService();
 
 router.use(authMiddleware);

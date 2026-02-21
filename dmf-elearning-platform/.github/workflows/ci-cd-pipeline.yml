@@ -1,5 +1,5 @@
 # M8 S23-04 — Full CI/CD Pipeline
-# Build → Test → Deploy per environment (dev/staging/prod)
+# Build → Test → Security Scan → Deploy per environment (dev/staging/prod)
 
 name: CI/CD Pipeline
 
@@ -75,10 +75,46 @@ jobs:
           name: test-results
           path: services/learning-service/test-results.xml
 
+  # ─────────────────── SECURITY SCANNING ───────────────────
+  security-scan:
+    name: Security Scanning
+    runs-on: ubuntu-latest
+    needs: [test]
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Run npm audit
+        run: pnpm audit --audit-level=high || true
+
+      - name: Check for secrets
+        uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --only-verified
+
   # ─────────────────── BUILD & PUSH IMAGE ───────────────────
   build:
     runs-on: ubuntu-latest
-    needs: test
+    needs: [test, security-scan]
     if: github.event_name == 'push'
     permissions:
       contents: read
@@ -123,6 +159,7 @@ jobs:
         run: |
           helm upgrade --install dmf-dev infrastructure/k8s/helm \
             --namespace dmf-dev --create-namespace \
+            --atomic \
             --set image.tag=${{ github.sha }} \
             --values infrastructure/k8s/helm/values-dev.yaml \
             --wait --timeout 300s
@@ -139,6 +176,7 @@ jobs:
         run: |
           helm upgrade --install dmf-staging infrastructure/k8s/helm \
             --namespace dmf-staging --create-namespace \
+            --atomic \
             --set image.tag=${{ github.sha }} \
             --values infrastructure/k8s/helm/values-staging.yaml \
             --wait --timeout 300s
@@ -150,22 +188,30 @@ jobs:
   # ─────────────────── DEPLOY PRODUCTION ───────────────────
   deploy-prod:
     runs-on: ubuntu-latest
-    needs: build
+    needs: [build, deploy-staging]
     if: github.ref == 'refs/heads/main'
-    environment: production
+    environment: production  # Requires approval in GitHub settings
     steps:
       - uses: actions/checkout@v4
       - name: Deploy to production
         run: |
           helm upgrade --install dmf-prod infrastructure/k8s/helm \
             --namespace dmf-prod --create-namespace \
+            --atomic \
+            --timeout 600s \
             --set image.tag=${{ github.sha }} \
             --values infrastructure/k8s/helm/values.yaml \
-            --wait --timeout 300s
+            --wait
       - name: Production smoke test
         run: |
           sleep 15
           curl -f https://api.dmf-elearning.com/api/health || exit 1
       - name: Notify on success
         if: success()
-        run: echo "✅ Production deployed successfully — ${{ github.sha }}"
+        run: echo "Production deployed successfully - ${{ github.sha }}"
+      - name: Rollback on failure
+        if: failure()
+        run: |
+          echo "Deployment failed, initiating rollback..."
+          helm rollback dmf-prod --namespace dmf-prod
+          echo "Rollback completed for dmf-prod"

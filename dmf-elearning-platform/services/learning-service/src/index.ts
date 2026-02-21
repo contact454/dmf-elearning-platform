@@ -82,6 +82,31 @@ app.get('/health', (req: Request, res: Response) => {
   });
 });
 
+// --- Readiness Probe (checks DB connectivity) ---
+app.get('/health/ready', async (req: Request, res: Response) => {
+  const checks: Record<string, string> = {};
+  let healthy = true;
+
+  // Database check (Prisma)
+  try {
+    const { default: prisma } = await import('./lib/prisma');
+    await prisma.$queryRawUnsafe('SELECT 1');
+    checks.database = 'ok';
+  } catch (e) {
+    checks.database = 'failed';
+    healthy = false;
+  }
+
+  const status = healthy ? 200 : 503;
+  res.status(status).json({
+    status: healthy ? 'ready' : 'not_ready',
+    service: 'DMF Learning Service',
+    checks,
+    uptime: Math.floor(process.uptime()),
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // Root endpoint
 app.get('/', (req: Request, res: Response) => {
   res.status(200).json({

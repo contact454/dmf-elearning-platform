@@ -164,3 +164,26 @@ export function createSecureResponse(
 
   return response;
 }
+
+/**
+ * Security middleware wrapper for API route handlers.
+ * Applies rate limiting, security headers, and CORS to responses.
+ */
+export function withSecurity<T extends Record<string, any> = {}>(
+  handler: (request: NextRequest, context: T) => Promise<NextResponse>
+) {
+  return async (request: NextRequest, context: T) => {
+    try {
+      checkRateLimit(request);
+    } catch {
+      return createSecureErrorResponse('Rate limit exceeded. Please try again later.', 429, request);
+    }
+
+    const response = await handler(request, context);
+
+    addSecurityHeaders(response);
+    addCORSHeaders(response, request);
+
+    return response;
+  };
+}

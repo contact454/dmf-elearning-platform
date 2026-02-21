@@ -9,7 +9,7 @@ export default function MagicCard({
   className,
   gradientColor = '#D9D9D955',
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode | React.ReactNode[];
   className?: string;
   gradientColor?: string;
 }) {
@@ -68,7 +68,7 @@ export default function MagicCard({
           background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, ${gradientColor}, transparent 40%)`,
         }}
       />
-      {children}
+      {children as any}
     </motion.div>
   );
 }

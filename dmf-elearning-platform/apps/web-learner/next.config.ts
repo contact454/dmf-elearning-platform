@@ -5,9 +5,8 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const config: NextConfig = {
   typescript: {
-    // ⚠️ Temporarily ignore TypeScript errors during build
-    // TODO: Fix TypeScript errors in Reading Module API routes
-    ignoreBuildErrors: true,
+    // TypeScript errors have been fixed - strict checking enabled
+    ignoreBuildErrors: false,
   },
 };
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
@@ -40,6 +40,19 @@ import { FeedbackPanel } from '@/components/writing/FeedbackPanel';
 import { useAutoSave } from '@/hooks/useAutoSave';
 
 const TEMP_USER_ID = 'demo-user-001';
+
+/**
+ * Simple writing timer hook
+ */
+function useWritingTimer() {
+  const startTime = useRef(Date.now());
+
+  const getElapsedSeconds = useCallback(() => {
+    return Math.floor((Date.now() - startTime.current) / 1000);
+  }, []);
+
+  return { getElapsedSeconds };
+}
 
 export default function WritingEditorPage() {
   const params = useParams();
@@ -122,13 +135,19 @@ export default function WritingEditorPage() {
   }, [id]);
 
   // Auto-save hook
-  const { saveNow } = useAutoSave({
+  const { isDebouncing } = useAutoSave({
     content,
     essayId: id,
     onSave: handleSave,
     delay: 10000, // 10 seconds
-    enabled: !submitting && !currentSubmission,
   });
+
+  // Manual save function
+  const saveNow = useCallback(() => {
+    if (content.trim()) {
+      handleSave(content);
+    }
+  }, [content, handleSave]);
 
   // Handle editor changes
   const handleEditorChange = useCallback((text: string, words: number) => {
@@ -279,7 +298,7 @@ export default function WritingEditorPage() {
             {showSample && prompt.sampleResponse && (
               <SampleSection
                 sample={prompt.sampleResponse}
-                sampleVi={prompt.sampleResponseVi}
+                sampleVi={prompt.sampleResponseVi ?? undefined}
                 onClose={() => setShowSample(false)}
               />
             )}
@@ -348,32 +367,18 @@ export default function WritingEditorPage() {
                 stats={stats}
                 onApply={handleApplyError}
                 onIgnore={handleIgnoreError}
-                className="max-h-[calc(100vh-8rem)] rounded-xl"
               />
             </div>
           </div>
         </div>
       </main>
-
-      {/* Mobile Feedback Drawer - TODO: Implement MobileFeedbackDrawer component */}
-      {/* <MobileFeedbackDrawer
-        isOpen={isMobileDrawerOpen}
-        onToggle={() => setIsMobileDrawerOpen(!isMobileDrawerOpen)}
-      >
-        <FeedbackPanel
-          errors={grammarErrors}
-          stats={stats}
-          onApply={handleApplyError}
-          onIgnore={handleIgnoreError}
-        />
-      </MobileFeedbackDrawer> */}
     </div>
   );
 }
 
-// ═══════════════════════════════════════════════════════════════
+// ===================================================================
 // Components
-// ═══════════════════════════════════════════════════════════════
+// ===================================================================
 
 function PromptInfo({ prompt, content }: { prompt: WritingWithProgress; content: string }) {
   return (
@@ -465,7 +470,7 @@ function HintsSection({ hints, onClose }: { hints: string[]; onClose: () => void
       <ul className="space-y-2">
         {hints.map((hint, i) => (
           <li key={i} className="text-sm text-yellow-700 flex items-start gap-2">
-            <span className="text-yellow-500">•</span>
+            <span className="text-yellow-500">&bull;</span>
             {hint}
           </li>
         ))}
@@ -543,9 +548,9 @@ function SubmissionFeedback({
   );
 }
 
-// ═══════════════════════════════════════════════════════════════
+// ===================================================================
 // Helper Functions
-// ═══════════════════════════════════════════════════════════════
+// ===================================================================
 
 function getCategoryLabel(category: string): string {
   const labels: Record<string, string> = {

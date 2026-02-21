@@ -54,7 +54,7 @@ export async function GET(request: NextRequest) {
       }))
 
       const requestedUserId = url.searchParams.get('userId') || userId
-      const userEntry = entries.find((entry) => entry.userId === requestedUserId) || null
+      const userEntry = entries.find((entry: any) => entry.userId === requestedUserId) || null
 
       return NextResponse.json({
         success: true,

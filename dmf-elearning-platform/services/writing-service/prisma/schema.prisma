@@ -17,13 +17,14 @@ datasource db {
 // USER MANAGEMENT
 // ============================================
 model User {
-  id           String   @id @default(uuid()) @db.Uuid
-  email        String   @unique @db.VarChar(255)
-  passwordHash String   @map("password_hash") @db.VarChar(255)
-  name         String?  @db.VarChar(255)
-  tier         String   @default("free") @db.VarChar(20) // free, premium, classroom
-  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
-  updatedAt    DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  id           String    @id @default(uuid()) @db.Uuid
+  email        String    @unique @db.VarChar(255)
+  passwordHash String    @map("password_hash") @db.VarChar(255)
+  name         String?   @db.VarChar(255)
+  tier         String    @default("free") @db.VarChar(20) // free, premium, classroom
+  createdAt    DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt    DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  deletedAt    DateTime? @map("deleted_at") @db.Timestamptz(6)
 
   essays Essay[]
 
@@ -35,14 +36,18 @@ model User {
 // ESSAY PROMPTS
 // ============================================
 model Prompt {
-  id              String   @id @default(uuid()) @db.Uuid
-  title           String   @db.VarChar(255)
-  description     String   @db.Text
-  cefrLevel       String   @map("cefr_level") @db.VarChar(2) // A1, A2, B1, B2, C1, C2
-  category        String?  @db.VarChar(100) // daily_life, opinion, description, formal_letter, travel
-  targetWordCount Int      @default(200) @map("target_word_count")
-  tips            Json?    // Array of writing tips
-  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  id              String    @id @default(uuid()) @db.Uuid
+  title           String    @db.VarChar(255)
+  description     String    @db.Text
+  cefrLevel       String    @map("cefr_level") @db.VarChar(2) // A1, A2, B1, B2, C1, C2
+  category        String?   @db.VarChar(100) // daily_life, opinion, description, formal_letter, travel
+  targetWordCount Int       @default(200) @map("target_word_count")
+  tips            Json?     // Array of writing tips
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt       DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  deletedAt       DateTime? @map("deleted_at") @db.Timestamptz(6)
+  createdBy       String?   @map("created_by")
+  updatedBy       String?   @map("updated_by")
 
   essays Essay[]
 
@@ -69,8 +74,9 @@ model Essay {
   nextReviewAt DateTime? @map("next_review_at") @db.Timestamptz(6)
   easeFactor   Decimal   @default(2.5) @map("ease_factor") @db.Decimal(3, 2)
 
-  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
-  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  createdAt DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+  deletedAt DateTime? @map("deleted_at") @db.Timestamptz(6)
 
   user          User           @relation(fields: [userId], references: [id], onDelete: Cascade)
   prompt        Prompt?        @relation(fields: [promptId], references: [id], onDelete: SetNull)
@@ -88,15 +94,17 @@ model Essay {
 // GRAMMAR ERRORS
 // ============================================
 model GrammarError {
-  id          String   @id @default(uuid()) @db.Uuid
-  essayId     String   @map("essay_id") @db.Uuid
-  errorType   String   @map("error_type") @db.VarChar(50) // grammar, spelling, style
-  message     String   @db.Text
-  offset      Int      // Character position in text
-  length      Int      // Length of error span
-  suggestions Json?    // Array of { value: string }
-  ruleId      String?  @map("rule_id") @db.VarChar(100) // LanguageTool rule ID
-  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  id          String    @id @default(uuid()) @db.Uuid
+  essayId     String    @map("essay_id") @db.Uuid
+  errorType   String    @map("error_type") @db.VarChar(50) // grammar, spelling, style
+  message     String    @db.Text
+  offset      Int       // Character position in text
+  length      Int       // Length of error span
+  suggestions Json?     // Array of { value: string }
+  ruleId      String?   @map("rule_id") @db.VarChar(100) // LanguageTool rule ID
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt   DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  deletedAt   DateTime? @map("deleted_at") @db.Timestamptz(6)
 
   essay Essay @relation(fields: [essayId], references: [id], onDelete: Cascade)
 

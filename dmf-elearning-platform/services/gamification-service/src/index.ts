@@ -13,9 +13,16 @@ const statsRepo = createInMemoryUserStatsRepository();
 // 2. Initialize Fastify
 const app = Fastify({ logger: false });
 
-// CORS Configuration - Allow Frontend (Port 3000)
+// CORS — read allowed origins from environment variable
+const ALLOWED_ORIGINS = (process.env.CORS_ALLOWED_ORIGINS || 'http://localhost:3000')
+  .split(',')
+  .map(origin => origin.trim());
+
 app.addHook('onRequest', async (request, reply) => {
-  reply.header('Access-Control-Allow-Origin', 'http://localhost:3000');
+  const requestOrigin = request.headers.origin;
+  if (requestOrigin && ALLOWED_ORIGINS.includes(requestOrigin)) {
+    reply.header('Access-Control-Allow-Origin', requestOrigin);
+  }
   reply.header('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE');
   reply.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   reply.header('Access-Control-Allow-Credentials', 'true');
@@ -30,6 +37,14 @@ app.addHook('onRequest', async (request, reply) => {
 app.get('/health', async () => ({
   status: 'OK',
   service: 'gamification-service',
+}));
+
+app.get('/health/ready', async () => ({
+  status: 'ready',
+  service: 'gamification-service',
+  checks: {},
+  uptime: process.uptime(),
+  timestamp: new Date().toISOString(),
 }));
 
 registerGamificationRoutes(app, { statsRepo });

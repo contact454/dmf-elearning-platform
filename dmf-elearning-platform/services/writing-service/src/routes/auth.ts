@@ -1,8 +1,8 @@
-import { Router, type Router as RouterType } from 'express';
+import { Router } from 'express';
 import { AuthService } from '../services/authService';
 import { z } from 'zod';
 
-const router: RouterType = Router();
+const router = Router();
 const authService = new AuthService();
 
 // Validation schemas

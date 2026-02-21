@@ -7,6 +7,13 @@ import { withAuth } from '@/middleware/auth';
 
 export const GET = withAuth(async (request: NextRequest, { user }) => {
   try {
+    if (!prisma) {
+      return NextResponse.json(
+        { success: false, error: 'Database not configured' },
+        { status: 503 }
+      );
+    }
+
     const { searchParams } = new URL(request.url);
     
     // Extract query parameters

@@ -3,7 +3,7 @@
 import { LexicalComposer } from '@lexical/react/LexicalComposer';
 import { RichTextPlugin } from '@lexical/react/LexicalRichTextPlugin';
 import { ContentEditable } from '@lexical/react/LexicalContentEditable';
-import { HistoryPlugin } from '@lexical/react/LexicalHistory';
+import { HistoryPlugin } from '@lexical/react/LexicalHistoryPlugin';
 import { OnChangePlugin } from '@lexical/react/LexicalOnChangePlugin';
 import LexicalErrorBoundary from '@lexical/react/LexicalErrorBoundary';
 import { EditorState } from 'lexical';
@@ -80,7 +80,12 @@ export function WritingEditor({
         language: 'de-DE',
       });
 
-      onGrammarCheckComplete?.(result.errors);
+      onGrammarCheckComplete?.(result.errors.map((e: any) => ({
+        ...e,
+        suggestions: Array.isArray(e.suggestions) 
+          ? e.suggestions.map((s: any) => typeof s === 'string' ? s : s.value)
+          : [],
+      })));
     } catch (error) {
       console.error('❌ Grammar check failed:', error);
     }
@@ -173,7 +178,7 @@ export function WritingEditor({
                 Start writing your essay...
               </div>
             }
-            ErrorBoundary={LexicalErrorBoundary}
+            ErrorBoundary={LexicalErrorBoundary as any}
           />
           
           <HistoryPlugin />

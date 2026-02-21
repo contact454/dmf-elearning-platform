@@ -37,7 +37,7 @@ registerHttpMetricsResponseHook(app, 'curriculum-service');
 setupEventMetricsConsumers(eventBus, 'curriculum-service', logger);
 
 // Health check endpoint
-registerHealthRoute(app);
+registerHealthRoute(app, database);
 
 // Metrics endpoint
 registerMetricsRoute(app);
@@ -48,7 +48,7 @@ registerCurriculumLessonsRoute(app, { logger });
 
 const start = async () => {
   try {
-    const port = Number(process.env.DMF_PORT_CURRICULUM || process.env.PORT || 3003);
+    const port = Number(process.env.DMF_PORT_CURRICULUM || process.env.PORT || 3013);
     const isE2EMode = process.env.DMF_MODE === 'e2e' || process.env.NODE_ENV === 'e2e';
     
     await app.listen({ port, host: '0.0.0.0' });

@@ -44,7 +44,7 @@ registerHttpMetricsResponseHook(app, 'assessment-service');
 setupEventMetricsConsumers(eventBus, 'assessment-service', logger);
 
 // Health check endpoint
-registerHealthRoute(app);
+registerHealthRoute(app, database);
 
 // Metrics endpoint
 registerMetricsRoute(app);
@@ -56,7 +56,7 @@ registerReadinessRoute(app, { database, logger, httpClient });
 
 const start = async () => {
   try {
-    const port = Number(process.env.DMF_PORT_ASSESSMENT || process.env.PORT || 3006);
+    const port = Number(process.env.DMF_PORT_ASSESSMENT || process.env.PORT || 3014);
     const isE2EMode = process.env.DMF_MODE === 'e2e' || process.env.NODE_ENV === 'e2e';
     
     await app.listen({ port, host: '0.0.0.0' });

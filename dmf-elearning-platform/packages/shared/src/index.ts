@@ -34,6 +34,7 @@ export * from './errors';
 // HTTP helpers
 export * from './http/request-context';
 export * from './http/middlewares';
+export * from './http/validation';
 
 // Audit helpers
 export * from './audit/audit';

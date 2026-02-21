@@ -5,10 +5,18 @@
 # Prerequisites:
 #   - gcloud CLI (for GKE) or aws CLI (for EKS) or az CLI (for AKS)
 #   - kubectl, helm installed
+#   - Required environment variables set (see .env.example at project root):
+#     DATABASE_URL, REDIS_URL, SUPABASE_JWT_SECRET, ANTHROPIC_API_KEY
 #
 # Usage: ./setup-cluster.sh [gke|eks|aks]
 
 set -euo pipefail
+
+# ─── VALIDATE REQUIRED SECRETS ───
+: "${DATABASE_URL:?ERROR: DATABASE_URL must be set}"
+: "${REDIS_URL:?ERROR: REDIS_URL must be set}"
+: "${SUPABASE_JWT_SECRET:?ERROR: SUPABASE_JWT_SECRET must be set}"
+: "${ANTHROPIC_API_KEY:?ERROR: ANTHROPIC_API_KEY must be set}"
 
 PROVIDER=${1:-gke}
 PROJECT=dmf-elearning
@@ -91,15 +99,15 @@ helm install cert-manager jetstack/cert-manager \
 
 # ─── CREATE SECRETS ───
 
-echo "🔐 Creating secrets (fill in real values!)..."
+echo "🔐 Creating secrets from environment variables..."
 kubectl create namespace dmf-prod --dry-run=client -o yaml | kubectl apply -f -
 
 kubectl create secret generic dmf-secrets \
   --namespace=dmf-prod \
-  --from-literal=database-url='postgresql://user:pass@host:5432/dmf' \
-  --from-literal=redis-url='redis://host:6379' \
-  --from-literal=supabase-jwt-secret='your-jwt-secret' \
-  --from-literal=anthropic-api-key='your-api-key' \
+  --from-literal=database-url="${DATABASE_URL}" \
+  --from-literal=redis-url="${REDIS_URL}" \
+  --from-literal=supabase-jwt-secret="${SUPABASE_JWT_SECRET}" \
+  --from-literal=anthropic-api-key="${ANTHROPIC_API_KEY}" \
   --dry-run=client -o yaml | kubectl apply -f -
 
 # ─── DEPLOY DMF ───

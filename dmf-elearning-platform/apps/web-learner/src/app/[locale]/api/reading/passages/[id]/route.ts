@@ -1,13 +1,6 @@
 /**
  * Mock API Route: GET /api/reading/passages/[id]
  * Returns single passage with exercises and user progress
- * 
- * SECURITY FEATURES:
- * - JWT Authentication (withAuth middleware)
- * - Rate limiting (100 req/min per IP)
- * - Security headers (X-Content-Type-Options, X-Frame-Options, X-XSS-Protection)
- * - CORS configuration
- * - Premium content access control
  */
 
 import { NextRequest, NextResponse } from 'next/server';
@@ -108,9 +101,9 @@ const mockPassagesWithExercises = {
   },
 };
 
-export const GET = withAuth(async (
+export const GET = withAuth<{ params: Promise<{ locale: string; id: string }> }>(async (
   request: NextRequest,
-  context: { params: Promise<{ id: string }>, user: { userId: string; email?: string } }
+  context
 ) => {
   try {
     // Rate limiting check
@@ -124,9 +117,6 @@ export const GET = withAuth(async (
     if (!data) {
       return createSecureErrorResponse('Passage not found', 404, request);
     }
-
-    // TODO: In production, check if user has premium access for premium passages
-    // For now, all passages are accessible to authenticated users
     
     return createSecureResponse(data, request);
   } catch (error) {

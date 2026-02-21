@@ -1,9 +1,9 @@
-import { Router, type Router as RouterType } from 'express';
+import { Router } from 'express';
 import { EssayService } from '../services/essayService';
 import { authMiddleware, AuthRequest } from '../middleware/authMiddleware';
 import { z } from 'zod';
 
-const router: RouterType = Router();
+const router = Router();
 const essayService = new EssayService();
 
 // All routes require authentication
@@ -44,8 +44,8 @@ router.post('/', async (req: AuthRequest, res) => {
 // GET /api/essays - List user's essays
 router.get('/', async (req: AuthRequest, res) => {
   try {
-    const limit = Math.min(parseInt(req.query.limit as string) || 20, 100);
-    const offset = parseInt(req.query.offset as string) || 0;
+    const limit = Math.min(parseInt(String(req.query.limit || '20')), 100);
+    const offset = parseInt(String(req.query.offset || '0'));
 
     const result = await essayService.listEssays(req.userId!, limit, offset);
     return res.status(200).json(result);

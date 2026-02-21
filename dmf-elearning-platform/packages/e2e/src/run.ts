@@ -19,11 +19,11 @@ import { validateResponse, validateStandardError, formatValidationErrors } from 
 
 // Service base URLs (from service index.ts files)
 const ONBOARDING_SERVICE = 'http://localhost:3002';
-const CURRICULUM_SERVICE = 'http://localhost:3003';
+const CURRICULUM_SERVICE = 'http://localhost:3013';
 const PRACTICE_SERVICE = 'http://localhost:3001';
 const PROGRESS_SERVICE = 'http://localhost:3004';
 const MOTIVATION_PROGRESS_SERVICE = 'http://localhost:3005';
-const ASSESSMENT_SERVICE = 'http://localhost:3006';
+const ASSESSMENT_SERVICE = 'http://localhost:3014';
 
 interface TestState {
   userId?: string;

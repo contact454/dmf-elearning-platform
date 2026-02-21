@@ -57,13 +57,14 @@ jobs:
 
       - name: Validate Railway auth
         id: railway_auth
-        continue-on-error: true
-        run: railway whoami --json >/tmp/railway-whoami.json
-
-      - name: Warn when Railway auth is unavailable
-        if: ${{ steps.railway_auth.outcome != 'success' }}
         run: |
-          echo "::warning::Railway authentication failed. Deploy/smoke steps are skipped until RAILWAY_API_TOKEN is updated."
+          if ! railway whoami --json >/tmp/railway-whoami.json 2>&1; then
+            echo "railway_available=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Railway authentication failed. Deploy/smoke steps will be skipped until RAILWAY_API_TOKEN is updated."
+          else
+            echo "railway_available=true" >> "$GITHUB_OUTPUT"
+            echo "Railway authentication successful"
+          fi
 
       - name: Build learning-service
         run: pnpm --filter learning-service build
@@ -72,18 +73,26 @@ jobs:
         run: pnpm --filter learning-service test -- src/middlewares/__tests__/requestMonitoring.test.ts src/middlewares/__tests__/requestLogging.test.ts
 
       - name: Deploy learning-service to Railway
-        if: ${{ steps.railway_auth.outcome == 'success' }}
+        if: steps.railway_auth.outputs.railway_available == 'true'
         run: bash scripts/deploy/learning-service-release.sh
 
+      - name: Abort if deploy required but Railway unavailable
+        if: steps.railway_auth.outputs.railway_available != 'true' && github.event_name == 'push'
+        run: |
+          echo "::error::Railway authentication is unavailable. Cannot deploy on push to main."
+          echo "Please update the RAILWAY_API_TOKEN secret."
+          exit 1
+
       - name: Run post-deploy smoke checks
-        if: ${{ steps.railway_auth.outcome == 'success' && (github.event_name == 'push' || inputs.run_smoke == true) }}
+        if: steps.railway_auth.outputs.railway_available == 'true' && (github.event_name == 'push' || inputs.run_smoke == true)
         run: |
           source services/learning-service/.deploy-learning-service-meta.env
           BACKEND_URL="$BACKEND_URL" bash scripts/deploy/learning-service-smoke.sh
 
       - name: Capture deploy metadata
+        if: always()
         run: |
-          if [[ "${{ steps.railway_auth.outcome }}" == "success" ]] && [[ -f services/learning-service/.deploy-learning-service-meta.env ]]; then
+          if [[ "${{ steps.railway_auth.outputs.railway_available }}" == "true" ]] && [[ -f services/learning-service/.deploy-learning-service-meta.env ]]; then
             source services/learning-service/.deploy-learning-service-meta.env
             {
               echo "COMMIT_SHA=${COMMIT_SHA}"
@@ -102,6 +111,7 @@ jobs:
           cat deploy-metadata.txt
 
       - name: Upload deploy metadata
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: learning-service-deploy-metadata

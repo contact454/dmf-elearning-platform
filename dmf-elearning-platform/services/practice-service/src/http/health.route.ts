@@ -4,6 +4,7 @@
  * - GET /healthz - Liveness probe (always returns 200 if service is running)
  * - GET /readyz - Readiness probe (checks database connectivity)
  * - GET /health - Legacy endpoint (same as /readyz)
+ * - GET /health/ready - Readiness probe (standardized)
  */
 
 import type { FastifyInstance } from 'fastify';
@@ -100,6 +101,32 @@ export function registerHealthRoute(app: FastifyInstance, db?: Database) {
       service: 'practice-service',
       version: '0.1.0',
       mode: isE2EMode ? 'e2e' : 'dev',
+      timestamp: new Date().toISOString(),
+    });
+  });
+
+  // Standardized readiness probe - /health/ready
+  app.get('/health/ready', async (_request, reply) => {
+    const checks: Record<string, string> = {};
+    let healthy = true;
+
+    // Database check
+    if (db) {
+      try {
+        await db.query('SELECT 1');
+        checks.database = 'ok';
+      } catch (e) {
+        checks.database = 'failed';
+        healthy = false;
+      }
+    }
+
+    const status = healthy ? 200 : 503;
+    return reply.code(status).send({
+      status: healthy ? 'ready' : 'not_ready',
+      service: 'practice-service',
+      checks,
+      uptime: process.uptime(),
       timestamp: new Date().toISOString(),
     });
   });

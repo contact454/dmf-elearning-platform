@@ -119,7 +119,7 @@ export function ProgressDashboard({ stats }: ProgressDashboardProps) {
                       border: '1px solid #e5e7eb',
                       borderRadius: '8px',
                     }}
-                    formatter={(value: number) => [`${value.toFixed(1)}%`, 'Accuracy']}
+                    formatter={(value: number | undefined) => [`${(value ?? 0).toFixed(1)}%`, 'Accuracy']}
                   />
                   <Bar dataKey="averageAccuracy" fill="#3b82f6" radius={[8, 8, 0, 0]} />
                 </BarChart>
@@ -147,7 +147,7 @@ export function ProgressDashboard({ stats }: ProgressDashboardProps) {
                     cx="50%"
                     cy="50%"
                     outerRadius={100}
-                    label={({ level, attempts }) => `${level}: ${attempts}`}
+                    label={(entry: any) => `${entry.level}: ${entry.attempts}`}
                     labelLine={false}
                   >
                     {stats.accuracyByLevel.map((entry, index) => (

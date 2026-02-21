@@ -13,12 +13,13 @@ datasource db {
 // === Onboarding Service Models ===
 
 model User {
-  id        String   @id @default(uuid())
-  email     String   @unique
+  id        String    @id @default(uuid())
+  email     String    @unique
   password  String
-  role      String   @default("learner")
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  role      String    @default("learner")
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   // Streak tracking (Task 2.1)
   currentStreak    Int       @default(0) @map("current_streak")
@@ -33,14 +34,15 @@ model User {
 }
 
 model Profile {
-  id          String   @id @default(uuid())
-  userId      String   @unique
+  id          String    @id @default(uuid())
+  userId      String    @unique
   displayName String?
   bio         String?
   avatarUrl   String?
   preferences Json?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  deletedAt   DateTime?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -48,11 +50,13 @@ model Profile {
 }
 
 model Session {
-  id        String   @id @default(uuid())
+  id        String    @id @default(uuid())
   userId    String
-  token     String   @unique
+  token     String    @unique
   expiresAt DateTime
-  createdAt DateTime @default(now())
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -62,21 +66,25 @@ model Session {
 // === Motivation Progress Service Models ===
 
 model UserMastery {
-  userId        String   @id
-  overallScore  Int      @default(0)
-  totalLessons  Int      @default(0)
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
+  userId        String    @id
+  overallScore  Int       @default(0)
+  totalLessons  Int       @default(0)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  deletedAt     DateTime?
 
   lessonProgress LessonProgress[]
 }
 
 model LessonProgress {
-  id          String   @id @default(uuid())
+  id          String    @id @default(uuid())
   userId      String
   lessonId    String
   score       Int
-  completedAt DateTime @default(now())
+  completedAt DateTime  @default(now())
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  deletedAt   DateTime?
 
   user        UserMastery @relation(fields: [userId], references: [userId])
 
@@ -86,12 +94,13 @@ model LessonProgress {
 // === Language Learning Models ===
 
 model Language {
-  id        String   @id @default(uuid())
-  code      String   @unique // 'de', 'en', 'vi'
-  name      String   // 'German', 'English', 'Vietnamese'
-  level     String?  // 'A1', 'A2', 'B1', etc.
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id        String    @id @default(uuid())
+  code      String    @unique // 'de', 'en', 'vi'
+  name      String    // 'German', 'English', 'Vietnamese'
+  level     String?   // 'A1', 'A2', 'B1', etc.
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
 
   units     Unit[]
 
@@ -99,17 +108,20 @@ model Language {
 }
 
 model Unit {
-  id                  String   @id @default(uuid())
+  id                  String    @id @default(uuid())
   languageId          String
   unitNumber          Int
   title               String
   description         String?
   grammarTopic        String?
   grammarExplanation  String?
-  grammarExamples     Json?    // Array of {de, en, vi} examples
+  grammarExamples     Json?     // Array of {de, en, vi} examples
   orderIndex          Int
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+  deletedAt           DateTime?
+  createdBy           String?
+  updatedBy           String?
 
   language            Language @relation(fields: [languageId], references: [id], onDelete: Cascade)
   vocabulary          Vocabulary[]
@@ -120,18 +132,19 @@ model Unit {
 }
 
 model Vocabulary {
-  id          String   @id @default(uuid())
+  id          String    @id @default(uuid())
   unitId      String
   word        String
   meaningEn   String
   meaningVi   String
-  gender      String?  // 'masculine', 'feminine', 'neuter', 'none'
-  wordType    String?  // 'noun', 'verb', 'adjective', 'adverb', 'phrase'
-  category    String?  // 'verbs', 'food', 'numbers', etc.
-  examples    Json?    // Array of {de, en, vi} example sentences
+  gender      String?   // 'masculine', 'feminine', 'neuter', 'none'
+  wordType    String?   // 'noun', 'verb', 'adjective', 'adverb', 'phrase'
+  category    String?   // 'verbs', 'food', 'numbers', etc.
+  examples    Json?     // Array of {de, en, vi} example sentences
   orderIndex  Int
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  deletedAt   DateTime?
 
   unit        Unit @relation(fields: [unitId], references: [id], onDelete: Cascade)
 
