@@ -21,6 +21,7 @@ import grammarRoutes from './grammarRoutes';
 import socialRoutes from './socialRoutes';
 import analyticsRoutes from './analyticsRoutes';
 import notificationRoutes from './notificationRoutes';
+import assessmentRoutes from './assessmentRoutes';
 import { routeProtectionMatrix } from './routeProtectionMatrix';
 
 const router = express.Router();
@@ -105,5 +106,8 @@ router.use('/analytics', analyticsRoutes);
 
 // Mount notification routes (Push, nudges, preferences)
 router.use('/notifications', notificationRoutes);
+
+// Mount assessment routes (Prosody analysis, NPC conversations)
+router.use('/assessment', assessmentRoutes);
 
 export default router;
